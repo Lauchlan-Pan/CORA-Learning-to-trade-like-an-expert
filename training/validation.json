@@ -1,0 +1,2950 @@
+{
+  "metadata": {
+    "dataset_name": "CORA Validation Set",
+    "description": "210 questions for validation",
+    "total_questions": 210,
+    "creation_date": "2026-01-11"
+  },
+  "validation_mcqs": [
+    {
+      "id": "val_0",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "You have a portfolio with a 60/40 stock-bond allocation. During a market downturn, your equity positions drop 10% and bonds rise 2%. What should you do to rebalance?",
+      "choices": [
+        "A) Do nothing and let the portfolio recover",
+        "B) Sell bonds and buy stocks to restore the 60/40 ratio",
+        "C) Shift entirely to bonds to avoid further losses",
+        "D) Add to equities aggressively to recover losses"
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_1",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "You are long a stock that has been trending higher but now shows bearish divergence on the RSI while approaching resistance at $100. What should you do?",
+      "choices": [
+        "A) Add to your position, expecting the uptrend to continue.",
+        "B) Hold and monitor, as resistance may break.",
+        "C) Reduce your position or take profits ahead of resistance.",
+        "D) Short the stock, expecting a reversal."
+      ],
+      "correct_choice_index": 2
+    },
+    {
+      "id": "val_2",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A currency pair is in a strong downtrend, trading below its 20-day and 50-day moving averages. It has now retraced to the 50-day moving average. What is the most prudent action?",
+      "choices": [
+        "A) Enter a short position with a stop loss above the 50-day MA",
+        "B) Go long expecting a reversal",
+        "C) Wait for the price to break above the 50-day MA",
+        "D) Avoid trading as it is unclear"
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_3",
+      "instrument": "PSKY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "On 2019-01-17, PSKY's OBV trend shows a divergence from the price action, with OBV failing to confirm the new high of $41.21. If OBV continues to decline while the price retests $41.21, what is the most likely interpretation for this divergence?",
+      "choices": [
+        "A) It indicates strong institutional buying and suggests that the stock will break above $41.51.",
+        "B) It signals distribution by institutional traders, suggesting a potential price reversal below $40.73.",
+        "C) It confirms the bullish momentum and suggests that the stock will maintain its uptrend.",
+        "D) It reflects neutral market behavior, and traders should wait for more volume confirmation before acting."
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_4",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A stock has been trading in a range between $40 and $50 for the past three months. It is currently at $48 near resistance, with RSI at 65. What is the most prudent action?",
+      "choices": [
+        "A) Enter a long position, anticipating a breakout above $50.",
+        "B) Short the stock with a stop loss above $50.",
+        "C) Wait for a confirmed breakout above $50 before entering.",
+        "D) Avoid trading as the stock is in a range."
+      ],
+      "correct_choice_index": 2
+    },
+    {
+      "id": "val_5",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "You enter a long position at $40 with a stop-loss at $38 and a target at $46. Your account size is $10,000, and you risk 1% per trade. How many shares should you buy?",
+      "choices": [
+        "A) 50 shares",
+        "B) 100 shares",
+        "C) 200 shares",
+        "D) 500 shares"
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_6",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "You have $10,000 in trading capital. You want to risk 2% of your capital on a trade with a $1 stop-loss. What is the appropriate position size?",
+      "choices": [
+        "A) 100 shares",
+        "B) 200 shares",
+        "C) 500 shares",
+        "D) 1000 shares"
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_7",
+      "instrument": "TSLA",
+      "timeframe": "1h",
+      "as_of": "2016-07-12T00:00:00Z",
+      "question": "On 2016-07-12, TSLA's Stochastic Oscillator shows STOCH_K at 92.81 and STOCH_D at 89.41, both indicating overbought conditions. Williams %R is at -7.19, further confirming overbought pressures. However, RSI at 53.98 suggests a neutral-to-slightly bullish zone. If STOCH_K begins to decelerate near extreme levels while MACD remains near zero at 0.03, what is the most likely interpretation for a potential trend reversal signal?",
+      "choices": [
+        "A) The overbought indicators suggest a significant upward continuation in the stock price.",
+        "B) The combination of overbought conditions and momentum deceleration suggests a potential reversal, especially if the stock breaks below a key support level.",
+        "C) The RSI in the neutral zone invalidates any overbought signals, suggesting no immediate trend reversal risk.",
+        "D) MACD near zero indicates strong bullish momentum, confirming the continuation of the upward trend."
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_8",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "You are managing a portfolio with a 2% risk-per-trade rule. You want to risk $1,000 on a trade. The stock you want to trade has a stop-loss level $5 below your entry price. How many shares should you buy?",
+      "choices": [
+        "A) 200 shares",
+        "B) 100 shares",
+        "C) 500 shares",
+        "D) 50 shares"
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_9",
+      "instrument": "XOM",
+      "timeframe": "1d",
+      "as_of": "2017-01-04T00:00:00Z",
+      "question": "On 2017-01-04, XOM's 20-day SMA has a downward slope with a rate of change of -0.15, and the price is trading below both the 20-day SMA and the 50-day SMA. If the 50-day SMA slope is also negative but flattening with a rate of change of -0.05, what is the most prudent trading strategy based on MA slope analysis?",
+      "choices": [
+        "A) Initiate a long position, as the 50-day SMA is flattening and indicates price stabilization.",
+        "B) Wait for the 20-day SMA slope to flatten or turn positive before considering a long position.",
+        "C) Enter a short position immediately, as both SMA slopes are negative, confirming bearish momentum.",
+        "D) Ignore the current SMA slopes and focus solely on breakout levels at $61.43 or $60.49."
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_10",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "After a 20% rally, a stock approaches a previous resistance level at $75. Implied volatility spikes to 40%, and the RSI is at 80. How should you proceed?",
+      "choices": [
+        "A) Take profits or reduce position size",
+        "B) Go long, expecting a breakout",
+        "C) Short the stock, targeting a pullback",
+        "D) Avoid trading due to high volatility"
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_11",
+      "instrument": "DEF",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "You are considering initiating a trade on DEF stock, which is in a strong uptrend. You plan to risk 1% of your portfolio per trade. The stock is trading at $120, and your stop-loss is $115. What is the maximum position size you should take?",
+      "choices": [
+        "A) 10 shares, assuming a $10,000 portfolio",
+        "B) 20 shares, assuming a $10,000 portfolio",
+        "C) 25 shares, assuming a $10,000 portfolio",
+        "D) 50 shares, assuming a $10,000 portfolio"
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_12",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A stock breaks above a key resistance level at $100 on double the average daily volume. The RSI is at 72, indicating overbought conditions. What is your best course of action?",
+      "choices": [
+        "A) Buy immediately to ride the breakout",
+        "B) Wait for a retest of the breakout level at $100",
+        "C) Short the stock at the current level due to overbought RSI",
+        "D) Avoid entering the trade as the risk-to-reward is poor"
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_13",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A stock is in a strong uptrend, trading above its 20-day and 50-day moving averages. It pulls back to the 20-day moving average at $150 with RSI at 55. What is the best trading action?",
+      "choices": [
+        "A) Buy the stock with a stop-loss below $145",
+        "B) Wait for the stock to retest the 50-day moving average",
+        "C) Short the stock expecting a deeper pullback",
+        "D) Avoid trading until the trend is clearer"
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_14",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A volatile biotech stock is trading at $40. Your analysis indicates a potential 20% upside but also a 10% downside risk. You are willing to risk $500. How many shares should you buy?",
+      "choices": [
+        "A) 50 shares",
+        "B) 100 shares",
+        "C) 125 shares",
+        "D) 250 shares"
+      ],
+      "correct_choice_index": 2
+    },
+    {
+      "id": "val_15",
+      "instrument": "QCOM",
+      "timeframe": "1h",
+      "as_of": "2013-07-16T00:00:00Z",
+      "question": "As of 2013-07-16, QCOM is exhibiting a Bollinger Squeeze setup with BB_WIDTH at 4.91 (low volatility) and BB_POSITION at 76.66 (price near the upper band). Combined with a surge in Volume_ROC at 78.81 and ATR at 0.72, which of the following strategies best confirms a breakout with multi-indicator validation?",
+      "choices": [
+        "A) Wait for a strong price move above $44.35 with increasing Volume_ROC and RSI crossing above 60 for bullish confirmation.",
+        "B) Enter a short position immediately, as the low BB_WIDTH indicates a breakdown with no other confirmation needed.",
+        "C) Place a trade based solely on RSI crossing below 30, as it indicates bearish momentum.",
+        "D) Ignore current signals and wait for BB_WIDTH to increase to above 10 before considering any trade."
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_16",
+      "instrument": "SPY",
+      "timeframe": "1d",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "During a market correction, a stock holds above its 200-day moving average at $25 while sector peers are breaking down. What would you do?",
+      "choices": [
+        "A) Buy the stock as it shows relative strength",
+        "B) Short the stock, expecting it to follow its peers",
+        "C) Avoid trading until the market stabilizes",
+        "D) Place a buy order at $23 in case of a deeper pullback"
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_17",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "The RSI of a stock is at 30, indicating oversold conditions, and it has reached a key support level at $100. However, the overall market is in a strong downtrend. What is the best course of action?",
+      "choices": [
+        "A) Buy the stock immediately, expecting a bounce.",
+        "B) Wait for confirmation of support holding before entering a long position.",
+        "C) Short the stock, betting on the continuation of the downtrend.",
+        "D) Avoid trading as the market conditions are unfavorable."
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_18",
+      "instrument": "XYZ",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "XYZ stock has been trading in a range between $45 and $50 for the past 2 months. Today, it breaks above $50 on low volume. What is the best course of action?",
+      "choices": [
+        "A) Enter a long position immediately",
+        "B) Wait for confirmation of the breakout with higher volume",
+        "C) Short the stock, assuming the breakout will fail",
+        "D) Avoid trading until the range is re-established"
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_19",
+      "instrument": "PSKY",
+      "timeframe": "1h",
+      "as_of": "2019-01-17T00:00:00Z",
+      "question": "As of 2019-01-17, PSKY's Bollinger Bands are contracting significantly, signaling a BB squeeze setup with BB_WIDTH at 0.015 (low volatility environment). Given the extreme momentum indicators (RSI_14 at 89.24 and Williams %R at -5.70), coupled with recent price strength at $41.21, which is the most appropriate trading decision?",
+      "choices": [
+        "A) Anticipate a bullish breakout above $41.51 and enter a long position with a stop-loss at $40.73.",
+        "B) Expect a bearish breakdown below $40.73 due to extreme overbought conditions and initiate a short position with a stop-loss above $41.51.",
+        "C) Wait for an increase in BB_WIDTH to confirm a breakout direction before entering any position.",
+        "D) Ignore the BB squeeze setup and solely focus on the MACD divergence to predict price direction."
+      ],
+      "correct_choice_index": 2
+    },
+    {
+      "id": "val_20",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "You are analyzing a stock that is in a strong downtrend and trading below its 200-day moving average (200 MA) at $45. The stock forms a bullish engulfing candle around $40 with a spike in volume. What is the best trading decision?",
+      "choices": [
+        "A) Go long anticipating a reversal",
+        "B) Short the stock expecting the downtrend to continue",
+        "C) Wait for confirmation of a trend reversal",
+        "D) Avoid trading due to mixed signals"
+      ],
+      "correct_choice_index": 2
+    },
+    {
+      "id": "val_21",
+      "instrument": "MPWR",
+      "timeframe": "1h",
+      "as_of": "2025-03-11T00:00:00Z",
+      "question": "As of 2025-03-11, MPWR exhibits a strong momentum divergence with STOCH_K at 8.39 significantly oversold relative to STOCH_D at 16.70. Given this divergence, combined with Williams %R at -91.61 and RSI_14 at 29.27 nearing critical levels, which action based on directional indicators is most appropriate?",
+      "choices": [
+        "A) Enter a long position immediately, as the divergence guarantees a reversal.",
+        "B) Wait for STOCH_K to cross above STOCH_D before entering a long position, confirming a potential bullish reversal.",
+        "C) Use the Williams %R alone to time the entry, as it is already in extreme oversold conditions.",
+        "D) Ignore the oversold conditions and enter a short position, expecting the downtrend to continue."
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_22",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "You are managing a $100,000 trading account and considering a trade with a stop-loss at $45 and an entry price of $50. If you want to risk 2% of your account on the trade, how many shares should you buy?",
+      "choices": [
+        "A) 100 shares",
+        "B) 200 shares",
+        "C) 300 shares",
+        "D) 400 shares"
+      ],
+      "correct_choice_index": 3
+    },
+    {
+      "id": "val_23",
+      "instrument": "NFLX",
+      "timeframe": "1h",
+      "as_of": "2019-06-20T00:00:00Z",
+      "question": "On 2019-06-20, NFLX has a Williams %R value of -13.10, which is in the overbought zone. What would be the most appropriate trading strategy based on this indicator, assuming a potential loss of upward momentum and a bearish confirmation below $361.22?",
+      "choices": [
+        "A) Enter a short position immediately, as Williams %R being at -13.10 confirms an overbought condition.",
+        "B) Wait for Williams %R to cross above -20 and combine it with a break below $361.22 to confirm a short position.",
+        "C) Open a long position, as the overbought zone of Williams %R indicates strong upward momentum.",
+        "D) Ignore the Williams %R signal and wait for the RSI to cross above 70 before taking action."
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_24",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A stock has been trading in a range between $40 and $50. The price is now at $49 with stochastic oscillator showing overbought conditions. What is a prudent strategy?",
+      "choices": [
+        "A) Buy as the stock is near the top of the range",
+        "B) Wait for a breakout above $50 to enter",
+        "C) Short the stock with a stop loss above $50",
+        "D) Avoid trading due to conflicting signals"
+      ],
+      "correct_choice_index": 2
+    },
+    {
+      "id": "val_25",
+      "instrument": "COP",
+      "timeframe": "1h",
+      "as_of": "2024-12-11T00:00:00Z",
+      "question": "As of 2024-12-11, COP exhibits MACD at -1.67 with the MACD signal line at -1.45, indicating a divergence between the two. If the MACD line starts to converge upward toward the signal line, what trading decision should a trader consider based on potential MA convergence?",
+      "choices": [
+        "A) Enter a short position as the MACD divergence confirms bearish sentiment.",
+        "B) Enter a long position only if the MACD line crosses above the signal line with price action confirming reversal.",
+        "C) Place a buy order immediately as the MACD and signal line are both negative.",
+        "D) Avoid trading until the MACD line diverges further from the signal line."
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_26",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "You allocate 2% of your capital to each trade and risk 1% per trade. If your capital is $50,000 and your stop-loss is $2 away from the entry price, how many shares can you buy?",
+      "choices": [
+        "A) 250 shares",
+        "B) 500 shares",
+        "C) 1000 shares",
+        "D) 50 shares"
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_27",
+      "instrument": "EMR",
+      "timeframe": "1h",
+      "as_of": "2013-07-03T00:00:00Z",
+      "question": "Given a BB_WIDTH of 7.57 on EMR as of 2013-07-03, indicating a contracted price environment, what is the MOST appropriate trading strategy to prepare for a potential breakout?",
+      "choices": [
+        "A) Enter a trade immediately, as the low BB_WIDTH confirms a price breakout is already underway.",
+        "B) Set conditional buy and sell orders just above $39.67 (resistance) and below $39.25 (support), as the low BB_WIDTH indicates a squeeze and a breakout is imminent.",
+        "C) Ignore the BB_WIDTH signal, as it is irrelevant without confirming momentum and RSI above 50.",
+        "D) Short the stock immediately, as BB_WIDTH under 10 always signals a bearish breakout."
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_28",
+      "instrument": "ABC",
+      "timeframe": "1d",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "ABC stock is in a strong downtrend and currently trading at $30. The 14-day RSI is at 25, and the stock approaches a significant support level at $28. What should you do?",
+      "choices": [
+        "A) Short the stock expecting further downside",
+        "B) Buy the stock at $28 with a stop loss at $26",
+        "C) Avoid trading until a reversal signal appears",
+        "D) Wait for the RSI to drop below 20 before buying"
+      ],
+      "correct_choice_index": 2
+    },
+    {
+      "id": "val_29",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A stock breaks above a major resistance level at $100 on 3x average volume, forming an upside gap. The RSI is at 72, and the stock is in a strong uptrend. What is the best course of action?",
+      "choices": [
+        "A) Buy immediately to capitalize on momentum",
+        "B) Wait for a pullback to the $100 level for a better risk-reward",
+        "C) Short the stock as the RSI indicates overbought conditions",
+        "D) Avoid trading due to high risk"
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_30",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A stock breaks above resistance at $50 on triple its average volume, with the RSI approaching 70. What should you consider doing next?",
+      "choices": [
+        "A) Buy immediately, expecting further momentum",
+        "B) Wait for a pullback to the $50 level to confirm support",
+        "C) Short the stock, expecting a false breakout",
+        "D) Avoid the trade as the RSI is overbought"
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_31",
+      "instrument": "AXP",
+      "timeframe": "1d",
+      "as_of": "2011-10-14T00:00:00Z",
+      "question": "Given the current market conditions for AXP on 2011-10-14, which setup provides the most reliable bearish confirmation based on multi-timeframe convergence and comprehensive signal alignment?",
+      "choices": [
+        "A) A break below $37.11 (recent low) accompanied by a confirmed bearish MACD crossover on both the daily and 4-hour timeframes, while RSI on the daily falls below 40.",
+        "B) A break below $37.11 (recent low) with a daily RSI above 50 and a neutral MACD on the 4-hour timeframe.",
+        "C) A sharp rejection from $38.96 (risk level) with no confirmation from the MACD or RSI on any timeframe.",
+        "D) A minor bounce from $37.11 with the SMA_10 crossing above the SMA_50 on the daily chart, suggesting short-term strength."
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_32",
+      "instrument": "MPWR",
+      "timeframe": "1h",
+      "as_of": "2021-06-02T00:00:00Z",
+      "question": "On 2021-06-02, MPWR is analyzed with a price high of $335.10 and a low of $329.05. The stock exhibits overbought conditions with STOCH_K at 85.26 and Williams %R at -14.74. Volume has been steadily declining over the past three days despite price gains. What trading decision aligns best with this volume and price setup?",
+      "choices": [
+        "A) Enter a long position immediately as the price may continue to rise despite declining volume.",
+        "B) Monitor for a sustained breach above $335.10 with increasing volume before entering a long position.",
+        "C) Initiate a short position if price breaches the $329.05 low with increasing volume to confirm a corrective phase.",
+        "D) Ignore volume signals and rely solely on overbought indicators like RSI to decide trading actions."
+      ],
+      "correct_choice_index": 2
+    },
+    {
+      "id": "val_33",
+      "instrument": "CVX",
+      "timeframe": "1d",
+      "as_of": "2024-08-26T00:00:00Z",
+      "question": "As of 2024-08-26, CVX shows RSI_14 at 73.67, MACD with a negative value of -1.47, and STOCH_K at 86.69 nearing overbought territory. If MACD continues to diverge negatively while RSI remains elevated, what is the most likely momentum divergence signal?",
+      "choices": [
+        "A) A bearish momentum divergence indicating potential downside risk.",
+        "B) A bullish momentum divergence suggesting an imminent breakout.",
+        "C) A neutral signal with no actionable divergence.",
+        "D) A continuation pattern confirming further price increase."
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_34",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A stock has been trading in a tight range for several weeks. The Bollinger Bands are narrowing, and the stock is near the upper band. What is the likely next move?",
+      "choices": [
+        "A) A breakout above the range",
+        "B) A move back to the lower band",
+        "C) Continued sideways trading",
+        "D) A breakdown below the range"
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_35",
+      "instrument": "SPY",
+      "timeframe": "1d",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A stock is trading above its 200-day moving average at $25 during a market correction. While sector peers are breaking down, this stock holds firm. What is the best approach?",
+      "choices": [
+        "A) Short the stock expecting it to follow the sector trend",
+        "B) Wait for a breakout above $30 to confirm strength",
+        "C) Initiate a long position with a stop below $24",
+        "D) Avoid the stock and focus on stronger sectors"
+      ],
+      "correct_choice_index": 2
+    },
+    {
+      "id": "val_36",
+      "instrument": "EMR",
+      "timeframe": "1h",
+      "as_of": "2014-05-15T00:00:00Z",
+      "question": "Given a VOLUME_ROC of 44.57% and a tightening price range near the lower Bollinger Band, if OBV is showing a clear divergence by trending upward while the price struggles to make higher highs, what does this indicate about the potential market activity for EMR as of 2014-05-15?",
+      "choices": [
+        "A) The upward trend in OBV is a bearish signal, indicating that selling pressure is increasing despite the tightening price range.",
+        "B) The upward trend in OBV, coupled with the VOLUME_ROC surge, is a bullish signal, suggesting accumulation and a possible breakout to the upside.",
+        "C) OBV divergence in this context is irrelevant as the RSI_14 in oversold territory already confirms a bearish trend.",
+        "D) The OBV trend suggests indecision in the market, with no clear signal of accumulation or distribution at this point."
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_37",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "You are trading a $100,000 account and want to risk no more than 2% per trade. If your stop loss is $2 below your entry price, how many shares can you purchase?",
+      "choices": [
+        "A) 500 shares",
+        "B) 1,000 shares",
+        "C) 2,000 shares",
+        "D) 100 shares"
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_38",
+      "instrument": "XOM",
+      "timeframe": "1d",
+      "as_of": "2024-12-19T00:00:00Z",
+      "question": "As of 2024-12-19, if the ADX value for XOM is 45 and the +DI is at 20 while the -DI is at 45, what does this indicate about the trend strength and potential trading strategy?",
+      "choices": [
+        "A) The trend is strong and bearish. Traders should consider maintaining short positions with stops below $102.37 to manage risks.",
+        "B) The trend is weak and sideways. Traders should wait for a clearer directional signal before taking positions.",
+        "C) The trend is strong and bullish. Traders should consider entering long positions in anticipation of further upward momentum.",
+        "D) The trend is weak and bearish. Traders should avoid short positions as the trend lacks conviction."
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_39",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A stock gapped down below its 200-day moving average to $80 on high volume. The RSI is at 35. What action should you consider?",
+      "choices": [
+        "A) Buy, as the stock is oversold",
+        "B) Short, as the price has broken key support",
+        "C) Wait for the RSI to drop below 30 before buying",
+        "D) Avoid trading until the stock stabilizes"
+      ],
+      "correct_choice_index": 3
+    },
+    {
+      "id": "val_40",
+      "instrument": "TSLA",
+      "timeframe": "1h",
+      "as_of": "2020-07-06T00:00:00Z",
+      "question": "Given TSLA's market analysis on 2020-07-06, assuming its Average Directional Index (ADX) is at 42.5, the +DI (Positive Directional Indicator) is 35, and the -DI (Negative Directional Indicator) is 8.5, what does this indicate about the current trend strength and direction? How should a trader respond?",
+      "choices": [
+        "A) The ADX value of 42.5 indicates a strong trend, with +DI significantly higher than -DI, confirming a strong bullish trend. Traders should consider holding positions with tight trailing stops to manage risk.",
+        "B) The ADX value of 42.5 indicates a strong trend, but with +DI and -DI values converging, the trend direction is unclear. Traders should avoid entering new positions.",
+        "C) The ADX value of 42.5 indicates a weakening trend, with +DI dominating -DI. This is a signal to exit long positions immediately.",
+        "D) The ADX value of 42.5 indicates a strong trend, but the higher -DI relative to +DI suggests a bearish trend. Traders should consider shorting TSLA."
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_41",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "You are holding a long position in a stock that has rallied 10% in two days and is now at $75. Your target is $80, but the stock shows signs of exhaustion. What should you do?",
+      "choices": [
+        "A) Hold the position until $80 is reached",
+        "B) Take partial profits and move the stop-loss to $73",
+        "C) Sell the entire position to lock in gains",
+        "D) Add to the position expecting further upside"
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_42",
+      "instrument": "SPY",
+      "timeframe": "1d",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "You are long a stock that has risen 15% in a month and is now testing resistance at $60. How should you manage the position?",
+      "choices": [
+        "A) Add to the position expecting a breakout",
+        "B) Tighten your stop-loss or take partial profits",
+        "C) Sell the entire position immediately",
+        "D) Do nothing and let the trade run"
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_43",
+      "instrument": "FITB",
+      "timeframe": "1h",
+      "as_of": "2012-05-18T00:00:00Z",
+      "question": "On 2012-05-18, FITB exhibits a Bollinger Squeeze setup with a BB_WIDTH of 10.50 and a BB_POSITION at 3.56, indicating significant volatility contraction and a lower-band bias. Which trading decision aligns best with this setup, considering the stock's resistance level at $8.76 and support at $8.65?",
+      "choices": [
+        "A) Place a buy order if the price decisively breaks above $8.76, with a stop-loss just below $8.65.",
+        "B) Short the stock immediately, anticipating a move toward the lower Bollinger Band.",
+        "C) Place a sell order if the price decisively breaks below $8.65, with a stop-loss above $8.76.",
+        "D) Avoid trading until the BB_WIDTH expands above 20, indicating a breakout has already occurred."
+      ],
+      "correct_choice_index": 2
+    },
+    {
+      "id": "val_44",
+      "instrument": "WRB",
+      "timeframe": "1h",
+      "as_of": "2025-04-01T00:00:00Z",
+      "question": "As of 2025-04-01, WRB exhibits a BB_POSITION of 98.14 and strong bullish momentum. If the Bollinger Bands width expands to historically high levels of 12.40% (relative to the recent average of 5.20%), what is the most prudent trading decision based on BB width analysis?",
+      "choices": [
+        "A) Hold current long positions, as the widening BB width confirms the continuation of the current trend.",
+        "B) Open short positions immediately, as the expanding BB width signals a guaranteed price reversal.",
+        "C) Close or tighten existing long positions and monitor for potential mean reversion or consolidation.",
+        "D) Ignore BB width entirely and solely follow the RSI, which indicates overbought conditions."
+      ],
+      "correct_choice_index": 2
+    },
+    {
+      "id": "val_45",
+      "instrument": "BA",
+      "timeframe": "1h",
+      "as_of": "2016-12-16T00:00:00Z",
+      "question": "On 2016-12-16, BA is exhibiting elevated bullish momentum with an RSI_14 of 66.74 and a Bollinger Squeeze setup indicating a volatility contraction. Suppose the MACD line crosses above the Signal line at -0.28 while still below the zero line. What does this MACD signal indicate and what would be the most appropriate trading decision?",
+      "choices": [
+        "A) A bearish continuation signal suggesting further downside; initiate a short position below $141.98.",
+        "B) A bullish crossover indicating early signs of upward momentum; consider entering a long position if the price confirms a breakout above $144.63.",
+        "C) A neutral momentum signal with no actionable trade setup; wait for the MACD line to cross above the zero line for confirmation.",
+        "D) An overbought condition given the RSI_14 level; wait for a bearish MACD divergence to confirm a reversal."
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_46",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A stock breaks above a significant resistance level at $100 on a 3x average volume with RSI at 72. What is the most appropriate trading action?",
+      "choices": [
+        "A) Enter a long position immediately",
+        "B) Wait for a pullback to the $100 level for confirmation",
+        "C) Short the stock as RSI is overbought",
+        "D) Avoid trading as the stock is overextended"
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_47",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "The RSI of a stock is at 82, and the price is trading at $120, above its 50-day moving average of $110. What does this indicate?",
+      "choices": [
+        "A) Overbought conditions and potential for a pullback",
+        "B) Strong bullish momentum; a buying opportunity",
+        "C) Neutral trend; no action required",
+        "D) A reversal signal; short the stock"
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_48",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "Which practice improves consistency?",
+      "choices": [
+        "A) Using a predefined risk per trade",
+        "B) Changing risk randomly",
+        "C) Ignoring stop placement",
+        "D) Doubling size after losses"
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_49",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A stock breaks above resistance at $50 on 3x average volume with RSI at 65 and MACD showing a bullish crossover. What is the most prudent trading action?",
+      "choices": [
+        "A) Enter a long position immediately",
+        "B) Wait for a retest of the $50 level as support",
+        "C) Short the stock as it may reverse",
+        "D) Avoid the trade due to overbought conditions"
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_50",
+      "instrument": "SPY",
+      "timeframe": "1d",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "You\u2019re holding a long position in a stock that has rallied 25% in the past month. The RSI is now at 80, and the stock is approaching a key resistance level. What\u2019s the best risk management strategy?",
+      "choices": [
+        "A) Add to your position expecting a breakout",
+        "B) Sell half your position and move your stop-loss higher",
+        "C) Hold the position and ignore RSI as price action is strong",
+        "D) Exit the entire position to lock in profits"
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_51",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A stock breaks above resistance at $50 on 3x average volume with RSI at 65. The next resistance is at $60. What is the best course of action?",
+      "choices": [
+        "A) Enter a long position with a stop-loss at $49",
+        "B) Wait for a retest of $50 before entering",
+        "C) Short the stock at $50 expecting a pullback",
+        "D) Avoid the trade as RSI is overbought"
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_52",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "You are trading a volatile stock with support at $80 and resistance at $100. The stock is currently at $90. What is the best strategy in this scenario?",
+      "choices": [
+        "A) Buy at $90 expecting a breakout",
+        "B) Wait for the price to approach $80 or $100 before trading",
+        "C) Short the stock at $90",
+        "D) Avoid trading this stock due to volatility"
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_53",
+      "instrument": "AVGO",
+      "timeframe": "1d",
+      "as_of": "2011-10-07T00:00:00Z",
+      "question": "Given AVGO's Bollinger Band parameters on 2011-10-07 (BB_WIDTH of 19.73, BB_POSITION of 29.04, and a negative ROC of -5.52%), which breakout strategy should a trader prioritize?",
+      "choices": [
+        "A) Enter a long position immediately, as the BB_WIDTH indicates a potential volatility expansion.",
+        "B) Wait for a confirmed breakout below the lower band, as the BB_POSITION suggests the price is closer to the lower band and a bearish continuation is likely.",
+        "C) Enter a short position above the middle band, as the decreasing VOLUME_ROC indicates weakening bearish momentum.",
+        "D) Avoid trading until BB_WIDTH narrows below 10%, confirming a squeeze and reduced volatility."
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_54",
+      "instrument": "ABBV",
+      "timeframe": "1h",
+      "as_of": "2024-09-05T00:00:00Z",
+      "question": "Given the VOLUME_ROC spike of 38.88% on ABBV as of 2024-09-05, which of the following statements best describes how traders should utilize this information to confirm a potential breakout above $190.32 (resistance) or below $185.52 (support)?",
+      "choices": [
+        "A) A VOLUME_ROC spike of 38.88% confirms that the price is guaranteed to break above $190.32, and traders should enter long positions immediately.",
+        "B) A VOLUME_ROC spike of 38.88% suggests that traders should wait for a breakout above $190.32 or below $185.52, confirmed by a sustained volume surge before entering a trade.",
+        "C) A VOLUME_ROC spike of 38.88% indicates that the price will likely remain within the Bollinger Bands, so traders should avoid any breakout trades.",
+        "D) A VOLUME_ROC spike of 38.88% invalidates the breakout setup, and traders should focus on mean-reversion strategies instead."
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_55",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "You are long a stock that has rallied 20% in the past two weeks, and its RSI is now at 80. What is the best risk management approach?",
+      "choices": [
+        "A) Hold the position as momentum is strong.",
+        "B) Tighten your stop loss to lock in profits.",
+        "C) Add more to the position to capitalize on the momentum.",
+        "D) Close the position immediately to avoid a potential reversal."
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_56",
+      "instrument": "SPY",
+      "timeframe": "1d",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "The MACD line has crossed below the signal line on the daily chart of a stock in a downtrend. What is the best course of action?",
+      "choices": [
+        "A) Go long, as the stock is oversold",
+        "B) Short the stock, confirming the downtrend",
+        "C) Wait for a bullish divergence before taking action",
+        "D) Avoid trading due to conflicting signals"
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_57",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "You\u2019re considering a long position in a stock trading at $80, with an initial stop at $76 and a target at $92. If your risk tolerance per trade is $400, how many shares should you buy?",
+      "choices": [
+        "A) 50 shares",
+        "B) 100 shares",
+        "C) 200 shares",
+        "D) 300 shares"
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_58",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A stock is trading in a range between $50 (support) and $60 (resistance). It approaches $60 with RSI at 80 and low trading volume. What trade should you consider?",
+      "choices": [
+        "A) Buy the stock, expecting a breakout above $60",
+        "B) Short the stock near $60 with a stop-loss above $62",
+        "C) Avoid trading due to unclear signals",
+        "D) Wait for confirmation of a breakout before trading"
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_59",
+      "instrument": "XYZ",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "XYZ stock rallies 15% in two weeks and approaches its 52-week high at $100, but the RSI is now at 75. What should you consider?",
+      "choices": [
+        "A) Take a long position as the momentum is strong",
+        "B) Wait for a pullback or consolidation before entering",
+        "C) Short the stock as it is overbought",
+        "D) Place a trailing stop on your existing long position"
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_60",
+      "instrument": "CRL",
+      "timeframe": "1h",
+      "as_of": "2023-09-15T00:00:00Z",
+      "question": "On 2023-09-15, CRL's price is $207.88, nearing the upper Bollinger Band at $210.70, with a VWAP of $208.50. Volume has surged by 25% compared to the 10-day average. As a trader using VWAP strategies, what would be the most practical decision based on these conditions?",
+      "choices": [
+        "A) Enter a long position immediately, as the price is nearing the upper Bollinger Band signal for momentum.",
+        "B) Wait for the price to break and sustain above the VWAP at $208.50 with higher volume before entering a long position.",
+        "C) Enter a short position because the price is nearing resistance at $210.70, and the volume surge suggests overbought conditions.",
+        "D) Avoid any trade until the price retraces back to $205.72, which is closer to the lower Bollinger Band."
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_61",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A stock has rallied 15% over the past week and is now approaching a resistance level at $75 with the RSI at 80. Implied volatility has also spiked. What is the best course of action?",
+      "choices": [
+        "A) Buy expecting the rally to continue",
+        "B) Short the stock expecting a pullback",
+        "C) Sell out-of-the-money call options to capitalize on high implied volatility",
+        "D) Wait for a confirmed breakout above $75 before taking action"
+      ],
+      "correct_choice_index": 2
+    },
+    {
+      "id": "val_62",
+      "instrument": "XYZ",
+      "timeframe": "1d",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "XYZ stock is trading at $100, with a 200-day moving average at $95. RSI is at 80, indicating overbought conditions. How should you approach this trade?",
+      "choices": [
+        "A) Short the stock immediately due to overbought RSI.",
+        "B) Buy the stock, expecting continued momentum.",
+        "C) Wait for a pullback towards the 200-day moving average before considering a position.",
+        "D) Avoid the trade, as the risk/reward is unfavorable."
+      ],
+      "correct_choice_index": 2
+    },
+    {
+      "id": "val_63",
+      "instrument": "MPWR",
+      "timeframe": "1h",
+      "as_of": "2025-03-11T00:00:00Z",
+      "question": "On 2025-03-11, MPWR shows STOCH_K at 8.39 and STOCH_D at 16.70, both indicating oversold conditions. If STOCH_K crosses above STOCH_D in this scenario, what is the most likely technical signal for traders?",
+      "choices": [
+        "A) Confirmation of continued bearish momentum, signaling a sell below $550.",
+        "B) A potential bullish reversal, suggesting an entry near $555-$560 with a stop-loss below $550.",
+        "C) No significant signal, as the market remains neutral despite oversold conditions.",
+        "D) An indication to avoid any trading decisions due to conflicting momentum signals."
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_64",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "You are considering a trade in a stock that has rallied 15% in the past month and is now approaching a key resistance level at $75. Implied volatility has spiked, and the RSI is at 68. What is your best approach?",
+      "choices": [
+        "A) Enter a long position now to catch the breakout",
+        "B) Set a stop-sell order below $70 to short the stock",
+        "C) Wait for the stock to either break above $75 or reject the resistance level",
+        "D) Avoid trading due to increased volatility and overbought conditions"
+      ],
+      "correct_choice_index": 2
+    },
+    {
+      "id": "val_65",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A stock is trading in a range between $40 (support) and $50 (resistance). Price is near $40 with Stochastic Oscillator showing oversold conditions. What is the best action?",
+      "choices": [
+        "A) Buy near $40 with a stop loss below support",
+        "B) Short near $40 expecting a breakdown",
+        "C) Wait for a breakout above $50 before entering",
+        "D) Avoid trading in a range-bound market"
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_66",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A stock forms a symmetrical triangle pattern with narrowing price action. What should you anticipate?",
+      "choices": [
+        "A) A breakout in the direction of the prevailing trend",
+        "B) A breakdown contrary to the prevailing trend",
+        "C) A continued range-bound movement",
+        "D) A reversal of the trend"
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_67",
+      "instrument": "REGN",
+      "timeframe": "1d",
+      "as_of": "2024-12-03T00:00:00Z",
+      "question": "As of 2024-12-03, REGN shows an RSI_14 of 24.86, confirming extreme oversold conditions. Considering RSI's role in identifying potential reversals, what would be the most appropriate strategy for a trader in this scenario?",
+      "choices": [
+        "A) Wait for RSI to cross above 30 before considering a long position, as this indicates the end of oversold conditions.",
+        "B) Enter a long position immediately, as RSI below 25 guarantees a reversal.",
+        "C) Short the stock further, as RSI below 25 confirms strong bearish momentum.",
+        "D) Ignore RSI and rely solely on MACD for trading decisions."
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_68",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A stock breaks its 200-day moving average at $30 and closes at $28, with RSI at 35. Volume during the breakdown was 3x the average. What action should you take?",
+      "choices": [
+        "A) Buy at $28 expecting a rebound",
+        "B) Short the stock with a stop at $31",
+        "C) Wait for RSI to drop below 30 before shorting",
+        "D) Avoid trading as the move may be overextended"
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_69",
+      "instrument": "UNH",
+      "timeframe": "1h",
+      "as_of": "2025-04-16T00:00:00Z",
+      "question": "Given UNH's price nearing its intraday high of $590.62 on 2025-04-16, accompanied by an above-average volume surge, what is the most appropriate trading decision based on volume and price analysis?",
+      "choices": [
+        "A) Enter a long position immediately at $590.62, as high price and volume confirm strong bullish momentum.",
+        "B) Wait for a breakout above $590.62 with continued volume increase before entering a long position.",
+        "C) Enter a short position at $590.62, as the high price indicates overextension.",
+        "D) Avoid trading and wait for a volume decline below the average volume before considering any positions."
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_70",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "You are considering entering a position in a volatile stock. Its average true range (ATR) has increased to $5, and it is trading near a resistance level of $120. What is your best approach?",
+      "choices": [
+        "A) Use a smaller position size to adjust for higher volatility",
+        "B) Enter a full-size position as usual",
+        "C) Avoid trading due to high volatility",
+        "D) Short the stock anticipating a breakout failure"
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_71",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A stock forms a head-and-shoulders pattern with the neckline at $50. It breaks below the neckline on increased volume. What is the best next step?",
+      "choices": [
+        "A) Enter a short position with a target near $45",
+        "B) Go long expecting a reversal",
+        "C) Wait for a retest of the neckline before shorting",
+        "D) Avoid trading due to uncertainty"
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_72",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "You want to risk 1% of your trading capital on a stock trade. Your account balance is $50,000, and the stock is trading at $100. You plan to place a stop-loss at $90. How many shares should you buy?",
+      "choices": [
+        "A) 50 shares",
+        "B) 100 shares",
+        "C) 25 shares",
+        "D) 75 shares"
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_73",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "You are long a stock at $40, and it has reached $50, which is a major resistance level. The volume has decreased over the last three trading days, and the RSI is at 75. What should you do?",
+      "choices": [
+        "A) Hold the position and move the stop loss to $48",
+        "B) Take partial profits at $50 and hold the rest",
+        "C) Add more to the position expecting a breakout",
+        "D) Exit the trade at $50"
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_74",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "You notice a double-bottom pattern forming on a stock with lows at $50 and resistance at $60. The price is currently $58 with increasing volume. What should you do?",
+      "choices": [
+        "A) Buy now in anticipation of a breakout",
+        "B) Wait for a breakout above $60 before buying",
+        "C) Short at $58 expecting resistance to hold",
+        "D) Avoid trading as the pattern isn't confirmed"
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_75",
+      "instrument": "CVX",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "On 2015-08-28, CVX exhibited a VOLUME_ROC of 206.31 and trades below the VWAP of $59.33, indicating heightened volatility and downside pressure. With the Bollinger Band Position (BB_POSITION) at 47.19 and RSI_14 at 42.13, what is the most appropriate trading strategy to capitalize on volatility expansion?",
+      "choices": [
+        "A) Enter a long position at $59.33 with a stop-loss at $50.62, anticipating a reversal due to increased volume.",
+        "B) Enter a short position below $50.62 with a stop-loss at $53.00, anticipating further price decline due to volatility expansion.",
+        "C) Avoid any trading activity, as a VOLUME_ROC of 206.31 suggests uncertainty and caution.",
+        "D) Enter a long position above $53.00 with a stop-loss at $50.62, assuming volume expansion marks the bottom."
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_76",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A stock's volume is surging to 5x its average while breaking below key support at $75. What should you do?",
+      "choices": [
+        "A) Enter a long position expecting a rebound",
+        "B) Short the stock as the high volume confirms the breakdown",
+        "C) Wait for a retest of $75 before shorting",
+        "D) Avoid trading during high-volume breakdowns"
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_77",
+      "instrument": "GOOGL",
+      "timeframe": "1h",
+      "as_of": "2010-11-15T00:00:00Z",
+      "question": "On 2010-11-15, GOOGL exhibits a Bollinger Squeeze setup with price currently trading at $14.90, below the SMA_50 at $15.00 but above the SMA_200 at $14.80. If the price breaks above the SMA_50 and sustains above it, which of the following is the most appropriate action based on moving average support/resistance principles?",
+      "choices": [
+        "A) Initiate a long position with a stop-loss below the SMA_50 at $15.00 and a target near $15.30 (previous resistance level).",
+        "B) Wait for the price to retrace back to the SMA_200 at $14.80, then initiate a long position.",
+        "C) Avoid entering until the price breaches the SMA_200 and sustains below it, signaling bearish momentum.",
+        "D) Initiate a short position immediately upon the price reaching the SMA_50 at $15.00, expecting it to act as resistance."
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_78",
+      "instrument": "PSKY",
+      "timeframe": "1d",
+      "as_of": "2023-09-20T00:00:00Z",
+      "question": "As of 2023-09-20, PSKY's OBV has remained flat over the last 3 trading sessions despite a price decline, while the stock shows oversold conditions with RSI_14 at 30.22 and Williams %R at -81.94. What does the flat OBV most likely indicate about the volume behavior and the potential price action?",
+      "choices": [
+        "A) Institutional accumulation is occurring, and a price reversal is likely.",
+        "B) Retail investors are driving the volume, suggesting further price weakness.",
+        "C) Volume is confirming the downtrend, and prices are likely to decline further.",
+        "D) OBV divergence indicates a false breakout, signaling increased downside risk."
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_79",
+      "instrument": "SPY",
+      "timeframe": "1d",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A stock price rallies from $100 to $120 in 10 days, and the RSI reaches 85. What is the most appropriate action?",
+      "choices": [
+        "A) Go long expecting continued momentum",
+        "B) Short the stock expecting a reversal",
+        "C) Wait for a consolidation or pullback before taking action",
+        "D) Ignore RSI as it is not reliable"
+      ],
+      "correct_choice_index": 2
+    },
+    {
+      "id": "val_80",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A stock breaks below its 50-day moving average at $60 on high volume. The RSI is at 30. What is the most appropriate action?",
+      "choices": [
+        "A) Buy immediately, because RSI is low and the stock must rebound soon.",
+        "B) Short right now, ignoring the risk of a short-term bounce.",
+        "C) Wait for a bounce back to $60, then short if it fails to break above it.",
+        "D) Avoid trading, since oversold RSI means the trend no longer matters."
+      ],
+      "correct_choice_index": 2
+    },
+    {
+      "id": "val_81",
+      "instrument": "XYZ",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "The stock of XYZ is trading at $30, and the 50-day moving average is at $28, while the 200-day moving average is at $25. The stock is in a strong uptrend. What is a prudent trade setup?",
+      "choices": [
+        "A) Buy immediately at $30",
+        "B) Wait for a pullback to the 50-day moving average",
+        "C) Short at $30 expecting a mean reversion",
+        "D) Avoid the trade as the stock is overextended"
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_82",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "You are risking 2% of your $50,000 account on a trade. Your stop loss is $5 away from your entry price. How many shares should you buy?",
+      "choices": [
+        "A) 100 shares",
+        "B) 200 shares",
+        "C) 300 shares",
+        "D) 500 shares"
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_83",
+      "instrument": "BA",
+      "timeframe": "1h",
+      "as_of": "2024-01-29T00:00:00Z",
+      "question": "On 2024-01-29, BA is trading at $205.19, near the lower Bollinger Band, with a BB_POSITION at 25.93 and weakening momentum confirmed by a ROC of -5.75. The support level is identified at $203.85. If the Moving Average Convergence/Divergence (MACD) shows a bearish crossover (MACD line crossing below the Signal line), which trading decision is most appropriate?",
+      "choices": [
+        "A) Initiate a short position with a stop loss above $207.00 and target $198.00.",
+        "B) Go long immediately, expecting a reversal to the middle Bollinger Band around $215.00.",
+        "C) Hold the position while monitoring the MACD for a reversal to the upside.",
+        "D) Increase position size significantly, expecting a breakout above $220.00."
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_84",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A stock breaks above its resistance level at $50 on 3x average volume, with RSI at 70 and MACD showing a bullish crossover. What is the best course of action?",
+      "choices": [
+        "A) Enter a long position immediately",
+        "B) Wait for a pullback to $50 for confirmation",
+        "C) Short the stock expecting a false breakout",
+        "D) Avoid trading and monitor further"
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_85",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "After a sharp decline, a stock forms a double bottom pattern at $40 and $42 with neckline resistance at $45. What is the most logical strategy?",
+      "choices": [
+        "A) Enter long after the breakout above $45",
+        "B) Short the stock at $45 expecting resistance to hold",
+        "C) Enter long at $42 with a stop loss at $39",
+        "D) Avoid the trade due to the recent decline"
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_86",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "You plan to enter a trade on a breakout above $80 with a stop-loss at $78. The stock is currently trading at $77, and volume is below average. What should you do?",
+      "choices": [
+        "A) Place a buy order at $80",
+        "B) Wait for volume to increase before placing a trade",
+        "C) Short the stock expecting a failed breakout",
+        "D) Avoid the trade entirely"
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_87",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "Your account is $10,000 and you risk 1% per trade. What is the dollar risk per trade?",
+      "choices": [
+        "A) $100",
+        "B) $1,000",
+        "C) $10",
+        "D) $5,000"
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_88",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "After a 20% rally, implied volatility spikes to 40% while the stock approaches previous resistance at $150. What should you do?",
+      "choices": [
+        "A) Go long, expecting the rally to continue",
+        "B) Short the stock, as the spike in implied volatility suggests caution",
+        "C) Hedge your existing long position with options",
+        "D) Take no action and wait for confirmation"
+      ],
+      "correct_choice_index": 2
+    },
+    {
+      "id": "val_89",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "You risk 2% of your trading capital per trade. Your stop-loss is set at $2 below your entry price. How many shares can you buy if your capital is $50,000?",
+      "choices": [
+        "A) 250 shares",
+        "B) 500 shares",
+        "C) 1,000 shares",
+        "D) 2,000 shares"
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_90",
+      "instrument": "EMR",
+      "timeframe": "1h",
+      "as_of": "2025-02-12T00:00:00Z",
+      "question": "On 2025-02-12, EMR exhibits an ADX of 31.94 with MINUS_DI at 32.95 and PLUS_DI at 9.71, confirming a strong bearish trend. If EMR's volatility breakout strategy involves entering a short position when the price breaks below $120.50 with an ATR of 2.5%, what is the most appropriate stop-loss level to manage risk effectively?",
+      "choices": [
+        "A) $121.50 \u2014 only 0.8% above breakout; too tight and likely to trigger prematurely.",
+        "B) $123.01 \u2014 about 2% above breakout; allows normal volatility without excessive risk.",
+        "C) $124.05 \u2014 near session high; overly wide stop that risks unnecessary loss.",
+        "D) $122.00 \u2014 just 1.25% above breakout; still tighter than recommended for 2.5% ATR."
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_91",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A stock opens with a gap up at $60, above a key resistance level of $58, on 4x average volume. The RSI is at 70, indicating overbought conditions. What is the best course of action?",
+      "choices": [
+        "A) Buy immediately to ride the momentum",
+        "B) Short the stock as it is overbought",
+        "C) Wait for a pullback to the $58 level for confirmation",
+        "D) Avoid the trade due to high RSI and extended gap"
+      ],
+      "correct_choice_index": 2
+    },
+    {
+      "id": "val_92",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A stock is in a downtrend, trading below its 50-day moving average at $45. The RSI is at 40, and volume spikes as the stock drops to $40. What does this indicate?",
+      "choices": [
+        "A) A potential capitulation bottom",
+        "B) A continuation of the downtrend",
+        "C) A reversal to the upside",
+        "D) A noise event with no actionable signal"
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_93",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "The RSI of a stock is at 75 after a strong 15% rally over the past two weeks. The stock is now approaching a major resistance level at $100. What is the best course of action?",
+      "choices": [
+        "A) Go long, expecting a breakout above $100",
+        "B) Take profits or reduce position size if holding long",
+        "C) Short the stock, as RSI is overbought",
+        "D) Hold the position and wait for further confirmation"
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_94",
+      "instrument": "JBHT",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "On 2023-01-18, JBHT exhibits a VOLUME_ROC of 272.56% and an OBV of 16,602,600, indicating significant institutional accumulation. The stock is trading above its VWAP of $81.30 with strong momentum. If the price starts declining below VWAP while volume continues to surge, what would this likely indicate?",
+      "choices": [
+        "A) A confirmation of sustained upward momentum as institutional buying is evident.",
+        "B) A potential bearish volume-price divergence signaling that increased selling pressure may be driving the volume.",
+        "C) A neutral market condition with no clear directional bias indicated by volume and price.",
+        "D) A bullish breakout above the upper Bollinger Band due to continued accumulation."
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_95",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A stock gaps down 10% at the open on bad news, but buyers step in, and it closes near the day\u2019s high on double the average volume. What does this indicate?",
+      "choices": [
+        "A) A potential reversal to the upside",
+        "B) Continuation of the downtrend",
+        "C) Indecision in the market",
+        "D) Avoid trading as the news creates uncertainty"
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_96",
+      "instrument": "FANG",
+      "timeframe": "1h",
+      "as_of": "2021-03-31T00:00:00Z",
+      "question": "Considering FANG's market analysis on 2021-03-31, with a Volatility Index of 58.85, ATR of 3.24, BB_WIDTH of 22.49, BB_POSITION of 21.32, and a negative ROC of -9.73, which trend-following strategy is most appropriate?",
+      "choices": [
+        "A) Enter a long position as the price is likely to mean-revert from the lower Bollinger Band.",
+        "B) Enter a short position as the price is trading near the lower Bollinger Band with bearish confirmation from ROC and BB_POSITION.",
+        "C) Hold the current position as the market shows no clear trend confirmation.",
+        "D) Enter a long position and place a stop-loss below $61.64 to capture potential volatility spikes."
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_97",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "After a 20% rally, a stock approaches its previous resistance level at $75, and implied volatility spikes to 40%. What is the best trading strategy?",
+      "choices": [
+        "A) Enter a long position expecting a breakout",
+        "B) Sell options to take advantage of high implied volatility",
+        "C) Take profits on any existing positions",
+        "D) Short the stock anticipating a reversal"
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_98",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A stock is trading at $60 and approaches its 200-day moving average at $58 during a market correction. The sector is weak, but the stock has held above the moving average so far. What is the most prudent action to take?",
+      "choices": [
+        "A) Buy the stock at $60, assuming it will rebound",
+        "B) Wait for the stock to break below the 200-day moving average",
+        "C) Place a buy order near $58 with a tight stop loss",
+        "D) Short the stock aggressively"
+      ],
+      "correct_choice_index": 2
+    },
+    {
+      "id": "val_99",
+      "instrument": "SPY",
+      "timeframe": "1d",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "You are trading a stock in a strong downtrend. The stock is trading at $30, below its 50-day and 200-day moving averages. It forms a bullish engulfing pattern on the daily chart. What should you do?",
+      "choices": [
+        "A) Enter a long position as the reversal pattern indicates a trend change",
+        "B) Short the stock as the overall trend is bearish",
+        "C) Wait for confirmation of a trend reversal above $35",
+        "D) Avoid trading the stock until it breaks above the 200-day MA"
+      ],
+      "correct_choice_index": 2
+    },
+    {
+      "id": "val_100",
+      "instrument": "SPY",
+      "timeframe": "1d",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A stock holds above its 200-day moving average during a market correction while sector peers break down. What does this suggest?",
+      "choices": [
+        "A) Relative strength and potential leadership",
+        "B) The stock will eventually follow its peers lower",
+        "C) A false breakout is likely",
+        "D) Weakness as the stock failed to rally higher"
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_101",
+      "instrument": "SPY",
+      "timeframe": "1d",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "During a market correction, a stock holds above its 200-day moving average at $25, while its sector peers are breaking down. What does this suggest?",
+      "choices": [
+        "A) The stock is relatively strong and could be a buying opportunity",
+        "B) The stock is likely to break down soon",
+        "C) It's a false signal and should be ignored",
+        "D) The stock is overvalued compared to its peers"
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_102",
+      "instrument": "JPM",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "Given that JPM has an ATR of 0.76 and the current price is $50.80, a trader decides to risk 2% of their $50,000 account per trade by setting a stop loss below the $50.20 support level. What is the appropriate position size for the trade based on the ATR risk sizing method?",
+      "choices": [
+        "A) 500 shares",
+        "B) 263 shares",
+        "C) 132 shares",
+        "D) 87 shares"
+      ],
+      "correct_choice_index": 2
+    },
+    {
+      "id": "val_103",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A stock is in a downtrend and breaks below a key support level at $30. Volume on the breakdown is 4x the average, and the RSI is at 25. What is the best action to take?",
+      "choices": [
+        "A) Go short as the breakdown confirms further downside",
+        "B) Buy expecting a rebound from oversold conditions",
+        "C) Avoid trading due to the high volume",
+        "D) Wait for a retest of $30 before taking action"
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_104",
+      "instrument": "AAPL",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "Given that AAPL's STOCH_K is 94.49 and STOCH_D is 85.80, both signaling overbought conditions, which of the following would be the most prudent trading decision based on stochastic momentum analysis?",
+      "choices": [
+        "A) Enter a long position as the upward momentum is strong and confirmed by overbought conditions.",
+        "B) Place a tight stop-loss below $168.28 and monitor for a bearish crossover in STOCH_K and STOCH_D as a signal to exit or consider a short position.",
+        "C) Ignore STOCH_K and STOCH_D and rely completely on the RSI_14 and MACD for trading signals.",
+        "D) Wait for STOCH_K to drop below 20 before taking any trading action as this indicates oversold conditions."
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_105",
+      "instrument": "FOXA",
+      "timeframe": "1h",
+      "as_of": "2019-06-21T00:00:00Z",
+      "question": "On 2019-06-21, FOXA exhibited a Bollinger Squeeze setup with BB_WIDTH at 10.44, indicating significant contraction. VOLUME_ROC was at 169.76, suggesting a surge in volume. If the price breaks above the $34.33 high, which of the following signals would most confirm institutional participation in the breakout?",
+      "choices": [
+        "A) Sustained high Volume Oscillator readings and block trade prints above $34.33.",
+        "B) Declining volume after the breakout, with price consolidating near $34.50.",
+        "C) A bearish divergence on RSI_14, followed by a breakdown below $32.50.",
+        "D) A sharp increase in volatility with ATR rising above 1.50 but no significant volume increase."
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_106",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "You are managing a portfolio with a maximum risk tolerance of 2% per trade. You want to buy a stock at $100 with a stop-loss at $95. How many shares can you buy if your portfolio is worth $50,000?",
+      "choices": [
+        "A) 200 shares",
+        "B) 100 shares",
+        "C) 50 shares",
+        "D) 500 shares"
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_107",
+      "instrument": "XYZ",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "XYZ stock is trading at $50, below both its 50-day and 200-day moving averages, during a declining market. What is the best course of action?",
+      "choices": [
+        "A) Go long as the stock is oversold",
+        "B) Short the stock with a stop loss above $52",
+        "C) Wait for a reversal signal above $50",
+        "D) Avoid trading this stock in a declining market"
+      ],
+      "correct_choice_index": 3
+    },
+    {
+      "id": "val_108",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A volatile stock has been trading between $30 and $40 for several weeks. It breaks below $30 with increasing volume. What is the most prudent action?",
+      "choices": [
+        "A) Enter a short position with a stop-loss at $31",
+        "B) Buy the stock, expecting a quick rebound",
+        "C) Wait for the stock to reclaim $30 before taking a position",
+        "D) Avoid trading as the stock is too volatile"
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_109",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A stock is forming a head and shoulders pattern with the neckline at $75. The stock is currently trading at $80. What is the most prudent action?",
+      "choices": [
+        "A) Go long expecting a breakout",
+        "B) Place a sell-stop order below $75 to confirm the pattern",
+        "C) Short the stock immediately at $80",
+        "D) Avoid trading until the pattern is confirmed"
+      ],
+      "correct_choice_index": 3
+    },
+    {
+      "id": "val_110",
+      "instrument": "NFLX",
+      "timeframe": "1h",
+      "as_of": "2025-03-25T00:00:00Z",
+      "question": "On 2025-03-25, NFLX has a STOCH_K of 99.02 and STOCH_D of 85.75, indicating a significant divergence. Considering the elevated STOCH_K value above STOCH_D, which trading decision would be most appropriate in anticipation of a potential stochastic crossover?",
+      "choices": [
+        "A) Enter a long position immediately, as the upward momentum is strong with STOCH_K above 99.",
+        "B) Wait for a bearish crossover where STOCH_K crosses below STOCH_D before considering a short position.",
+        "C) Place a buy stop order above the resistance at $998.70, expecting the trend to continue.",
+        "D) Ignore the stochastic signals and rely on the RSI_14 since it shows neutral momentum at 50.86."
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_111",
+      "instrument": "CVX",
+      "timeframe": "1h",
+      "as_of": "2016-03-10T00:00:00Z",
+      "question": "Given the market scenario for CVX on 2016-03-10, Williams %R is at -5.96, indicating extreme overbought conditions. What would be the most appropriate trading strategy based on the Williams %R indicator?",
+      "choices": [
+        "A) Initiate a long position immediately, as overbought conditions suggest strong bullish momentum.",
+        "B) Wait for Williams %R to drop below -20 to confirm a reversal signal before considering a short position.",
+        "C) Tighten stop-loss levels or take partial profits, as the extreme overbought Williams %R suggests a high probability of a near-term pullback.",
+        "D) Ignore the Williams %R signal and rely solely on the STOCH_K and STOCH_D divergence for trading decisions."
+      ],
+      "correct_choice_index": 2
+    },
+    {
+      "id": "val_112",
+      "instrument": "SPY",
+      "timeframe": "1d",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A trader notices a bullish engulfing candlestick pattern forming on the daily chart after a prolonged downtrend. What should the trader do next?",
+      "choices": [
+        "A) Go long immediately",
+        "B) Wait for confirmation on the next day's candle",
+        "C) Short the stock expecting another downtrend",
+        "D) Ignore the pattern as unreliable"
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_113",
+      "instrument": "PFG",
+      "timeframe": "1h",
+      "as_of": "2021-02-26T00:00:00Z",
+      "question": "Given the market analysis for PFG on 2021-02-26, which of the following provides the strongest confirmation of a bullish trend and momentum setup for entering a long position above the $49.54 resistance level?",
+      "choices": [
+        "A) VOLUME_ROC at 109.30 combined with OBV at 198,456,300.00 indicating strong institutional accumulation.",
+        "B) VWAP at $28.16 suggesting proximity to price equilibrium, with ROC at 5.69% validating short-term trend strength.",
+        "C) RSI_14 at 64.28 combined with BB_Position at 71.66, showing bullish continuation with controlled volatility.",
+        "D) A combination of VOLUME_ROC at 109.30, OBV at 198,456,300.00, and ROC at 5.69% confirming institutional activity and short-term bullish trend strength."
+      ],
+      "correct_choice_index": 3
+    },
+    {
+      "id": "val_114",
+      "instrument": "ABC",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "You are considering a trade on ABC stock, which is consolidating in a range between $40 (support) and $50 (resistance). What is the best risk-reward entry point?",
+      "choices": [
+        "A) Buy at $50 expecting a breakout",
+        "B) Short at $40 expecting a breakdown",
+        "C) Buy near $40 with a stop-loss below $38",
+        "D) Ignore as the stock is range-bound"
+      ],
+      "correct_choice_index": 2
+    },
+    {
+      "id": "val_115",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A stock has been in a strong uptrend, forming higher highs and higher lows. Recently, it formed a head and shoulders pattern with the neckline at $120. The stock breaks below the neckline on high volume. What is the most appropriate trading action?",
+      "choices": [
+        "A) Enter a long position expecting a bounce",
+        "B) Short the stock with a stop-loss above $120",
+        "C) Wait for confirmation of the breakdown before entering a trade",
+        "D) Ignore the pattern and focus on other stocks"
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_116",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "You have $10,000 in capital and want to enter a trade on a stock trading at $50. You set a stop-loss at $45 and aim for a target price of $60. What is the maximum position size you should take to risk only 2% of your capital?",
+      "choices": [
+        "A) 40 shares",
+        "B) 100 shares",
+        "C) 200 shares",
+        "D) 400 shares"
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_117",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A stock breaks below support at $35 on 4x average volume, with RSI at 30. The stock has been in a long-term downtrend. What should you do?",
+      "choices": [
+        "A) Enter a long position as RSI indicates oversold conditions.",
+        "B) Short the stock as the breakdown confirms the trend.",
+        "C) Wait for a retest of $35 before making a decision.",
+        "D) Avoid trading as the stock is oversold."
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_118",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "You have $10,000 to trade and plan to risk 2% per trade. If your stop-loss is $2 below your entry price on a stock, how many shares should you buy?",
+      "choices": [
+        "A) 50 shares",
+        "B) 100 shares",
+        "C) 150 shares",
+        "D) 200 shares"
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_119",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "You are monitoring a stock that is in a strong uptrend, trading above its 50-day moving average (50-MA) at $30. The price is currently $35, but it has formed a bearish divergence with the RSI at 65. What should you do?",
+      "choices": [
+        "A) Enter a long position as the stock is in an uptrend",
+        "B) Place a stop-loss order just below the 50-MA at $29 and hold your long position",
+        "C) Consider reducing your position or tightening your stop-loss due to the bearish divergence",
+        "D) Short the stock immediately based on the divergence"
+      ],
+      "correct_choice_index": 2
+    },
+    {
+      "id": "val_120",
+      "instrument": "AVGO",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "On 2015-08-05, AVGO exhibits a strong bearish trend with VWAP at $9.45. If the stock price rallies to $9.58 (the day's high) with low volume but fails to sustain above VWAP, what is the most appropriate trading decision for a VWAP-based strategy?",
+      "choices": [
+        "A) Enter a short position near $9.58 with a stop-loss above $9.70, targeting $9.23.",
+        "B) Enter a long position above $9.58 to capitalize on the breakout.",
+        "C) Wait for the price to test $9.45 (VWAP) on increasing volume before entering any trade.",
+        "D) Avoid trading entirely as VWAP-based strategies are ineffective in bearish trends."
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_121",
+      "instrument": "XYZ",
+      "timeframe": "1d",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "During a market correction, XYZ stock holds above its 200-day moving average at $25 while sector peers break down. Volume is slightly above average. What should you do?",
+      "choices": [
+        "A) Buy XYZ stock as it shows relative strength",
+        "B) Short XYZ stock expecting it to follow peers",
+        "C) Wait for further confirmation of strength",
+        "D) Avoid trading in a volatile market"
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_122",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "Given that the ROC is at 5.18 on 2022-12-02, indicating a slowing rate of price change, while other momentum indicators such as RSI_14 (76.92) and Williams %R (-15.33) are in overbought territory, what would be the most appropriate trading decision?",
+      "choices": [
+        "A) Initiate a long position, as the ROC at 5.18 confirms strong upward momentum.",
+        "B) Hold existing long positions, as the ROC at 5.18 suggests sustained bullish momentum despite overbought conditions.",
+        "C) Scale back long positions or initiate a short position with a stop-loss above $47.47, as the ROC at 5.18 confirms weakening momentum.",
+        "D) Ignore the ROC and focus solely on RSI_14 and Williams %R, as they are in the overbought zones."
+      ],
+      "correct_choice_index": 2
+    },
+    {
+      "id": "val_123",
+      "instrument": "SPY",
+      "timeframe": "1d",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "Implied volatility spikes to 40% after a stock has rallied 20% in a month and approaches previous resistance at $90. What is the most prudent action?",
+      "choices": [
+        "A) Buy the stock expecting a breakout",
+        "B) Sell options to take advantage of high implied volatility",
+        "C) Short the stock expecting a reversal",
+        "D) Wait for confirmation of a breakout or rejection at $90"
+      ],
+      "correct_choice_index": 3
+    },
+    {
+      "id": "val_124",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A volatile stock gaps up 10% at the open, breaking through a key resistance level on 4x average volume. What is the best approach for a swing trader?",
+      "choices": [
+        "A) Enter immediately to capitalize on momentum",
+        "B) Wait for a pullback to the gap level for a better entry",
+        "C) Short the stock expecting a gap fill",
+        "D) Avoid trading due to high risk"
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_125",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "You are backtesting a quantitative strategy that shows a Sharpe ratio of 2.1 over 5 years, but all profits came from just 3 months during a market crisis. The strategy has a maximum drawdown of 8%. What is the primary concern?",
+      "choices": [
+        "A) The Sharpe ratio is too high to be sustainable",
+        "B) The strategy may not be robust due to limited profit sources",
+        "C) The maximum drawdown is too low for the returns generated",
+        "D) The backtest period is too short for reliable statistics"
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_126",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A stock is rallying and trades 10% above its 200-day moving average. The RSI is 85, and implied volatility has spiked. What action is most suitable?",
+      "choices": [
+        "A) Enter a long position expecting further momentum",
+        "B) Short the stock as it is overbought",
+        "C) Wait for a pullback to the 200-day moving average",
+        "D) Avoid trading due to high volatility"
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_127",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A trader wants to increase their position size in a trending stock but is concerned about risk. The stock trades at $100, and their stop-loss is at $95. How should they adjust their position size while maintaining a 2% portfolio risk on a $50,000 account?",
+      "choices": [
+        "A) Increase position size to 1,000 shares",
+        "B) Keep position size unchanged at 200 shares",
+        "C) Increase position size to 500 shares",
+        "D) Reduce position size to 100 shares"
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_128",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "Volatility is high and uncertain. How should position size change?",
+      "choices": [
+        "A) Use a smaller position than usual",
+        "B) Use a much larger position",
+        "C) Remove risk limits entirely",
+        "D) Add leverage to amplify risk"
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_129",
+      "instrument": "DOC",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "Given DOC's VWAP at $21.00 on 2022-12-22, a breakout level of $21.34, and a VOLUME_ROC of -27.09%, which of the following strategies best aligns with a VWAP-based volume breakout approach?",
+      "choices": [
+        "A) Wait for price to close above $21.34 with a VOLUME_ROC rebound to at least 10% before entering long.",
+        "B) Enter long immediately at $21.10 since the price is near the VWAP level and oversold indicators suggest a reversal.",
+        "C) Enter short at $20.90, as the VOLUME_ROC of -27.09% indicates weak market activity and price likely to stay below VWAP.",
+        "D) Place a stop-limit order to buy at $21.50, well above the breakout level, to confirm trend continuation above VWAP."
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_130",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A stock breaks above resistance at $50 on 3x average volume with RSI at 65. How should you approach this situation?",
+      "choices": [
+        "A) Initiate a long position immediately",
+        "B) Wait for a retest of $50 as support",
+        "C) Short the stock, expecting a false breakout",
+        "D) Avoid the trade due to overbought RSI"
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_131",
+      "instrument": "FANG",
+      "timeframe": "1h",
+      "as_of": "2015-08-13T00:00:00Z",
+      "question": "As of 2015-08-13, FANG's price has reached an overbought condition, signaling potential for a pullback. The Volume Rate of Change (VOLUME_ROC) is measured as 35% over the past 10 periods. Based on this scenario, what trading decision is most appropriate if price breaks below the critical support level of $54.52?",
+      "choices": [
+        "A) Enter a short position as the high VOLUME_ROC confirms increasing selling pressure below support, with a stop loss above $56.11.",
+        "B) Hold the position as the elevated VOLUME_ROC suggests bullish continuation despite the support breakdown.",
+        "C) Enter a long position immediately as the VOLUME_ROC above 30% indicates strong buyer activity.",
+        "D) Avoid trading because high VOLUME_ROC is not a reliable signal for breakouts or breakdowns."
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_132",
+      "instrument": "FITB",
+      "timeframe": "1h",
+      "as_of": "2020-02-12T00:00:00Z",
+      "question": "On 2020-02-12, FITB exhibits a strong bullish trend with Williams %R at -80. Given the bullish momentum confirmed by an ADX of 32.80 and MACD_BULLISH signal of 1.00, what is the most appropriate Williams %R strategy for traders?",
+      "choices": [
+        "A) Enter a long position immediately, as Williams %R at -80 indicates oversold conditions in a strong bullish trend.",
+        "B) Wait for Williams %R to cross above -50 before entering a long position to confirm the continuation of bullish momentum.",
+        "C) Short the stock as Williams %R at -80 signals a potential reversal in the current trend.",
+        "D) Avoid taking any position since Williams %R below -80 indicates extreme bearishness."
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_133",
+      "instrument": "SPY",
+      "timeframe": "1d",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A stock is in a strong uptrend and currently trading at $100. Its 50-day moving average is at $95, and the 200-day moving average is at $85. What does this indicate?",
+      "choices": [
+        "A) The trend is overextended and likely to reverse",
+        "B) The stock is in a bullish trend and a pullback to $95 could be a buying opportunity",
+        "C) The stock is range-bound and lacks a clear trend",
+        "D) A bearish crossover is imminent"
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_134",
+      "instrument": "XYZ",
+      "timeframe": "1d",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "XYZ stock is in a strong downtrend, trading below its 200-day moving average at $75. The RSI is at 25, and volume has spiked. What is your trading approach?",
+      "choices": [
+        "A) Buy now, assuming the RSI guarantees a reversal",
+        "B) Short the stock, as the strong downtrend and high volume confirm bearish momentum",
+        "C) Ignore the trend and wait for the RSI to recover first",
+        "D) Avoid trading completely because the RSI looks oversold"
+      ],
+      "correct_choice_index": 2
+    },
+    {
+      "id": "val_135",
+      "instrument": "PSKY",
+      "timeframe": "1h",
+      "as_of": "2012-10-18T00:00:00Z",
+      "question": "On 2012-10-18, PSKY is exhibiting a strong bearish trend with ADX at 29.23 and MINUS_DI at 37.30 dominating PLUS_DI at 15.32. If the price of PSKY fell from $27.18 to $26.76 intraday, but the volume declined by 15% compared to the previous trading session, what does this volume-price divergence suggest about the bearish momentum?",
+      "choices": [
+        "A) The bearish momentum is weakening, as the price drop lacks volume confirmation.",
+        "B) The bearish momentum is strengthening, as volume declines during the price drop.",
+        "C) The bearish momentum is neutral, and volume has no impact on the trend.",
+        "D) The bearish momentum is irrelevant because the price already broke support."
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_136",
+      "instrument": "META",
+      "timeframe": "1h",
+      "as_of": "2019-08-01T00:00:00Z",
+      "question": "As of 2019-08-01, META exhibits a Bollinger Squeeze setup with BB_WIDTH at 7.19, BB_POSITION at -0.10, and RSI_14 at 27.47. VOLUME_ROC is soaring at 48.91. Which of the following signals most strongly indicates a potential trend reversal to the upside?",
+      "choices": [
+        "A) BB_POSITION at -0.10, near the lower Bollinger Band, combined with RSI_14 at 27.47 (oversold), and VOLUME_ROC at 48.91, suggesting a potential upward breakout.",
+        "B) ATR at 5.08, reflecting low volatility, which confirms the likelihood of a sustained downtrend.",
+        "C) BB_WIDTH at 7.19, indicating a contraction in volatility, with no further confirmation of directional breakout or reversal.",
+        "D) RSI_14 at 27.47, indicating an oversold condition, combined with BB_POSITION at 0.50 (mid-range), showcasing indecision in price movement."
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_137",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "After a 15% rally, a stock forms a bearish divergence with price making higher highs while RSI makes lower highs. The stock is now at $90. What action should you take?",
+      "choices": [
+        "A) Short the stock as bearish divergence suggests weakness",
+        "B) Hold your position as the trend is still up",
+        "C) Buy more as the stock is strong",
+        "D) Wait for confirmation before acting"
+      ],
+      "correct_choice_index": 3
+    },
+    {
+      "id": "val_138",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "Given DOC's market analysis as of 2020-04-29, which trend reversal signal would most likely suggest a potential bearish reversal despite the current bullish momentum near the upper Bollinger Band? Assume the following conditions persist: BB_POSITION at 77.34, BB_WIDTH at 36.06, VOLUME_ROC at 31.35, and ATR at 1.01.",
+      "choices": [
+        "A) A sudden contraction in BB_WIDTH combined with BB_POSITION dropping below 50",
+        "B) VOLUME_ROC spiking above 50 while BB_POSITION remains above 75",
+        "C) ATR declining below 0.5 while BB_POSITION stays above 77",
+        "D) BB_WIDTH expanding to 50 while VOLUME_ROC drops below 10"
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_139",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "You are trading a volatile stock that is approaching a key resistance level at $50. The stock has failed to break this level twice in the past month. Volume is high, and RSI is at 70. What is your best approach?",
+      "choices": [
+        "A) Go long, expecting a breakout this time",
+        "B) Go short, expecting resistance to hold again",
+        "C) Wait for confirmation of a breakout above $50 before entering",
+        "D) Avoid trading due to the stock's volatility"
+      ],
+      "correct_choice_index": 2
+    },
+    {
+      "id": "val_140",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "You hold a long position in a stock that has rallied 15% in the last two weeks. The RSI is now at 80, and the price is approaching a previous resistance level at $120. What is the best course of action?",
+      "choices": [
+        "A) Add to your position",
+        "B) Take partial profits or tighten your stop-loss",
+        "C) Hold the position unchanged",
+        "D) Short the stock at $120"
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_141",
+      "instrument": "AMD",
+      "timeframe": "1h",
+      "as_of": "2011-02-07T00:00:00Z",
+      "question": "Based on AMD's volatility expansion setup as of 2011-02-07, with an Average True Range (ATR) of 0.34 and a price leaning toward the upper Bollinger Band (BB_POSITION of 65.62), where should a trader set an ATR-based stop-loss to adequately manage downside risk below the support level of $8.25?",
+      "choices": [
+        "A) $8.25 - (2 * ATR) = $7.57",
+        "B) $8.25 - (1 * ATR) = $7.91",
+        "C) $8.25 - (0.5 * ATR) = $8.08",
+        "D) $8.25 - (3 * ATR) = $7.23"
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_142",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A stock has been in a downtrend and is now forming a double bottom pattern near $20. Volume is increasing on the second bottom. What is the best action?",
+      "choices": [
+        "A) Go long, expecting a reversal",
+        "B) Wait for a breakout above the neckline before entering",
+        "C) Short the stock, expecting the downtrend to continue",
+        "D) Avoid trading due to uncertainty"
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_143",
+      "instrument": "MPWR",
+      "timeframe": "1d",
+      "as_of": "2024-02-28T00:00:00Z",
+      "question": "As of 2024-02-28, MPWR exhibits volatility expansion with a Volatility of 62.53, ATR of 32.35, and BB_WIDTH at 27.54, indicating strong price range growth. The BB_POSITION at 56.75 suggests bullish momentum, while the sharply negative VOLUME_ROC at -64.90 highlights weakening volume support. Considering the convergence of BB_POSITION, VOLUME_ROC, and BB_WIDTH, what is the best trading strategy for this scenario?",
+      "choices": [
+        "A) Initiate a long position, as the price is favoring the upper half of the Bollinger Bands, and set a stop loss below $692.07 for risk management.",
+        "B) Avoid trading, as the negative VOLUME_ROC and marginal ROC (-0.22) suggest insufficient volume support for sustainable bullish moves.",
+        "C) Place a short position, as the negative VOLUME_ROC and the high BB_WIDTH suggest a potential breakdown of bullish momentum.",
+        "D) Enter a long position with a wider stop loss, as elevated volatility and ATR indicate potential for a further upside move."
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_144",
+      "instrument": "PFE",
+      "timeframe": "1h",
+      "as_of": "2023-07-24T00:00:00Z",
+      "question": "Given the Bollinger Squeeze setup for PFE on 2023-07-24, with BB_WIDTH at 5.87, BB_POSITION at 104.43, and elevated VOLATILITY at 20.54, which trend-following strategy is the most appropriate if the price breaks decisively above $32.99 with strong volume?",
+      "choices": [
+        "A) Initiate a long position and trail the stop-loss just below $32.99 to ride the breakout trend.",
+        "B) Initiate a short position anticipating a false breakout and place a stop-loss above $33.50.",
+        "C) Avoid trading and wait for BB_WIDTH to expand further before initiating any position.",
+        "D) Place a limit order to buy at $32.50 and wait for a retracement within the Bollinger Bands."
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_145",
+      "instrument": "SPY",
+      "timeframe": "1d",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A stock drops to $20, testing its 200-day moving average after a 30% correction. Volume is declining, and RSI is at 35. How should you approach this scenario?",
+      "choices": [
+        "A) Enter a long position with a stop below $19",
+        "B) Wait for RSI to reach oversold levels before entering",
+        "C) Short the stock as it\u2019s in a downtrend",
+        "D) Avoid trading as the trend is unclear"
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_146",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A trader risks 2% of their portfolio per trade. On a $50,000 portfolio, they want to trade a stock priced at $25 with a stop loss at $23. How many shares should they buy?",
+      "choices": [
+        "A) 200 shares",
+        "B) 400 shares",
+        "C) 500 shares",
+        "D) 100 shares"
+      ],
+      "correct_choice_index": 2
+    },
+    {
+      "id": "val_147",
+      "instrument": "XYZ",
+      "timeframe": "1d",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "During a market correction, XYZ stock holds above its 200-day moving average at $25 while sector peers break down. What does this suggest about XYZ stock?",
+      "choices": [
+        "A) XYZ is weak and will likely break down",
+        "B) XYZ is showing relative strength",
+        "C) XYZ is overbought and due for a correction",
+        "D) The 200-day MA is irrelevant in this scenario"
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_148",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A stock breaks above resistance at $50 on 3x average volume with RSI at 65, entering overbought territory. What is the best trading decision?",
+      "choices": [
+        "A) Go long and set a tight stop below $50",
+        "B) Short the stock as it is overbought",
+        "C) Wait for a pullback to $50 to confirm support",
+        "D) Avoid trading as the breakout is too risky"
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_149",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "After a 15% rally, a stock approaches a previous resistance level at $60 with implied volatility spiking to 40%. What does the implied volatility suggest?",
+      "choices": [
+        "A) Increased uncertainty and potential for larger price swings.",
+        "B) A strong breakout above $60 is imminent.",
+        "C) The stock is overvalued and likely to drop.",
+        "D) The market is stable and implied volatility is irrelevant."
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_150",
+      "instrument": "JPM",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "Given that JPM on 2022-07-11 shows an ADX of 40.26 indicating strong trend strength, MINUS_DI (23.91) outweighing PLUS_DI (22.30) reflecting bearish momentum dominance, and a SMA_50_200_RATIO of 0.84 indicating a long-term bearish trend, which of the following is the most appropriate multi-timeframe trading strategy?",
+      "choices": [
+        "A) Enter a long-term bullish position based on ADX trend strength and MACD bullish signal.",
+        "B) Execute a short-term bearish trade with tight stops below $103.80 and profit targets near $105.66, considering the neutral to slightly bearish trend.",
+        "C) Avoid trading due to conflicting signals from ADX and SMA_50_200_RATIO.",
+        "D) Enter a long-term bullish position and set stops above $105.66 to capture potential upward momentum."
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_151",
+      "instrument": "SPY",
+      "timeframe": "1d",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A stock has been consolidating between $75 and $80 for the past month. Today, it closes at $81 on 2x average volume. What is the most likely implication?",
+      "choices": [
+        "A) A false breakout, as the stock is overextended",
+        "B) A legitimate breakout, signaling potential upside",
+        "C) A short squeeze, likely to reverse quickly",
+        "D) A normal fluctuation within the consolidation range"
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_152",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "You plan to risk 2% of your trading capital on a stock trading at $75 with a stop-loss at $70. How many shares should you buy if your capital is $10,000?",
+      "choices": [
+        "A) 20 shares",
+        "B) 40 shares",
+        "C) 50 shares",
+        "D) 100 shares"
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_153",
+      "instrument": "JNJ",
+      "timeframe": "1d",
+      "as_of": "2021-11-03T00:00:00Z",
+      "question": "As of 2021-11-03, JNJ's BB_WIDTH is 5.44, indicating significant contraction and low volatility. Considering this setup, which of the following actions is the most appropriate trading decision based on BB width analysis alone?",
+      "choices": [
+        "A) Enter a long position immediately, as the Bollinger Squeeze confirms a bullish breakout is underway.",
+        "B) Wait for a breakout confirmation (e.g., a close above the upper band) before entering a trade, as the BB_WIDTH suggests a potential volatility expansion.",
+        "C) Short the stock immediately, as the low BB_WIDTH implies the price will move back towards the lower band.",
+        "D) Avoid trading altogether, as low BB_WIDTH setups typically indicate indecision and lack of price direction."
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_154",
+      "instrument": "XYZ",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A trader has a portfolio risk tolerance of 2% per trade. They want to buy XYZ stock at $50 with a stop-loss at $45. How many shares can they buy if their total capital is $100,000?",
+      "choices": [
+        "A) 200 shares",
+        "B) 400 shares",
+        "C) 1,000 shares",
+        "D) 2,000 shares"
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_155",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A stock has gapped up 10% at the open on positive earnings, but the RSI is now at 85, and the price is near a major resistance level. What should you do?",
+      "choices": [
+        "A) Go long anticipating a breakout",
+        "B) Short the stock expecting a pullback",
+        "C) Wait for the price action to stabilize",
+        "D) Avoid trading due to overbought conditions"
+      ],
+      "correct_choice_index": 2
+    },
+    {
+      "id": "val_156",
+      "instrument": "OTIS",
+      "timeframe": "1h",
+      "as_of": "2021-05-18T00:00:00Z",
+      "question": "On 2021-05-18, OTIS is trading near $73.47, with a target resistance around $74.49. If the Volume Rate of Change (VOLUME_ROC) for the session rises to 15% while the price remains above the $73.47 level, what would this likely indicate for a trader considering momentum confirmation?",
+      "choices": [
+        "A) Increased buying pressure, signaling a potential breakout above $74.49.",
+        "B) Decreasing momentum, suggesting the trend might reverse soon.",
+        "C) Neutral volume behavior, indicating consolidation near $73.47.",
+        "D) A bearish signal suggesting traders should take short positions."
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_157",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "You are trading a volatile stock with a daily range of $5. Your account size is $10,000, and you are willing to risk 2% per trade. What is the maximum position size you should take if your stop-loss is $2 away from the entry price?",
+      "choices": [
+        "A) 50 shares",
+        "B) 100 shares",
+        "C) 200 shares",
+        "D) 20 shares"
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_158",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A stock is in a strong uptrend and is currently trading at $120, far above its 50-day moving average at $100. RSI is at 80. What is the best course of action?",
+      "choices": [
+        "A) Buy the stock expecting the trend to continue",
+        "B) Short the stock due to overbought RSI",
+        "C) Wait for a pullback to the 50-day moving average",
+        "D) Avoid the trade to minimize risk"
+      ],
+      "correct_choice_index": 2
+    },
+    {
+      "id": "val_159",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A stock rallies 10% in two days and approaches resistance at $75. The RSI is 80, and implied volatility spikes. What should you do?",
+      "choices": [
+        "A) Short the stock at $75",
+        "B) Buy the breakout above $75",
+        "C) Wait for a pullback to $70",
+        "D) Avoid trading as the setup is risky"
+      ],
+      "correct_choice_index": 3
+    },
+    {
+      "id": "val_160",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "During a strong uptrend, a stock is trading at $150, with the 20-day moving average at $145 and the 50-day moving average at $140. Volume is steady, and RSI is at 67. What is the best course of action?",
+      "choices": [
+        "A) Add to a long position with a stop-loss at $140",
+        "B) Short the stock as it is overbought",
+        "C) Wait for a pullback to $145 before entering",
+        "D) Exit existing long positions to lock in profits"
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_161",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "After a 20% rally, implied volatility on a stock spikes to 40%. What does this suggest?",
+      "choices": [
+        "A) Increased uncertainty; consider hedging or reducing the position",
+        "B) The rally will likely continue; add to your position",
+        "C) The stock is overvalued; short it immediately",
+        "D) Implied volatility is irrelevant in this context"
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_162",
+      "instrument": "XYZ",
+      "timeframe": "1d",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "XYZ stock has rallied 20% in a month and is now approaching previous resistance at $100. RSI is at 78. What is the best course of action?",
+      "choices": [
+        "A) Enter a long position above $100",
+        "B) Wait for a pullback to $95 before entering",
+        "C) Short the stock at $99 with a stop at $102",
+        "D) Avoid trading due to high RSI"
+      ],
+      "correct_choice_index": 3
+    },
+    {
+      "id": "val_163",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A trader buys a stock at $50 with a stop-loss at $47 and a target at $60. What is the risk-to-reward ratio of this trade?",
+      "choices": [
+        "A) 1:2",
+        "B) 1:3",
+        "C) 1:4",
+        "D) 1:5"
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_164",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A stock opens with a gap down below support at $75 and continues to trade lower on increased volume. What is the most appropriate action?",
+      "choices": [
+        "A) Go long to buy the dip",
+        "B) Short the stock with a stop above $75",
+        "C) Wait for a reversal signal",
+        "D) Ignore and move to another trade"
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_165",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A stock is trading in a range between $40 (support) and $50 (resistance) for the past 3 months. How should you approach trading this stock?",
+      "choices": [
+        "A) Buy near $40 and sell near $50, keeping stops tight below $40.",
+        "B) Short near $40 expecting a breakdown.",
+        "C) Buy near $50 anticipating a breakout.",
+        "D) Avoid trading as the stock is range-bound."
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_166",
+      "instrument": "CVX",
+      "timeframe": "1d",
+      "as_of": "2021-01-01T00:00:00Z",
+      "question": "On 2020-12-31, CVX shows deeply oversold momentum indicators (STOCH_K at 9.05, STOCH_D at 11.72, and RSI_14 at 15.77) alongside a Bollinger Band Width (BB_WIDTH) of 2.5%. What would be the most appropriate trading strategy based on BB width analysis?",
+      "choices": [
+        "A) Enter a short position immediately, as the narrow BB width confirms continuation of the bearish trend.",
+        "B) Begin a cautious accumulation strategy, as the narrow BB width signals low volatility and increases the potential for a bullish breakout.",
+        "C) Wait for the BB_WIDTH to expand beyond 10% before making any trading decisions, as this indicates a confirmed trend reversal.",
+        "D) Avoid trading until STOCH_K crosses above STOCH_D, as this alignment is more reliable than BB width."
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_167",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A ranging market shows clear support at $40 and resistance at $50. The stock is currently at $42 with low volume. What is the best approach?",
+      "choices": [
+        "A) Buy near $40 with a stop-loss below $39",
+        "B) Short near $50 with a stop-loss above $51",
+        "C) Wait for a breakout above $50 or below $40",
+        "D) Avoid trading due to low volume"
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_168",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "You are holding a long position in a stock that has reached your target price of $75. RSI is at 72, and the stock is showing signs of slowing momentum. What should you do?",
+      "choices": [
+        "A) Close the position and take profits",
+        "B) Add to the position expecting further upside",
+        "C) Move the stop loss to $74 to lock in gains",
+        "D) Hold the position as RSI is not a sell signal"
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_169",
+      "instrument": "EOG",
+      "timeframe": "1h",
+      "as_of": "2023-05-23T00:00:00Z",
+      "question": "EOG is trading at $104.86 on 2023-05-23, with Bollinger Bands calculated using SMA_20 at $103.18 and a standard deviation of $1.70. The upper and lower bands are at $104.88 and $101.48 respectively. The price has recently touched the upper band and is now reverting towards the SMA_20. What is the most appropriate BB mean reversion-based trading strategy in this scenario?",
+      "choices": [
+        "A) Enter a long position as the price has touched the upper band, indicating bullish momentum.",
+        "B) Enter a short position targeting the SMA_20 with a stop-loss just above the upper band at $104.88.",
+        "C) Wait for the price to break above the upper band and close higher before entering any position.",
+        "D) Avoid trading since the price is already consolidating near the SMA_20 and lacks a clear trend."
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_170",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "You hold a long position in a stock that has rallied 15% in two weeks. The stock is now at $75, just below a resistance level at $76. What is the best action?",
+      "choices": [
+        "A) Take partial profits and move stop-loss to breakeven",
+        "B) Add to the position expecting a breakout",
+        "C) Close the entire position immediately",
+        "D) Do nothing and let the trade run"
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_171",
+      "instrument": "NFLX",
+      "timeframe": "1h",
+      "as_of": "2024-06-21T00:00:00Z",
+      "question": "NFLX is exhibiting a Bollinger Squeeze setup on 2024-06-21 with BB_POSITION at 98.92 and RSI_14 elevated at 73.33. If the Stochastic Oscillator (%K) is at 88 and %D is at 85, which trading decision is most appropriate based on overbought stochastic momentum conditions?",
+      "choices": [
+        "A) Enter a long position immediately, as %K is above %D, signaling strong bullish momentum.",
+        "B) Wait for %K to cross below %D while both remain above 80 to signal a potential bearish reversal.",
+        "C) Short the stock immediately, as %K is above 80, regardless of %D positioning.",
+        "D) Ignore the stochastic oscillator and focus only on the RSI for overbought signals."
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_172",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A stock has been in a downtrend but shows a bullish divergence on the MACD indicator while price forms a double bottom at $30. What is the best action?",
+      "choices": [
+        "A) Enter a long position with a stop below $30",
+        "B) Short the stock, expecting the downtrend to continue",
+        "C) Wait for confirmation of the double bottom breakout",
+        "D) Avoid trading, as divergences are unreliable"
+      ],
+      "correct_choice_index": 2
+    },
+    {
+      "id": "val_173",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A volatile stock is trading near resistance at $80. Implied volatility is at 50%, and RSI is at 70. What trading strategy is most appropriate?",
+      "choices": [
+        "A) Buy expecting a breakout",
+        "B) Short with a stop-loss at $82",
+        "C) Wait for a pullback to $75 before entering",
+        "D) Avoid the trade due to high volatility"
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_174",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A stock in a sideways range between $20 and $25 has just hit the $25 resistance level on low volume. What is the best course of action?",
+      "choices": [
+        "A) Short the stock with a stop above $25.50",
+        "B) Buy the stock, expecting a breakout",
+        "C) Wait for a breakout above $25 before taking a position",
+        "D) Avoid trading in a range-bound market"
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_175",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A stock is in a strong uptrend, trading above its 50-day and 200-day moving averages. It pulls back to the 50-day MA at $75 with low volume. What is the best action?",
+      "choices": [
+        "A) Buy at $75 with a stop loss at $73",
+        "B) Short the stock, expecting a trend reversal",
+        "C) Wait for a breakout above recent highs before entering",
+        "D) Avoid entering, as the pullback may deepen"
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_176",
+      "instrument": "SPY",
+      "timeframe": "1d",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A stock is in a strong uptrend, trading above its 50-day moving average. The RSI reaches 84. What is the safest trading approach?",
+      "choices": [
+        "A) Buy the stock to ride the momentum",
+        "B) Short the stock due to overbought RSI",
+        "C) Lock in profits if already holding",
+        "D) Avoid taking any action"
+      ],
+      "correct_choice_index": 2
+    },
+    {
+      "id": "val_177",
+      "instrument": "SPY",
+      "timeframe": "1d",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A stock is trading above its 50-day moving average but below its 200-day moving average. What does this indicate?",
+      "choices": [
+        "A) The stock is in a strong uptrend",
+        "B) The stock is in a long-term downtrend but a short-term uptrend",
+        "C) The stock is range-bound",
+        "D) The stock is overbought"
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_178",
+      "instrument": "SPY",
+      "timeframe": "1d",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "The market is in a strong downtrend, and a stock's 50-day moving average is crossing below its 200-day moving average, forming a 'death cross.' What is the most prudent action?",
+      "choices": [
+        "A) Buy the stock expecting a reversal",
+        "B) Short the stock or avoid long positions",
+        "C) Wait for the stock to consolidate",
+        "D) Ignore the moving averages"
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_179",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "You are considering a long position in a volatile stock. The stock is trading at $50 with a stop-loss at $48 and a target at $55. How much should you risk per share if your account size is $10,000 and you are willing to risk 2% of your capital on this trade?",
+      "choices": [
+        "A) $0.50",
+        "B) $2",
+        "C) $5",
+        "D) $4"
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_180",
+      "instrument": "PFE",
+      "timeframe": "1h",
+      "as_of": "2012-10-12T00:00:00Z",
+      "question": "As of 2012-10-12, PFE is in a Bollinger Squeeze setup with BB_WIDTH at 8.16 and BB_POSITION at 62.82, suggesting a potential breakout. If the EMA_12 crosses above the EMA_26 while SMA_20 remains flat, which strategy would be most appropriate given the bullish RSI_14 at 63.12 and low volatility?",
+      "choices": [
+        "A) Enter a long position immediately, as EMA crossovers are faster and confirm bullish momentum during low volatility.",
+        "B) Wait for the SMA_20 to slope upward before entering, as SMA provides a more reliable confirmation of trend direction.",
+        "C) Close all positions and wait for price to break above resistance at $14.19, as moving averages alone can't predict breakouts.",
+        "D) Enter a short position, as the flat SMA_20 indicates indecision regardless of EMA behavior."
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_181",
+      "instrument": "MLM",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "Given that MLM's RSI_14 is at 21.92, indicating oversold conditions, what would be the most appropriate RSI-based trading strategy to employ at this level, assuming a potential reversal setup is confirmed?",
+      "choices": [
+        "A) Enter a long position immediately as the RSI indicates the stock is oversold and due for a reversal.",
+        "B) Wait for the RSI to cross above 30 from oversold territory before considering a long position.",
+        "C) Short the stock, as the RSI shows strong bearish momentum.",
+        "D) Ignore the RSI and rely on MACD and ROC signals instead."
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_182",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "What is the purpose of a stop-loss?",
+      "choices": [
+        "A) Limit loss if price moves against the position",
+        "B) Guarantee profit regardless of price",
+        "C) Increase risk for larger gains",
+        "D) It has no purpose"
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_183",
+      "instrument": "OTIS",
+      "timeframe": "1d",
+      "as_of": "2020-06-01T00:00:00Z",
+      "question": "On 2020-06-01, OTIS shows STOCH_K at 94.46 and STOCH_D at 74.16, with RSI_14 at 57.22 and Williams %R at -5.54. If volatility contraction is expected due to waning bullish momentum, which of the following strategies is most appropriate to manage risk in anticipation of reduced price movement?",
+      "choices": [
+        "A) Tighten stop-loss levels to $48.26 and reduce position sizing.",
+        "B) Open a new long position expecting continued upward momentum.",
+        "C) Increase position size while setting a wide stop-loss below $46.50.",
+        "D) Ignore indicators and hold the current position without adjustment."
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_184",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A stock is in a strong uptrend but gaps down by 3% at the open due to negative news. The stock stabilizes and RSI is at 48. What is the best decision?",
+      "choices": [
+        "A) Enter a long position if the stock reclaims half the gap",
+        "B) Short the stock expecting more downside",
+        "C) Avoid trading due to uncertainty",
+        "D) Wait for RSI to reach overbought territory before deciding"
+      ],
+      "correct_choice_index": 2
+    },
+    {
+      "id": "val_185",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A stock has been range-bound between $30 and $40 for the past 3 months. It is now trading near $40 with declining volume. What is the best action?",
+      "choices": [
+        "A) Buy expecting a breakout",
+        "B) Short near $40",
+        "C) Wait for a breakout above $40",
+        "D) Avoid trading due to lack of trend"
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_186",
+      "instrument": "EMR",
+      "timeframe": "1h",
+      "as_of": "2022-10-05T00:00:00Z",
+      "question": "Given EMR's price of $75.07 on 2022-10-05 and a Williams %R value of -20%, which of the following strategies would be most appropriate for a trader considering the market's bullish momentum and volume breakout?",
+      "choices": [
+        "A) Enter a long position immediately, as Williams %R in the overbought zone confirms the bullish trend.",
+        "B) Wait for Williams %R to drop below -50% before considering a long position, as it signals a better entry point.",
+        "C) Short the stock immediately, as Williams %R in the overbought zone suggests a potential reversal.",
+        "D) Close any existing long positions, as Williams %R in the overbought zone indicates the trend is losing strength."
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_187",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A stock has rallied 20% in two weeks and RSI is at 80. How should you approach this scenario?",
+      "choices": [
+        "A) Buy expecting momentum to continue",
+        "B) Short the stock as it's overbought",
+        "C) Wait for a pullback to lower levels",
+        "D) Avoid trading due to high volatility"
+      ],
+      "correct_choice_index": 2
+    },
+    {
+      "id": "val_188",
+      "instrument": "GE",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "On 2022-10-20, GE's price approaches the $42.91 support level, accompanied by a volume surge of 35% above its 20-day average. Assuming this surge is confirmed by a positive accumulation trend in OBV, what is the most likely indication of this volume breakout?",
+      "choices": [
+        "A) A bullish reversal with institutional buying pressure confirmed by OBV.",
+        "B) A bearish breakdown despite the volume surge, indicating distribution.",
+        "C) A sideways consolidation with no significant change in the price trend.",
+        "D) A false breakout with low probability of sustained price movement."
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_189",
+      "instrument": "SPY",
+      "timeframe": "1d",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A stock has been trending higher for six months and is now consolidating near $100. The RSI is at 55, and the 50-day moving average is at $95. What is the best strategy?",
+      "choices": [
+        "A) Enter a long position, anticipating a continuation of the trend.",
+        "B) Short the stock, expecting a breakdown from consolidation.",
+        "C) Wait for a breakout above $105 before entering long.",
+        "D) Avoid trading as the stock is in consolidation."
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_190",
+      "instrument": "REGN",
+      "timeframe": "1h",
+      "as_of": "2014-03-28T00:00:00Z",
+      "question": "On 2014-03-28, REGN's MACD line stands at -3.66, significantly below the signal line (calculated from EMA_9 of MACD) due to bearish divergence. Given the proximity of MACD to crossing above its signal line, what would be the most logical trade decision based on MA convergence/divergence principles?",
+      "choices": [
+        "A) Enter a short position, as the MACD line is still below the signal line, confirming continued bearish momentum.",
+        "B) Enter a long position immediately, anticipating a bullish crossover in MACD and signal line.",
+        "C) Wait for confirmation of a bullish crossover before entering a long position, as premature entry may expose the trade to downside risk.",
+        "D) Maintain a neutral position, as the MACD's value of -3.66 is insufficient to signal any actionable trend."
+      ],
+      "correct_choice_index": 2
+    },
+    {
+      "id": "val_191",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A trader has $50,000 capital and wants to risk 2% per trade. If the stop loss on a trade is $5 per share, how many shares should the trader buy?",
+      "choices": [
+        "A) 100 shares",
+        "B) 200 shares",
+        "C) 500 shares",
+        "D) 1,000 shares"
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_192",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "You are holding a long position in a stock that is up 15% in one week. The price is approaching a key resistance level, and RSI is at 80. What is the best action?",
+      "choices": [
+        "A) Add to the position as the momentum is strong",
+        "B) Close half the position and move the stop-loss to break even",
+        "C) Close the entire position to lock in profits",
+        "D) Ignore the resistance level and hold the full position"
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_193",
+      "instrument": "AXP",
+      "timeframe": "1h",
+      "as_of": "2011-10-14T00:00:00Z",
+      "question": "Given the current setup on 2011-10-14 for AXP, where the SMA_10 ($37.00) is below the SMA_20 ($37.40), and the EMA_12 ($37.69) is narrowing towards the EMA_26 ($38.09), indicating weakening momentum, which trading strategy best aligns with a confirmed bearish trend and momentum setup?",
+      "choices": [
+        "A) Initiate a short position if the price breaks below the recent low of $37.11, with a stop-loss at $38.96.",
+        "B) Go long immediately since the EMA_12 is still above the EMA_26, indicating bullish momentum.",
+        "C) Wait for the price to move above the SMA_50 ($38.38) to confirm a bullish breakout before taking any position.",
+        "D) Initiate a short position immediately without waiting for confirmation, as the SMA_10 is the lowest among all moving averages."
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_194",
+      "instrument": "AMZN",
+      "timeframe": "1h",
+      "as_of": "2024-06-26T00:00:00Z",
+      "question": "AMZN is exhibiting a Bollinger Squeeze with a BB_WIDTH of 8.71, VOLATILITY at 23.01, and ATR at 3.88 on 2024-06-26. If a trader is expecting a volatility expansion, which of the following is the most effective confirmation trigger for entering a trade?",
+      "choices": [
+        "A) A breakout above $194.80 with a surge in BB_WIDTH above 12 and an increase in ATR above 5.",
+        "B) A breakout above $194.80 with BB_WIDTH remaining at 8.71 and ATR at 3.88.",
+        "C) A breakout below $186.26 with a surge in VOLATILITY to 25 and no change in BB_WIDTH.",
+        "D) A breakout below $186.26 with BB_WIDTH narrowing further below 7 and ATR decreasing to 3."
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_195",
+      "instrument": "SPY",
+      "timeframe": "1d",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "After a market correction, a stock holds above its 200-day moving average at $25 while sector peers break down. RSI is at 55, and volume is picking up. What action should you take?",
+      "choices": [
+        "A) Enter a long position as the stock shows relative strength.",
+        "B) Short the stock as the sector is weak.",
+        "C) Wait for a breakout above $30 to confirm strength.",
+        "D) Avoid trading as market conditions are uncertain."
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_196",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A stock is trading in a range between $50 (support) and $60 (resistance). The RSI is at 45, and the price is currently at $52. What is the most prudent trade?",
+      "choices": [
+        "A) Buy the stock with a stop-loss below $50",
+        "B) Short the stock with a stop-loss above $60",
+        "C) Wait for the stock to approach $50 or $60",
+        "D) Enter a long position with no stop-loss"
+      ],
+      "correct_choice_index": 2
+    },
+    {
+      "id": "val_197",
+      "instrument": "SPY",
+      "timeframe": "1d",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "You are holding a long position in a stock that has risen 15% over the past month and is now consolidating in a range near the highs. What should you do to manage risk?",
+      "choices": [
+        "A) Keep the position and adjust the stop-loss to just below the range",
+        "B) Exit the position entirely to lock in profits",
+        "C) Add to the position expecting a breakout",
+        "D) Move the stop-loss below the 50-day moving average"
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_198",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "The RSI for a stock is above 80, indicating overbought conditions, while the stock is trading near historical resistance at $100. What action should a trader consider?",
+      "choices": [
+        "A) Enter a long position, expecting a breakout",
+        "B) Short the stock with a stop-loss above $102",
+        "C) Avoid trading due to unclear signals",
+        "D) Wait for a pullback to enter long"
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_199",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A stock has been in a downtrend and is now testing support at $30 for the third time in two weeks. The RSI is at 40. What is the most prudent action?",
+      "choices": [
+        "A) Enter a long position expecting a bounce from support",
+        "B) Short the stock expecting a breakdown below $30",
+        "C) Wait for confirmation of a breakdown or bounce",
+        "D) Avoid trading as the stock is in a downtrend"
+      ],
+      "correct_choice_index": 2
+    },
+    {
+      "id": "val_200",
+      "instrument": "ABC",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "ABC stock drops 15% to $30 during a market correction but holds above its 200-day MA at $28. What is the most appropriate action?",
+      "choices": [
+        "A) Buy near $30 with a stop-loss below $28",
+        "B) Wait for the price to break below $28 before shorting",
+        "C) Avoid trading as the market is too volatile",
+        "D) Enter a long position only if it breaks above $35"
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_201",
+      "instrument": "CVX",
+      "timeframe": "1d",
+      "as_of": "2013-12-26T00:00:00Z",
+      "question": "Given the Bollinger Squeeze setup on CVX as of 2013-12-26, with BB_WIDTH at 4.65, BB_POSITION at 97.27, VOLATILITY at 14.74, ATR at 0.98, and RSI_14 at 62.31, what is the most appropriate trading decision based on trend and momentum confirmation?",
+      "choices": [
+        "A) Enter a long position immediately, as the high BB_POSITION and RSI_14 confirm strong bullish momentum and trend continuation.",
+        "B) Avoid taking any position, as the low VOLUME_ROC of -53.28 suggests a lack of momentum to confirm the trend.",
+        "C) Wait for a confirmed breakout above the Bollinger Bands, as the BB_WIDTH and RSI_14 indicate potential upward movement but require further validation.",
+        "D) Enter a short position, as the volatility contraction (BB_WIDTH of 4.65) and RSI_14 at 62.31 suggest overbought conditions."
+      ],
+      "correct_choice_index": 2
+    },
+    {
+      "id": "val_202",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "You are managing a $50,000 account and want to risk only 1% per trade. If your stop-loss is $2 per share, how many shares can you buy?",
+      "choices": [
+        "A) 250 shares",
+        "B) 500 shares",
+        "C) 1000 shares",
+        "D) 1250 shares"
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_203",
+      "instrument": "MPWR",
+      "timeframe": "1d",
+      "as_of": "2024-02-28T00:00:00Z",
+      "question": "Given MPWR's volatility expansion with a VOLATILITY of 62.53, ATR of 32.35, and BB_WIDTH of 27.54 on 2024-02-28, which of the following is the most appropriate trading adjustment to account for the elevated price range growth?",
+      "choices": [
+        "A) Increase position size to maximize potential gains from bullish momentum.",
+        "B) Use wider stop losses to accommodate the larger price range indicated by the ATR and BB_WIDTH.",
+        "C) Utilize tight stop losses below $692.07 to mitigate risk while recognizing the potential for retracement.",
+        "D) Ignore the volatility expansion and focus on the Volume Rate of Change for trading decisions."
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_204",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "After a 20% rally, a stock approaches previous resistance at $70 while implied volatility spikes to 40%. What should you do?",
+      "choices": [
+        "A) Go long expecting a breakout",
+        "B) Short the stock with a stop above $70",
+        "C) Use an options strategy to benefit from elevated volatility",
+        "D) Wait for the stock to consolidate before acting"
+      ],
+      "correct_choice_index": 2
+    },
+    {
+      "id": "val_205",
+      "instrument": "SPY",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "A trader notices a bearish engulfing candlestick on a stock that\u2019s been rallying for weeks. What does this pattern likely indicate?",
+      "choices": [
+        "A) Potential reversal; consider exiting long positions",
+        "B) Continuation of the rally; add to long positions",
+        "C) Neutral signal; wait for confirmation",
+        "D) Opportunity to short with no further analysis"
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_206",
+      "instrument": "NVDA",
+      "timeframe": "1h",
+      "as_of": "2011-07-21T00:00:00Z",
+      "question": "Given NVDA's strong bearish trend on 2011-07-21, with an ADX reading of 66.30 indicating substantial trend strength and a TREND_STRONG value of 1.00 confirming directional persistence, which of the following best describes the expected impact of volatility expansion on potential trading strategies?",
+      "choices": [
+        "A) Volatility expansion is likely to amplify the strong downward momentum, making a short position favorable, but tight stops are critical due to MACD_BULLISH indicating potential countertrend risk.",
+        "B) Volatility expansion will likely reduce the impact of the strong bearish trend, signaling that traders should avoid short positions entirely.",
+        "C) Volatility expansion suggests a reversal to a bullish trend is imminent, and long positions should be prioritized to capture upward momentum.",
+        "D) Volatility expansion has no impact on directional trends and should be ignored in this scenario."
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_207",
+      "instrument": "XYZ",
+      "timeframe": "1h",
+      "as_of": "2024-01-01T00:00:00Z",
+      "question": "XYZ stock has been trading in a range between $20 and $25 for three months. The RSI is at 45, and price is currently near $22. What is the best trading strategy?",
+      "choices": [
+        "A) Buy now expecting a breakout above $25",
+        "B) Place a buy order near $20 and a sell order near $25",
+        "C) Short the stock at $22, expecting a breakdown",
+        "D) Avoid the trade until a breakout occurs"
+      ],
+      "correct_choice_index": 1
+    },
+    {
+      "id": "val_208",
+      "instrument": "AMZN",
+      "timeframe": "1h",
+      "as_of": "2022-09-08T00:00:00Z",
+      "question": "Based on the analysis of AMZN on 2022-09-08, with an ATR of $3.18 and a stop-loss placed $3.50 above the entry price at $130.28, what is the maximum position size (in shares) a trader can take if their risk per trade is capped at $1,000?",
+      "choices": [
+        "A) 285 shares",
+        "B) 312 shares",
+        "C) 250 shares",
+        "D) 222 shares"
+      ],
+      "correct_choice_index": 0
+    },
+    {
+      "id": "val_209",
+      "instrument": "BA",
+      "timeframe": "1h",
+      "as_of": "2021-08-10T00:00:00Z",
+      "question": "BA is trading near its upper Bollinger Band as of 2021-08-10, with STOCH_K at 91.08, STOCH_D at 81.30, and RSI_14 at 66.05. The Bollinger Bands show a slight expansion, and the price is failing to sustain above the critical resistance of $236.85. What is the most appropriate BB position tactic in this scenario?",
+      "choices": [
+        "A) Enter a long position, anticipating a breakout above the upper Bollinger Band and sustained bullish momentum.",
+        "B) Sell or short near the upper Bollinger Band, with a stop-loss slightly above $236.85, targeting a pullback toward the middle band or $231.62.",
+        "C) Wait for a close above the upper Bollinger Band and confirmation from MACD before entering any position.",
+        "D) Ignore Bollinger Bands and focus solely on RSI and STOCH for overbought conditions."
+      ],
+      "correct_choice_index": 1
+    }
+  ]
+}

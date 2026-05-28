@@ -1,0 +1,2898 @@
+{
+  "metadata": {
+    "instrument": "ADBE",
+    "initial_capital": 10000,
+    "window_type": "bullish_sample_015",
+    "description": "ADBE window (2023-05-12 \u2013 2023-06-16) - bullish regime.",
+    "num_mcqs": 25,
+    "notes": "Orders express target exposure fractions relative to the leverage ceiling.",
+    "max_leverage": 2.5,
+    "exposure_buckets": [
+      0.8,
+      0.6,
+      0.4,
+      0.2
+    ],
+    "start_reference": "2023-05-12",
+    "end_reference": "2023-06-16",
+    "regime": "bullish",
+    "bh_return": 47.62
+  },
+  "mcqs": [
+    {
+      "scenario_instance_id": "ADBE_2023-05-12_bullish_sample_015_001",
+      "scenario_id": "ADBE_2023-05-12",
+      "window_type": "bullish_sample_015",
+      "chronological_index": 1,
+      "state_id": "bullish_sample_015_state_001",
+      "time_spot": "2023-05-12",
+      "reference_session": "2023-05-12",
+      "question": "Session summary for May 12, 2023: ADBE opened $340.51, ranged $331.89-$340.79, closed $335.45. Volume 4.3M (1.51x 20-day avg). 20-day $361.63 | 50-day $362.47. 5-day return -3.72%. ATR-14 $10.40. RSI 28.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2023-05-12",
+        "open": 340.51,
+        "high": 340.79,
+        "low": 331.89,
+        "close": 335.45,
+        "volume": 4278700,
+        "ma20": 361.63,
+        "ma50": 362.47,
+        "volume_vs_20d": 1.51,
+        "atr14": 10.4,
+        "chg_5d_pct": -3.72
+      },
+      "weekly_snapshot": {
+        "ticker": "ADBE",
+        "week_start": "2023-05-08",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 28.8,
+        "price_vs_sma50": 0.925,
+        "notes": "ADX 48.9, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADBE_2023-05-12_bullish_sample_015_002",
+      "scenario_id": "ADBE_2023-05-12",
+      "window_type": "bullish_sample_015",
+      "chronological_index": 2,
+      "state_id": "bullish_sample_015_state_002",
+      "time_spot": "2023-05-15",
+      "reference_session": "2023-05-15",
+      "question": "Session summary for May 15, 2023: ADBE opened $337.35, ranged $333.01-$345.89, closed $345.67. Volume 3.3M (1.14x 20-day avg). 20-day $360.01 | 50-day $362.50. 5-day return +0.47%. ATR-14 $10.72. RSI 38.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2023-05-15",
+        "open": 337.35,
+        "high": 345.89,
+        "low": 333.01,
+        "close": 345.67,
+        "volume": 3330500,
+        "ma20": 360.01,
+        "ma50": 362.5,
+        "volume_vs_20d": 1.14,
+        "atr14": 10.72,
+        "chg_5d_pct": 0.47
+      },
+      "weekly_snapshot": {
+        "ticker": "ADBE",
+        "week_start": "2023-05-15",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 38.2,
+        "price_vs_sma50": 0.954,
+        "notes": "ADX 48.7, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADBE_2023-05-12_bullish_sample_015_003",
+      "scenario_id": "ADBE_2023-05-12",
+      "window_type": "bullish_sample_015",
+      "chronological_index": 3,
+      "state_id": "bullish_sample_015_state_003",
+      "time_spot": "2023-05-16",
+      "reference_session": "2023-05-16",
+      "question": "Session summary for May 16, 2023: ADBE opened $344.20, ranged $341.17-$347.07, closed $345.11. Volume 2.6M (0.86x 20-day avg). 20-day $358.39 | 50-day $362.47. 5-day return +0.72%. ATR-14 $10.26. RSI 40.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2023-05-16",
+        "open": 344.2,
+        "high": 347.07,
+        "low": 341.17,
+        "close": 345.11,
+        "volume": 2558300,
+        "ma20": 358.39,
+        "ma50": 362.47,
+        "volume_vs_20d": 0.86,
+        "atr14": 10.26,
+        "chg_5d_pct": 0.72
+      },
+      "weekly_snapshot": {
+        "ticker": "ADBE",
+        "week_start": "2023-05-15",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 40.6,
+        "price_vs_sma50": 0.952,
+        "notes": "ADX 46.8, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADBE_2023-05-12_bullish_sample_015_004",
+      "scenario_id": "ADBE_2023-05-12",
+      "window_type": "bullish_sample_015",
+      "chronological_index": 4,
+      "state_id": "bullish_sample_015_state_004",
+      "time_spot": "2023-05-17",
+      "reference_session": "2023-05-17",
+      "question": "Session summary for May 17, 2023: ADBE opened $345.36, ranged $345.12-$358.69, closed $356.63. Volume 3.6M (1.17x 20-day avg). 20-day $357.22 | 50-day $362.70. 5-day return +3.67%. ATR-14 $10.46. RSI 42.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2023-05-17",
+        "open": 345.36,
+        "high": 358.69,
+        "low": 345.12,
+        "close": 356.63,
+        "volume": 3560600,
+        "ma20": 357.22,
+        "ma50": 362.7,
+        "volume_vs_20d": 1.17,
+        "atr14": 10.46,
+        "chg_5d_pct": 3.67
+      },
+      "weekly_snapshot": {
+        "ticker": "ADBE",
+        "week_start": "2023-05-15",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 42.5,
+        "price_vs_sma50": 0.983,
+        "notes": "ADX 45.5, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADBE_2023-05-12_bullish_sample_015_005",
+      "scenario_id": "ADBE_2023-05-12",
+      "window_type": "bullish_sample_015",
+      "chronological_index": 5,
+      "state_id": "bullish_sample_015_state_005",
+      "time_spot": "2023-05-18",
+      "reference_session": "2023-05-18",
+      "question": "Session summary for May 18, 2023: ADBE opened $357.00, ranged $356.45-$361.48, closed $360.43. Volume 2.9M (0.94x 20-day avg). 20-day $356.23 | 50-day $362.99. 5-day return +5.52%. ATR-14 $10.17. RSI 41.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2023-05-18",
+        "open": 357.0,
+        "high": 361.48,
+        "low": 356.45,
+        "close": 360.43,
+        "volume": 2896400,
+        "ma20": 356.23,
+        "ma50": 362.99,
+        "volume_vs_20d": 0.94,
+        "atr14": 10.17,
+        "chg_5d_pct": 5.52
+      },
+      "weekly_snapshot": {
+        "ticker": "ADBE",
+        "week_start": "2023-05-15",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 41.1,
+        "price_vs_sma50": 0.993,
+        "notes": "ADX 45.8, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADBE_2023-05-12_bullish_sample_015_006",
+      "scenario_id": "ADBE_2023-05-12",
+      "window_type": "bullish_sample_015",
+      "chronological_index": 6,
+      "state_id": "bullish_sample_015_state_006",
+      "time_spot": "2023-05-19",
+      "reference_session": "2023-05-19",
+      "question": "Session summary for May 19, 2023: ADBE opened $363.00, ranged $361.36-$372.08, closed $371.25. Volume 3.9M (1.21x 20-day avg). 20-day $355.91 | 50-day $363.65. 5-day return +10.67%. ATR-14 $10.64. RSI 48.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2023-05-19",
+        "open": 363.0,
+        "high": 372.08,
+        "low": 361.36,
+        "close": 371.25,
+        "volume": 3856900,
+        "ma20": 355.91,
+        "ma50": 363.65,
+        "volume_vs_20d": 1.21,
+        "atr14": 10.64,
+        "chg_5d_pct": 10.67
+      },
+      "weekly_snapshot": {
+        "ticker": "ADBE",
+        "week_start": "2023-05-15",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 48.6,
+        "price_vs_sma50": 1.021,
+        "notes": "ADX 46.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADBE_2023-05-12_bullish_sample_015_007",
+      "scenario_id": "ADBE_2023-05-12",
+      "window_type": "bullish_sample_015",
+      "chronological_index": 7,
+      "state_id": "bullish_sample_015_state_007",
+      "time_spot": "2023-05-22",
+      "reference_session": "2023-05-22",
+      "question": "Session summary for May 22, 2023: ADBE opened $371.25, ranged $369.66-$374.40, closed $372.05. Volume 2.6M (0.81x 20-day avg). 20-day $355.64 | 50-day $364.51. 5-day return +7.63%. ATR-14 $10.41. RSI 51.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2023-05-22",
+        "open": 371.25,
+        "high": 374.4,
+        "low": 369.66,
+        "close": 372.05,
+        "volume": 2627100,
+        "ma20": 355.64,
+        "ma50": 364.51,
+        "volume_vs_20d": 0.81,
+        "atr14": 10.41,
+        "chg_5d_pct": 7.63
+      },
+      "weekly_snapshot": {
+        "ticker": "ADBE",
+        "week_start": "2023-05-22",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 51.7,
+        "price_vs_sma50": 1.021,
+        "notes": "ADX 44.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADBE_2023-05-12_bullish_sample_015_008",
+      "scenario_id": "ADBE_2023-05-12",
+      "window_type": "bullish_sample_015",
+      "chronological_index": 8,
+      "state_id": "bullish_sample_015_state_008",
+      "time_spot": "2023-05-23",
+      "reference_session": "2023-05-23",
+      "question": "Session summary for May 23, 2023: ADBE opened $371.81, ranged $369.92-$376.49, closed $370.42. Volume 3.0M (0.90x 20-day avg). 20-day $355.68 | 50-day $365.43. 5-day return +7.33%. ATR-14 $9.13. RSI 66.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2023-05-23",
+        "open": 371.81,
+        "high": 376.49,
+        "low": 369.92,
+        "close": 370.42,
+        "volume": 2967700,
+        "ma20": 355.68,
+        "ma50": 365.43,
+        "volume_vs_20d": 0.9,
+        "atr14": 9.13,
+        "chg_5d_pct": 7.33
+      },
+      "weekly_snapshot": {
+        "ticker": "ADBE",
+        "week_start": "2023-05-22",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 66.3,
+        "price_vs_sma50": 1.014,
+        "notes": "ADX 42.5, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADBE_2023-05-12_bullish_sample_015_009",
+      "scenario_id": "ADBE_2023-05-12",
+      "window_type": "bullish_sample_015",
+      "chronological_index": 9,
+      "state_id": "bullish_sample_015_state_009",
+      "time_spot": "2023-05-24",
+      "reference_session": "2023-05-24",
+      "question": "Session summary for May 24, 2023: ADBE opened $368.41, ranged $361.72-$369.06, closed $365.76. Volume 2.7M (0.81x 20-day avg). 20-day $355.82 | 50-day $366.08. 5-day return +2.56%. ATR-14 $8.67. RSI 70.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2023-05-24",
+        "open": 368.41,
+        "high": 369.06,
+        "low": 361.72,
+        "close": 365.76,
+        "volume": 2666600,
+        "ma20": 355.82,
+        "ma50": 366.08,
+        "volume_vs_20d": 0.81,
+        "atr14": 8.67,
+        "chg_5d_pct": 2.56
+      },
+      "weekly_snapshot": {
+        "ticker": "ADBE",
+        "week_start": "2023-05-22",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 70.7,
+        "price_vs_sma50": 0.999,
+        "notes": "ADX 40.8, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADBE_2023-05-12_bullish_sample_015_010",
+      "scenario_id": "ADBE_2023-05-12",
+      "window_type": "bullish_sample_015",
+      "chronological_index": 10,
+      "state_id": "bullish_sample_015_state_010",
+      "time_spot": "2023-05-25",
+      "reference_session": "2023-05-25",
+      "question": "Session summary for May 25, 2023: ADBE opened $375.49, ranged $374.09-$397.65, closed $392.06. Volume 7.0M (2.00x 20-day avg). 20-day $356.85 | 50-day $367.25. 5-day return +8.78%. ATR-14 $9.97. RSI 75.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2023-05-25",
+        "open": 375.49,
+        "high": 397.65,
+        "low": 374.09,
+        "close": 392.06,
+        "volume": 7030000,
+        "ma20": 356.85,
+        "ma50": 367.25,
+        "volume_vs_20d": 2.0,
+        "atr14": 9.97,
+        "chg_5d_pct": 8.78
+      },
+      "weekly_snapshot": {
+        "ticker": "ADBE",
+        "week_start": "2023-05-22",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 75.4,
+        "price_vs_sma50": 1.068,
+        "notes": "ADX 40.5, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADBE_2023-05-12_bullish_sample_015_011",
+      "scenario_id": "ADBE_2023-05-12",
+      "window_type": "bullish_sample_015",
+      "chronological_index": 11,
+      "state_id": "bullish_sample_015_state_011",
+      "time_spot": "2023-05-26",
+      "reference_session": "2023-05-26",
+      "question": "Session summary for May 26, 2023: ADBE opened $396.72, ranged $396.57-$416.36, closed $415.39. Volume 7.8M (2.06x 20-day avg). 20-day $358.74 | 50-day $368.49. 5-day return +11.89%. ATR-14 $11.01. RSI 84.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2023-05-26",
+        "open": 396.72,
+        "high": 416.36,
+        "low": 396.57,
+        "close": 415.39,
+        "volume": 7833600,
+        "ma20": 358.74,
+        "ma50": 368.49,
+        "volume_vs_20d": 2.06,
+        "atr14": 11.01,
+        "chg_5d_pct": 11.89
+      },
+      "weekly_snapshot": {
+        "ticker": "ADBE",
+        "week_start": "2023-05-22",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 84.0,
+        "price_vs_sma50": 1.127,
+        "notes": "ADX 40.8, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADBE_2023-05-12_bullish_sample_015_012",
+      "scenario_id": "ADBE_2023-05-12",
+      "window_type": "bullish_sample_015",
+      "chronological_index": 12,
+      "state_id": "bullish_sample_015_state_012",
+      "time_spot": "2023-05-30",
+      "reference_session": "2023-05-30",
+      "question": "Session summary for May 30, 2023: ADBE opened $429.94, ranged $416.08-$432.99, closed $417.21. Volume 5.3M (1.34x 20-day avg). 20-day $360.89 | 50-day $369.67. 5-day return +12.14%. ATR-14 $12.00. RSI 85.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2023-05-30",
+        "open": 429.94,
+        "high": 432.99,
+        "low": 416.08,
+        "close": 417.21,
+        "volume": 5332300,
+        "ma20": 360.89,
+        "ma50": 369.67,
+        "volume_vs_20d": 1.34,
+        "atr14": 12.0,
+        "chg_5d_pct": 12.14
+      },
+      "weekly_snapshot": {
+        "ticker": "ADBE",
+        "week_start": "2023-05-29",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 85.4,
+        "price_vs_sma50": 1.129,
+        "notes": "ADX 41.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADBE_2023-05-12_bullish_sample_015_013",
+      "scenario_id": "ADBE_2023-05-12",
+      "window_type": "bullish_sample_015",
+      "chronological_index": 13,
+      "state_id": "bullish_sample_015_state_013",
+      "time_spot": "2023-05-31",
+      "reference_session": "2023-05-31",
+      "question": "Session summary for May 31, 2023: ADBE opened $413.90, ranged $410.70-$421.36, closed $417.79. Volume 5.2M (1.25x 20-day avg). 20-day $363.35 | 50-day $370.77. 5-day return +12.79%. ATR-14 $12.03. RSI 85.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2023-05-31",
+        "open": 413.9,
+        "high": 421.36,
+        "low": 410.7,
+        "close": 417.79,
+        "volume": 5158500,
+        "ma20": 363.35,
+        "ma50": 370.77,
+        "volume_vs_20d": 1.25,
+        "atr14": 12.03,
+        "chg_5d_pct": 12.79
+      },
+      "weekly_snapshot": {
+        "ticker": "ADBE",
+        "week_start": "2023-05-29",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 85.3,
+        "price_vs_sma50": 1.127,
+        "notes": "ADX 41.8, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADBE_2023-05-12_bullish_sample_015_014",
+      "scenario_id": "ADBE_2023-05-12",
+      "window_type": "bullish_sample_015",
+      "chronological_index": 14,
+      "state_id": "bullish_sample_015_state_014",
+      "time_spot": "2023-06-01",
+      "reference_session": "2023-06-01",
+      "question": "Session summary for June 01, 2023: ADBE opened $412.29, ranged $412.29-$430.60, closed $426.75. Volume 4.4M (1.11x 20-day avg). 20-day $367.43 | 50-day $371.82. 5-day return +16.67%. ATR-14 $12.96. RSI 88.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2023-06-01",
+        "open": 412.29,
+        "high": 430.6,
+        "low": 412.29,
+        "close": 426.75,
+        "volume": 4443100,
+        "ma20": 367.43,
+        "ma50": 371.82,
+        "volume_vs_20d": 1.11,
+        "atr14": 12.96,
+        "chg_5d_pct": 16.67
+      },
+      "weekly_snapshot": {
+        "ticker": "ADBE",
+        "week_start": "2023-05-29",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 88.3,
+        "price_vs_sma50": 1.148,
+        "notes": "ADX 42.8, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADBE_2023-05-12_bullish_sample_015_015",
+      "scenario_id": "ADBE_2023-05-12",
+      "window_type": "bullish_sample_015",
+      "chronological_index": 15,
+      "state_id": "bullish_sample_015_state_015",
+      "time_spot": "2023-06-02",
+      "reference_session": "2023-06-02",
+      "question": "Session summary for June 02, 2023: ADBE opened $432.00, ranged $430.36-$438.53, closed $436.37. Volume 4.3M (1.12x 20-day avg). 20-day $372.45 | 50-day $373.31. 5-day return +11.30%. ATR-14 $13.11. RSI 94.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2023-06-02",
+        "open": 432.0,
+        "high": 438.53,
+        "low": 430.36,
+        "close": 436.37,
+        "volume": 4334800,
+        "ma20": 372.45,
+        "ma50": 373.31,
+        "volume_vs_20d": 1.12,
+        "atr14": 13.11,
+        "chg_5d_pct": 11.3
+      },
+      "weekly_snapshot": {
+        "ticker": "ADBE",
+        "week_start": "2023-05-29",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 94.0,
+        "price_vs_sma50": 1.169,
+        "notes": "ADX 44.5, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADBE_2023-05-12_bullish_sample_015_016",
+      "scenario_id": "ADBE_2023-05-12",
+      "window_type": "bullish_sample_015",
+      "chronological_index": 16,
+      "state_id": "bullish_sample_015_state_016",
+      "time_spot": "2023-06-05",
+      "reference_session": "2023-06-05",
+      "question": "Session summary for June 05, 2023: ADBE opened $433.01, ranged $426.96-$440.38, closed $434.18. Volume 3.4M (0.90x 20-day avg). 20-day $376.74 | 50-day $374.62. 5-day return +4.52%. ATR-14 $13.15. RSI 91.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2023-06-05",
+        "open": 433.01,
+        "high": 440.38,
+        "low": 426.96,
+        "close": 434.18,
+        "volume": 3447400,
+        "ma20": 376.74,
+        "ma50": 374.62,
+        "volume_vs_20d": 0.9,
+        "atr14": 13.15,
+        "chg_5d_pct": 4.52
+      },
+      "weekly_snapshot": {
+        "ticker": "ADBE",
+        "week_start": "2023-06-05",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 91.5,
+        "price_vs_sma50": 1.159,
+        "notes": "ADX 46.5, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADBE_2023-05-12_bullish_sample_015_017",
+      "scenario_id": "ADBE_2023-05-12",
+      "window_type": "bullish_sample_015",
+      "chronological_index": 17,
+      "state_id": "bullish_sample_015_state_017",
+      "time_spot": "2023-06-06",
+      "reference_session": "2023-06-06",
+      "question": "Session summary for June 06, 2023: ADBE opened $432.55, ranged $431.24-$437.12, closed $432.89. Volume 2.3M (0.62x 20-day avg). 20-day $381.18 | 50-day $375.77. 5-day return +3.76%. ATR-14 $13.15. RSI 90.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2023-06-06",
+        "open": 432.55,
+        "high": 437.12,
+        "low": 431.24,
+        "close": 432.89,
+        "volume": 2342000,
+        "ma20": 381.18,
+        "ma50": 375.77,
+        "volume_vs_20d": 0.62,
+        "atr14": 13.15,
+        "chg_5d_pct": 3.76
+      },
+      "weekly_snapshot": {
+        "ticker": "ADBE",
+        "week_start": "2023-06-05",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 90.9,
+        "price_vs_sma50": 1.152,
+        "notes": "ADX 49.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADBE_2023-05-12_bullish_sample_015_018",
+      "scenario_id": "ADBE_2023-05-12",
+      "window_type": "bullish_sample_015",
+      "chronological_index": 18,
+      "state_id": "bullish_sample_015_state_018",
+      "time_spot": "2023-06-07",
+      "reference_session": "2023-06-07",
+      "question": "Session summary for June 07, 2023: ADBE opened $434.56, ranged $417.74-$436.81, closed $418.32. Volume 4.8M (1.21x 20-day avg). 20-day $384.97 | 50-day $376.68. 5-day return +0.13%. ATR-14 $13.54. RSI 77.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2023-06-07",
+        "open": 434.56,
+        "high": 436.81,
+        "low": 417.74,
+        "close": 418.32,
+        "volume": 4773000,
+        "ma20": 384.97,
+        "ma50": 376.68,
+        "volume_vs_20d": 1.21,
+        "atr14": 13.54,
+        "chg_5d_pct": 0.13
+      },
+      "weekly_snapshot": {
+        "ticker": "ADBE",
+        "week_start": "2023-06-05",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 77.9,
+        "price_vs_sma50": 1.111,
+        "notes": "ADX 51.5, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADBE_2023-05-12_bullish_sample_015_019",
+      "scenario_id": "ADBE_2023-05-12",
+      "window_type": "bullish_sample_015",
+      "chronological_index": 19,
+      "state_id": "bullish_sample_015_state_019",
+      "time_spot": "2023-06-08",
+      "reference_session": "2023-06-08",
+      "question": "Session summary for June 08, 2023: ADBE opened $424.15, ranged $423.58-$440.63, closed $439.03. Volume 6.1M (1.48x 20-day avg). 20-day $389.72 | 50-day $377.99. 5-day return +2.88%. ATR-14 $14.78. RSI 80.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2023-06-08",
+        "open": 424.15,
+        "high": 440.63,
+        "low": 423.58,
+        "close": 439.03,
+        "volume": 6062800,
+        "ma20": 389.72,
+        "ma50": 377.99,
+        "volume_vs_20d": 1.48,
+        "atr14": 14.78,
+        "chg_5d_pct": 2.88
+      },
+      "weekly_snapshot": {
+        "ticker": "ADBE",
+        "week_start": "2023-06-05",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 80.9,
+        "price_vs_sma50": 1.161,
+        "notes": "ADX 53.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADBE_2023-05-12_bullish_sample_015_020",
+      "scenario_id": "ADBE_2023-05-12",
+      "window_type": "bullish_sample_015",
+      "chronological_index": 20,
+      "state_id": "bullish_sample_015_state_020",
+      "time_spot": "2023-06-09",
+      "reference_session": "2023-06-09",
+      "question": "Session summary for June 09, 2023: ADBE opened $456.91, ranged $453.09-$466.59, closed $454.00. Volume 7.9M (1.81x 20-day avg). 20-day $395.34 | 50-day $379.49. 5-day return +4.04%. ATR-14 $15.91. RSI 81.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2023-06-09",
+        "open": 456.91,
+        "high": 466.59,
+        "low": 453.09,
+        "close": 454.0,
+        "volume": 7928300,
+        "ma20": 395.34,
+        "ma50": 379.49,
+        "volume_vs_20d": 1.81,
+        "atr14": 15.91,
+        "chg_5d_pct": 4.04
+      },
+      "weekly_snapshot": {
+        "ticker": "ADBE",
+        "week_start": "2023-06-05",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 81.5,
+        "price_vs_sma50": 1.196,
+        "notes": "ADX 57.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADBE_2023-05-12_bullish_sample_015_021",
+      "scenario_id": "ADBE_2023-05-12",
+      "window_type": "bullish_sample_015",
+      "chronological_index": 21,
+      "state_id": "bullish_sample_015_state_021",
+      "time_spot": "2023-06-12",
+      "reference_session": "2023-06-12",
+      "question": "Session summary for June 12, 2023: ADBE opened $463.71, ranged $459.42-$478.04, closed $474.63. Volume 6.9M (1.54x 20-day avg). 20-day $402.30 | 50-day $381.34. 5-day return +9.32%. ATR-14 $17.29. RSI 83.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2023-06-12",
+        "open": 463.71,
+        "high": 478.04,
+        "low": 459.42,
+        "close": 474.63,
+        "volume": 6913700,
+        "ma20": 402.3,
+        "ma50": 381.34,
+        "volume_vs_20d": 1.54,
+        "atr14": 17.29,
+        "chg_5d_pct": 9.32
+      },
+      "weekly_snapshot": {
+        "ticker": "ADBE",
+        "week_start": "2023-06-12",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 83.9,
+        "price_vs_sma50": 1.245,
+        "notes": "ADX 61.2, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADBE_2023-05-12_bullish_sample_015_022",
+      "scenario_id": "ADBE_2023-05-12",
+      "window_type": "bullish_sample_015",
+      "chronological_index": 22,
+      "state_id": "bullish_sample_015_state_022",
+      "time_spot": "2023-06-13",
+      "reference_session": "2023-06-13",
+      "question": "Session summary for June 13, 2023: ADBE opened $489.71, ranged $470.36-$491.51, closed $478.99. Volume 7.4M (1.57x 20-day avg). 20-day $408.96 | 50-day $383.21. 5-day return +10.65%. ATR-14 $18.33. RSI 85.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2023-06-13",
+        "open": 489.71,
+        "high": 491.51,
+        "low": 470.36,
+        "close": 478.99,
+        "volume": 7412500,
+        "ma20": 408.96,
+        "ma50": 383.21,
+        "volume_vs_20d": 1.57,
+        "atr14": 18.33,
+        "chg_5d_pct": 10.65
+      },
+      "weekly_snapshot": {
+        "ticker": "ADBE",
+        "week_start": "2023-06-12",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 85.3,
+        "price_vs_sma50": 1.25,
+        "notes": "ADX 63.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADBE_2023-05-12_bullish_sample_015_023",
+      "scenario_id": "ADBE_2023-05-12",
+      "window_type": "bullish_sample_015",
+      "chronological_index": 23,
+      "state_id": "bullish_sample_015_state_023",
+      "time_spot": "2023-06-14",
+      "reference_session": "2023-06-14",
+      "question": "Session summary for June 14, 2023: ADBE opened $476.15, ranged $473.20-$483.85, closed $479.53. Volume 5.2M (1.06x 20-day avg). 20-day $415.68 | 50-day $385.20. 5-day return +14.63%. ATR-14 $18.47. RSI 88.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2023-06-14",
+        "open": 476.15,
+        "high": 483.85,
+        "low": 473.2,
+        "close": 479.53,
+        "volume": 5150100,
+        "ma20": 415.68,
+        "ma50": 385.2,
+        "volume_vs_20d": 1.06,
+        "atr14": 18.47,
+        "chg_5d_pct": 14.63
+      },
+      "weekly_snapshot": {
+        "ticker": "ADBE",
+        "week_start": "2023-06-12",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 88.0,
+        "price_vs_sma50": 1.245,
+        "notes": "ADX 65.2, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADBE_2023-05-12_bullish_sample_015_024",
+      "scenario_id": "ADBE_2023-05-12",
+      "window_type": "bullish_sample_015",
+      "chronological_index": 24,
+      "state_id": "bullish_sample_015_state_024",
+      "time_spot": "2023-06-15",
+      "reference_session": "2023-06-15",
+      "question": "Session summary for June 15, 2023: ADBE opened $475.47, ranged $474.25-$495.20, closed $490.91. Volume 9.7M (1.88x 20-day avg). 20-day $422.40 | 50-day $387.32. 5-day return +11.82%. ATR-14 $17.69. RSI 86.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2023-06-15",
+        "open": 475.47,
+        "high": 495.2,
+        "low": 474.25,
+        "close": 490.91,
+        "volume": 9682200,
+        "ma20": 422.4,
+        "ma50": 387.32,
+        "volume_vs_20d": 1.88,
+        "atr14": 17.69,
+        "chg_5d_pct": 11.82
+      },
+      "weekly_snapshot": {
+        "ticker": "ADBE",
+        "week_start": "2023-06-12",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 86.6,
+        "price_vs_sma50": 1.267,
+        "notes": "ADX 65.8, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADBE_2023-05-12_bullish_sample_015_025",
+      "scenario_id": "ADBE_2023-05-12",
+      "window_type": "bullish_sample_015",
+      "chronological_index": 25,
+      "state_id": "bullish_sample_015_state_025",
+      "time_spot": "2023-06-16",
+      "reference_session": "2023-06-16",
+      "question": "Session summary for June 16, 2023: ADBE opened $518.23, ranged $494.62-$518.74, closed $495.18. Volume 13.3M (2.36x 20-day avg). 20-day $429.14 | 50-day $389.58. 5-day return +9.07%. ATR-14 $17.94. RSI 84.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2023-06-16",
+        "open": 518.23,
+        "high": 518.74,
+        "low": 494.62,
+        "close": 495.18,
+        "volume": 13343800,
+        "ma20": 429.14,
+        "ma50": 389.58,
+        "volume_vs_20d": 2.36,
+        "atr14": 17.94,
+        "chg_5d_pct": 9.07
+      },
+      "weekly_snapshot": {
+        "ticker": "ADBE",
+        "week_start": "2023-06-12",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 84.4,
+        "price_vs_sma50": 1.271,
+        "notes": "ADX 66.0, MACD bullish"
+      }
+    }
+  ]
+}

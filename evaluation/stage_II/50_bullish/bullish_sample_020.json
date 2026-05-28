@@ -1,0 +1,2898 @@
+{
+  "metadata": {
+    "instrument": "LUV",
+    "initial_capital": 10000,
+    "window_type": "bullish_sample_020",
+    "description": "LUV window (2021-02-08 \u2013 2021-03-15) sampled from S&P500 indicator archive.",
+    "num_mcqs": 25,
+    "notes": "Orders express target exposure fractions relative to the leverage ceiling.",
+    "max_leverage": 2.5,
+    "exposure_buckets": [
+      0.8,
+      0.6,
+      0.4,
+      0.2
+    ],
+    "start_reference": "2021-02-08",
+    "end_reference": "2021-03-15",
+    "regime": "bullish",
+    "original_sample": "snp500_sample_048"
+  },
+  "mcqs": [
+    {
+      "scenario_instance_id": "LUV_2021-02-08_bullish_sample_020_001",
+      "scenario_id": "LUV_2021-02-08",
+      "window_type": "bullish_sample_020",
+      "chronological_index": 1,
+      "state_id": "bullish_sample_020_state_001",
+      "time_spot": "2021-02-08",
+      "reference_session": "2021-02-08",
+      "question": "Session summary for February 08, 2021: LUV opened $47.47, ranged $47.18-$50.08, closed $49.09. Volume 11.4M (1.42x 20-day avg). 20-day $44.25 | 50-day $43.96. 5-day return +16.63%. ATR-14 $1.55. RSI 67.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-02-08",
+        "open": 47.47,
+        "high": 50.08,
+        "low": 47.18,
+        "close": 49.09,
+        "volume": 11359100,
+        "ma20": 44.25,
+        "ma50": 43.96,
+        "volume_vs_20d": 1.42,
+        "atr14": 1.55,
+        "chg_5d_pct": 16.63
+      },
+      "weekly_snapshot": {
+        "ticker": "LUV",
+        "week_start": "2021-02-08",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 67.6,
+        "price_vs_sma50": 1.117,
+        "notes": "ADX 19.2, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "LUV_2021-02-08_bullish_sample_020_002",
+      "scenario_id": "LUV_2021-02-08",
+      "window_type": "bullish_sample_020",
+      "chronological_index": 2,
+      "state_id": "bullish_sample_020_state_002",
+      "time_spot": "2021-02-09",
+      "reference_session": "2021-02-09",
+      "question": "Session summary for February 09, 2021: LUV opened $48.42, ranged $47.48-$48.63, closed $48.09. Volume 5.4M (0.69x 20-day avg). 20-day $44.43 | 50-day $44.01. 5-day return +12.19%. ATR-14 $1.56. RSI 60.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-02-09",
+        "open": 48.42,
+        "high": 48.63,
+        "low": 47.48,
+        "close": 48.09,
+        "volume": 5409800,
+        "ma20": 44.43,
+        "ma50": 44.01,
+        "volume_vs_20d": 0.69,
+        "atr14": 1.56,
+        "chg_5d_pct": 12.19
+      },
+      "weekly_snapshot": {
+        "ticker": "LUV",
+        "week_start": "2021-02-08",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 60.0,
+        "price_vs_sma50": 1.093,
+        "notes": "ADX 21.4, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "LUV_2021-02-08_bullish_sample_020_003",
+      "scenario_id": "LUV_2021-02-08",
+      "window_type": "bullish_sample_020",
+      "chronological_index": 3,
+      "state_id": "bullish_sample_020_state_003",
+      "time_spot": "2021-02-10",
+      "reference_session": "2021-02-10",
+      "question": "Session summary for February 10, 2021: LUV opened $48.39, ranged $48.07-$49.18, closed $48.19. Volume 7.6M (0.95x 20-day avg). 20-day $44.57 | 50-day $44.08. 5-day return +10.16%. ATR-14 $1.57. RSI 62.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-02-10",
+        "open": 48.39,
+        "high": 49.18,
+        "low": 48.07,
+        "close": 48.19,
+        "volume": 7570800,
+        "ma20": 44.57,
+        "ma50": 44.08,
+        "volume_vs_20d": 0.95,
+        "atr14": 1.57,
+        "chg_5d_pct": 10.16
+      },
+      "weekly_snapshot": {
+        "ticker": "LUV",
+        "week_start": "2021-02-08",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 62.0,
+        "price_vs_sma50": 1.093,
+        "notes": "ADX 24.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "LUV_2021-02-08_bullish_sample_020_004",
+      "scenario_id": "LUV_2021-02-08",
+      "window_type": "bullish_sample_020",
+      "chronological_index": 4,
+      "state_id": "bullish_sample_020_state_004",
+      "time_spot": "2021-02-11",
+      "reference_session": "2021-02-11",
+      "question": "Session summary for February 11, 2021: LUV opened $47.94, ranged $47.30-$48.38, closed $48.32. Volume 5.2M (0.66x 20-day avg). 20-day $44.74 | 50-day $44.17. 5-day return +4.66%. ATR-14 $1.60. RSI 64.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-02-11",
+        "open": 47.94,
+        "high": 48.38,
+        "low": 47.3,
+        "close": 48.32,
+        "volume": 5240300,
+        "ma20": 44.74,
+        "ma50": 44.17,
+        "volume_vs_20d": 0.66,
+        "atr14": 1.6,
+        "chg_5d_pct": 4.66
+      },
+      "weekly_snapshot": {
+        "ticker": "LUV",
+        "week_start": "2021-02-08",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 64.1,
+        "price_vs_sma50": 1.094,
+        "notes": "ADX 25.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "LUV_2021-02-08_bullish_sample_020_005",
+      "scenario_id": "LUV_2021-02-08",
+      "window_type": "bullish_sample_020",
+      "chronological_index": 5,
+      "state_id": "bullish_sample_020_state_005",
+      "time_spot": "2021-02-12",
+      "reference_session": "2021-02-12",
+      "question": "Session summary for February 12, 2021: LUV opened $48.21, ranged $47.90-$48.71, closed $48.24. Volume 4.7M (0.60x 20-day avg). 20-day $44.85 | 50-day $44.25. 5-day return +2.58%. ATR-14 $1.51. RSI 72.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-02-12",
+        "open": 48.21,
+        "high": 48.71,
+        "low": 47.9,
+        "close": 48.24,
+        "volume": 4660000,
+        "ma20": 44.85,
+        "ma50": 44.25,
+        "volume_vs_20d": 0.6,
+        "atr14": 1.51,
+        "chg_5d_pct": 2.58
+      },
+      "weekly_snapshot": {
+        "ticker": "LUV",
+        "week_start": "2021-02-08",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 72.6,
+        "price_vs_sma50": 1.09,
+        "notes": "ADX 29.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "LUV_2021-02-08_bullish_sample_020_006",
+      "scenario_id": "LUV_2021-02-08",
+      "window_type": "bullish_sample_020",
+      "chronological_index": 6,
+      "state_id": "bullish_sample_020_state_006",
+      "time_spot": "2021-02-16",
+      "reference_session": "2021-02-16",
+      "question": "Session summary for February 16, 2021: LUV opened $48.69, ranged $47.76-$48.88, closed $48.83. Volume 7.4M (0.96x 20-day avg). 20-day $45.10 | 50-day $44.34. 5-day return -0.54%. ATR-14 $1.55. RSI 73.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-02-16",
+        "open": 48.69,
+        "high": 48.88,
+        "low": 47.76,
+        "close": 48.83,
+        "volume": 7402600,
+        "ma20": 45.1,
+        "ma50": 44.34,
+        "volume_vs_20d": 0.96,
+        "atr14": 1.55,
+        "chg_5d_pct": -0.54
+      },
+      "weekly_snapshot": {
+        "ticker": "LUV",
+        "week_start": "2021-02-15",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 73.5,
+        "price_vs_sma50": 1.101,
+        "notes": "ADX 32.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "LUV_2021-02-08_bullish_sample_020_007",
+      "scenario_id": "LUV_2021-02-08",
+      "window_type": "bullish_sample_020",
+      "chronological_index": 7,
+      "state_id": "bullish_sample_020_state_007",
+      "time_spot": "2021-02-17",
+      "reference_session": "2021-02-17",
+      "question": "Session summary for February 17, 2021: LUV opened $48.58, ranged $48.12-$49.36, closed $49.28. Volume 6.3M (0.80x 20-day avg). 20-day $45.36 | 50-day $44.42. 5-day return +2.46%. ATR-14 $1.50. RSI 84.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-02-17",
+        "open": 48.58,
+        "high": 49.36,
+        "low": 48.12,
+        "close": 49.28,
+        "volume": 6255300,
+        "ma20": 45.36,
+        "ma50": 44.42,
+        "volume_vs_20d": 0.8,
+        "atr14": 1.5,
+        "chg_5d_pct": 2.46
+      },
+      "weekly_snapshot": {
+        "ticker": "LUV",
+        "week_start": "2021-02-15",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 84.9,
+        "price_vs_sma50": 1.109,
+        "notes": "ADX 35.9, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "LUV_2021-02-08_bullish_sample_020_008",
+      "scenario_id": "LUV_2021-02-08",
+      "window_type": "bullish_sample_020",
+      "chronological_index": 8,
+      "state_id": "bullish_sample_020_state_008",
+      "time_spot": "2021-02-18",
+      "reference_session": "2021-02-18",
+      "question": "Session summary for February 18, 2021: LUV opened $48.80, ranged $47.90-$49.05, closed $48.82. Volume 5.0M (0.65x 20-day avg). 20-day $45.54 | 50-day $44.50. 5-day return +1.31%. ATR-14 $1.46. RSI 80.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-02-18",
+        "open": 48.8,
+        "high": 49.05,
+        "low": 47.9,
+        "close": 48.82,
+        "volume": 5030900,
+        "ma20": 45.54,
+        "ma50": 44.5,
+        "volume_vs_20d": 0.65,
+        "atr14": 1.46,
+        "chg_5d_pct": 1.31
+      },
+      "weekly_snapshot": {
+        "ticker": "LUV",
+        "week_start": "2021-02-15",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 80.8,
+        "price_vs_sma50": 1.097,
+        "notes": "ADX 38.5, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "LUV_2021-02-08_bullish_sample_020_009",
+      "scenario_id": "LUV_2021-02-08",
+      "window_type": "bullish_sample_020",
+      "chronological_index": 9,
+      "state_id": "bullish_sample_020_state_009",
+      "time_spot": "2021-02-19",
+      "reference_session": "2021-02-19",
+      "question": "Session summary for February 19, 2021: LUV opened $49.08, ranged $48.96-$50.59, closed $49.63. Volume 6.3M (0.82x 20-day avg). 20-day $45.78 | 50-day $44.60. 5-day return +2.70%. ATR-14 $1.51. RSI 86.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-02-19",
+        "open": 49.08,
+        "high": 50.59,
+        "low": 48.96,
+        "close": 49.63,
+        "volume": 6334600,
+        "ma20": 45.78,
+        "ma50": 44.6,
+        "volume_vs_20d": 0.82,
+        "atr14": 1.51,
+        "chg_5d_pct": 2.7
+      },
+      "weekly_snapshot": {
+        "ticker": "LUV",
+        "week_start": "2021-02-15",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 86.6,
+        "price_vs_sma50": 1.113,
+        "notes": "ADX 41.5, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "LUV_2021-02-08_bullish_sample_020_010",
+      "scenario_id": "LUV_2021-02-08",
+      "window_type": "bullish_sample_020",
+      "chronological_index": 10,
+      "state_id": "bullish_sample_020_state_010",
+      "time_spot": "2021-02-22",
+      "reference_session": "2021-02-22",
+      "question": "Session summary for February 22, 2021: LUV opened $50.77, ranged $50.08-$52.38, closed $51.49. Volume 11.3M (1.40x 20-day avg). 20-day $46.12 | 50-day $44.74. 5-day return +6.72%. ATR-14 $1.62. RSI 87.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-02-22",
+        "open": 50.77,
+        "high": 52.38,
+        "low": 50.08,
+        "close": 51.49,
+        "volume": 11268100,
+        "ma20": 46.12,
+        "ma50": 44.74,
+        "volume_vs_20d": 1.4,
+        "atr14": 1.62,
+        "chg_5d_pct": 6.72
+      },
+      "weekly_snapshot": {
+        "ticker": "LUV",
+        "week_start": "2021-02-22",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 87.7,
+        "price_vs_sma50": 1.151,
+        "notes": "ADX 45.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "LUV_2021-02-08_bullish_sample_020_011",
+      "scenario_id": "LUV_2021-02-08",
+      "window_type": "bullish_sample_020",
+      "chronological_index": 11,
+      "state_id": "bullish_sample_020_state_011",
+      "time_spot": "2021-02-23",
+      "reference_session": "2021-02-23",
+      "question": "Session summary for February 23, 2021: LUV opened $52.81, ranged $51.03-$53.96, closed $53.30. Volume 13.7M (1.69x 20-day avg). 20-day $46.64 | 50-day $44.94. 5-day return +9.16%. ATR-14 $1.73. RSI 88.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-02-23",
+        "open": 52.81,
+        "high": 53.96,
+        "low": 51.03,
+        "close": 53.3,
+        "volume": 13654500,
+        "ma20": 46.64,
+        "ma50": 44.94,
+        "volume_vs_20d": 1.69,
+        "atr14": 1.73,
+        "chg_5d_pct": 9.16
+      },
+      "weekly_snapshot": {
+        "ticker": "LUV",
+        "week_start": "2021-02-22",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 88.6,
+        "price_vs_sma50": 1.186,
+        "notes": "ADX 49.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "LUV_2021-02-08_bullish_sample_020_012",
+      "scenario_id": "LUV_2021-02-08",
+      "window_type": "bullish_sample_020",
+      "chronological_index": 12,
+      "state_id": "bullish_sample_020_state_012",
+      "time_spot": "2021-02-24",
+      "reference_session": "2021-02-24",
+      "question": "Session summary for February 24, 2021: LUV opened $54.13, ranged $53.92-$56.04, closed $55.71. Volume 14.9M (1.74x 20-day avg). 20-day $47.28 | 50-day $45.18. 5-day return +13.06%. ATR-14 $1.84. RSI 89.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-02-24",
+        "open": 54.13,
+        "high": 56.04,
+        "low": 53.92,
+        "close": 55.71,
+        "volume": 14871700,
+        "ma20": 47.28,
+        "ma50": 45.18,
+        "volume_vs_20d": 1.74,
+        "atr14": 1.84,
+        "chg_5d_pct": 13.06
+      },
+      "weekly_snapshot": {
+        "ticker": "LUV",
+        "week_start": "2021-02-22",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 89.8,
+        "price_vs_sma50": 1.233,
+        "notes": "ADX 54.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "LUV_2021-02-08_bullish_sample_020_013",
+      "scenario_id": "LUV_2021-02-08",
+      "window_type": "bullish_sample_020",
+      "chronological_index": 13,
+      "state_id": "bullish_sample_020_state_013",
+      "time_spot": "2021-02-25",
+      "reference_session": "2021-02-25",
+      "question": "Session summary for February 25, 2021: LUV opened $55.58, ranged $53.64-$55.69, closed $54.79. Volume 17.0M (1.91x 20-day avg). 20-day $47.94 | 50-day $45.41. 5-day return +12.24%. ATR-14 $1.81. RSI 81.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-02-25",
+        "open": 55.58,
+        "high": 55.69,
+        "low": 53.64,
+        "close": 54.79,
+        "volume": 16988200,
+        "ma20": 47.94,
+        "ma50": 45.41,
+        "volume_vs_20d": 1.91,
+        "atr14": 1.81,
+        "chg_5d_pct": 12.24
+      },
+      "weekly_snapshot": {
+        "ticker": "LUV",
+        "week_start": "2021-02-22",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 81.9,
+        "price_vs_sma50": 1.207,
+        "notes": "ADX 60.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "LUV_2021-02-08_bullish_sample_020_014",
+      "scenario_id": "LUV_2021-02-08",
+      "window_type": "bullish_sample_020",
+      "chronological_index": 14,
+      "state_id": "bullish_sample_020_state_014",
+      "time_spot": "2021-02-26",
+      "reference_session": "2021-02-26",
+      "question": "Session summary for February 26, 2021: LUV opened $53.96, ranged $53.56-$55.15, closed $54.62. Volume 9.8M (1.12x 20-day avg). 20-day $48.58 | 50-day $45.65. 5-day return +10.07%. ATR-14 $1.80. RSI 79.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-02-26",
+        "open": 53.96,
+        "high": 55.15,
+        "low": 53.56,
+        "close": 54.62,
+        "volume": 9763300,
+        "ma20": 48.58,
+        "ma50": 45.65,
+        "volume_vs_20d": 1.12,
+        "atr14": 1.8,
+        "chg_5d_pct": 10.07
+      },
+      "weekly_snapshot": {
+        "ticker": "LUV",
+        "week_start": "2021-02-22",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 79.6,
+        "price_vs_sma50": 1.196,
+        "notes": "ADX 63.8, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "LUV_2021-02-08_bullish_sample_020_015",
+      "scenario_id": "LUV_2021-02-08",
+      "window_type": "bullish_sample_020",
+      "chronological_index": 15,
+      "state_id": "bullish_sample_020_state_015",
+      "time_spot": "2021-03-01",
+      "reference_session": "2021-03-01",
+      "question": "Session summary for March 01, 2021: LUV opened $55.96, ranged $54.19-$56.23, closed $54.56. Volume 11.4M (1.29x 20-day avg). 20-day $49.24 | 50-day $45.87. 5-day return +5.97%. ATR-14 $1.73. RSI 75.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-03-01",
+        "open": 55.96,
+        "high": 56.23,
+        "low": 54.19,
+        "close": 54.56,
+        "volume": 11350700,
+        "ma20": 49.24,
+        "ma50": 45.87,
+        "volume_vs_20d": 1.29,
+        "atr14": 1.73,
+        "chg_5d_pct": 5.97
+      },
+      "weekly_snapshot": {
+        "ticker": "LUV",
+        "week_start": "2021-03-01",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 75.2,
+        "price_vs_sma50": 1.189,
+        "notes": "ADX 66.4, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "LUV_2021-02-08_bullish_sample_020_016",
+      "scenario_id": "LUV_2021-02-08",
+      "window_type": "bullish_sample_020",
+      "chronological_index": 16,
+      "state_id": "bullish_sample_020_state_016",
+      "time_spot": "2021-03-02",
+      "reference_session": "2021-03-02",
+      "question": "Session summary for March 02, 2021: LUV opened $54.22, ranged $53.77-$54.88, closed $54.32. Volume 6.6M (0.74x 20-day avg). 20-day $49.85 | 50-day $46.10. 5-day return +1.92%. ATR-14 $1.70. RSI 80.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-03-02",
+        "open": 54.22,
+        "high": 54.88,
+        "low": 53.77,
+        "close": 54.32,
+        "volume": 6558200,
+        "ma20": 49.85,
+        "ma50": 46.1,
+        "volume_vs_20d": 0.74,
+        "atr14": 1.7,
+        "chg_5d_pct": 1.92
+      },
+      "weekly_snapshot": {
+        "ticker": "LUV",
+        "week_start": "2021-03-01",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 80.9,
+        "price_vs_sma50": 1.178,
+        "notes": "ADX 68.8, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "LUV_2021-02-08_bullish_sample_020_017",
+      "scenario_id": "LUV_2021-02-08",
+      "window_type": "bullish_sample_020",
+      "chronological_index": 17,
+      "state_id": "bullish_sample_020_state_017",
+      "time_spot": "2021-03-03",
+      "reference_session": "2021-03-03",
+      "question": "Session summary for March 03, 2021: LUV opened $54.94, ranged $54.13-$55.13, closed $54.33. Volume 8.6M (0.95x 20-day avg). 20-day $50.43 | 50-day $46.31. 5-day return -2.48%. ATR-14 $1.69. RSI 80.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-03-03",
+        "open": 54.94,
+        "high": 55.13,
+        "low": 54.13,
+        "close": 54.33,
+        "volume": 8552500,
+        "ma20": 50.43,
+        "ma50": 46.31,
+        "volume_vs_20d": 0.95,
+        "atr14": 1.69,
+        "chg_5d_pct": -2.48
+      },
+      "weekly_snapshot": {
+        "ticker": "LUV",
+        "week_start": "2021-03-01",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 80.7,
+        "price_vs_sma50": 1.173,
+        "notes": "ADX 71.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "LUV_2021-02-08_bullish_sample_020_018",
+      "scenario_id": "LUV_2021-02-08",
+      "window_type": "bullish_sample_020",
+      "chronological_index": 18,
+      "state_id": "bullish_sample_020_state_018",
+      "time_spot": "2021-03-04",
+      "reference_session": "2021-03-04",
+      "question": "Session summary for March 04, 2021: LUV opened $54.24, ranged $50.99-$54.39, closed $52.70. Volume 12.9M (1.38x 20-day avg). 20-day $50.88 | 50-day $46.50. 5-day return -3.82%. ATR-14 $1.86. RSI 69.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-03-04",
+        "open": 54.24,
+        "high": 54.39,
+        "low": 50.99,
+        "close": 52.7,
+        "volume": 12853300,
+        "ma20": 50.88,
+        "ma50": 46.5,
+        "volume_vs_20d": 1.38,
+        "atr14": 1.86,
+        "chg_5d_pct": -3.82
+      },
+      "weekly_snapshot": {
+        "ticker": "LUV",
+        "week_start": "2021-03-01",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 69.0,
+        "price_vs_sma50": 1.133,
+        "notes": "ADX 71.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "LUV_2021-02-08_bullish_sample_020_019",
+      "scenario_id": "LUV_2021-02-08",
+      "window_type": "bullish_sample_020",
+      "chronological_index": 19,
+      "state_id": "bullish_sample_020_state_019",
+      "time_spot": "2021-03-05",
+      "reference_session": "2021-03-05",
+      "question": "Session summary for March 05, 2021: LUV opened $52.96, ranged $49.14-$53.68, closed $53.49. Volume 11.4M (1.22x 20-day avg). 20-day $51.24 | 50-day $46.71. 5-day return -2.08%. ATR-14 $2.12. RSI 71.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-03-05",
+        "open": 52.96,
+        "high": 53.68,
+        "low": 49.14,
+        "close": 53.49,
+        "volume": 11420700,
+        "ma20": 51.24,
+        "ma50": 46.71,
+        "volume_vs_20d": 1.22,
+        "atr14": 2.12,
+        "chg_5d_pct": -2.08
+      },
+      "weekly_snapshot": {
+        "ticker": "LUV",
+        "week_start": "2021-03-01",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 71.5,
+        "price_vs_sma50": 1.145,
+        "notes": "ADX 69.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "LUV_2021-02-08_bullish_sample_020_020",
+      "scenario_id": "LUV_2021-02-08",
+      "window_type": "bullish_sample_020",
+      "chronological_index": 20,
+      "state_id": "bullish_sample_020_state_020",
+      "time_spot": "2021-03-08",
+      "reference_session": "2021-03-08",
+      "question": "Session summary for March 08, 2021: LUV opened $54.51, ranged $54.08-$57.04, closed $56.90. Volume 15.1M (1.58x 20-day avg). 20-day $51.73 | 50-day $47.00. 5-day return +4.29%. ATR-14 $2.30. RSI 76.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-03-08",
+        "open": 54.51,
+        "high": 57.04,
+        "low": 54.08,
+        "close": 56.9,
+        "volume": 15098100,
+        "ma20": 51.73,
+        "ma50": 47.0,
+        "volume_vs_20d": 1.58,
+        "atr14": 2.3,
+        "chg_5d_pct": 4.29
+      },
+      "weekly_snapshot": {
+        "ticker": "LUV",
+        "week_start": "2021-03-08",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 76.8,
+        "price_vs_sma50": 1.211,
+        "notes": "ADX 68.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "LUV_2021-02-08_bullish_sample_020_021",
+      "scenario_id": "LUV_2021-02-08",
+      "window_type": "bullish_sample_020",
+      "chronological_index": 21,
+      "state_id": "bullish_sample_020_state_021",
+      "time_spot": "2021-03-09",
+      "reference_session": "2021-03-09",
+      "question": "Session summary for March 09, 2021: LUV opened $56.54, ranged $54.69-$56.62, closed $55.38. Volume 7.3M (0.78x 20-day avg). 20-day $52.05 | 50-day $47.23. 5-day return +1.94%. ATR-14 $2.36. RSI 68.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-03-09",
+        "open": 56.54,
+        "high": 56.62,
+        "low": 54.69,
+        "close": 55.38,
+        "volume": 7309900,
+        "ma20": 52.05,
+        "ma50": 47.23,
+        "volume_vs_20d": 0.78,
+        "atr14": 2.36,
+        "chg_5d_pct": 1.94
+      },
+      "weekly_snapshot": {
+        "ticker": "LUV",
+        "week_start": "2021-03-08",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 68.9,
+        "price_vs_sma50": 1.173,
+        "notes": "ADX 64.9, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "LUV_2021-02-08_bullish_sample_020_022",
+      "scenario_id": "LUV_2021-02-08",
+      "window_type": "bullish_sample_020",
+      "chronological_index": 22,
+      "state_id": "bullish_sample_020_state_022",
+      "time_spot": "2021-03-10",
+      "reference_session": "2021-03-10",
+      "question": "Session summary for March 10, 2021: LUV opened $55.25, ranged $54.46-$56.09, closed $54.98. Volume 6.4M (0.68x 20-day avg). 20-day $52.39 | 50-day $47.46. 5-day return +1.19%. ATR-14 $2.38. RSI 69.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-03-10",
+        "open": 55.25,
+        "high": 56.09,
+        "low": 54.46,
+        "close": 54.98,
+        "volume": 6449400,
+        "ma20": 52.39,
+        "ma50": 47.46,
+        "volume_vs_20d": 0.68,
+        "atr14": 2.38,
+        "chg_5d_pct": 1.19
+      },
+      "weekly_snapshot": {
+        "ticker": "LUV",
+        "week_start": "2021-03-08",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 69.2,
+        "price_vs_sma50": 1.159,
+        "notes": "ADX 62.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "LUV_2021-02-08_bullish_sample_020_023",
+      "scenario_id": "LUV_2021-02-08",
+      "window_type": "bullish_sample_020",
+      "chronological_index": 23,
+      "state_id": "bullish_sample_020_state_023",
+      "time_spot": "2021-03-11",
+      "reference_session": "2021-03-11",
+      "question": "Session summary for March 11, 2021: LUV opened $55.38, ranged $54.62-$55.85, closed $54.94. Volume 7.3M (0.77x 20-day avg). 20-day $52.73 | 50-day $47.69. 5-day return +4.26%. ATR-14 $2.34. RSI 67.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-03-11",
+        "open": 55.38,
+        "high": 55.85,
+        "low": 54.62,
+        "close": 54.94,
+        "volume": 7295300,
+        "ma20": 52.73,
+        "ma50": 47.69,
+        "volume_vs_20d": 0.77,
+        "atr14": 2.34,
+        "chg_5d_pct": 4.26
+      },
+      "weekly_snapshot": {
+        "ticker": "LUV",
+        "week_start": "2021-03-08",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 67.4,
+        "price_vs_sma50": 1.152,
+        "notes": "ADX 58.0, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "LUV_2021-02-08_bullish_sample_020_024",
+      "scenario_id": "LUV_2021-02-08",
+      "window_type": "bullish_sample_020",
+      "chronological_index": 24,
+      "state_id": "bullish_sample_020_state_024",
+      "time_spot": "2021-03-12",
+      "reference_session": "2021-03-12",
+      "question": "Session summary for March 12, 2021: LUV opened $54.89, ranged $54.78-$57.47, closed $57.35. Volume 10.2M (1.05x 20-day avg). 20-day $53.18 | 50-day $47.97. 5-day return +7.22%. ATR-14 $2.34. RSI 68.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-03-12",
+        "open": 54.89,
+        "high": 57.47,
+        "low": 54.78,
+        "close": 57.35,
+        "volume": 10182800,
+        "ma20": 53.18,
+        "ma50": 47.97,
+        "volume_vs_20d": 1.05,
+        "atr14": 2.34,
+        "chg_5d_pct": 7.22
+      },
+      "weekly_snapshot": {
+        "ticker": "LUV",
+        "week_start": "2021-03-08",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 68.5,
+        "price_vs_sma50": 1.196,
+        "notes": "ADX 53.7, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "LUV_2021-02-08_bullish_sample_020_025",
+      "scenario_id": "LUV_2021-02-08",
+      "window_type": "bullish_sample_020",
+      "chronological_index": 25,
+      "state_id": "bullish_sample_020_state_025",
+      "time_spot": "2021-03-15",
+      "reference_session": "2021-03-15",
+      "question": "Session summary for March 15, 2021: LUV opened $58.31, ranged $57.15-$58.98, closed $58.35. Volume 11.2M (1.12x 20-day avg). 20-day $53.69 | 50-day $48.26. 5-day return +2.56%. ATR-14 $2.26. RSI 66.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-03-15",
+        "open": 58.31,
+        "high": 58.98,
+        "low": 57.15,
+        "close": 58.35,
+        "volume": 11155700,
+        "ma20": 53.69,
+        "ma50": 48.26,
+        "volume_vs_20d": 1.12,
+        "atr14": 2.26,
+        "chg_5d_pct": 2.56
+      },
+      "weekly_snapshot": {
+        "ticker": "LUV",
+        "week_start": "2021-03-15",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 66.8,
+        "price_vs_sma50": 1.209,
+        "notes": "ADX 49.3, MACD bullish"
+      }
+    }
+  ]
+}

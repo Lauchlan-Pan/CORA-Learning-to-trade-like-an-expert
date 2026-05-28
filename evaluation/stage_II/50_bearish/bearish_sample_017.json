@@ -1,0 +1,2898 @@
+{
+  "metadata": {
+    "instrument": "ALB",
+    "initial_capital": 10000,
+    "window_type": "bearish_sample_017",
+    "description": "ALB window (2021-12-09 \u2013 2022-01-13) sampled from S&P500 indicator archive.",
+    "num_mcqs": 25,
+    "notes": "Orders express target exposure fractions relative to the leverage ceiling.",
+    "max_leverage": 2.5,
+    "exposure_buckets": [
+      0.8,
+      0.6,
+      0.4,
+      0.2
+    ],
+    "start_reference": "2021-12-09",
+    "end_reference": "2022-01-13",
+    "regime": "bearish",
+    "original_sample": "snp500_sample_077"
+  },
+  "mcqs": [
+    {
+      "scenario_instance_id": "ALB_2021-12-09_bearish_sample_017_001",
+      "scenario_id": "ALB_2021-12-09",
+      "window_type": "bearish_sample_017",
+      "chronological_index": 1,
+      "state_id": "bearish_sample_017_state_001",
+      "time_spot": "2021-12-09",
+      "reference_session": "2021-12-09",
+      "question": "Session summary for December 09, 2021: ALB opened $250.11, ranged $246.15-$254.94, closed $246.31. Volume 0.7M (0.65x 20-day avg). 20-day $256.74 | 50-day $239.87. 5-day return -1.50%. ATR-14 $11.63. RSI 40.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-12-09",
+        "open": 250.11,
+        "high": 254.94,
+        "low": 246.15,
+        "close": 246.31,
+        "volume": 682200,
+        "ma20": 256.74,
+        "ma50": 239.87,
+        "volume_vs_20d": 0.65,
+        "atr14": 11.63,
+        "chg_5d_pct": -1.5
+      },
+      "weekly_snapshot": {
+        "ticker": "ALB",
+        "week_start": "2021-12-06",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 40.3,
+        "price_vs_sma50": 1.027,
+        "notes": "ADX 19.2, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALB_2021-12-09_bearish_sample_017_002",
+      "scenario_id": "ALB_2021-12-09",
+      "window_type": "bearish_sample_017",
+      "chronological_index": 2,
+      "state_id": "bearish_sample_017_state_002",
+      "time_spot": "2021-12-10",
+      "reference_session": "2021-12-10",
+      "question": "Session summary for December 10, 2021: ALB opened $249.22, ranged $246.07-$252.14, closed $251.48. Volume 0.7M (0.64x 20-day avg). 20-day $256.29 | 50-day $240.71. 5-day return +4.53%. ATR-14 $11.40. RSI 39.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-12-10",
+        "open": 249.22,
+        "high": 252.14,
+        "low": 246.07,
+        "close": 251.48,
+        "volume": 667500,
+        "ma20": 256.29,
+        "ma50": 240.71,
+        "volume_vs_20d": 0.64,
+        "atr14": 11.4,
+        "chg_5d_pct": 4.53
+      },
+      "weekly_snapshot": {
+        "ticker": "ALB",
+        "week_start": "2021-12-06",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 39.4,
+        "price_vs_sma50": 1.045,
+        "notes": "ADX 17.4, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALB_2021-12-09_bearish_sample_017_003",
+      "scenario_id": "ALB_2021-12-09",
+      "window_type": "bearish_sample_017",
+      "chronological_index": 3,
+      "state_id": "bearish_sample_017_state_003",
+      "time_spot": "2021-12-13",
+      "reference_session": "2021-12-13",
+      "question": "Session summary for December 13, 2021: ALB opened $251.60, ranged $237.20-$251.68, closed $238.02. Volume 1.1M (1.04x 20-day avg). 20-day $254.97 | 50-day $241.28. 5-day return +0.10%. ATR-14 $11.72. RSI 32.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-12-13",
+        "open": 251.6,
+        "high": 251.68,
+        "low": 237.2,
+        "close": 238.02,
+        "volume": 1101600,
+        "ma20": 254.97,
+        "ma50": 241.28,
+        "volume_vs_20d": 1.04,
+        "atr14": 11.72,
+        "chg_5d_pct": 0.1
+      },
+      "weekly_snapshot": {
+        "ticker": "ALB",
+        "week_start": "2021-12-13",
+        "trend_regime": "rangebound",
+        "volatility_regime": "high",
+        "rsi_14": 32.4,
+        "price_vs_sma50": 0.986,
+        "notes": "ADX 16.7, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALB_2021-12-09_bearish_sample_017_004",
+      "scenario_id": "ALB_2021-12-09",
+      "window_type": "bearish_sample_017",
+      "chronological_index": 4,
+      "state_id": "bearish_sample_017_state_004",
+      "time_spot": "2021-12-14",
+      "reference_session": "2021-12-14",
+      "question": "Session summary for December 14, 2021: ALB opened $235.28, ranged $229.32-$236.92, closed $233.26. Volume 1.2M (1.12x 20-day avg). 20-day $253.66 | 50-day $241.83. 5-day return -6.05%. ATR-14 $11.29. RSI 33.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-12-14",
+        "open": 235.28,
+        "high": 236.92,
+        "low": 229.32,
+        "close": 233.26,
+        "volume": 1207700,
+        "ma20": 253.66,
+        "ma50": 241.83,
+        "volume_vs_20d": 1.12,
+        "atr14": 11.29,
+        "chg_5d_pct": -6.05
+      },
+      "weekly_snapshot": {
+        "ticker": "ALB",
+        "week_start": "2021-12-13",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 33.6,
+        "price_vs_sma50": 0.965,
+        "notes": "ADX 17.8, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALB_2021-12-09_bearish_sample_017_005",
+      "scenario_id": "ALB_2021-12-09",
+      "window_type": "bearish_sample_017",
+      "chronological_index": 5,
+      "state_id": "bearish_sample_017_state_005",
+      "time_spot": "2021-12-15",
+      "reference_session": "2021-12-15",
+      "question": "Session summary for December 15, 2021: ALB opened $219.38, ranged $217.10-$230.06, closed $229.40. Volume 1.9M (1.63x 20-day avg). 20-day $252.09 | 50-day $242.17. 5-day return -9.39%. ATR-14 $11.89. RSI 32.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-12-15",
+        "open": 219.38,
+        "high": 230.06,
+        "low": 217.1,
+        "close": 229.4,
+        "volume": 1854800,
+        "ma20": 252.09,
+        "ma50": 242.17,
+        "volume_vs_20d": 1.63,
+        "atr14": 11.89,
+        "chg_5d_pct": -9.39
+      },
+      "weekly_snapshot": {
+        "ticker": "ALB",
+        "week_start": "2021-12-13",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 32.5,
+        "price_vs_sma50": 0.947,
+        "notes": "ADX 21.1, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALB_2021-12-09_bearish_sample_017_006",
+      "scenario_id": "ALB_2021-12-09",
+      "window_type": "bearish_sample_017",
+      "chronological_index": 6,
+      "state_id": "bearish_sample_017_state_006",
+      "time_spot": "2021-12-16",
+      "reference_session": "2021-12-16",
+      "question": "Session summary for December 16, 2021: ALB opened $232.55, ranged $218.86-$232.85, closed $221.27. Volume 1.5M (1.25x 20-day avg). 20-day $250.08 | 50-day $242.34. 5-day return -10.17%. ATR-14 $12.10. RSI 32.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-12-16",
+        "open": 232.55,
+        "high": 232.85,
+        "low": 218.86,
+        "close": 221.27,
+        "volume": 1470100,
+        "ma20": 250.08,
+        "ma50": 242.34,
+        "volume_vs_20d": 1.25,
+        "atr14": 12.1,
+        "chg_5d_pct": -10.17
+      },
+      "weekly_snapshot": {
+        "ticker": "ALB",
+        "week_start": "2021-12-13",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 32.2,
+        "price_vs_sma50": 0.913,
+        "notes": "ADX 24.0, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALB_2021-12-09_bearish_sample_017_007",
+      "scenario_id": "ALB_2021-12-09",
+      "window_type": "bearish_sample_017",
+      "chronological_index": 7,
+      "state_id": "bearish_sample_017_state_007",
+      "time_spot": "2021-12-17",
+      "reference_session": "2021-12-17",
+      "question": "Session summary for December 17, 2021: ALB opened $217.58, ranged $212.97-$222.80, closed $220.26. Volume 2.4M (1.87x 20-day avg). 20-day $247.96 | 50-day $242.49. 5-day return -12.41%. ATR-14 $12.07. RSI 25.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-12-17",
+        "open": 217.58,
+        "high": 222.8,
+        "low": 212.97,
+        "close": 220.26,
+        "volume": 2350400,
+        "ma20": 247.96,
+        "ma50": 242.49,
+        "volume_vs_20d": 1.87,
+        "atr14": 12.07,
+        "chg_5d_pct": -12.41
+      },
+      "weekly_snapshot": {
+        "ticker": "ALB",
+        "week_start": "2021-12-13",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 25.1,
+        "price_vs_sma50": 0.908,
+        "notes": "ADX 28.2, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALB_2021-12-09_bearish_sample_017_008",
+      "scenario_id": "ALB_2021-12-09",
+      "window_type": "bearish_sample_017",
+      "chronological_index": 8,
+      "state_id": "bearish_sample_017_state_008",
+      "time_spot": "2021-12-20",
+      "reference_session": "2021-12-20",
+      "question": "Session summary for December 20, 2021: ALB opened $210.91, ranged $206.67-$213.84, closed $209.01. Volume 1.7M (1.32x 20-day avg). 20-day $244.95 | 50-day $242.55. 5-day return -12.18%. ATR-14 $12.14. RSI 24.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-12-20",
+        "open": 210.91,
+        "high": 213.84,
+        "low": 206.67,
+        "close": 209.01,
+        "volume": 1703200,
+        "ma20": 244.95,
+        "ma50": 242.55,
+        "volume_vs_20d": 1.32,
+        "atr14": 12.14,
+        "chg_5d_pct": -12.18
+      },
+      "weekly_snapshot": {
+        "ticker": "ALB",
+        "week_start": "2021-12-20",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 24.5,
+        "price_vs_sma50": 0.862,
+        "notes": "ADX 32.1, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALB_2021-12-09_bearish_sample_017_009",
+      "scenario_id": "ALB_2021-12-09",
+      "window_type": "bearish_sample_017",
+      "chronological_index": 9,
+      "state_id": "bearish_sample_017_state_009",
+      "time_spot": "2021-12-21",
+      "reference_session": "2021-12-21",
+      "question": "Session summary for December 21, 2021: ALB opened $213.13, ranged $210.59-$215.60, closed $214.78. Volume 0.8M (0.66x 20-day avg). 20-day $242.11 | 50-day $242.75. 5-day return -7.92%. ATR-14 $11.50. RSI 31.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-12-21",
+        "open": 213.13,
+        "high": 215.6,
+        "low": 210.59,
+        "close": 214.78,
+        "volume": 805800,
+        "ma20": 242.11,
+        "ma50": 242.75,
+        "volume_vs_20d": 0.66,
+        "atr14": 11.5,
+        "chg_5d_pct": -7.92
+      },
+      "weekly_snapshot": {
+        "ticker": "ALB",
+        "week_start": "2021-12-20",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 31.1,
+        "price_vs_sma50": 0.885,
+        "notes": "ADX 35.9, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALB_2021-12-09_bearish_sample_017_010",
+      "scenario_id": "ALB_2021-12-09",
+      "window_type": "bearish_sample_017",
+      "chronological_index": 10,
+      "state_id": "bearish_sample_017_state_010",
+      "time_spot": "2021-12-22",
+      "reference_session": "2021-12-22",
+      "question": "Session summary for December 22, 2021: ALB opened $214.64, ranged $214.08-$219.36, closed $215.82. Volume 0.8M (0.66x 20-day avg). 20-day $239.74 | 50-day $242.92. 5-day return -5.92%. ATR-14 $11.22. RSI 30.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-12-22",
+        "open": 214.64,
+        "high": 219.36,
+        "low": 214.08,
+        "close": 215.82,
+        "volume": 779100,
+        "ma20": 239.74,
+        "ma50": 242.92,
+        "volume_vs_20d": 0.66,
+        "atr14": 11.22,
+        "chg_5d_pct": -5.92
+      },
+      "weekly_snapshot": {
+        "ticker": "ALB",
+        "week_start": "2021-12-20",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 30.8,
+        "price_vs_sma50": 0.888,
+        "notes": "ADX 38.5, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALB_2021-12-09_bearish_sample_017_011",
+      "scenario_id": "ALB_2021-12-09",
+      "window_type": "bearish_sample_017",
+      "chronological_index": 11,
+      "state_id": "bearish_sample_017_state_011",
+      "time_spot": "2021-12-23",
+      "reference_session": "2021-12-23",
+      "question": "Session summary for December 23, 2021: ALB opened $216.26, ranged $213.84-$219.89, closed $218.38. Volume 0.8M (0.69x 20-day avg). 20-day $237.53 | 50-day $243.01. 5-day return -1.31%. ATR-14 $10.24. RSI 36.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-12-23",
+        "open": 216.26,
+        "high": 219.89,
+        "low": 213.84,
+        "close": 218.38,
+        "volume": 810000,
+        "ma20": 237.53,
+        "ma50": 243.01,
+        "volume_vs_20d": 0.69,
+        "atr14": 10.24,
+        "chg_5d_pct": -1.31
+      },
+      "weekly_snapshot": {
+        "ticker": "ALB",
+        "week_start": "2021-12-20",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 36.5,
+        "price_vs_sma50": 0.899,
+        "notes": "ADX 39.5, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALB_2021-12-09_bearish_sample_017_012",
+      "scenario_id": "ALB_2021-12-09",
+      "window_type": "bearish_sample_017",
+      "chronological_index": 12,
+      "state_id": "bearish_sample_017_state_012",
+      "time_spot": "2021-12-27",
+      "reference_session": "2021-12-27",
+      "question": "Session summary for December 27, 2021: ALB opened $219.95, ranged $217.99-$223.59, closed $223.36. Volume 0.6M (0.51x 20-day avg). 20-day $235.93 | 50-day $243.05. 5-day return +1.41%. ATR-14 $9.71. RSI 41.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-12-27",
+        "open": 219.95,
+        "high": 223.59,
+        "low": 217.99,
+        "close": 223.36,
+        "volume": 593400,
+        "ma20": 235.93,
+        "ma50": 243.05,
+        "volume_vs_20d": 0.51,
+        "atr14": 9.71,
+        "chg_5d_pct": 1.41
+      },
+      "weekly_snapshot": {
+        "ticker": "ALB",
+        "week_start": "2021-12-27",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 41.4,
+        "price_vs_sma50": 0.919,
+        "notes": "ADX 39.2, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALB_2021-12-09_bearish_sample_017_013",
+      "scenario_id": "ALB_2021-12-09",
+      "window_type": "bearish_sample_017",
+      "chronological_index": 13,
+      "state_id": "bearish_sample_017_state_013",
+      "time_spot": "2021-12-28",
+      "reference_session": "2021-12-28",
+      "question": "Session summary for December 28, 2021: ALB opened $226.24, ranged $221.37-$226.82, closed $223.07. Volume 0.7M (0.61x 20-day avg). 20-day $233.89 | 50-day $243.13. 5-day return +6.73%. ATR-14 $9.10. RSI 33.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-12-28",
+        "open": 226.24,
+        "high": 226.82,
+        "low": 221.37,
+        "close": 223.07,
+        "volume": 704600,
+        "ma20": 233.89,
+        "ma50": 243.13,
+        "volume_vs_20d": 0.61,
+        "atr14": 9.1,
+        "chg_5d_pct": 6.73
+      },
+      "weekly_snapshot": {
+        "ticker": "ALB",
+        "week_start": "2021-12-27",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 33.0,
+        "price_vs_sma50": 0.917,
+        "notes": "ADX 41.1, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALB_2021-12-09_bearish_sample_017_014",
+      "scenario_id": "ALB_2021-12-09",
+      "window_type": "bearish_sample_017",
+      "chronological_index": 14,
+      "state_id": "bearish_sample_017_state_014",
+      "time_spot": "2021-12-29",
+      "reference_session": "2021-12-29",
+      "question": "Session summary for December 29, 2021: ALB opened $221.83, ranged $217.58-$223.18, closed $222.81. Volume 0.6M (0.52x 20-day avg). 20-day $232.28 | 50-day $243.06. 5-day return +3.74%. ATR-14 $9.01. RSI 28.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-12-29",
+        "open": 221.83,
+        "high": 223.18,
+        "low": 217.58,
+        "close": 222.81,
+        "volume": 573800,
+        "ma20": 232.28,
+        "ma50": 243.06,
+        "volume_vs_20d": 0.52,
+        "atr14": 9.01,
+        "chg_5d_pct": 3.74
+      },
+      "weekly_snapshot": {
+        "ticker": "ALB",
+        "week_start": "2021-12-27",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 28.1,
+        "price_vs_sma50": 0.917,
+        "notes": "ADX 43.7, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALB_2021-12-09_bearish_sample_017_015",
+      "scenario_id": "ALB_2021-12-09",
+      "window_type": "bearish_sample_017",
+      "chronological_index": 15,
+      "state_id": "bearish_sample_017_state_015",
+      "time_spot": "2021-12-30",
+      "reference_session": "2021-12-30",
+      "question": "Session summary for December 30, 2021: ALB opened $221.35, ranged $221.35-$227.31, closed $224.56. Volume 0.6M (0.57x 20-day avg). 20-day $231.08 | 50-day $243.03. 5-day return +4.05%. ATR-14 $8.81. RSI 33.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-12-30",
+        "open": 221.35,
+        "high": 227.31,
+        "low": 221.35,
+        "close": 224.56,
+        "volume": 610200,
+        "ma20": 231.08,
+        "ma50": 243.03,
+        "volume_vs_20d": 0.57,
+        "atr14": 8.81,
+        "chg_5d_pct": 4.05
+      },
+      "weekly_snapshot": {
+        "ticker": "ALB",
+        "week_start": "2021-12-27",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 33.1,
+        "price_vs_sma50": 0.924,
+        "notes": "ADX 45.2, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALB_2021-12-09_bearish_sample_017_016",
+      "scenario_id": "ALB_2021-12-09",
+      "window_type": "bearish_sample_017",
+      "chronological_index": 16,
+      "state_id": "bearish_sample_017_state_016",
+      "time_spot": "2021-12-31",
+      "reference_session": "2021-12-31",
+      "question": "Session summary for December 31, 2021: ALB opened $224.23, ranged $223.71-$227.22, closed $224.00. Volume 0.4M (0.37x 20-day avg). 20-day $229.78 | 50-day $243.01. 5-day return +2.58%. ATR-14 $8.63. RSI 27.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-12-31",
+        "open": 224.23,
+        "high": 227.22,
+        "low": 223.71,
+        "close": 224.0,
+        "volume": 380300,
+        "ma20": 229.78,
+        "ma50": 243.01,
+        "volume_vs_20d": 0.37,
+        "atr14": 8.63,
+        "chg_5d_pct": 2.58
+      },
+      "weekly_snapshot": {
+        "ticker": "ALB",
+        "week_start": "2021-12-27",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 27.0,
+        "price_vs_sma50": 0.922,
+        "notes": "ADX 46.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALB_2021-12-09_bearish_sample_017_017",
+      "scenario_id": "ALB_2021-12-09",
+      "window_type": "bearish_sample_017",
+      "chronological_index": 17,
+      "state_id": "bearish_sample_017_state_017",
+      "time_spot": "2022-01-03",
+      "reference_session": "2022-01-03",
+      "question": "Session summary for January 03, 2022: ALB opened $226.84, ranged $219.81-$229.06, closed $226.78. Volume 1.1M (1.12x 20-day avg). 20-day $229.09 | 50-day $243.07. 5-day return +1.53%. ATR-14 $8.25. RSI 38.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-01-03",
+        "open": 226.84,
+        "high": 229.06,
+        "low": 219.81,
+        "close": 226.78,
+        "volume": 1130500,
+        "ma20": 229.09,
+        "ma50": 243.07,
+        "volume_vs_20d": 1.12,
+        "atr14": 8.25,
+        "chg_5d_pct": 1.53
+      },
+      "weekly_snapshot": {
+        "ticker": "ALB",
+        "week_start": "2022-01-03",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 38.5,
+        "price_vs_sma50": 0.933,
+        "notes": "ADX 45.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALB_2021-12-09_bearish_sample_017_018",
+      "scenario_id": "ALB_2021-12-09",
+      "window_type": "bearish_sample_017",
+      "chronological_index": 18,
+      "state_id": "bearish_sample_017_state_018",
+      "time_spot": "2022-01-04",
+      "reference_session": "2022-01-04",
+      "question": "Session summary for January 04, 2022: ALB opened $229.03, ranged $228.50-$237.59, closed $232.44. Volume 1.1M (1.13x 20-day avg). 20-day $228.82 | 50-day $243.29. 5-day return +4.20%. ATR-14 $8.40. RSI 49.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-01-04",
+        "open": 229.03,
+        "high": 237.59,
+        "low": 228.5,
+        "close": 232.44,
+        "volume": 1142500,
+        "ma20": 228.82,
+        "ma50": 243.29,
+        "volume_vs_20d": 1.13,
+        "atr14": 8.4,
+        "chg_5d_pct": 4.2
+      },
+      "weekly_snapshot": {
+        "ticker": "ALB",
+        "week_start": "2022-01-03",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 49.2,
+        "price_vs_sma50": 0.955,
+        "notes": "ADX 42.5, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALB_2021-12-09_bearish_sample_017_019",
+      "scenario_id": "ALB_2021-12-09",
+      "window_type": "bearish_sample_017",
+      "chronological_index": 19,
+      "state_id": "bearish_sample_017_state_019",
+      "time_spot": "2022-01-05",
+      "reference_session": "2022-01-05",
+      "question": "Session summary for January 05, 2022: ALB opened $229.97, ranged $225.54-$237.09, closed $225.79. Volume 1.1M (1.05x 20-day avg). 20-day $227.70 | 50-day $243.22. 5-day return +1.34%. ATR-14 $8.07. RSI 46.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-01-05",
+        "open": 229.97,
+        "high": 237.09,
+        "low": 225.54,
+        "close": 225.79,
+        "volume": 1072100,
+        "ma20": 227.7,
+        "ma50": 243.22,
+        "volume_vs_20d": 1.05,
+        "atr14": 8.07,
+        "chg_5d_pct": 1.34
+      },
+      "weekly_snapshot": {
+        "ticker": "ALB",
+        "week_start": "2022-01-03",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 46.6,
+        "price_vs_sma50": 0.928,
+        "notes": "ADX 39.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALB_2021-12-09_bearish_sample_017_020",
+      "scenario_id": "ALB_2021-12-09",
+      "window_type": "bearish_sample_017",
+      "chronological_index": 20,
+      "state_id": "bearish_sample_017_state_020",
+      "time_spot": "2022-01-06",
+      "reference_session": "2022-01-06",
+      "question": "Session summary for January 06, 2022: ALB opened $224.22, ranged $217.68-$225.82, closed $223.63. Volume 1.0M (0.97x 20-day avg). 20-day $226.22 | 50-day $243.18. 5-day return -0.41%. ATR-14 $7.66. RSI 52.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-01-06",
+        "open": 224.22,
+        "high": 225.82,
+        "low": 217.68,
+        "close": 223.63,
+        "volume": 1002400,
+        "ma20": 226.22,
+        "ma50": 243.18,
+        "volume_vs_20d": 0.97,
+        "atr14": 7.66,
+        "chg_5d_pct": -0.41
+      },
+      "weekly_snapshot": {
+        "ticker": "ALB",
+        "week_start": "2022-01-03",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 52.5,
+        "price_vs_sma50": 0.92,
+        "notes": "ADX 37.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALB_2021-12-09_bearish_sample_017_021",
+      "scenario_id": "ALB_2021-12-09",
+      "window_type": "bearish_sample_017",
+      "chronological_index": 21,
+      "state_id": "bearish_sample_017_state_021",
+      "time_spot": "2022-01-07",
+      "reference_session": "2022-01-07",
+      "question": "Session summary for January 07, 2022: ALB opened $224.23, ranged $222.05-$228.89, closed $226.16. Volume 0.8M (0.77x 20-day avg). 20-day $225.21 | 50-day $243.27. 5-day return +0.96%. ATR-14 $7.44. RSI 56.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-01-07",
+        "open": 224.23,
+        "high": 228.89,
+        "low": 222.05,
+        "close": 226.16,
+        "volume": 795700,
+        "ma20": 225.21,
+        "ma50": 243.27,
+        "volume_vs_20d": 0.77,
+        "atr14": 7.44,
+        "chg_5d_pct": 0.96
+      },
+      "weekly_snapshot": {
+        "ticker": "ALB",
+        "week_start": "2022-01-03",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 56.1,
+        "price_vs_sma50": 0.93,
+        "notes": "ADX 33.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALB_2021-12-09_bearish_sample_017_022",
+      "scenario_id": "ALB_2021-12-09",
+      "window_type": "bearish_sample_017",
+      "chronological_index": 22,
+      "state_id": "bearish_sample_017_state_022",
+      "time_spot": "2022-01-10",
+      "reference_session": "2022-01-10",
+      "question": "Session summary for January 10, 2022: ALB opened $221.35, ranged $210.88-$223.26, closed $217.49. Volume 1.1M (1.04x 20-day avg). 20-day $223.51 | 50-day $242.90. 5-day return -4.10%. ATR-14 $7.56. RSI 59.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-01-10",
+        "open": 221.35,
+        "high": 223.26,
+        "low": 210.88,
+        "close": 217.49,
+        "volume": 1105400,
+        "ma20": 223.51,
+        "ma50": 242.9,
+        "volume_vs_20d": 1.04,
+        "atr14": 7.56,
+        "chg_5d_pct": -4.1
+      },
+      "weekly_snapshot": {
+        "ticker": "ALB",
+        "week_start": "2022-01-10",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 59.3,
+        "price_vs_sma50": 0.895,
+        "notes": "ADX 28.9, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALB_2021-12-09_bearish_sample_017_023",
+      "scenario_id": "ALB_2021-12-09",
+      "window_type": "bearish_sample_017",
+      "chronological_index": 23,
+      "state_id": "bearish_sample_017_state_023",
+      "time_spot": "2022-01-11",
+      "reference_session": "2022-01-11",
+      "question": "Session summary for January 11, 2022: ALB opened $218.15, ranged $217.66-$230.83, closed $230.13. Volume 1.0M (0.94x 20-day avg). 20-day $223.12 | 50-day $242.72. 5-day return -0.99%. ATR-14 $8.05. RSI 64.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-01-11",
+        "open": 218.15,
+        "high": 230.83,
+        "low": 217.66,
+        "close": 230.13,
+        "volume": 987000,
+        "ma20": 223.12,
+        "ma50": 242.72,
+        "volume_vs_20d": 0.94,
+        "atr14": 8.05,
+        "chg_5d_pct": -0.99
+      },
+      "weekly_snapshot": {
+        "ticker": "ALB",
+        "week_start": "2022-01-10",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 64.6,
+        "price_vs_sma50": 0.948,
+        "notes": "ADX 25.4, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALB_2021-12-09_bearish_sample_017_024",
+      "scenario_id": "ALB_2021-12-09",
+      "window_type": "bearish_sample_017",
+      "chronological_index": 24,
+      "state_id": "bearish_sample_017_state_024",
+      "time_spot": "2022-01-12",
+      "reference_session": "2022-01-12",
+      "question": "Session summary for January 12, 2022: ALB opened $234.76, ranged $229.56-$237.64, closed $231.00. Volume 1.1M (1.09x 20-day avg). 20-day $223.01 | 50-day $242.44. 5-day return +2.30%. ATR-14 $8.25. RSI 64.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-01-12",
+        "open": 234.76,
+        "high": 237.64,
+        "low": 229.56,
+        "close": 231.0,
+        "volume": 1143300,
+        "ma20": 223.01,
+        "ma50": 242.44,
+        "volume_vs_20d": 1.09,
+        "atr14": 8.25,
+        "chg_5d_pct": 2.3
+      },
+      "weekly_snapshot": {
+        "ticker": "ALB",
+        "week_start": "2022-01-10",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 64.5,
+        "price_vs_sma50": 0.953,
+        "notes": "ADX 22.9, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALB_2021-12-09_bearish_sample_017_025",
+      "scenario_id": "ALB_2021-12-09",
+      "window_type": "bearish_sample_017",
+      "chronological_index": 25,
+      "state_id": "bearish_sample_017_state_025",
+      "time_spot": "2022-01-13",
+      "reference_session": "2022-01-13",
+      "question": "Session summary for January 13, 2022: ALB opened $232.81, ranged $224.72-$236.48, closed $225.40. Volume 0.6M (0.62x 20-day avg). 20-day $222.81 | 50-day $241.97. 5-day return +0.79%. ATR-14 $8.65. RSI 56.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-01-13",
+        "open": 232.81,
+        "high": 236.48,
+        "low": 224.72,
+        "close": 225.4,
+        "volume": 610700,
+        "ma20": 222.81,
+        "ma50": 241.97,
+        "volume_vs_20d": 0.62,
+        "atr14": 8.65,
+        "chg_5d_pct": 0.79
+      },
+      "weekly_snapshot": {
+        "ticker": "ALB",
+        "week_start": "2022-01-10",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 56.3,
+        "price_vs_sma50": 0.932,
+        "notes": "ADX 20.2, MACD bullish"
+      }
+    }
+  ]
+}

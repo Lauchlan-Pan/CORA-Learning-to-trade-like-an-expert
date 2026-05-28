@@ -1,0 +1,2898 @@
+{
+  "metadata": {
+    "instrument": "ACGL",
+    "initial_capital": 10000,
+    "window_type": "bullish_sample_001",
+    "description": "ACGL window (2022-09-26 \u2013 2022-10-28) - bullish regime.",
+    "num_mcqs": 25,
+    "notes": "Orders express target exposure fractions relative to the leverage ceiling.",
+    "max_leverage": 2.5,
+    "exposure_buckets": [
+      0.8,
+      0.6,
+      0.4,
+      0.2
+    ],
+    "start_reference": "2022-09-26",
+    "end_reference": "2022-10-28",
+    "regime": "bullish",
+    "bh_return": 36.02
+  },
+  "mcqs": [
+    {
+      "scenario_instance_id": "ACGL_2022-09-26_bullish_sample_001_001",
+      "scenario_id": "ACGL_2022-09-26",
+      "window_type": "bullish_sample_001",
+      "chronological_index": 1,
+      "state_id": "bullish_sample_001_state_001",
+      "time_spot": "2022-09-26",
+      "reference_session": "2022-09-26",
+      "question": "Session summary for September 26, 2022: ACGL opened $40.69, ranged $39.03-$40.82, closed $39.62. Volume 2.0M (1.64x 20-day avg). 20-day $43.53 | 50-day $43.16. 5-day return -12.24%. ATR-14 $1.14. RSI 33.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-09-26",
+        "open": 40.69,
+        "high": 40.82,
+        "low": 39.03,
+        "close": 39.62,
+        "volume": 2021900,
+        "ma20": 43.53,
+        "ma50": 43.16,
+        "volume_vs_20d": 1.64,
+        "atr14": 1.14,
+        "chg_5d_pct": -12.24
+      },
+      "weekly_snapshot": {
+        "ticker": "ACGL",
+        "week_start": "2022-09-26",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 33.0,
+        "price_vs_sma50": 0.918,
+        "notes": "ADX 17.7, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACGL_2022-09-26_bullish_sample_001_002",
+      "scenario_id": "ACGL_2022-09-26",
+      "window_type": "bullish_sample_001",
+      "chronological_index": 2,
+      "state_id": "bullish_sample_001_state_002",
+      "time_spot": "2022-09-27",
+      "reference_session": "2022-09-27",
+      "question": "Session summary for September 27, 2022: ACGL opened $39.77, ranged $39.50-$41.15, closed $40.98. Volume 2.6M (1.97x 20-day avg). 20-day $43.38 | 50-day $43.16. 5-day return -7.17%. ATR-14 $1.18. RSI 35.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-09-27",
+        "open": 39.77,
+        "high": 41.15,
+        "low": 39.5,
+        "close": 40.98,
+        "volume": 2626500,
+        "ma20": 43.38,
+        "ma50": 43.16,
+        "volume_vs_20d": 1.97,
+        "atr14": 1.18,
+        "chg_5d_pct": -7.17
+      },
+      "weekly_snapshot": {
+        "ticker": "ACGL",
+        "week_start": "2022-09-26",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 35.2,
+        "price_vs_sma50": 0.95,
+        "notes": "ADX 19.1, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACGL_2022-09-26_bullish_sample_001_003",
+      "scenario_id": "ACGL_2022-09-26",
+      "window_type": "bullish_sample_001",
+      "chronological_index": 3,
+      "state_id": "bullish_sample_001_state_003",
+      "time_spot": "2022-09-28",
+      "reference_session": "2022-09-28",
+      "question": "Session summary for September 28, 2022: ACGL opened $41.02, ranged $41.02-$42.64, closed $42.29. Volume 3.2M (2.20x 20-day avg). 20-day $43.32 | 50-day $43.17. 5-day return -0.74%. ATR-14 $1.24. RSI 41.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-09-28",
+        "open": 41.02,
+        "high": 42.64,
+        "low": 41.02,
+        "close": 42.29,
+        "volume": 3209500,
+        "ma20": 43.32,
+        "ma50": 43.17,
+        "volume_vs_20d": 2.2,
+        "atr14": 1.24,
+        "chg_5d_pct": -0.74
+      },
+      "weekly_snapshot": {
+        "ticker": "ACGL",
+        "week_start": "2022-09-26",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 41.1,
+        "price_vs_sma50": 0.98,
+        "notes": "ADX 19.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACGL_2022-09-26_bullish_sample_001_004",
+      "scenario_id": "ACGL_2022-09-26",
+      "window_type": "bullish_sample_001",
+      "chronological_index": 4,
+      "state_id": "bullish_sample_001_state_004",
+      "time_spot": "2022-09-29",
+      "reference_session": "2022-09-29",
+      "question": "Session summary for September 29, 2022: ACGL opened $42.04, ranged $42.03-$43.73, closed $43.58. Volume 2.8M (1.89x 20-day avg). 20-day $43.32 | 50-day $43.21. 5-day return +4.33%. ATR-14 $1.33. RSI 47.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-09-29",
+        "open": 42.04,
+        "high": 43.73,
+        "low": 42.03,
+        "close": 43.58,
+        "volume": 2830400,
+        "ma20": 43.32,
+        "ma50": 43.21,
+        "volume_vs_20d": 1.89,
+        "atr14": 1.33,
+        "chg_5d_pct": 4.33
+      },
+      "weekly_snapshot": {
+        "ticker": "ACGL",
+        "week_start": "2022-09-26",
+        "trend_regime": "rangebound",
+        "volatility_regime": "high",
+        "rsi_14": 47.3,
+        "price_vs_sma50": 1.009,
+        "notes": "ADX 19.6, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACGL_2022-09-26_bullish_sample_001_005",
+      "scenario_id": "ACGL_2022-09-26",
+      "window_type": "bullish_sample_001",
+      "chronological_index": 5,
+      "state_id": "bullish_sample_001_state_005",
+      "time_spot": "2022-09-30",
+      "reference_session": "2022-09-30",
+      "question": "Session summary for September 30, 2022: ACGL opened $43.48, ranged $43.25-$44.20, closed $43.30. Volume 2.3M (1.50x 20-day avg). 20-day $43.31 | 50-day $43.24. 5-day return +5.66%. ATR-14 $1.34. RSI 43.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-09-30",
+        "open": 43.48,
+        "high": 44.2,
+        "low": 43.25,
+        "close": 43.3,
+        "volume": 2344300,
+        "ma20": 43.31,
+        "ma50": 43.24,
+        "volume_vs_20d": 1.5,
+        "atr14": 1.34,
+        "chg_5d_pct": 5.66
+      },
+      "weekly_snapshot": {
+        "ticker": "ACGL",
+        "week_start": "2022-09-26",
+        "trend_regime": "rangebound",
+        "volatility_regime": "high",
+        "rsi_14": 43.7,
+        "price_vs_sma50": 1.001,
+        "notes": "ADX 19.9, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACGL_2022-09-26_bullish_sample_001_006",
+      "scenario_id": "ACGL_2022-09-26",
+      "window_type": "bullish_sample_001",
+      "chronological_index": 6,
+      "state_id": "bullish_sample_001_state_006",
+      "time_spot": "2022-10-03",
+      "reference_session": "2022-10-03",
+      "question": "Session summary for October 03, 2022: ACGL opened $43.54, ranged $42.71-$44.29, closed $44.06. Volume 2.1M (1.33x 20-day avg). 20-day $43.35 | 50-day $43.29. 5-day return +11.18%. ATR-14 $1.36. RSI 47.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-03",
+        "open": 43.54,
+        "high": 44.29,
+        "low": 42.71,
+        "close": 44.06,
+        "volume": 2149100,
+        "ma20": 43.35,
+        "ma50": 43.29,
+        "volume_vs_20d": 1.33,
+        "atr14": 1.36,
+        "chg_5d_pct": 11.18
+      },
+      "weekly_snapshot": {
+        "ticker": "ACGL",
+        "week_start": "2022-10-03",
+        "trend_regime": "rangebound",
+        "volatility_regime": "high",
+        "rsi_14": 47.2,
+        "price_vs_sma50": 1.018,
+        "notes": "ADX 20.8, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACGL_2022-09-26_bullish_sample_001_007",
+      "scenario_id": "ACGL_2022-09-26",
+      "window_type": "bullish_sample_001",
+      "chronological_index": 7,
+      "state_id": "bullish_sample_001_state_007",
+      "time_spot": "2022-10-04",
+      "reference_session": "2022-10-04",
+      "question": "Session summary for October 04, 2022: ACGL opened $44.18, ranged $44.14-$46.33, closed $46.30. Volume 2.5M (1.46x 20-day avg). 20-day $43.53 | 50-day $43.38. 5-day return +12.97%. ATR-14 $1.47. RSI 55.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-04",
+        "open": 44.18,
+        "high": 46.33,
+        "low": 44.14,
+        "close": 46.3,
+        "volume": 2469300,
+        "ma20": 43.53,
+        "ma50": 43.38,
+        "volume_vs_20d": 1.46,
+        "atr14": 1.47,
+        "chg_5d_pct": 12.97
+      },
+      "weekly_snapshot": {
+        "ticker": "ACGL",
+        "week_start": "2022-10-03",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 55.4,
+        "price_vs_sma50": 1.067,
+        "notes": "ADX 20.9, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACGL_2022-09-26_bullish_sample_001_008",
+      "scenario_id": "ACGL_2022-09-26",
+      "window_type": "bullish_sample_001",
+      "chronological_index": 8,
+      "state_id": "bullish_sample_001_state_008",
+      "time_spot": "2022-10-05",
+      "reference_session": "2022-10-05",
+      "question": "Session summary for October 05, 2022: ACGL opened $45.88, ranged $45.35-$46.14, closed $45.61. Volume 2.2M (1.26x 20-day avg). 20-day $43.61 | 50-day $43.45. 5-day return +7.85%. ATR-14 $1.47. RSI 52.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-05",
+        "open": 45.88,
+        "high": 46.14,
+        "low": 45.35,
+        "close": 45.61,
+        "volume": 2197500,
+        "ma20": 43.61,
+        "ma50": 43.45,
+        "volume_vs_20d": 1.26,
+        "atr14": 1.47,
+        "chg_5d_pct": 7.85
+      },
+      "weekly_snapshot": {
+        "ticker": "ACGL",
+        "week_start": "2022-10-03",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 52.1,
+        "price_vs_sma50": 1.05,
+        "notes": "ADX 20.7, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACGL_2022-09-26_bullish_sample_001_009",
+      "scenario_id": "ACGL_2022-09-26",
+      "window_type": "bullish_sample_001",
+      "chronological_index": 9,
+      "state_id": "bullish_sample_001_state_009",
+      "time_spot": "2022-10-06",
+      "reference_session": "2022-10-06",
+      "question": "Session summary for October 06, 2022: ACGL opened $45.39, ranged $45.32-$45.75, closed $45.64. Volume 2.5M (1.37x 20-day avg). 20-day $43.68 | 50-day $43.52. 5-day return +4.73%. ATR-14 $1.43. RSI 54.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-06",
+        "open": 45.39,
+        "high": 45.75,
+        "low": 45.32,
+        "close": 45.64,
+        "volume": 2502600,
+        "ma20": 43.68,
+        "ma50": 43.52,
+        "volume_vs_20d": 1.37,
+        "atr14": 1.43,
+        "chg_5d_pct": 4.73
+      },
+      "weekly_snapshot": {
+        "ticker": "ACGL",
+        "week_start": "2022-10-03",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 54.9,
+        "price_vs_sma50": 1.049,
+        "notes": "ADX 20.2, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACGL_2022-09-26_bullish_sample_001_010",
+      "scenario_id": "ACGL_2022-09-26",
+      "window_type": "bullish_sample_001",
+      "chronological_index": 10,
+      "state_id": "bullish_sample_001_state_010",
+      "time_spot": "2022-10-07",
+      "reference_session": "2022-10-07",
+      "question": "Session summary for October 07, 2022: ACGL opened $45.36, ranged $43.31-$45.40, closed $43.43. Volume 2.7M (1.41x 20-day avg). 20-day $43.64 | 50-day $43.57. 5-day return +0.29%. ATR-14 $1.50. RSI 44.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-07",
+        "open": 45.36,
+        "high": 45.4,
+        "low": 43.31,
+        "close": 43.43,
+        "volume": 2712200,
+        "ma20": 43.64,
+        "ma50": 43.57,
+        "volume_vs_20d": 1.41,
+        "atr14": 1.5,
+        "chg_5d_pct": 0.29
+      },
+      "weekly_snapshot": {
+        "ticker": "ACGL",
+        "week_start": "2022-10-03",
+        "trend_regime": "rangebound",
+        "volatility_regime": "high",
+        "rsi_14": 44.5,
+        "price_vs_sma50": 0.997,
+        "notes": "ADX 20.2, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACGL_2022-09-26_bullish_sample_001_011",
+      "scenario_id": "ACGL_2022-09-26",
+      "window_type": "bullish_sample_001",
+      "chronological_index": 11,
+      "state_id": "bullish_sample_001_state_011",
+      "time_spot": "2022-10-10",
+      "reference_session": "2022-10-10",
+      "question": "Session summary for October 10, 2022: ACGL opened $43.49, ranged $43.43-$44.55, closed $44.35. Volume 1.5M (0.77x 20-day avg). 20-day $43.62 | 50-day $43.61. 5-day return +0.67%. ATR-14 $1.48. RSI 50.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-10",
+        "open": 43.49,
+        "high": 44.55,
+        "low": 43.43,
+        "close": 44.35,
+        "volume": 1485900,
+        "ma20": 43.62,
+        "ma50": 43.61,
+        "volume_vs_20d": 0.77,
+        "atr14": 1.48,
+        "chg_5d_pct": 0.67
+      },
+      "weekly_snapshot": {
+        "ticker": "ACGL",
+        "week_start": "2022-10-10",
+        "trend_regime": "rangebound",
+        "volatility_regime": "high",
+        "rsi_14": 50.6,
+        "price_vs_sma50": 1.017,
+        "notes": "ADX 20.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACGL_2022-09-26_bullish_sample_001_012",
+      "scenario_id": "ACGL_2022-09-26",
+      "window_type": "bullish_sample_001",
+      "chronological_index": 12,
+      "state_id": "bullish_sample_001_state_012",
+      "time_spot": "2022-10-11",
+      "reference_session": "2022-10-11",
+      "question": "Session summary for October 11, 2022: ACGL opened $44.32, ranged $43.92-$45.03, closed $44.30. Volume 1.5M (0.77x 20-day avg). 20-day $43.60 | 50-day $43.67. 5-day return -4.31%. ATR-14 $1.43. RSI 56.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-11",
+        "open": 44.32,
+        "high": 45.03,
+        "low": 43.92,
+        "close": 44.3,
+        "volume": 1479700,
+        "ma20": 43.6,
+        "ma50": 43.67,
+        "volume_vs_20d": 0.77,
+        "atr14": 1.43,
+        "chg_5d_pct": -4.31
+      },
+      "weekly_snapshot": {
+        "ticker": "ACGL",
+        "week_start": "2022-10-10",
+        "trend_regime": "rangebound",
+        "volatility_regime": "high",
+        "rsi_14": 56.0,
+        "price_vs_sma50": 1.015,
+        "notes": "ADX 20.2, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACGL_2022-09-26_bullish_sample_001_013",
+      "scenario_id": "ACGL_2022-09-26",
+      "window_type": "bullish_sample_001",
+      "chronological_index": 13,
+      "state_id": "bullish_sample_001_state_013",
+      "time_spot": "2022-10-12",
+      "reference_session": "2022-10-12",
+      "question": "Session summary for October 12, 2022: ACGL opened $44.16, ranged $43.31-$44.49, closed $43.32. Volume 1.8M (0.89x 20-day avg). 20-day $43.53 | 50-day $43.71. 5-day return -5.00%. ATR-14 $1.44. RSI 55.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-12",
+        "open": 44.16,
+        "high": 44.49,
+        "low": 43.31,
+        "close": 43.32,
+        "volume": 1750300,
+        "ma20": 43.53,
+        "ma50": 43.71,
+        "volume_vs_20d": 0.89,
+        "atr14": 1.44,
+        "chg_5d_pct": -5.0
+      },
+      "weekly_snapshot": {
+        "ticker": "ACGL",
+        "week_start": "2022-10-10",
+        "trend_regime": "rangebound",
+        "volatility_regime": "high",
+        "rsi_14": 55.4,
+        "price_vs_sma50": 0.991,
+        "notes": "ADX 19.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACGL_2022-09-26_bullish_sample_001_014",
+      "scenario_id": "ACGL_2022-09-26",
+      "window_type": "bullish_sample_001",
+      "chronological_index": 14,
+      "state_id": "bullish_sample_001_state_014",
+      "time_spot": "2022-10-13",
+      "reference_session": "2022-10-13",
+      "question": "Session summary for October 13, 2022: ACGL opened $42.84, ranged $42.43-$45.47, closed $45.20. Volume 3.0M (1.47x 20-day avg). 20-day $43.54 | 50-day $43.79. 5-day return -0.98%. ATR-14 $1.56. RSI 63.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-13",
+        "open": 42.84,
+        "high": 45.47,
+        "low": 42.43,
+        "close": 45.2,
+        "volume": 3025800,
+        "ma20": 43.54,
+        "ma50": 43.79,
+        "volume_vs_20d": 1.47,
+        "atr14": 1.56,
+        "chg_5d_pct": -0.98
+      },
+      "weekly_snapshot": {
+        "ticker": "ACGL",
+        "week_start": "2022-10-10",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 63.7,
+        "price_vs_sma50": 1.032,
+        "notes": "ADX 17.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACGL_2022-09-26_bullish_sample_001_015",
+      "scenario_id": "ACGL_2022-09-26",
+      "window_type": "bullish_sample_001",
+      "chronological_index": 15,
+      "state_id": "bullish_sample_001_state_015",
+      "time_spot": "2022-10-14",
+      "reference_session": "2022-10-14",
+      "question": "Session summary for October 14, 2022: ACGL opened $45.62, ranged $44.44-$45.71, closed $44.69. Volume 1.9M (0.93x 20-day avg). 20-day $43.57 | 50-day $43.85. 5-day return +2.91%. ATR-14 $1.52. RSI 67.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-14",
+        "open": 45.62,
+        "high": 45.71,
+        "low": 44.44,
+        "close": 44.69,
+        "volume": 1909400,
+        "ma20": 43.57,
+        "ma50": 43.85,
+        "volume_vs_20d": 0.93,
+        "atr14": 1.52,
+        "chg_5d_pct": 2.91
+      },
+      "weekly_snapshot": {
+        "ticker": "ACGL",
+        "week_start": "2022-10-10",
+        "trend_regime": "rangebound",
+        "volatility_regime": "high",
+        "rsi_14": 67.5,
+        "price_vs_sma50": 1.019,
+        "notes": "ADX 16.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACGL_2022-09-26_bullish_sample_001_016",
+      "scenario_id": "ACGL_2022-09-26",
+      "window_type": "bullish_sample_001",
+      "chronological_index": 16,
+      "state_id": "bullish_sample_001_state_016",
+      "time_spot": "2022-10-17",
+      "reference_session": "2022-10-17",
+      "question": "Session summary for October 17, 2022: ACGL opened $45.03, ranged $44.77-$45.84, closed $45.72. Volume 1.7M (0.84x 20-day avg). 20-day $43.59 | 50-day $43.93. 5-day return +3.09%. ATR-14 $1.48. RSI 66.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-17",
+        "open": 45.03,
+        "high": 45.84,
+        "low": 44.77,
+        "close": 45.72,
+        "volume": 1736000,
+        "ma20": 43.59,
+        "ma50": 43.93,
+        "volume_vs_20d": 0.84,
+        "atr14": 1.48,
+        "chg_5d_pct": 3.09
+      },
+      "weekly_snapshot": {
+        "ticker": "ACGL",
+        "week_start": "2022-10-17",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 66.7,
+        "price_vs_sma50": 1.041,
+        "notes": "ADX 15.4, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACGL_2022-09-26_bullish_sample_001_017",
+      "scenario_id": "ACGL_2022-09-26",
+      "window_type": "bullish_sample_001",
+      "chronological_index": 17,
+      "state_id": "bullish_sample_001_state_017",
+      "time_spot": "2022-10-18",
+      "reference_session": "2022-10-18",
+      "question": "Session summary for October 18, 2022: ACGL opened $46.25, ranged $45.83-$46.77, closed $46.25. Volume 1.6M (0.74x 20-day avg). 20-day $43.70 | 50-day $44.02. 5-day return +4.40%. ATR-14 $1.44. RSI 64.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-18",
+        "open": 46.25,
+        "high": 46.77,
+        "low": 45.83,
+        "close": 46.25,
+        "volume": 1556700,
+        "ma20": 43.7,
+        "ma50": 44.02,
+        "volume_vs_20d": 0.74,
+        "atr14": 1.44,
+        "chg_5d_pct": 4.4
+      },
+      "weekly_snapshot": {
+        "ticker": "ACGL",
+        "week_start": "2022-10-17",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 64.8,
+        "price_vs_sma50": 1.051,
+        "notes": "ADX 15.8, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACGL_2022-09-26_bullish_sample_001_018",
+      "scenario_id": "ACGL_2022-09-26",
+      "window_type": "bullish_sample_001",
+      "chronological_index": 18,
+      "state_id": "bullish_sample_001_state_018",
+      "time_spot": "2022-10-19",
+      "reference_session": "2022-10-19",
+      "question": "Session summary for October 19, 2022: ACGL opened $45.80, ranged $45.80-$46.80, closed $46.33. Volume 1.5M (0.73x 20-day avg). 20-day $43.89 | 50-day $44.09. 5-day return +6.94%. ATR-14 $1.39. RSI 61.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-19",
+        "open": 45.8,
+        "high": 46.8,
+        "low": 45.8,
+        "close": 46.33,
+        "volume": 1543500,
+        "ma20": 43.89,
+        "ma50": 44.09,
+        "volume_vs_20d": 0.73,
+        "atr14": 1.39,
+        "chg_5d_pct": 6.94
+      },
+      "weekly_snapshot": {
+        "ticker": "ACGL",
+        "week_start": "2022-10-17",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 61.3,
+        "price_vs_sma50": 1.051,
+        "notes": "ADX 16.2, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACGL_2022-09-26_bullish_sample_001_019",
+      "scenario_id": "ACGL_2022-09-26",
+      "window_type": "bullish_sample_001",
+      "chronological_index": 19,
+      "state_id": "bullish_sample_001_state_019",
+      "time_spot": "2022-10-20",
+      "reference_session": "2022-10-20",
+      "question": "Session summary for October 20, 2022: ACGL opened $45.63, ranged $44.99-$46.19, closed $45.19. Volume 2.0M (0.92x 20-day avg). 20-day $44.06 | 50-day $44.14. 5-day return -0.02%. ATR-14 $1.42. RSI 57.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-20",
+        "open": 45.63,
+        "high": 46.19,
+        "low": 44.99,
+        "close": 45.19,
+        "volume": 1970100,
+        "ma20": 44.06,
+        "ma50": 44.14,
+        "volume_vs_20d": 0.92,
+        "atr14": 1.42,
+        "chg_5d_pct": -0.02
+      },
+      "weekly_snapshot": {
+        "ticker": "ACGL",
+        "week_start": "2022-10-17",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 57.2,
+        "price_vs_sma50": 1.024,
+        "notes": "ADX 15.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACGL_2022-09-26_bullish_sample_001_020",
+      "scenario_id": "ACGL_2022-09-26",
+      "window_type": "bullish_sample_001",
+      "chronological_index": 20,
+      "state_id": "bullish_sample_001_state_020",
+      "time_spot": "2022-10-21",
+      "reference_session": "2022-10-21",
+      "question": "Session summary for October 21, 2022: ACGL opened $45.60, ranged $45.05-$46.12, closed $45.86. Volume 1.9M (0.89x 20-day avg). 20-day $44.30 | 50-day $44.18. 5-day return +2.62%. ATR-14 $1.38. RSI 57.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-21",
+        "open": 45.6,
+        "high": 46.12,
+        "low": 45.05,
+        "close": 45.86,
+        "volume": 1935500,
+        "ma20": 44.3,
+        "ma50": 44.18,
+        "volume_vs_20d": 0.89,
+        "atr14": 1.38,
+        "chg_5d_pct": 2.62
+      },
+      "weekly_snapshot": {
+        "ticker": "ACGL",
+        "week_start": "2022-10-17",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 57.0,
+        "price_vs_sma50": 1.038,
+        "notes": "ADX 15.4, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACGL_2022-09-26_bullish_sample_001_021",
+      "scenario_id": "ACGL_2022-09-26",
+      "window_type": "bullish_sample_001",
+      "chronological_index": 21,
+      "state_id": "bullish_sample_001_state_021",
+      "time_spot": "2022-10-24",
+      "reference_session": "2022-10-24",
+      "question": "Session summary for October 24, 2022: ACGL opened $46.05, ranged $46.05-$47.05, closed $46.92. Volume 1.1M (0.50x 20-day avg). 20-day $44.67 | 50-day $44.22. 5-day return +2.62%. ATR-14 $1.30. RSI 52.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-24",
+        "open": 46.05,
+        "high": 47.05,
+        "low": 46.05,
+        "close": 46.92,
+        "volume": 1063300,
+        "ma20": 44.67,
+        "ma50": 44.22,
+        "volume_vs_20d": 0.5,
+        "atr14": 1.3,
+        "chg_5d_pct": 2.62
+      },
+      "weekly_snapshot": {
+        "ticker": "ACGL",
+        "week_start": "2022-10-24",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 52.6,
+        "price_vs_sma50": 1.061,
+        "notes": "ADX 15.4, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACGL_2022-09-26_bullish_sample_001_022",
+      "scenario_id": "ACGL_2022-09-26",
+      "window_type": "bullish_sample_001",
+      "chronological_index": 22,
+      "state_id": "bullish_sample_001_state_022",
+      "time_spot": "2022-10-25",
+      "reference_session": "2022-10-25",
+      "question": "Session summary for October 25, 2022: ACGL opened $46.38, ranged $45.55-$46.85, closed $46.80. Volume 1.9M (0.89x 20-day avg). 20-day $44.96 | 50-day $44.27. 5-day return +1.19%. ATR-14 $1.33. RSI 55.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-25",
+        "open": 46.38,
+        "high": 46.85,
+        "low": 45.55,
+        "close": 46.8,
+        "volume": 1851200,
+        "ma20": 44.96,
+        "ma50": 44.27,
+        "volume_vs_20d": 0.89,
+        "atr14": 1.33,
+        "chg_5d_pct": 1.19
+      },
+      "weekly_snapshot": {
+        "ticker": "ACGL",
+        "week_start": "2022-10-24",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 55.3,
+        "price_vs_sma50": 1.057,
+        "notes": "ADX 15.7, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACGL_2022-09-26_bullish_sample_001_023",
+      "scenario_id": "ACGL_2022-09-26",
+      "window_type": "bullish_sample_001",
+      "chronological_index": 23,
+      "state_id": "bullish_sample_001_state_023",
+      "time_spot": "2022-10-26",
+      "reference_session": "2022-10-26",
+      "question": "Session summary for October 26, 2022: ACGL opened $46.89, ranged $46.21-$47.22, closed $46.39. Volume 2.1M (1.02x 20-day avg). 20-day $45.16 | 50-day $44.29. 5-day return +0.14%. ATR-14 $1.37. RSI 53.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-26",
+        "open": 46.89,
+        "high": 47.22,
+        "low": 46.21,
+        "close": 46.39,
+        "volume": 2069300,
+        "ma20": 45.16,
+        "ma50": 44.29,
+        "volume_vs_20d": 1.02,
+        "atr14": 1.37,
+        "chg_5d_pct": 0.14
+      },
+      "weekly_snapshot": {
+        "ticker": "ACGL",
+        "week_start": "2022-10-24",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 53.2,
+        "price_vs_sma50": 1.047,
+        "notes": "ADX 15.5, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACGL_2022-09-26_bullish_sample_001_024",
+      "scenario_id": "ACGL_2022-09-26",
+      "window_type": "bullish_sample_001",
+      "chronological_index": 24,
+      "state_id": "bullish_sample_001_state_024",
+      "time_spot": "2022-10-27",
+      "reference_session": "2022-10-27",
+      "question": "Session summary for October 27, 2022: ACGL opened $47.32, ranged $46.98-$49.31, closed $49.15. Volume 4.1M (1.94x 20-day avg). 20-day $45.44 | 50-day $44.37. 5-day return +8.78%. ATR-14 $1.41. RSI 73.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-27",
+        "open": 47.32,
+        "high": 49.31,
+        "low": 46.98,
+        "close": 49.15,
+        "volume": 4057900,
+        "ma20": 45.44,
+        "ma50": 44.37,
+        "volume_vs_20d": 1.94,
+        "atr14": 1.41,
+        "chg_5d_pct": 8.78
+      },
+      "weekly_snapshot": {
+        "ticker": "ACGL",
+        "week_start": "2022-10-24",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 73.6,
+        "price_vs_sma50": 1.108,
+        "notes": "ADX 18.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACGL_2022-09-26_bullish_sample_001_025",
+      "scenario_id": "ACGL_2022-09-26",
+      "window_type": "bullish_sample_001",
+      "chronological_index": 25,
+      "state_id": "bullish_sample_001_state_025",
+      "time_spot": "2022-10-28",
+      "reference_session": "2022-10-28",
+      "question": "Session summary for October 28, 2022: ACGL opened $52.49, ranged $52.40-$54.19, closed $53.90. Volume 13.2M (5.00x 20-day avg). 20-day $45.97 | 50-day $44.54. 5-day return +17.52%. ATR-14 $1.69. RSI 80.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-28",
+        "open": 52.49,
+        "high": 54.19,
+        "low": 52.4,
+        "close": 53.9,
+        "volume": 13153300,
+        "ma20": 45.97,
+        "ma50": 44.54,
+        "volume_vs_20d": 5.0,
+        "atr14": 1.69,
+        "chg_5d_pct": 17.52
+      },
+      "weekly_snapshot": {
+        "ticker": "ACGL",
+        "week_start": "2022-10-24",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 80.0,
+        "price_vs_sma50": 1.21,
+        "notes": "ADX 22.1, MACD bullish"
+      }
+    }
+  ]
+}

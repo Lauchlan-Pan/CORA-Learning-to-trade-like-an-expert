@@ -1,0 +1,2898 @@
+{
+  "metadata": {
+    "instrument": "ETN",
+    "initial_capital": 10000,
+    "window_type": "bearish_sample_002",
+    "description": "ETN window (2021-01-06 \u2013 2021-02-10) sampled from S&P500 indicator archive.",
+    "num_mcqs": 25,
+    "notes": "Orders express target exposure fractions relative to the leverage ceiling.",
+    "max_leverage": 2.5,
+    "exposure_buckets": [
+      0.8,
+      0.6,
+      0.4,
+      0.2
+    ],
+    "start_reference": "2021-01-06",
+    "end_reference": "2021-02-10",
+    "regime": "bearish",
+    "original_sample": "snp500_sample_064"
+  },
+  "mcqs": [
+    {
+      "scenario_instance_id": "ETN_2021-01-06_bearish_sample_002_001",
+      "scenario_id": "ETN_2021-01-06",
+      "window_type": "bearish_sample_002",
+      "chronological_index": 1,
+      "state_id": "bearish_sample_002_state_001",
+      "time_spot": "2021-01-06",
+      "reference_session": "2021-01-06",
+      "question": "Session summary for January 06, 2021: ETN opened $113.04, ranged $112.90-$118.63, closed $116.86. Volume 3.1M (1.84x 20-day avg). 20-day $108.68 | 50-day $106.66. 5-day return +7.93%. ATR-14 $2.56. RSI 77.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-01-06",
+        "open": 113.04,
+        "high": 118.63,
+        "low": 112.9,
+        "close": 116.86,
+        "volume": 3083000,
+        "ma20": 108.68,
+        "ma50": 106.66,
+        "volume_vs_20d": 1.84,
+        "atr14": 2.56,
+        "chg_5d_pct": 7.93
+      },
+      "weekly_snapshot": {
+        "ticker": "ETN",
+        "week_start": "2021-01-04",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 77.9,
+        "price_vs_sma50": 1.096,
+        "notes": "ADX 29.2, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ETN_2021-01-06_bearish_sample_002_002",
+      "scenario_id": "ETN_2021-01-06",
+      "window_type": "bearish_sample_002",
+      "chronological_index": 2,
+      "state_id": "bearish_sample_002_state_002",
+      "time_spot": "2021-01-07",
+      "reference_session": "2021-01-07",
+      "question": "Session summary for January 07, 2021: ETN opened $118.10, ranged $116.85-$120.14, closed $119.30. Volume 2.6M (1.50x 20-day avg). 20-day $109.20 | 50-day $107.08. 5-day return +8.21%. ATR-14 $2.69. RSI 85.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-01-07",
+        "open": 118.1,
+        "high": 120.14,
+        "low": 116.85,
+        "close": 119.3,
+        "volume": 2585300,
+        "ma20": 109.2,
+        "ma50": 107.08,
+        "volume_vs_20d": 1.5,
+        "atr14": 2.69,
+        "chg_5d_pct": 8.21
+      },
+      "weekly_snapshot": {
+        "ticker": "ETN",
+        "week_start": "2021-01-04",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 85.7,
+        "price_vs_sma50": 1.114,
+        "notes": "ADX 30.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ETN_2021-01-06_bearish_sample_002_003",
+      "scenario_id": "ETN_2021-01-06",
+      "window_type": "bearish_sample_002",
+      "chronological_index": 3,
+      "state_id": "bearish_sample_002_state_003",
+      "time_spot": "2021-01-08",
+      "reference_session": "2021-01-08",
+      "question": "Session summary for January 08, 2021: ETN opened $119.48, ranged $115.65-$120.05, closed $117.26. Volume 2.7M (1.51x 20-day avg). 20-day $109.61 | 50-day $107.49. 5-day return +5.61%. ATR-14 $2.87. RSI 77.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-01-08",
+        "open": 119.48,
+        "high": 120.05,
+        "low": 115.65,
+        "close": 117.26,
+        "volume": 2695400,
+        "ma20": 109.61,
+        "ma50": 107.49,
+        "volume_vs_20d": 1.51,
+        "atr14": 2.87,
+        "chg_5d_pct": 5.61
+      },
+      "weekly_snapshot": {
+        "ticker": "ETN",
+        "week_start": "2021-01-04",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 77.1,
+        "price_vs_sma50": 1.091,
+        "notes": "ADX 31.4, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ETN_2021-01-06_bearish_sample_002_004",
+      "scenario_id": "ETN_2021-01-06",
+      "window_type": "bearish_sample_002",
+      "chronological_index": 4,
+      "state_id": "bearish_sample_002_state_004",
+      "time_spot": "2021-01-11",
+      "reference_session": "2021-01-11",
+      "question": "Session summary for January 11, 2021: ETN opened $115.71, ranged $115.64-$118.08, closed $117.33. Volume 1.5M (0.83x 20-day avg). 20-day $110.16 | 50-day $107.96. 5-day return +6.91%. ATR-14 $2.90. RSI 76.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-01-11",
+        "open": 115.71,
+        "high": 118.08,
+        "low": 115.64,
+        "close": 117.33,
+        "volume": 1490100,
+        "ma20": 110.16,
+        "ma50": 107.96,
+        "volume_vs_20d": 0.83,
+        "atr14": 2.9,
+        "chg_5d_pct": 6.91
+      },
+      "weekly_snapshot": {
+        "ticker": "ETN",
+        "week_start": "2021-01-11",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 76.4,
+        "price_vs_sma50": 1.087,
+        "notes": "ADX 32.7, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ETN_2021-01-06_bearish_sample_002_005",
+      "scenario_id": "ETN_2021-01-06",
+      "window_type": "bearish_sample_002",
+      "chronological_index": 5,
+      "state_id": "bearish_sample_002_state_005",
+      "time_spot": "2021-01-12",
+      "reference_session": "2021-01-12",
+      "question": "Session summary for January 12, 2021: ETN opened $117.36, ranged $116.60-$118.86, closed $118.61. Volume 1.5M (0.82x 20-day avg). 20-day $110.75 | 50-day $108.42. 5-day return +6.94%. ATR-14 $2.82. RSI 76.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-01-12",
+        "open": 117.36,
+        "high": 118.86,
+        "low": 116.6,
+        "close": 118.61,
+        "volume": 1479700,
+        "ma20": 110.75,
+        "ma50": 108.42,
+        "volume_vs_20d": 0.82,
+        "atr14": 2.82,
+        "chg_5d_pct": 6.94
+      },
+      "weekly_snapshot": {
+        "ticker": "ETN",
+        "week_start": "2021-01-11",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 76.9,
+        "price_vs_sma50": 1.094,
+        "notes": "ADX 33.9, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ETN_2021-01-06_bearish_sample_002_006",
+      "scenario_id": "ETN_2021-01-06",
+      "window_type": "bearish_sample_002",
+      "chronological_index": 6,
+      "state_id": "bearish_sample_002_state_006",
+      "time_spot": "2021-01-13",
+      "reference_session": "2021-01-13",
+      "question": "Session summary for January 13, 2021: ETN opened $118.21, ranged $115.80-$118.61, closed $115.90. Volume 2.3M (1.28x 20-day avg). 20-day $111.28 | 50-day $108.83. 5-day return -0.82%. ATR-14 $2.90. RSI 68.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-01-13",
+        "open": 118.21,
+        "high": 118.61,
+        "low": 115.8,
+        "close": 115.9,
+        "volume": 2344100,
+        "ma20": 111.28,
+        "ma50": 108.83,
+        "volume_vs_20d": 1.28,
+        "atr14": 2.9,
+        "chg_5d_pct": -0.82
+      },
+      "weekly_snapshot": {
+        "ticker": "ETN",
+        "week_start": "2021-01-11",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 68.6,
+        "price_vs_sma50": 1.065,
+        "notes": "ADX 35.8, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ETN_2021-01-06_bearish_sample_002_007",
+      "scenario_id": "ETN_2021-01-06",
+      "window_type": "bearish_sample_002",
+      "chronological_index": 7,
+      "state_id": "bearish_sample_002_state_007",
+      "time_spot": "2021-01-14",
+      "reference_session": "2021-01-14",
+      "question": "Session summary for January 14, 2021: ETN opened $116.66, ranged $114.77-$117.00, closed $115.17. Volume 4.0M (2.09x 20-day avg). 20-day $111.65 | 50-day $109.16. 5-day return -3.46%. ATR-14 $2.92. RSI 65.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-01-14",
+        "open": 116.66,
+        "high": 117.0,
+        "low": 114.77,
+        "close": 115.17,
+        "volume": 4047400,
+        "ma20": 111.65,
+        "ma50": 109.16,
+        "volume_vs_20d": 2.09,
+        "atr14": 2.92,
+        "chg_5d_pct": -3.46
+      },
+      "weekly_snapshot": {
+        "ticker": "ETN",
+        "week_start": "2021-01-11",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 65.8,
+        "price_vs_sma50": 1.055,
+        "notes": "ADX 39.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ETN_2021-01-06_bearish_sample_002_008",
+      "scenario_id": "ETN_2021-01-06",
+      "window_type": "bearish_sample_002",
+      "chronological_index": 8,
+      "state_id": "bearish_sample_002_state_008",
+      "time_spot": "2021-01-15",
+      "reference_session": "2021-01-15",
+      "question": "Session summary for January 15, 2021: ETN opened $113.56, ranged $111.83-$114.04, closed $113.83. Volume 2.6M (1.31x 20-day avg). 20-day $112.01 | 50-day $109.40. 5-day return -2.92%. ATR-14 $3.02. RSI 60.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-01-15",
+        "open": 113.56,
+        "high": 114.04,
+        "low": 111.83,
+        "close": 113.83,
+        "volume": 2590400,
+        "ma20": 112.01,
+        "ma50": 109.4,
+        "volume_vs_20d": 1.31,
+        "atr14": 3.02,
+        "chg_5d_pct": -2.92
+      },
+      "weekly_snapshot": {
+        "ticker": "ETN",
+        "week_start": "2021-01-11",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 60.4,
+        "price_vs_sma50": 1.041,
+        "notes": "ADX 40.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ETN_2021-01-06_bearish_sample_002_009",
+      "scenario_id": "ETN_2021-01-06",
+      "window_type": "bearish_sample_002",
+      "chronological_index": 9,
+      "state_id": "bearish_sample_002_state_009",
+      "time_spot": "2021-01-19",
+      "reference_session": "2021-01-19",
+      "question": "Session summary for January 19, 2021: ETN opened $115.06, ranged $114.61-$117.33, closed $115.99. Volume 2.1M (1.07x 20-day avg). 20-day $112.49 | 50-day $109.77. 5-day return -1.15%. ATR-14 $3.12. RSI 64.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-01-19",
+        "open": 115.06,
+        "high": 117.33,
+        "low": 114.61,
+        "close": 115.99,
+        "volume": 2144500,
+        "ma20": 112.49,
+        "ma50": 109.77,
+        "volume_vs_20d": 1.07,
+        "atr14": 3.12,
+        "chg_5d_pct": -1.15
+      },
+      "weekly_snapshot": {
+        "ticker": "ETN",
+        "week_start": "2021-01-18",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 64.7,
+        "price_vs_sma50": 1.057,
+        "notes": "ADX 42.4, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ETN_2021-01-06_bearish_sample_002_010",
+      "scenario_id": "ETN_2021-01-06",
+      "window_type": "bearish_sample_002",
+      "chronological_index": 10,
+      "state_id": "bearish_sample_002_state_010",
+      "time_spot": "2021-01-20",
+      "reference_session": "2021-01-20",
+      "question": "Session summary for January 20, 2021: ETN opened $116.03, ranged $114.94-$116.90, closed $116.43. Volume 1.7M (0.91x 20-day avg). 20-day $112.94 | 50-day $110.07. 5-day return -1.84%. ATR-14 $3.10. RSI 66.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-01-20",
+        "open": 116.03,
+        "high": 116.9,
+        "low": 114.94,
+        "close": 116.43,
+        "volume": 1698500,
+        "ma20": 112.94,
+        "ma50": 110.07,
+        "volume_vs_20d": 0.91,
+        "atr14": 3.1,
+        "chg_5d_pct": -1.84
+      },
+      "weekly_snapshot": {
+        "ticker": "ETN",
+        "week_start": "2021-01-18",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 66.7,
+        "price_vs_sma50": 1.058,
+        "notes": "ADX 45.4, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ETN_2021-01-06_bearish_sample_002_011",
+      "scenario_id": "ETN_2021-01-06",
+      "window_type": "bearish_sample_002",
+      "chronological_index": 11,
+      "state_id": "bearish_sample_002_state_011",
+      "time_spot": "2021-01-21",
+      "reference_session": "2021-01-21",
+      "question": "Session summary for January 21, 2021: ETN opened $116.38, ranged $115.43-$117.25, closed $115.64. Volume 1.3M (0.75x 20-day avg). 20-day $113.32 | 50-day $110.35. 5-day return -0.22%. ATR-14 $3.07. RSI 61.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-01-21",
+        "open": 116.38,
+        "high": 117.25,
+        "low": 115.43,
+        "close": 115.64,
+        "volume": 1348400,
+        "ma20": 113.32,
+        "ma50": 110.35,
+        "volume_vs_20d": 0.75,
+        "atr14": 3.07,
+        "chg_5d_pct": -0.22
+      },
+      "weekly_snapshot": {
+        "ticker": "ETN",
+        "week_start": "2021-01-18",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 61.6,
+        "price_vs_sma50": 1.048,
+        "notes": "ADX 48.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ETN_2021-01-06_bearish_sample_002_012",
+      "scenario_id": "ETN_2021-01-06",
+      "window_type": "bearish_sample_002",
+      "chronological_index": 12,
+      "state_id": "bearish_sample_002_state_012",
+      "time_spot": "2021-01-22",
+      "reference_session": "2021-01-22",
+      "question": "Session summary for January 22, 2021: ETN opened $115.00, ranged $113.61-$115.73, closed $115.00. Volume 1.4M (0.78x 20-day avg). 20-day $113.68 | 50-day $110.55. 5-day return -0.15%. ATR-14 $3.11. RSI 58.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-01-22",
+        "open": 115.0,
+        "high": 115.73,
+        "low": 113.61,
+        "close": 115.0,
+        "volume": 1405700,
+        "ma20": 113.68,
+        "ma50": 110.55,
+        "volume_vs_20d": 0.78,
+        "atr14": 3.11,
+        "chg_5d_pct": -0.15
+      },
+      "weekly_snapshot": {
+        "ticker": "ETN",
+        "week_start": "2021-01-18",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 58.6,
+        "price_vs_sma50": 1.04,
+        "notes": "ADX 48.4, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ETN_2021-01-06_bearish_sample_002_013",
+      "scenario_id": "ETN_2021-01-06",
+      "window_type": "bearish_sample_002",
+      "chronological_index": 13,
+      "state_id": "bearish_sample_002_state_013",
+      "time_spot": "2021-01-25",
+      "reference_session": "2021-01-25",
+      "question": "Session summary for January 25, 2021: ETN opened $114.56, ranged $112.09-$114.81, closed $112.58. Volume 1.6M (0.88x 20-day avg). 20-day $113.90 | 50-day $110.68. 5-day return -1.10%. ATR-14 $3.07. RSI 55.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-01-25",
+        "open": 114.56,
+        "high": 114.81,
+        "low": 112.09,
+        "close": 112.58,
+        "volume": 1598900,
+        "ma20": 113.9,
+        "ma50": 110.68,
+        "volume_vs_20d": 0.88,
+        "atr14": 3.07,
+        "chg_5d_pct": -1.1
+      },
+      "weekly_snapshot": {
+        "ticker": "ETN",
+        "week_start": "2021-01-25",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 55.9,
+        "price_vs_sma50": 1.017,
+        "notes": "ADX 46.6, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ETN_2021-01-06_bearish_sample_002_014",
+      "scenario_id": "ETN_2021-01-06",
+      "window_type": "bearish_sample_002",
+      "chronological_index": 14,
+      "state_id": "bearish_sample_002_state_014",
+      "time_spot": "2021-01-26",
+      "reference_session": "2021-01-26",
+      "question": "Session summary for January 26, 2021: ETN opened $113.24, ranged $111.36-$113.31, closed $111.59. Volume 1.1M (0.61x 20-day avg). 20-day $114.03 | 50-day $110.81. 5-day return -3.79%. ATR-14 $3.05. RSI 51.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-01-26",
+        "open": 113.24,
+        "high": 113.31,
+        "low": 111.36,
+        "close": 111.59,
+        "volume": 1140700,
+        "ma20": 114.03,
+        "ma50": 110.81,
+        "volume_vs_20d": 0.61,
+        "atr14": 3.05,
+        "chg_5d_pct": -3.79
+      },
+      "weekly_snapshot": {
+        "ticker": "ETN",
+        "week_start": "2021-01-25",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 51.4,
+        "price_vs_sma50": 1.007,
+        "notes": "ADX 44.8, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ETN_2021-01-06_bearish_sample_002_015",
+      "scenario_id": "ETN_2021-01-06",
+      "window_type": "bearish_sample_002",
+      "chronological_index": 15,
+      "state_id": "bearish_sample_002_state_015",
+      "time_spot": "2021-01-27",
+      "reference_session": "2021-01-27",
+      "question": "Session summary for January 27, 2021: ETN opened $109.68, ranged $105.37-$109.90, closed $106.15. Volume 2.1M (1.08x 20-day avg). 20-day $113.89 | 50-day $110.83. 5-day return -8.83%. ATR-14 $2.95. RSI 27.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-01-27",
+        "open": 109.68,
+        "high": 109.9,
+        "low": 105.37,
+        "close": 106.15,
+        "volume": 2062200,
+        "ma20": 113.89,
+        "ma50": 110.83,
+        "volume_vs_20d": 1.08,
+        "atr14": 2.95,
+        "chg_5d_pct": -8.83
+      },
+      "weekly_snapshot": {
+        "ticker": "ETN",
+        "week_start": "2021-01-25",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 27.2,
+        "price_vs_sma50": 0.958,
+        "notes": "ADX 43.6, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ETN_2021-01-06_bearish_sample_002_016",
+      "scenario_id": "ETN_2021-01-06",
+      "window_type": "bearish_sample_002",
+      "chronological_index": 16,
+      "state_id": "bearish_sample_002_state_016",
+      "time_spot": "2021-01-28",
+      "reference_session": "2021-01-28",
+      "question": "Session summary for January 28, 2021: ETN opened $107.13, ranged $106.76-$110.63, closed $109.32. Volume 1.5M (0.79x 20-day avg). 20-day $113.95 | 50-day $110.91. 5-day return -5.47%. ATR-14 $3.03. RSI 29.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-01-28",
+        "open": 107.13,
+        "high": 110.63,
+        "low": 106.76,
+        "close": 109.32,
+        "volume": 1537100,
+        "ma20": 113.95,
+        "ma50": 110.91,
+        "volume_vs_20d": 0.79,
+        "atr14": 3.03,
+        "chg_5d_pct": -5.47
+      },
+      "weekly_snapshot": {
+        "ticker": "ETN",
+        "week_start": "2021-01-25",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 29.4,
+        "price_vs_sma50": 0.986,
+        "notes": "ADX 42.6, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ETN_2021-01-06_bearish_sample_002_017",
+      "scenario_id": "ETN_2021-01-06",
+      "window_type": "bearish_sample_002",
+      "chronological_index": 17,
+      "state_id": "bearish_sample_002_state_017",
+      "time_spot": "2021-01-29",
+      "reference_session": "2021-01-29",
+      "question": "Session summary for January 29, 2021: ETN opened $108.90, ranged $107.89-$112.52, closed $108.78. Volume 2.4M (1.22x 20-day avg). 20-day $113.87 | 50-day $110.91. 5-day return -5.41%. ATR-14 $3.05. RSI 31.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-01-29",
+        "open": 108.9,
+        "high": 112.52,
+        "low": 107.89,
+        "close": 108.78,
+        "volume": 2444700,
+        "ma20": 113.87,
+        "ma50": 110.91,
+        "volume_vs_20d": 1.22,
+        "atr14": 3.05,
+        "chg_5d_pct": -5.41
+      },
+      "weekly_snapshot": {
+        "ticker": "ETN",
+        "week_start": "2021-01-25",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 31.3,
+        "price_vs_sma50": 0.981,
+        "notes": "ADX 40.7, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ETN_2021-01-06_bearish_sample_002_018",
+      "scenario_id": "ETN_2021-01-06",
+      "window_type": "bearish_sample_002",
+      "chronological_index": 18,
+      "state_id": "bearish_sample_002_state_018",
+      "time_spot": "2021-02-01",
+      "reference_session": "2021-02-01",
+      "question": "Session summary for February 01, 2021: ETN opened $109.98, ranged $109.36-$112.91, closed $112.33. Volume 3.1M (1.46x 20-day avg). 20-day $113.94 | 50-day $111.01. 5-day return -0.23%. ATR-14 $3.17. RSI 40.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-02-01",
+        "open": 109.98,
+        "high": 112.91,
+        "low": 109.36,
+        "close": 112.33,
+        "volume": 3054600,
+        "ma20": 113.94,
+        "ma50": 111.01,
+        "volume_vs_20d": 1.46,
+        "atr14": 3.17,
+        "chg_5d_pct": -0.23
+      },
+      "weekly_snapshot": {
+        "ticker": "ETN",
+        "week_start": "2021-02-01",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 40.4,
+        "price_vs_sma50": 1.012,
+        "notes": "ADX 38.6, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ETN_2021-01-06_bearish_sample_002_019",
+      "scenario_id": "ETN_2021-01-06",
+      "window_type": "bearish_sample_002",
+      "chronological_index": 19,
+      "state_id": "bearish_sample_002_state_019",
+      "time_spot": "2021-02-02",
+      "reference_session": "2021-02-02",
+      "question": "Session summary for February 02, 2021: ETN opened $112.52, ranged $109.66-$114.07, closed $111.31. Volume 4.9M (2.18x 20-day avg). 20-day $114.02 | 50-day $111.08. 5-day return -0.25%. ATR-14 $3.32. RSI 35.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-02-02",
+        "open": 112.52,
+        "high": 114.07,
+        "low": 109.66,
+        "close": 111.31,
+        "volume": 4883000,
+        "ma20": 114.02,
+        "ma50": 111.08,
+        "volume_vs_20d": 2.18,
+        "atr14": 3.32,
+        "chg_5d_pct": -0.25
+      },
+      "weekly_snapshot": {
+        "ticker": "ETN",
+        "week_start": "2021-02-01",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 35.9,
+        "price_vs_sma50": 1.002,
+        "notes": "ADX 36.4, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ETN_2021-01-06_bearish_sample_002_020",
+      "scenario_id": "ETN_2021-01-06",
+      "window_type": "bearish_sample_002",
+      "chronological_index": 20,
+      "state_id": "bearish_sample_002_state_020",
+      "time_spot": "2021-02-03",
+      "reference_session": "2021-02-03",
+      "question": "Session summary for February 03, 2021: ETN opened $111.73, ranged $109.98-$112.34, closed $110.48. Volume 2.1M (0.93x 20-day avg). 20-day $113.99 | 50-day $111.10. 5-day return +4.07%. ATR-14 $3.29. RSI 38.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-02-03",
+        "open": 111.73,
+        "high": 112.34,
+        "low": 109.98,
+        "close": 110.48,
+        "volume": 2133200,
+        "ma20": 113.99,
+        "ma50": 111.1,
+        "volume_vs_20d": 0.93,
+        "atr14": 3.29,
+        "chg_5d_pct": 4.07
+      },
+      "weekly_snapshot": {
+        "ticker": "ETN",
+        "week_start": "2021-02-01",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 38.7,
+        "price_vs_sma50": 0.994,
+        "notes": "ADX 34.6, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ETN_2021-01-06_bearish_sample_002_021",
+      "scenario_id": "ETN_2021-01-06",
+      "window_type": "bearish_sample_002",
+      "chronological_index": 21,
+      "state_id": "bearish_sample_002_state_021",
+      "time_spot": "2021-02-04",
+      "reference_session": "2021-02-04",
+      "question": "Session summary for February 04, 2021: ETN opened $110.66, ranged $109.99-$111.73, closed $111.40. Volume 2.2M (0.97x 20-day avg). 20-day $113.72 | 50-day $111.16. 5-day return +1.90%. ATR-14 $3.25. RSI 42.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-02-04",
+        "open": 110.66,
+        "high": 111.73,
+        "low": 109.99,
+        "close": 111.4,
+        "volume": 2184100,
+        "ma20": 113.72,
+        "ma50": 111.16,
+        "volume_vs_20d": 0.97,
+        "atr14": 3.25,
+        "chg_5d_pct": 1.9
+      },
+      "weekly_snapshot": {
+        "ticker": "ETN",
+        "week_start": "2021-02-01",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 42.2,
+        "price_vs_sma50": 1.002,
+        "notes": "ADX 33.2, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ETN_2021-01-06_bearish_sample_002_022",
+      "scenario_id": "ETN_2021-01-06",
+      "window_type": "bearish_sample_002",
+      "chronological_index": 22,
+      "state_id": "bearish_sample_002_state_022",
+      "time_spot": "2021-02-05",
+      "reference_session": "2021-02-05",
+      "question": "Session summary for February 05, 2021: ETN opened $112.79, ranged $110.96-$113.39, closed $112.70. Volume 2.0M (0.90x 20-day avg). 20-day $113.39 | 50-day $111.19. 5-day return +3.60%. ATR-14 $3.19. RSI 47.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-02-05",
+        "open": 112.79,
+        "high": 113.39,
+        "low": 110.96,
+        "close": 112.7,
+        "volume": 1983000,
+        "ma20": 113.39,
+        "ma50": 111.19,
+        "volume_vs_20d": 0.9,
+        "atr14": 3.19,
+        "chg_5d_pct": 3.6
+      },
+      "weekly_snapshot": {
+        "ticker": "ETN",
+        "week_start": "2021-02-01",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 47.7,
+        "price_vs_sma50": 1.014,
+        "notes": "ADX 31.2, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ETN_2021-01-06_bearish_sample_002_023",
+      "scenario_id": "ETN_2021-01-06",
+      "window_type": "bearish_sample_002",
+      "chronological_index": 23,
+      "state_id": "bearish_sample_002_state_023",
+      "time_spot": "2021-02-08",
+      "reference_session": "2021-02-08",
+      "question": "Session summary for February 08, 2021: ETN opened $113.40, ranged $110.37-$113.70, closed $111.11. Volume 2.5M (1.16x 20-day avg). 20-day $113.08 | 50-day $111.14. 5-day return -1.09%. ATR-14 $3.18. RSI 39.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-02-08",
+        "open": 113.4,
+        "high": 113.7,
+        "low": 110.37,
+        "close": 111.11,
+        "volume": 2548000,
+        "ma20": 113.08,
+        "ma50": 111.14,
+        "volume_vs_20d": 1.16,
+        "atr14": 3.18,
+        "chg_5d_pct": -1.09
+      },
+      "weekly_snapshot": {
+        "ticker": "ETN",
+        "week_start": "2021-02-08",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 39.7,
+        "price_vs_sma50": 1.0,
+        "notes": "ADX 30.6, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ETN_2021-01-06_bearish_sample_002_024",
+      "scenario_id": "ETN_2021-01-06",
+      "window_type": "bearish_sample_002",
+      "chronological_index": 24,
+      "state_id": "bearish_sample_002_state_024",
+      "time_spot": "2021-02-09",
+      "reference_session": "2021-02-09",
+      "question": "Session summary for February 09, 2021: ETN opened $111.32, ranged $109.61-$111.47, closed $110.75. Volume 1.9M (0.84x 20-day avg). 20-day $112.75 | 50-day $111.09. 5-day return -0.51%. ATR-14 $3.17. RSI 37.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-02-09",
+        "open": 111.32,
+        "high": 111.47,
+        "low": 109.61,
+        "close": 110.75,
+        "volume": 1857600,
+        "ma20": 112.75,
+        "ma50": 111.09,
+        "volume_vs_20d": 0.84,
+        "atr14": 3.17,
+        "chg_5d_pct": -0.51
+      },
+      "weekly_snapshot": {
+        "ticker": "ETN",
+        "week_start": "2021-02-08",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 37.9,
+        "price_vs_sma50": 0.997,
+        "notes": "ADX 29.5, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ETN_2021-01-06_bearish_sample_002_025",
+      "scenario_id": "ETN_2021-01-06",
+      "window_type": "bearish_sample_002",
+      "chronological_index": 25,
+      "state_id": "bearish_sample_002_state_025",
+      "time_spot": "2021-02-10",
+      "reference_session": "2021-02-10",
+      "question": "Session summary for February 10, 2021: ETN opened $112.37, ranged $111.71-$113.48, closed $112.53. Volume 3.0M (1.30x 20-day avg). 20-day $112.45 | 50-day $111.09. 5-day return +1.86%. ATR-14 $3.24. RSI 43.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-02-10",
+        "open": 112.37,
+        "high": 113.48,
+        "low": 111.71,
+        "close": 112.53,
+        "volume": 2988400,
+        "ma20": 112.45,
+        "ma50": 111.09,
+        "volume_vs_20d": 1.3,
+        "atr14": 3.24,
+        "chg_5d_pct": 1.86
+      },
+      "weekly_snapshot": {
+        "ticker": "ETN",
+        "week_start": "2021-02-08",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 43.7,
+        "price_vs_sma50": 1.013,
+        "notes": "ADX 27.7, MACD bearish"
+      }
+    }
+  ]
+}

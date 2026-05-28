@@ -1,0 +1,2898 @@
+{
+  "metadata": {
+    "instrument": "TTD",
+    "initial_capital": 10000,
+    "window_type": "bullish_sample_004",
+    "description": "TTD window (2024-08-02 \u2013 2024-09-06) sampled from S&P500 indicator archive.",
+    "num_mcqs": 25,
+    "notes": "Orders express target exposure fractions relative to the leverage ceiling.",
+    "max_leverage": 2.5,
+    "exposure_buckets": [
+      0.8,
+      0.6,
+      0.4,
+      0.2
+    ],
+    "start_reference": "2024-08-02",
+    "end_reference": "2024-09-06",
+    "regime": "bullish",
+    "original_sample": "snp500_sample_086"
+  },
+  "mcqs": [
+    {
+      "scenario_instance_id": "TTD_2024-08-02_bullish_sample_004_001",
+      "scenario_id": "TTD_2024-08-02",
+      "window_type": "bullish_sample_004",
+      "chronological_index": 1,
+      "state_id": "bullish_sample_004_state_001",
+      "time_spot": "2024-08-02",
+      "reference_session": "2024-08-02",
+      "question": "Session summary for August 02, 2024: TTD opened $84.60, ranged $81.78-$85.76, closed $83.08. Volume 4.9M (1.32x 20-day avg). 20-day $95.16 | 50-day $95.75. 5-day return -10.12%. ATR-14 $4.41. RSI 26.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-08-02",
+        "open": 84.6,
+        "high": 85.76,
+        "low": 81.78,
+        "close": 83.08,
+        "volume": 4948900,
+        "ma20": 95.16,
+        "ma50": 95.75,
+        "volume_vs_20d": 1.32,
+        "atr14": 4.41,
+        "chg_5d_pct": -10.12
+      },
+      "weekly_snapshot": {
+        "ticker": "TTD",
+        "week_start": "2024-07-29",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 26.6,
+        "price_vs_sma50": 0.868,
+        "notes": "ADX 29.8, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "TTD_2024-08-02_bullish_sample_004_002",
+      "scenario_id": "TTD_2024-08-02",
+      "window_type": "bullish_sample_004",
+      "chronological_index": 2,
+      "state_id": "bullish_sample_004_state_002",
+      "time_spot": "2024-08-05",
+      "reference_session": "2024-08-05",
+      "question": "Session summary for August 05, 2024: TTD opened $77.32, ranged $77.11-$84.70, closed $83.22. Volume 5.7M (1.45x 20-day avg). 20-day $94.37 | 50-day $95.51. 5-day return -9.75%. ATR-14 $4.79. RSI 25.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-08-05",
+        "open": 77.32,
+        "high": 84.7,
+        "low": 77.11,
+        "close": 83.22,
+        "volume": 5742300,
+        "ma20": 94.37,
+        "ma50": 95.51,
+        "volume_vs_20d": 1.45,
+        "atr14": 4.79,
+        "chg_5d_pct": -9.75
+      },
+      "weekly_snapshot": {
+        "ticker": "TTD",
+        "week_start": "2024-08-05",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 25.1,
+        "price_vs_sma50": 0.871,
+        "notes": "ADX 32.0, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "TTD_2024-08-02_bullish_sample_004_003",
+      "scenario_id": "TTD_2024-08-02",
+      "window_type": "bullish_sample_004",
+      "chronological_index": 3,
+      "state_id": "bullish_sample_004_state_003",
+      "time_spot": "2024-08-06",
+      "reference_session": "2024-08-06",
+      "question": "Session summary for August 06, 2024: TTD opened $84.36, ranged $83.20-$86.13, closed $84.79. Volume 3.6M (0.93x 20-day avg). 20-day $93.53 | 50-day $95.35. 5-day return -5.62%. ATR-14 $4.56. RSI 33.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-08-06",
+        "open": 84.36,
+        "high": 86.13,
+        "low": 83.2,
+        "close": 84.79,
+        "volume": 3644200,
+        "ma20": 93.53,
+        "ma50": 95.35,
+        "volume_vs_20d": 0.93,
+        "atr14": 4.56,
+        "chg_5d_pct": -5.62
+      },
+      "weekly_snapshot": {
+        "ticker": "TTD",
+        "week_start": "2024-08-05",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 33.4,
+        "price_vs_sma50": 0.889,
+        "notes": "ADX 35.2, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "TTD_2024-08-02_bullish_sample_004_004",
+      "scenario_id": "TTD_2024-08-02",
+      "window_type": "bullish_sample_004",
+      "chronological_index": 4,
+      "state_id": "bullish_sample_004_state_004",
+      "time_spot": "2024-08-07",
+      "reference_session": "2024-08-07",
+      "question": "Session summary for August 07, 2024: TTD opened $86.35, ranged $84.33-$87.32, closed $84.91. Volume 4.4M (1.12x 20-day avg). 20-day $92.79 | 50-day $95.16. 5-day return -5.53%. ATR-14 $4.55. RSI 32.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-08-07",
+        "open": 86.35,
+        "high": 87.32,
+        "low": 84.33,
+        "close": 84.91,
+        "volume": 4381900,
+        "ma20": 92.79,
+        "ma50": 95.16,
+        "volume_vs_20d": 1.12,
+        "atr14": 4.55,
+        "chg_5d_pct": -5.53
+      },
+      "weekly_snapshot": {
+        "ticker": "TTD",
+        "week_start": "2024-08-05",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 32.6,
+        "price_vs_sma50": 0.892,
+        "notes": "ADX 37.7, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "TTD_2024-08-02_bullish_sample_004_005",
+      "scenario_id": "TTD_2024-08-02",
+      "window_type": "bullish_sample_004",
+      "chronological_index": 5,
+      "state_id": "bullish_sample_004_state_005",
+      "time_spot": "2024-08-08",
+      "reference_session": "2024-08-08",
+      "question": "Session summary for August 08, 2024: TTD opened $86.61, ranged $84.42-$88.65, closed $88.27. Volume 6.3M (1.55x 20-day avg). 20-day $92.27 | 50-day $95.02. 5-day return +0.59%. ATR-14 $4.71. RSI 38.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-08-08",
+        "open": 86.61,
+        "high": 88.65,
+        "low": 84.42,
+        "close": 88.27,
+        "volume": 6289500,
+        "ma20": 92.27,
+        "ma50": 95.02,
+        "volume_vs_20d": 1.55,
+        "atr14": 4.71,
+        "chg_5d_pct": 0.59
+      },
+      "weekly_snapshot": {
+        "ticker": "TTD",
+        "week_start": "2024-08-05",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 38.7,
+        "price_vs_sma50": 0.929,
+        "notes": "ADX 40.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "TTD_2024-08-02_bullish_sample_004_006",
+      "scenario_id": "TTD_2024-08-02",
+      "window_type": "bullish_sample_004",
+      "chronological_index": 6,
+      "state_id": "bullish_sample_004_state_006",
+      "time_spot": "2024-08-09",
+      "reference_session": "2024-08-09",
+      "question": "Session summary for August 09, 2024: TTD opened $90.07, ranged $90.00-$99.55, closed $99.30. Volume 13.3M (2.91x 20-day avg). 20-day $92.26 | 50-day $95.10. 5-day return +19.52%. ATR-14 $5.17. RSI 48.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-08-09",
+        "open": 90.07,
+        "high": 99.55,
+        "low": 90.0,
+        "close": 99.3,
+        "volume": 13299300,
+        "ma20": 92.26,
+        "ma50": 95.1,
+        "volume_vs_20d": 2.91,
+        "atr14": 5.17,
+        "chg_5d_pct": 19.52
+      },
+      "weekly_snapshot": {
+        "ticker": "TTD",
+        "week_start": "2024-08-05",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 48.6,
+        "price_vs_sma50": 1.044,
+        "notes": "ADX 40.4, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "TTD_2024-08-02_bullish_sample_004_007",
+      "scenario_id": "TTD_2024-08-02",
+      "window_type": "bullish_sample_004",
+      "chronological_index": 7,
+      "state_id": "bullish_sample_004_state_007",
+      "time_spot": "2024-08-12",
+      "reference_session": "2024-08-12",
+      "question": "Session summary for August 12, 2024: TTD opened $99.69, ranged $96.88-$99.69, closed $97.04. Volume 4.9M (1.06x 20-day avg). 20-day $92.11 | 50-day $95.16. 5-day return +16.61%. ATR-14 $5.17. RSI 45.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-08-12",
+        "open": 99.69,
+        "high": 99.69,
+        "low": 96.88,
+        "close": 97.04,
+        "volume": 4915600,
+        "ma20": 92.11,
+        "ma50": 95.16,
+        "volume_vs_20d": 1.06,
+        "atr14": 5.17,
+        "chg_5d_pct": 16.61
+      },
+      "weekly_snapshot": {
+        "ticker": "TTD",
+        "week_start": "2024-08-12",
+        "trend_regime": "rangebound",
+        "volatility_regime": "high",
+        "rsi_14": 45.5,
+        "price_vs_sma50": 1.02,
+        "notes": "ADX 40.5, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "TTD_2024-08-02_bullish_sample_004_008",
+      "scenario_id": "TTD_2024-08-02",
+      "window_type": "bullish_sample_004",
+      "chronological_index": 8,
+      "state_id": "bullish_sample_004_state_008",
+      "time_spot": "2024-08-13",
+      "reference_session": "2024-08-13",
+      "question": "Session summary for August 13, 2024: TTD opened $98.08, ranged $96.38-$98.82, closed $98.32. Volume 3.6M (0.77x 20-day avg). 20-day $91.98 | 50-day $95.27. 5-day return +15.96%. ATR-14 $4.52. RSI 63.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-08-13",
+        "open": 98.08,
+        "high": 98.82,
+        "low": 96.38,
+        "close": 98.32,
+        "volume": 3648500,
+        "ma20": 91.98,
+        "ma50": 95.27,
+        "volume_vs_20d": 0.77,
+        "atr14": 4.52,
+        "chg_5d_pct": 15.96
+      },
+      "weekly_snapshot": {
+        "ticker": "TTD",
+        "week_start": "2024-08-12",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 63.9,
+        "price_vs_sma50": 1.032,
+        "notes": "ADX 38.4, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "TTD_2024-08-02_bullish_sample_004_009",
+      "scenario_id": "TTD_2024-08-02",
+      "window_type": "bullish_sample_004",
+      "chronological_index": 9,
+      "state_id": "bullish_sample_004_state_009",
+      "time_spot": "2024-08-14",
+      "reference_session": "2024-08-14",
+      "question": "Session summary for August 14, 2024: TTD opened $98.55, ranged $97.43-$100.33, closed $98.69. Volume 3.6M (0.77x 20-day avg). 20-day $92.15 | 50-day $95.39. 5-day return +16.23%. ATR-14 $4.42. RSI 62.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-08-14",
+        "open": 98.55,
+        "high": 100.33,
+        "low": 97.43,
+        "close": 98.69,
+        "volume": 3552900,
+        "ma20": 92.15,
+        "ma50": 95.39,
+        "volume_vs_20d": 0.77,
+        "atr14": 4.42,
+        "chg_5d_pct": 16.23
+      },
+      "weekly_snapshot": {
+        "ticker": "TTD",
+        "week_start": "2024-08-12",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 62.6,
+        "price_vs_sma50": 1.035,
+        "notes": "ADX 36.7, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "TTD_2024-08-02_bullish_sample_004_010",
+      "scenario_id": "TTD_2024-08-02",
+      "window_type": "bullish_sample_004",
+      "chronological_index": 10,
+      "state_id": "bullish_sample_004_state_010",
+      "time_spot": "2024-08-15",
+      "reference_session": "2024-08-15",
+      "question": "Session summary for August 15, 2024: TTD opened $100.22, ranged $99.30-$101.58, closed $100.50. Volume 2.8M (0.61x 20-day avg). 20-day $92.39 | 50-day $95.51. 5-day return +13.86%. ATR-14 $4.46. RSI 62.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-08-15",
+        "open": 100.22,
+        "high": 101.58,
+        "low": 99.3,
+        "close": 100.5,
+        "volume": 2818500,
+        "ma20": 92.39,
+        "ma50": 95.51,
+        "volume_vs_20d": 0.61,
+        "atr14": 4.46,
+        "chg_5d_pct": 13.86
+      },
+      "weekly_snapshot": {
+        "ticker": "TTD",
+        "week_start": "2024-08-12",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 62.9,
+        "price_vs_sma50": 1.052,
+        "notes": "ADX 35.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "TTD_2024-08-02_bullish_sample_004_011",
+      "scenario_id": "TTD_2024-08-02",
+      "window_type": "bullish_sample_004",
+      "chronological_index": 11,
+      "state_id": "bullish_sample_004_state_011",
+      "time_spot": "2024-08-16",
+      "reference_session": "2024-08-16",
+      "question": "Session summary for August 16, 2024: TTD opened $99.00, ranged $98.75-$102.43, closed $101.43. Volume 3.5M (0.75x 20-day avg). 20-day $92.66 | 50-day $95.59. 5-day return +2.15%. ATR-14 $4.52. RSI 64.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-08-16",
+        "open": 99.0,
+        "high": 102.43,
+        "low": 98.75,
+        "close": 101.43,
+        "volume": 3519200,
+        "ma20": 92.66,
+        "ma50": 95.59,
+        "volume_vs_20d": 0.75,
+        "atr14": 4.52,
+        "chg_5d_pct": 2.15
+      },
+      "weekly_snapshot": {
+        "ticker": "TTD",
+        "week_start": "2024-08-12",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 64.4,
+        "price_vs_sma50": 1.061,
+        "notes": "ADX 33.7, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "TTD_2024-08-02_bullish_sample_004_012",
+      "scenario_id": "TTD_2024-08-02",
+      "window_type": "bullish_sample_004",
+      "chronological_index": 12,
+      "state_id": "bullish_sample_004_state_012",
+      "time_spot": "2024-08-19",
+      "reference_session": "2024-08-19",
+      "question": "Session summary for August 19, 2024: TTD opened $101.40, ranged $100.50-$102.77, closed $102.64. Volume 2.5M (0.55x 20-day avg). 20-day $92.77 | 50-day $95.70. 5-day return +5.77%. ATR-14 $4.34. RSI 70.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-08-19",
+        "open": 101.4,
+        "high": 102.77,
+        "low": 100.5,
+        "close": 102.64,
+        "volume": 2505400,
+        "ma20": 92.77,
+        "ma50": 95.7,
+        "volume_vs_20d": 0.55,
+        "atr14": 4.34,
+        "chg_5d_pct": 5.77
+      },
+      "weekly_snapshot": {
+        "ticker": "TTD",
+        "week_start": "2024-08-19",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 70.7,
+        "price_vs_sma50": 1.073,
+        "notes": "ADX 32.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "TTD_2024-08-02_bullish_sample_004_013",
+      "scenario_id": "TTD_2024-08-02",
+      "window_type": "bullish_sample_004",
+      "chronological_index": 13,
+      "state_id": "bullish_sample_004_state_013",
+      "time_spot": "2024-08-20",
+      "reference_session": "2024-08-20",
+      "question": "Session summary for August 20, 2024: TTD opened $102.55, ranged $101.70-$103.35, closed $102.14. Volume 1.9M (0.42x 20-day avg). 20-day $92.83 | 50-day $95.85. 5-day return +3.89%. ATR-14 $4.28. RSI 69.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-08-20",
+        "open": 102.55,
+        "high": 103.35,
+        "low": 101.7,
+        "close": 102.14,
+        "volume": 1924400,
+        "ma20": 92.83,
+        "ma50": 95.85,
+        "volume_vs_20d": 0.42,
+        "atr14": 4.28,
+        "chg_5d_pct": 3.89
+      },
+      "weekly_snapshot": {
+        "ticker": "TTD",
+        "week_start": "2024-08-19",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 69.5,
+        "price_vs_sma50": 1.066,
+        "notes": "ADX 30.5, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "TTD_2024-08-02_bullish_sample_004_014",
+      "scenario_id": "TTD_2024-08-02",
+      "window_type": "bullish_sample_004",
+      "chronological_index": 14,
+      "state_id": "bullish_sample_004_state_014",
+      "time_spot": "2024-08-21",
+      "reference_session": "2024-08-21",
+      "question": "Session summary for August 21, 2024: TTD opened $102.49, ranged $101.91-$104.44, closed $104.36. Volume 2.1M (0.49x 20-day avg). 20-day $93.58 | 50-day $96.09. 5-day return +5.75%. ATR-14 $4.01. RSI 76.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-08-21",
+        "open": 102.49,
+        "high": 104.44,
+        "low": 101.91,
+        "close": 104.36,
+        "volume": 2087700,
+        "ma20": 93.58,
+        "ma50": 96.09,
+        "volume_vs_20d": 0.49,
+        "atr14": 4.01,
+        "chg_5d_pct": 5.75
+      },
+      "weekly_snapshot": {
+        "ticker": "TTD",
+        "week_start": "2024-08-19",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 76.4,
+        "price_vs_sma50": 1.086,
+        "notes": "ADX 29.9, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "TTD_2024-08-02_bullish_sample_004_015",
+      "scenario_id": "TTD_2024-08-02",
+      "window_type": "bullish_sample_004",
+      "chronological_index": 15,
+      "state_id": "bullish_sample_004_state_015",
+      "time_spot": "2024-08-22",
+      "reference_session": "2024-08-22",
+      "question": "Session summary for August 22, 2024: TTD opened $104.69, ranged $102.91-$104.69, closed $103.17. Volume 2.2M (0.53x 20-day avg). 20-day $94.20 | 50-day $96.31. 5-day return +2.66%. ATR-14 $3.71. RSI 85.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-08-22",
+        "open": 104.69,
+        "high": 104.69,
+        "low": 102.91,
+        "close": 103.17,
+        "volume": 2159600,
+        "ma20": 94.2,
+        "ma50": 96.31,
+        "volume_vs_20d": 0.53,
+        "atr14": 3.71,
+        "chg_5d_pct": 2.66
+      },
+      "weekly_snapshot": {
+        "ticker": "TTD",
+        "week_start": "2024-08-19",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 85.9,
+        "price_vs_sma50": 1.071,
+        "notes": "ADX 29.9, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "TTD_2024-08-02_bullish_sample_004_016",
+      "scenario_id": "TTD_2024-08-02",
+      "window_type": "bullish_sample_004",
+      "chronological_index": 16,
+      "state_id": "bullish_sample_004_state_016",
+      "time_spot": "2024-08-23",
+      "reference_session": "2024-08-23",
+      "question": "Session summary for August 23, 2024: TTD opened $104.81, ranged $103.44-$105.39, closed $105.00. Volume 2.1M (0.51x 20-day avg). 20-day $94.83 | 50-day $96.46. 5-day return +3.52%. ATR-14 $3.33. RSI 86.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-08-23",
+        "open": 104.81,
+        "high": 105.39,
+        "low": 103.44,
+        "close": 105.0,
+        "volume": 2060900,
+        "ma20": 94.83,
+        "ma50": 96.46,
+        "volume_vs_20d": 0.51,
+        "atr14": 3.33,
+        "chg_5d_pct": 3.52
+      },
+      "weekly_snapshot": {
+        "ticker": "TTD",
+        "week_start": "2024-08-19",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 86.7,
+        "price_vs_sma50": 1.089,
+        "notes": "ADX 32.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "TTD_2024-08-02_bullish_sample_004_017",
+      "scenario_id": "TTD_2024-08-02",
+      "window_type": "bullish_sample_004",
+      "chronological_index": 17,
+      "state_id": "bullish_sample_004_state_017",
+      "time_spot": "2024-08-26",
+      "reference_session": "2024-08-26",
+      "question": "Session summary for August 26, 2024: TTD opened $104.70, ranged $103.33-$105.39, closed $103.97. Volume 2.1M (0.52x 20-day avg). 20-day $95.42 | 50-day $96.63. 5-day return +1.30%. ATR-14 $3.27. RSI 82.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-08-26",
+        "open": 104.7,
+        "high": 105.39,
+        "low": 103.33,
+        "close": 103.97,
+        "volume": 2110800,
+        "ma20": 95.42,
+        "ma50": 96.63,
+        "volume_vs_20d": 0.52,
+        "atr14": 3.27,
+        "chg_5d_pct": 1.3
+      },
+      "weekly_snapshot": {
+        "ticker": "TTD",
+        "week_start": "2024-08-26",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 82.9,
+        "price_vs_sma50": 1.076,
+        "notes": "ADX 35.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "TTD_2024-08-02_bullish_sample_004_018",
+      "scenario_id": "TTD_2024-08-02",
+      "window_type": "bullish_sample_004",
+      "chronological_index": 18,
+      "state_id": "bullish_sample_004_state_018",
+      "time_spot": "2024-08-27",
+      "reference_session": "2024-08-27",
+      "question": "Session summary for August 27, 2024: TTD opened $103.01, ranged $102.15-$104.56, closed $103.92. Volume 2.6M (0.64x 20-day avg). 20-day $96.12 | 50-day $96.79. 5-day return +1.74%. ATR-14 $3.23. RSI 82.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-08-27",
+        "open": 103.01,
+        "high": 104.56,
+        "low": 102.15,
+        "close": 103.92,
+        "volume": 2570200,
+        "ma20": 96.12,
+        "ma50": 96.79,
+        "volume_vs_20d": 0.64,
+        "atr14": 3.23,
+        "chg_5d_pct": 1.74
+      },
+      "weekly_snapshot": {
+        "ticker": "TTD",
+        "week_start": "2024-08-26",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 82.7,
+        "price_vs_sma50": 1.074,
+        "notes": "ADX 37.4, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "TTD_2024-08-02_bullish_sample_004_019",
+      "scenario_id": "TTD_2024-08-02",
+      "window_type": "bullish_sample_004",
+      "chronological_index": 19,
+      "state_id": "bullish_sample_004_state_019",
+      "time_spot": "2024-08-28",
+      "reference_session": "2024-08-28",
+      "question": "Session summary for August 28, 2024: TTD opened $103.88, ranged $101.53-$103.98, closed $102.18. Volume 1.9M (0.50x 20-day avg). 20-day $96.73 | 50-day $96.88. 5-day return -2.09%. ATR-14 $3.10. RSI 75.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-08-28",
+        "open": 103.88,
+        "high": 103.98,
+        "low": 101.53,
+        "close": 102.18,
+        "volume": 1943500,
+        "ma20": 96.73,
+        "ma50": 96.88,
+        "volume_vs_20d": 0.5,
+        "atr14": 3.1,
+        "chg_5d_pct": -2.09
+      },
+      "weekly_snapshot": {
+        "ticker": "TTD",
+        "week_start": "2024-08-26",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 75.3,
+        "price_vs_sma50": 1.055,
+        "notes": "ADX 39.8, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "TTD_2024-08-02_bullish_sample_004_020",
+      "scenario_id": "TTD_2024-08-02",
+      "window_type": "bullish_sample_004",
+      "chronological_index": 20,
+      "state_id": "bullish_sample_004_state_020",
+      "time_spot": "2024-08-29",
+      "reference_session": "2024-08-29",
+      "question": "Session summary for August 29, 2024: TTD opened $102.90, ranged $102.78-$105.22, closed $103.51. Volume 2.1M (0.55x 20-day avg). 20-day $97.52 | 50-day $96.97. 5-day return +0.33%. ATR-14 $2.51. RSI 61.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-08-29",
+        "open": 102.9,
+        "high": 105.22,
+        "low": 102.78,
+        "close": 103.51,
+        "volume": 2106000,
+        "ma20": 97.52,
+        "ma50": 96.97,
+        "volume_vs_20d": 0.55,
+        "atr14": 2.51,
+        "chg_5d_pct": 0.33
+      },
+      "weekly_snapshot": {
+        "ticker": "TTD",
+        "week_start": "2024-08-26",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 61.9,
+        "price_vs_sma50": 1.067,
+        "notes": "ADX 42.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "TTD_2024-08-02_bullish_sample_004_021",
+      "scenario_id": "TTD_2024-08-02",
+      "window_type": "bullish_sample_004",
+      "chronological_index": 21,
+      "state_id": "bullish_sample_004_state_021",
+      "time_spot": "2024-08-30",
+      "reference_session": "2024-08-30",
+      "question": "Session summary for August 30, 2024: TTD opened $104.00, ranged $103.44-$105.08, closed $104.53. Volume 2.1M (0.58x 20-day avg). 20-day $98.59 | 50-day $97.11. 5-day return -0.45%. ATR-14 $2.43. RSI 72.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-08-30",
+        "open": 104.0,
+        "high": 105.08,
+        "low": 103.44,
+        "close": 104.53,
+        "volume": 2143100,
+        "ma20": 98.59,
+        "ma50": 97.11,
+        "volume_vs_20d": 0.58,
+        "atr14": 2.43,
+        "chg_5d_pct": -0.45
+      },
+      "weekly_snapshot": {
+        "ticker": "TTD",
+        "week_start": "2024-08-26",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 72.7,
+        "price_vs_sma50": 1.076,
+        "notes": "ADX 44.5, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "TTD_2024-08-02_bullish_sample_004_022",
+      "scenario_id": "TTD_2024-08-02",
+      "window_type": "bullish_sample_004",
+      "chronological_index": 22,
+      "state_id": "bullish_sample_004_state_022",
+      "time_spot": "2024-09-03",
+      "reference_session": "2024-09-03",
+      "question": "Session summary for September 03, 2024: TTD opened $103.93, ranged $100.16-$103.93, closed $100.97. Volume 2.8M (0.78x 20-day avg). 20-day $99.48 | 50-day $97.18. 5-day return -2.89%. ATR-14 $2.56. RSI 57.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-09-03",
+        "open": 103.93,
+        "high": 103.93,
+        "low": 100.16,
+        "close": 100.97,
+        "volume": 2762200,
+        "ma20": 99.48,
+        "ma50": 97.18,
+        "volume_vs_20d": 0.78,
+        "atr14": 2.56,
+        "chg_5d_pct": -2.89
+      },
+      "weekly_snapshot": {
+        "ticker": "TTD",
+        "week_start": "2024-09-02",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 57.1,
+        "price_vs_sma50": 1.039,
+        "notes": "ADX 45.8, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "TTD_2024-08-02_bullish_sample_004_023",
+      "scenario_id": "TTD_2024-08-02",
+      "window_type": "bullish_sample_004",
+      "chronological_index": 23,
+      "state_id": "bullish_sample_004_state_023",
+      "time_spot": "2024-09-04",
+      "reference_session": "2024-09-04",
+      "question": "Session summary for September 04, 2024: TTD opened $102.19, ranged $101.04-$103.60, closed $101.35. Volume 2.5M (0.73x 20-day avg). 20-day $100.31 | 50-day $97.29. 5-day return -2.47%. ATR-14 $2.54. RSI 57.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-09-04",
+        "open": 102.19,
+        "high": 103.6,
+        "low": 101.04,
+        "close": 101.35,
+        "volume": 2513300,
+        "ma20": 100.31,
+        "ma50": 97.29,
+        "volume_vs_20d": 0.73,
+        "atr14": 2.54,
+        "chg_5d_pct": -2.47
+      },
+      "weekly_snapshot": {
+        "ticker": "TTD",
+        "week_start": "2024-09-02",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 57.1,
+        "price_vs_sma50": 1.042,
+        "notes": "ADX 46.1, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "TTD_2024-08-02_bullish_sample_004_024",
+      "scenario_id": "TTD_2024-08-02",
+      "window_type": "bullish_sample_004",
+      "chronological_index": 24,
+      "state_id": "bullish_sample_004_state_024",
+      "time_spot": "2024-09-05",
+      "reference_session": "2024-09-05",
+      "question": "Session summary for September 05, 2024: TTD opened $100.76, ranged $100.74-$103.84, closed $103.54. Volume 2.8M (0.83x 20-day avg). 20-day $101.24 | 50-day $97.40. 5-day return +1.33%. ATR-14 $2.56. RSI 57.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-09-05",
+        "open": 100.76,
+        "high": 103.84,
+        "low": 100.74,
+        "close": 103.54,
+        "volume": 2801700,
+        "ma20": 101.24,
+        "ma50": 97.4,
+        "volume_vs_20d": 0.83,
+        "atr14": 2.56,
+        "chg_5d_pct": 1.33
+      },
+      "weekly_snapshot": {
+        "ticker": "TTD",
+        "week_start": "2024-09-02",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 57.9,
+        "price_vs_sma50": 1.063,
+        "notes": "ADX 45.7, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "TTD_2024-08-02_bullish_sample_004_025",
+      "scenario_id": "TTD_2024-08-02",
+      "window_type": "bullish_sample_004",
+      "chronological_index": 25,
+      "state_id": "bullish_sample_004_state_025",
+      "time_spot": "2024-09-06",
+      "reference_session": "2024-09-06",
+      "question": "Session summary for September 06, 2024: TTD opened $103.68, ranged $99.13-$104.93, closed $100.31. Volume 3.8M (1.18x 20-day avg). 20-day $101.84 | 50-day $97.46. 5-day return -3.09%. ATR-14 $2.71. RSI 47.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-09-06",
+        "open": 103.68,
+        "high": 104.93,
+        "low": 99.13,
+        "close": 100.31,
+        "volume": 3847300,
+        "ma20": 101.84,
+        "ma50": 97.46,
+        "volume_vs_20d": 1.18,
+        "atr14": 2.71,
+        "chg_5d_pct": -3.09
+      },
+      "weekly_snapshot": {
+        "ticker": "TTD",
+        "week_start": "2024-09-02",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 47.4,
+        "price_vs_sma50": 1.029,
+        "notes": "ADX 46.9, MACD bearish"
+      }
+    }
+  ]
+}

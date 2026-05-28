@@ -1,0 +1,2898 @@
+{
+  "metadata": {
+    "instrument": "ZTS",
+    "initial_capital": 10000,
+    "window_type": "bearish_sample_016",
+    "description": "ZTS window (2024-10-01 \u2013 2024-11-04) sampled from S&P500 indicator archive.",
+    "num_mcqs": 25,
+    "notes": "Orders express target exposure fractions relative to the leverage ceiling.",
+    "max_leverage": 2.5,
+    "exposure_buckets": [
+      0.8,
+      0.6,
+      0.4,
+      0.2
+    ],
+    "start_reference": "2024-10-01",
+    "end_reference": "2024-11-04",
+    "regime": "bearish",
+    "original_sample": "snp500_sample_036"
+  },
+  "mcqs": [
+    {
+      "scenario_instance_id": "ZTS_2024-10-01_bearish_sample_016_001",
+      "scenario_id": "ZTS_2024-10-01",
+      "window_type": "bearish_sample_016",
+      "chronological_index": 1,
+      "state_id": "bearish_sample_016_state_001",
+      "time_spot": "2024-10-01",
+      "reference_session": "2024-10-01",
+      "question": "Session summary for October 01, 2024: ZTS opened $193.10, ranged $188.78-$193.64, closed $192.08. Volume 2.0M (1.01x 20-day avg). 20-day $190.12 | 50-day $184.30. 5-day return +0.38%. ATR-14 $3.73. RSI 62.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-10-01",
+        "open": 193.1,
+        "high": 193.64,
+        "low": 188.78,
+        "close": 192.08,
+        "volume": 1951200,
+        "ma20": 190.12,
+        "ma50": 184.3,
+        "volume_vs_20d": 1.01,
+        "atr14": 3.73,
+        "chg_5d_pct": 0.38
+      },
+      "weekly_snapshot": {
+        "ticker": "ZTS",
+        "week_start": "2024-09-30",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 62.0,
+        "price_vs_sma50": 1.042,
+        "notes": "ADX 34.0, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ZTS_2024-10-01_bearish_sample_016_002",
+      "scenario_id": "ZTS_2024-10-01",
+      "window_type": "bearish_sample_016",
+      "chronological_index": 2,
+      "state_id": "bearish_sample_016_state_002",
+      "time_spot": "2024-10-02",
+      "reference_session": "2024-10-02",
+      "question": "Session summary for October 02, 2024: ZTS opened $191.19, ranged $188.96-$192.05, closed $190.15. Volume 1.2M (0.65x 20-day avg). 20-day $190.37 | 50-day $184.56. 5-day return +0.49%. ATR-14 $3.69. RSI 54.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-10-02",
+        "open": 191.19,
+        "high": 192.05,
+        "low": 188.96,
+        "close": 190.15,
+        "volume": 1233300,
+        "ma20": 190.37,
+        "ma50": 184.56,
+        "volume_vs_20d": 0.65,
+        "atr14": 3.69,
+        "chg_5d_pct": 0.49
+      },
+      "weekly_snapshot": {
+        "ticker": "ZTS",
+        "week_start": "2024-09-30",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 54.4,
+        "price_vs_sma50": 1.03,
+        "notes": "ADX 33.1, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ZTS_2024-10-01_bearish_sample_016_003",
+      "scenario_id": "ZTS_2024-10-01",
+      "window_type": "bearish_sample_016",
+      "chronological_index": 3,
+      "state_id": "bearish_sample_016_state_003",
+      "time_spot": "2024-10-03",
+      "reference_session": "2024-10-03",
+      "question": "Session summary for October 03, 2024: ZTS opened $189.58, ranged $187.72-$190.02, closed $188.69. Volume 1.3M (0.70x 20-day avg). 20-day $190.59 | 50-day $184.79. 5-day return -1.99%. ATR-14 $3.69. RSI 49.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-10-03",
+        "open": 189.58,
+        "high": 190.02,
+        "low": 187.72,
+        "close": 188.69,
+        "volume": 1325000,
+        "ma20": 190.59,
+        "ma50": 184.79,
+        "volume_vs_20d": 0.7,
+        "atr14": 3.69,
+        "chg_5d_pct": -1.99
+      },
+      "weekly_snapshot": {
+        "ticker": "ZTS",
+        "week_start": "2024-09-30",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 49.8,
+        "price_vs_sma50": 1.021,
+        "notes": "ADX 30.0, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ZTS_2024-10-01_bearish_sample_016_004",
+      "scenario_id": "ZTS_2024-10-01",
+      "window_type": "bearish_sample_016",
+      "chronological_index": 4,
+      "state_id": "bearish_sample_016_state_004",
+      "time_spot": "2024-10-04",
+      "reference_session": "2024-10-04",
+      "question": "Session summary for October 04, 2024: ZTS opened $188.69, ranged $186.73-$189.56, closed $187.75. Volume 1.7M (0.92x 20-day avg). 20-day $190.63 | 50-day $184.97. 5-day return -2.45%. ATR-14 $3.65. RSI 38.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-10-04",
+        "open": 188.69,
+        "high": 189.56,
+        "low": 186.73,
+        "close": 187.75,
+        "volume": 1697700,
+        "ma20": 190.63,
+        "ma50": 184.97,
+        "volume_vs_20d": 0.92,
+        "atr14": 3.65,
+        "chg_5d_pct": -2.45
+      },
+      "weekly_snapshot": {
+        "ticker": "ZTS",
+        "week_start": "2024-09-30",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 38.7,
+        "price_vs_sma50": 1.015,
+        "notes": "ADX 27.5, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ZTS_2024-10-01_bearish_sample_016_005",
+      "scenario_id": "ZTS_2024-10-01",
+      "window_type": "bearish_sample_016",
+      "chronological_index": 5,
+      "state_id": "bearish_sample_016_state_005",
+      "time_spot": "2024-10-07",
+      "reference_session": "2024-10-07",
+      "question": "Session summary for October 07, 2024: ZTS opened $187.80, ranged $184.40-$187.83, closed $185.03. Volume 1.8M (1.02x 20-day avg). 20-day $190.41 | 50-day $185.12. 5-day return -4.15%. ATR-14 $3.74. RSI 28.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-10-07",
+        "open": 187.8,
+        "high": 187.83,
+        "low": 184.4,
+        "close": 185.03,
+        "volume": 1847300,
+        "ma20": 190.41,
+        "ma50": 185.12,
+        "volume_vs_20d": 1.02,
+        "atr14": 3.74,
+        "chg_5d_pct": -4.15
+      },
+      "weekly_snapshot": {
+        "ticker": "ZTS",
+        "week_start": "2024-10-07",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 28.8,
+        "price_vs_sma50": 1.0,
+        "notes": "ADX 26.2, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ZTS_2024-10-01_bearish_sample_016_006",
+      "scenario_id": "ZTS_2024-10-01",
+      "window_type": "bearish_sample_016",
+      "chronological_index": 6,
+      "state_id": "bearish_sample_016_state_006",
+      "time_spot": "2024-10-08",
+      "reference_session": "2024-10-08",
+      "question": "Session summary for October 08, 2024: ZTS opened $184.75, ranged $184.41-$186.98, closed $185.12. Volume 2.0M (1.12x 20-day avg). 20-day $190.21 | 50-day $185.23. 5-day return -3.63%. ATR-14 $3.64. RSI 26.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-10-08",
+        "open": 184.75,
+        "high": 186.98,
+        "low": 184.41,
+        "close": 185.12,
+        "volume": 1990100,
+        "ma20": 190.21,
+        "ma50": 185.23,
+        "volume_vs_20d": 1.12,
+        "atr14": 3.64,
+        "chg_5d_pct": -3.63
+      },
+      "weekly_snapshot": {
+        "ticker": "ZTS",
+        "week_start": "2024-10-07",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 26.3,
+        "price_vs_sma50": 0.999,
+        "notes": "ADX 26.0, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ZTS_2024-10-01_bearish_sample_016_007",
+      "scenario_id": "ZTS_2024-10-01",
+      "window_type": "bearish_sample_016",
+      "chronological_index": 7,
+      "state_id": "bearish_sample_016_state_007",
+      "time_spot": "2024-10-09",
+      "reference_session": "2024-10-09",
+      "question": "Session summary for October 09, 2024: ZTS opened $185.03, ranged $184.76-$188.15, closed $187.88. Volume 1.0M (0.55x 20-day avg). 20-day $190.22 | 50-day $185.39. 5-day return -1.19%. ATR-14 $3.24. RSI 41.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-10-09",
+        "open": 185.03,
+        "high": 188.15,
+        "low": 184.76,
+        "close": 187.88,
+        "volume": 965400,
+        "ma20": 190.22,
+        "ma50": 185.39,
+        "volume_vs_20d": 0.55,
+        "atr14": 3.24,
+        "chg_5d_pct": -1.19
+      },
+      "weekly_snapshot": {
+        "ticker": "ZTS",
+        "week_start": "2024-10-07",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 41.8,
+        "price_vs_sma50": 1.013,
+        "notes": "ADX 25.6, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ZTS_2024-10-01_bearish_sample_016_008",
+      "scenario_id": "ZTS_2024-10-01",
+      "window_type": "bearish_sample_016",
+      "chronological_index": 8,
+      "state_id": "bearish_sample_016_state_008",
+      "time_spot": "2024-10-10",
+      "reference_session": "2024-10-10",
+      "question": "Session summary for October 10, 2024: ZTS opened $187.48, ranged $186.65-$188.48, closed $187.99. Volume 1.2M (0.66x 20-day avg). 20-day $190.20 | 50-day $185.59. 5-day return -0.37%. ATR-14 $3.13. RSI 43.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-10-10",
+        "open": 187.48,
+        "high": 188.48,
+        "low": 186.65,
+        "close": 187.99,
+        "volume": 1153600,
+        "ma20": 190.2,
+        "ma50": 185.59,
+        "volume_vs_20d": 0.66,
+        "atr14": 3.13,
+        "chg_5d_pct": -0.37
+      },
+      "weekly_snapshot": {
+        "ticker": "ZTS",
+        "week_start": "2024-10-07",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 43.5,
+        "price_vs_sma50": 1.013,
+        "notes": "ADX 24.5, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ZTS_2024-10-01_bearish_sample_016_009",
+      "scenario_id": "ZTS_2024-10-01",
+      "window_type": "bearish_sample_016",
+      "chronological_index": 9,
+      "state_id": "bearish_sample_016_state_009",
+      "time_spot": "2024-10-11",
+      "reference_session": "2024-10-11",
+      "question": "Session summary for October 11, 2024: ZTS opened $187.92, ranged $187.42-$190.50, closed $187.80. Volume 1.8M (1.03x 20-day avg). 20-day $190.15 | 50-day $185.75. 5-day return +0.03%. ATR-14 $3.16. RSI 40.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-10-11",
+        "open": 187.92,
+        "high": 190.5,
+        "low": 187.42,
+        "close": 187.8,
+        "volume": 1819900,
+        "ma20": 190.15,
+        "ma50": 185.75,
+        "volume_vs_20d": 1.03,
+        "atr14": 3.16,
+        "chg_5d_pct": 0.03
+      },
+      "weekly_snapshot": {
+        "ticker": "ZTS",
+        "week_start": "2024-10-07",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 40.0,
+        "price_vs_sma50": 1.011,
+        "notes": "ADX 22.4, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ZTS_2024-10-01_bearish_sample_016_010",
+      "scenario_id": "ZTS_2024-10-01",
+      "window_type": "bearish_sample_016",
+      "chronological_index": 10,
+      "state_id": "bearish_sample_016_state_010",
+      "time_spot": "2024-10-14",
+      "reference_session": "2024-10-14",
+      "question": "Session summary for October 14, 2024: ZTS opened $187.87, ranged $187.51-$190.72, closed $190.33. Volume 1.6M (0.91x 20-day avg). 20-day $190.07 | 50-day $185.98. 5-day return +2.87%. ATR-14 $3.19. RSI 47.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-10-14",
+        "open": 187.87,
+        "high": 190.72,
+        "low": 187.51,
+        "close": 190.33,
+        "volume": 1616400,
+        "ma20": 190.07,
+        "ma50": 185.98,
+        "volume_vs_20d": 0.91,
+        "atr14": 3.19,
+        "chg_5d_pct": 2.87
+      },
+      "weekly_snapshot": {
+        "ticker": "ZTS",
+        "week_start": "2024-10-14",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 47.4,
+        "price_vs_sma50": 1.023,
+        "notes": "ADX 21.4, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ZTS_2024-10-01_bearish_sample_016_011",
+      "scenario_id": "ZTS_2024-10-01",
+      "window_type": "bearish_sample_016",
+      "chronological_index": 11,
+      "state_id": "bearish_sample_016_state_011",
+      "time_spot": "2024-10-15",
+      "reference_session": "2024-10-15",
+      "question": "Session summary for October 15, 2024: ZTS opened $189.97, ranged $189.63-$193.47, closed $190.08. Volume 1.4M (0.81x 20-day avg). 20-day $189.91 | 50-day $186.33. 5-day return +2.68%. ATR-14 $3.12. RSI 52.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-10-15",
+        "open": 189.97,
+        "high": 193.47,
+        "low": 189.63,
+        "close": 190.08,
+        "volume": 1414600,
+        "ma20": 189.91,
+        "ma50": 186.33,
+        "volume_vs_20d": 0.81,
+        "atr14": 3.12,
+        "chg_5d_pct": 2.68
+      },
+      "weekly_snapshot": {
+        "ticker": "ZTS",
+        "week_start": "2024-10-14",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 52.4,
+        "price_vs_sma50": 1.02,
+        "notes": "ADX 20.0, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ZTS_2024-10-01_bearish_sample_016_012",
+      "scenario_id": "ZTS_2024-10-01",
+      "window_type": "bearish_sample_016",
+      "chronological_index": 12,
+      "state_id": "bearish_sample_016_state_012",
+      "time_spot": "2024-10-16",
+      "reference_session": "2024-10-16",
+      "question": "Session summary for October 16, 2024: ZTS opened $189.69, ranged $189.46-$193.53, closed $192.10. Volume 1.6M (0.92x 20-day avg). 20-day $189.81 | 50-day $186.51. 5-day return +2.25%. ATR-14 $3.15. RSI 48.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-10-16",
+        "open": 189.69,
+        "high": 193.53,
+        "low": 189.46,
+        "close": 192.1,
+        "volume": 1591500,
+        "ma20": 189.81,
+        "ma50": 186.51,
+        "volume_vs_20d": 0.92,
+        "atr14": 3.15,
+        "chg_5d_pct": 2.25
+      },
+      "weekly_snapshot": {
+        "ticker": "ZTS",
+        "week_start": "2024-10-14",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 48.7,
+        "price_vs_sma50": 1.03,
+        "notes": "ADX 19.1, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ZTS_2024-10-01_bearish_sample_016_013",
+      "scenario_id": "ZTS_2024-10-01",
+      "window_type": "bearish_sample_016",
+      "chronological_index": 13,
+      "state_id": "bearish_sample_016_state_013",
+      "time_spot": "2024-10-17",
+      "reference_session": "2024-10-17",
+      "question": "Session summary for October 17, 2024: ZTS opened $193.36, ranged $188.60-$194.19, closed $188.70. Volume 1.7M (1.01x 20-day avg). 20-day $189.70 | 50-day $186.63. 5-day return +0.38%. ATR-14 $3.33. RSI 40.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-10-17",
+        "open": 193.36,
+        "high": 194.19,
+        "low": 188.6,
+        "close": 188.7,
+        "volume": 1701200,
+        "ma20": 189.7,
+        "ma50": 186.63,
+        "volume_vs_20d": 1.01,
+        "atr14": 3.33,
+        "chg_5d_pct": 0.38
+      },
+      "weekly_snapshot": {
+        "ticker": "ZTS",
+        "week_start": "2024-10-14",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 40.6,
+        "price_vs_sma50": 1.011,
+        "notes": "ADX 19.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ZTS_2024-10-01_bearish_sample_016_014",
+      "scenario_id": "ZTS_2024-10-01",
+      "window_type": "bearish_sample_016",
+      "chronological_index": 14,
+      "state_id": "bearish_sample_016_state_014",
+      "time_spot": "2024-10-18",
+      "reference_session": "2024-10-18",
+      "question": "Session summary for October 18, 2024: ZTS opened $188.86, ranged $188.21-$191.16, closed $190.96. Volume 1.6M (0.99x 20-day avg). 20-day $189.73 | 50-day $186.73. 5-day return +1.68%. ATR-14 $3.37. RSI 45.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-10-18",
+        "open": 188.86,
+        "high": 191.16,
+        "low": 188.21,
+        "close": 190.96,
+        "volume": 1576400,
+        "ma20": 189.73,
+        "ma50": 186.73,
+        "volume_vs_20d": 0.99,
+        "atr14": 3.37,
+        "chg_5d_pct": 1.68
+      },
+      "weekly_snapshot": {
+        "ticker": "ZTS",
+        "week_start": "2024-10-14",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 45.2,
+        "price_vs_sma50": 1.023,
+        "notes": "ADX 18.6, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ZTS_2024-10-01_bearish_sample_016_015",
+      "scenario_id": "ZTS_2024-10-01",
+      "window_type": "bearish_sample_016",
+      "chronological_index": 15,
+      "state_id": "bearish_sample_016_state_015",
+      "time_spot": "2024-10-21",
+      "reference_session": "2024-10-21",
+      "question": "Session summary for October 21, 2024: ZTS opened $190.17, ranged $186.91-$190.68, closed $187.17. Volume 1.0M (0.61x 20-day avg). 20-day $189.52 | 50-day $186.82. 5-day return -1.66%. ATR-14 $3.31. RSI 40.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-10-21",
+        "open": 190.17,
+        "high": 190.68,
+        "low": 186.91,
+        "close": 187.17,
+        "volume": 959500,
+        "ma20": 189.52,
+        "ma50": 186.82,
+        "volume_vs_20d": 0.61,
+        "atr14": 3.31,
+        "chg_5d_pct": -1.66
+      },
+      "weekly_snapshot": {
+        "ticker": "ZTS",
+        "week_start": "2024-10-21",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 40.0,
+        "price_vs_sma50": 1.002,
+        "notes": "ADX 17.9, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ZTS_2024-10-01_bearish_sample_016_016",
+      "scenario_id": "ZTS_2024-10-01",
+      "window_type": "bearish_sample_016",
+      "chronological_index": 16,
+      "state_id": "bearish_sample_016_state_016",
+      "time_spot": "2024-10-22",
+      "reference_session": "2024-10-22",
+      "question": "Session summary for October 22, 2024: ZTS opened $186.15, ranged $184.97-$187.54, closed $187.23. Volume 1.4M (0.93x 20-day avg). 20-day $189.32 | 50-day $186.93. 5-day return -1.50%. ATR-14 $3.28. RSI 43.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-10-22",
+        "open": 186.15,
+        "high": 187.54,
+        "low": 184.97,
+        "close": 187.23,
+        "volume": 1441900,
+        "ma20": 189.32,
+        "ma50": 186.93,
+        "volume_vs_20d": 0.93,
+        "atr14": 3.28,
+        "chg_5d_pct": -1.5
+      },
+      "weekly_snapshot": {
+        "ticker": "ZTS",
+        "week_start": "2024-10-21",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 43.6,
+        "price_vs_sma50": 1.002,
+        "notes": "ADX 18.1, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ZTS_2024-10-01_bearish_sample_016_017",
+      "scenario_id": "ZTS_2024-10-01",
+      "window_type": "bearish_sample_016",
+      "chronological_index": 17,
+      "state_id": "bearish_sample_016_state_017",
+      "time_spot": "2024-10-23",
+      "reference_session": "2024-10-23",
+      "question": "Session summary for October 23, 2024: ZTS opened $187.12, ranged $185.31-$187.70, closed $186.72. Volume 1.3M (0.88x 20-day avg). 20-day $189.19 | 50-day $186.94. 5-day return -2.80%. ATR-14 $3.27. RSI 45.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-10-23",
+        "open": 187.12,
+        "high": 187.7,
+        "low": 185.31,
+        "close": 186.72,
+        "volume": 1339500,
+        "ma20": 189.19,
+        "ma50": 186.94,
+        "volume_vs_20d": 0.88,
+        "atr14": 3.27,
+        "chg_5d_pct": -2.8
+      },
+      "weekly_snapshot": {
+        "ticker": "ZTS",
+        "week_start": "2024-10-21",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 45.4,
+        "price_vs_sma50": 0.999,
+        "notes": "ADX 18.7, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ZTS_2024-10-01_bearish_sample_016_018",
+      "scenario_id": "ZTS_2024-10-01",
+      "window_type": "bearish_sample_016",
+      "chronological_index": 18,
+      "state_id": "bearish_sample_016_state_018",
+      "time_spot": "2024-10-24",
+      "reference_session": "2024-10-24",
+      "question": "Session summary for October 24, 2024: ZTS opened $185.31, ranged $177.90-$185.99, closed $179.32. Volume 4.5M (2.69x 20-day avg). 20-day $188.53 | 50-day $186.90. 5-day return -4.97%. ATR-14 $3.70. RSI 35.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-10-24",
+        "open": 185.31,
+        "high": 185.99,
+        "low": 177.9,
+        "close": 179.32,
+        "volume": 4485900,
+        "ma20": 188.53,
+        "ma50": 186.9,
+        "volume_vs_20d": 2.69,
+        "atr14": 3.7,
+        "chg_5d_pct": -4.97
+      },
+      "weekly_snapshot": {
+        "ticker": "ZTS",
+        "week_start": "2024-10-21",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 35.0,
+        "price_vs_sma50": 0.959,
+        "notes": "ADX 20.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ZTS_2024-10-01_bearish_sample_016_019",
+      "scenario_id": "ZTS_2024-10-01",
+      "window_type": "bearish_sample_016",
+      "chronological_index": 19,
+      "state_id": "bearish_sample_016_state_019",
+      "time_spot": "2024-10-25",
+      "reference_session": "2024-10-25",
+      "question": "Session summary for October 25, 2024: ZTS opened $179.31, ranged $177.51-$179.84, closed $177.85. Volume 2.6M (1.52x 20-day avg). 20-day $187.80 | 50-day $186.82. 5-day return -6.87%. ATR-14 $3.62. RSI 36.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-10-25",
+        "open": 179.31,
+        "high": 179.84,
+        "low": 177.51,
+        "close": 177.85,
+        "volume": 2622900,
+        "ma20": 187.8,
+        "ma50": 186.82,
+        "volume_vs_20d": 1.52,
+        "atr14": 3.62,
+        "chg_5d_pct": -6.87
+      },
+      "weekly_snapshot": {
+        "ticker": "ZTS",
+        "week_start": "2024-10-21",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 36.6,
+        "price_vs_sma50": 0.952,
+        "notes": "ADX 20.0, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ZTS_2024-10-01_bearish_sample_016_020",
+      "scenario_id": "ZTS_2024-10-01",
+      "window_type": "bearish_sample_016",
+      "chronological_index": 20,
+      "state_id": "bearish_sample_016_state_020",
+      "time_spot": "2024-10-28",
+      "reference_session": "2024-10-28",
+      "question": "Session summary for October 28, 2024: ZTS opened $179.35, ranged $178.53-$180.90, closed $180.56. Volume 1.9M (1.10x 20-day avg). 20-day $187.18 | 50-day $186.80. 5-day return -3.53%. ATR-14 $3.66. RSI 42.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-10-28",
+        "open": 179.35,
+        "high": 180.9,
+        "low": 178.53,
+        "close": 180.56,
+        "volume": 1909700,
+        "ma20": 187.18,
+        "ma50": 186.8,
+        "volume_vs_20d": 1.1,
+        "atr14": 3.66,
+        "chg_5d_pct": -3.53
+      },
+      "weekly_snapshot": {
+        "ticker": "ZTS",
+        "week_start": "2024-10-28",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 42.3,
+        "price_vs_sma50": 0.967,
+        "notes": "ADX 18.1, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ZTS_2024-10-01_bearish_sample_016_021",
+      "scenario_id": "ZTS_2024-10-01",
+      "window_type": "bearish_sample_016",
+      "chronological_index": 21,
+      "state_id": "bearish_sample_016_state_021",
+      "time_spot": "2024-10-29",
+      "reference_session": "2024-10-29",
+      "question": "Session summary for October 29, 2024: ZTS opened $179.82, ranged $178.86-$182.19, closed $179.09. Volume 1.7M (0.99x 20-day avg). 20-day $186.53 | 50-day $186.74. 5-day return -4.35%. ATR-14 $3.65. RSI 34.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-10-29",
+        "open": 179.82,
+        "high": 182.19,
+        "low": 178.86,
+        "close": 179.09,
+        "volume": 1696000,
+        "ma20": 186.53,
+        "ma50": 186.74,
+        "volume_vs_20d": 0.99,
+        "atr14": 3.65,
+        "chg_5d_pct": -4.35
+      },
+      "weekly_snapshot": {
+        "ticker": "ZTS",
+        "week_start": "2024-10-28",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 34.4,
+        "price_vs_sma50": 0.959,
+        "notes": "ADX 17.6, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ZTS_2024-10-01_bearish_sample_016_022",
+      "scenario_id": "ZTS_2024-10-01",
+      "window_type": "bearish_sample_016",
+      "chronological_index": 22,
+      "state_id": "bearish_sample_016_state_022",
+      "time_spot": "2024-10-30",
+      "reference_session": "2024-10-30",
+      "question": "Session summary for October 30, 2024: ZTS opened $177.76, ranged $177.64-$181.60, closed $180.54. Volume 2.0M (1.12x 20-day avg). 20-day $186.05 | 50-day $186.72. 5-day return -3.31%. ATR-14 $3.80. RSI 37.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-10-30",
+        "open": 177.76,
+        "high": 181.6,
+        "low": 177.64,
+        "close": 180.54,
+        "volume": 1957800,
+        "ma20": 186.05,
+        "ma50": 186.72,
+        "volume_vs_20d": 1.12,
+        "atr14": 3.8,
+        "chg_5d_pct": -3.31
+      },
+      "weekly_snapshot": {
+        "ticker": "ZTS",
+        "week_start": "2024-10-28",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 37.4,
+        "price_vs_sma50": 0.967,
+        "notes": "ADX 17.9, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ZTS_2024-10-01_bearish_sample_016_023",
+      "scenario_id": "ZTS_2024-10-01",
+      "window_type": "bearish_sample_016",
+      "chronological_index": 23,
+      "state_id": "bearish_sample_016_state_023",
+      "time_spot": "2024-10-31",
+      "reference_session": "2024-10-31",
+      "question": "Session summary for October 31, 2024: ZTS opened $178.48, ranged $177.01-$179.82, closed $177.05. Volume 2.1M (1.18x 20-day avg). 20-day $185.46 | 50-day $186.65. 5-day return -1.27%. ATR-14 $3.84. RSI 33.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-10-31",
+        "open": 178.48,
+        "high": 179.82,
+        "low": 177.01,
+        "close": 177.05,
+        "volume": 2120000,
+        "ma20": 185.46,
+        "ma50": 186.65,
+        "volume_vs_20d": 1.18,
+        "atr14": 3.84,
+        "chg_5d_pct": -1.27
+      },
+      "weekly_snapshot": {
+        "ticker": "ZTS",
+        "week_start": "2024-10-28",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 33.6,
+        "price_vs_sma50": 0.949,
+        "notes": "ADX 20.2, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ZTS_2024-10-01_bearish_sample_016_024",
+      "scenario_id": "ZTS_2024-10-01",
+      "window_type": "bearish_sample_016",
+      "chronological_index": 24,
+      "state_id": "bearish_sample_016_state_024",
+      "time_spot": "2024-11-01",
+      "reference_session": "2024-11-01",
+      "question": "Session summary for November 01, 2024: ZTS opened $178.24, ranged $177.47-$181.34, closed $180.19. Volume 2.8M (1.53x 20-day avg). 20-day $185.09 | 50-day $186.66. 5-day return +1.32%. ATR-14 $3.91. RSI 34.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-11-01",
+        "open": 178.24,
+        "high": 181.34,
+        "low": 177.47,
+        "close": 180.19,
+        "volume": 2838600,
+        "ma20": 185.09,
+        "ma50": 186.66,
+        "volume_vs_20d": 1.53,
+        "atr14": 3.91,
+        "chg_5d_pct": 1.32
+      },
+      "weekly_snapshot": {
+        "ticker": "ZTS",
+        "week_start": "2024-10-28",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 34.8,
+        "price_vs_sma50": 0.965,
+        "notes": "ADX 21.0, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ZTS_2024-10-01_bearish_sample_016_025",
+      "scenario_id": "ZTS_2024-10-01",
+      "window_type": "bearish_sample_016",
+      "chronological_index": 25,
+      "state_id": "bearish_sample_016_state_025",
+      "time_spot": "2024-11-04",
+      "reference_session": "2024-11-04",
+      "question": "Session summary for November 04, 2024: ZTS opened $174.93, ranged $171.91-$177.44, closed $173.48. Volume 4.2M (2.12x 20-day avg). 20-day $184.51 | 50-day $186.55. 5-day return -3.92%. ATR-14 $4.23. RSI 29.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-11-04",
+        "open": 174.93,
+        "high": 177.44,
+        "low": 171.91,
+        "close": 173.48,
+        "volume": 4164000,
+        "ma20": 184.51,
+        "ma50": 186.55,
+        "volume_vs_20d": 2.12,
+        "atr14": 4.23,
+        "chg_5d_pct": -3.92
+      },
+      "weekly_snapshot": {
+        "ticker": "ZTS",
+        "week_start": "2024-11-04",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 29.2,
+        "price_vs_sma50": 0.93,
+        "notes": "ADX 25.4, MACD bearish"
+      }
+    }
+  ]
+}

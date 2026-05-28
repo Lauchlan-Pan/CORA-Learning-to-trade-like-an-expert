@@ -1,0 +1,2898 @@
+{
+  "metadata": {
+    "instrument": "BSX",
+    "initial_capital": 10000,
+    "window_type": "bullish_sample_045",
+    "description": "BSX window (2013-12-18 \u2013 2014-01-24) sampled from S&P500 indicator archive.",
+    "num_mcqs": 25,
+    "notes": "Orders express target exposure fractions relative to the leverage ceiling.",
+    "max_leverage": 2.5,
+    "exposure_buckets": [
+      0.8,
+      0.6,
+      0.4,
+      0.2
+    ],
+    "start_reference": "2013-12-18",
+    "end_reference": "2014-01-24",
+    "regime": "bullish",
+    "original_sample": "snp500_sample_055"
+  },
+  "mcqs": [
+    {
+      "scenario_instance_id": "BSX_2013-12-18_bullish_sample_045_001",
+      "scenario_id": "BSX_2013-12-18",
+      "window_type": "bullish_sample_045",
+      "chronological_index": 1,
+      "state_id": "bullish_sample_045_state_001",
+      "time_spot": "2013-12-18",
+      "reference_session": "2013-12-18",
+      "question": "Session summary for December 18, 2013: BSX opened $11.46, ranged $11.30-$11.55, closed $11.54. Volume 17.9M (1.56x 20-day avg). 20-day $11.63 | 50-day $11.81. 5-day return +3.22%. ATR-14 $0.31. RSI 46.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-12-18",
+        "open": 11.46,
+        "high": 11.55,
+        "low": 11.3,
+        "close": 11.54,
+        "volume": 17850600,
+        "ma20": 11.63,
+        "ma50": 11.81,
+        "volume_vs_20d": 1.56,
+        "atr14": 0.31,
+        "chg_5d_pct": 3.22
+      },
+      "weekly_snapshot": {
+        "ticker": "BSX",
+        "week_start": "2013-12-16",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 46.8,
+        "price_vs_sma50": 0.977,
+        "notes": "ADX 32.5, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "BSX_2013-12-18_bullish_sample_045_002",
+      "scenario_id": "BSX_2013-12-18",
+      "window_type": "bullish_sample_045",
+      "chronological_index": 2,
+      "state_id": "bullish_sample_045_state_002",
+      "time_spot": "2013-12-19",
+      "reference_session": "2013-12-19",
+      "question": "Session summary for December 19, 2013: BSX opened $11.48, ranged $11.47-$11.63, closed $11.62. Volume 6.7M (0.59x 20-day avg). 20-day $11.61 | 50-day $11.81. 5-day return +1.22%. ATR-14 $0.31. RSI 50.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-12-19",
+        "open": 11.48,
+        "high": 11.63,
+        "low": 11.47,
+        "close": 11.62,
+        "volume": 6681000,
+        "ma20": 11.61,
+        "ma50": 11.81,
+        "volume_vs_20d": 0.59,
+        "atr14": 0.31,
+        "chg_5d_pct": 1.22
+      },
+      "weekly_snapshot": {
+        "ticker": "BSX",
+        "week_start": "2013-12-16",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 50.8,
+        "price_vs_sma50": 0.984,
+        "notes": "ADX 32.2, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "BSX_2013-12-18_bullish_sample_045_003",
+      "scenario_id": "BSX_2013-12-18",
+      "window_type": "bullish_sample_045",
+      "chronological_index": 3,
+      "state_id": "bullish_sample_045_state_003",
+      "time_spot": "2013-12-20",
+      "reference_session": "2013-12-20",
+      "question": "Session summary for December 20, 2013: BSX opened $11.64, ranged $11.61-$11.85, closed $11.84. Volume 17.4M (1.52x 20-day avg). 20-day $11.61 | 50-day $11.81. 5-day return +3.95%. ATR-14 $0.31. RSI 53.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-12-20",
+        "open": 11.64,
+        "high": 11.85,
+        "low": 11.61,
+        "close": 11.84,
+        "volume": 17398100,
+        "ma20": 11.61,
+        "ma50": 11.81,
+        "volume_vs_20d": 1.52,
+        "atr14": 0.31,
+        "chg_5d_pct": 3.95
+      },
+      "weekly_snapshot": {
+        "ticker": "BSX",
+        "week_start": "2013-12-16",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 53.8,
+        "price_vs_sma50": 1.003,
+        "notes": "ADX 28.8, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "BSX_2013-12-18_bullish_sample_045_004",
+      "scenario_id": "BSX_2013-12-18",
+      "window_type": "bullish_sample_045",
+      "chronological_index": 4,
+      "state_id": "bullish_sample_045_state_004",
+      "time_spot": "2013-12-23",
+      "reference_session": "2013-12-23",
+      "question": "Session summary for December 23, 2013: BSX opened $11.84, ranged $11.79-$11.99, closed $11.97. Volume 8.6M (0.75x 20-day avg). 20-day $11.60 | 50-day $11.81. 5-day return +5.00%. ATR-14 $0.31. RSI 52.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-12-23",
+        "open": 11.84,
+        "high": 11.99,
+        "low": 11.79,
+        "close": 11.97,
+        "volume": 8566400,
+        "ma20": 11.6,
+        "ma50": 11.81,
+        "volume_vs_20d": 0.75,
+        "atr14": 0.31,
+        "chg_5d_pct": 5.0
+      },
+      "weekly_snapshot": {
+        "ticker": "BSX",
+        "week_start": "2013-12-23",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 52.8,
+        "price_vs_sma50": 1.014,
+        "notes": "ADX 25.9, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "BSX_2013-12-18_bullish_sample_045_005",
+      "scenario_id": "BSX_2013-12-18",
+      "window_type": "bullish_sample_045",
+      "chronological_index": 5,
+      "state_id": "bullish_sample_045_state_005",
+      "time_spot": "2013-12-24",
+      "reference_session": "2013-12-24",
+      "question": "Session summary for December 24, 2013: BSX opened $11.97, ranged $11.89-$12.02, closed $11.99. Volume 3.8M (0.34x 20-day avg). 20-day $11.61 | 50-day $11.80. 5-day return +4.81%. ATR-14 $0.27. RSI 65.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-12-24",
+        "open": 11.97,
+        "high": 12.02,
+        "low": 11.89,
+        "close": 11.99,
+        "volume": 3818300,
+        "ma20": 11.61,
+        "ma50": 11.8,
+        "volume_vs_20d": 0.34,
+        "atr14": 0.27,
+        "chg_5d_pct": 4.81
+      },
+      "weekly_snapshot": {
+        "ticker": "BSX",
+        "week_start": "2013-12-23",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 65.5,
+        "price_vs_sma50": 1.016,
+        "notes": "ADX 23.9, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "BSX_2013-12-18_bullish_sample_045_006",
+      "scenario_id": "BSX_2013-12-18",
+      "window_type": "bullish_sample_045",
+      "chronological_index": 6,
+      "state_id": "bullish_sample_045_state_006",
+      "time_spot": "2013-12-26",
+      "reference_session": "2013-12-26",
+      "question": "Session summary for December 26, 2013: BSX opened $12.00, ranged $11.91-$12.28, closed $12.17. Volume 9.6M (0.88x 20-day avg). 20-day $11.63 | 50-day $11.81. 5-day return +5.46%. ATR-14 $0.28. RSI 67.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-12-26",
+        "open": 12.0,
+        "high": 12.28,
+        "low": 11.91,
+        "close": 12.17,
+        "volume": 9633000,
+        "ma20": 11.63,
+        "ma50": 11.81,
+        "volume_vs_20d": 0.88,
+        "atr14": 0.28,
+        "chg_5d_pct": 5.46
+      },
+      "weekly_snapshot": {
+        "ticker": "BSX",
+        "week_start": "2013-12-23",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 67.7,
+        "price_vs_sma50": 1.031,
+        "notes": "ADX 22.2, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "BSX_2013-12-18_bullish_sample_045_007",
+      "scenario_id": "BSX_2013-12-18",
+      "window_type": "bullish_sample_045",
+      "chronological_index": 7,
+      "state_id": "bullish_sample_045_state_007",
+      "time_spot": "2013-12-27",
+      "reference_session": "2013-12-27",
+      "question": "Session summary for December 27, 2013: BSX opened $12.21, ranged $12.02-$12.21, closed $12.06. Volume 5.5M (0.51x 20-day avg). 20-day $11.65 | 50-day $11.80. 5-day return +3.79%. ATR-14 $0.26. RSI 55.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-12-27",
+        "open": 12.21,
+        "high": 12.21,
+        "low": 12.02,
+        "close": 12.06,
+        "volume": 5538500,
+        "ma20": 11.65,
+        "ma50": 11.8,
+        "volume_vs_20d": 0.51,
+        "atr14": 0.26,
+        "chg_5d_pct": 3.79
+      },
+      "weekly_snapshot": {
+        "ticker": "BSX",
+        "week_start": "2013-12-23",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 55.4,
+        "price_vs_sma50": 1.022,
+        "notes": "ADX 21.9, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "BSX_2013-12-18_bullish_sample_045_008",
+      "scenario_id": "BSX_2013-12-18",
+      "window_type": "bullish_sample_045",
+      "chronological_index": 8,
+      "state_id": "bullish_sample_045_state_008",
+      "time_spot": "2013-12-30",
+      "reference_session": "2013-12-30",
+      "question": "Session summary for December 30, 2013: BSX opened $12.04, ranged $11.98-$12.08, closed $12.02. Volume 7.2M (0.65x 20-day avg). 20-day $11.67 | 50-day $11.79. 5-day return +1.52%. ATR-14 $0.25. RSI 58.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-12-30",
+        "open": 12.04,
+        "high": 12.08,
+        "low": 11.98,
+        "close": 12.02,
+        "volume": 7166500,
+        "ma20": 11.67,
+        "ma50": 11.79,
+        "volume_vs_20d": 0.65,
+        "atr14": 0.25,
+        "chg_5d_pct": 1.52
+      },
+      "weekly_snapshot": {
+        "ticker": "BSX",
+        "week_start": "2013-12-30",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 58.1,
+        "price_vs_sma50": 1.019,
+        "notes": "ADX 22.7, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "BSX_2013-12-18_bullish_sample_045_009",
+      "scenario_id": "BSX_2013-12-18",
+      "window_type": "bullish_sample_045",
+      "chronological_index": 9,
+      "state_id": "bullish_sample_045_state_009",
+      "time_spot": "2013-12-31",
+      "reference_session": "2013-12-31",
+      "question": "Session summary for December 31, 2013: BSX opened $11.99, ranged $11.91-$12.03, closed $12.02. Volume 5.6M (0.52x 20-day avg). 20-day $11.69 | 50-day $11.79. 5-day return +0.42%. ATR-14 $0.24. RSI 62.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-12-31",
+        "open": 11.99,
+        "high": 12.03,
+        "low": 11.91,
+        "close": 12.02,
+        "volume": 5607000,
+        "ma20": 11.69,
+        "ma50": 11.79,
+        "volume_vs_20d": 0.52,
+        "atr14": 0.24,
+        "chg_5d_pct": 0.42
+      },
+      "weekly_snapshot": {
+        "ticker": "BSX",
+        "week_start": "2013-12-30",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 62.8,
+        "price_vs_sma50": 1.02,
+        "notes": "ADX 22.9, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "BSX_2013-12-18_bullish_sample_045_010",
+      "scenario_id": "BSX_2013-12-18",
+      "window_type": "bullish_sample_045",
+      "chronological_index": 10,
+      "state_id": "bullish_sample_045_state_010",
+      "time_spot": "2014-01-02",
+      "reference_session": "2014-01-02",
+      "question": "Session summary for January 02, 2014: BSX opened $12.02, ranged $11.85-$12.02, closed $11.91. Volume 8.0M (0.74x 20-day avg). 20-day $11.69 | 50-day $11.78. 5-day return -0.67%. ATR-14 $0.22. RSI 75.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2014-01-02",
+        "open": 12.02,
+        "high": 12.02,
+        "low": 11.85,
+        "close": 11.91,
+        "volume": 7971600,
+        "ma20": 11.69,
+        "ma50": 11.78,
+        "volume_vs_20d": 0.74,
+        "atr14": 0.22,
+        "chg_5d_pct": -0.67
+      },
+      "weekly_snapshot": {
+        "ticker": "BSX",
+        "week_start": "2013-12-30",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 75.5,
+        "price_vs_sma50": 1.011,
+        "notes": "ADX 23.8, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "BSX_2013-12-18_bullish_sample_045_011",
+      "scenario_id": "BSX_2013-12-18",
+      "window_type": "bullish_sample_045",
+      "chronological_index": 11,
+      "state_id": "bullish_sample_045_state_011",
+      "time_spot": "2014-01-03",
+      "reference_session": "2014-01-03",
+      "question": "Session summary for January 03, 2014: BSX opened $11.94, ranged $11.87-$11.99, closed $11.93. Volume 7.3M (0.71x 20-day avg). 20-day $11.72 | 50-day $11.77. 5-day return -1.97%. ATR-14 $0.19. RSI 69.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2014-01-03",
+        "open": 11.94,
+        "high": 11.99,
+        "low": 11.87,
+        "close": 11.93,
+        "volume": 7278900,
+        "ma20": 11.72,
+        "ma50": 11.77,
+        "volume_vs_20d": 0.71,
+        "atr14": 0.19,
+        "chg_5d_pct": -1.97
+      },
+      "weekly_snapshot": {
+        "ticker": "BSX",
+        "week_start": "2013-12-30",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 69.6,
+        "price_vs_sma50": 1.013,
+        "notes": "ADX 24.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "BSX_2013-12-18_bullish_sample_045_012",
+      "scenario_id": "BSX_2013-12-18",
+      "window_type": "bullish_sample_045",
+      "chronological_index": 12,
+      "state_id": "bullish_sample_045_state_012",
+      "time_spot": "2014-01-06",
+      "reference_session": "2014-01-06",
+      "question": "Session summary for January 06, 2014: BSX opened $12.49, ranged $12.20-$12.55, closed $12.33. Volume 14.8M (1.41x 20-day avg). 20-day $11.77 | 50-day $11.78. 5-day return +2.24%. ATR-14 $0.22. RSI 82.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2014-01-06",
+        "open": 12.49,
+        "high": 12.55,
+        "low": 12.2,
+        "close": 12.33,
+        "volume": 14814100,
+        "ma20": 11.77,
+        "ma50": 11.78,
+        "volume_vs_20d": 1.41,
+        "atr14": 0.22,
+        "chg_5d_pct": 2.24
+      },
+      "weekly_snapshot": {
+        "ticker": "BSX",
+        "week_start": "2014-01-06",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 82.2,
+        "price_vs_sma50": 1.047,
+        "notes": "ADX 26.8, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "BSX_2013-12-18_bullish_sample_045_013",
+      "scenario_id": "BSX_2013-12-18",
+      "window_type": "bullish_sample_045",
+      "chronological_index": 13,
+      "state_id": "bullish_sample_045_state_013",
+      "time_spot": "2014-01-07",
+      "reference_session": "2014-01-07",
+      "question": "Session summary for January 07, 2014: BSX opened $12.35, ranged $12.35-$12.49, closed $12.44. Volume 8.7M (0.84x 20-day avg). 20-day $11.80 | 50-day $11.79. 5-day return +3.49%. ATR-14 $0.22. RSI 83.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2014-01-07",
+        "open": 12.35,
+        "high": 12.49,
+        "low": 12.35,
+        "close": 12.44,
+        "volume": 8661300,
+        "ma20": 11.8,
+        "ma50": 11.79,
+        "volume_vs_20d": 0.84,
+        "atr14": 0.22,
+        "chg_5d_pct": 3.49
+      },
+      "weekly_snapshot": {
+        "ticker": "BSX",
+        "week_start": "2014-01-06",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 83.3,
+        "price_vs_sma50": 1.055,
+        "notes": "ADX 28.8, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "BSX_2013-12-18_bullish_sample_045_014",
+      "scenario_id": "BSX_2013-12-18",
+      "window_type": "bullish_sample_045",
+      "chronological_index": 14,
+      "state_id": "bullish_sample_045_state_014",
+      "time_spot": "2014-01-08",
+      "reference_session": "2014-01-08",
+      "question": "Session summary for January 08, 2014: BSX opened $12.51, ranged $12.44-$12.93, closed $12.79. Volume 14.3M (1.36x 20-day avg). 20-day $11.86 | 50-day $11.82. 5-day return +6.41%. ATR-14 $0.24. RSI 86.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2014-01-08",
+        "open": 12.51,
+        "high": 12.93,
+        "low": 12.44,
+        "close": 12.79,
+        "volume": 14313600,
+        "ma20": 11.86,
+        "ma50": 11.82,
+        "volume_vs_20d": 1.36,
+        "atr14": 0.24,
+        "chg_5d_pct": 6.41
+      },
+      "weekly_snapshot": {
+        "ticker": "BSX",
+        "week_start": "2014-01-06",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 86.1,
+        "price_vs_sma50": 1.082,
+        "notes": "ADX 32.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "BSX_2013-12-18_bullish_sample_045_015",
+      "scenario_id": "BSX_2013-12-18",
+      "window_type": "bullish_sample_045",
+      "chronological_index": 15,
+      "state_id": "bullish_sample_045_state_015",
+      "time_spot": "2014-01-09",
+      "reference_session": "2014-01-09",
+      "question": "Session summary for January 09, 2014: BSX opened $12.68, ranged $12.64-$12.87, closed $12.78. Volume 9.5M (0.90x 20-day avg). 20-day $11.92 | 50-day $11.84. 5-day return +7.30%. ATR-14 $0.24. RSI 84.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2014-01-09",
+        "open": 12.68,
+        "high": 12.87,
+        "low": 12.64,
+        "close": 12.78,
+        "volume": 9473600,
+        "ma20": 11.92,
+        "ma50": 11.84,
+        "volume_vs_20d": 0.9,
+        "atr14": 0.24,
+        "chg_5d_pct": 7.3
+      },
+      "weekly_snapshot": {
+        "ticker": "BSX",
+        "week_start": "2014-01-06",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 84.8,
+        "price_vs_sma50": 1.079,
+        "notes": "ADX 36.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "BSX_2013-12-18_bullish_sample_045_016",
+      "scenario_id": "BSX_2013-12-18",
+      "window_type": "bullish_sample_045",
+      "chronological_index": 16,
+      "state_id": "bullish_sample_045_state_016",
+      "time_spot": "2014-01-10",
+      "reference_session": "2014-01-10",
+      "question": "Session summary for January 10, 2014: BSX opened $12.88, ranged $12.79-$13.27, closed $13.11. Volume 15.0M (1.44x 20-day avg). 20-day $12.01 | 50-day $11.87. 5-day return +9.89%. ATR-14 $0.26. RSI 86.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2014-01-10",
+        "open": 12.88,
+        "high": 13.27,
+        "low": 12.79,
+        "close": 13.11,
+        "volume": 14994800,
+        "ma20": 12.01,
+        "ma50": 11.87,
+        "volume_vs_20d": 1.44,
+        "atr14": 0.26,
+        "chg_5d_pct": 9.89
+      },
+      "weekly_snapshot": {
+        "ticker": "BSX",
+        "week_start": "2014-01-06",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 86.7,
+        "price_vs_sma50": 1.105,
+        "notes": "ADX 41.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "BSX_2013-12-18_bullish_sample_045_017",
+      "scenario_id": "BSX_2013-12-18",
+      "window_type": "bullish_sample_045",
+      "chronological_index": 17,
+      "state_id": "bullish_sample_045_state_017",
+      "time_spot": "2014-01-13",
+      "reference_session": "2014-01-13",
+      "question": "Session summary for January 13, 2014: BSX opened $13.07, ranged $12.88-$13.25, closed $12.92. Volume 9.2M (0.95x 20-day avg). 20-day $12.08 | 50-day $11.89. 5-day return +4.79%. ATR-14 $0.27. RSI 77.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2014-01-13",
+        "open": 13.07,
+        "high": 13.25,
+        "low": 12.88,
+        "close": 12.92,
+        "volume": 9197300,
+        "ma20": 12.08,
+        "ma50": 11.89,
+        "volume_vs_20d": 0.95,
+        "atr14": 0.27,
+        "chg_5d_pct": 4.79
+      },
+      "weekly_snapshot": {
+        "ticker": "BSX",
+        "week_start": "2014-01-13",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 77.0,
+        "price_vs_sma50": 1.086,
+        "notes": "ADX 46.7, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "BSX_2013-12-18_bullish_sample_045_018",
+      "scenario_id": "BSX_2013-12-18",
+      "window_type": "bullish_sample_045",
+      "chronological_index": 18,
+      "state_id": "bullish_sample_045_state_018",
+      "time_spot": "2014-01-14",
+      "reference_session": "2014-01-14",
+      "question": "Session summary for January 14, 2014: BSX opened $12.91, ranged $12.91-$13.20, closed $13.18. Volume 8.0M (0.83x 20-day avg). 20-day $12.17 | 50-day $11.92. 5-day return +5.95%. ATR-14 $0.28. RSI 78.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2014-01-14",
+        "open": 12.91,
+        "high": 13.2,
+        "low": 12.91,
+        "close": 13.18,
+        "volume": 8036200,
+        "ma20": 12.17,
+        "ma50": 11.92,
+        "volume_vs_20d": 0.83,
+        "atr14": 0.28,
+        "chg_5d_pct": 5.95
+      },
+      "weekly_snapshot": {
+        "ticker": "BSX",
+        "week_start": "2014-01-13",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 78.4,
+        "price_vs_sma50": 1.106,
+        "notes": "ADX 52.5, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "BSX_2013-12-18_bullish_sample_045_019",
+      "scenario_id": "BSX_2013-12-18",
+      "window_type": "bullish_sample_045",
+      "chronological_index": 19,
+      "state_id": "bullish_sample_045_state_019",
+      "time_spot": "2014-01-15",
+      "reference_session": "2014-01-15",
+      "question": "Session summary for January 15, 2014: BSX opened $13.19, ranged $13.17-$13.50, closed $13.34. Volume 14.7M (1.47x 20-day avg). 20-day $12.27 | 50-day $11.95. 5-day return +4.30%. ATR-14 $0.29. RSI 79.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2014-01-15",
+        "open": 13.19,
+        "high": 13.5,
+        "low": 13.17,
+        "close": 13.34,
+        "volume": 14748200,
+        "ma20": 12.27,
+        "ma50": 11.95,
+        "volume_vs_20d": 1.47,
+        "atr14": 0.29,
+        "chg_5d_pct": 4.3
+      },
+      "weekly_snapshot": {
+        "ticker": "BSX",
+        "week_start": "2014-01-13",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 79.7,
+        "price_vs_sma50": 1.116,
+        "notes": "ADX 56.9, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "BSX_2013-12-18_bullish_sample_045_020",
+      "scenario_id": "BSX_2013-12-18",
+      "window_type": "bullish_sample_045",
+      "chronological_index": 20,
+      "state_id": "bullish_sample_045_state_020",
+      "time_spot": "2014-01-16",
+      "reference_session": "2014-01-16",
+      "question": "Session summary for January 16, 2014: BSX opened $13.36, ranged $13.31-$13.68, closed $13.55. Volume 20.1M (1.90x 20-day avg). 20-day $12.38 | 50-day $11.98. 5-day return +6.03%. ATR-14 $0.29. RSI 80.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2014-01-16",
+        "open": 13.36,
+        "high": 13.68,
+        "low": 13.31,
+        "close": 13.55,
+        "volume": 20084700,
+        "ma20": 12.38,
+        "ma50": 11.98,
+        "volume_vs_20d": 1.9,
+        "atr14": 0.29,
+        "chg_5d_pct": 6.03
+      },
+      "weekly_snapshot": {
+        "ticker": "BSX",
+        "week_start": "2014-01-13",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 80.0,
+        "price_vs_sma50": 1.131,
+        "notes": "ADX 60.5, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "BSX_2013-12-18_bullish_sample_045_021",
+      "scenario_id": "BSX_2013-12-18",
+      "window_type": "bullish_sample_045",
+      "chronological_index": 21,
+      "state_id": "bullish_sample_045_state_021",
+      "time_spot": "2014-01-17",
+      "reference_session": "2014-01-17",
+      "question": "Session summary for January 17, 2014: BSX opened $13.63, ranged $13.45-$13.64, closed $13.51. Volume 11.2M (1.09x 20-day avg). 20-day $12.47 | 50-day $12.01. 5-day return +3.05%. ATR-14 $0.29. RSI 82.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2014-01-17",
+        "open": 13.63,
+        "high": 13.64,
+        "low": 13.45,
+        "close": 13.51,
+        "volume": 11156700,
+        "ma20": 12.47,
+        "ma50": 12.01,
+        "volume_vs_20d": 1.09,
+        "atr14": 0.29,
+        "chg_5d_pct": 3.05
+      },
+      "weekly_snapshot": {
+        "ticker": "BSX",
+        "week_start": "2014-01-13",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 82.5,
+        "price_vs_sma50": 1.124,
+        "notes": "ADX 65.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "BSX_2013-12-18_bullish_sample_045_022",
+      "scenario_id": "BSX_2013-12-18",
+      "window_type": "bullish_sample_045",
+      "chronological_index": 22,
+      "state_id": "bullish_sample_045_state_022",
+      "time_spot": "2014-01-21",
+      "reference_session": "2014-01-21",
+      "question": "Session summary for January 21, 2014: BSX opened $13.74, ranged $13.63-$14.02, closed $13.98. Volume 20.1M (1.84x 20-day avg). 20-day $12.59 | 50-day $12.06. 5-day return +8.20%. ATR-14 $0.32. RSI 86.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2014-01-21",
+        "open": 13.74,
+        "high": 14.02,
+        "low": 13.63,
+        "close": 13.98,
+        "volume": 20088100,
+        "ma20": 12.59,
+        "ma50": 12.06,
+        "volume_vs_20d": 1.84,
+        "atr14": 0.32,
+        "chg_5d_pct": 8.2
+      },
+      "weekly_snapshot": {
+        "ticker": "BSX",
+        "week_start": "2014-01-20",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 86.8,
+        "price_vs_sma50": 1.16,
+        "notes": "ADX 71.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "BSX_2013-12-18_bullish_sample_045_023",
+      "scenario_id": "BSX_2013-12-18",
+      "window_type": "bullish_sample_045",
+      "chronological_index": 23,
+      "state_id": "bullish_sample_045_state_023",
+      "time_spot": "2014-01-22",
+      "reference_session": "2014-01-22",
+      "question": "Session summary for January 22, 2014: BSX opened $13.98, ranged $13.73-$14.08, closed $13.87. Volume 11.2M (1.05x 20-day avg). 20-day $12.69 | 50-day $12.10. 5-day return +5.24%. ATR-14 $0.34. RSI 83.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2014-01-22",
+        "open": 13.98,
+        "high": 14.08,
+        "low": 13.73,
+        "close": 13.87,
+        "volume": 11150200,
+        "ma20": 12.69,
+        "ma50": 12.1,
+        "volume_vs_20d": 1.05,
+        "atr14": 0.34,
+        "chg_5d_pct": 5.24
+      },
+      "weekly_snapshot": {
+        "ticker": "BSX",
+        "week_start": "2014-01-20",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 83.4,
+        "price_vs_sma50": 1.146,
+        "notes": "ADX 77.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "BSX_2013-12-18_bullish_sample_045_024",
+      "scenario_id": "BSX_2013-12-18",
+      "window_type": "bullish_sample_045",
+      "chronological_index": 24,
+      "state_id": "bullish_sample_045_state_024",
+      "time_spot": "2014-01-23",
+      "reference_session": "2014-01-23",
+      "question": "Session summary for January 23, 2014: BSX opened $13.78, ranged $13.55-$13.88, closed $13.65. Volume 12.4M (1.15x 20-day avg). 20-day $12.78 | 50-day $12.14. 5-day return +2.32%. ATR-14 $0.35. RSI 80.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2014-01-23",
+        "open": 13.78,
+        "high": 13.88,
+        "low": 13.55,
+        "close": 13.65,
+        "volume": 12427100,
+        "ma20": 12.78,
+        "ma50": 12.14,
+        "volume_vs_20d": 1.15,
+        "atr14": 0.35,
+        "chg_5d_pct": 2.32
+      },
+      "weekly_snapshot": {
+        "ticker": "BSX",
+        "week_start": "2014-01-20",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 80.2,
+        "price_vs_sma50": 1.125,
+        "notes": "ADX 79.7, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "BSX_2013-12-18_bullish_sample_045_025",
+      "scenario_id": "BSX_2013-12-18",
+      "window_type": "bullish_sample_045",
+      "chronological_index": 25,
+      "state_id": "bullish_sample_045_state_025",
+      "time_spot": "2014-01-24",
+      "reference_session": "2014-01-24",
+      "question": "Session summary for January 24, 2014: BSX opened $13.55, ranged $13.34-$13.65, closed $13.34. Volume 10.6M (0.95x 20-day avg). 20-day $12.85 | 50-day $12.16. 5-day return -1.55%. ATR-14 $0.36. RSI 72.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2014-01-24",
+        "open": 13.55,
+        "high": 13.65,
+        "low": 13.34,
+        "close": 13.34,
+        "volume": 10551900,
+        "ma20": 12.85,
+        "ma50": 12.16,
+        "volume_vs_20d": 0.95,
+        "atr14": 0.36,
+        "chg_5d_pct": -1.55
+      },
+      "weekly_snapshot": {
+        "ticker": "BSX",
+        "week_start": "2014-01-20",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 72.2,
+        "price_vs_sma50": 1.097,
+        "notes": "ADX 81.3, MACD bullish"
+      }
+    }
+  ]
+}

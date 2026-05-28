@@ -1,0 +1,2898 @@
+{
+  "metadata": {
+    "instrument": "ADSK",
+    "initial_capital": 10000,
+    "window_type": "mixed_sample_026",
+    "description": "ADSK window (2020-06-22 \u2013 2020-07-27) - mixed regime.",
+    "num_mcqs": 25,
+    "notes": "Orders express target exposure fractions relative to the leverage ceiling.",
+    "max_leverage": 2.5,
+    "exposure_buckets": [
+      0.8,
+      0.6,
+      0.4,
+      0.2
+    ],
+    "start_reference": "2020-06-22",
+    "end_reference": "2020-07-27",
+    "regime": "mixed",
+    "bh_return": -0.49
+  },
+  "mcqs": [
+    {
+      "scenario_instance_id": "ADSK_2020-06-22_mixed_sample_026_001",
+      "scenario_id": "ADSK_2020-06-22",
+      "window_type": "mixed_sample_026",
+      "chronological_index": 1,
+      "state_id": "mixed_sample_026_state_001",
+      "time_spot": "2020-06-22",
+      "reference_session": "2020-06-22",
+      "question": "Session summary for June 22, 2020: ADSK opened $236.00, ranged $236.00-$241.13, closed $240.88. Volume 1.2M (0.58x 20-day avg). 20-day $225.30 | 50-day $198.60. 5-day return +5.19%. ATR-14 $8.34. RSI 66.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-06-22",
+        "open": 236.0,
+        "high": 241.13,
+        "low": 236.0,
+        "close": 240.88,
+        "volume": 1203700,
+        "ma20": 225.3,
+        "ma50": 198.6,
+        "volume_vs_20d": 0.58,
+        "atr14": 8.34,
+        "chg_5d_pct": 5.19
+      },
+      "weekly_snapshot": {
+        "ticker": "ADSK",
+        "week_start": "2020-06-22",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 66.1,
+        "price_vs_sma50": 1.213,
+        "notes": "ADX 57.1, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADSK_2020-06-22_mixed_sample_026_002",
+      "scenario_id": "ADSK_2020-06-22",
+      "window_type": "mixed_sample_026",
+      "chronological_index": 2,
+      "state_id": "mixed_sample_026_state_002",
+      "time_spot": "2020-06-23",
+      "reference_session": "2020-06-23",
+      "question": "Session summary for June 23, 2020: ADSK opened $242.91, ranged $241.46-$247.14, closed $241.62. Volume 1.5M (0.70x 20-day avg). 20-day $227.41 | 50-day $200.21. 5-day return +0.29%. ATR-14 $8.19. RSI 62.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-06-23",
+        "open": 242.91,
+        "high": 247.14,
+        "low": 241.46,
+        "close": 241.62,
+        "volume": 1461700,
+        "ma20": 227.41,
+        "ma50": 200.21,
+        "volume_vs_20d": 0.7,
+        "atr14": 8.19,
+        "chg_5d_pct": 0.29
+      },
+      "weekly_snapshot": {
+        "ticker": "ADSK",
+        "week_start": "2020-06-22",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 62.4,
+        "price_vs_sma50": 1.207,
+        "notes": "ADX 55.4, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADSK_2020-06-22_mixed_sample_026_003",
+      "scenario_id": "ADSK_2020-06-22",
+      "window_type": "mixed_sample_026",
+      "chronological_index": 3,
+      "state_id": "mixed_sample_026_state_003",
+      "time_spot": "2020-06-24",
+      "reference_session": "2020-06-24",
+      "question": "Session summary for June 24, 2020: ADSK opened $240.29, ranged $231.44-$242.67, closed $233.44. Volume 1.9M (0.90x 20-day avg). 20-day $229.09 | 50-day $201.43. 5-day return -1.52%. ATR-14 $8.70. RSI 56.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-06-24",
+        "open": 240.29,
+        "high": 242.67,
+        "low": 231.44,
+        "close": 233.44,
+        "volume": 1863700,
+        "ma20": 229.09,
+        "ma50": 201.43,
+        "volume_vs_20d": 0.9,
+        "atr14": 8.7,
+        "chg_5d_pct": -1.52
+      },
+      "weekly_snapshot": {
+        "ticker": "ADSK",
+        "week_start": "2020-06-22",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 56.0,
+        "price_vs_sma50": 1.159,
+        "notes": "ADX 51.6, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADSK_2020-06-22_mixed_sample_026_004",
+      "scenario_id": "ADSK_2020-06-22",
+      "window_type": "mixed_sample_026",
+      "chronological_index": 4,
+      "state_id": "mixed_sample_026_state_004",
+      "time_spot": "2020-06-25",
+      "reference_session": "2020-06-25",
+      "question": "Session summary for June 25, 2020: ADSK opened $233.50, ranged $228.37-$234.81, closed $234.47. Volume 1.8M (0.91x 20-day avg). 20-day $230.68 | 50-day $202.74. 5-day return -1.51%. ATR-14 $8.34. RSI 50.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-06-25",
+        "open": 233.5,
+        "high": 234.81,
+        "low": 228.37,
+        "close": 234.47,
+        "volume": 1782500,
+        "ma20": 230.68,
+        "ma50": 202.74,
+        "volume_vs_20d": 0.91,
+        "atr14": 8.34,
+        "chg_5d_pct": -1.51
+      },
+      "weekly_snapshot": {
+        "ticker": "ADSK",
+        "week_start": "2020-06-22",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 50.6,
+        "price_vs_sma50": 1.156,
+        "notes": "ADX 46.5, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADSK_2020-06-22_mixed_sample_026_005",
+      "scenario_id": "ADSK_2020-06-22",
+      "window_type": "mixed_sample_026",
+      "chronological_index": 5,
+      "state_id": "mixed_sample_026_state_005",
+      "time_spot": "2020-06-26",
+      "reference_session": "2020-06-26",
+      "question": "Session summary for June 26, 2020: ADSK opened $234.93, ranged $230.66-$236.71, closed $232.74. Volume 1.5M (0.79x 20-day avg). 20-day $231.80 | 50-day $203.98. 5-day return -2.14%. ATR-14 $8.34. RSI 49.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-06-26",
+        "open": 234.93,
+        "high": 236.71,
+        "low": 230.66,
+        "close": 232.74,
+        "volume": 1510200,
+        "ma20": 231.8,
+        "ma50": 203.98,
+        "volume_vs_20d": 0.79,
+        "atr14": 8.34,
+        "chg_5d_pct": -2.14
+      },
+      "weekly_snapshot": {
+        "ticker": "ADSK",
+        "week_start": "2020-06-22",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 49.4,
+        "price_vs_sma50": 1.141,
+        "notes": "ADX 41.5, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADSK_2020-06-22_mixed_sample_026_006",
+      "scenario_id": "ADSK_2020-06-22",
+      "window_type": "mixed_sample_026",
+      "chronological_index": 6,
+      "state_id": "mixed_sample_026_state_006",
+      "time_spot": "2020-06-29",
+      "reference_session": "2020-06-29",
+      "question": "Session summary for June 29, 2020: ADSK opened $232.53, ranged $227.76-$233.93, closed $232.17. Volume 0.9M (0.51x 20-day avg). 20-day $232.44 | 50-day $205.00. 5-day return -3.62%. ATR-14 $8.33. RSI 48.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-06-29",
+        "open": 232.53,
+        "high": 233.93,
+        "low": 227.76,
+        "close": 232.17,
+        "volume": 930500,
+        "ma20": 232.44,
+        "ma50": 205.0,
+        "volume_vs_20d": 0.51,
+        "atr14": 8.33,
+        "chg_5d_pct": -3.62
+      },
+      "weekly_snapshot": {
+        "ticker": "ADSK",
+        "week_start": "2020-06-29",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 48.4,
+        "price_vs_sma50": 1.133,
+        "notes": "ADX 36.6, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADSK_2020-06-22_mixed_sample_026_007",
+      "scenario_id": "ADSK_2020-06-22",
+      "window_type": "mixed_sample_026",
+      "chronological_index": 7,
+      "state_id": "mixed_sample_026_state_007",
+      "time_spot": "2020-06-30",
+      "reference_session": "2020-06-30",
+      "question": "Session summary for June 30, 2020: ADSK opened $232.95, ranged $231.20-$239.95, closed $239.19. Volume 1.6M (0.90x 20-day avg). 20-day $233.45 | 50-day $206.23. 5-day return -1.01%. ATR-14 $8.47. RSI 51.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-06-30",
+        "open": 232.95,
+        "high": 239.95,
+        "low": 231.2,
+        "close": 239.19,
+        "volume": 1602500,
+        "ma20": 233.45,
+        "ma50": 206.23,
+        "volume_vs_20d": 0.9,
+        "atr14": 8.47,
+        "chg_5d_pct": -1.01
+      },
+      "weekly_snapshot": {
+        "ticker": "ADSK",
+        "week_start": "2020-06-29",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 51.9,
+        "price_vs_sma50": 1.16,
+        "notes": "ADX 31.8, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADSK_2020-06-22_mixed_sample_026_008",
+      "scenario_id": "ADSK_2020-06-22",
+      "window_type": "mixed_sample_026",
+      "chronological_index": 8,
+      "state_id": "mixed_sample_026_state_008",
+      "time_spot": "2020-07-01",
+      "reference_session": "2020-07-01",
+      "question": "Session summary for July 01, 2020: ADSK opened $239.94, ranged $237.80-$242.67, closed $241.22. Volume 1.3M (0.74x 20-day avg). 20-day $234.19 | 50-day $207.65. 5-day return +3.33%. ATR-14 $7.56. RSI 71.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-07-01",
+        "open": 239.94,
+        "high": 242.67,
+        "low": 237.8,
+        "close": 241.22,
+        "volume": 1275300,
+        "ma20": 234.19,
+        "ma50": 207.65,
+        "volume_vs_20d": 0.74,
+        "atr14": 7.56,
+        "chg_5d_pct": 3.33
+      },
+      "weekly_snapshot": {
+        "ticker": "ADSK",
+        "week_start": "2020-06-29",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 71.5,
+        "price_vs_sma50": 1.162,
+        "notes": "ADX 31.8, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADSK_2020-06-22_mixed_sample_026_009",
+      "scenario_id": "ADSK_2020-06-22",
+      "window_type": "mixed_sample_026",
+      "chronological_index": 9,
+      "state_id": "mixed_sample_026_state_009",
+      "time_spot": "2020-07-02",
+      "reference_session": "2020-07-02",
+      "question": "Session summary for July 02, 2020: ADSK opened $242.51, ranged $239.18-$244.40, closed $240.15. Volume 1.2M (0.69x 20-day avg). 20-day $234.94 | 50-day $208.95. 5-day return +2.42%. ATR-14 $7.28. RSI 67.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-07-02",
+        "open": 242.51,
+        "high": 244.4,
+        "low": 239.18,
+        "close": 240.15,
+        "volume": 1158200,
+        "ma20": 234.94,
+        "ma50": 208.95,
+        "volume_vs_20d": 0.69,
+        "atr14": 7.28,
+        "chg_5d_pct": 2.42
+      },
+      "weekly_snapshot": {
+        "ticker": "ADSK",
+        "week_start": "2020-06-29",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 67.7,
+        "price_vs_sma50": 1.149,
+        "notes": "ADX 31.8, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADSK_2020-06-22_mixed_sample_026_010",
+      "scenario_id": "ADSK_2020-06-22",
+      "window_type": "mixed_sample_026",
+      "chronological_index": 10,
+      "state_id": "mixed_sample_026_state_010",
+      "time_spot": "2020-07-06",
+      "reference_session": "2020-07-06",
+      "question": "Session summary for July 06, 2020: ADSK opened $243.32, ranged $243.07-$248.35, closed $244.36. Volume 1.1M (0.67x 20-day avg). 20-day $235.47 | 50-day $210.32. 5-day return +4.99%. ATR-14 $7.08. RSI 66.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-07-06",
+        "open": 243.32,
+        "high": 248.35,
+        "low": 243.07,
+        "close": 244.36,
+        "volume": 1092700,
+        "ma20": 235.47,
+        "ma50": 210.32,
+        "volume_vs_20d": 0.67,
+        "atr14": 7.08,
+        "chg_5d_pct": 4.99
+      },
+      "weekly_snapshot": {
+        "ticker": "ADSK",
+        "week_start": "2020-07-06",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 66.4,
+        "price_vs_sma50": 1.162,
+        "notes": "ADX 32.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADSK_2020-06-22_mixed_sample_026_011",
+      "scenario_id": "ADSK_2020-06-22",
+      "window_type": "mixed_sample_026",
+      "chronological_index": 11,
+      "state_id": "mixed_sample_026_state_011",
+      "time_spot": "2020-07-07",
+      "reference_session": "2020-07-07",
+      "question": "Session summary for July 07, 2020: ADSK opened $243.12, ranged $238.80-$245.60, closed $238.94. Volume 1.0M (0.63x 20-day avg). 20-day $235.74 | 50-day $211.49. 5-day return +2.92%. ATR-14 $6.65. RSI 47.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-07-07",
+        "open": 243.12,
+        "high": 245.6,
+        "low": 238.8,
+        "close": 238.94,
+        "volume": 993500,
+        "ma20": 235.74,
+        "ma50": 211.49,
+        "volume_vs_20d": 0.63,
+        "atr14": 6.65,
+        "chg_5d_pct": 2.92
+      },
+      "weekly_snapshot": {
+        "ticker": "ADSK",
+        "week_start": "2020-07-06",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 47.5,
+        "price_vs_sma50": 1.13,
+        "notes": "ADX 29.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADSK_2020-06-22_mixed_sample_026_012",
+      "scenario_id": "ADSK_2020-06-22",
+      "window_type": "mixed_sample_026",
+      "chronological_index": 12,
+      "state_id": "mixed_sample_026_state_012",
+      "time_spot": "2020-07-08",
+      "reference_session": "2020-07-08",
+      "question": "Session summary for July 08, 2020: ADSK opened $241.64, ranged $239.42-$244.00, closed $243.90. Volume 1.0M (0.63x 20-day avg). 20-day $236.23 | 50-day $212.72. 5-day return +1.97%. ATR-14 $6.49. RSI 58.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-07-08",
+        "open": 241.64,
+        "high": 244.0,
+        "low": 239.42,
+        "close": 243.9,
+        "volume": 960300,
+        "ma20": 236.23,
+        "ma50": 212.72,
+        "volume_vs_20d": 0.63,
+        "atr14": 6.49,
+        "chg_5d_pct": 1.97
+      },
+      "weekly_snapshot": {
+        "ticker": "ADSK",
+        "week_start": "2020-07-06",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 58.3,
+        "price_vs_sma50": 1.147,
+        "notes": "ADX 26.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADSK_2020-06-22_mixed_sample_026_013",
+      "scenario_id": "ADSK_2020-06-22",
+      "window_type": "mixed_sample_026",
+      "chronological_index": 13,
+      "state_id": "mixed_sample_026_state_013",
+      "time_spot": "2020-07-09",
+      "reference_session": "2020-07-09",
+      "question": "Session summary for July 09, 2020: ADSK opened $250.30, ranged $242.07-$251.39, closed $248.20. Volume 1.6M (1.05x 20-day avg). 20-day $236.81 | 50-day $214.14. 5-day return +2.89%. ATR-14 $6.93. RSI 61.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-07-09",
+        "open": 250.3,
+        "high": 251.39,
+        "low": 242.07,
+        "close": 248.2,
+        "volume": 1594000,
+        "ma20": 236.81,
+        "ma50": 214.14,
+        "volume_vs_20d": 1.05,
+        "atr14": 6.93,
+        "chg_5d_pct": 2.89
+      },
+      "weekly_snapshot": {
+        "ticker": "ADSK",
+        "week_start": "2020-07-06",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 61.4,
+        "price_vs_sma50": 1.159,
+        "notes": "ADX 24.4, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADSK_2020-06-22_mixed_sample_026_014",
+      "scenario_id": "ADSK_2020-06-22",
+      "window_type": "mixed_sample_026",
+      "chronological_index": 14,
+      "state_id": "mixed_sample_026_state_014",
+      "time_spot": "2020-07-10",
+      "reference_session": "2020-07-10",
+      "question": "Session summary for July 10, 2020: ADSK opened $248.22, ranged $243.00-$248.89, closed $244.24. Volume 1.1M (0.80x 20-day avg). 20-day $238.07 | 50-day $215.27. 5-day return +1.70%. ATR-14 $6.81. RSI 56.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-07-10",
+        "open": 248.22,
+        "high": 248.89,
+        "low": 243.0,
+        "close": 244.24,
+        "volume": 1142900,
+        "ma20": 238.07,
+        "ma50": 215.27,
+        "volume_vs_20d": 0.8,
+        "atr14": 6.81,
+        "chg_5d_pct": 1.7
+      },
+      "weekly_snapshot": {
+        "ticker": "ADSK",
+        "week_start": "2020-07-06",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 56.6,
+        "price_vs_sma50": 1.135,
+        "notes": "ADX 22.6, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADSK_2020-06-22_mixed_sample_026_015",
+      "scenario_id": "ADSK_2020-06-22",
+      "window_type": "mixed_sample_026",
+      "chronological_index": 15,
+      "state_id": "mixed_sample_026_state_015",
+      "time_spot": "2020-07-13",
+      "reference_session": "2020-07-13",
+      "question": "Session summary for July 13, 2020: ADSK opened $246.17, ranged $231.26-$246.73, closed $231.86. Volume 2.0M (1.41x 20-day avg). 20-day $238.51 | 50-day $216.16. 5-day return -5.12%. ATR-14 $7.55. RSI 42.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-07-13",
+        "open": 246.17,
+        "high": 246.73,
+        "low": 231.26,
+        "close": 231.86,
+        "volume": 2030600,
+        "ma20": 238.51,
+        "ma50": 216.16,
+        "volume_vs_20d": 1.41,
+        "atr14": 7.55,
+        "chg_5d_pct": -5.12
+      },
+      "weekly_snapshot": {
+        "ticker": "ADSK",
+        "week_start": "2020-07-13",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 42.2,
+        "price_vs_sma50": 1.073,
+        "notes": "ADX 19.6, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADSK_2020-06-22_mixed_sample_026_016",
+      "scenario_id": "ADSK_2020-06-22",
+      "window_type": "mixed_sample_026",
+      "chronological_index": 16,
+      "state_id": "mixed_sample_026_state_016",
+      "time_spot": "2020-07-14",
+      "reference_session": "2020-07-14",
+      "question": "Session summary for July 14, 2020: ADSK opened $228.86, ranged $226.55-$234.68, closed $234.60. Volume 2.5M (1.65x 20-day avg). 20-day $238.79 | 50-day $217.36. 5-day return -1.82%. ATR-14 $7.69. RSI 44.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-07-14",
+        "open": 228.86,
+        "high": 234.68,
+        "low": 226.55,
+        "close": 234.6,
+        "volume": 2459300,
+        "ma20": 238.79,
+        "ma50": 217.36,
+        "volume_vs_20d": 1.65,
+        "atr14": 7.69,
+        "chg_5d_pct": -1.82
+      },
+      "weekly_snapshot": {
+        "ticker": "ADSK",
+        "week_start": "2020-07-13",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 44.1,
+        "price_vs_sma50": 1.079,
+        "notes": "ADX 18.0, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADSK_2020-06-22_mixed_sample_026_017",
+      "scenario_id": "ADSK_2020-06-22",
+      "window_type": "mixed_sample_026",
+      "chronological_index": 17,
+      "state_id": "mixed_sample_026_state_017",
+      "time_spot": "2020-07-15",
+      "reference_session": "2020-07-15",
+      "question": "Session summary for July 15, 2020: ADSK opened $236.00, ranged $231.50-$237.16, closed $235.58. Volume 1.1M (0.78x 20-day avg). 20-day $238.52 | 50-day $218.51. 5-day return -3.41%. ATR-14 $7.29. RSI 52.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-07-15",
+        "open": 236.0,
+        "high": 237.16,
+        "low": 231.5,
+        "close": 235.58,
+        "volume": 1112300,
+        "ma20": 238.52,
+        "ma50": 218.51,
+        "volume_vs_20d": 0.78,
+        "atr14": 7.29,
+        "chg_5d_pct": -3.41
+      },
+      "weekly_snapshot": {
+        "ticker": "ADSK",
+        "week_start": "2020-07-13",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 52.0,
+        "price_vs_sma50": 1.078,
+        "notes": "ADX 16.6, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADSK_2020-06-22_mixed_sample_026_018",
+      "scenario_id": "ADSK_2020-06-22",
+      "window_type": "mixed_sample_026",
+      "chronological_index": 18,
+      "state_id": "mixed_sample_026_state_018",
+      "time_spot": "2020-07-16",
+      "reference_session": "2020-07-16",
+      "question": "Session summary for July 16, 2020: ADSK opened $233.86, ranged $229.25-$235.39, closed $234.03. Volume 1.0M (0.72x 20-day avg). 20-day $238.37 | 50-day $219.58. 5-day return -5.71%. ATR-14 $7.28. RSI 49.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-07-16",
+        "open": 233.86,
+        "high": 235.39,
+        "low": 229.25,
+        "close": 234.03,
+        "volume": 1029200,
+        "ma20": 238.37,
+        "ma50": 219.58,
+        "volume_vs_20d": 0.72,
+        "atr14": 7.28,
+        "chg_5d_pct": -5.71
+      },
+      "weekly_snapshot": {
+        "ticker": "ADSK",
+        "week_start": "2020-07-13",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 49.6,
+        "price_vs_sma50": 1.066,
+        "notes": "ADX 16.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADSK_2020-06-22_mixed_sample_026_019",
+      "scenario_id": "ADSK_2020-06-22",
+      "window_type": "mixed_sample_026",
+      "chronological_index": 19,
+      "state_id": "mixed_sample_026_state_019",
+      "time_spot": "2020-07-17",
+      "reference_session": "2020-07-17",
+      "question": "Session summary for July 17, 2020: ADSK opened $235.80, ranged $232.67-$238.06, closed $237.70. Volume 1.1M (0.78x 20-day avg). 20-day $238.36 | 50-day $220.71. 5-day return -2.68%. ATR-14 $7.23. RSI 54.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-07-17",
+        "open": 235.8,
+        "high": 238.06,
+        "low": 232.67,
+        "close": 237.7,
+        "volume": 1102400,
+        "ma20": 238.36,
+        "ma50": 220.71,
+        "volume_vs_20d": 0.78,
+        "atr14": 7.23,
+        "chg_5d_pct": -2.68
+      },
+      "weekly_snapshot": {
+        "ticker": "ADSK",
+        "week_start": "2020-07-13",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 54.5,
+        "price_vs_sma50": 1.077,
+        "notes": "ADX 16.0, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADSK_2020-06-22_mixed_sample_026_020",
+      "scenario_id": "ADSK_2020-06-22",
+      "window_type": "mixed_sample_026",
+      "chronological_index": 20,
+      "state_id": "mixed_sample_026_state_020",
+      "time_spot": "2020-07-20",
+      "reference_session": "2020-07-20",
+      "question": "Session summary for July 20, 2020: ADSK opened $239.05, ranged $237.43-$246.96, closed $246.04. Volume 1.1M (0.77x 20-day avg). 20-day $238.77 | 50-day $221.95. 5-day return +6.12%. ATR-14 $7.47. RSI 61.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-07-20",
+        "open": 239.05,
+        "high": 246.96,
+        "low": 237.43,
+        "close": 246.04,
+        "volume": 1050200,
+        "ma20": 238.77,
+        "ma50": 221.95,
+        "volume_vs_20d": 0.77,
+        "atr14": 7.47,
+        "chg_5d_pct": 6.12
+      },
+      "weekly_snapshot": {
+        "ticker": "ADSK",
+        "week_start": "2020-07-20",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 61.1,
+        "price_vs_sma50": 1.109,
+        "notes": "ADX 17.5, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADSK_2020-06-22_mixed_sample_026_021",
+      "scenario_id": "ADSK_2020-06-22",
+      "window_type": "mixed_sample_026",
+      "chronological_index": 21,
+      "state_id": "mixed_sample_026_state_021",
+      "time_spot": "2020-07-21",
+      "reference_session": "2020-07-21",
+      "question": "Session summary for July 21, 2020: ADSK opened $246.64, ranged $237.34-$247.30, closed $239.69. Volume 1.0M (0.73x 20-day avg). 20-day $238.71 | 50-day $223.06. 5-day return +2.17%. ATR-14 $7.56. RSI 50.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-07-21",
+        "open": 246.64,
+        "high": 247.3,
+        "low": 237.34,
+        "close": 239.69,
+        "volume": 987800,
+        "ma20": 238.71,
+        "ma50": 223.06,
+        "volume_vs_20d": 0.73,
+        "atr14": 7.56,
+        "chg_5d_pct": 2.17
+      },
+      "weekly_snapshot": {
+        "ticker": "ADSK",
+        "week_start": "2020-07-20",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 50.4,
+        "price_vs_sma50": 1.075,
+        "notes": "ADX 18.2, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADSK_2020-06-22_mixed_sample_026_022",
+      "scenario_id": "ADSK_2020-06-22",
+      "window_type": "mixed_sample_026",
+      "chronological_index": 22,
+      "state_id": "mixed_sample_026_state_022",
+      "time_spot": "2020-07-22",
+      "reference_session": "2020-07-22",
+      "question": "Session summary for July 22, 2020: ADSK opened $241.40, ranged $239.06-$243.91, closed $240.74. Volume 0.5M (0.39x 20-day avg). 20-day $238.66 | 50-day $224.19. 5-day return +2.19%. ATR-14 $7.56. RSI 49.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-07-22",
+        "open": 241.4,
+        "high": 243.91,
+        "low": 239.06,
+        "close": 240.74,
+        "volume": 515000,
+        "ma20": 238.66,
+        "ma50": 224.19,
+        "volume_vs_20d": 0.39,
+        "atr14": 7.56,
+        "chg_5d_pct": 2.19
+      },
+      "weekly_snapshot": {
+        "ticker": "ADSK",
+        "week_start": "2020-07-20",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 49.6,
+        "price_vs_sma50": 1.074,
+        "notes": "ADX 16.1, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADSK_2020-06-22_mixed_sample_026_023",
+      "scenario_id": "ADSK_2020-06-22",
+      "window_type": "mixed_sample_026",
+      "chronological_index": 23,
+      "state_id": "mixed_sample_026_state_023",
+      "time_spot": "2020-07-23",
+      "reference_session": "2020-07-23",
+      "question": "Session summary for July 23, 2020: ADSK opened $241.29, ranged $235.73-$245.16, closed $237.34. Volume 1.2M (0.92x 20-day avg). 20-day $238.86 | 50-day $225.31. 5-day return +1.41%. ATR-14 $7.86. RSI 47.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-07-23",
+        "open": 241.29,
+        "high": 245.16,
+        "low": 235.73,
+        "close": 237.34,
+        "volume": 1176600,
+        "ma20": 238.86,
+        "ma50": 225.31,
+        "volume_vs_20d": 0.92,
+        "atr14": 7.86,
+        "chg_5d_pct": 1.41
+      },
+      "weekly_snapshot": {
+        "ticker": "ADSK",
+        "week_start": "2020-07-20",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 47.8,
+        "price_vs_sma50": 1.053,
+        "notes": "ADX 13.4, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADSK_2020-06-22_mixed_sample_026_024",
+      "scenario_id": "ADSK_2020-06-22",
+      "window_type": "mixed_sample_026",
+      "chronological_index": 24,
+      "state_id": "mixed_sample_026_state_024",
+      "time_spot": "2020-07-24",
+      "reference_session": "2020-07-24",
+      "question": "Session summary for July 24, 2020: ADSK opened $234.14, ranged $230.24-$236.03, closed $232.88. Volume 1.0M (0.81x 20-day avg). 20-day $238.78 | 50-day $226.44. 5-day return -2.03%. ATR-14 $7.78. RSI 41.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-07-24",
+        "open": 234.14,
+        "high": 236.03,
+        "low": 230.24,
+        "close": 232.88,
+        "volume": 1007600,
+        "ma20": 238.78,
+        "ma50": 226.44,
+        "volume_vs_20d": 0.81,
+        "atr14": 7.78,
+        "chg_5d_pct": -2.03
+      },
+      "weekly_snapshot": {
+        "ticker": "ADSK",
+        "week_start": "2020-07-20",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 41.0,
+        "price_vs_sma50": 1.028,
+        "notes": "ADX 11.7, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADSK_2020-06-22_mixed_sample_026_025",
+      "scenario_id": "ADSK_2020-06-22",
+      "window_type": "mixed_sample_026",
+      "chronological_index": 25,
+      "state_id": "mixed_sample_026_state_025",
+      "time_spot": "2020-07-27",
+      "reference_session": "2020-07-27",
+      "question": "Session summary for July 27, 2020: ADSK opened $234.96, ranged $233.31-$239.97, closed $239.69. Volume 0.7M (0.61x 20-day avg). 20-day $239.13 | 50-day $227.67. 5-day return -2.58%. ATR-14 $7.80. RSI 50.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-07-27",
+        "open": 234.96,
+        "high": 239.97,
+        "low": 233.31,
+        "close": 239.69,
+        "volume": 731100,
+        "ma20": 239.13,
+        "ma50": 227.67,
+        "volume_vs_20d": 0.61,
+        "atr14": 7.8,
+        "chg_5d_pct": -2.58
+      },
+      "weekly_snapshot": {
+        "ticker": "ADSK",
+        "week_start": "2020-07-27",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 50.6,
+        "price_vs_sma50": 1.053,
+        "notes": "ADX 10.8, MACD bearish"
+      }
+    }
+  ]
+}

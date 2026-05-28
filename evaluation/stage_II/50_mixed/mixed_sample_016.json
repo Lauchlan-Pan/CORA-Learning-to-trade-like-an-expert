@@ -1,0 +1,2898 @@
+{
+  "metadata": {
+    "instrument": "TAP",
+    "initial_capital": 10000,
+    "window_type": "mixed_sample_016",
+    "description": "TAP window (2013-01-11 \u2013 2013-02-15) sampled from S&P500 indicator archive.",
+    "num_mcqs": 25,
+    "notes": "Orders express target exposure fractions relative to the leverage ceiling.",
+    "max_leverage": 2.5,
+    "exposure_buckets": [
+      0.8,
+      0.6,
+      0.4,
+      0.2
+    ],
+    "start_reference": "2013-01-11",
+    "end_reference": "2013-02-15",
+    "regime": "mixed",
+    "original_sample": "snp500_sample_087"
+  },
+  "mcqs": [
+    {
+      "scenario_instance_id": "TAP_2013-01-11_mixed_sample_016_001",
+      "scenario_id": "TAP_2013-01-11",
+      "window_type": "mixed_sample_016",
+      "chronological_index": 1,
+      "state_id": "mixed_sample_016_state_001",
+      "time_spot": "2013-01-11",
+      "reference_session": "2013-01-11",
+      "question": "Session summary for January 11, 2013: TAP opened $31.66, ranged $31.58-$32.15, closed $31.75. Volume 0.9M (0.87x 20-day avg). 20-day $31.95 | 50-day $31.22. 5-day return -0.14%. ATR-14 $0.45. RSI 40.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-01-11",
+        "open": 31.66,
+        "high": 32.15,
+        "low": 31.58,
+        "close": 31.75,
+        "volume": 927700,
+        "ma20": 31.95,
+        "ma50": 31.22,
+        "volume_vs_20d": 0.87,
+        "atr14": 0.45,
+        "chg_5d_pct": -0.14
+      },
+      "weekly_snapshot": {
+        "ticker": "TAP",
+        "week_start": "2013-01-07",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 40.2,
+        "price_vs_sma50": 1.017,
+        "notes": "ADX 32.0, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "TAP_2013-01-11_mixed_sample_016_002",
+      "scenario_id": "TAP_2013-01-11",
+      "window_type": "mixed_sample_016",
+      "chronological_index": 2,
+      "state_id": "mixed_sample_016_state_002",
+      "time_spot": "2013-01-14",
+      "reference_session": "2013-01-14",
+      "question": "Session summary for January 14, 2013: TAP opened $31.72, ranged $31.47-$31.91, closed $31.91. Volume 0.7M (0.70x 20-day avg). 20-day $31.94 | 50-day $31.22. 5-day return +2.24%. ATR-14 $0.46. RSI 44.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-01-14",
+        "open": 31.72,
+        "high": 31.91,
+        "low": 31.47,
+        "close": 31.91,
+        "volume": 738500,
+        "ma20": 31.94,
+        "ma50": 31.22,
+        "volume_vs_20d": 0.7,
+        "atr14": 0.46,
+        "chg_5d_pct": 2.24
+      },
+      "weekly_snapshot": {
+        "ticker": "TAP",
+        "week_start": "2013-01-14",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 44.6,
+        "price_vs_sma50": 1.022,
+        "notes": "ADX 29.2, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "TAP_2013-01-11_mixed_sample_016_003",
+      "scenario_id": "TAP_2013-01-11",
+      "window_type": "mixed_sample_016",
+      "chronological_index": 3,
+      "state_id": "mixed_sample_016_state_003",
+      "time_spot": "2013-01-15",
+      "reference_session": "2013-01-15",
+      "question": "Session summary for January 15, 2013: TAP opened $31.80, ranged $31.67-$32.07, closed $32.04. Volume 0.7M (0.64x 20-day avg). 20-day $31.94 | 50-day $31.22. 5-day return +2.99%. ATR-14 $0.46. RSI 47.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-01-15",
+        "open": 31.8,
+        "high": 32.07,
+        "low": 31.67,
+        "close": 32.04,
+        "volume": 665400,
+        "ma20": 31.94,
+        "ma50": 31.22,
+        "volume_vs_20d": 0.64,
+        "atr14": 0.46,
+        "chg_5d_pct": 2.99
+      },
+      "weekly_snapshot": {
+        "ticker": "TAP",
+        "week_start": "2013-01-14",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 47.7,
+        "price_vs_sma50": 1.026,
+        "notes": "ADX 26.4, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "TAP_2013-01-11_mixed_sample_016_004",
+      "scenario_id": "TAP_2013-01-11",
+      "window_type": "mixed_sample_016",
+      "chronological_index": 4,
+      "state_id": "mixed_sample_016_state_004",
+      "time_spot": "2013-01-16",
+      "reference_session": "2013-01-16",
+      "question": "Session summary for January 16, 2013: TAP opened $32.05, ranged $31.98-$32.40, closed $32.35. Volume 1.0M (1.00x 20-day avg). 20-day $31.94 | 50-day $31.23. 5-day return +3.28%. ATR-14 $0.48. RSI 53.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-01-16",
+        "open": 32.05,
+        "high": 32.4,
+        "low": 31.98,
+        "close": 32.35,
+        "volume": 1038000,
+        "ma20": 31.94,
+        "ma50": 31.23,
+        "volume_vs_20d": 1.0,
+        "atr14": 0.48,
+        "chg_5d_pct": 3.28
+      },
+      "weekly_snapshot": {
+        "ticker": "TAP",
+        "week_start": "2013-01-14",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 53.1,
+        "price_vs_sma50": 1.036,
+        "notes": "ADX 23.5, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "TAP_2013-01-11_mixed_sample_016_005",
+      "scenario_id": "TAP_2013-01-11",
+      "window_type": "mixed_sample_016",
+      "chronological_index": 5,
+      "state_id": "mixed_sample_016_state_005",
+      "time_spot": "2013-01-17",
+      "reference_session": "2013-01-17",
+      "question": "Session summary for January 17, 2013: TAP opened $32.56, ranged $32.34-$32.90, closed $32.88. Volume 1.0M (1.01x 20-day avg). 20-day $31.96 | 50-day $31.26. 5-day return +4.42%. ATR-14 $0.49. RSI 59.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-01-17",
+        "open": 32.56,
+        "high": 32.9,
+        "low": 32.34,
+        "close": 32.88,
+        "volume": 1047100,
+        "ma20": 31.96,
+        "ma50": 31.26,
+        "volume_vs_20d": 1.01,
+        "atr14": 0.49,
+        "chg_5d_pct": 4.42
+      },
+      "weekly_snapshot": {
+        "ticker": "TAP",
+        "week_start": "2013-01-14",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 59.8,
+        "price_vs_sma50": 1.052,
+        "notes": "ADX 22.2, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "TAP_2013-01-11_mixed_sample_016_006",
+      "scenario_id": "TAP_2013-01-11",
+      "window_type": "mixed_sample_016",
+      "chronological_index": 6,
+      "state_id": "mixed_sample_016_state_006",
+      "time_spot": "2013-01-18",
+      "reference_session": "2013-01-18",
+      "question": "Session summary for January 18, 2013: TAP opened $32.93, ranged $32.75-$33.39, closed $33.35. Volume 1.2M (1.15x 20-day avg). 20-day $32.01 | 50-day $31.28. 5-day return +5.04%. ATR-14 $0.51. RSI 69.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-01-18",
+        "open": 32.93,
+        "high": 33.39,
+        "low": 32.75,
+        "close": 33.35,
+        "volume": 1219200,
+        "ma20": 32.01,
+        "ma50": 31.28,
+        "volume_vs_20d": 1.15,
+        "atr14": 0.51,
+        "chg_5d_pct": 5.04
+      },
+      "weekly_snapshot": {
+        "ticker": "TAP",
+        "week_start": "2013-01-14",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 69.2,
+        "price_vs_sma50": 1.066,
+        "notes": "ADX 22.8, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "TAP_2013-01-11_mixed_sample_016_007",
+      "scenario_id": "TAP_2013-01-11",
+      "window_type": "mixed_sample_016",
+      "chronological_index": 7,
+      "state_id": "mixed_sample_016_state_007",
+      "time_spot": "2013-01-22",
+      "reference_session": "2013-01-22",
+      "question": "Session summary for January 22, 2013: TAP opened $33.37, ranged $33.22-$33.90, closed $33.68. Volume 1.7M (1.56x 20-day avg). 20-day $32.07 | 50-day $31.34. 5-day return +5.55%. ATR-14 $0.52. RSI 71.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-01-22",
+        "open": 33.37,
+        "high": 33.9,
+        "low": 33.22,
+        "close": 33.68,
+        "volume": 1742400,
+        "ma20": 32.07,
+        "ma50": 31.34,
+        "volume_vs_20d": 1.56,
+        "atr14": 0.52,
+        "chg_5d_pct": 5.55
+      },
+      "weekly_snapshot": {
+        "ticker": "TAP",
+        "week_start": "2013-01-21",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 71.1,
+        "price_vs_sma50": 1.074,
+        "notes": "ADX 24.2, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "TAP_2013-01-11_mixed_sample_016_008",
+      "scenario_id": "TAP_2013-01-11",
+      "window_type": "mixed_sample_016",
+      "chronological_index": 8,
+      "state_id": "mixed_sample_016_state_008",
+      "time_spot": "2013-01-23",
+      "reference_session": "2013-01-23",
+      "question": "Session summary for January 23, 2013: TAP opened $33.60, ranged $33.25-$33.77, closed $33.37. Volume 1.1M (1.00x 20-day avg). 20-day $32.13 | 50-day $31.41. 5-day return +4.13%. ATR-14 $0.52. RSI 61.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-01-23",
+        "open": 33.6,
+        "high": 33.77,
+        "low": 33.25,
+        "close": 33.37,
+        "volume": 1103600,
+        "ma20": 32.13,
+        "ma50": 31.41,
+        "volume_vs_20d": 1.0,
+        "atr14": 0.52,
+        "chg_5d_pct": 4.13
+      },
+      "weekly_snapshot": {
+        "ticker": "TAP",
+        "week_start": "2013-01-21",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 61.8,
+        "price_vs_sma50": 1.062,
+        "notes": "ADX 26.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "TAP_2013-01-11_mixed_sample_016_009",
+      "scenario_id": "TAP_2013-01-11",
+      "window_type": "mixed_sample_016",
+      "chronological_index": 9,
+      "state_id": "mixed_sample_016_state_009",
+      "time_spot": "2013-01-24",
+      "reference_session": "2013-01-24",
+      "question": "Session summary for January 24, 2013: TAP opened $33.42, ranged $33.42-$33.97, closed $33.82. Volume 1.0M (0.89x 20-day avg). 20-day $32.21 | 50-day $31.48. 5-day return +4.55%. ATR-14 $0.52. RSI 72.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-01-24",
+        "open": 33.42,
+        "high": 33.97,
+        "low": 33.42,
+        "close": 33.82,
+        "volume": 1013100,
+        "ma20": 32.21,
+        "ma50": 31.48,
+        "volume_vs_20d": 0.89,
+        "atr14": 0.52,
+        "chg_5d_pct": 4.55
+      },
+      "weekly_snapshot": {
+        "ticker": "TAP",
+        "week_start": "2013-01-21",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 72.6,
+        "price_vs_sma50": 1.074,
+        "notes": "ADX 28.8, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "TAP_2013-01-11_mixed_sample_016_010",
+      "scenario_id": "TAP_2013-01-11",
+      "window_type": "mixed_sample_016",
+      "chronological_index": 10,
+      "state_id": "mixed_sample_016_state_010",
+      "time_spot": "2013-01-25",
+      "reference_session": "2013-01-25",
+      "question": "Session summary for January 25, 2013: TAP opened $33.83, ranged $33.38-$33.86, closed $33.56. Volume 1.2M (0.99x 20-day avg). 20-day $32.28 | 50-day $31.55. 5-day return +2.06%. ATR-14 $0.53. RSI 70.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-01-25",
+        "open": 33.83,
+        "high": 33.86,
+        "low": 33.38,
+        "close": 33.56,
+        "volume": 1161100,
+        "ma20": 32.28,
+        "ma50": 31.55,
+        "volume_vs_20d": 0.99,
+        "atr14": 0.53,
+        "chg_5d_pct": 2.06
+      },
+      "weekly_snapshot": {
+        "ticker": "TAP",
+        "week_start": "2013-01-21",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 70.6,
+        "price_vs_sma50": 1.064,
+        "notes": "ADX 31.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "TAP_2013-01-11_mixed_sample_016_011",
+      "scenario_id": "TAP_2013-01-11",
+      "window_type": "mixed_sample_016",
+      "chronological_index": 11,
+      "state_id": "mixed_sample_016_state_011",
+      "time_spot": "2013-01-28",
+      "reference_session": "2013-01-28",
+      "question": "Session summary for January 28, 2013: TAP opened $33.60, ranged $33.36-$33.60, closed $33.57. Volume 0.8M (0.65x 20-day avg). 20-day $32.36 | 50-day $31.62. 5-day return +0.67%. ATR-14 $0.49. RSI 81.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-01-28",
+        "open": 33.6,
+        "high": 33.6,
+        "low": 33.36,
+        "close": 33.57,
+        "volume": 760600,
+        "ma20": 32.36,
+        "ma50": 31.62,
+        "volume_vs_20d": 0.65,
+        "atr14": 0.49,
+        "chg_5d_pct": 0.67
+      },
+      "weekly_snapshot": {
+        "ticker": "TAP",
+        "week_start": "2013-01-28",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 81.9,
+        "price_vs_sma50": 1.062,
+        "notes": "ADX 34.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "TAP_2013-01-11_mixed_sample_016_012",
+      "scenario_id": "TAP_2013-01-11",
+      "window_type": "mixed_sample_016",
+      "chronological_index": 12,
+      "state_id": "mixed_sample_016_state_012",
+      "time_spot": "2013-01-29",
+      "reference_session": "2013-01-29",
+      "question": "Session summary for January 29, 2013: TAP opened $33.53, ranged $33.51-$33.87, closed $33.86. Volume 0.7M (0.62x 20-day avg). 20-day $32.46 | 50-day $31.71. 5-day return +0.53%. ATR-14 $0.47. RSI 85.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-01-29",
+        "open": 33.53,
+        "high": 33.87,
+        "low": 33.51,
+        "close": 33.86,
+        "volume": 732100,
+        "ma20": 32.46,
+        "ma50": 31.71,
+        "volume_vs_20d": 0.62,
+        "atr14": 0.47,
+        "chg_5d_pct": 0.53
+      },
+      "weekly_snapshot": {
+        "ticker": "TAP",
+        "week_start": "2013-01-28",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 85.3,
+        "price_vs_sma50": 1.068,
+        "notes": "ADX 37.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "TAP_2013-01-11_mixed_sample_016_013",
+      "scenario_id": "TAP_2013-01-11",
+      "window_type": "mixed_sample_016",
+      "chronological_index": 13,
+      "state_id": "mixed_sample_016_state_013",
+      "time_spot": "2013-01-30",
+      "reference_session": "2013-01-30",
+      "question": "Session summary for January 30, 2013: TAP opened $33.76, ranged $33.64-$34.03, closed $33.91. Volume 0.9M (0.76x 20-day avg). 20-day $32.56 | 50-day $31.81. 5-day return +1.63%. ATR-14 $0.48. RSI 84.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-01-30",
+        "open": 33.76,
+        "high": 34.03,
+        "low": 33.64,
+        "close": 33.91,
+        "volume": 899800,
+        "ma20": 32.56,
+        "ma50": 31.81,
+        "volume_vs_20d": 0.76,
+        "atr14": 0.48,
+        "chg_5d_pct": 1.63
+      },
+      "weekly_snapshot": {
+        "ticker": "TAP",
+        "week_start": "2013-01-28",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 84.7,
+        "price_vs_sma50": 1.066,
+        "notes": "ADX 39.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "TAP_2013-01-11_mixed_sample_016_014",
+      "scenario_id": "TAP_2013-01-11",
+      "window_type": "mixed_sample_016",
+      "chronological_index": 14,
+      "state_id": "mixed_sample_016_state_014",
+      "time_spot": "2013-01-31",
+      "reference_session": "2013-01-31",
+      "question": "Session summary for January 31, 2013: TAP opened $33.83, ranged $33.37-$33.89, closed $33.60. Volume 2.1M (1.76x 20-day avg). 20-day $32.63 | 50-day $31.89. 5-day return -0.64%. ATR-14 $0.50. RSI 77.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-01-31",
+        "open": 33.83,
+        "high": 33.89,
+        "low": 33.37,
+        "close": 33.6,
+        "volume": 2141400,
+        "ma20": 32.63,
+        "ma50": 31.89,
+        "volume_vs_20d": 1.76,
+        "atr14": 0.5,
+        "chg_5d_pct": -0.64
+      },
+      "weekly_snapshot": {
+        "ticker": "TAP",
+        "week_start": "2013-01-28",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 77.3,
+        "price_vs_sma50": 1.054,
+        "notes": "ADX 41.7, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "TAP_2013-01-11_mixed_sample_016_015",
+      "scenario_id": "TAP_2013-01-11",
+      "window_type": "mixed_sample_016",
+      "chronological_index": 15,
+      "state_id": "mixed_sample_016_state_015",
+      "time_spot": "2013-02-01",
+      "reference_session": "2013-02-01",
+      "question": "Session summary for February 01, 2013: TAP opened $33.83, ranged $33.61-$34.04, closed $33.75. Volume 1.0M (0.83x 20-day avg). 20-day $32.72 | 50-day $31.97. 5-day return +0.55%. ATR-14 $0.48. RSI 76.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-02-01",
+        "open": 33.83,
+        "high": 34.04,
+        "low": 33.61,
+        "close": 33.75,
+        "volume": 959400,
+        "ma20": 32.72,
+        "ma50": 31.97,
+        "volume_vs_20d": 0.83,
+        "atr14": 0.48,
+        "chg_5d_pct": 0.55
+      },
+      "weekly_snapshot": {
+        "ticker": "TAP",
+        "week_start": "2013-01-28",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 76.6,
+        "price_vs_sma50": 1.055,
+        "notes": "ADX 45.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "TAP_2013-01-11_mixed_sample_016_016",
+      "scenario_id": "TAP_2013-01-11",
+      "window_type": "mixed_sample_016",
+      "chronological_index": 16,
+      "state_id": "mixed_sample_016_state_016",
+      "time_spot": "2013-02-04",
+      "reference_session": "2013-02-04",
+      "question": "Session summary for February 04, 2013: TAP opened $33.50, ranged $32.81-$33.53, closed $32.83. Volume 1.4M (1.23x 20-day avg). 20-day $32.77 | 50-day $32.04. 5-day return -2.22%. ATR-14 $0.51. RSI 60.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-02-04",
+        "open": 33.5,
+        "high": 33.53,
+        "low": 32.81,
+        "close": 32.83,
+        "volume": 1410700,
+        "ma20": 32.77,
+        "ma50": 32.04,
+        "volume_vs_20d": 1.23,
+        "atr14": 0.51,
+        "chg_5d_pct": -2.22
+      },
+      "weekly_snapshot": {
+        "ticker": "TAP",
+        "week_start": "2013-02-04",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 60.2,
+        "price_vs_sma50": 1.025,
+        "notes": "ADX 46.7, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "TAP_2013-01-11_mixed_sample_016_017",
+      "scenario_id": "TAP_2013-01-11",
+      "window_type": "mixed_sample_016",
+      "chronological_index": 17,
+      "state_id": "mixed_sample_016_state_017",
+      "time_spot": "2013-02-05",
+      "reference_session": "2013-02-05",
+      "question": "Session summary for February 05, 2013: TAP opened $32.97, ranged $32.89-$33.28, closed $33.16. Volume 1.1M (1.00x 20-day avg). 20-day $32.87 | 50-day $32.11. 5-day return -2.06%. ATR-14 $0.52. RSI 61.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-02-05",
+        "open": 32.97,
+        "high": 33.28,
+        "low": 32.89,
+        "close": 33.16,
+        "volume": 1103300,
+        "ma20": 32.87,
+        "ma50": 32.11,
+        "volume_vs_20d": 1.0,
+        "atr14": 0.52,
+        "chg_5d_pct": -2.06
+      },
+      "weekly_snapshot": {
+        "ticker": "TAP",
+        "week_start": "2013-02-04",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 61.9,
+        "price_vs_sma50": 1.033,
+        "notes": "ADX 48.4, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "TAP_2013-01-11_mixed_sample_016_018",
+      "scenario_id": "TAP_2013-01-11",
+      "window_type": "mixed_sample_016",
+      "chronological_index": 18,
+      "state_id": "mixed_sample_016_state_018",
+      "time_spot": "2013-02-06",
+      "reference_session": "2013-02-06",
+      "question": "Session summary for February 06, 2013: TAP opened $33.04, ranged $32.74-$33.04, closed $32.81. Volume 1.2M (1.15x 20-day avg). 20-day $32.95 | 50-day $32.17. 5-day return -3.25%. ATR-14 $0.52. RSI 54.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-02-06",
+        "open": 33.04,
+        "high": 33.04,
+        "low": 32.74,
+        "close": 32.81,
+        "volume": 1240700,
+        "ma20": 32.95,
+        "ma50": 32.17,
+        "volume_vs_20d": 1.15,
+        "atr14": 0.52,
+        "chg_5d_pct": -3.25
+      },
+      "weekly_snapshot": {
+        "ticker": "TAP",
+        "week_start": "2013-02-04",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 54.9,
+        "price_vs_sma50": 1.02,
+        "notes": "ADX 50.0, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "TAP_2013-01-11_mixed_sample_016_019",
+      "scenario_id": "TAP_2013-01-11",
+      "window_type": "mixed_sample_016",
+      "chronological_index": 19,
+      "state_id": "mixed_sample_016_state_019",
+      "time_spot": "2013-02-07",
+      "reference_session": "2013-02-07",
+      "question": "Session summary for February 07, 2013: TAP opened $32.79, ranged $32.79-$33.00, closed $32.96. Volume 0.7M (0.67x 20-day avg). 20-day $33.03 | 50-day $32.23. 5-day return -1.93%. ATR-14 $0.49. RSI 50.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-02-07",
+        "open": 32.79,
+        "high": 33.0,
+        "low": 32.79,
+        "close": 32.96,
+        "volume": 725100,
+        "ma20": 33.03,
+        "ma50": 32.23,
+        "volume_vs_20d": 0.67,
+        "atr14": 0.49,
+        "chg_5d_pct": -1.93
+      },
+      "weekly_snapshot": {
+        "ticker": "TAP",
+        "week_start": "2013-02-04",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 50.9,
+        "price_vs_sma50": 1.023,
+        "notes": "ADX 50.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "TAP_2013-01-11_mixed_sample_016_020",
+      "scenario_id": "TAP_2013-01-11",
+      "window_type": "mixed_sample_016",
+      "chronological_index": 20,
+      "state_id": "mixed_sample_016_state_020",
+      "time_spot": "2013-02-08",
+      "reference_session": "2013-02-08",
+      "question": "Session summary for February 08, 2013: TAP opened $32.94, ranged $32.90-$33.10, closed $33.03. Volume 0.8M (0.78x 20-day avg). 20-day $33.11 | 50-day $32.29. 5-day return -2.12%. ATR-14 $0.46. RSI 46.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-02-08",
+        "open": 32.94,
+        "high": 33.1,
+        "low": 32.9,
+        "close": 33.03,
+        "volume": 840700,
+        "ma20": 33.11,
+        "ma50": 32.29,
+        "volume_vs_20d": 0.78,
+        "atr14": 0.46,
+        "chg_5d_pct": -2.12
+      },
+      "weekly_snapshot": {
+        "ticker": "TAP",
+        "week_start": "2013-02-04",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 46.0,
+        "price_vs_sma50": 1.023,
+        "notes": "ADX 48.9, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "TAP_2013-01-11_mixed_sample_016_021",
+      "scenario_id": "TAP_2013-01-11",
+      "window_type": "mixed_sample_016",
+      "chronological_index": 21,
+      "state_id": "mixed_sample_016_state_021",
+      "time_spot": "2013-02-11",
+      "reference_session": "2013-02-11",
+      "question": "Session summary for February 11, 2013: TAP opened $32.96, ranged $32.73-$33.06, closed $32.76. Volume 0.8M (0.74x 20-day avg). 20-day $33.16 | 50-day $32.35. 5-day return -0.20%. ATR-14 $0.44. RSI 38.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-02-11",
+        "open": 32.96,
+        "high": 33.06,
+        "low": 32.73,
+        "close": 32.76,
+        "volume": 785000,
+        "ma20": 33.16,
+        "ma50": 32.35,
+        "volume_vs_20d": 0.74,
+        "atr14": 0.44,
+        "chg_5d_pct": -0.2
+      },
+      "weekly_snapshot": {
+        "ticker": "TAP",
+        "week_start": "2013-02-11",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 38.3,
+        "price_vs_sma50": 1.013,
+        "notes": "ADX 47.9, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "TAP_2013-01-11_mixed_sample_016_022",
+      "scenario_id": "TAP_2013-01-11",
+      "window_type": "mixed_sample_016",
+      "chronological_index": 22,
+      "state_id": "mixed_sample_016_state_022",
+      "time_spot": "2013-02-12",
+      "reference_session": "2013-02-12",
+      "question": "Session summary for February 12, 2013: TAP opened $32.78, ranged $32.65-$32.99, closed $32.89. Volume 1.2M (1.07x 20-day avg). 20-day $33.21 | 50-day $32.40. 5-day return -0.81%. ATR-14 $0.42. RSI 43.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-02-12",
+        "open": 32.78,
+        "high": 32.99,
+        "low": 32.65,
+        "close": 32.89,
+        "volume": 1167100,
+        "ma20": 33.21,
+        "ma50": 32.4,
+        "volume_vs_20d": 1.07,
+        "atr14": 0.42,
+        "chg_5d_pct": -0.81
+      },
+      "weekly_snapshot": {
+        "ticker": "TAP",
+        "week_start": "2013-02-11",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 43.6,
+        "price_vs_sma50": 1.015,
+        "notes": "ADX 47.6, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "TAP_2013-01-11_mixed_sample_016_023",
+      "scenario_id": "TAP_2013-01-11",
+      "window_type": "mixed_sample_016",
+      "chronological_index": 23,
+      "state_id": "mixed_sample_016_state_023",
+      "time_spot": "2013-02-13",
+      "reference_session": "2013-02-13",
+      "question": "Session summary for February 13, 2013: TAP opened $32.94, ranged $32.91-$33.19, closed $33.19. Volume 1.1M (1.00x 20-day avg). 20-day $33.27 | 50-day $32.44. 5-day return +1.16%. ATR-14 $0.40. RSI 41.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-02-13",
+        "open": 32.94,
+        "high": 33.19,
+        "low": 32.91,
+        "close": 33.19,
+        "volume": 1105700,
+        "ma20": 33.27,
+        "ma50": 32.44,
+        "volume_vs_20d": 1.0,
+        "atr14": 0.4,
+        "chg_5d_pct": 1.16
+      },
+      "weekly_snapshot": {
+        "ticker": "TAP",
+        "week_start": "2013-02-11",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 41.1,
+        "price_vs_sma50": 1.023,
+        "notes": "ADX 46.4, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "TAP_2013-01-11_mixed_sample_016_024",
+      "scenario_id": "TAP_2013-01-11",
+      "window_type": "mixed_sample_016",
+      "chronological_index": 24,
+      "state_id": "mixed_sample_016_state_024",
+      "time_spot": "2013-02-14",
+      "reference_session": "2013-02-14",
+      "question": "Session summary for February 14, 2013: TAP opened $33.24, ranged $32.66-$33.73, closed $32.70. Volume 2.0M (1.74x 20-day avg). 20-day $33.28 | 50-day $32.48. 5-day return -0.77%. ATR-14 $0.44. RSI 38.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-02-14",
+        "open": 33.24,
+        "high": 33.73,
+        "low": 32.66,
+        "close": 32.7,
+        "volume": 2011900,
+        "ma20": 33.28,
+        "ma50": 32.48,
+        "volume_vs_20d": 1.74,
+        "atr14": 0.44,
+        "chg_5d_pct": -0.77
+      },
+      "weekly_snapshot": {
+        "ticker": "TAP",
+        "week_start": "2013-02-11",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 38.7,
+        "price_vs_sma50": 1.007,
+        "notes": "ADX 43.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "TAP_2013-01-11_mixed_sample_016_025",
+      "scenario_id": "TAP_2013-01-11",
+      "window_type": "mixed_sample_016",
+      "chronological_index": 25,
+      "state_id": "mixed_sample_016_state_025",
+      "time_spot": "2013-02-15",
+      "reference_session": "2013-02-15",
+      "question": "Session summary for February 15, 2013: TAP opened $32.79, ranged $32.27-$32.90, closed $32.38. Volume 1.9M (1.55x 20-day avg). 20-day $33.26 | 50-day $32.51. 5-day return -1.98%. ATR-14 $0.47. RSI 35.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-02-15",
+        "open": 32.79,
+        "high": 32.9,
+        "low": 32.27,
+        "close": 32.38,
+        "volume": 1855800,
+        "ma20": 33.26,
+        "ma50": 32.51,
+        "volume_vs_20d": 1.55,
+        "atr14": 0.47,
+        "chg_5d_pct": -1.98
+      },
+      "weekly_snapshot": {
+        "ticker": "TAP",
+        "week_start": "2013-02-11",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 35.4,
+        "price_vs_sma50": 0.996,
+        "notes": "ADX 39.5, MACD bearish"
+      }
+    }
+  ]
+}

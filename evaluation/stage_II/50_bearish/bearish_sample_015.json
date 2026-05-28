@@ -1,0 +1,2898 @@
+{
+  "metadata": {
+    "instrument": "AMD",
+    "initial_capital": 10000,
+    "window_type": "bearish_sample_015",
+    "description": "AMD window (2010-04-14 \u2013 2010-05-18) - bearish regime.",
+    "num_mcqs": 25,
+    "notes": "Orders express target exposure fractions relative to the leverage ceiling.",
+    "max_leverage": 2.5,
+    "exposure_buckets": [
+      0.8,
+      0.6,
+      0.4,
+      0.2
+    ],
+    "start_reference": "2010-04-14",
+    "end_reference": "2010-05-18",
+    "regime": "bearish",
+    "bh_return": -14.86
+  },
+  "mcqs": [
+    {
+      "scenario_instance_id": "AMD_2010-04-14_bearish_sample_015_001",
+      "scenario_id": "AMD_2010-04-14",
+      "window_type": "bearish_sample_015",
+      "chronological_index": 1,
+      "state_id": "bearish_sample_015_state_001",
+      "time_spot": "2010-04-14",
+      "reference_session": "2010-04-14",
+      "question": "Session summary for April 14, 2010: AMD opened $9.82, ranged $9.71-$9.97, closed $9.89. Volume 29.2M (1.74x 20-day avg). 20-day $9.37 | 50-day $8.64. 5-day return +2.38%. ATR-14 $0.30. RSI 65.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-04-14",
+        "open": 9.82,
+        "high": 9.97,
+        "low": 9.71,
+        "close": 9.89,
+        "volume": 29201400,
+        "ma20": 9.37,
+        "ma50": 8.64,
+        "volume_vs_20d": 1.74,
+        "atr14": 0.3,
+        "chg_5d_pct": 2.38
+      },
+      "weekly_snapshot": {
+        "ticker": "AMD",
+        "week_start": "2010-04-12",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 65.3,
+        "price_vs_sma50": 1.145,
+        "notes": "ADX 12.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AMD_2010-04-14_bearish_sample_015_002",
+      "scenario_id": "AMD_2010-04-14",
+      "window_type": "bearish_sample_015",
+      "chronological_index": 2,
+      "state_id": "bearish_sample_015_state_002",
+      "time_spot": "2010-04-15",
+      "reference_session": "2010-04-15",
+      "question": "Session summary for April 15, 2010: AMD opened $9.97, ranged $9.90-$10.24, closed $10.16. Volume 55.1M (3.00x 20-day avg). 20-day $9.39 | 50-day $8.68. 5-day return +7.86%. ATR-14 $0.30. RSI 75.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-04-15",
+        "open": 9.97,
+        "high": 10.24,
+        "low": 9.9,
+        "close": 10.16,
+        "volume": 55096500,
+        "ma20": 9.39,
+        "ma50": 8.68,
+        "volume_vs_20d": 3.0,
+        "atr14": 0.3,
+        "chg_5d_pct": 7.86
+      },
+      "weekly_snapshot": {
+        "ticker": "AMD",
+        "week_start": "2010-04-12",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 75.3,
+        "price_vs_sma50": 1.17,
+        "notes": "ADX 15.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AMD_2010-04-14_bearish_sample_015_003",
+      "scenario_id": "AMD_2010-04-14",
+      "window_type": "bearish_sample_015",
+      "chronological_index": 3,
+      "state_id": "bearish_sample_015_state_003",
+      "time_spot": "2010-04-16",
+      "reference_session": "2010-04-16",
+      "question": "Session summary for April 16, 2010: AMD opened $9.78, ranged $9.37-$9.90, closed $9.81. Volume 67.8M (3.25x 20-day avg). 20-day $9.41 | 50-day $8.72. 5-day return +5.48%. ATR-14 $0.34. RSI 65.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-04-16",
+        "open": 9.78,
+        "high": 9.9,
+        "low": 9.37,
+        "close": 9.81,
+        "volume": 67757600,
+        "ma20": 9.41,
+        "ma50": 8.72,
+        "volume_vs_20d": 3.25,
+        "atr14": 0.34,
+        "chg_5d_pct": 5.48
+      },
+      "weekly_snapshot": {
+        "ticker": "AMD",
+        "week_start": "2010-04-12",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 65.4,
+        "price_vs_sma50": 1.125,
+        "notes": "ADX 16.5, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AMD_2010-04-14_bearish_sample_015_004",
+      "scenario_id": "AMD_2010-04-14",
+      "window_type": "bearish_sample_015",
+      "chronological_index": 4,
+      "state_id": "bearish_sample_015_state_004",
+      "time_spot": "2010-04-19",
+      "reference_session": "2010-04-19",
+      "question": "Session summary for April 19, 2010: AMD opened $9.73, ranged $9.29-$9.84, closed $9.58. Volume 27.9M (1.30x 20-day avg). 20-day $9.44 | 50-day $8.77. 5-day return +1.70%. ATR-14 $0.36. RSI 58.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-04-19",
+        "open": 9.73,
+        "high": 9.84,
+        "low": 9.29,
+        "close": 9.58,
+        "volume": 27868200,
+        "ma20": 9.44,
+        "ma50": 8.77,
+        "volume_vs_20d": 1.3,
+        "atr14": 0.36,
+        "chg_5d_pct": 1.7
+      },
+      "weekly_snapshot": {
+        "ticker": "AMD",
+        "week_start": "2010-04-19",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 58.7,
+        "price_vs_sma50": 1.092,
+        "notes": "ADX 17.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AMD_2010-04-14_bearish_sample_015_005",
+      "scenario_id": "AMD_2010-04-14",
+      "window_type": "bearish_sample_015",
+      "chronological_index": 5,
+      "state_id": "bearish_sample_015_state_005",
+      "time_spot": "2010-04-20",
+      "reference_session": "2010-04-20",
+      "question": "Session summary for April 20, 2010: AMD opened $9.74, ranged $9.63-$9.81, closed $9.77. Volume 21.2M (0.98x 20-day avg). 20-day $9.46 | 50-day $8.82. 5-day return +2.20%. ATR-14 $0.36. RSI 59.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-04-20",
+        "open": 9.74,
+        "high": 9.81,
+        "low": 9.63,
+        "close": 9.77,
+        "volume": 21244700,
+        "ma20": 9.46,
+        "ma50": 8.82,
+        "volume_vs_20d": 0.98,
+        "atr14": 0.36,
+        "chg_5d_pct": 2.2
+      },
+      "weekly_snapshot": {
+        "ticker": "AMD",
+        "week_start": "2010-04-19",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 59.1,
+        "price_vs_sma50": 1.108,
+        "notes": "ADX 18.4, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AMD_2010-04-14_bearish_sample_015_006",
+      "scenario_id": "AMD_2010-04-14",
+      "window_type": "bearish_sample_015",
+      "chronological_index": 6,
+      "state_id": "bearish_sample_015_state_006",
+      "time_spot": "2010-04-21",
+      "reference_session": "2010-04-21",
+      "question": "Session summary for April 21, 2010: AMD opened $9.80, ranged $9.49-$9.91, closed $9.78. Volume 28.7M (1.26x 20-day avg). 20-day $9.48 | 50-day $8.87. 5-day return -1.11%. ATR-14 $0.37. RSI 59.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-04-21",
+        "open": 9.8,
+        "high": 9.91,
+        "low": 9.49,
+        "close": 9.78,
+        "volume": 28651400,
+        "ma20": 9.48,
+        "ma50": 8.87,
+        "volume_vs_20d": 1.26,
+        "atr14": 0.37,
+        "chg_5d_pct": -1.11
+      },
+      "weekly_snapshot": {
+        "ticker": "AMD",
+        "week_start": "2010-04-19",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 59.3,
+        "price_vs_sma50": 1.103,
+        "notes": "ADX 18.2, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AMD_2010-04-14_bearish_sample_015_007",
+      "scenario_id": "AMD_2010-04-14",
+      "window_type": "bearish_sample_015",
+      "chronological_index": 7,
+      "state_id": "bearish_sample_015_state_007",
+      "time_spot": "2010-04-22",
+      "reference_session": "2010-04-22",
+      "question": "Session summary for April 22, 2010: AMD opened $9.57, ranged $9.45-$9.90, closed $9.86. Volume 22.4M (0.97x 20-day avg). 20-day $9.51 | 50-day $8.91. 5-day return -2.95%. ATR-14 $0.39. RSI 59.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-04-22",
+        "open": 9.57,
+        "high": 9.9,
+        "low": 9.45,
+        "close": 9.86,
+        "volume": 22389600,
+        "ma20": 9.51,
+        "ma50": 8.91,
+        "volume_vs_20d": 0.97,
+        "atr14": 0.39,
+        "chg_5d_pct": -2.95
+      },
+      "weekly_snapshot": {
+        "ticker": "AMD",
+        "week_start": "2010-04-19",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 59.0,
+        "price_vs_sma50": 1.106,
+        "notes": "ADX 17.7, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AMD_2010-04-14_bearish_sample_015_008",
+      "scenario_id": "AMD_2010-04-14",
+      "window_type": "bearish_sample_015",
+      "chronological_index": 8,
+      "state_id": "bearish_sample_015_state_008",
+      "time_spot": "2010-04-23",
+      "reference_session": "2010-04-23",
+      "question": "Session summary for April 23, 2010: AMD opened $9.81, ranged $9.61-$9.85, closed $9.76. Volume 18.8M (0.81x 20-day avg). 20-day $9.54 | 50-day $8.95. 5-day return -0.51%. ATR-14 $0.39. RSI 54.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-04-23",
+        "open": 9.81,
+        "high": 9.85,
+        "low": 9.61,
+        "close": 9.76,
+        "volume": 18841700,
+        "ma20": 9.54,
+        "ma50": 8.95,
+        "volume_vs_20d": 0.81,
+        "atr14": 0.39,
+        "chg_5d_pct": -0.51
+      },
+      "weekly_snapshot": {
+        "ticker": "AMD",
+        "week_start": "2010-04-19",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 54.3,
+        "price_vs_sma50": 1.09,
+        "notes": "ADX 16.8, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AMD_2010-04-14_bearish_sample_015_009",
+      "scenario_id": "AMD_2010-04-14",
+      "window_type": "bearish_sample_015",
+      "chronological_index": 9,
+      "state_id": "bearish_sample_015_state_009",
+      "time_spot": "2010-04-26",
+      "reference_session": "2010-04-26",
+      "question": "Session summary for April 26, 2010: AMD opened $9.80, ranged $9.70-$10.15, closed $9.97. Volume 24.3M (1.02x 20-day avg). 20-day $9.59 | 50-day $9.00. 5-day return +4.07%. ATR-14 $0.40. RSI 61.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-04-26",
+        "open": 9.8,
+        "high": 10.15,
+        "low": 9.7,
+        "close": 9.97,
+        "volume": 24335500,
+        "ma20": 9.59,
+        "ma50": 9.0,
+        "volume_vs_20d": 1.02,
+        "atr14": 0.4,
+        "chg_5d_pct": 4.07
+      },
+      "weekly_snapshot": {
+        "ticker": "AMD",
+        "week_start": "2010-04-26",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 61.5,
+        "price_vs_sma50": 1.108,
+        "notes": "ADX 17.1, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AMD_2010-04-14_bearish_sample_015_010",
+      "scenario_id": "AMD_2010-04-14",
+      "window_type": "bearish_sample_015",
+      "chronological_index": 10,
+      "state_id": "bearish_sample_015_state_010",
+      "time_spot": "2010-04-27",
+      "reference_session": "2010-04-27",
+      "question": "Session summary for April 27, 2010: AMD opened $9.84, ranged $9.53-$10.06, closed $9.58. Volume 27.2M (1.09x 20-day avg). 20-day $9.62 | 50-day $9.03. 5-day return -1.94%. ATR-14 $0.39. RSI 48.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-04-27",
+        "open": 9.84,
+        "high": 10.06,
+        "low": 9.53,
+        "close": 9.58,
+        "volume": 27169000,
+        "ma20": 9.62,
+        "ma50": 9.03,
+        "volume_vs_20d": 1.09,
+        "atr14": 0.39,
+        "chg_5d_pct": -1.94
+      },
+      "weekly_snapshot": {
+        "ticker": "AMD",
+        "week_start": "2010-04-26",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 48.6,
+        "price_vs_sma50": 1.061,
+        "notes": "ADX 15.9, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AMD_2010-04-14_bearish_sample_015_011",
+      "scenario_id": "AMD_2010-04-14",
+      "window_type": "bearish_sample_015",
+      "chronological_index": 11,
+      "state_id": "bearish_sample_015_state_011",
+      "time_spot": "2010-04-28",
+      "reference_session": "2010-04-28",
+      "question": "Session summary for April 28, 2010: AMD opened $9.69, ranged $9.35-$9.80, closed $9.55. Volume 23.0M (0.91x 20-day avg). 20-day $9.63 | 50-day $9.06. 5-day return -2.35%. ATR-14 $0.40. RSI 52.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-04-28",
+        "open": 9.69,
+        "high": 9.8,
+        "low": 9.35,
+        "close": 9.55,
+        "volume": 23028300,
+        "ma20": 9.63,
+        "ma50": 9.06,
+        "volume_vs_20d": 0.91,
+        "atr14": 0.4,
+        "chg_5d_pct": -2.35
+      },
+      "weekly_snapshot": {
+        "ticker": "AMD",
+        "week_start": "2010-04-26",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 52.5,
+        "price_vs_sma50": 1.054,
+        "notes": "ADX 15.7, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AMD_2010-04-14_bearish_sample_015_012",
+      "scenario_id": "AMD_2010-04-14",
+      "window_type": "bearish_sample_015",
+      "chronological_index": 12,
+      "state_id": "bearish_sample_015_state_012",
+      "time_spot": "2010-04-29",
+      "reference_session": "2010-04-29",
+      "question": "Session summary for April 29, 2010: AMD opened $9.70, ranged $9.59-$9.78, closed $9.72. Volume 14.4M (0.57x 20-day avg). 20-day $9.65 | 50-day $9.10. 5-day return -1.42%. ATR-14 $0.40. RSI 58.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-04-29",
+        "open": 9.7,
+        "high": 9.78,
+        "low": 9.59,
+        "close": 9.72,
+        "volume": 14350400,
+        "ma20": 9.65,
+        "ma50": 9.1,
+        "volume_vs_20d": 0.57,
+        "atr14": 0.4,
+        "chg_5d_pct": -1.42
+      },
+      "weekly_snapshot": {
+        "ticker": "AMD",
+        "week_start": "2010-04-26",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 58.0,
+        "price_vs_sma50": 1.069,
+        "notes": "ADX 15.8, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AMD_2010-04-14_bearish_sample_015_013",
+      "scenario_id": "AMD_2010-04-14",
+      "window_type": "bearish_sample_015",
+      "chronological_index": 13,
+      "state_id": "bearish_sample_015_state_013",
+      "time_spot": "2010-04-30",
+      "reference_session": "2010-04-30",
+      "question": "Session summary for April 30, 2010: AMD opened $9.72, ranged $9.06-$9.72, closed $9.07. Volume 38.0M (1.42x 20-day avg). 20-day $9.64 | 50-day $9.12. 5-day return -7.07%. ATR-14 $0.43. RSI 44.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-04-30",
+        "open": 9.72,
+        "high": 9.72,
+        "low": 9.06,
+        "close": 9.07,
+        "volume": 37974900,
+        "ma20": 9.64,
+        "ma50": 9.12,
+        "volume_vs_20d": 1.42,
+        "atr14": 0.43,
+        "chg_5d_pct": -7.07
+      },
+      "weekly_snapshot": {
+        "ticker": "AMD",
+        "week_start": "2010-04-26",
+        "trend_regime": "rangebound",
+        "volatility_regime": "high",
+        "rsi_14": 44.4,
+        "price_vs_sma50": 0.995,
+        "notes": "ADX 16.5, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AMD_2010-04-14_bearish_sample_015_014",
+      "scenario_id": "AMD_2010-04-14",
+      "window_type": "bearish_sample_015",
+      "chronological_index": 14,
+      "state_id": "bearish_sample_015_state_014",
+      "time_spot": "2010-05-03",
+      "reference_session": "2010-05-03",
+      "question": "Session summary for May 03, 2010: AMD opened $9.18, ranged $9.02-$9.38, closed $9.29. Volume 27.5M (1.00x 20-day avg). 20-day $9.63 | 50-day $9.14. 5-day return -6.82%. ATR-14 $0.44. RSI 45.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-05-03",
+        "open": 9.18,
+        "high": 9.38,
+        "low": 9.02,
+        "close": 9.29,
+        "volume": 27504700,
+        "ma20": 9.63,
+        "ma50": 9.14,
+        "volume_vs_20d": 1.0,
+        "atr14": 0.44,
+        "chg_5d_pct": -6.82
+      },
+      "weekly_snapshot": {
+        "ticker": "AMD",
+        "week_start": "2010-05-03",
+        "trend_regime": "rangebound",
+        "volatility_regime": "high",
+        "rsi_14": 45.8,
+        "price_vs_sma50": 1.016,
+        "notes": "ADX 18.0, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AMD_2010-04-14_bearish_sample_015_015",
+      "scenario_id": "AMD_2010-04-14",
+      "window_type": "bearish_sample_015",
+      "chronological_index": 15,
+      "state_id": "bearish_sample_015_state_015",
+      "time_spot": "2010-05-04",
+      "reference_session": "2010-05-04",
+      "question": "Session summary for May 04, 2010: AMD opened $9.08, ranged $8.54-$9.08, closed $8.68. Volume 46.5M (1.61x 20-day avg). 20-day $9.59 | 50-day $9.16. 5-day return -9.39%. ATR-14 $0.46. RSI 32.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-05-04",
+        "open": 9.08,
+        "high": 9.08,
+        "low": 8.54,
+        "close": 8.68,
+        "volume": 46482500,
+        "ma20": 9.59,
+        "ma50": 9.16,
+        "volume_vs_20d": 1.61,
+        "atr14": 0.46,
+        "chg_5d_pct": -9.39
+      },
+      "weekly_snapshot": {
+        "ticker": "AMD",
+        "week_start": "2010-05-03",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 32.8,
+        "price_vs_sma50": 0.948,
+        "notes": "ADX 19.9, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AMD_2010-04-14_bearish_sample_015_016",
+      "scenario_id": "AMD_2010-04-14",
+      "window_type": "bearish_sample_015",
+      "chronological_index": 16,
+      "state_id": "bearish_sample_015_state_016",
+      "time_spot": "2010-05-05",
+      "reference_session": "2010-05-05",
+      "question": "Session summary for May 05, 2010: AMD opened $8.44, ranged $8.35-$8.88, closed $8.58. Volume 36.8M (1.25x 20-day avg). 20-day $9.54 | 50-day $9.18. 5-day return -10.16%. ATR-14 $0.47. RSI 26.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-05-05",
+        "open": 8.44,
+        "high": 8.88,
+        "low": 8.35,
+        "close": 8.58,
+        "volume": 36757300,
+        "ma20": 9.54,
+        "ma50": 9.18,
+        "volume_vs_20d": 1.25,
+        "atr14": 0.47,
+        "chg_5d_pct": -10.16
+      },
+      "weekly_snapshot": {
+        "ticker": "AMD",
+        "week_start": "2010-05-03",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 26.3,
+        "price_vs_sma50": 0.935,
+        "notes": "ADX 21.5, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AMD_2010-04-14_bearish_sample_015_017",
+      "scenario_id": "AMD_2010-04-14",
+      "window_type": "bearish_sample_015",
+      "chronological_index": 17,
+      "state_id": "bearish_sample_015_state_017",
+      "time_spot": "2010-05-06",
+      "reference_session": "2010-05-06",
+      "question": "Session summary for May 06, 2010: AMD opened $8.58, ranged $7.81-$8.72, closed $8.27. Volume 44.9M (1.47x 20-day avg). 20-day $9.48 | 50-day $9.18. 5-day return -14.92%. ATR-14 $0.48. RSI 26.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-05-06",
+        "open": 8.58,
+        "high": 8.72,
+        "low": 7.81,
+        "close": 8.27,
+        "volume": 44875400,
+        "ma20": 9.48,
+        "ma50": 9.18,
+        "volume_vs_20d": 1.47,
+        "atr14": 0.48,
+        "chg_5d_pct": -14.92
+      },
+      "weekly_snapshot": {
+        "ticker": "AMD",
+        "week_start": "2010-05-03",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 26.7,
+        "price_vs_sma50": 0.901,
+        "notes": "ADX 25.1, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AMD_2010-04-14_bearish_sample_015_018",
+      "scenario_id": "AMD_2010-04-14",
+      "window_type": "bearish_sample_015",
+      "chronological_index": 18,
+      "state_id": "bearish_sample_015_state_018",
+      "time_spot": "2010-05-07",
+      "reference_session": "2010-05-07",
+      "question": "Session summary for May 07, 2010: AMD opened $8.30, ranged $7.92-$8.67, closed $8.38. Volume 48.5M (1.53x 20-day avg). 20-day $9.43 | 50-day $9.19. 5-day return -7.61%. ATR-14 $0.50. RSI 31.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-05-07",
+        "open": 8.3,
+        "high": 8.67,
+        "low": 7.92,
+        "close": 8.38,
+        "volume": 48469500,
+        "ma20": 9.43,
+        "ma50": 9.19,
+        "volume_vs_20d": 1.53,
+        "atr14": 0.5,
+        "chg_5d_pct": -7.61
+      },
+      "weekly_snapshot": {
+        "ticker": "AMD",
+        "week_start": "2010-05-03",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 31.1,
+        "price_vs_sma50": 0.912,
+        "notes": "ADX 29.1, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AMD_2010-04-14_bearish_sample_015_019",
+      "scenario_id": "AMD_2010-04-14",
+      "window_type": "bearish_sample_015",
+      "chronological_index": 19,
+      "state_id": "bearish_sample_015_state_019",
+      "time_spot": "2010-05-10",
+      "reference_session": "2010-05-10",
+      "question": "Session summary for May 10, 2010: AMD opened $8.92, ranged $8.31-$9.03, closed $8.99. Volume 34.7M (1.06x 20-day avg). 20-day $9.41 | 50-day $9.21. 5-day return -3.23%. ATR-14 $0.53. RSI 39.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-05-10",
+        "open": 8.92,
+        "high": 9.03,
+        "low": 8.31,
+        "close": 8.99,
+        "volume": 34695700,
+        "ma20": 9.41,
+        "ma50": 9.21,
+        "volume_vs_20d": 1.06,
+        "atr14": 0.53,
+        "chg_5d_pct": -3.23
+      },
+      "weekly_snapshot": {
+        "ticker": "AMD",
+        "week_start": "2010-05-10",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 39.2,
+        "price_vs_sma50": 0.976,
+        "notes": "ADX 31.8, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AMD_2010-04-14_bearish_sample_015_020",
+      "scenario_id": "AMD_2010-04-14",
+      "window_type": "bearish_sample_015",
+      "chronological_index": 20,
+      "state_id": "bearish_sample_015_state_020",
+      "time_spot": "2010-05-11",
+      "reference_session": "2010-05-11",
+      "question": "Session summary for May 11, 2010: AMD opened $8.85, ranged $8.75-$9.29, closed $9.07. Volume 41.1M (1.21x 20-day avg). 20-day $9.39 | 50-day $9.23. 5-day return +4.49%. ATR-14 $0.54. RSI 40.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-05-11",
+        "open": 8.85,
+        "high": 9.29,
+        "low": 8.75,
+        "close": 9.07,
+        "volume": 41062100,
+        "ma20": 9.39,
+        "ma50": 9.23,
+        "volume_vs_20d": 1.21,
+        "atr14": 0.54,
+        "chg_5d_pct": 4.49
+      },
+      "weekly_snapshot": {
+        "ticker": "AMD",
+        "week_start": "2010-05-10",
+        "trend_regime": "rangebound",
+        "volatility_regime": "high",
+        "rsi_14": 40.3,
+        "price_vs_sma50": 0.983,
+        "notes": "ADX 34.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AMD_2010-04-14_bearish_sample_015_021",
+      "scenario_id": "AMD_2010-04-14",
+      "window_type": "bearish_sample_015",
+      "chronological_index": 21,
+      "state_id": "bearish_sample_015_state_021",
+      "time_spot": "2010-05-12",
+      "reference_session": "2010-05-12",
+      "question": "Session summary for May 12, 2010: AMD opened $9.20, ranged $9.15-$9.58, closed $9.49. Volume 33.6M (0.98x 20-day avg). 20-day $9.37 | 50-day $9.25. 5-day return +10.61%. ATR-14 $0.55. RSI 45.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-05-12",
+        "open": 9.2,
+        "high": 9.58,
+        "low": 9.15,
+        "close": 9.49,
+        "volume": 33567100,
+        "ma20": 9.37,
+        "ma50": 9.25,
+        "volume_vs_20d": 0.98,
+        "atr14": 0.55,
+        "chg_5d_pct": 10.61
+      },
+      "weekly_snapshot": {
+        "ticker": "AMD",
+        "week_start": "2010-05-10",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 45.4,
+        "price_vs_sma50": 1.026,
+        "notes": "ADX 36.2, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AMD_2010-04-14_bearish_sample_015_022",
+      "scenario_id": "AMD_2010-04-14",
+      "window_type": "bearish_sample_015",
+      "chronological_index": 22,
+      "state_id": "bearish_sample_015_state_022",
+      "time_spot": "2010-05-13",
+      "reference_session": "2010-05-13",
+      "question": "Session summary for May 13, 2010: AMD opened $9.52, ranged $9.32-$9.78, closed $9.42. Volume 33.2M (1.01x 20-day avg). 20-day $9.33 | 50-day $9.27. 5-day return +13.91%. ATR-14 $0.56. RSI 45.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-05-13",
+        "open": 9.52,
+        "high": 9.78,
+        "low": 9.32,
+        "close": 9.42,
+        "volume": 33222600,
+        "ma20": 9.33,
+        "ma50": 9.27,
+        "volume_vs_20d": 1.01,
+        "atr14": 0.56,
+        "chg_5d_pct": 13.91
+      },
+      "weekly_snapshot": {
+        "ticker": "AMD",
+        "week_start": "2010-05-10",
+        "trend_regime": "rangebound",
+        "volatility_regime": "high",
+        "rsi_14": 45.7,
+        "price_vs_sma50": 1.016,
+        "notes": "ADX 37.5, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AMD_2010-04-14_bearish_sample_015_023",
+      "scenario_id": "AMD_2010-04-14",
+      "window_type": "bearish_sample_015",
+      "chronological_index": 23,
+      "state_id": "bearish_sample_015_state_023",
+      "time_spot": "2010-05-14",
+      "reference_session": "2010-05-14",
+      "question": "Session summary for May 14, 2010: AMD opened $9.24, ranged $8.57-$9.31, closed $8.80. Volume 59.0M (1.81x 20-day avg). 20-day $9.28 | 50-day $9.28. 5-day return +5.01%. ATR-14 $0.59. RSI 36.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-05-14",
+        "open": 9.24,
+        "high": 9.31,
+        "low": 8.57,
+        "close": 8.8,
+        "volume": 59018500,
+        "ma20": 9.28,
+        "ma50": 9.28,
+        "volume_vs_20d": 1.81,
+        "atr14": 0.59,
+        "chg_5d_pct": 5.01
+      },
+      "weekly_snapshot": {
+        "ticker": "AMD",
+        "week_start": "2010-05-10",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 36.7,
+        "price_vs_sma50": 0.948,
+        "notes": "ADX 39.0, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AMD_2010-04-14_bearish_sample_015_024",
+      "scenario_id": "AMD_2010-04-14",
+      "window_type": "bearish_sample_015",
+      "chronological_index": 24,
+      "state_id": "bearish_sample_015_state_024",
+      "time_spot": "2010-05-17",
+      "reference_session": "2010-05-17",
+      "question": "Session summary for May 17, 2010: AMD opened $8.75, ranged $8.47-$8.87, closed $8.85. Volume 27.7M (0.85x 20-day avg). 20-day $9.24 | 50-day $9.28. 5-day return -1.56%. ATR-14 $0.58. RSI 41.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-05-17",
+        "open": 8.75,
+        "high": 8.87,
+        "low": 8.47,
+        "close": 8.85,
+        "volume": 27721900,
+        "ma20": 9.24,
+        "ma50": 9.28,
+        "volume_vs_20d": 0.85,
+        "atr14": 0.58,
+        "chg_5d_pct": -1.56
+      },
+      "weekly_snapshot": {
+        "ticker": "AMD",
+        "week_start": "2010-05-17",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 41.0,
+        "price_vs_sma50": 0.953,
+        "notes": "ADX 42.1, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AMD_2010-04-14_bearish_sample_015_025",
+      "scenario_id": "AMD_2010-04-14",
+      "window_type": "bearish_sample_015",
+      "chronological_index": 25,
+      "state_id": "bearish_sample_015_state_025",
+      "time_spot": "2010-05-18",
+      "reference_session": "2010-05-18",
+      "question": "Session summary for May 18, 2010: AMD opened $8.96, ranged $8.37-$9.01, closed $8.42. Volume 29.7M (0.90x 20-day avg). 20-day $9.18 | 50-day $9.28. 5-day return -7.17%. ATR-14 $0.59. RSI 37.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-05-18",
+        "open": 8.96,
+        "high": 9.01,
+        "low": 8.37,
+        "close": 8.42,
+        "volume": 29716300,
+        "ma20": 9.18,
+        "ma50": 9.28,
+        "volume_vs_20d": 0.9,
+        "atr14": 0.59,
+        "chg_5d_pct": -7.17
+      },
+      "weekly_snapshot": {
+        "ticker": "AMD",
+        "week_start": "2010-05-17",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 37.3,
+        "price_vs_sma50": 0.907,
+        "notes": "ADX 44.1, MACD bearish"
+      }
+    }
+  ]
+}

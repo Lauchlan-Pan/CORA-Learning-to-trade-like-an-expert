@@ -1,0 +1,2898 @@
+{
+  "metadata": {
+    "instrument": "ACN",
+    "initial_capital": 10000,
+    "window_type": "bullish_sample_014",
+    "description": "ACN window (2010-08-31 \u2013 2010-10-05) - bullish regime.",
+    "num_mcqs": 25,
+    "notes": "Orders express target exposure fractions relative to the leverage ceiling.",
+    "max_leverage": 2.5,
+    "exposure_buckets": [
+      0.8,
+      0.6,
+      0.4,
+      0.2
+    ],
+    "start_reference": "2010-08-31",
+    "end_reference": "2010-10-05",
+    "regime": "bullish",
+    "bh_return": 23.36
+  },
+  "mcqs": [
+    {
+      "scenario_instance_id": "ACN_2010-08-31_bullish_sample_014_001",
+      "scenario_id": "ACN_2010-08-31",
+      "window_type": "bullish_sample_014",
+      "chronological_index": 1,
+      "state_id": "bullish_sample_014_state_001",
+      "time_spot": "2010-08-31",
+      "reference_session": "2010-08-31",
+      "question": "Session summary for August 31, 2010: ACN opened $27.65, ranged $27.52-$27.83, closed $27.64. Volume 5.8M (1.53x 20-day avg). 20-day $29.29 | 50-day $29.54. 5-day return -1.59%. ATR-14 $0.54. RSI 18.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-08-31",
+        "open": 27.65,
+        "high": 27.83,
+        "low": 27.52,
+        "close": 27.64,
+        "volume": 5827600,
+        "ma20": 29.29,
+        "ma50": 29.54,
+        "volume_vs_20d": 1.53,
+        "atr14": 0.54,
+        "chg_5d_pct": -1.59
+      },
+      "weekly_snapshot": {
+        "ticker": "ACN",
+        "week_start": "2010-08-30",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 18.1,
+        "price_vs_sma50": 0.936,
+        "notes": "ADX 41.9, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACN_2010-08-31_bullish_sample_014_002",
+      "scenario_id": "ACN_2010-08-31",
+      "window_type": "bullish_sample_014",
+      "chronological_index": 2,
+      "state_id": "bullish_sample_014_state_002",
+      "time_spot": "2010-09-01",
+      "reference_session": "2010-09-01",
+      "question": "Session summary for September 01, 2010: ACN opened $27.92, ranged $27.92-$28.57, closed $28.24. Volume 5.3M (1.35x 20-day avg). 20-day $29.18 | 50-day $29.52. 5-day return +0.32%. ATR-14 $0.57. RSI 31.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-09-01",
+        "open": 27.92,
+        "high": 28.57,
+        "low": 27.92,
+        "close": 28.24,
+        "volume": 5251900,
+        "ma20": 29.18,
+        "ma50": 29.52,
+        "volume_vs_20d": 1.35,
+        "atr14": 0.57,
+        "chg_5d_pct": 0.32
+      },
+      "weekly_snapshot": {
+        "ticker": "ACN",
+        "week_start": "2010-08-30",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 31.5,
+        "price_vs_sma50": 0.957,
+        "notes": "ADX 42.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACN_2010-08-31_bullish_sample_014_003",
+      "scenario_id": "ACN_2010-08-31",
+      "window_type": "bullish_sample_014",
+      "chronological_index": 3,
+      "state_id": "bullish_sample_014_state_003",
+      "time_spot": "2010-09-02",
+      "reference_session": "2010-09-02",
+      "question": "Session summary for September 02, 2010: ACN opened $28.23, ranged $28.11-$28.71, closed $28.69. Volume 3.7M (0.93x 20-day avg). 20-day $29.11 | 50-day $29.52. 5-day return +2.29%. ATR-14 $0.57. RSI 42.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-09-02",
+        "open": 28.23,
+        "high": 28.71,
+        "low": 28.11,
+        "close": 28.69,
+        "volume": 3656500,
+        "ma20": 29.11,
+        "ma50": 29.52,
+        "volume_vs_20d": 0.93,
+        "atr14": 0.57,
+        "chg_5d_pct": 2.29
+      },
+      "weekly_snapshot": {
+        "ticker": "ACN",
+        "week_start": "2010-08-30",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 42.3,
+        "price_vs_sma50": 0.972,
+        "notes": "ADX 41.1, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACN_2010-08-31_bullish_sample_014_004",
+      "scenario_id": "ACN_2010-08-31",
+      "window_type": "bullish_sample_014",
+      "chronological_index": 4,
+      "state_id": "bullish_sample_014_state_004",
+      "time_spot": "2010-09-03",
+      "reference_session": "2010-09-03",
+      "question": "Session summary for September 03, 2010: ACN opened $29.05, ranged $28.75-$29.15, closed $29.13. Volume 3.0M (0.76x 20-day avg). 20-day $29.04 | 50-day $29.54. 5-day return +3.71%. ATR-14 $0.57. RSI 47.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-09-03",
+        "open": 29.05,
+        "high": 29.15,
+        "low": 28.75,
+        "close": 29.13,
+        "volume": 2960900,
+        "ma20": 29.04,
+        "ma50": 29.54,
+        "volume_vs_20d": 0.76,
+        "atr14": 0.57,
+        "chg_5d_pct": 3.71
+      },
+      "weekly_snapshot": {
+        "ticker": "ACN",
+        "week_start": "2010-08-30",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 47.3,
+        "price_vs_sma50": 0.986,
+        "notes": "ADX 38.4, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACN_2010-08-31_bullish_sample_014_005",
+      "scenario_id": "ACN_2010-08-31",
+      "window_type": "bullish_sample_014",
+      "chronological_index": 5,
+      "state_id": "bullish_sample_014_state_005",
+      "time_spot": "2010-09-07",
+      "reference_session": "2010-09-07",
+      "question": "Session summary for September 07, 2010: ACN opened $29.16, ranged $28.91-$29.31, closed $28.96. Volume 2.7M (0.69x 20-day avg). 20-day $28.96 | 50-day $29.50. 5-day return +3.93%. ATR-14 $0.54. RSI 38.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-09-07",
+        "open": 29.16,
+        "high": 29.31,
+        "low": 28.91,
+        "close": 28.96,
+        "volume": 2669400,
+        "ma20": 28.96,
+        "ma50": 29.5,
+        "volume_vs_20d": 0.69,
+        "atr14": 0.54,
+        "chg_5d_pct": 3.93
+      },
+      "weekly_snapshot": {
+        "ticker": "ACN",
+        "week_start": "2010-09-06",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 38.2,
+        "price_vs_sma50": 0.982,
+        "notes": "ADX 38.5, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACN_2010-08-31_bullish_sample_014_006",
+      "scenario_id": "ACN_2010-08-31",
+      "window_type": "bullish_sample_014",
+      "chronological_index": 6,
+      "state_id": "bullish_sample_014_state_006",
+      "time_spot": "2010-09-08",
+      "reference_session": "2010-09-08",
+      "question": "Session summary for September 08, 2010: ACN opened $28.97, ranged $28.76-$29.20, closed $28.79. Volume 3.3M (0.85x 20-day avg). 20-day $28.87 | 50-day $29.48. 5-day return +4.18%. ATR-14 $0.55. RSI 36.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-09-08",
+        "open": 28.97,
+        "high": 29.2,
+        "low": 28.76,
+        "close": 28.79,
+        "volume": 3287800,
+        "ma20": 28.87,
+        "ma50": 29.48,
+        "volume_vs_20d": 0.85,
+        "atr14": 0.55,
+        "chg_5d_pct": 4.18
+      },
+      "weekly_snapshot": {
+        "ticker": "ACN",
+        "week_start": "2010-09-06",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 36.8,
+        "price_vs_sma50": 0.977,
+        "notes": "ADX 39.7, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACN_2010-08-31_bullish_sample_014_007",
+      "scenario_id": "ACN_2010-08-31",
+      "window_type": "bullish_sample_014",
+      "chronological_index": 7,
+      "state_id": "bullish_sample_014_state_007",
+      "time_spot": "2010-09-09",
+      "reference_session": "2010-09-09",
+      "question": "Session summary for September 09, 2010: ACN opened $29.09, ranged $28.79-$29.09, closed $28.85. Volume 3.7M (0.95x 20-day avg). 20-day $28.80 | 50-day $29.47. 5-day return +2.17%. ATR-14 $0.52. RSI 43.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-09-09",
+        "open": 29.09,
+        "high": 29.09,
+        "low": 28.79,
+        "close": 28.85,
+        "volume": 3693800,
+        "ma20": 28.8,
+        "ma50": 29.47,
+        "volume_vs_20d": 0.95,
+        "atr14": 0.52,
+        "chg_5d_pct": 2.17
+      },
+      "weekly_snapshot": {
+        "ticker": "ACN",
+        "week_start": "2010-09-06",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 43.2,
+        "price_vs_sma50": 0.979,
+        "notes": "ADX 39.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACN_2010-08-31_bullish_sample_014_008",
+      "scenario_id": "ACN_2010-08-31",
+      "window_type": "bullish_sample_014",
+      "chronological_index": 8,
+      "state_id": "bullish_sample_014_state_008",
+      "time_spot": "2010-09-10",
+      "reference_session": "2010-09-10",
+      "question": "Session summary for September 10, 2010: ACN opened $28.94, ranged $28.94-$29.40, closed $29.31. Volume 3.6M (0.91x 20-day avg). 20-day $28.78 | 50-day $29.48. 5-day return +2.18%. ATR-14 $0.52. RSI 53.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-09-10",
+        "open": 28.94,
+        "high": 29.4,
+        "low": 28.94,
+        "close": 29.31,
+        "volume": 3566600,
+        "ma20": 28.78,
+        "ma50": 29.48,
+        "volume_vs_20d": 0.91,
+        "atr14": 0.52,
+        "chg_5d_pct": 2.18
+      },
+      "weekly_snapshot": {
+        "ticker": "ACN",
+        "week_start": "2010-09-06",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 53.8,
+        "price_vs_sma50": 0.995,
+        "notes": "ADX 37.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACN_2010-08-31_bullish_sample_014_009",
+      "scenario_id": "ACN_2010-08-31",
+      "window_type": "bullish_sample_014",
+      "chronological_index": 9,
+      "state_id": "bullish_sample_014_state_009",
+      "time_spot": "2010-09-13",
+      "reference_session": "2010-09-13",
+      "question": "Session summary for September 13, 2010: ACN opened $29.45, ranged $29.37-$29.57, closed $29.52. Volume 2.4M (0.62x 20-day avg). 20-day $28.79 | 50-day $29.49. 5-day return +1.32%. ATR-14 $0.47. RSI 60.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-09-13",
+        "open": 29.45,
+        "high": 29.57,
+        "low": 29.37,
+        "close": 29.52,
+        "volume": 2373400,
+        "ma20": 28.79,
+        "ma50": 29.49,
+        "volume_vs_20d": 0.62,
+        "atr14": 0.47,
+        "chg_5d_pct": 1.32
+      },
+      "weekly_snapshot": {
+        "ticker": "ACN",
+        "week_start": "2010-09-13",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 60.7,
+        "price_vs_sma50": 1.001,
+        "notes": "ADX 35.4, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACN_2010-08-31_bullish_sample_014_010",
+      "scenario_id": "ACN_2010-08-31",
+      "window_type": "bullish_sample_014",
+      "chronological_index": 10,
+      "state_id": "bullish_sample_014_state_010",
+      "time_spot": "2010-09-14",
+      "reference_session": "2010-09-14",
+      "question": "Session summary for September 14, 2010: ACN opened $29.35, ranged $29.35-$29.68, closed $29.61. Volume 2.5M (0.65x 20-day avg). 20-day $28.80 | 50-day $29.51. 5-day return +2.24%. ATR-14 $0.45. RSI 73.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-09-14",
+        "open": 29.35,
+        "high": 29.68,
+        "low": 29.35,
+        "close": 29.61,
+        "volume": 2492400,
+        "ma20": 28.8,
+        "ma50": 29.51,
+        "volume_vs_20d": 0.65,
+        "atr14": 0.45,
+        "chg_5d_pct": 2.24
+      },
+      "weekly_snapshot": {
+        "ticker": "ACN",
+        "week_start": "2010-09-13",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 73.0,
+        "price_vs_sma50": 1.003,
+        "notes": "ADX 34.5, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACN_2010-08-31_bullish_sample_014_011",
+      "scenario_id": "ACN_2010-08-31",
+      "window_type": "bullish_sample_014",
+      "chronological_index": 11,
+      "state_id": "bullish_sample_014_state_011",
+      "time_spot": "2010-09-15",
+      "reference_session": "2010-09-15",
+      "question": "Session summary for September 15, 2010: ACN opened $29.59, ranged $29.36-$29.99, closed $29.93. Volume 3.3M (0.85x 20-day avg). 20-day $28.80 | 50-day $29.53. 5-day return +3.96%. ATR-14 $0.46. RSI 74.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-09-15",
+        "open": 29.59,
+        "high": 29.99,
+        "low": 29.36,
+        "close": 29.93,
+        "volume": 3281100,
+        "ma20": 28.8,
+        "ma50": 29.53,
+        "volume_vs_20d": 0.85,
+        "atr14": 0.46,
+        "chg_5d_pct": 3.96
+      },
+      "weekly_snapshot": {
+        "ticker": "ACN",
+        "week_start": "2010-09-13",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 74.9,
+        "price_vs_sma50": 1.014,
+        "notes": "ADX 34.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACN_2010-08-31_bullish_sample_014_012",
+      "scenario_id": "ACN_2010-08-31",
+      "window_type": "bullish_sample_014",
+      "chronological_index": 12,
+      "state_id": "bullish_sample_014_state_012",
+      "time_spot": "2010-09-16",
+      "reference_session": "2010-09-16",
+      "question": "Session summary for September 16, 2010: ACN opened $29.88, ranged $29.87-$30.15, closed $30.11. Volume 2.5M (0.65x 20-day avg). 20-day $28.81 | 50-day $29.54. 5-day return +4.34%. ATR-14 $0.45. RSI 78.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-09-16",
+        "open": 29.88,
+        "high": 30.15,
+        "low": 29.87,
+        "close": 30.11,
+        "volume": 2516000,
+        "ma20": 28.81,
+        "ma50": 29.54,
+        "volume_vs_20d": 0.65,
+        "atr14": 0.45,
+        "chg_5d_pct": 4.34
+      },
+      "weekly_snapshot": {
+        "ticker": "ACN",
+        "week_start": "2010-09-13",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 78.3,
+        "price_vs_sma50": 1.019,
+        "notes": "ADX 35.4, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACN_2010-08-31_bullish_sample_014_013",
+      "scenario_id": "ACN_2010-08-31",
+      "window_type": "bullish_sample_014",
+      "chronological_index": 13,
+      "state_id": "bullish_sample_014_state_013",
+      "time_spot": "2010-09-17",
+      "reference_session": "2010-09-17",
+      "question": "Session summary for September 17, 2010: ACN opened $30.09, ranged $30.02-$30.64, closed $30.63. Volume 8.2M (2.02x 20-day avg). 20-day $28.87 | 50-day $29.55. 5-day return +4.48%. ATR-14 $0.47. RSI 80.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-09-17",
+        "open": 30.09,
+        "high": 30.64,
+        "low": 30.02,
+        "close": 30.63,
+        "volume": 8160900,
+        "ma20": 28.87,
+        "ma50": 29.55,
+        "volume_vs_20d": 2.02,
+        "atr14": 0.47,
+        "chg_5d_pct": 4.48
+      },
+      "weekly_snapshot": {
+        "ticker": "ACN",
+        "week_start": "2010-09-13",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 80.8,
+        "price_vs_sma50": 1.036,
+        "notes": "ADX 36.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACN_2010-08-31_bullish_sample_014_014",
+      "scenario_id": "ACN_2010-08-31",
+      "window_type": "bullish_sample_014",
+      "chronological_index": 14,
+      "state_id": "bullish_sample_014_state_014",
+      "time_spot": "2010-09-20",
+      "reference_session": "2010-09-20",
+      "question": "Session summary for September 20, 2010: ACN opened $30.56, ranged $30.56-$31.40, closed $31.38. Volume 4.4M (1.10x 20-day avg). 20-day $28.99 | 50-day $29.59. 5-day return +6.29%. ATR-14 $0.50. RSI 87.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-09-20",
+        "open": 30.56,
+        "high": 31.4,
+        "low": 30.56,
+        "close": 31.38,
+        "volume": 4442000,
+        "ma20": 28.99,
+        "ma50": 29.59,
+        "volume_vs_20d": 1.1,
+        "atr14": 0.5,
+        "chg_5d_pct": 6.29
+      },
+      "weekly_snapshot": {
+        "ticker": "ACN",
+        "week_start": "2010-09-20",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 87.8,
+        "price_vs_sma50": 1.06,
+        "notes": "ADX 37.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACN_2010-08-31_bullish_sample_014_015",
+      "scenario_id": "ACN_2010-08-31",
+      "window_type": "bullish_sample_014",
+      "chronological_index": 15,
+      "state_id": "bullish_sample_014_state_015",
+      "time_spot": "2010-09-21",
+      "reference_session": "2010-09-21",
+      "question": "Session summary for September 21, 2010: ACN opened $31.28, ranged $31.02-$31.40, closed $31.37. Volume 4.6M (1.16x 20-day avg). 20-day $29.12 | 50-day $29.61. 5-day return +5.94%. ATR-14 $0.50. RSI 92.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-09-21",
+        "open": 31.28,
+        "high": 31.4,
+        "low": 31.02,
+        "close": 31.37,
+        "volume": 4646200,
+        "ma20": 29.12,
+        "ma50": 29.61,
+        "volume_vs_20d": 1.16,
+        "atr14": 0.5,
+        "chg_5d_pct": 5.94
+      },
+      "weekly_snapshot": {
+        "ticker": "ACN",
+        "week_start": "2010-09-20",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 92.2,
+        "price_vs_sma50": 1.059,
+        "notes": "ADX 39.8, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACN_2010-08-31_bullish_sample_014_016",
+      "scenario_id": "ACN_2010-08-31",
+      "window_type": "bullish_sample_014",
+      "chronological_index": 16,
+      "state_id": "bullish_sample_014_state_016",
+      "time_spot": "2010-09-22",
+      "reference_session": "2010-09-22",
+      "question": "Session summary for September 22, 2010: ACN opened $31.40, ranged $30.96-$31.91, closed $31.91. Volume 5.0M (1.25x 20-day avg). 20-day $29.31 | 50-day $29.64. 5-day return +6.61%. ATR-14 $0.50. RSI 92.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-09-22",
+        "open": 31.4,
+        "high": 31.91,
+        "low": 30.96,
+        "close": 31.91,
+        "volume": 4965700,
+        "ma20": 29.31,
+        "ma50": 29.64,
+        "volume_vs_20d": 1.25,
+        "atr14": 0.5,
+        "chg_5d_pct": 6.61
+      },
+      "weekly_snapshot": {
+        "ticker": "ACN",
+        "week_start": "2010-09-20",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 92.0,
+        "price_vs_sma50": 1.077,
+        "notes": "ADX 44.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACN_2010-08-31_bullish_sample_014_017",
+      "scenario_id": "ACN_2010-08-31",
+      "window_type": "bullish_sample_014",
+      "chronological_index": 17,
+      "state_id": "bullish_sample_014_state_017",
+      "time_spot": "2010-09-23",
+      "reference_session": "2010-09-23",
+      "question": "Session summary for September 23, 2010: ACN opened $31.58, ranged $31.50-$32.09, closed $32.04. Volume 4.5M (1.14x 20-day avg). 20-day $29.51 | 50-day $29.68. 5-day return +6.42%. ATR-14 $0.50. RSI 91.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-09-23",
+        "open": 31.58,
+        "high": 32.09,
+        "low": 31.5,
+        "close": 32.04,
+        "volume": 4480000,
+        "ma20": 29.51,
+        "ma50": 29.68,
+        "volume_vs_20d": 1.14,
+        "atr14": 0.5,
+        "chg_5d_pct": 6.42
+      },
+      "weekly_snapshot": {
+        "ticker": "ACN",
+        "week_start": "2010-09-20",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 91.4,
+        "price_vs_sma50": 1.08,
+        "notes": "ADX 49.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACN_2010-08-31_bullish_sample_014_018",
+      "scenario_id": "ACN_2010-08-31",
+      "window_type": "bullish_sample_014",
+      "chronological_index": 18,
+      "state_id": "bullish_sample_014_state_018",
+      "time_spot": "2010-09-24",
+      "reference_session": "2010-09-24",
+      "question": "Session summary for September 24, 2010: ACN opened $32.09, ranged $31.50-$32.25, closed $31.64. Volume 5.3M (1.33x 20-day avg). 20-day $29.69 | 50-day $29.71. 5-day return +3.30%. ATR-14 $0.52. RSI 81.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-09-24",
+        "open": 32.09,
+        "high": 32.25,
+        "low": 31.5,
+        "close": 31.64,
+        "volume": 5328900,
+        "ma20": 29.69,
+        "ma50": 29.71,
+        "volume_vs_20d": 1.33,
+        "atr14": 0.52,
+        "chg_5d_pct": 3.3
+      },
+      "weekly_snapshot": {
+        "ticker": "ACN",
+        "week_start": "2010-09-20",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 81.3,
+        "price_vs_sma50": 1.065,
+        "notes": "ADX 55.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACN_2010-08-31_bullish_sample_014_019",
+      "scenario_id": "ACN_2010-08-31",
+      "window_type": "bullish_sample_014",
+      "chronological_index": 19,
+      "state_id": "bullish_sample_014_state_019",
+      "time_spot": "2010-09-27",
+      "reference_session": "2010-09-27",
+      "question": "Session summary for September 27, 2010: ACN opened $31.59, ranged $31.47-$31.86, closed $31.47. Volume 3.4M (0.87x 20-day avg). 20-day $29.85 | 50-day $29.75. 5-day return +0.31%. ATR-14 $0.52. RSI 81.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-09-27",
+        "open": 31.59,
+        "high": 31.86,
+        "low": 31.47,
+        "close": 31.47,
+        "volume": 3449400,
+        "ma20": 29.85,
+        "ma50": 29.75,
+        "volume_vs_20d": 0.87,
+        "atr14": 0.52,
+        "chg_5d_pct": 0.31
+      },
+      "weekly_snapshot": {
+        "ticker": "ACN",
+        "week_start": "2010-09-27",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 81.5,
+        "price_vs_sma50": 1.058,
+        "notes": "ADX 60.2, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACN_2010-08-31_bullish_sample_014_020",
+      "scenario_id": "ACN_2010-08-31",
+      "window_type": "bullish_sample_014",
+      "chronological_index": 20,
+      "state_id": "bullish_sample_014_state_020",
+      "time_spot": "2010-09-28",
+      "reference_session": "2010-09-28",
+      "question": "Session summary for September 28, 2010: ACN opened $31.59, ranged $31.34-$31.70, closed $31.66. Volume 3.4M (0.83x 20-day avg). 20-day $30.04 | 50-day $29.79. 5-day return +0.91%. ATR-14 $0.52. RSI 85.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-09-28",
+        "open": 31.59,
+        "high": 31.7,
+        "low": 31.34,
+        "close": 31.66,
+        "volume": 3353300,
+        "ma20": 30.04,
+        "ma50": 29.79,
+        "volume_vs_20d": 0.83,
+        "atr14": 0.52,
+        "chg_5d_pct": 0.91
+      },
+      "weekly_snapshot": {
+        "ticker": "ACN",
+        "week_start": "2010-09-27",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 85.7,
+        "price_vs_sma50": 1.063,
+        "notes": "ADX 65.2, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACN_2010-08-31_bullish_sample_014_021",
+      "scenario_id": "ACN_2010-08-31",
+      "window_type": "bullish_sample_014",
+      "chronological_index": 21,
+      "state_id": "bullish_sample_014_state_021",
+      "time_spot": "2010-09-29",
+      "reference_session": "2010-09-29",
+      "question": "Session summary for September 29, 2010: ACN opened $31.70, ranged $31.66-$32.09, closed $31.94. Volume 3.4M (0.86x 20-day avg). 20-day $30.26 | 50-day $29.84. 5-day return +0.09%. ATR-14 $0.53. RSI 86.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-09-29",
+        "open": 31.7,
+        "high": 32.09,
+        "low": 31.66,
+        "close": 31.94,
+        "volume": 3360800,
+        "ma20": 30.26,
+        "ma50": 29.84,
+        "volume_vs_20d": 0.86,
+        "atr14": 0.53,
+        "chg_5d_pct": 0.09
+      },
+      "weekly_snapshot": {
+        "ticker": "ACN",
+        "week_start": "2010-09-27",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 86.5,
+        "price_vs_sma50": 1.07,
+        "notes": "ADX 71.2, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACN_2010-08-31_bullish_sample_014_022",
+      "scenario_id": "ACN_2010-08-31",
+      "window_type": "bullish_sample_014",
+      "chronological_index": 22,
+      "state_id": "bullish_sample_014_state_022",
+      "time_spot": "2010-09-30",
+      "reference_session": "2010-09-30",
+      "question": "Session summary for September 30, 2010: ACN opened $32.00, ranged $31.65-$32.32, closed $32.09. Volume 4.5M (1.16x 20-day avg). 20-day $30.45 | 50-day $29.90. 5-day return +0.14%. ATR-14 $0.54. RSI 85.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-09-30",
+        "open": 32.0,
+        "high": 32.32,
+        "low": 31.65,
+        "close": 32.09,
+        "volume": 4488900,
+        "ma20": 30.45,
+        "ma50": 29.9,
+        "volume_vs_20d": 1.16,
+        "atr14": 0.54,
+        "chg_5d_pct": 0.14
+      },
+      "weekly_snapshot": {
+        "ticker": "ACN",
+        "week_start": "2010-09-27",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 85.4,
+        "price_vs_sma50": 1.073,
+        "notes": "ADX 76.9, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACN_2010-08-31_bullish_sample_014_023",
+      "scenario_id": "ACN_2010-08-31",
+      "window_type": "bullish_sample_014",
+      "chronological_index": 23,
+      "state_id": "bullish_sample_014_state_023",
+      "time_spot": "2010-10-01",
+      "reference_session": "2010-10-01",
+      "question": "Session summary for October 01, 2010: ACN opened $33.10, ranged $33.10-$34.13, closed $33.51. Volume 13.3M (3.07x 20-day avg). 20-day $30.69 | 50-day $29.97. 5-day return +5.92%. ATR-14 $0.66. RSI 88.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-10-01",
+        "open": 33.1,
+        "high": 34.13,
+        "low": 33.1,
+        "close": 33.51,
+        "volume": 13329900,
+        "ma20": 30.69,
+        "ma50": 29.97,
+        "volume_vs_20d": 3.07,
+        "atr14": 0.66,
+        "chg_5d_pct": 5.92
+      },
+      "weekly_snapshot": {
+        "ticker": "ACN",
+        "week_start": "2010-09-27",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 88.8,
+        "price_vs_sma50": 1.118,
+        "notes": "ADX 81.4, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACN_2010-08-31_bullish_sample_014_024",
+      "scenario_id": "ACN_2010-08-31",
+      "window_type": "bullish_sample_014",
+      "chronological_index": 24,
+      "state_id": "bullish_sample_014_state_024",
+      "time_spot": "2010-10-04",
+      "reference_session": "2010-10-04",
+      "question": "Session summary for October 04, 2010: ACN opened $33.43, ranged $33.30-$33.66, closed $33.52. Volume 4.9M (1.09x 20-day avg). 20-day $30.91 | 50-day $30.03. 5-day return +6.50%. ATR-14 $0.67. RSI 88.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-10-04",
+        "open": 33.43,
+        "high": 33.66,
+        "low": 33.3,
+        "close": 33.52,
+        "volume": 4854300,
+        "ma20": 30.91,
+        "ma50": 30.03,
+        "volume_vs_20d": 1.09,
+        "atr14": 0.67,
+        "chg_5d_pct": 6.5
+      },
+      "weekly_snapshot": {
+        "ticker": "ACN",
+        "week_start": "2010-10-04",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 88.7,
+        "price_vs_sma50": 1.116,
+        "notes": "ADX 85.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACN_2010-08-31_bullish_sample_014_025",
+      "scenario_id": "ACN_2010-08-31",
+      "window_type": "bullish_sample_014",
+      "chronological_index": 25,
+      "state_id": "bullish_sample_014_state_025",
+      "time_spot": "2010-10-05",
+      "reference_session": "2010-10-05",
+      "question": "Session summary for October 05, 2010: ACN opened $33.26, ranged $33.25-$34.28, closed $34.09. Volume 12.4M (2.51x 20-day avg). 20-day $31.17 | 50-day $30.10. 5-day return +7.71%. ATR-14 $0.69. RSI 89.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-10-05",
+        "open": 33.26,
+        "high": 34.28,
+        "low": 33.25,
+        "close": 34.09,
+        "volume": 12356000,
+        "ma20": 31.17,
+        "ma50": 30.1,
+        "volume_vs_20d": 2.51,
+        "atr14": 0.69,
+        "chg_5d_pct": 7.71
+      },
+      "weekly_snapshot": {
+        "ticker": "ACN",
+        "week_start": "2010-10-04",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 89.2,
+        "price_vs_sma50": 1.133,
+        "notes": "ADX 87.3, MACD bullish"
+      }
+    }
+  ]
+}

@@ -1,0 +1,2898 @@
+{
+  "metadata": {
+    "instrument": "ALLE",
+    "initial_capital": 10000,
+    "window_type": "bearish_sample_033",
+    "description": "ALLE window (2016-01-04 \u2013 2016-02-08) - bearish regime.",
+    "num_mcqs": 25,
+    "notes": "Orders express target exposure fractions relative to the leverage ceiling.",
+    "max_leverage": 2.5,
+    "exposure_buckets": [
+      0.8,
+      0.6,
+      0.4,
+      0.2
+    ],
+    "start_reference": "2016-01-04",
+    "end_reference": "2016-02-08",
+    "regime": "bearish",
+    "bh_return": -16.67
+  },
+  "mcqs": [
+    {
+      "scenario_instance_id": "ALLE_2016-01-04_bearish_sample_033_001",
+      "scenario_id": "ALLE_2016-01-04",
+      "window_type": "bearish_sample_033",
+      "chronological_index": 1,
+      "state_id": "bearish_sample_033_state_001",
+      "time_spot": "2016-01-04",
+      "reference_session": "2016-01-04",
+      "question": "Session summary for January 04, 2016: ALLE opened $57.95, ranged $56.62-$57.95, closed $57.64. Volume 0.8M (1.52x 20-day avg). 20-day $58.62 | 50-day $58.37. 5-day return -1.65%. ATR-14 $1.04. RSI 50.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2016-01-04",
+        "open": 57.95,
+        "high": 57.95,
+        "low": 56.62,
+        "close": 57.64,
+        "volume": 845000,
+        "ma20": 58.62,
+        "ma50": 58.37,
+        "volume_vs_20d": 1.52,
+        "atr14": 1.04,
+        "chg_5d_pct": -1.65
+      },
+      "weekly_snapshot": {
+        "ticker": "ALLE",
+        "week_start": "2016-01-04",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 50.2,
+        "price_vs_sma50": 0.987,
+        "notes": "ADX 26.2, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALLE_2016-01-04_bearish_sample_033_002",
+      "scenario_id": "ALLE_2016-01-04",
+      "window_type": "bearish_sample_033",
+      "chronological_index": 2,
+      "state_id": "bearish_sample_033_state_002",
+      "time_spot": "2016-01-05",
+      "reference_session": "2016-01-05",
+      "question": "Session summary for January 05, 2016: ALLE opened $57.67, ranged $57.26-$58.41, closed $57.57. Volume 0.5M (0.96x 20-day avg). 20-day $58.51 | 50-day $58.38. 5-day return -2.79%. ATR-14 $1.04. RSI 47.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2016-01-05",
+        "open": 57.67,
+        "high": 58.41,
+        "low": 57.26,
+        "close": 57.57,
+        "volume": 525600,
+        "ma20": 58.51,
+        "ma50": 58.38,
+        "volume_vs_20d": 0.96,
+        "atr14": 1.04,
+        "chg_5d_pct": -2.79
+      },
+      "weekly_snapshot": {
+        "ticker": "ALLE",
+        "week_start": "2016-01-04",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 47.4,
+        "price_vs_sma50": 0.986,
+        "notes": "ADX 24.0, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALLE_2016-01-04_bearish_sample_033_003",
+      "scenario_id": "ALLE_2016-01-04",
+      "window_type": "bearish_sample_033",
+      "chronological_index": 3,
+      "state_id": "bearish_sample_033_state_003",
+      "time_spot": "2016-01-06",
+      "reference_session": "2016-01-06",
+      "question": "Session summary for January 06, 2016: ALLE opened $56.82, ranged $55.72-$57.01, closed $56.06. Volume 0.5M (0.92x 20-day avg). 20-day $58.35 | 50-day $58.37. 5-day return -6.26%. ATR-14 $1.12. RSI 36.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2016-01-06",
+        "open": 56.82,
+        "high": 57.01,
+        "low": 55.72,
+        "close": 56.06,
+        "volume": 505500,
+        "ma20": 58.35,
+        "ma50": 58.37,
+        "volume_vs_20d": 0.92,
+        "atr14": 1.12,
+        "chg_5d_pct": -6.26
+      },
+      "weekly_snapshot": {
+        "ticker": "ALLE",
+        "week_start": "2016-01-04",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 36.4,
+        "price_vs_sma50": 0.961,
+        "notes": "ADX 24.9, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALLE_2016-01-04_bearish_sample_033_004",
+      "scenario_id": "ALLE_2016-01-04",
+      "window_type": "bearish_sample_033",
+      "chronological_index": 4,
+      "state_id": "bearish_sample_033_state_004",
+      "time_spot": "2016-01-07",
+      "reference_session": "2016-01-07",
+      "question": "Session summary for January 07, 2016: ALLE opened $55.05, ranged $54.26-$55.64, closed $54.45. Volume 0.6M (1.11x 20-day avg). 20-day $58.14 | 50-day $58.31. 5-day return -8.48%. ATR-14 $1.17. RSI 23.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2016-01-07",
+        "open": 55.05,
+        "high": 55.64,
+        "low": 54.26,
+        "close": 54.45,
+        "volume": 613600,
+        "ma20": 58.14,
+        "ma50": 58.31,
+        "volume_vs_20d": 1.11,
+        "atr14": 1.17,
+        "chg_5d_pct": -8.48
+      },
+      "weekly_snapshot": {
+        "ticker": "ALLE",
+        "week_start": "2016-01-04",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 23.9,
+        "price_vs_sma50": 0.934,
+        "notes": "ADX 27.1, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALLE_2016-01-04_bearish_sample_033_005",
+      "scenario_id": "ALLE_2016-01-04",
+      "window_type": "bearish_sample_033",
+      "chronological_index": 5,
+      "state_id": "bearish_sample_033_state_005",
+      "time_spot": "2016-01-08",
+      "reference_session": "2016-01-08",
+      "question": "Session summary for January 08, 2016: ALLE opened $54.75, ranged $53.25-$55.12, closed $53.38. Volume 0.7M (1.21x 20-day avg). 20-day $57.90 | 50-day $58.23. 5-day return -9.33%. ATR-14 $1.25. RSI 23.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2016-01-08",
+        "open": 54.75,
+        "high": 55.12,
+        "low": 53.25,
+        "close": 53.38,
+        "volume": 675700,
+        "ma20": 57.9,
+        "ma50": 58.23,
+        "volume_vs_20d": 1.21,
+        "atr14": 1.25,
+        "chg_5d_pct": -9.33
+      },
+      "weekly_snapshot": {
+        "ticker": "ALLE",
+        "week_start": "2016-01-04",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 23.1,
+        "price_vs_sma50": 0.917,
+        "notes": "ADX 29.0, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALLE_2016-01-04_bearish_sample_033_006",
+      "scenario_id": "ALLE_2016-01-04",
+      "window_type": "bearish_sample_033",
+      "chronological_index": 6,
+      "state_id": "bearish_sample_033_state_006",
+      "time_spot": "2016-01-11",
+      "reference_session": "2016-01-11",
+      "question": "Session summary for January 11, 2016: ALLE opened $53.61, ranged $52.68-$53.99, closed $53.13. Volume 0.6M (1.01x 20-day avg). 20-day $57.64 | 50-day $58.13. 5-day return -7.81%. ATR-14 $1.24. RSI 24.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2016-01-11",
+        "open": 53.61,
+        "high": 53.99,
+        "low": 52.68,
+        "close": 53.13,
+        "volume": 562700,
+        "ma20": 57.64,
+        "ma50": 58.13,
+        "volume_vs_20d": 1.01,
+        "atr14": 1.24,
+        "chg_5d_pct": -7.81
+      },
+      "weekly_snapshot": {
+        "ticker": "ALLE",
+        "week_start": "2016-01-11",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 24.7,
+        "price_vs_sma50": 0.914,
+        "notes": "ADX 28.6, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALLE_2016-01-04_bearish_sample_033_007",
+      "scenario_id": "ALLE_2016-01-04",
+      "window_type": "bearish_sample_033",
+      "chronological_index": 7,
+      "state_id": "bearish_sample_033_state_007",
+      "time_spot": "2016-01-12",
+      "reference_session": "2016-01-12",
+      "question": "Session summary for January 12, 2016: ALLE opened $53.55, ranged $52.99-$53.98, closed $53.69. Volume 0.5M (0.93x 20-day avg). 20-day $57.44 | 50-day $58.06. 5-day return -6.75%. ATR-14 $1.24. RSI 28.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2016-01-12",
+        "open": 53.55,
+        "high": 53.98,
+        "low": 52.99,
+        "close": 53.69,
+        "volume": 521100,
+        "ma20": 57.44,
+        "ma50": 58.06,
+        "volume_vs_20d": 0.93,
+        "atr14": 1.24,
+        "chg_5d_pct": -6.75
+      },
+      "weekly_snapshot": {
+        "ticker": "ALLE",
+        "week_start": "2016-01-11",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 28.3,
+        "price_vs_sma50": 0.925,
+        "notes": "ADX 28.2, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALLE_2016-01-04_bearish_sample_033_008",
+      "scenario_id": "ALLE_2016-01-04",
+      "window_type": "bearish_sample_033",
+      "chronological_index": 8,
+      "state_id": "bearish_sample_033_state_008",
+      "time_spot": "2016-01-13",
+      "reference_session": "2016-01-13",
+      "question": "Session summary for January 13, 2016: ALLE opened $54.06, ranged $52.39-$54.21, closed $52.53. Volume 0.5M (0.94x 20-day avg). 20-day $57.17 | 50-day $57.94. 5-day return -6.31%. ATR-14 $1.31. RSI 22.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2016-01-13",
+        "open": 54.06,
+        "high": 54.21,
+        "low": 52.39,
+        "close": 52.53,
+        "volume": 513400,
+        "ma20": 57.17,
+        "ma50": 57.94,
+        "volume_vs_20d": 0.94,
+        "atr14": 1.31,
+        "chg_5d_pct": -6.31
+      },
+      "weekly_snapshot": {
+        "ticker": "ALLE",
+        "week_start": "2016-01-11",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 22.6,
+        "price_vs_sma50": 0.907,
+        "notes": "ADX 28.0, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALLE_2016-01-04_bearish_sample_033_009",
+      "scenario_id": "ALLE_2016-01-04",
+      "window_type": "bearish_sample_033",
+      "chronological_index": 9,
+      "state_id": "bearish_sample_033_state_009",
+      "time_spot": "2016-01-14",
+      "reference_session": "2016-01-14",
+      "question": "Session summary for January 14, 2016: ALLE opened $53.41, ranged $52.73-$54.43, closed $53.80. Volume 0.9M (1.66x 20-day avg). 20-day $56.94 | 50-day $57.83. 5-day return -1.20%. ATR-14 $1.40. RSI 27.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2016-01-14",
+        "open": 53.41,
+        "high": 54.43,
+        "low": 52.73,
+        "close": 53.8,
+        "volume": 929400,
+        "ma20": 56.94,
+        "ma50": 57.83,
+        "volume_vs_20d": 1.66,
+        "atr14": 1.4,
+        "chg_5d_pct": -1.2
+      },
+      "weekly_snapshot": {
+        "ticker": "ALLE",
+        "week_start": "2016-01-11",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 27.4,
+        "price_vs_sma50": 0.93,
+        "notes": "ADX 30.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALLE_2016-01-04_bearish_sample_033_010",
+      "scenario_id": "ALLE_2016-01-04",
+      "window_type": "bearish_sample_033",
+      "chronological_index": 10,
+      "state_id": "bearish_sample_033_state_010",
+      "time_spot": "2016-01-15",
+      "reference_session": "2016-01-15",
+      "question": "Session summary for January 15, 2016: ALLE opened $53.97, ranged $50.61-$53.97, closed $52.41. Volume 1.2M (2.08x 20-day avg). 20-day $56.59 | 50-day $57.71. 5-day return -1.82%. ATR-14 $1.61. RSI 24.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2016-01-15",
+        "open": 53.97,
+        "high": 53.97,
+        "low": 50.61,
+        "close": 52.41,
+        "volume": 1231500,
+        "ma20": 56.59,
+        "ma50": 57.71,
+        "volume_vs_20d": 2.08,
+        "atr14": 1.61,
+        "chg_5d_pct": -1.82
+      },
+      "weekly_snapshot": {
+        "ticker": "ALLE",
+        "week_start": "2016-01-11",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 24.7,
+        "price_vs_sma50": 0.908,
+        "notes": "ADX 33.0, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALLE_2016-01-04_bearish_sample_033_011",
+      "scenario_id": "ALLE_2016-01-04",
+      "window_type": "bearish_sample_033",
+      "chronological_index": 11,
+      "state_id": "bearish_sample_033_state_011",
+      "time_spot": "2016-01-19",
+      "reference_session": "2016-01-19",
+      "question": "Session summary for January 19, 2016: ALLE opened $53.63, ranged $51.16-$53.78, closed $51.81. Volume 1.0M (1.63x 20-day avg). 20-day $56.25 | 50-day $57.59. 5-day return -2.49%. ATR-14 $1.72. RSI 19.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2016-01-19",
+        "open": 53.63,
+        "high": 53.78,
+        "low": 51.16,
+        "close": 51.81,
+        "volume": 1000000,
+        "ma20": 56.25,
+        "ma50": 57.59,
+        "volume_vs_20d": 1.63,
+        "atr14": 1.72,
+        "chg_5d_pct": -2.49
+      },
+      "weekly_snapshot": {
+        "ticker": "ALLE",
+        "week_start": "2016-01-18",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 19.7,
+        "price_vs_sma50": 0.9,
+        "notes": "ADX 36.7, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALLE_2016-01-04_bearish_sample_033_012",
+      "scenario_id": "ALLE_2016-01-04",
+      "window_type": "bearish_sample_033",
+      "chronological_index": 12,
+      "state_id": "bearish_sample_033_state_012",
+      "time_spot": "2016-01-20",
+      "reference_session": "2016-01-20",
+      "question": "Session summary for January 20, 2016: ALLE opened $51.40, ranged $49.60-$51.84, closed $51.28. Volume 1.4M (2.26x 20-day avg). 20-day $55.93 | 50-day $57.48. 5-day return -4.49%. ATR-14 $1.80. RSI 15.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2016-01-20",
+        "open": 51.4,
+        "high": 51.84,
+        "low": 49.6,
+        "close": 51.28,
+        "volume": 1355200,
+        "ma20": 55.93,
+        "ma50": 57.48,
+        "volume_vs_20d": 2.26,
+        "atr14": 1.8,
+        "chg_5d_pct": -4.49
+      },
+      "weekly_snapshot": {
+        "ticker": "ALLE",
+        "week_start": "2016-01-18",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 15.0,
+        "price_vs_sma50": 0.892,
+        "notes": "ADX 42.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALLE_2016-01-04_bearish_sample_033_013",
+      "scenario_id": "ALLE_2016-01-04",
+      "window_type": "bearish_sample_033",
+      "chronological_index": 13,
+      "state_id": "bearish_sample_033_state_013",
+      "time_spot": "2016-01-21",
+      "reference_session": "2016-01-21",
+      "question": "Session summary for January 21, 2016: ALLE opened $51.30, ranged $49.80-$51.60, closed $51.10. Volume 1.2M (1.81x 20-day avg). 20-day $55.59 | 50-day $57.35. 5-day return -2.72%. ATR-14 $1.89. RSI 15.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2016-01-21",
+        "open": 51.3,
+        "high": 51.6,
+        "low": 49.8,
+        "close": 51.1,
+        "volume": 1152600,
+        "ma20": 55.59,
+        "ma50": 57.35,
+        "volume_vs_20d": 1.81,
+        "atr14": 1.89,
+        "chg_5d_pct": -2.72
+      },
+      "weekly_snapshot": {
+        "ticker": "ALLE",
+        "week_start": "2016-01-18",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 15.1,
+        "price_vs_sma50": 0.891,
+        "notes": "ADX 47.6, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALLE_2016-01-04_bearish_sample_033_014",
+      "scenario_id": "ALLE_2016-01-04",
+      "window_type": "bearish_sample_033",
+      "chronological_index": 14,
+      "state_id": "bearish_sample_033_state_014",
+      "time_spot": "2016-01-22",
+      "reference_session": "2016-01-22",
+      "question": "Session summary for January 22, 2016: ALLE opened $51.94, ranged $51.92-$53.71, closed $53.55. Volume 1.1M (1.63x 20-day avg). 20-day $55.36 | 50-day $57.29. 5-day return -0.45%. ATR-14 $1.97. RSI 30.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2016-01-22",
+        "open": 51.94,
+        "high": 53.71,
+        "low": 51.92,
+        "close": 53.55,
+        "volume": 1086900,
+        "ma20": 55.36,
+        "ma50": 57.29,
+        "volume_vs_20d": 1.63,
+        "atr14": 1.97,
+        "chg_5d_pct": -0.45
+      },
+      "weekly_snapshot": {
+        "ticker": "ALLE",
+        "week_start": "2016-01-18",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 30.8,
+        "price_vs_sma50": 0.935,
+        "notes": "ADX 51.7, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALLE_2016-01-04_bearish_sample_033_015",
+      "scenario_id": "ALLE_2016-01-04",
+      "window_type": "bearish_sample_033",
+      "chronological_index": 15,
+      "state_id": "bearish_sample_033_state_015",
+      "time_spot": "2016-01-25",
+      "reference_session": "2016-01-25",
+      "question": "Session summary for January 25, 2016: ALLE opened $53.31, ranged $52.54-$53.90, closed $52.87. Volume 1.1M (1.58x 20-day avg). 20-day $55.06 | 50-day $57.21. 5-day return +0.87%. ATR-14 $1.90. RSI 32.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2016-01-25",
+        "open": 53.31,
+        "high": 53.9,
+        "low": 52.54,
+        "close": 52.87,
+        "volume": 1114700,
+        "ma20": 55.06,
+        "ma50": 57.21,
+        "volume_vs_20d": 1.58,
+        "atr14": 1.9,
+        "chg_5d_pct": 0.87
+      },
+      "weekly_snapshot": {
+        "ticker": "ALLE",
+        "week_start": "2016-01-25",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 32.1,
+        "price_vs_sma50": 0.924,
+        "notes": "ADX 54.1, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALLE_2016-01-04_bearish_sample_033_016",
+      "scenario_id": "ALLE_2016-01-04",
+      "window_type": "bearish_sample_033",
+      "chronological_index": 16,
+      "state_id": "bearish_sample_033_state_016",
+      "time_spot": "2016-01-26",
+      "reference_session": "2016-01-26",
+      "question": "Session summary for January 26, 2016: ALLE opened $52.73, ranged $52.50-$53.70, closed $53.54. Volume 0.6M (0.87x 20-day avg). 20-day $54.81 | 50-day $57.13. 5-day return +3.33%. ATR-14 $1.91. RSI 35.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2016-01-26",
+        "open": 52.73,
+        "high": 53.7,
+        "low": 52.5,
+        "close": 53.54,
+        "volume": 638000,
+        "ma20": 54.81,
+        "ma50": 57.13,
+        "volume_vs_20d": 0.87,
+        "atr14": 1.91,
+        "chg_5d_pct": 3.33
+      },
+      "weekly_snapshot": {
+        "ticker": "ALLE",
+        "week_start": "2016-01-25",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 35.5,
+        "price_vs_sma50": 0.937,
+        "notes": "ADX 57.9, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALLE_2016-01-04_bearish_sample_033_017",
+      "scenario_id": "ALLE_2016-01-04",
+      "window_type": "bearish_sample_033",
+      "chronological_index": 17,
+      "state_id": "bearish_sample_033_state_017",
+      "time_spot": "2016-01-27",
+      "reference_session": "2016-01-27",
+      "question": "Session summary for January 27, 2016: ALLE opened $53.30, ranged $53.03-$54.10, closed $53.35. Volume 0.7M (0.94x 20-day avg). 20-day $54.52 | 50-day $57.04. 5-day return +4.04%. ATR-14 $1.85. RSI 39.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2016-01-27",
+        "open": 53.3,
+        "high": 54.1,
+        "low": 53.03,
+        "close": 53.35,
+        "volume": 711800,
+        "ma20": 54.52,
+        "ma50": 57.04,
+        "volume_vs_20d": 0.94,
+        "atr14": 1.85,
+        "chg_5d_pct": 4.04
+      },
+      "weekly_snapshot": {
+        "ticker": "ALLE",
+        "week_start": "2016-01-25",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 39.2,
+        "price_vs_sma50": 0.935,
+        "notes": "ADX 59.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALLE_2016-01-04_bearish_sample_033_018",
+      "scenario_id": "ALLE_2016-01-04",
+      "window_type": "bearish_sample_033",
+      "chronological_index": 18,
+      "state_id": "bearish_sample_033_state_018",
+      "time_spot": "2016-01-28",
+      "reference_session": "2016-01-28",
+      "question": "Session summary for January 28, 2016: ALLE opened $53.64, ranged $52.48-$53.74, closed $52.89. Volume 0.7M (0.87x 20-day avg). 20-day $54.17 | 50-day $56.96. 5-day return +3.51%. ATR-14 $1.81. RSI 43.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2016-01-28",
+        "open": 53.64,
+        "high": 53.74,
+        "low": 52.48,
+        "close": 52.89,
+        "volume": 668100,
+        "ma20": 54.17,
+        "ma50": 56.96,
+        "volume_vs_20d": 0.87,
+        "atr14": 1.81,
+        "chg_5d_pct": 3.51
+      },
+      "weekly_snapshot": {
+        "ticker": "ALLE",
+        "week_start": "2016-01-25",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 43.2,
+        "price_vs_sma50": 0.929,
+        "notes": "ADX 58.4, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALLE_2016-01-04_bearish_sample_033_019",
+      "scenario_id": "ALLE_2016-01-04",
+      "window_type": "bearish_sample_033",
+      "chronological_index": 19,
+      "state_id": "bearish_sample_033_state_019",
+      "time_spot": "2016-01-29",
+      "reference_session": "2016-01-29",
+      "question": "Session summary for January 29, 2016: ALLE opened $53.17, ranged $52.85-$54.17, closed $54.09. Volume 0.7M (0.87x 20-day avg). 20-day $53.90 | 50-day $56.89. 5-day return +1.00%. ATR-14 $1.77. RSI 53.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2016-01-29",
+        "open": 53.17,
+        "high": 54.17,
+        "low": 52.85,
+        "close": 54.09,
+        "volume": 677700,
+        "ma20": 53.9,
+        "ma50": 56.89,
+        "volume_vs_20d": 0.87,
+        "atr14": 1.77,
+        "chg_5d_pct": 1.0
+      },
+      "weekly_snapshot": {
+        "ticker": "ALLE",
+        "week_start": "2016-01-25",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 53.0,
+        "price_vs_sma50": 0.951,
+        "notes": "ADX 56.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALLE_2016-01-04_bearish_sample_033_020",
+      "scenario_id": "ALLE_2016-01-04",
+      "window_type": "bearish_sample_033",
+      "chronological_index": 20,
+      "state_id": "bearish_sample_033_state_020",
+      "time_spot": "2016-02-01",
+      "reference_session": "2016-02-01",
+      "question": "Session summary for February 01, 2016: ALLE opened $53.59, ranged $53.17-$54.25, closed $53.99. Volume 1.0M (1.20x 20-day avg). 20-day $53.66 | 50-day $56.82. 5-day return +2.13%. ATR-14 $1.76. RSI 53.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2016-02-01",
+        "open": 53.59,
+        "high": 54.25,
+        "low": 53.17,
+        "close": 53.99,
+        "volume": 982600,
+        "ma20": 53.66,
+        "ma50": 56.82,
+        "volume_vs_20d": 1.2,
+        "atr14": 1.76,
+        "chg_5d_pct": 2.13
+      },
+      "weekly_snapshot": {
+        "ticker": "ALLE",
+        "week_start": "2016-02-01",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 53.7,
+        "price_vs_sma50": 0.95,
+        "notes": "ADX 54.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALLE_2016-01-04_bearish_sample_033_021",
+      "scenario_id": "ALLE_2016-01-04",
+      "window_type": "bearish_sample_033",
+      "chronological_index": 21,
+      "state_id": "bearish_sample_033_state_021",
+      "time_spot": "2016-02-02",
+      "reference_session": "2016-02-02",
+      "question": "Session summary for February 02, 2016: ALLE opened $53.55, ranged $52.08-$53.55, closed $52.46. Volume 1.2M (1.46x 20-day avg). 20-day $53.40 | 50-day $56.69. 5-day return -2.02%. ATR-14 $1.82. RSI 45.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2016-02-02",
+        "open": 53.55,
+        "high": 53.55,
+        "low": 52.08,
+        "close": 52.46,
+        "volume": 1217300,
+        "ma20": 53.4,
+        "ma50": 56.69,
+        "volume_vs_20d": 1.46,
+        "atr14": 1.82,
+        "chg_5d_pct": -2.02
+      },
+      "weekly_snapshot": {
+        "ticker": "ALLE",
+        "week_start": "2016-02-01",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 45.0,
+        "price_vs_sma50": 0.925,
+        "notes": "ADX 52.5, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALLE_2016-01-04_bearish_sample_033_022",
+      "scenario_id": "ALLE_2016-01-04",
+      "window_type": "bearish_sample_033",
+      "chronological_index": 22,
+      "state_id": "bearish_sample_033_state_022",
+      "time_spot": "2016-02-03",
+      "reference_session": "2016-02-03",
+      "question": "Session summary for February 03, 2016: ALLE opened $53.05, ranged $51.54-$53.13, closed $53.04. Volume 0.9M (1.05x 20-day avg). 20-day $53.17 | 50-day $56.56. 5-day return -0.59%. ATR-14 $1.81. RSI 52.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2016-02-03",
+        "open": 53.05,
+        "high": 53.13,
+        "low": 51.54,
+        "close": 53.04,
+        "volume": 897500,
+        "ma20": 53.17,
+        "ma50": 56.56,
+        "volume_vs_20d": 1.05,
+        "atr14": 1.81,
+        "chg_5d_pct": -0.59
+      },
+      "weekly_snapshot": {
+        "ticker": "ALLE",
+        "week_start": "2016-02-01",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 52.2,
+        "price_vs_sma50": 0.938,
+        "notes": "ADX 50.8, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALLE_2016-01-04_bearish_sample_033_023",
+      "scenario_id": "ALLE_2016-01-04",
+      "window_type": "bearish_sample_033",
+      "chronological_index": 23,
+      "state_id": "bearish_sample_033_state_023",
+      "time_spot": "2016-02-04",
+      "reference_session": "2016-02-04",
+      "question": "Session summary for February 04, 2016: ALLE opened $52.98, ranged $52.89-$54.46, closed $53.41. Volume 0.5M (0.64x 20-day avg). 20-day $53.04 | 50-day $56.44. 5-day return +0.98%. ATR-14 $1.78. RSI 48.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2016-02-04",
+        "open": 52.98,
+        "high": 54.46,
+        "low": 52.89,
+        "close": 53.41,
+        "volume": 542800,
+        "ma20": 53.04,
+        "ma50": 56.44,
+        "volume_vs_20d": 0.64,
+        "atr14": 1.78,
+        "chg_5d_pct": 0.98
+      },
+      "weekly_snapshot": {
+        "ticker": "ALLE",
+        "week_start": "2016-02-01",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 48.2,
+        "price_vs_sma50": 0.946,
+        "notes": "ADX 47.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALLE_2016-01-04_bearish_sample_033_024",
+      "scenario_id": "ALLE_2016-01-04",
+      "window_type": "bearish_sample_033",
+      "chronological_index": 24,
+      "state_id": "bearish_sample_033_state_024",
+      "time_spot": "2016-02-05",
+      "reference_session": "2016-02-05",
+      "question": "Session summary for February 05, 2016: ALLE opened $53.44, ranged $50.03-$53.90, closed $50.26. Volume 1.6M (1.80x 20-day avg). 20-day $52.83 | 50-day $56.28. 5-day return -7.08%. ATR-14 $1.82. RSI 41.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2016-02-05",
+        "open": 53.44,
+        "high": 53.9,
+        "low": 50.03,
+        "close": 50.26,
+        "volume": 1627200,
+        "ma20": 52.83,
+        "ma50": 56.28,
+        "volume_vs_20d": 1.8,
+        "atr14": 1.82,
+        "chg_5d_pct": -7.08
+      },
+      "weekly_snapshot": {
+        "ticker": "ALLE",
+        "week_start": "2016-02-01",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 41.5,
+        "price_vs_sma50": 0.893,
+        "notes": "ADX 44.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALLE_2016-01-04_bearish_sample_033_025",
+      "scenario_id": "ALLE_2016-01-04",
+      "window_type": "bearish_sample_033",
+      "chronological_index": 25,
+      "state_id": "bearish_sample_033_state_025",
+      "time_spot": "2016-02-08",
+      "reference_session": "2016-02-08",
+      "question": "Session summary for February 08, 2016: ALLE opened $49.46, ranged $47.29-$49.91, closed $48.03. Volume 2.2M (2.21x 20-day avg). 20-day $52.56 | 50-day $56.08. 5-day return -11.05%. ATR-14 $1.85. RSI 36.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2016-02-08",
+        "open": 49.46,
+        "high": 49.91,
+        "low": 47.29,
+        "close": 48.03,
+        "volume": 2161000,
+        "ma20": 52.56,
+        "ma50": 56.08,
+        "volume_vs_20d": 2.21,
+        "atr14": 1.85,
+        "chg_5d_pct": -11.05
+      },
+      "weekly_snapshot": {
+        "ticker": "ALLE",
+        "week_start": "2016-02-08",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 36.8,
+        "price_vs_sma50": 0.856,
+        "notes": "ADX 41.7, MACD bearish"
+      }
+    }
+  ]
+}

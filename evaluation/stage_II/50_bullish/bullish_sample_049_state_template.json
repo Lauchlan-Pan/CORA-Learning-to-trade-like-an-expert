@@ -1,0 +1,110 @@
+{
+  "metadata": {
+    "instrument": "ADP",
+    "window_type": "bullish_sample_049",
+    "initial_capital": 10000,
+    "max_leverage": 2.5
+  },
+  "state_entries": [
+    {
+      "state_id": "bullish_sample_049_state_001",
+      "snapshot": null
+    },
+    {
+      "state_id": "bullish_sample_049_state_002",
+      "snapshot": null
+    },
+    {
+      "state_id": "bullish_sample_049_state_003",
+      "snapshot": null
+    },
+    {
+      "state_id": "bullish_sample_049_state_004",
+      "snapshot": null
+    },
+    {
+      "state_id": "bullish_sample_049_state_005",
+      "snapshot": null
+    },
+    {
+      "state_id": "bullish_sample_049_state_006",
+      "snapshot": null
+    },
+    {
+      "state_id": "bullish_sample_049_state_007",
+      "snapshot": null
+    },
+    {
+      "state_id": "bullish_sample_049_state_008",
+      "snapshot": null
+    },
+    {
+      "state_id": "bullish_sample_049_state_009",
+      "snapshot": null
+    },
+    {
+      "state_id": "bullish_sample_049_state_010",
+      "snapshot": null
+    },
+    {
+      "state_id": "bullish_sample_049_state_011",
+      "snapshot": null
+    },
+    {
+      "state_id": "bullish_sample_049_state_012",
+      "snapshot": null
+    },
+    {
+      "state_id": "bullish_sample_049_state_013",
+      "snapshot": null
+    },
+    {
+      "state_id": "bullish_sample_049_state_014",
+      "snapshot": null
+    },
+    {
+      "state_id": "bullish_sample_049_state_015",
+      "snapshot": null
+    },
+    {
+      "state_id": "bullish_sample_049_state_016",
+      "snapshot": null
+    },
+    {
+      "state_id": "bullish_sample_049_state_017",
+      "snapshot": null
+    },
+    {
+      "state_id": "bullish_sample_049_state_018",
+      "snapshot": null
+    },
+    {
+      "state_id": "bullish_sample_049_state_019",
+      "snapshot": null
+    },
+    {
+      "state_id": "bullish_sample_049_state_020",
+      "snapshot": null
+    },
+    {
+      "state_id": "bullish_sample_049_state_021",
+      "snapshot": null
+    },
+    {
+      "state_id": "bullish_sample_049_state_022",
+      "snapshot": null
+    },
+    {
+      "state_id": "bullish_sample_049_state_023",
+      "snapshot": null
+    },
+    {
+      "state_id": "bullish_sample_049_state_024",
+      "snapshot": null
+    },
+    {
+      "state_id": "bullish_sample_049_state_025",
+      "snapshot": null
+    }
+  ]
+}

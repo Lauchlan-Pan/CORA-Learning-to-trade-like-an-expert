@@ -1,0 +1,2898 @@
+{
+  "metadata": {
+    "instrument": "AEE",
+    "initial_capital": 10000,
+    "window_type": "bullish_sample_030",
+    "description": "AEE window (2021-02-26 \u2013 2021-04-01) - bullish regime.",
+    "num_mcqs": 25,
+    "notes": "Orders express target exposure fractions relative to the leverage ceiling.",
+    "max_leverage": 2.5,
+    "exposure_buckets": [
+      0.8,
+      0.6,
+      0.4,
+      0.2
+    ],
+    "start_reference": "2021-02-26",
+    "end_reference": "2021-04-01",
+    "regime": "bullish",
+    "bh_return": 16.17
+  },
+  "mcqs": [
+    {
+      "scenario_instance_id": "AEE_2021-02-26_bullish_sample_030_001",
+      "scenario_id": "AEE_2021-02-26",
+      "window_type": "bullish_sample_030",
+      "chronological_index": 1,
+      "state_id": "bullish_sample_030_state_001",
+      "time_spot": "2021-02-26",
+      "reference_session": "2021-02-26",
+      "question": "Session summary for February 26, 2021: AEE opened $62.66, ranged $61.54-$63.64, closed $61.56. Volume 2.4M (1.60x 20-day avg). 20-day $63.63 | 50-day $65.20. 5-day return -2.85%. ATR-14 $1.43. RSI 33.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-02-26",
+        "open": 62.66,
+        "high": 63.64,
+        "low": 61.54,
+        "close": 61.56,
+        "volume": 2361100,
+        "ma20": 63.63,
+        "ma50": 65.2,
+        "volume_vs_20d": 1.6,
+        "atr14": 1.43,
+        "chg_5d_pct": -2.85
+      },
+      "weekly_snapshot": {
+        "ticker": "AEE",
+        "week_start": "2021-02-22",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 33.2,
+        "price_vs_sma50": 0.944,
+        "notes": "ADX 17.8, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEE_2021-02-26_bullish_sample_030_002",
+      "scenario_id": "AEE_2021-02-26",
+      "window_type": "bullish_sample_030",
+      "chronological_index": 2,
+      "state_id": "bullish_sample_030_state_002",
+      "time_spot": "2021-03-01",
+      "reference_session": "2021-03-01",
+      "question": "Session summary for March 01, 2021: AEE opened $62.15, ranged $62.10-$63.12, closed $62.63. Volume 1.4M (0.98x 20-day avg). 20-day $63.58 | 50-day $65.07. 5-day return +0.69%. ATR-14 $1.40. RSI 45.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-03-01",
+        "open": 62.15,
+        "high": 63.12,
+        "low": 62.1,
+        "close": 62.63,
+        "volume": 1438300,
+        "ma20": 63.58,
+        "ma50": 65.07,
+        "volume_vs_20d": 0.98,
+        "atr14": 1.4,
+        "chg_5d_pct": 0.69
+      },
+      "weekly_snapshot": {
+        "ticker": "AEE",
+        "week_start": "2021-03-01",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 45.1,
+        "price_vs_sma50": 0.962,
+        "notes": "ADX 20.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEE_2021-02-26_bullish_sample_030_003",
+      "scenario_id": "AEE_2021-02-26",
+      "window_type": "bullish_sample_030",
+      "chronological_index": 3,
+      "state_id": "bullish_sample_030_state_003",
+      "time_spot": "2021-03-02",
+      "reference_session": "2021-03-02",
+      "question": "Session summary for March 02, 2021: AEE opened $62.86, ranged $62.07-$63.22, closed $63.00. Volume 1.4M (0.97x 20-day avg). 20-day $63.53 | 50-day $64.97. 5-day return +0.07%. ATR-14 $1.42. RSI 43.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-03-02",
+        "open": 62.86,
+        "high": 63.22,
+        "low": 62.07,
+        "close": 63.0,
+        "volume": 1422800,
+        "ma20": 63.53,
+        "ma50": 64.97,
+        "volume_vs_20d": 0.97,
+        "atr14": 1.42,
+        "chg_5d_pct": 0.07
+      },
+      "weekly_snapshot": {
+        "ticker": "AEE",
+        "week_start": "2021-03-01",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 43.9,
+        "price_vs_sma50": 0.97,
+        "notes": "ADX 21.8, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEE_2021-02-26_bullish_sample_030_004",
+      "scenario_id": "AEE_2021-02-26",
+      "window_type": "bullish_sample_030",
+      "chronological_index": 4,
+      "state_id": "bullish_sample_030_state_004",
+      "time_spot": "2021-03-03",
+      "reference_session": "2021-03-03",
+      "question": "Session summary for March 03, 2021: AEE opened $62.72, ranged $61.70-$62.82, closed $62.31. Volume 1.6M (1.04x 20-day avg). 20-day $63.46 | 50-day $64.83. 5-day return -0.38%. ATR-14 $1.44. RSI 40.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-03-03",
+        "open": 62.72,
+        "high": 62.82,
+        "low": 61.7,
+        "close": 62.31,
+        "volume": 1562900,
+        "ma20": 63.46,
+        "ma50": 64.83,
+        "volume_vs_20d": 1.04,
+        "atr14": 1.44,
+        "chg_5d_pct": -0.38
+      },
+      "weekly_snapshot": {
+        "ticker": "AEE",
+        "week_start": "2021-03-01",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 40.1,
+        "price_vs_sma50": 0.961,
+        "notes": "ADX 23.9, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEE_2021-02-26_bullish_sample_030_005",
+      "scenario_id": "AEE_2021-02-26",
+      "window_type": "bullish_sample_030",
+      "chronological_index": 5,
+      "state_id": "bullish_sample_030_state_005",
+      "time_spot": "2021-03-04",
+      "reference_session": "2021-03-04",
+      "question": "Session summary for March 04, 2021: AEE opened $62.48, ranged $62.11-$63.65, closed $62.36. Volume 1.4M (0.92x 20-day avg). 20-day $63.39 | 50-day $64.70. 5-day return -0.32%. ATR-14 $1.45. RSI 43.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-03-04",
+        "open": 62.48,
+        "high": 63.65,
+        "low": 62.11,
+        "close": 62.36,
+        "volume": 1403600,
+        "ma20": 63.39,
+        "ma50": 64.7,
+        "volume_vs_20d": 0.92,
+        "atr14": 1.45,
+        "chg_5d_pct": -0.32
+      },
+      "weekly_snapshot": {
+        "ticker": "AEE",
+        "week_start": "2021-03-01",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 43.6,
+        "price_vs_sma50": 0.964,
+        "notes": "ADX 24.6, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEE_2021-02-26_bullish_sample_030_006",
+      "scenario_id": "AEE_2021-02-26",
+      "window_type": "bullish_sample_030",
+      "chronological_index": 6,
+      "state_id": "bullish_sample_030_state_006",
+      "time_spot": "2021-03-05",
+      "reference_session": "2021-03-05",
+      "question": "Session summary for March 05, 2021: AEE opened $62.59, ranged $62.47-$64.22, closed $63.83. Volume 1.6M (1.01x 20-day avg). 20-day $63.35 | 50-day $64.62. 5-day return +3.69%. ATR-14 $1.49. RSI 48.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-03-05",
+        "open": 62.59,
+        "high": 64.22,
+        "low": 62.47,
+        "close": 63.83,
+        "volume": 1557800,
+        "ma20": 63.35,
+        "ma50": 64.62,
+        "volume_vs_20d": 1.01,
+        "atr14": 1.49,
+        "chg_5d_pct": 3.69
+      },
+      "weekly_snapshot": {
+        "ticker": "AEE",
+        "week_start": "2021-03-01",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 48.2,
+        "price_vs_sma50": 0.988,
+        "notes": "ADX 25.8, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEE_2021-02-26_bullish_sample_030_007",
+      "scenario_id": "AEE_2021-02-26",
+      "window_type": "bullish_sample_030",
+      "chronological_index": 7,
+      "state_id": "bullish_sample_030_state_007",
+      "time_spot": "2021-03-08",
+      "reference_session": "2021-03-08",
+      "question": "Session summary for March 08, 2021: AEE opened $64.07, ranged $63.85-$65.66, closed $64.99. Volume 1.4M (0.90x 20-day avg). 20-day $63.35 | 50-day $64.58. 5-day return +3.78%. ATR-14 $1.51. RSI 56.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-03-08",
+        "open": 64.07,
+        "high": 65.66,
+        "low": 63.85,
+        "close": 64.99,
+        "volume": 1387900,
+        "ma20": 63.35,
+        "ma50": 64.58,
+        "volume_vs_20d": 0.9,
+        "atr14": 1.51,
+        "chg_5d_pct": 3.78
+      },
+      "weekly_snapshot": {
+        "ticker": "AEE",
+        "week_start": "2021-03-08",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 56.1,
+        "price_vs_sma50": 1.006,
+        "notes": "ADX 25.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEE_2021-02-26_bullish_sample_030_008",
+      "scenario_id": "AEE_2021-02-26",
+      "window_type": "bullish_sample_030",
+      "chronological_index": 8,
+      "state_id": "bullish_sample_030_state_008",
+      "time_spot": "2021-03-09",
+      "reference_session": "2021-03-09",
+      "question": "Session summary for March 09, 2021: AEE opened $64.97, ranged $64.97-$66.26, closed $65.95. Volume 2.8M (1.77x 20-day avg). 20-day $63.47 | 50-day $64.58. 5-day return +4.68%. ATR-14 $1.52. RSI 57.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-03-09",
+        "open": 64.97,
+        "high": 66.26,
+        "low": 64.97,
+        "close": 65.95,
+        "volume": 2840900,
+        "ma20": 63.47,
+        "ma50": 64.58,
+        "volume_vs_20d": 1.77,
+        "atr14": 1.52,
+        "chg_5d_pct": 4.68
+      },
+      "weekly_snapshot": {
+        "ticker": "AEE",
+        "week_start": "2021-03-08",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 57.7,
+        "price_vs_sma50": 1.021,
+        "notes": "ADX 25.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEE_2021-02-26_bullish_sample_030_009",
+      "scenario_id": "AEE_2021-02-26",
+      "window_type": "bullish_sample_030",
+      "chronological_index": 9,
+      "state_id": "bullish_sample_030_state_009",
+      "time_spot": "2021-03-10",
+      "reference_session": "2021-03-10",
+      "question": "Session summary for March 10, 2021: AEE opened $66.22, ranged $66.04-$67.33, closed $67.24. Volume 3.5M (2.02x 20-day avg). 20-day $63.62 | 50-day $64.58. 5-day return +7.91%. ATR-14 $1.52. RSI 59.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-03-10",
+        "open": 66.22,
+        "high": 67.33,
+        "low": 66.04,
+        "close": 67.24,
+        "volume": 3511700,
+        "ma20": 63.62,
+        "ma50": 64.58,
+        "volume_vs_20d": 2.02,
+        "atr14": 1.52,
+        "chg_5d_pct": 7.91
+      },
+      "weekly_snapshot": {
+        "ticker": "AEE",
+        "week_start": "2021-03-08",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 59.8,
+        "price_vs_sma50": 1.041,
+        "notes": "ADX 25.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEE_2021-02-26_bullish_sample_030_010",
+      "scenario_id": "AEE_2021-02-26",
+      "window_type": "bullish_sample_030",
+      "chronological_index": 10,
+      "state_id": "bullish_sample_030_state_010",
+      "time_spot": "2021-03-11",
+      "reference_session": "2021-03-11",
+      "question": "Session summary for March 11, 2021: AEE opened $67.16, ranged $66.95-$67.67, closed $67.14. Volume 3.3M (1.83x 20-day avg). 20-day $63.76 | 50-day $64.58. 5-day return +7.67%. ATR-14 $1.45. RSI 68.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-03-11",
+        "open": 67.16,
+        "high": 67.67,
+        "low": 66.95,
+        "close": 67.14,
+        "volume": 3332500,
+        "ma20": 63.76,
+        "ma50": 64.58,
+        "volume_vs_20d": 1.83,
+        "atr14": 1.45,
+        "chg_5d_pct": 7.67
+      },
+      "weekly_snapshot": {
+        "ticker": "AEE",
+        "week_start": "2021-03-08",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 68.0,
+        "price_vs_sma50": 1.04,
+        "notes": "ADX 26.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEE_2021-02-26_bullish_sample_030_011",
+      "scenario_id": "AEE_2021-02-26",
+      "window_type": "bullish_sample_030",
+      "chronological_index": 11,
+      "state_id": "bullish_sample_030_state_011",
+      "time_spot": "2021-03-12",
+      "reference_session": "2021-03-12",
+      "question": "Session summary for March 12, 2021: AEE opened $67.39, ranged $67.08-$68.84, closed $68.22. Volume 1.6M (0.88x 20-day avg). 20-day $63.99 | 50-day $64.60. 5-day return +6.89%. ATR-14 $1.41. RSI 78.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-03-12",
+        "open": 67.39,
+        "high": 68.84,
+        "low": 67.08,
+        "close": 68.22,
+        "volume": 1597800,
+        "ma20": 63.99,
+        "ma50": 64.6,
+        "volume_vs_20d": 0.88,
+        "atr14": 1.41,
+        "chg_5d_pct": 6.89
+      },
+      "weekly_snapshot": {
+        "ticker": "AEE",
+        "week_start": "2021-03-08",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 78.9,
+        "price_vs_sma50": 1.056,
+        "notes": "ADX 29.8, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEE_2021-02-26_bullish_sample_030_012",
+      "scenario_id": "AEE_2021-02-26",
+      "window_type": "bullish_sample_030",
+      "chronological_index": 12,
+      "state_id": "bullish_sample_030_state_012",
+      "time_spot": "2021-03-15",
+      "reference_session": "2021-03-15",
+      "question": "Session summary for March 15, 2021: AEE opened $68.44, ranged $68.24-$69.60, closed $69.57. Volume 1.6M (0.87x 20-day avg). 20-day $64.26 | 50-day $64.64. 5-day return +7.03%. ATR-14 $1.39. RSI 80.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-03-15",
+        "open": 68.44,
+        "high": 69.6,
+        "low": 68.24,
+        "close": 69.57,
+        "volume": 1596500,
+        "ma20": 64.26,
+        "ma50": 64.64,
+        "volume_vs_20d": 0.87,
+        "atr14": 1.39,
+        "chg_5d_pct": 7.03
+      },
+      "weekly_snapshot": {
+        "ticker": "AEE",
+        "week_start": "2021-03-15",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 80.1,
+        "price_vs_sma50": 1.076,
+        "notes": "ADX 33.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEE_2021-02-26_bullish_sample_030_013",
+      "scenario_id": "AEE_2021-02-26",
+      "window_type": "bullish_sample_030",
+      "chronological_index": 13,
+      "state_id": "bullish_sample_030_state_013",
+      "time_spot": "2021-03-16",
+      "reference_session": "2021-03-16",
+      "question": "Session summary for March 16, 2021: AEE opened $69.22, ranged $69.08-$69.88, closed $69.27. Volume 1.4M (0.79x 20-day avg). 20-day $64.54 | 50-day $64.66. 5-day return +5.05%. ATR-14 $1.39. RSI 80.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-03-16",
+        "open": 69.22,
+        "high": 69.88,
+        "low": 69.08,
+        "close": 69.27,
+        "volume": 1439500,
+        "ma20": 64.54,
+        "ma50": 64.66,
+        "volume_vs_20d": 0.79,
+        "atr14": 1.39,
+        "chg_5d_pct": 5.05
+      },
+      "weekly_snapshot": {
+        "ticker": "AEE",
+        "week_start": "2021-03-15",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 80.9,
+        "price_vs_sma50": 1.071,
+        "notes": "ADX 36.5, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEE_2021-02-26_bullish_sample_030_014",
+      "scenario_id": "AEE_2021-02-26",
+      "window_type": "bullish_sample_030",
+      "chronological_index": 14,
+      "state_id": "bullish_sample_030_state_014",
+      "time_spot": "2021-03-17",
+      "reference_session": "2021-03-17",
+      "question": "Session summary for March 17, 2021: AEE opened $69.59, ranged $68.86-$69.76, closed $68.94. Volume 1.3M (0.73x 20-day avg). 20-day $64.78 | 50-day $64.71. 5-day return +2.52%. ATR-14 $1.40. RSI 78.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-03-17",
+        "open": 69.59,
+        "high": 69.76,
+        "low": 68.86,
+        "close": 68.94,
+        "volume": 1335100,
+        "ma20": 64.78,
+        "ma50": 64.71,
+        "volume_vs_20d": 0.73,
+        "atr14": 1.4,
+        "chg_5d_pct": 2.52
+      },
+      "weekly_snapshot": {
+        "ticker": "AEE",
+        "week_start": "2021-03-15",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 78.5,
+        "price_vs_sma50": 1.065,
+        "notes": "ADX 38.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEE_2021-02-26_bullish_sample_030_015",
+      "scenario_id": "AEE_2021-02-26",
+      "window_type": "bullish_sample_030",
+      "chronological_index": 15,
+      "state_id": "bullish_sample_030_state_015",
+      "time_spot": "2021-03-18",
+      "reference_session": "2021-03-18",
+      "question": "Session summary for March 18, 2021: AEE opened $69.04, ranged $68.44-$69.60, closed $69.32. Volume 1.4M (0.75x 20-day avg). 20-day $65.00 | 50-day $64.77. 5-day return +3.25%. ATR-14 $1.33. RSI 86.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-03-18",
+        "open": 69.04,
+        "high": 69.6,
+        "low": 68.44,
+        "close": 69.32,
+        "volume": 1360900,
+        "ma20": 65.0,
+        "ma50": 64.77,
+        "volume_vs_20d": 0.75,
+        "atr14": 1.33,
+        "chg_5d_pct": 3.25
+      },
+      "weekly_snapshot": {
+        "ticker": "AEE",
+        "week_start": "2021-03-15",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 86.6,
+        "price_vs_sma50": 1.07,
+        "notes": "ADX 40.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEE_2021-02-26_bullish_sample_030_016",
+      "scenario_id": "AEE_2021-02-26",
+      "window_type": "bullish_sample_030",
+      "chronological_index": 16,
+      "state_id": "bullish_sample_030_state_016",
+      "time_spot": "2021-03-19",
+      "reference_session": "2021-03-19",
+      "question": "Session summary for March 19, 2021: AEE opened $69.40, ranged $68.82-$69.93, closed $69.55. Volume 3.0M (1.60x 20-day avg). 20-day $65.31 | 50-day $64.82. 5-day return +1.94%. ATR-14 $1.30. RSI 85.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-03-19",
+        "open": 69.4,
+        "high": 69.93,
+        "low": 68.82,
+        "close": 69.55,
+        "volume": 3001500,
+        "ma20": 65.31,
+        "ma50": 64.82,
+        "volume_vs_20d": 1.6,
+        "atr14": 1.3,
+        "chg_5d_pct": 1.94
+      },
+      "weekly_snapshot": {
+        "ticker": "AEE",
+        "week_start": "2021-03-15",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 85.5,
+        "price_vs_sma50": 1.073,
+        "notes": "ADX 42.9, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEE_2021-02-26_bullish_sample_030_017",
+      "scenario_id": "AEE_2021-02-26",
+      "window_type": "bullish_sample_030",
+      "chronological_index": 17,
+      "state_id": "bullish_sample_030_state_017",
+      "time_spot": "2021-03-22",
+      "reference_session": "2021-03-22",
+      "question": "Session summary for March 22, 2021: AEE opened $69.33, ranged $68.57-$69.58, closed $68.82. Volume 1.7M (0.93x 20-day avg). 20-day $65.64 | 50-day $64.89. 5-day return -1.08%. ATR-14 $1.29. RSI 78.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-03-22",
+        "open": 69.33,
+        "high": 69.58,
+        "low": 68.57,
+        "close": 68.82,
+        "volume": 1727600,
+        "ma20": 65.64,
+        "ma50": 64.89,
+        "volume_vs_20d": 0.93,
+        "atr14": 1.29,
+        "chg_5d_pct": -1.08
+      },
+      "weekly_snapshot": {
+        "ticker": "AEE",
+        "week_start": "2021-03-22",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 78.8,
+        "price_vs_sma50": 1.06,
+        "notes": "ADX 45.2, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEE_2021-02-26_bullish_sample_030_018",
+      "scenario_id": "AEE_2021-02-26",
+      "window_type": "bullish_sample_030",
+      "chronological_index": 18,
+      "state_id": "bullish_sample_030_state_018",
+      "time_spot": "2021-03-23",
+      "reference_session": "2021-03-23",
+      "question": "Session summary for March 23, 2021: AEE opened $68.91, ranged $68.56-$70.78, closed $70.59. Volume 1.0M (0.55x 20-day avg). 20-day $66.02 | 50-day $64.99. 5-day return +1.90%. ATR-14 $1.36. RSI 86.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-03-23",
+        "open": 68.91,
+        "high": 70.78,
+        "low": 68.56,
+        "close": 70.59,
+        "volume": 999300,
+        "ma20": 66.02,
+        "ma50": 64.99,
+        "volume_vs_20d": 0.55,
+        "atr14": 1.36,
+        "chg_5d_pct": 1.9
+      },
+      "weekly_snapshot": {
+        "ticker": "AEE",
+        "week_start": "2021-03-22",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 86.9,
+        "price_vs_sma50": 1.086,
+        "notes": "ADX 47.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEE_2021-02-26_bullish_sample_030_019",
+      "scenario_id": "AEE_2021-02-26",
+      "window_type": "bullish_sample_030",
+      "chronological_index": 19,
+      "state_id": "bullish_sample_030_state_019",
+      "time_spot": "2021-03-24",
+      "reference_session": "2021-03-24",
+      "question": "Session summary for March 24, 2021: AEE opened $70.07, ranged $69.87-$71.77, closed $71.48. Volume 1.6M (0.85x 20-day avg). 20-day $66.47 | 50-day $65.11. 5-day return +3.69%. ATR-14 $1.38. RSI 87.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-03-24",
+        "open": 70.07,
+        "high": 71.77,
+        "low": 69.87,
+        "close": 71.48,
+        "volume": 1568000,
+        "ma20": 66.47,
+        "ma50": 65.11,
+        "volume_vs_20d": 0.85,
+        "atr14": 1.38,
+        "chg_5d_pct": 3.69
+      },
+      "weekly_snapshot": {
+        "ticker": "AEE",
+        "week_start": "2021-03-22",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 87.8,
+        "price_vs_sma50": 1.098,
+        "notes": "ADX 50.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEE_2021-02-26_bullish_sample_030_020",
+      "scenario_id": "AEE_2021-02-26",
+      "window_type": "bullish_sample_030",
+      "chronological_index": 20,
+      "state_id": "bullish_sample_030_state_020",
+      "time_spot": "2021-03-25",
+      "reference_session": "2021-03-25",
+      "question": "Session summary for March 25, 2021: AEE opened $71.84, ranged $71.28-$72.76, closed $72.01. Volume 0.9M (0.50x 20-day avg). 20-day $66.94 | 50-day $65.25. 5-day return +3.88%. ATR-14 $1.35. RSI 86.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-03-25",
+        "open": 71.84,
+        "high": 72.76,
+        "low": 71.28,
+        "close": 72.01,
+        "volume": 913200,
+        "ma20": 66.94,
+        "ma50": 65.25,
+        "volume_vs_20d": 0.5,
+        "atr14": 1.35,
+        "chg_5d_pct": 3.88
+      },
+      "weekly_snapshot": {
+        "ticker": "AEE",
+        "week_start": "2021-03-22",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 86.8,
+        "price_vs_sma50": 1.104,
+        "notes": "ADX 55.2, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEE_2021-02-26_bullish_sample_030_021",
+      "scenario_id": "AEE_2021-02-26",
+      "window_type": "bullish_sample_030",
+      "chronological_index": 21,
+      "state_id": "bullish_sample_030_state_021",
+      "time_spot": "2021-03-26",
+      "reference_session": "2021-03-26",
+      "question": "Session summary for March 26, 2021: AEE opened $71.87, ranged $70.90-$72.25, closed $71.90. Volume 1.6M (0.91x 20-day avg). 20-day $67.46 | 50-day $65.36. 5-day return +3.38%. ATR-14 $1.32. RSI 84.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-03-26",
+        "open": 71.87,
+        "high": 72.25,
+        "low": 70.9,
+        "close": 71.9,
+        "volume": 1625700,
+        "ma20": 67.46,
+        "ma50": 65.36,
+        "volume_vs_20d": 0.91,
+        "atr14": 1.32,
+        "chg_5d_pct": 3.38
+      },
+      "weekly_snapshot": {
+        "ticker": "AEE",
+        "week_start": "2021-03-22",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 84.3,
+        "price_vs_sma50": 1.1,
+        "notes": "ADX 60.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEE_2021-02-26_bullish_sample_030_022",
+      "scenario_id": "AEE_2021-02-26",
+      "window_type": "bullish_sample_030",
+      "chronological_index": 22,
+      "state_id": "bullish_sample_030_state_022",
+      "time_spot": "2021-03-29",
+      "reference_session": "2021-03-29",
+      "question": "Session summary for March 29, 2021: AEE opened $71.92, ranged $71.76-$73.41, closed $72.96. Volume 0.9M (0.52x 20-day avg). 20-day $67.97 | 50-day $65.52. 5-day return +6.03%. ATR-14 $1.35. RSI 84.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-03-29",
+        "open": 71.92,
+        "high": 73.41,
+        "low": 71.76,
+        "close": 72.96,
+        "volume": 915700,
+        "ma20": 67.97,
+        "ma50": 65.52,
+        "volume_vs_20d": 0.52,
+        "atr14": 1.35,
+        "chg_5d_pct": 6.03
+      },
+      "weekly_snapshot": {
+        "ticker": "AEE",
+        "week_start": "2021-03-29",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 84.5,
+        "price_vs_sma50": 1.114,
+        "notes": "ADX 65.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEE_2021-02-26_bullish_sample_030_023",
+      "scenario_id": "AEE_2021-02-26",
+      "window_type": "bullish_sample_030",
+      "chronological_index": 23,
+      "state_id": "bullish_sample_030_state_023",
+      "time_spot": "2021-03-30",
+      "reference_session": "2021-03-30",
+      "question": "Session summary for March 30, 2021: AEE opened $72.35, ranged $71.31-$72.78, closed $71.78. Volume 1.1M (0.61x 20-day avg). 20-day $68.41 | 50-day $65.66. 5-day return +1.69%. ATR-14 $1.36. RSI 72.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-03-30",
+        "open": 72.35,
+        "high": 72.78,
+        "low": 71.31,
+        "close": 71.78,
+        "volume": 1064600,
+        "ma20": 68.41,
+        "ma50": 65.66,
+        "volume_vs_20d": 0.61,
+        "atr14": 1.36,
+        "chg_5d_pct": 1.69
+      },
+      "weekly_snapshot": {
+        "ticker": "AEE",
+        "week_start": "2021-03-29",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 72.5,
+        "price_vs_sma50": 1.093,
+        "notes": "ADX 68.9, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEE_2021-02-26_bullish_sample_030_024",
+      "scenario_id": "AEE_2021-02-26",
+      "window_type": "bullish_sample_030",
+      "chronological_index": 24,
+      "state_id": "bullish_sample_030_state_024",
+      "time_spot": "2021-03-31",
+      "reference_session": "2021-03-31",
+      "question": "Session summary for March 31, 2021: AEE opened $71.60, ranged $71.32-$72.03, closed $71.81. Volume 1.4M (0.80x 20-day avg). 20-day $68.89 | 50-day $65.81. 5-day return +0.46%. ATR-14 $1.36. RSI 73.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-03-31",
+        "open": 71.6,
+        "high": 72.03,
+        "low": 71.32,
+        "close": 71.81,
+        "volume": 1388000,
+        "ma20": 68.89,
+        "ma50": 65.81,
+        "volume_vs_20d": 0.8,
+        "atr14": 1.36,
+        "chg_5d_pct": 0.46
+      },
+      "weekly_snapshot": {
+        "ticker": "AEE",
+        "week_start": "2021-03-29",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 73.4,
+        "price_vs_sma50": 1.091,
+        "notes": "ADX 71.8, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEE_2021-02-26_bullish_sample_030_025",
+      "scenario_id": "AEE_2021-02-26",
+      "window_type": "bullish_sample_030",
+      "chronological_index": 25,
+      "state_id": "bullish_sample_030_state_025",
+      "time_spot": "2021-04-01",
+      "reference_session": "2021-04-01",
+      "question": "Session summary for April 01, 2021: AEE opened $71.11, ranged $70.88-$71.87, closed $71.52. Volume 1.1M (0.65x 20-day avg). 20-day $69.34 | 50-day $65.97. 5-day return -0.69%. ATR-14 $1.31. RSI 67.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2021-04-01",
+        "open": 71.11,
+        "high": 71.87,
+        "low": 70.88,
+        "close": 71.52,
+        "volume": 1111900,
+        "ma20": 69.34,
+        "ma50": 65.97,
+        "volume_vs_20d": 0.65,
+        "atr14": 1.31,
+        "chg_5d_pct": -0.69
+      },
+      "weekly_snapshot": {
+        "ticker": "AEE",
+        "week_start": "2021-03-29",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 67.9,
+        "price_vs_sma50": 1.084,
+        "notes": "ADX 70.4, MACD bullish"
+      }
+    }
+  ]
+}

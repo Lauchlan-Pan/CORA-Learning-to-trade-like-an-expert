@@ -1,0 +1,2898 @@
+{
+  "metadata": {
+    "instrument": "ADI",
+    "initial_capital": 10000,
+    "window_type": "mixed_sample_025",
+    "description": "ADI window (2013-05-23 \u2013 2013-06-27) - mixed regime.",
+    "num_mcqs": 25,
+    "notes": "Orders express target exposure fractions relative to the leverage ceiling.",
+    "max_leverage": 2.5,
+    "exposure_buckets": [
+      0.8,
+      0.6,
+      0.4,
+      0.2
+    ],
+    "start_reference": "2013-05-23",
+    "end_reference": "2013-06-27",
+    "regime": "mixed",
+    "bh_return": 0.49
+  },
+  "mcqs": [
+    {
+      "scenario_instance_id": "ADI_2013-05-23_mixed_sample_025_001",
+      "scenario_id": "ADI_2013-05-23",
+      "window_type": "mixed_sample_025",
+      "chronological_index": 1,
+      "state_id": "mixed_sample_025_state_001",
+      "time_spot": "2013-05-23",
+      "reference_session": "2013-05-23",
+      "question": "Session summary for May 23, 2013: ADI opened $34.60, ranged $34.05-$34.84, closed $34.81. Volume 2.4M (1.14x 20-day avg). 20-day $34.90 | 50-day $34.37. 5-day return -2.17%. ATR-14 $0.51. RSI 54.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-05-23",
+        "open": 34.6,
+        "high": 34.84,
+        "low": 34.05,
+        "close": 34.81,
+        "volume": 2427300,
+        "ma20": 34.9,
+        "ma50": 34.37,
+        "volume_vs_20d": 1.14,
+        "atr14": 0.51,
+        "chg_5d_pct": -2.17
+      },
+      "weekly_snapshot": {
+        "ticker": "ADI",
+        "week_start": "2013-05-20",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 54.8,
+        "price_vs_sma50": 1.013,
+        "notes": "ADX 56.8, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADI_2013-05-23_mixed_sample_025_002",
+      "scenario_id": "ADI_2013-05-23",
+      "window_type": "mixed_sample_025",
+      "chronological_index": 2,
+      "state_id": "mixed_sample_025_state_002",
+      "time_spot": "2013-05-24",
+      "reference_session": "2013-05-24",
+      "question": "Session summary for May 24, 2013: ADI opened $34.59, ranged $34.35-$34.75, closed $34.72. Volume 1.1M (0.54x 20-day avg). 20-day $34.98 | 50-day $34.35. 5-day return -3.51%. ATR-14 $0.49. RSI 44.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-05-24",
+        "open": 34.59,
+        "high": 34.75,
+        "low": 34.35,
+        "close": 34.72,
+        "volume": 1113100,
+        "ma20": 34.98,
+        "ma50": 34.35,
+        "volume_vs_20d": 0.54,
+        "atr14": 0.49,
+        "chg_5d_pct": -3.51
+      },
+      "weekly_snapshot": {
+        "ticker": "ADI",
+        "week_start": "2013-05-20",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 44.9,
+        "price_vs_sma50": 1.011,
+        "notes": "ADX 57.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADI_2013-05-23_mixed_sample_025_003",
+      "scenario_id": "ADI_2013-05-23",
+      "window_type": "mixed_sample_025",
+      "chronological_index": 3,
+      "state_id": "mixed_sample_025_state_003",
+      "time_spot": "2013-05-28",
+      "reference_session": "2013-05-28",
+      "question": "Session summary for May 28, 2013: ADI opened $34.91, ranged $34.73-$35.23, closed $34.80. Volume 1.7M (0.80x 20-day avg). 20-day $35.05 | 50-day $34.35. 5-day return -2.97%. ATR-14 $0.50. RSI 46.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-05-28",
+        "open": 34.91,
+        "high": 35.23,
+        "low": 34.73,
+        "close": 34.8,
+        "volume": 1664400,
+        "ma20": 35.05,
+        "ma50": 34.35,
+        "volume_vs_20d": 0.8,
+        "atr14": 0.5,
+        "chg_5d_pct": -2.97
+      },
+      "weekly_snapshot": {
+        "ticker": "ADI",
+        "week_start": "2013-05-27",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 46.6,
+        "price_vs_sma50": 1.013,
+        "notes": "ADX 53.6, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADI_2013-05-23_mixed_sample_025_004",
+      "scenario_id": "ADI_2013-05-23",
+      "window_type": "mixed_sample_025",
+      "chronological_index": 4,
+      "state_id": "mixed_sample_025_state_004",
+      "time_spot": "2013-05-29",
+      "reference_session": "2013-05-29",
+      "question": "Session summary for May 29, 2013: ADI opened $35.23, ranged $34.90-$35.41, closed $35.17. Volume 2.3M (1.12x 20-day avg). 20-day $35.13 | 50-day $34.37. 5-day return -1.28%. ATR-14 $0.51. RSI 48.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-05-29",
+        "open": 35.23,
+        "high": 35.41,
+        "low": 34.9,
+        "close": 35.17,
+        "volume": 2322200,
+        "ma20": 35.13,
+        "ma50": 34.37,
+        "volume_vs_20d": 1.12,
+        "atr14": 0.51,
+        "chg_5d_pct": -1.28
+      },
+      "weekly_snapshot": {
+        "ticker": "ADI",
+        "week_start": "2013-05-27",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 48.7,
+        "price_vs_sma50": 1.023,
+        "notes": "ADX 49.5, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADI_2013-05-23_mixed_sample_025_005",
+      "scenario_id": "ADI_2013-05-23",
+      "window_type": "mixed_sample_025",
+      "chronological_index": 5,
+      "state_id": "mixed_sample_025_state_005",
+      "time_spot": "2013-05-30",
+      "reference_session": "2013-05-30",
+      "question": "Session summary for May 30, 2013: ADI opened $35.20, ranged $35.20-$35.97, closed $35.65. Volume 2.3M (1.09x 20-day avg). 20-day $35.23 | 50-day $34.39. 5-day return +2.28%. ATR-14 $0.53. RSI 52.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-05-30",
+        "open": 35.2,
+        "high": 35.97,
+        "low": 35.2,
+        "close": 35.65,
+        "volume": 2269800,
+        "ma20": 35.23,
+        "ma50": 34.39,
+        "volume_vs_20d": 1.09,
+        "atr14": 0.53,
+        "chg_5d_pct": 2.28
+      },
+      "weekly_snapshot": {
+        "ticker": "ADI",
+        "week_start": "2013-05-27",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 52.1,
+        "price_vs_sma50": 1.037,
+        "notes": "ADX 44.1, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADI_2013-05-23_mixed_sample_025_006",
+      "scenario_id": "ADI_2013-05-23",
+      "window_type": "mixed_sample_025",
+      "chronological_index": 6,
+      "state_id": "mixed_sample_025_state_006",
+      "time_spot": "2013-05-31",
+      "reference_session": "2013-05-31",
+      "question": "Session summary for May 31, 2013: ADI opened $35.40, ranged $35.25-$35.61, closed $35.41. Volume 3.3M (1.58x 20-day avg). 20-day $35.31 | 50-day $34.40. 5-day return +1.73%. ATR-14 $0.54. RSI 44.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-05-31",
+        "open": 35.4,
+        "high": 35.61,
+        "low": 35.25,
+        "close": 35.41,
+        "volume": 3349100,
+        "ma20": 35.31,
+        "ma50": 34.4,
+        "volume_vs_20d": 1.58,
+        "atr14": 0.54,
+        "chg_5d_pct": 1.73
+      },
+      "weekly_snapshot": {
+        "ticker": "ADI",
+        "week_start": "2013-05-27",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 44.7,
+        "price_vs_sma50": 1.029,
+        "notes": "ADX 38.9, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADI_2013-05-23_mixed_sample_025_007",
+      "scenario_id": "ADI_2013-05-23",
+      "window_type": "mixed_sample_025",
+      "chronological_index": 7,
+      "state_id": "mixed_sample_025_state_007",
+      "time_spot": "2013-06-03",
+      "reference_session": "2013-06-03",
+      "question": "Session summary for June 03, 2013: ADI opened $35.42, ranged $34.98-$35.61, closed $35.33. Volume 3.0M (1.40x 20-day avg). 20-day $35.35 | 50-day $34.43. 5-day return +1.75%. ATR-14 $0.55. RSI 49.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-06-03",
+        "open": 35.42,
+        "high": 35.61,
+        "low": 34.98,
+        "close": 35.33,
+        "volume": 2991400,
+        "ma20": 35.35,
+        "ma50": 34.43,
+        "volume_vs_20d": 1.4,
+        "atr14": 0.55,
+        "chg_5d_pct": 1.75
+      },
+      "weekly_snapshot": {
+        "ticker": "ADI",
+        "week_start": "2013-06-03",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 49.0,
+        "price_vs_sma50": 1.026,
+        "notes": "ADX 34.7, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADI_2013-05-23_mixed_sample_025_008",
+      "scenario_id": "ADI_2013-05-23",
+      "window_type": "mixed_sample_025",
+      "chronological_index": 8,
+      "state_id": "mixed_sample_025_state_008",
+      "time_spot": "2013-06-04",
+      "reference_session": "2013-06-04",
+      "question": "Session summary for June 04, 2013: ADI opened $35.64, ranged $35.40-$36.10, closed $35.57. Volume 2.2M (1.07x 20-day avg). 20-day $35.38 | 50-day $34.45. 5-day return +2.19%. ATR-14 $0.58. RSI 51.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-06-04",
+        "open": 35.64,
+        "high": 36.1,
+        "low": 35.4,
+        "close": 35.57,
+        "volume": 2243100,
+        "ma20": 35.38,
+        "ma50": 34.45,
+        "volume_vs_20d": 1.07,
+        "atr14": 0.58,
+        "chg_5d_pct": 2.19
+      },
+      "weekly_snapshot": {
+        "ticker": "ADI",
+        "week_start": "2013-06-03",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 51.5,
+        "price_vs_sma50": 1.032,
+        "notes": "ADX 30.7, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADI_2013-05-23_mixed_sample_025_009",
+      "scenario_id": "ADI_2013-05-23",
+      "window_type": "mixed_sample_025",
+      "chronological_index": 9,
+      "state_id": "mixed_sample_025_state_009",
+      "time_spot": "2013-06-05",
+      "reference_session": "2013-06-05",
+      "question": "Session summary for June 05, 2013: ADI opened $35.40, ranged $34.96-$35.50, closed $35.00. Volume 1.9M (0.89x 20-day avg). 20-day $35.38 | 50-day $34.47. 5-day return -0.50%. ATR-14 $0.60. RSI 40.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-06-05",
+        "open": 35.4,
+        "high": 35.5,
+        "low": 34.96,
+        "close": 35.0,
+        "volume": 1871900,
+        "ma20": 35.38,
+        "ma50": 34.47,
+        "volume_vs_20d": 0.89,
+        "atr14": 0.6,
+        "chg_5d_pct": -0.5
+      },
+      "weekly_snapshot": {
+        "ticker": "ADI",
+        "week_start": "2013-06-03",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 40.5,
+        "price_vs_sma50": 1.015,
+        "notes": "ADX 26.8, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADI_2013-05-23_mixed_sample_025_010",
+      "scenario_id": "ADI_2013-05-23",
+      "window_type": "mixed_sample_025",
+      "chronological_index": 10,
+      "state_id": "mixed_sample_025_state_010",
+      "time_spot": "2013-06-06",
+      "reference_session": "2013-06-06",
+      "question": "Session summary for June 06, 2013: ADI opened $35.14, ranged $34.69-$35.28, closed $35.06. Volume 1.8M (0.86x 20-day avg). 20-day $35.37 | 50-day $34.47. 5-day return -1.67%. ATR-14 $0.61. RSI 43.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-06-06",
+        "open": 35.14,
+        "high": 35.28,
+        "low": 34.69,
+        "close": 35.06,
+        "volume": 1837700,
+        "ma20": 35.37,
+        "ma50": 34.47,
+        "volume_vs_20d": 0.86,
+        "atr14": 0.61,
+        "chg_5d_pct": -1.67
+      },
+      "weekly_snapshot": {
+        "ticker": "ADI",
+        "week_start": "2013-06-03",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 43.1,
+        "price_vs_sma50": 1.017,
+        "notes": "ADX 22.4, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADI_2013-05-23_mixed_sample_025_011",
+      "scenario_id": "ADI_2013-05-23",
+      "window_type": "mixed_sample_025",
+      "chronological_index": 11,
+      "state_id": "mixed_sample_025_state_011",
+      "time_spot": "2013-06-07",
+      "reference_session": "2013-06-07",
+      "question": "Session summary for June 07, 2013: ADI opened $35.26, ranged $34.92-$35.67, closed $35.63. Volume 2.4M (1.14x 20-day avg). 20-day $35.37 | 50-day $34.48. 5-day return +0.61%. ATR-14 $0.63. RSI 45.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-06-07",
+        "open": 35.26,
+        "high": 35.67,
+        "low": 34.92,
+        "close": 35.63,
+        "volume": 2423500,
+        "ma20": 35.37,
+        "ma50": 34.48,
+        "volume_vs_20d": 1.14,
+        "atr14": 0.63,
+        "chg_5d_pct": 0.61
+      },
+      "weekly_snapshot": {
+        "ticker": "ADI",
+        "week_start": "2013-06-03",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 45.5,
+        "price_vs_sma50": 1.033,
+        "notes": "ADX 17.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADI_2013-05-23_mixed_sample_025_012",
+      "scenario_id": "ADI_2013-05-23",
+      "window_type": "mixed_sample_025",
+      "chronological_index": 12,
+      "state_id": "mixed_sample_025_state_012",
+      "time_spot": "2013-06-10",
+      "reference_session": "2013-06-10",
+      "question": "Session summary for June 10, 2013: ADI opened $35.63, ranged $35.27-$35.63, closed $35.43. Volume 1.8M (0.84x 20-day avg). 20-day $35.35 | 50-day $34.48. 5-day return +0.28%. ATR-14 $0.63. RSI 44.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-06-10",
+        "open": 35.63,
+        "high": 35.63,
+        "low": 35.27,
+        "close": 35.43,
+        "volume": 1804800,
+        "ma20": 35.35,
+        "ma50": 34.48,
+        "volume_vs_20d": 0.84,
+        "atr14": 0.63,
+        "chg_5d_pct": 0.28
+      },
+      "weekly_snapshot": {
+        "ticker": "ADI",
+        "week_start": "2013-06-10",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 44.6,
+        "price_vs_sma50": 1.027,
+        "notes": "ADX 12.5, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADI_2013-05-23_mixed_sample_025_013",
+      "scenario_id": "ADI_2013-05-23",
+      "window_type": "mixed_sample_025",
+      "chronological_index": 13,
+      "state_id": "mixed_sample_025_state_013",
+      "time_spot": "2013-06-11",
+      "reference_session": "2013-06-11",
+      "question": "Session summary for June 11, 2013: ADI opened $35.06, ranged $34.69-$35.22, closed $34.71. Volume 1.3M (0.61x 20-day avg). 20-day $35.32 | 50-day $34.48. 5-day return -2.41%. ATR-14 $0.64. RSI 39.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-06-11",
+        "open": 35.06,
+        "high": 35.22,
+        "low": 34.69,
+        "close": 34.71,
+        "volume": 1300800,
+        "ma20": 35.32,
+        "ma50": 34.48,
+        "volume_vs_20d": 0.61,
+        "atr14": 0.64,
+        "chg_5d_pct": -2.41
+      },
+      "weekly_snapshot": {
+        "ticker": "ADI",
+        "week_start": "2013-06-10",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 39.8,
+        "price_vs_sma50": 1.007,
+        "notes": "ADX 9.9, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADI_2013-05-23_mixed_sample_025_014",
+      "scenario_id": "ADI_2013-05-23",
+      "window_type": "mixed_sample_025",
+      "chronological_index": 14,
+      "state_id": "mixed_sample_025_state_014",
+      "time_spot": "2013-06-12",
+      "reference_session": "2013-06-12",
+      "question": "Session summary for June 12, 2013: ADI opened $35.03, ranged $34.04-$35.10, closed $34.04. Volume 2.2M (1.01x 20-day avg). 20-day $35.25 | 50-day $34.47. 5-day return -2.73%. ATR-14 $0.65. RSI 40.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-06-12",
+        "open": 35.03,
+        "high": 35.1,
+        "low": 34.04,
+        "close": 34.04,
+        "volume": 2172500,
+        "ma20": 35.25,
+        "ma50": 34.47,
+        "volume_vs_20d": 1.01,
+        "atr14": 0.65,
+        "chg_5d_pct": -2.73
+      },
+      "weekly_snapshot": {
+        "ticker": "ADI",
+        "week_start": "2013-06-10",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 40.8,
+        "price_vs_sma50": 0.988,
+        "notes": "ADX 8.8, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADI_2013-05-23_mixed_sample_025_015",
+      "scenario_id": "ADI_2013-05-23",
+      "window_type": "mixed_sample_025",
+      "chronological_index": 15,
+      "state_id": "mixed_sample_025_state_015",
+      "time_spot": "2013-06-13",
+      "reference_session": "2013-06-13",
+      "question": "Session summary for June 13, 2013: ADI opened $34.02, ranged $33.82-$34.86, closed $34.77. Volume 1.5M (0.71x 20-day avg). 20-day $35.20 | 50-day $34.49. 5-day return -0.81%. ATR-14 $0.67. RSI 49.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-06-13",
+        "open": 34.02,
+        "high": 34.86,
+        "low": 33.82,
+        "close": 34.77,
+        "volume": 1527400,
+        "ma20": 35.2,
+        "ma50": 34.49,
+        "volume_vs_20d": 0.71,
+        "atr14": 0.67,
+        "chg_5d_pct": -0.81
+      },
+      "weekly_snapshot": {
+        "ticker": "ADI",
+        "week_start": "2013-06-10",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 49.6,
+        "price_vs_sma50": 1.008,
+        "notes": "ADX 9.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADI_2013-05-23_mixed_sample_025_016",
+      "scenario_id": "ADI_2013-05-23",
+      "window_type": "mixed_sample_025",
+      "chronological_index": 16,
+      "state_id": "mixed_sample_025_state_016",
+      "time_spot": "2013-06-14",
+      "reference_session": "2013-06-14",
+      "question": "Session summary for June 14, 2013: ADI opened $34.80, ranged $34.56-$35.02, closed $34.66. Volume 1.4M (0.66x 20-day avg). 20-day $35.15 | 50-day $34.51. 5-day return -2.73%. ATR-14 $0.67. RSI 49.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-06-14",
+        "open": 34.8,
+        "high": 35.02,
+        "low": 34.56,
+        "close": 34.66,
+        "volume": 1413100,
+        "ma20": 35.15,
+        "ma50": 34.51,
+        "volume_vs_20d": 0.66,
+        "atr14": 0.67,
+        "chg_5d_pct": -2.73
+      },
+      "weekly_snapshot": {
+        "ticker": "ADI",
+        "week_start": "2013-06-10",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 49.4,
+        "price_vs_sma50": 1.004,
+        "notes": "ADX 8.2, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADI_2013-05-23_mixed_sample_025_017",
+      "scenario_id": "ADI_2013-05-23",
+      "window_type": "mixed_sample_025",
+      "chronological_index": 17,
+      "state_id": "mixed_sample_025_state_017",
+      "time_spot": "2013-06-17",
+      "reference_session": "2013-06-17",
+      "question": "Session summary for June 17, 2013: ADI opened $34.78, ranged $34.73-$35.50, closed $35.43. Volume 2.6M (1.17x 20-day avg). 20-day $35.13 | 50-day $34.55. 5-day return +0.00%. ATR-14 $0.69. RSI 55.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-06-17",
+        "open": 34.78,
+        "high": 35.5,
+        "low": 34.73,
+        "close": 35.43,
+        "volume": 2558600,
+        "ma20": 35.13,
+        "ma50": 34.55,
+        "volume_vs_20d": 1.17,
+        "atr14": 0.69,
+        "chg_5d_pct": 0.0
+      },
+      "weekly_snapshot": {
+        "ticker": "ADI",
+        "week_start": "2013-06-17",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 55.4,
+        "price_vs_sma50": 1.025,
+        "notes": "ADX 8.1, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADI_2013-05-23_mixed_sample_025_018",
+      "scenario_id": "ADI_2013-05-23",
+      "window_type": "mixed_sample_025",
+      "chronological_index": 18,
+      "state_id": "mixed_sample_025_state_018",
+      "time_spot": "2013-06-18",
+      "reference_session": "2013-06-18",
+      "question": "Session summary for June 18, 2013: ADI opened $35.48, ranged $35.40-$36.04, closed $35.97. Volume 2.2M (1.02x 20-day avg). 20-day $35.13 | 50-day $34.60. 5-day return +3.64%. ATR-14 $0.69. RSI 56.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-06-18",
+        "open": 35.48,
+        "high": 36.04,
+        "low": 35.4,
+        "close": 35.97,
+        "volume": 2244100,
+        "ma20": 35.13,
+        "ma50": 34.6,
+        "volume_vs_20d": 1.02,
+        "atr14": 0.69,
+        "chg_5d_pct": 3.64
+      },
+      "weekly_snapshot": {
+        "ticker": "ADI",
+        "week_start": "2013-06-17",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 56.7,
+        "price_vs_sma50": 1.04,
+        "notes": "ADX 8.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADI_2013-05-23_mixed_sample_025_019",
+      "scenario_id": "ADI_2013-05-23",
+      "window_type": "mixed_sample_025",
+      "chronological_index": 19,
+      "state_id": "mixed_sample_025_state_019",
+      "time_spot": "2013-06-19",
+      "reference_session": "2013-06-19",
+      "question": "Session summary for June 19, 2013: ADI opened $35.81, ranged $35.46-$36.01, closed $35.50. Volume 1.7M (0.78x 20-day avg). 20-day $35.13 | 50-day $34.64. 5-day return +4.28%. ATR-14 $0.67. RSI 48.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-06-19",
+        "open": 35.81,
+        "high": 36.01,
+        "low": 35.46,
+        "close": 35.5,
+        "volume": 1683200,
+        "ma20": 35.13,
+        "ma50": 34.64,
+        "volume_vs_20d": 0.78,
+        "atr14": 0.67,
+        "chg_5d_pct": 4.28
+      },
+      "weekly_snapshot": {
+        "ticker": "ADI",
+        "week_start": "2013-06-17",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 48.7,
+        "price_vs_sma50": 1.025,
+        "notes": "ADX 8.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADI_2013-05-23_mixed_sample_025_020",
+      "scenario_id": "ADI_2013-05-23",
+      "window_type": "mixed_sample_025",
+      "chronological_index": 20,
+      "state_id": "mixed_sample_025_state_020",
+      "time_spot": "2013-06-20",
+      "reference_session": "2013-06-20",
+      "question": "Session summary for June 20, 2013: ADI opened $35.16, ranged $34.38-$35.17, closed $34.44. Volume 2.0M (0.99x 20-day avg). 20-day $35.10 | 50-day $34.63. 5-day return -0.95%. ATR-14 $0.72. RSI 42.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-06-20",
+        "open": 35.16,
+        "high": 35.17,
+        "low": 34.38,
+        "close": 34.44,
+        "volume": 2047700,
+        "ma20": 35.1,
+        "ma50": 34.63,
+        "volume_vs_20d": 0.99,
+        "atr14": 0.72,
+        "chg_5d_pct": -0.95
+      },
+      "weekly_snapshot": {
+        "ticker": "ADI",
+        "week_start": "2013-06-17",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 42.9,
+        "price_vs_sma50": 0.994,
+        "notes": "ADX 10.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADI_2013-05-23_mixed_sample_025_021",
+      "scenario_id": "ADI_2013-05-23",
+      "window_type": "mixed_sample_025",
+      "chronological_index": 21,
+      "state_id": "mixed_sample_025_state_021",
+      "time_spot": "2013-06-21",
+      "reference_session": "2013-06-21",
+      "question": "Session summary for June 21, 2013: ADI opened $34.63, ranged $34.37-$34.90, closed $34.82. Volume 3.8M (1.80x 20-day avg). 20-day $35.10 | 50-day $34.64. 5-day return +0.47%. ATR-14 $0.72. RSI 46.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-06-21",
+        "open": 34.63,
+        "high": 34.9,
+        "low": 34.37,
+        "close": 34.82,
+        "volume": 3840000,
+        "ma20": 35.1,
+        "ma50": 34.64,
+        "volume_vs_20d": 1.8,
+        "atr14": 0.72,
+        "chg_5d_pct": 0.47
+      },
+      "weekly_snapshot": {
+        "ticker": "ADI",
+        "week_start": "2013-06-17",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 46.4,
+        "price_vs_sma50": 1.005,
+        "notes": "ADX 11.5, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADI_2013-05-23_mixed_sample_025_022",
+      "scenario_id": "ADI_2013-05-23",
+      "window_type": "mixed_sample_025",
+      "chronological_index": 22,
+      "state_id": "mixed_sample_025_state_022",
+      "time_spot": "2013-06-24",
+      "reference_session": "2013-06-24",
+      "question": "Session summary for June 24, 2013: ADI opened $34.45, ranged $33.89-$34.72, closed $33.95. Volume 2.5M (1.13x 20-day avg). 20-day $35.07 | 50-day $34.64. 5-day return -4.18%. ATR-14 $0.73. RSI 39.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-06-24",
+        "open": 34.45,
+        "high": 34.72,
+        "low": 33.89,
+        "close": 33.95,
+        "volume": 2495900,
+        "ma20": 35.07,
+        "ma50": 34.64,
+        "volume_vs_20d": 1.13,
+        "atr14": 0.73,
+        "chg_5d_pct": -4.18
+      },
+      "weekly_snapshot": {
+        "ticker": "ADI",
+        "week_start": "2013-06-24",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 39.5,
+        "price_vs_sma50": 0.98,
+        "notes": "ADX 14.0, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADI_2013-05-23_mixed_sample_025_023",
+      "scenario_id": "ADI_2013-05-23",
+      "window_type": "mixed_sample_025",
+      "chronological_index": 23,
+      "state_id": "mixed_sample_025_state_023",
+      "time_spot": "2013-06-25",
+      "reference_session": "2013-06-25",
+      "question": "Session summary for June 25, 2013: ADI opened $34.40, ranged $33.85-$34.40, closed $34.32. Volume 2.4M (1.06x 20-day avg). 20-day $35.04 | 50-day $34.66. 5-day return -4.59%. ATR-14 $0.72. RSI 45.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-06-25",
+        "open": 34.4,
+        "high": 34.4,
+        "low": 33.85,
+        "close": 34.32,
+        "volume": 2382500,
+        "ma20": 35.04,
+        "ma50": 34.66,
+        "volume_vs_20d": 1.06,
+        "atr14": 0.72,
+        "chg_5d_pct": -4.59
+      },
+      "weekly_snapshot": {
+        "ticker": "ADI",
+        "week_start": "2013-06-24",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 45.6,
+        "price_vs_sma50": 0.99,
+        "notes": "ADX 16.0, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADI_2013-05-23_mixed_sample_025_024",
+      "scenario_id": "ADI_2013-05-23",
+      "window_type": "mixed_sample_025",
+      "chronological_index": 24,
+      "state_id": "mixed_sample_025_state_024",
+      "time_spot": "2013-06-26",
+      "reference_session": "2013-06-26",
+      "question": "Session summary for June 26, 2013: ADI opened $34.70, ranged $34.22-$34.83, closed $34.75. Volume 1.7M (0.78x 20-day avg). 20-day $35.02 | 50-day $34.67. 5-day return -2.11%. ATR-14 $0.73. RSI 48.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-06-26",
+        "open": 34.7,
+        "high": 34.83,
+        "low": 34.22,
+        "close": 34.75,
+        "volume": 1725300,
+        "ma20": 35.02,
+        "ma50": 34.67,
+        "volume_vs_20d": 0.78,
+        "atr14": 0.73,
+        "chg_5d_pct": -2.11
+      },
+      "weekly_snapshot": {
+        "ticker": "ADI",
+        "week_start": "2013-06-24",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 48.1,
+        "price_vs_sma50": 1.002,
+        "notes": "ADX 16.2, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADI_2013-05-23_mixed_sample_025_025",
+      "scenario_id": "ADI_2013-05-23",
+      "window_type": "mixed_sample_025",
+      "chronological_index": 25,
+      "state_id": "mixed_sample_025_state_025",
+      "time_spot": "2013-06-27",
+      "reference_session": "2013-06-27",
+      "question": "Session summary for June 27, 2013: ADI opened $35.02, ranged $34.79-$35.09, closed $34.98. Volume 1.6M (0.75x 20-day avg). 20-day $34.99 | 50-day $34.71. 5-day return +1.57%. ATR-14 $0.70. RSI 45.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-06-27",
+        "open": 35.02,
+        "high": 35.09,
+        "low": 34.79,
+        "close": 34.98,
+        "volume": 1627800,
+        "ma20": 34.99,
+        "ma50": 34.71,
+        "volume_vs_20d": 0.75,
+        "atr14": 0.7,
+        "chg_5d_pct": 1.57
+      },
+      "weekly_snapshot": {
+        "ticker": "ADI",
+        "week_start": "2013-06-24",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 45.7,
+        "price_vs_sma50": 1.008,
+        "notes": "ADX 17.2, MACD bearish"
+      }
+    }
+  ]
+}

@@ -1,0 +1,2898 @@
+{
+  "metadata": {
+    "instrument": "AKAM",
+    "initial_capital": 10000,
+    "window_type": "mixed_sample_030",
+    "description": "AKAM window (2018-08-20 \u2013 2018-09-24) - mixed regime.",
+    "num_mcqs": 25,
+    "notes": "Orders express target exposure fractions relative to the leverage ceiling.",
+    "max_leverage": 2.5,
+    "exposure_buckets": [
+      0.8,
+      0.6,
+      0.4,
+      0.2
+    ],
+    "start_reference": "2018-08-20",
+    "end_reference": "2018-09-24",
+    "regime": "mixed",
+    "bh_return": 0.5
+  },
+  "mcqs": [
+    {
+      "scenario_instance_id": "AKAM_2018-08-20_mixed_sample_030_001",
+      "scenario_id": "AKAM_2018-08-20",
+      "window_type": "mixed_sample_030",
+      "chronological_index": 1,
+      "state_id": "mixed_sample_030_state_001",
+      "time_spot": "2018-08-20",
+      "reference_session": "2018-08-20",
+      "question": "Session summary for August 20, 2018: AKAM opened $71.85, ranged $71.52-$72.74, closed $72.51. Volume 2.1M (0.93x 20-day avg). 20-day $75.06 | 50-day $76.76. 5-day return +0.71%. ATR-14 $2.00. RSI 41.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2018-08-20",
+        "open": 71.85,
+        "high": 72.74,
+        "low": 71.52,
+        "close": 72.51,
+        "volume": 2134700,
+        "ma20": 75.06,
+        "ma50": 76.76,
+        "volume_vs_20d": 0.93,
+        "atr14": 2.0,
+        "chg_5d_pct": 0.71
+      },
+      "weekly_snapshot": {
+        "ticker": "AKAM",
+        "week_start": "2018-08-20",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 41.3,
+        "price_vs_sma50": 0.945,
+        "notes": "ADX 28.6, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AKAM_2018-08-20_mixed_sample_030_002",
+      "scenario_id": "AKAM_2018-08-20",
+      "window_type": "mixed_sample_030",
+      "chronological_index": 2,
+      "state_id": "mixed_sample_030_state_002",
+      "time_spot": "2018-08-21",
+      "reference_session": "2018-08-21",
+      "question": "Session summary for August 21, 2018: AKAM opened $72.62, ranged $72.51-$73.34, closed $72.78. Volume 1.0M (0.43x 20-day avg). 20-day $74.73 | 50-day $76.63. 5-day return +0.80%. ATR-14 $1.64. RSI 54.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2018-08-21",
+        "open": 72.62,
+        "high": 73.34,
+        "low": 72.51,
+        "close": 72.78,
+        "volume": 964100,
+        "ma20": 74.73,
+        "ma50": 76.63,
+        "volume_vs_20d": 0.43,
+        "atr14": 1.64,
+        "chg_5d_pct": 0.8
+      },
+      "weekly_snapshot": {
+        "ticker": "AKAM",
+        "week_start": "2018-08-20",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 54.6,
+        "price_vs_sma50": 0.95,
+        "notes": "ADX 26.4, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AKAM_2018-08-20_mixed_sample_030_003",
+      "scenario_id": "AKAM_2018-08-20",
+      "window_type": "mixed_sample_030",
+      "chronological_index": 3,
+      "state_id": "mixed_sample_030_state_003",
+      "time_spot": "2018-08-22",
+      "reference_session": "2018-08-22",
+      "question": "Session summary for August 22, 2018: AKAM opened $72.75, ranged $72.75-$73.47, closed $73.11. Volume 0.9M (0.40x 20-day avg). 20-day $74.38 | 50-day $76.48. 5-day return +1.98%. ATR-14 $1.38. RSI 44.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2018-08-22",
+        "open": 72.75,
+        "high": 73.47,
+        "low": 72.75,
+        "close": 73.11,
+        "volume": 872500,
+        "ma20": 74.38,
+        "ma50": 76.48,
+        "volume_vs_20d": 0.4,
+        "atr14": 1.38,
+        "chg_5d_pct": 1.98
+      },
+      "weekly_snapshot": {
+        "ticker": "AKAM",
+        "week_start": "2018-08-20",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 44.2,
+        "price_vs_sma50": 0.956,
+        "notes": "ADX 25.6, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AKAM_2018-08-20_mixed_sample_030_004",
+      "scenario_id": "AKAM_2018-08-20",
+      "window_type": "mixed_sample_030",
+      "chronological_index": 4,
+      "state_id": "mixed_sample_030_state_004",
+      "time_spot": "2018-08-23",
+      "reference_session": "2018-08-23",
+      "question": "Session summary for August 23, 2018: AKAM opened $73.05, ranged $72.36-$73.59, closed $73.07. Volume 1.1M (0.50x 20-day avg). 20-day $74.00 | 50-day $76.32. 5-day return +2.35%. ATR-14 $1.39. RSI 42.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2018-08-23",
+        "open": 73.05,
+        "high": 73.59,
+        "low": 72.36,
+        "close": 73.07,
+        "volume": 1065700,
+        "ma20": 74.0,
+        "ma50": 76.32,
+        "volume_vs_20d": 0.5,
+        "atr14": 1.39,
+        "chg_5d_pct": 2.35
+      },
+      "weekly_snapshot": {
+        "ticker": "AKAM",
+        "week_start": "2018-08-20",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 42.2,
+        "price_vs_sma50": 0.957,
+        "notes": "ADX 25.4, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AKAM_2018-08-20_mixed_sample_030_005",
+      "scenario_id": "AKAM_2018-08-20",
+      "window_type": "mixed_sample_030",
+      "chronological_index": 5,
+      "state_id": "mixed_sample_030_state_005",
+      "time_spot": "2018-08-24",
+      "reference_session": "2018-08-24",
+      "question": "Session summary for August 24, 2018: AKAM opened $73.22, ranged $73.02-$73.78, closed $73.40. Volume 1.1M (0.51x 20-day avg). 20-day $73.69 | 50-day $76.17. 5-day return +2.74%. ATR-14 $1.37. RSI 39.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2018-08-24",
+        "open": 73.22,
+        "high": 73.78,
+        "low": 73.02,
+        "close": 73.4,
+        "volume": 1084600,
+        "ma20": 73.69,
+        "ma50": 76.17,
+        "volume_vs_20d": 0.51,
+        "atr14": 1.37,
+        "chg_5d_pct": 2.74
+      },
+      "weekly_snapshot": {
+        "ticker": "AKAM",
+        "week_start": "2018-08-20",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 39.9,
+        "price_vs_sma50": 0.964,
+        "notes": "ADX 25.2, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AKAM_2018-08-20_mixed_sample_030_006",
+      "scenario_id": "AKAM_2018-08-20",
+      "window_type": "mixed_sample_030",
+      "chronological_index": 6,
+      "state_id": "mixed_sample_030_state_006",
+      "time_spot": "2018-08-27",
+      "reference_session": "2018-08-27",
+      "question": "Session summary for August 27, 2018: AKAM opened $73.92, ranged $73.67-$74.55, closed $74.51. Volume 0.9M (0.44x 20-day avg). 20-day $73.65 | 50-day $76.02. 5-day return +2.76%. ATR-14 $1.34. RSI 44.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2018-08-27",
+        "open": 73.92,
+        "high": 74.55,
+        "low": 73.67,
+        "close": 74.51,
+        "volume": 904200,
+        "ma20": 73.65,
+        "ma50": 76.02,
+        "volume_vs_20d": 0.44,
+        "atr14": 1.34,
+        "chg_5d_pct": 2.76
+      },
+      "weekly_snapshot": {
+        "ticker": "AKAM",
+        "week_start": "2018-08-27",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 44.3,
+        "price_vs_sma50": 0.98,
+        "notes": "ADX 25.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AKAM_2018-08-20_mixed_sample_030_007",
+      "scenario_id": "AKAM_2018-08-20",
+      "window_type": "mixed_sample_030",
+      "chronological_index": 7,
+      "state_id": "mixed_sample_030_state_007",
+      "time_spot": "2018-08-28",
+      "reference_session": "2018-08-28",
+      "question": "Session summary for August 28, 2018: AKAM opened $74.76, ranged $74.37-$75.29, closed $74.45. Volume 0.8M (0.43x 20-day avg). 20-day $73.61 | 50-day $75.86. 5-day return +2.29%. ATR-14 $1.28. RSI 38.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2018-08-28",
+        "open": 74.76,
+        "high": 75.29,
+        "low": 74.37,
+        "close": 74.45,
+        "volume": 841400,
+        "ma20": 73.61,
+        "ma50": 75.86,
+        "volume_vs_20d": 0.43,
+        "atr14": 1.28,
+        "chg_5d_pct": 2.29
+      },
+      "weekly_snapshot": {
+        "ticker": "AKAM",
+        "week_start": "2018-08-27",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 38.4,
+        "price_vs_sma50": 0.981,
+        "notes": "ADX 25.5, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AKAM_2018-08-20_mixed_sample_030_008",
+      "scenario_id": "AKAM_2018-08-20",
+      "window_type": "mixed_sample_030",
+      "chronological_index": 8,
+      "state_id": "mixed_sample_030_state_008",
+      "time_spot": "2018-08-29",
+      "reference_session": "2018-08-29",
+      "question": "Session summary for August 29, 2018: AKAM opened $74.56, ranged $74.03-$75.36, closed $75.23. Volume 1.0M (0.63x 20-day avg). 20-day $73.79 | 50-day $75.73. 5-day return +2.90%. ATR-14 $1.30. RSI 41.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2018-08-29",
+        "open": 74.56,
+        "high": 75.36,
+        "low": 74.03,
+        "close": 75.23,
+        "volume": 1007100,
+        "ma20": 73.79,
+        "ma50": 75.73,
+        "volume_vs_20d": 0.63,
+        "atr14": 1.3,
+        "chg_5d_pct": 2.9
+      },
+      "weekly_snapshot": {
+        "ticker": "AKAM",
+        "week_start": "2018-08-27",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 41.9,
+        "price_vs_sma50": 0.993,
+        "notes": "ADX 26.7, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AKAM_2018-08-20_mixed_sample_030_009",
+      "scenario_id": "AKAM_2018-08-20",
+      "window_type": "mixed_sample_030",
+      "chronological_index": 9,
+      "state_id": "mixed_sample_030_state_009",
+      "time_spot": "2018-08-30",
+      "reference_session": "2018-08-30",
+      "question": "Session summary for August 30, 2018: AKAM opened $75.12, ranged $74.40-$75.23, closed $74.71. Volume 0.7M (0.49x 20-day avg). 20-day $73.81 | 50-day $75.58. 5-day return +2.24%. ATR-14 $1.19. RSI 50.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2018-08-30",
+        "open": 75.12,
+        "high": 75.23,
+        "low": 74.4,
+        "close": 74.71,
+        "volume": 726900,
+        "ma20": 73.81,
+        "ma50": 75.58,
+        "volume_vs_20d": 0.49,
+        "atr14": 1.19,
+        "chg_5d_pct": 2.24
+      },
+      "weekly_snapshot": {
+        "ticker": "AKAM",
+        "week_start": "2018-08-27",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 50.3,
+        "price_vs_sma50": 0.988,
+        "notes": "ADX 26.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AKAM_2018-08-20_mixed_sample_030_010",
+      "scenario_id": "AKAM_2018-08-20",
+      "window_type": "mixed_sample_030",
+      "chronological_index": 10,
+      "state_id": "mixed_sample_030_state_010",
+      "time_spot": "2018-08-31",
+      "reference_session": "2018-08-31",
+      "question": "Session summary for August 31, 2018: AKAM opened $74.63, ranged $74.42-$75.25, closed $75.14. Volume 1.1M (0.78x 20-day avg). 20-day $73.84 | 50-day $75.45. 5-day return +2.37%. ATR-14 $1.06. RSI 76.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2018-08-31",
+        "open": 74.63,
+        "high": 75.25,
+        "low": 74.42,
+        "close": 75.14,
+        "volume": 1146300,
+        "ma20": 73.84,
+        "ma50": 75.45,
+        "volume_vs_20d": 0.78,
+        "atr14": 1.06,
+        "chg_5d_pct": 2.37
+      },
+      "weekly_snapshot": {
+        "ticker": "AKAM",
+        "week_start": "2018-08-27",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 76.2,
+        "price_vs_sma50": 0.996,
+        "notes": "ADX 25.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AKAM_2018-08-20_mixed_sample_030_011",
+      "scenario_id": "AKAM_2018-08-20",
+      "window_type": "mixed_sample_030",
+      "chronological_index": 11,
+      "state_id": "mixed_sample_030_state_011",
+      "time_spot": "2018-09-04",
+      "reference_session": "2018-09-04",
+      "question": "Session summary for September 04, 2018: AKAM opened $74.66, ranged $74.19-$74.82, closed $74.74. Volume 0.8M (0.58x 20-day avg). 20-day $73.81 | 50-day $75.34. 5-day return +0.31%. ATR-14 $1.05. RSI 70.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2018-09-04",
+        "open": 74.66,
+        "high": 74.82,
+        "low": 74.19,
+        "close": 74.74,
+        "volume": 816400,
+        "ma20": 73.81,
+        "ma50": 75.34,
+        "volume_vs_20d": 0.58,
+        "atr14": 1.05,
+        "chg_5d_pct": 0.31
+      },
+      "weekly_snapshot": {
+        "ticker": "AKAM",
+        "week_start": "2018-09-03",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 70.5,
+        "price_vs_sma50": 0.992,
+        "notes": "ADX 24.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AKAM_2018-08-20_mixed_sample_030_012",
+      "scenario_id": "AKAM_2018-08-20",
+      "window_type": "mixed_sample_030",
+      "chronological_index": 12,
+      "state_id": "mixed_sample_030_state_012",
+      "time_spot": "2018-09-05",
+      "reference_session": "2018-09-05",
+      "question": "Session summary for September 05, 2018: AKAM opened $74.51, ranged $73.08-$74.53, closed $73.69. Volume 1.1M (0.79x 20-day avg). 20-day $73.71 | 50-day $75.26. 5-day return -1.02%. ATR-14 $1.04. RSI 64.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2018-09-05",
+        "open": 74.51,
+        "high": 74.53,
+        "low": 73.08,
+        "close": 73.69,
+        "volume": 1095500,
+        "ma20": 73.71,
+        "ma50": 75.26,
+        "volume_vs_20d": 0.79,
+        "atr14": 1.04,
+        "chg_5d_pct": -1.02
+      },
+      "weekly_snapshot": {
+        "ticker": "AKAM",
+        "week_start": "2018-09-03",
+        "trend_regime": "downtrend",
+        "volatility_regime": "low",
+        "rsi_14": 64.8,
+        "price_vs_sma50": 0.979,
+        "notes": "ADX 22.7, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AKAM_2018-08-20_mixed_sample_030_013",
+      "scenario_id": "AKAM_2018-08-20",
+      "window_type": "mixed_sample_030",
+      "chronological_index": 13,
+      "state_id": "mixed_sample_030_state_013",
+      "time_spot": "2018-09-06",
+      "reference_session": "2018-09-06",
+      "question": "Session summary for September 06, 2018: AKAM opened $73.63, ranged $73.39-$74.54, closed $74.28. Volume 0.9M (0.66x 20-day avg). 20-day $73.59 | 50-day $75.23. 5-day return -1.26%. ATR-14 $1.03. RSI 70.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2018-09-06",
+        "open": 73.63,
+        "high": 74.54,
+        "low": 73.39,
+        "close": 74.28,
+        "volume": 890300,
+        "ma20": 73.59,
+        "ma50": 75.23,
+        "volume_vs_20d": 0.66,
+        "atr14": 1.03,
+        "chg_5d_pct": -1.26
+      },
+      "weekly_snapshot": {
+        "ticker": "AKAM",
+        "week_start": "2018-09-03",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 70.6,
+        "price_vs_sma50": 0.987,
+        "notes": "ADX 20.9, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AKAM_2018-08-20_mixed_sample_030_014",
+      "scenario_id": "AKAM_2018-08-20",
+      "window_type": "mixed_sample_030",
+      "chronological_index": 14,
+      "state_id": "mixed_sample_030_state_014",
+      "time_spot": "2018-09-07",
+      "reference_session": "2018-09-07",
+      "question": "Session summary for September 07, 2018: AKAM opened $73.62, ranged $73.15-$74.88, closed $74.51. Volume 0.9M (0.66x 20-day avg). 20-day $73.48 | 50-day $75.27. 5-day return -0.27%. ATR-14 $1.10. RSI 71.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2018-09-07",
+        "open": 73.62,
+        "high": 74.88,
+        "low": 73.15,
+        "close": 74.51,
+        "volume": 854200,
+        "ma20": 73.48,
+        "ma50": 75.27,
+        "volume_vs_20d": 0.66,
+        "atr14": 1.1,
+        "chg_5d_pct": -0.27
+      },
+      "weekly_snapshot": {
+        "ticker": "AKAM",
+        "week_start": "2018-09-03",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 71.3,
+        "price_vs_sma50": 0.99,
+        "notes": "ADX 20.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AKAM_2018-08-20_mixed_sample_030_015",
+      "scenario_id": "AKAM_2018-08-20",
+      "window_type": "mixed_sample_030",
+      "chronological_index": 15,
+      "state_id": "mixed_sample_030_state_015",
+      "time_spot": "2018-09-10",
+      "reference_session": "2018-09-10",
+      "question": "Session summary for September 10, 2018: AKAM opened $75.84, ranged $75.68-$77.13, closed $76.75. Volume 1.5M (1.15x 20-day avg). 20-day $73.58 | 50-day $75.36. 5-day return +2.14%. ATR-14 $1.19. RSI 75.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2018-09-10",
+        "open": 75.84,
+        "high": 77.13,
+        "low": 75.68,
+        "close": 76.75,
+        "volume": 1458900,
+        "ma20": 73.58,
+        "ma50": 75.36,
+        "volume_vs_20d": 1.15,
+        "atr14": 1.19,
+        "chg_5d_pct": 2.14
+      },
+      "weekly_snapshot": {
+        "ticker": "AKAM",
+        "week_start": "2018-09-10",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 75.3,
+        "price_vs_sma50": 1.019,
+        "notes": "ADX 21.8, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AKAM_2018-08-20_mixed_sample_030_016",
+      "scenario_id": "AKAM_2018-08-20",
+      "window_type": "mixed_sample_030",
+      "chronological_index": 16,
+      "state_id": "mixed_sample_030_state_016",
+      "time_spot": "2018-09-11",
+      "reference_session": "2018-09-11",
+      "question": "Session summary for September 11, 2018: AKAM opened $76.53, ranged $76.24-$77.35, closed $76.90. Volume 0.8M (0.68x 20-day avg). 20-day $73.83 | 50-day $75.43. 5-day return +2.89%. ATR-14 $1.21. RSI 74.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2018-09-11",
+        "open": 76.53,
+        "high": 77.35,
+        "low": 76.24,
+        "close": 76.9,
+        "volume": 830000,
+        "ma20": 73.83,
+        "ma50": 75.43,
+        "volume_vs_20d": 0.68,
+        "atr14": 1.21,
+        "chg_5d_pct": 2.89
+      },
+      "weekly_snapshot": {
+        "ticker": "AKAM",
+        "week_start": "2018-09-10",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 74.9,
+        "price_vs_sma50": 1.02,
+        "notes": "ADX 23.8, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AKAM_2018-08-20_mixed_sample_030_017",
+      "scenario_id": "AKAM_2018-08-20",
+      "window_type": "mixed_sample_030",
+      "chronological_index": 17,
+      "state_id": "mixed_sample_030_state_017",
+      "time_spot": "2018-09-12",
+      "reference_session": "2018-09-12",
+      "question": "Session summary for September 12, 2018: AKAM opened $76.70, ranged $75.68-$76.94, closed $76.01. Volume 1.0M (0.87x 20-day avg). 20-day $74.02 | 50-day $75.46. 5-day return +3.15%. ATR-14 $1.25. RSI 66.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2018-09-12",
+        "open": 76.7,
+        "high": 76.94,
+        "low": 75.68,
+        "close": 76.01,
+        "volume": 1022000,
+        "ma20": 74.02,
+        "ma50": 75.46,
+        "volume_vs_20d": 0.87,
+        "atr14": 1.25,
+        "chg_5d_pct": 3.15
+      },
+      "weekly_snapshot": {
+        "ticker": "AKAM",
+        "week_start": "2018-09-10",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 66.4,
+        "price_vs_sma50": 1.007,
+        "notes": "ADX 25.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AKAM_2018-08-20_mixed_sample_030_018",
+      "scenario_id": "AKAM_2018-08-20",
+      "window_type": "mixed_sample_030",
+      "chronological_index": 18,
+      "state_id": "mixed_sample_030_state_018",
+      "time_spot": "2018-09-13",
+      "reference_session": "2018-09-13",
+      "question": "Session summary for September 13, 2018: AKAM opened $76.59, ranged $75.67-$76.84, closed $76.16. Volume 0.9M (0.79x 20-day avg). 20-day $74.24 | 50-day $75.50. 5-day return +2.53%. ATR-14 $1.25. RSI 67.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2018-09-13",
+        "open": 76.59,
+        "high": 76.84,
+        "low": 75.67,
+        "close": 76.16,
+        "volume": 864400,
+        "ma20": 74.24,
+        "ma50": 75.5,
+        "volume_vs_20d": 0.79,
+        "atr14": 1.25,
+        "chg_5d_pct": 2.53
+      },
+      "weekly_snapshot": {
+        "ticker": "AKAM",
+        "week_start": "2018-09-10",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 67.3,
+        "price_vs_sma50": 1.009,
+        "notes": "ADX 26.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AKAM_2018-08-20_mixed_sample_030_019",
+      "scenario_id": "AKAM_2018-08-20",
+      "window_type": "mixed_sample_030",
+      "chronological_index": 19,
+      "state_id": "mixed_sample_030_state_019",
+      "time_spot": "2018-09-14",
+      "reference_session": "2018-09-14",
+      "question": "Session summary for September 14, 2018: AKAM opened $76.19, ranged $75.02-$76.30, closed $75.80. Volume 1.5M (1.41x 20-day avg). 20-day $74.46 | 50-day $75.53. 5-day return +1.73%. ATR-14 $1.28. RSI 63.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2018-09-14",
+        "open": 76.19,
+        "high": 76.3,
+        "low": 75.02,
+        "close": 75.8,
+        "volume": 1525500,
+        "ma20": 74.46,
+        "ma50": 75.53,
+        "volume_vs_20d": 1.41,
+        "atr14": 1.28,
+        "chg_5d_pct": 1.73
+      },
+      "weekly_snapshot": {
+        "ticker": "AKAM",
+        "week_start": "2018-09-10",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 63.4,
+        "price_vs_sma50": 1.004,
+        "notes": "ADX 26.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AKAM_2018-08-20_mixed_sample_030_020",
+      "scenario_id": "AKAM_2018-08-20",
+      "window_type": "mixed_sample_030",
+      "chronological_index": 20,
+      "state_id": "mixed_sample_030_state_020",
+      "time_spot": "2018-09-17",
+      "reference_session": "2018-09-17",
+      "question": "Session summary for September 17, 2018: AKAM opened $75.67, ranged $74.15-$75.99, closed $74.28. Volume 1.4M (1.31x 20-day avg). 20-day $74.60 | 50-day $75.51. 5-day return -3.22%. ATR-14 $1.33. RSI 48.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2018-09-17",
+        "open": 75.67,
+        "high": 75.99,
+        "low": 74.15,
+        "close": 74.28,
+        "volume": 1409300,
+        "ma20": 74.6,
+        "ma50": 75.51,
+        "volume_vs_20d": 1.31,
+        "atr14": 1.33,
+        "chg_5d_pct": -3.22
+      },
+      "weekly_snapshot": {
+        "ticker": "AKAM",
+        "week_start": "2018-09-17",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 48.8,
+        "price_vs_sma50": 0.984,
+        "notes": "ADX 25.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AKAM_2018-08-20_mixed_sample_030_021",
+      "scenario_id": "AKAM_2018-08-20",
+      "window_type": "mixed_sample_030",
+      "chronological_index": 21,
+      "state_id": "mixed_sample_030_state_021",
+      "time_spot": "2018-09-18",
+      "reference_session": "2018-09-18",
+      "question": "Session summary for September 18, 2018: AKAM opened $74.14, ranged $74.14-$75.39, closed $74.33. Volume 1.0M (0.96x 20-day avg). 20-day $74.69 | 50-day $75.47. 5-day return -3.34%. ATR-14 $1.36. RSI 49.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2018-09-18",
+        "open": 74.14,
+        "high": 75.39,
+        "low": 74.14,
+        "close": 74.33,
+        "volume": 977800,
+        "ma20": 74.69,
+        "ma50": 75.47,
+        "volume_vs_20d": 0.96,
+        "atr14": 1.36,
+        "chg_5d_pct": -3.34
+      },
+      "weekly_snapshot": {
+        "ticker": "AKAM",
+        "week_start": "2018-09-17",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 49.4,
+        "price_vs_sma50": 0.985,
+        "notes": "ADX 25.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AKAM_2018-08-20_mixed_sample_030_022",
+      "scenario_id": "AKAM_2018-08-20",
+      "window_type": "mixed_sample_030",
+      "chronological_index": 22,
+      "state_id": "mixed_sample_030_state_022",
+      "time_spot": "2018-09-19",
+      "reference_session": "2018-09-19",
+      "question": "Session summary for September 19, 2018: AKAM opened $74.14, ranged $73.44-$74.86, closed $73.74. Volume 1.2M (1.17x 20-day avg). 20-day $74.74 | 50-day $75.43. 5-day return -2.99%. ATR-14 $1.36. RSI 41.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2018-09-19",
+        "open": 74.14,
+        "high": 74.86,
+        "low": 73.44,
+        "close": 73.74,
+        "volume": 1201100,
+        "ma20": 74.74,
+        "ma50": 75.43,
+        "volume_vs_20d": 1.17,
+        "atr14": 1.36,
+        "chg_5d_pct": -2.99
+      },
+      "weekly_snapshot": {
+        "ticker": "AKAM",
+        "week_start": "2018-09-17",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 41.9,
+        "price_vs_sma50": 0.978,
+        "notes": "ADX 24.2, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AKAM_2018-08-20_mixed_sample_030_023",
+      "scenario_id": "AKAM_2018-08-20",
+      "window_type": "mixed_sample_030",
+      "chronological_index": 23,
+      "state_id": "mixed_sample_030_state_023",
+      "time_spot": "2018-09-20",
+      "reference_session": "2018-09-20",
+      "question": "Session summary for September 20, 2018: AKAM opened $73.65, ranged $73.65-$74.42, closed $74.17. Volume 1.1M (1.07x 20-day avg). 20-day $74.79 | 50-day $75.38. 5-day return -2.61%. ATR-14 $1.36. RSI 47.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2018-09-20",
+        "open": 73.65,
+        "high": 74.42,
+        "low": 73.65,
+        "close": 74.17,
+        "volume": 1110700,
+        "ma20": 74.79,
+        "ma50": 75.38,
+        "volume_vs_20d": 1.07,
+        "atr14": 1.36,
+        "chg_5d_pct": -2.61
+      },
+      "weekly_snapshot": {
+        "ticker": "AKAM",
+        "week_start": "2018-09-17",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 47.0,
+        "price_vs_sma50": 0.984,
+        "notes": "ADX 24.5, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AKAM_2018-08-20_mixed_sample_030_024",
+      "scenario_id": "AKAM_2018-08-20",
+      "window_type": "mixed_sample_030",
+      "chronological_index": 24,
+      "state_id": "mixed_sample_030_state_024",
+      "time_spot": "2018-09-21",
+      "reference_session": "2018-09-21",
+      "question": "Session summary for September 21, 2018: AKAM opened $74.50, ranged $73.42-$74.65, closed $73.50. Volume 2.4M (2.16x 20-day avg). 20-day $74.82 | 50-day $75.30. 5-day return -3.03%. ATR-14 $1.39. RSI 41.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2018-09-21",
+        "open": 74.5,
+        "high": 74.65,
+        "low": 73.42,
+        "close": 73.5,
+        "volume": 2397800,
+        "ma20": 74.82,
+        "ma50": 75.3,
+        "volume_vs_20d": 2.16,
+        "atr14": 1.39,
+        "chg_5d_pct": -3.03
+      },
+      "weekly_snapshot": {
+        "ticker": "AKAM",
+        "week_start": "2018-09-17",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 41.2,
+        "price_vs_sma50": 0.976,
+        "notes": "ADX 24.1, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AKAM_2018-08-20_mixed_sample_030_025",
+      "scenario_id": "AKAM_2018-08-20",
+      "window_type": "mixed_sample_030",
+      "chronological_index": 25,
+      "state_id": "mixed_sample_030_state_025",
+      "time_spot": "2018-09-24",
+      "reference_session": "2018-09-24",
+      "question": "Session summary for September 24, 2018: AKAM opened $73.28, ranged $72.27-$73.41, closed $72.87. Volume 1.3M (1.19x 20-day avg). 20-day $74.79 | 50-day $75.21. 5-day return -1.90%. ATR-14 $1.41. RSI 40.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2018-09-24",
+        "open": 73.28,
+        "high": 73.41,
+        "low": 72.27,
+        "close": 72.87,
+        "volume": 1329000,
+        "ma20": 74.79,
+        "ma50": 75.21,
+        "volume_vs_20d": 1.19,
+        "atr14": 1.41,
+        "chg_5d_pct": -1.9
+      },
+      "weekly_snapshot": {
+        "ticker": "AKAM",
+        "week_start": "2018-09-24",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 40.2,
+        "price_vs_sma50": 0.969,
+        "notes": "ADX 24.5, MACD bearish"
+      }
+    }
+  ]
+}

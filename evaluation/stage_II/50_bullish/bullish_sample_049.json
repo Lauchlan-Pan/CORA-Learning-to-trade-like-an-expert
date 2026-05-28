@@ -1,0 +1,2898 @@
+{
+  "metadata": {
+    "instrument": "ADP",
+    "initial_capital": 10000,
+    "window_type": "bullish_sample_049",
+    "description": "ADP window (2022-07-14 \u2013 2022-08-17) - bullish regime.",
+    "num_mcqs": 25,
+    "notes": "Orders express target exposure fractions relative to the leverage ceiling.",
+    "max_leverage": 2.5,
+    "exposure_buckets": [
+      0.8,
+      0.6,
+      0.4,
+      0.2
+    ],
+    "start_reference": "2022-07-14",
+    "end_reference": "2022-08-17",
+    "regime": "bullish",
+    "bh_return": 23.43
+  },
+  "mcqs": [
+    {
+      "scenario_instance_id": "ADP_2022-07-14_bullish_sample_049_001",
+      "scenario_id": "ADP_2022-07-14",
+      "window_type": "bullish_sample_049",
+      "chronological_index": 1,
+      "state_id": "bullish_sample_049_state_001",
+      "time_spot": "2022-07-14",
+      "reference_session": "2022-07-14",
+      "question": "Session summary for July 14, 2022: ADP opened $195.75, ranged $194.12-$198.73, closed $198.18. Volume 1.0M (0.60x 20-day avg). 20-day $198.54 | 50-day $199.92. 5-day return -2.46%. ATR-14 $4.82. RSI 50.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-07-14",
+        "open": 195.75,
+        "high": 198.73,
+        "low": 194.12,
+        "close": 198.18,
+        "volume": 954200,
+        "ma20": 198.54,
+        "ma50": 199.92,
+        "volume_vs_20d": 0.6,
+        "atr14": 4.82,
+        "chg_5d_pct": -2.46
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2022-07-11",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 50.9,
+        "price_vs_sma50": 0.991,
+        "notes": "ADX 12.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2022-07-14_bullish_sample_049_002",
+      "scenario_id": "ADP_2022-07-14",
+      "window_type": "bullish_sample_049",
+      "chronological_index": 2,
+      "state_id": "bullish_sample_049_state_002",
+      "time_spot": "2022-07-15",
+      "reference_session": "2022-07-15",
+      "question": "Session summary for July 15, 2022: ADP opened $200.19, ranged $199.85-$201.77, closed $200.93. Volume 1.1M (0.73x 20-day avg). 20-day $198.87 | 50-day $199.80. 5-day return -1.45%. ATR-14 $4.52. RSI 41.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-07-15",
+        "open": 200.19,
+        "high": 201.77,
+        "low": 199.85,
+        "close": 200.93,
+        "volume": 1139500,
+        "ma20": 198.87,
+        "ma50": 199.8,
+        "volume_vs_20d": 0.73,
+        "atr14": 4.52,
+        "chg_5d_pct": -1.45
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2022-07-11",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 41.7,
+        "price_vs_sma50": 1.006,
+        "notes": "ADX 14.2, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2022-07-14_bullish_sample_049_003",
+      "scenario_id": "ADP_2022-07-14",
+      "window_type": "bullish_sample_049",
+      "chronological_index": 3,
+      "state_id": "bullish_sample_049_state_003",
+      "time_spot": "2022-07-18",
+      "reference_session": "2022-07-18",
+      "question": "Session summary for July 18, 2022: ADP opened $201.07, ranged $197.52-$202.32, closed $198.28. Volume 1.2M (0.81x 20-day avg). 20-day $199.41 | 50-day $199.49. 5-day return -1.67%. ATR-14 $4.56. RSI 38.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-07-18",
+        "open": 201.07,
+        "high": 202.32,
+        "low": 197.52,
+        "close": 198.28,
+        "volume": 1237000,
+        "ma20": 199.41,
+        "ma50": 199.49,
+        "volume_vs_20d": 0.81,
+        "atr14": 4.56,
+        "chg_5d_pct": -1.67
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2022-07-18",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 38.5,
+        "price_vs_sma50": 0.994,
+        "notes": "ADX 16.8, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2022-07-14_bullish_sample_049_004",
+      "scenario_id": "ADP_2022-07-14",
+      "window_type": "bullish_sample_049",
+      "chronological_index": 4,
+      "state_id": "bullish_sample_049_state_004",
+      "time_spot": "2022-07-19",
+      "reference_session": "2022-07-19",
+      "question": "Session summary for July 19, 2022: ADP opened $201.04, ranged $200.07-$205.86, closed $205.45. Volume 1.7M (1.17x 20-day avg). 20-day $200.28 | 50-day $199.52. 5-day return +3.14%. ATR-14 $4.66. RSI 57.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-07-19",
+        "open": 201.04,
+        "high": 205.86,
+        "low": 200.07,
+        "close": 205.45,
+        "volume": 1702600,
+        "ma20": 200.28,
+        "ma50": 199.52,
+        "volume_vs_20d": 1.17,
+        "atr14": 4.66,
+        "chg_5d_pct": 3.14
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2022-07-18",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 57.2,
+        "price_vs_sma50": 1.03,
+        "notes": "ADX 17.9, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2022-07-14_bullish_sample_049_005",
+      "scenario_id": "ADP_2022-07-14",
+      "window_type": "bullish_sample_049",
+      "chronological_index": 5,
+      "state_id": "bullish_sample_049_state_005",
+      "time_spot": "2022-07-20",
+      "reference_session": "2022-07-20",
+      "question": "Session summary for July 20, 2022: ADP opened $204.99, ranged $201.42-$205.55, closed $202.73. Volume 2.2M (1.51x 20-day avg). 20-day $200.71 | 50-day $199.52. 5-day return +2.36%. ATR-14 $4.59. RSI 55.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-07-20",
+        "open": 204.99,
+        "high": 205.55,
+        "low": 201.42,
+        "close": 202.73,
+        "volume": 2229600,
+        "ma20": 200.71,
+        "ma50": 199.52,
+        "volume_vs_20d": 1.51,
+        "atr14": 4.59,
+        "chg_5d_pct": 2.36
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2022-07-18",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 55.5,
+        "price_vs_sma50": 1.016,
+        "notes": "ADX 17.7, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2022-07-14_bullish_sample_049_006",
+      "scenario_id": "ADP_2022-07-14",
+      "window_type": "bullish_sample_049",
+      "chronological_index": 6,
+      "state_id": "bullish_sample_049_state_006",
+      "time_spot": "2022-07-21",
+      "reference_session": "2022-07-21",
+      "question": "Session summary for July 21, 2022: ADP opened $202.44, ranged $201.48-$204.92, closed $204.64. Volume 2.4M (1.56x 20-day avg). 20-day $201.22 | 50-day $199.70. 5-day return +3.26%. ATR-14 $4.57. RSI 61.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-07-21",
+        "open": 202.44,
+        "high": 204.92,
+        "low": 201.48,
+        "close": 204.64,
+        "volume": 2369000,
+        "ma20": 201.22,
+        "ma50": 199.7,
+        "volume_vs_20d": 1.56,
+        "atr14": 4.57,
+        "chg_5d_pct": 3.26
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2022-07-18",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 61.5,
+        "price_vs_sma50": 1.025,
+        "notes": "ADX 17.4, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2022-07-14_bullish_sample_049_007",
+      "scenario_id": "ADP_2022-07-14",
+      "window_type": "bullish_sample_049",
+      "chronological_index": 7,
+      "state_id": "bullish_sample_049_state_007",
+      "time_spot": "2022-07-22",
+      "reference_session": "2022-07-22",
+      "question": "Session summary for July 22, 2022: ADP opened $205.60, ranged $205.28-$208.66, closed $206.76. Volume 1.6M (1.07x 20-day avg). 20-day $201.67 | 50-day $199.86. 5-day return +2.90%. ATR-14 $4.56. RSI 60.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-07-22",
+        "open": 205.6,
+        "high": 208.66,
+        "low": 205.28,
+        "close": 206.76,
+        "volume": 1647800,
+        "ma20": 201.67,
+        "ma50": 199.86,
+        "volume_vs_20d": 1.07,
+        "atr14": 4.56,
+        "chg_5d_pct": 2.9
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2022-07-18",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 60.5,
+        "price_vs_sma50": 1.034,
+        "notes": "ADX 17.7, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2022-07-14_bullish_sample_049_008",
+      "scenario_id": "ADP_2022-07-14",
+      "window_type": "bullish_sample_049",
+      "chronological_index": 8,
+      "state_id": "bullish_sample_049_state_008",
+      "time_spot": "2022-07-25",
+      "reference_session": "2022-07-25",
+      "question": "Session summary for July 25, 2022: ADP opened $207.37, ranged $203.48-$207.58, closed $204.92. Volume 0.9M (0.59x 20-day avg). 20-day $201.65 | 50-day $200.07. 5-day return +3.35%. ATR-14 $4.35. RSI 58.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-07-25",
+        "open": 207.37,
+        "high": 207.58,
+        "low": 203.48,
+        "close": 204.92,
+        "volume": 872700,
+        "ma20": 201.65,
+        "ma50": 200.07,
+        "volume_vs_20d": 0.59,
+        "atr14": 4.35,
+        "chg_5d_pct": 3.35
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2022-07-25",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 58.4,
+        "price_vs_sma50": 1.024,
+        "notes": "ADX 17.9, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2022-07-14_bullish_sample_049_009",
+      "scenario_id": "ADP_2022-07-14",
+      "window_type": "bullish_sample_049",
+      "chronological_index": 9,
+      "state_id": "bullish_sample_049_state_009",
+      "time_spot": "2022-07-26",
+      "reference_session": "2022-07-26",
+      "question": "Session summary for July 26, 2022: ADP opened $204.70, ranged $203.02-$206.44, closed $204.48. Volume 1.6M (1.05x 20-day avg). 20-day $201.63 | 50-day $200.28. 5-day return -0.47%. ATR-14 $4.16. RSI 51.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-07-26",
+        "open": 204.7,
+        "high": 206.44,
+        "low": 203.02,
+        "close": 204.48,
+        "volume": 1559500,
+        "ma20": 201.63,
+        "ma50": 200.28,
+        "volume_vs_20d": 1.05,
+        "atr14": 4.16,
+        "chg_5d_pct": -0.47
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2022-07-25",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 51.1,
+        "price_vs_sma50": 1.021,
+        "notes": "ADX 16.7, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2022-07-14_bullish_sample_049_010",
+      "scenario_id": "ADP_2022-07-14",
+      "window_type": "bullish_sample_049",
+      "chronological_index": 10,
+      "state_id": "bullish_sample_049_state_010",
+      "time_spot": "2022-07-27",
+      "reference_session": "2022-07-27",
+      "question": "Session summary for July 27, 2022: ADP opened $206.38, ranged $205.11-$220.22, closed $219.61. Volume 2.9M (1.85x 20-day avg). 20-day $202.57 | 50-day $200.77. 5-day return +8.33%. ATR-14 $5.11. RSI 69.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-07-27",
+        "open": 206.38,
+        "high": 220.22,
+        "low": 205.11,
+        "close": 219.61,
+        "volume": 2880100,
+        "ma20": 202.57,
+        "ma50": 200.77,
+        "volume_vs_20d": 1.85,
+        "atr14": 5.11,
+        "chg_5d_pct": 8.33
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2022-07-25",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 69.0,
+        "price_vs_sma50": 1.094,
+        "notes": "ADX 17.5, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2022-07-14_bullish_sample_049_011",
+      "scenario_id": "ADP_2022-07-14",
+      "window_type": "bullish_sample_049",
+      "chronological_index": 11,
+      "state_id": "bullish_sample_049_state_011",
+      "time_spot": "2022-07-28",
+      "reference_session": "2022-07-28",
+      "question": "Session summary for July 28, 2022: ADP opened $220.51, ranged $218.66-$225.46, closed $224.72. Volume 1.8M (1.17x 20-day avg). 20-day $203.85 | 50-day $201.37. 5-day return +9.81%. ATR-14 $5.39. RSI 71.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-07-28",
+        "open": 220.51,
+        "high": 225.46,
+        "low": 218.66,
+        "close": 224.72,
+        "volume": 1834700,
+        "ma20": 203.85,
+        "ma50": 201.37,
+        "volume_vs_20d": 1.17,
+        "atr14": 5.39,
+        "chg_5d_pct": 9.81
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2022-07-25",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 71.8,
+        "price_vs_sma50": 1.116,
+        "notes": "ADX 18.2, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2022-07-14_bullish_sample_049_012",
+      "scenario_id": "ADP_2022-07-14",
+      "window_type": "bullish_sample_049",
+      "chronological_index": 12,
+      "state_id": "bullish_sample_049_state_012",
+      "time_spot": "2022-07-29",
+      "reference_session": "2022-07-29",
+      "question": "Session summary for July 29, 2022: ADP opened $224.98, ranged $223.15-$227.12, closed $226.25. Volume 1.8M (1.17x 20-day avg). 20-day $205.31 | 50-day $201.88. 5-day return +9.43%. ATR-14 $5.46. RSI 76.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-07-29",
+        "open": 224.98,
+        "high": 227.12,
+        "low": 223.15,
+        "close": 226.25,
+        "volume": 1815600,
+        "ma20": 205.31,
+        "ma50": 201.88,
+        "volume_vs_20d": 1.17,
+        "atr14": 5.46,
+        "chg_5d_pct": 9.43
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2022-07-25",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 76.1,
+        "price_vs_sma50": 1.121,
+        "notes": "ADX 18.8, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2022-07-14_bullish_sample_049_013",
+      "scenario_id": "ADP_2022-07-14",
+      "window_type": "bullish_sample_049",
+      "chronological_index": 13,
+      "state_id": "bullish_sample_049_state_013",
+      "time_spot": "2022-08-01",
+      "reference_session": "2022-08-01",
+      "question": "Session summary for August 01, 2022: ADP opened $225.31, ranged $224.79-$227.56, closed $226.44. Volume 1.2M (0.79x 20-day avg). 20-day $206.63 | 50-day $202.52. 5-day return +10.50%. ATR-14 $5.26. RSI 80.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-08-01",
+        "open": 225.31,
+        "high": 227.56,
+        "low": 224.79,
+        "close": 226.44,
+        "volume": 1214400,
+        "ma20": 206.63,
+        "ma50": 202.52,
+        "volume_vs_20d": 0.79,
+        "atr14": 5.26,
+        "chg_5d_pct": 10.5
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2022-08-01",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 80.4,
+        "price_vs_sma50": 1.118,
+        "notes": "ADX 21.8, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2022-07-14_bullish_sample_049_014",
+      "scenario_id": "ADP_2022-07-14",
+      "window_type": "bullish_sample_049",
+      "chronological_index": 14,
+      "state_id": "bullish_sample_049_state_014",
+      "time_spot": "2022-08-02",
+      "reference_session": "2022-08-02",
+      "question": "Session summary for August 02, 2022: ADP opened $226.85, ranged $223.98-$227.63, closed $225.79. Volume 1.1M (0.74x 20-day avg). 20-day $207.95 | 50-day $203.17. 5-day return +10.42%. ATR-14 $5.19. RSI 81.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-08-02",
+        "open": 226.85,
+        "high": 227.63,
+        "low": 223.98,
+        "close": 225.79,
+        "volume": 1127300,
+        "ma20": 207.95,
+        "ma50": 203.17,
+        "volume_vs_20d": 0.74,
+        "atr14": 5.19,
+        "chg_5d_pct": 10.42
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2022-08-01",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 81.3,
+        "price_vs_sma50": 1.111,
+        "notes": "ADX 26.4, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2022-07-14_bullish_sample_049_015",
+      "scenario_id": "ADP_2022-07-14",
+      "window_type": "bullish_sample_049",
+      "chronological_index": 15,
+      "state_id": "bullish_sample_049_state_015",
+      "time_spot": "2022-08-03",
+      "reference_session": "2022-08-03",
+      "question": "Session summary for August 03, 2022: ADP opened $226.36, ranged $225.26-$230.43, closed $229.26. Volume 1.2M (0.83x 20-day avg). 20-day $209.22 | 50-day $203.86. 5-day return +4.39%. ATR-14 $5.23. RSI 82.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-08-03",
+        "open": 226.36,
+        "high": 230.43,
+        "low": 225.26,
+        "close": 229.26,
+        "volume": 1247800,
+        "ma20": 209.22,
+        "ma50": 203.86,
+        "volume_vs_20d": 0.83,
+        "atr14": 5.23,
+        "chg_5d_pct": 4.39
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2022-08-01",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 82.6,
+        "price_vs_sma50": 1.125,
+        "notes": "ADX 31.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2022-07-14_bullish_sample_049_016",
+      "scenario_id": "ADP_2022-07-14",
+      "window_type": "bullish_sample_049",
+      "chronological_index": 16,
+      "state_id": "bullish_sample_049_state_016",
+      "time_spot": "2022-08-04",
+      "reference_session": "2022-08-04",
+      "question": "Session summary for August 04, 2022: ADP opened $229.60, ranged $227.35-$229.89, closed $228.95. Volume 1.2M (0.81x 20-day avg). 20-day $210.51 | 50-day $204.46. 5-day return +1.88%. ATR-14 $5.15. RSI 81.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-08-04",
+        "open": 229.6,
+        "high": 229.89,
+        "low": 227.35,
+        "close": 228.95,
+        "volume": 1195400,
+        "ma20": 210.51,
+        "ma50": 204.46,
+        "volume_vs_20d": 0.81,
+        "atr14": 5.15,
+        "chg_5d_pct": 1.88
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2022-08-01",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 81.0,
+        "price_vs_sma50": 1.12,
+        "notes": "ADX 34.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2022-07-14_bullish_sample_049_017",
+      "scenario_id": "ADP_2022-07-14",
+      "window_type": "bullish_sample_049",
+      "chronological_index": 17,
+      "state_id": "bullish_sample_049_state_017",
+      "time_spot": "2022-08-05",
+      "reference_session": "2022-08-05",
+      "question": "Session summary for August 05, 2022: ADP opened $226.22, ranged $226.22-$232.18, closed $231.96. Volume 1.2M (0.79x 20-day avg). 20-day $211.91 | 50-day $205.12. 5-day return +2.52%. ATR-14 $5.23. RSI 86.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-08-05",
+        "open": 226.22,
+        "high": 232.18,
+        "low": 226.22,
+        "close": 231.96,
+        "volume": 1168800,
+        "ma20": 211.91,
+        "ma50": 205.12,
+        "volume_vs_20d": 0.79,
+        "atr14": 5.23,
+        "chg_5d_pct": 2.52
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2022-08-01",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 86.9,
+        "price_vs_sma50": 1.131,
+        "notes": "ADX 37.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2022-07-14_bullish_sample_049_018",
+      "scenario_id": "ADP_2022-07-14",
+      "window_type": "bullish_sample_049",
+      "chronological_index": 18,
+      "state_id": "bullish_sample_049_state_018",
+      "time_spot": "2022-08-08",
+      "reference_session": "2022-08-08",
+      "question": "Session summary for August 08, 2022: ADP opened $234.23, ranged $232.03-$235.88, closed $233.28. Volume 1.1M (0.74x 20-day avg). 20-day $213.49 | 50-day $205.79. 5-day return +3.02%. ATR-14 $4.97. RSI 85.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-08-08",
+        "open": 234.23,
+        "high": 235.88,
+        "low": 232.03,
+        "close": 233.28,
+        "volume": 1094000,
+        "ma20": 213.49,
+        "ma50": 205.79,
+        "volume_vs_20d": 0.74,
+        "atr14": 4.97,
+        "chg_5d_pct": 3.02
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2022-08-08",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 85.0,
+        "price_vs_sma50": 1.134,
+        "notes": "ADX 42.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2022-07-14_bullish_sample_049_019",
+      "scenario_id": "ADP_2022-07-14",
+      "window_type": "bullish_sample_049",
+      "chronological_index": 19,
+      "state_id": "bullish_sample_049_state_019",
+      "time_spot": "2022-08-09",
+      "reference_session": "2022-08-09",
+      "question": "Session summary for August 09, 2022: ADP opened $233.40, ranged $232.11-$236.06, closed $234.40. Volume 1.1M (0.73x 20-day avg). 20-day $215.25 | 50-day $206.41. 5-day return +3.82%. ATR-14 $4.96. RSI 91.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-08-09",
+        "open": 233.4,
+        "high": 236.06,
+        "low": 232.11,
+        "close": 234.4,
+        "volume": 1070400,
+        "ma20": 215.25,
+        "ma50": 206.41,
+        "volume_vs_20d": 0.73,
+        "atr14": 4.96,
+        "chg_5d_pct": 3.82
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2022-08-08",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 91.5,
+        "price_vs_sma50": 1.136,
+        "notes": "ADX 47.8, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2022-07-14_bullish_sample_049_020",
+      "scenario_id": "ADP_2022-07-14",
+      "window_type": "bullish_sample_049",
+      "chronological_index": 20,
+      "state_id": "bullish_sample_049_state_020",
+      "time_spot": "2022-08-10",
+      "reference_session": "2022-08-10",
+      "question": "Session summary for August 10, 2022: ADP opened $239.23, ranged $235.53-$239.28, closed $236.90. Volume 1.6M (1.07x 20-day avg). 20-day $217.20 | 50-day $206.95. 5-day return +3.34%. ATR-14 $5.06. RSI 91.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-08-10",
+        "open": 239.23,
+        "high": 239.28,
+        "low": 235.53,
+        "close": 236.9,
+        "volume": 1608900,
+        "ma20": 217.2,
+        "ma50": 206.95,
+        "volume_vs_20d": 1.07,
+        "atr14": 5.06,
+        "chg_5d_pct": 3.34
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2022-08-08",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 91.6,
+        "price_vs_sma50": 1.145,
+        "notes": "ADX 53.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2022-07-14_bullish_sample_049_021",
+      "scenario_id": "ADP_2022-07-14",
+      "window_type": "bullish_sample_049",
+      "chronological_index": 21,
+      "state_id": "bullish_sample_049_state_021",
+      "time_spot": "2022-08-11",
+      "reference_session": "2022-08-11",
+      "question": "Session summary for August 11, 2022: ADP opened $237.07, ranged $234.57-$237.68, closed $234.80. Volume 1.6M (1.03x 20-day avg). 20-day $219.03 | 50-day $207.48. 5-day return +2.56%. ATR-14 $5.00. RSI 86.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-08-11",
+        "open": 237.07,
+        "high": 237.68,
+        "low": 234.57,
+        "close": 234.8,
+        "volume": 1577400,
+        "ma20": 219.03,
+        "ma50": 207.48,
+        "volume_vs_20d": 1.03,
+        "atr14": 5.0,
+        "chg_5d_pct": 2.56
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2022-08-08",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 86.2,
+        "price_vs_sma50": 1.132,
+        "notes": "ADX 58.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2022-07-14_bullish_sample_049_022",
+      "scenario_id": "ADP_2022-07-14",
+      "window_type": "bullish_sample_049",
+      "chronological_index": 22,
+      "state_id": "bullish_sample_049_state_022",
+      "time_spot": "2022-08-12",
+      "reference_session": "2022-08-12",
+      "question": "Session summary for August 12, 2022: ADP opened $236.28, ranged $235.53-$241.31, closed $240.95. Volume 1.3M (0.82x 20-day avg). 20-day $221.03 | 50-day $208.20. 5-day return +3.88%. ATR-14 $5.17. RSI 91.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-08-12",
+        "open": 236.28,
+        "high": 241.31,
+        "low": 235.53,
+        "close": 240.95,
+        "volume": 1258400,
+        "ma20": 221.03,
+        "ma50": 208.2,
+        "volume_vs_20d": 0.82,
+        "atr14": 5.17,
+        "chg_5d_pct": 3.88
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2022-08-08",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 91.8,
+        "price_vs_sma50": 1.157,
+        "notes": "ADX 64.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2022-07-14_bullish_sample_049_023",
+      "scenario_id": "ADP_2022-07-14",
+      "window_type": "bullish_sample_049",
+      "chronological_index": 23,
+      "state_id": "bullish_sample_049_state_023",
+      "time_spot": "2022-08-15",
+      "reference_session": "2022-08-15",
+      "question": "Session summary for August 15, 2022: ADP opened $239.72, ranged $239.32-$243.90, closed $243.70. Volume 1.1M (0.70x 20-day avg). 20-day $223.30 | 50-day $208.90. 5-day return +4.46%. ATR-14 $5.25. RSI 93.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-08-15",
+        "open": 239.72,
+        "high": 243.9,
+        "low": 239.32,
+        "close": 243.7,
+        "volume": 1069000,
+        "ma20": 223.3,
+        "ma50": 208.9,
+        "volume_vs_20d": 0.7,
+        "atr14": 5.25,
+        "chg_5d_pct": 4.46
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2022-08-15",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 93.2,
+        "price_vs_sma50": 1.167,
+        "notes": "ADX 69.8, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2022-07-14_bullish_sample_049_024",
+      "scenario_id": "ADP_2022-07-14",
+      "window_type": "bullish_sample_049",
+      "chronological_index": 24,
+      "state_id": "bullish_sample_049_state_024",
+      "time_spot": "2022-08-16",
+      "reference_session": "2022-08-16",
+      "question": "Session summary for August 16, 2022: ADP opened $242.31, ranged $241.83-$244.58, closed $244.01. Volume 1.1M (0.74x 20-day avg). 20-day $225.23 | 50-day $209.66. 5-day return +4.10%. ATR-14 $4.33. RSI 90.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-08-16",
+        "open": 242.31,
+        "high": 244.58,
+        "low": 241.83,
+        "close": 244.01,
+        "volume": 1100900,
+        "ma20": 225.23,
+        "ma50": 209.66,
+        "volume_vs_20d": 0.74,
+        "atr14": 4.33,
+        "chg_5d_pct": 4.1
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2022-08-15",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 90.0,
+        "price_vs_sma50": 1.164,
+        "notes": "ADX 73.8, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2022-07-14_bullish_sample_049_025",
+      "scenario_id": "ADP_2022-07-14",
+      "window_type": "bullish_sample_049",
+      "chronological_index": 25,
+      "state_id": "bullish_sample_049_state_025",
+      "time_spot": "2022-08-17",
+      "reference_session": "2022-08-17",
+      "question": "Session summary for August 17, 2022: ADP opened $242.53, ranged $242.03-$245.42, closed $244.62. Volume 1.2M (0.82x 20-day avg). 20-day $227.32 | 50-day $210.45. 5-day return +3.26%. ATR-14 $4.08. RSI 88.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-08-17",
+        "open": 242.53,
+        "high": 245.42,
+        "low": 242.03,
+        "close": 244.62,
+        "volume": 1186600,
+        "ma20": 227.32,
+        "ma50": 210.45,
+        "volume_vs_20d": 0.82,
+        "atr14": 4.08,
+        "chg_5d_pct": 3.26
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2022-08-15",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 88.2,
+        "price_vs_sma50": 1.162,
+        "notes": "ADX 76.9, MACD bullish"
+      }
+    }
+  ]
+}

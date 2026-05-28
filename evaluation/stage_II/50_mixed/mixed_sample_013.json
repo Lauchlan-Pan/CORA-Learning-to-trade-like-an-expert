@@ -1,0 +1,2898 @@
+{
+  "metadata": {
+    "instrument": "MO",
+    "initial_capital": 10000,
+    "window_type": "mixed_sample_013",
+    "description": "MO window (2013-02-07 \u2013 2013-03-14) sampled from S&P500 indicator archive.",
+    "num_mcqs": 25,
+    "notes": "Orders express target exposure fractions relative to the leverage ceiling.",
+    "max_leverage": 2.5,
+    "exposure_buckets": [
+      0.8,
+      0.6,
+      0.4,
+      0.2
+    ],
+    "start_reference": "2013-02-07",
+    "end_reference": "2013-03-14",
+    "regime": "mixed",
+    "original_sample": "snp500_sample_027"
+  },
+  "mcqs": [
+    {
+      "scenario_instance_id": "MO_2013-02-07_mixed_sample_013_001",
+      "scenario_id": "MO_2013-02-07",
+      "window_type": "mixed_sample_013",
+      "chronological_index": 1,
+      "state_id": "mixed_sample_013_state_001",
+      "time_spot": "2013-02-07",
+      "reference_session": "2013-02-07",
+      "question": "Session summary for February 07, 2013: MO opened $15.76, ranged $15.74-$16.00, closed $15.98. Volume 10.0M (1.15x 20-day avg). 20-day $15.45 | 50-day $15.16. 5-day return +2.76%. ATR-14 $0.17. RSI 77.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-02-07",
+        "open": 15.76,
+        "high": 16.0,
+        "low": 15.74,
+        "close": 15.98,
+        "volume": 10037100,
+        "ma20": 15.45,
+        "ma50": 15.16,
+        "volume_vs_20d": 1.15,
+        "atr14": 0.17,
+        "chg_5d_pct": 2.76
+      },
+      "weekly_snapshot": {
+        "ticker": "MO",
+        "week_start": "2013-02-04",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 77.7,
+        "price_vs_sma50": 1.054,
+        "notes": "ADX 47.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "MO_2013-02-07_mixed_sample_013_002",
+      "scenario_id": "MO_2013-02-07",
+      "window_type": "mixed_sample_013",
+      "chronological_index": 2,
+      "state_id": "mixed_sample_013_state_002",
+      "time_spot": "2013-02-08",
+      "reference_session": "2013-02-08",
+      "question": "Session summary for February 08, 2013: MO opened $15.98, ranged $15.96-$16.10, closed $16.02. Volume 8.6M (1.02x 20-day avg). 20-day $15.50 | 50-day $15.18. 5-day return +1.43%. ATR-14 $0.17. RSI 76.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-02-08",
+        "open": 15.98,
+        "high": 16.1,
+        "low": 15.96,
+        "close": 16.02,
+        "volume": 8585200,
+        "ma20": 15.5,
+        "ma50": 15.18,
+        "volume_vs_20d": 1.02,
+        "atr14": 0.17,
+        "chg_5d_pct": 1.43
+      },
+      "weekly_snapshot": {
+        "ticker": "MO",
+        "week_start": "2013-02-04",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 76.1,
+        "price_vs_sma50": 1.055,
+        "notes": "ADX 48.2, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "MO_2013-02-07_mixed_sample_013_003",
+      "scenario_id": "MO_2013-02-07",
+      "window_type": "mixed_sample_013",
+      "chronological_index": 3,
+      "state_id": "mixed_sample_013_state_003",
+      "time_spot": "2013-02-11",
+      "reference_session": "2013-02-11",
+      "question": "Session summary for February 11, 2013: MO opened $16.04, ranged $16.00-$16.07, closed $16.04. Volume 4.6M (0.56x 20-day avg). 20-day $15.54 | 50-day $15.20. 5-day return +2.54%. ATR-14 $0.16. RSI 80.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-02-11",
+        "open": 16.04,
+        "high": 16.07,
+        "low": 16.0,
+        "close": 16.04,
+        "volume": 4621500,
+        "ma20": 15.54,
+        "ma50": 15.2,
+        "volume_vs_20d": 0.56,
+        "atr14": 0.16,
+        "chg_5d_pct": 2.54
+      },
+      "weekly_snapshot": {
+        "ticker": "MO",
+        "week_start": "2013-02-11",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 80.1,
+        "price_vs_sma50": 1.056,
+        "notes": "ADX 49.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "MO_2013-02-07_mixed_sample_013_004",
+      "scenario_id": "MO_2013-02-07",
+      "window_type": "mixed_sample_013",
+      "chronological_index": 4,
+      "state_id": "mixed_sample_013_state_004",
+      "time_spot": "2013-02-12",
+      "reference_session": "2013-02-12",
+      "question": "Session summary for February 12, 2013: MO opened $16.02, ranged $15.95-$16.09, closed $16.00. Volume 8.8M (1.07x 20-day avg). 20-day $15.58 | 50-day $15.21. 5-day return +1.40%. ATR-14 $0.16. RSI 81.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-02-12",
+        "open": 16.02,
+        "high": 16.09,
+        "low": 15.95,
+        "close": 16.0,
+        "volume": 8774500,
+        "ma20": 15.58,
+        "ma50": 15.21,
+        "volume_vs_20d": 1.07,
+        "atr14": 0.16,
+        "chg_5d_pct": 1.4
+      },
+      "weekly_snapshot": {
+        "ticker": "MO",
+        "week_start": "2013-02-11",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 81.6,
+        "price_vs_sma50": 1.052,
+        "notes": "ADX 52.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "MO_2013-02-07_mixed_sample_013_005",
+      "scenario_id": "MO_2013-02-07",
+      "window_type": "mixed_sample_013",
+      "chronological_index": 5,
+      "state_id": "mixed_sample_013_state_005",
+      "time_spot": "2013-02-13",
+      "reference_session": "2013-02-13",
+      "question": "Session summary for February 13, 2013: MO opened $16.00, ranged $15.98-$16.06, closed $16.06. Volume 6.1M (0.75x 20-day avg). 20-day $15.62 | 50-day $15.22. 5-day return +1.93%. ATR-14 $0.15. RSI 79.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-02-13",
+        "open": 16.0,
+        "high": 16.06,
+        "low": 15.98,
+        "close": 16.06,
+        "volume": 6081100,
+        "ma20": 15.62,
+        "ma50": 15.22,
+        "volume_vs_20d": 0.75,
+        "atr14": 0.15,
+        "chg_5d_pct": 1.93
+      },
+      "weekly_snapshot": {
+        "ticker": "MO",
+        "week_start": "2013-02-11",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 79.4,
+        "price_vs_sma50": 1.055,
+        "notes": "ADX 54.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "MO_2013-02-07_mixed_sample_013_006",
+      "scenario_id": "MO_2013-02-07",
+      "window_type": "mixed_sample_013",
+      "chronological_index": 6,
+      "state_id": "mixed_sample_013_state_006",
+      "time_spot": "2013-02-14",
+      "reference_session": "2013-02-14",
+      "question": "Session summary for February 14, 2013: MO opened $16.06, ranged $15.73-$16.07, closed $15.75. Volume 11.9M (1.42x 20-day avg). 20-day $15.65 | 50-day $15.23. 5-day return -1.44%. ATR-14 $0.17. RSI 61.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-02-14",
+        "open": 16.06,
+        "high": 16.07,
+        "low": 15.73,
+        "close": 15.75,
+        "volume": 11858900,
+        "ma20": 15.65,
+        "ma50": 15.23,
+        "volume_vs_20d": 1.42,
+        "atr14": 0.17,
+        "chg_5d_pct": -1.44
+      },
+      "weekly_snapshot": {
+        "ticker": "MO",
+        "week_start": "2013-02-11",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 61.1,
+        "price_vs_sma50": 1.034,
+        "notes": "ADX 53.4, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "MO_2013-02-07_mixed_sample_013_007",
+      "scenario_id": "MO_2013-02-07",
+      "window_type": "mixed_sample_013",
+      "chronological_index": 7,
+      "state_id": "mixed_sample_013_state_007",
+      "time_spot": "2013-02-15",
+      "reference_session": "2013-02-15",
+      "question": "Session summary for February 15, 2013: MO opened $15.77, ranged $15.77-$15.94, closed $15.87. Volume 8.9M (1.05x 20-day avg). 20-day $15.69 | 50-day $15.24. 5-day return -0.89%. ATR-14 $0.17. RSI 61.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-02-15",
+        "open": 15.77,
+        "high": 15.94,
+        "low": 15.77,
+        "close": 15.87,
+        "volume": 8895800,
+        "ma20": 15.69,
+        "ma50": 15.24,
+        "volume_vs_20d": 1.05,
+        "atr14": 0.17,
+        "chg_5d_pct": -0.89
+      },
+      "weekly_snapshot": {
+        "ticker": "MO",
+        "week_start": "2013-02-11",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 61.4,
+        "price_vs_sma50": 1.041,
+        "notes": "ADX 51.9, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "MO_2013-02-07_mixed_sample_013_008",
+      "scenario_id": "MO_2013-02-07",
+      "window_type": "mixed_sample_013",
+      "chronological_index": 8,
+      "state_id": "mixed_sample_013_state_008",
+      "time_spot": "2013-02-19",
+      "reference_session": "2013-02-19",
+      "question": "Session summary for February 19, 2013: MO opened $15.93, ranged $15.90-$16.06, closed $16.05. Volume 7.2M (0.88x 20-day avg). 20-day $15.72 | 50-day $15.26. 5-day return +0.06%. ATR-14 $0.17. RSI 65.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-02-19",
+        "open": 15.93,
+        "high": 16.06,
+        "low": 15.9,
+        "close": 16.05,
+        "volume": 7193100,
+        "ma20": 15.72,
+        "ma50": 15.26,
+        "volume_vs_20d": 0.88,
+        "atr14": 0.17,
+        "chg_5d_pct": 0.06
+      },
+      "weekly_snapshot": {
+        "ticker": "MO",
+        "week_start": "2013-02-18",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 65.9,
+        "price_vs_sma50": 1.052,
+        "notes": "ADX 49.6, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "MO_2013-02-07_mixed_sample_013_009",
+      "scenario_id": "MO_2013-02-07",
+      "window_type": "mixed_sample_013",
+      "chronological_index": 9,
+      "state_id": "mixed_sample_013_state_009",
+      "time_spot": "2013-02-20",
+      "reference_session": "2013-02-20",
+      "question": "Session summary for February 20, 2013: MO opened $16.04, ranged $16.03-$16.21, closed $16.11. Volume 7.4M (0.91x 20-day avg). 20-day $15.76 | 50-day $15.28. 5-day return +0.66%. ATR-14 $0.18. RSI 67.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-02-20",
+        "open": 16.04,
+        "high": 16.21,
+        "low": 16.03,
+        "close": 16.11,
+        "volume": 7371000,
+        "ma20": 15.76,
+        "ma50": 15.28,
+        "volume_vs_20d": 0.91,
+        "atr14": 0.18,
+        "chg_5d_pct": 0.66
+      },
+      "weekly_snapshot": {
+        "ticker": "MO",
+        "week_start": "2013-02-18",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 67.0,
+        "price_vs_sma50": 1.054,
+        "notes": "ADX 47.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "MO_2013-02-07_mixed_sample_013_010",
+      "scenario_id": "MO_2013-02-07",
+      "window_type": "mixed_sample_013",
+      "chronological_index": 10,
+      "state_id": "mixed_sample_013_state_010",
+      "time_spot": "2013-02-21",
+      "reference_session": "2013-02-21",
+      "question": "Session summary for February 21, 2013: MO opened $16.13, ranged $15.98-$16.27, closed $16.25. Volume 9.7M (1.19x 20-day avg). 20-day $15.81 | 50-day $15.30. 5-day return +1.21%. ATR-14 $0.19. RSI 70.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-02-21",
+        "open": 16.13,
+        "high": 16.27,
+        "low": 15.98,
+        "close": 16.25,
+        "volume": 9672300,
+        "ma20": 15.81,
+        "ma50": 15.3,
+        "volume_vs_20d": 1.19,
+        "atr14": 0.19,
+        "chg_5d_pct": 1.21
+      },
+      "weekly_snapshot": {
+        "ticker": "MO",
+        "week_start": "2013-02-18",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 70.1,
+        "price_vs_sma50": 1.062,
+        "notes": "ADX 46.4, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "MO_2013-02-07_mixed_sample_013_011",
+      "scenario_id": "MO_2013-02-07",
+      "window_type": "mixed_sample_013",
+      "chronological_index": 11,
+      "state_id": "mixed_sample_013_state_011",
+      "time_spot": "2013-02-22",
+      "reference_session": "2013-02-22",
+      "question": "Session summary for February 22, 2013: MO opened $16.23, ranged $16.12-$16.31, closed $16.31. Volume 9.0M (1.10x 20-day avg). 20-day $15.86 | 50-day $15.32. 5-day return +3.55%. ATR-14 $0.18. RSI 66.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-02-22",
+        "open": 16.23,
+        "high": 16.31,
+        "low": 16.12,
+        "close": 16.31,
+        "volume": 9012500,
+        "ma20": 15.86,
+        "ma50": 15.32,
+        "volume_vs_20d": 1.1,
+        "atr14": 0.18,
+        "chg_5d_pct": 3.55
+      },
+      "weekly_snapshot": {
+        "ticker": "MO",
+        "week_start": "2013-02-18",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 66.6,
+        "price_vs_sma50": 1.064,
+        "notes": "ADX 44.7, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "MO_2013-02-07_mixed_sample_013_012",
+      "scenario_id": "MO_2013-02-07",
+      "window_type": "mixed_sample_013",
+      "chronological_index": 12,
+      "state_id": "mixed_sample_013_state_012",
+      "time_spot": "2013-02-25",
+      "reference_session": "2013-02-25",
+      "question": "Session summary for February 25, 2013: MO opened $16.36, ranged $15.99-$16.38, closed $16.00. Volume 9.9M (1.19x 20-day avg). 20-day $15.88 | 50-day $15.34. 5-day return +0.79%. ATR-14 $0.19. RSI 60.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-02-25",
+        "open": 16.36,
+        "high": 16.38,
+        "low": 15.99,
+        "close": 16.0,
+        "volume": 9896400,
+        "ma20": 15.88,
+        "ma50": 15.34,
+        "volume_vs_20d": 1.19,
+        "atr14": 0.19,
+        "chg_5d_pct": 0.79
+      },
+      "weekly_snapshot": {
+        "ticker": "MO",
+        "week_start": "2013-02-25",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 60.2,
+        "price_vs_sma50": 1.043,
+        "notes": "ADX 43.9, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "MO_2013-02-07_mixed_sample_013_013",
+      "scenario_id": "MO_2013-02-07",
+      "window_type": "mixed_sample_013",
+      "chronological_index": 13,
+      "state_id": "mixed_sample_013_state_013",
+      "time_spot": "2013-02-26",
+      "reference_session": "2013-02-26",
+      "question": "Session summary for February 26, 2013: MO opened $15.95, ranged $15.80-$16.02, closed $15.84. Volume 11.0M (1.30x 20-day avg). 20-day $15.90 | 50-day $15.36. 5-day return -1.35%. ATR-14 $0.20. RSI 51.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-02-26",
+        "open": 15.95,
+        "high": 16.02,
+        "low": 15.8,
+        "close": 15.84,
+        "volume": 11001900,
+        "ma20": 15.9,
+        "ma50": 15.36,
+        "volume_vs_20d": 1.3,
+        "atr14": 0.2,
+        "chg_5d_pct": -1.35
+      },
+      "weekly_snapshot": {
+        "ticker": "MO",
+        "week_start": "2013-02-25",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 51.6,
+        "price_vs_sma50": 1.031,
+        "notes": "ADX 40.6, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "MO_2013-02-07_mixed_sample_013_014",
+      "scenario_id": "MO_2013-02-07",
+      "window_type": "mixed_sample_013",
+      "chronological_index": 14,
+      "state_id": "mixed_sample_013_state_014",
+      "time_spot": "2013-02-27",
+      "reference_session": "2013-02-27",
+      "question": "Session summary for February 27, 2013: MO opened $15.79, ranged $15.49-$15.80, closed $15.73. Volume 18.5M (2.07x 20-day avg). 20-day $15.91 | 50-day $15.37. 5-day return -2.35%. ATR-14 $0.22. RSI 49.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-02-27",
+        "open": 15.79,
+        "high": 15.8,
+        "low": 15.49,
+        "close": 15.73,
+        "volume": 18470700,
+        "ma20": 15.91,
+        "ma50": 15.37,
+        "volume_vs_20d": 2.07,
+        "atr14": 0.22,
+        "chg_5d_pct": -2.35
+      },
+      "weekly_snapshot": {
+        "ticker": "MO",
+        "week_start": "2013-02-25",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 49.4,
+        "price_vs_sma50": 1.024,
+        "notes": "ADX 37.4, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "MO_2013-02-07_mixed_sample_013_015",
+      "scenario_id": "MO_2013-02-07",
+      "window_type": "mixed_sample_013",
+      "chronological_index": 15,
+      "state_id": "mixed_sample_013_state_015",
+      "time_spot": "2013-02-28",
+      "reference_session": "2013-02-28",
+      "question": "Session summary for February 28, 2013: MO opened $15.72, ranged $15.49-$15.73, closed $15.49. Volume 18.6M (1.97x 20-day avg). 20-day $15.90 | 50-day $15.38. 5-day return -4.69%. ATR-14 $0.21. RSI 36.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-02-28",
+        "open": 15.72,
+        "high": 15.73,
+        "low": 15.49,
+        "close": 15.49,
+        "volume": 18623900,
+        "ma20": 15.9,
+        "ma50": 15.38,
+        "volume_vs_20d": 1.97,
+        "atr14": 0.21,
+        "chg_5d_pct": -4.69
+      },
+      "weekly_snapshot": {
+        "ticker": "MO",
+        "week_start": "2013-02-25",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 36.7,
+        "price_vs_sma50": 1.007,
+        "notes": "ADX 35.2, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "MO_2013-02-07_mixed_sample_013_016",
+      "scenario_id": "MO_2013-02-07",
+      "window_type": "mixed_sample_013",
+      "chronological_index": 16,
+      "state_id": "mixed_sample_013_state_016",
+      "time_spot": "2013-03-01",
+      "reference_session": "2013-03-01",
+      "question": "Session summary for March 01, 2013: MO opened $15.48, ranged $15.44-$15.57, closed $15.46. Volume 15.5M (1.59x 20-day avg). 20-day $15.90 | 50-day $15.39. 5-day return -5.18%. ATR-14 $0.21. RSI 34.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-03-01",
+        "open": 15.48,
+        "high": 15.57,
+        "low": 15.44,
+        "close": 15.46,
+        "volume": 15542000,
+        "ma20": 15.9,
+        "ma50": 15.39,
+        "volume_vs_20d": 1.59,
+        "atr14": 0.21,
+        "chg_5d_pct": -5.18
+      },
+      "weekly_snapshot": {
+        "ticker": "MO",
+        "week_start": "2013-02-25",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 34.9,
+        "price_vs_sma50": 1.005,
+        "notes": "ADX 33.9, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "MO_2013-02-07_mixed_sample_013_017",
+      "scenario_id": "MO_2013-02-07",
+      "window_type": "mixed_sample_013",
+      "chronological_index": 17,
+      "state_id": "mixed_sample_013_state_017",
+      "time_spot": "2013-03-04",
+      "reference_session": "2013-03-04",
+      "question": "Session summary for March 04, 2013: MO opened $15.47, ranged $15.47-$15.74, closed $15.67. Volume 12.8M (1.28x 20-day avg). 20-day $15.89 | 50-day $15.40. 5-day return -2.08%. ATR-14 $0.23. RSI 40.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-03-04",
+        "open": 15.47,
+        "high": 15.74,
+        "low": 15.47,
+        "close": 15.67,
+        "volume": 12799700,
+        "ma20": 15.89,
+        "ma50": 15.4,
+        "volume_vs_20d": 1.28,
+        "atr14": 0.23,
+        "chg_5d_pct": -2.08
+      },
+      "weekly_snapshot": {
+        "ticker": "MO",
+        "week_start": "2013-03-04",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 40.6,
+        "price_vs_sma50": 1.017,
+        "notes": "ADX 31.5, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "MO_2013-02-07_mixed_sample_013_018",
+      "scenario_id": "MO_2013-02-07",
+      "window_type": "mixed_sample_013",
+      "chronological_index": 18,
+      "state_id": "mixed_sample_013_state_018",
+      "time_spot": "2013-03-05",
+      "reference_session": "2013-03-05",
+      "question": "Session summary for March 05, 2013: MO opened $15.74, ranged $15.71-$15.84, closed $15.81. Volume 16.3M (1.57x 20-day avg). 20-day $15.90 | 50-day $15.42. 5-day return -0.17%. ATR-14 $0.23. RSI 45.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-03-05",
+        "open": 15.74,
+        "high": 15.84,
+        "low": 15.71,
+        "close": 15.81,
+        "volume": 16322600,
+        "ma20": 15.9,
+        "ma50": 15.42,
+        "volume_vs_20d": 1.57,
+        "atr14": 0.23,
+        "chg_5d_pct": -0.17
+      },
+      "weekly_snapshot": {
+        "ticker": "MO",
+        "week_start": "2013-03-04",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 45.4,
+        "price_vs_sma50": 1.025,
+        "notes": "ADX 28.1, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "MO_2013-02-07_mixed_sample_013_019",
+      "scenario_id": "MO_2013-02-07",
+      "window_type": "mixed_sample_013",
+      "chronological_index": 19,
+      "state_id": "mixed_sample_013_state_019",
+      "time_spot": "2013-03-06",
+      "reference_session": "2013-03-06",
+      "question": "Session summary for March 06, 2013: MO opened $15.84, ranged $15.70-$15.86, closed $15.76. Volume 6.4M (0.62x 20-day avg). 20-day $15.90 | 50-day $15.44. 5-day return +0.18%. ATR-14 $0.24. RSI 42.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-03-06",
+        "open": 15.84,
+        "high": 15.86,
+        "low": 15.7,
+        "close": 15.76,
+        "volume": 6422700,
+        "ma20": 15.9,
+        "ma50": 15.44,
+        "volume_vs_20d": 0.62,
+        "atr14": 0.24,
+        "chg_5d_pct": 0.18
+      },
+      "weekly_snapshot": {
+        "ticker": "MO",
+        "week_start": "2013-03-04",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 42.9,
+        "price_vs_sma50": 1.021,
+        "notes": "ADX 25.2, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "MO_2013-02-07_mixed_sample_013_020",
+      "scenario_id": "MO_2013-02-07",
+      "window_type": "mixed_sample_013",
+      "chronological_index": 20,
+      "state_id": "mixed_sample_013_state_020",
+      "time_spot": "2013-03-07",
+      "reference_session": "2013-03-07",
+      "question": "Session summary for March 07, 2013: MO opened $15.80, ranged $15.62-$15.80, closed $15.68. Volume 7.7M (0.74x 20-day avg). 20-day $15.89 | 50-day $15.46. 5-day return +1.22%. ATR-14 $0.22. RSI 48.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-03-07",
+        "open": 15.8,
+        "high": 15.8,
+        "low": 15.62,
+        "close": 15.68,
+        "volume": 7735300,
+        "ma20": 15.89,
+        "ma50": 15.46,
+        "volume_vs_20d": 0.74,
+        "atr14": 0.22,
+        "chg_5d_pct": 1.22
+      },
+      "weekly_snapshot": {
+        "ticker": "MO",
+        "week_start": "2013-03-04",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 48.2,
+        "price_vs_sma50": 1.014,
+        "notes": "ADX 24.1, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "MO_2013-02-07_mixed_sample_013_021",
+      "scenario_id": "MO_2013-02-07",
+      "window_type": "mixed_sample_013",
+      "chronological_index": 21,
+      "state_id": "mixed_sample_013_state_021",
+      "time_spot": "2013-03-08",
+      "reference_session": "2013-03-08",
+      "question": "Session summary for March 08, 2013: MO opened $15.68, ranged $15.60-$15.74, closed $15.70. Volume 29.0M (2.54x 20-day avg). 20-day $15.88 | 50-day $15.48. 5-day return +1.52%. ATR-14 $0.22. RSI 45.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-03-08",
+        "open": 15.68,
+        "high": 15.74,
+        "low": 15.6,
+        "close": 15.7,
+        "volume": 28971400,
+        "ma20": 15.88,
+        "ma50": 15.48,
+        "volume_vs_20d": 2.54,
+        "atr14": 0.22,
+        "chg_5d_pct": 1.52
+      },
+      "weekly_snapshot": {
+        "ticker": "MO",
+        "week_start": "2013-03-04",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 45.1,
+        "price_vs_sma50": 1.014,
+        "notes": "ADX 23.8, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "MO_2013-02-07_mixed_sample_013_022",
+      "scenario_id": "MO_2013-02-07",
+      "window_type": "mixed_sample_013",
+      "chronological_index": 22,
+      "state_id": "mixed_sample_013_state_022",
+      "time_spot": "2013-03-11",
+      "reference_session": "2013-03-11",
+      "question": "Session summary for March 11, 2013: MO opened $15.71, ranged $15.70-$15.84, closed $15.82. Volume 37.7M (2.93x 20-day avg). 20-day $15.87 | 50-day $15.51. 5-day return +0.97%. ATR-14 $0.22. RSI 43.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-03-11",
+        "open": 15.71,
+        "high": 15.84,
+        "low": 15.7,
+        "close": 15.82,
+        "volume": 37694000,
+        "ma20": 15.87,
+        "ma50": 15.51,
+        "volume_vs_20d": 2.93,
+        "atr14": 0.22,
+        "chg_5d_pct": 0.97
+      },
+      "weekly_snapshot": {
+        "ticker": "MO",
+        "week_start": "2013-03-11",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 43.1,
+        "price_vs_sma50": 1.02,
+        "notes": "ADX 23.0, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "MO_2013-02-07_mixed_sample_013_023",
+      "scenario_id": "MO_2013-02-07",
+      "window_type": "mixed_sample_013",
+      "chronological_index": 23,
+      "state_id": "mixed_sample_013_state_023",
+      "time_spot": "2013-03-12",
+      "reference_session": "2013-03-12",
+      "question": "Session summary for March 12, 2013: MO opened $15.82, ranged $15.76-$15.88, closed $15.77. Volume 44.7M (3.01x 20-day avg). 20-day $15.86 | 50-day $15.53. 5-day return -0.23%. ATR-14 $0.21. RSI 40.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-03-12",
+        "open": 15.82,
+        "high": 15.88,
+        "low": 15.76,
+        "close": 15.77,
+        "volume": 44736100,
+        "ma20": 15.86,
+        "ma50": 15.53,
+        "volume_vs_20d": 3.01,
+        "atr14": 0.21,
+        "chg_5d_pct": -0.23
+      },
+      "weekly_snapshot": {
+        "ticker": "MO",
+        "week_start": "2013-03-11",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 40.1,
+        "price_vs_sma50": 1.015,
+        "notes": "ADX 22.0, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "MO_2013-02-07_mixed_sample_013_024",
+      "scenario_id": "MO_2013-02-07",
+      "window_type": "mixed_sample_013",
+      "chronological_index": 24,
+      "state_id": "mixed_sample_013_state_024",
+      "time_spot": "2013-03-13",
+      "reference_session": "2013-03-13",
+      "question": "Session summary for March 13, 2013: MO opened $15.87, ranged $15.76-$15.87, closed $15.87. Volume 9.4M (0.63x 20-day avg). 20-day $15.85 | 50-day $15.56. 5-day return +0.71%. ATR-14 $0.20. RSI 38.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-03-13",
+        "open": 15.87,
+        "high": 15.87,
+        "low": 15.76,
+        "close": 15.87,
+        "volume": 9436600,
+        "ma20": 15.85,
+        "ma50": 15.56,
+        "volume_vs_20d": 0.63,
+        "atr14": 0.2,
+        "chg_5d_pct": 0.71
+      },
+      "weekly_snapshot": {
+        "ticker": "MO",
+        "week_start": "2013-03-11",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 38.5,
+        "price_vs_sma50": 1.02,
+        "notes": "ADX 21.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "MO_2013-02-07_mixed_sample_013_025",
+      "scenario_id": "MO_2013-02-07",
+      "window_type": "mixed_sample_013",
+      "chronological_index": 25,
+      "state_id": "mixed_sample_013_state_025",
+      "time_spot": "2013-03-14",
+      "reference_session": "2013-03-14",
+      "question": "Session summary for March 14, 2013: MO opened $15.87, ranged $15.74-$15.91, closed $15.81. Volume 9.3M (0.62x 20-day avg). 20-day $15.84 | 50-day $15.59. 5-day return +0.83%. ATR-14 $0.20. RSI 35.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-03-14",
+        "open": 15.87,
+        "high": 15.91,
+        "low": 15.74,
+        "close": 15.81,
+        "volume": 9324100,
+        "ma20": 15.84,
+        "ma50": 15.59,
+        "volume_vs_20d": 0.62,
+        "atr14": 0.2,
+        "chg_5d_pct": 0.83
+      },
+      "weekly_snapshot": {
+        "ticker": "MO",
+        "week_start": "2013-03-11",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 35.0,
+        "price_vs_sma50": 1.014,
+        "notes": "ADX 21.0, MACD bearish"
+      }
+    }
+  ]
+}

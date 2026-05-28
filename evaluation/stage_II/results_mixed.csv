@@ -1,0 +1,11 @@
+Model,Category,Stage1_Accuracy,Avg_Return,Std_Dev,Sharpe_Ratio,Win_Rate,CAGR,Sortino_Ratio,Calmar_Ratio,Omega_Ratio,MDD,Avg_Net_Exposure,Exposure_Volatility,Turnover,Latency,Risk_Aversion_Index,Overconfident_Underconfid_Metrics,Regime_Sharpe_Variance,CVaR_5pct,CVaR_1pct,Behavioral_Entropy,Regime_Misalignment_Rate
+GPT-5.1,Frontier,80.95,0.91,0.94,0.97,52,,,,,-3.99,0.632,0.339,162.2,0.172,1.056,,,-7.89,-8.94,0.999,
+Claude-4.5-Sonnet,Frontier,86.19,0.26,1.15,0.23,56,,,,,-4.92,0.696,0.481,104.8,0.17,0.996,,,-9.6,-12.03,0.706,
+DeepSeek-v3.1,Frontier,87.14,0.29,1.45,0.204,62,,,,,-6.41,1.043,0.315,44.8,0.162,1.046,,,-4.23,-4.77,0.423,
+Llama-3.1-8B,Baseline,57.62,-0.99,1.49,-0.665,40,,,,,-7.88,1.08,0.335,262.5,0.169,1.021,,,-14.68,-16.61,0.66,
+Qwen3-8B,Baseline,71.9,0.24,1.07,0.223,64,,,,,-4.92,0.69,0.381,204.2,0.161,1.103,,,-13.96,-15.04,1.061,
+Mistral-7B-Instruct-v0.3,Baseline,64.29,0.57,2.04,0.281,52,,,,,-9,1.132,0.945,371,0.185,0.951,,,-12.99,-13.41,0.781,
+Ours w/o CORA,Ablation,46.19,0,2.65,-0.001,64,,,,,-11.76,1.918,0.392,35.2,0.148,1.023,,,-4.7,-5.12,0.168,
+Ours w/o DARA,Ablation,76.67,0.22,1.32,0.167,68,,,,,-6.01,0.958,0.196,14.2,0.148,1.025,,,-1.69,-2,0.168,
+Ours w/o Verification,Ablation,70.95,0.19,1.75,0.106,54,,,,,-7.8,1.23,0.349,154.3,0.176,1.043,,,-5.42,-8.57,0.821,
+Ours (Full Model),Full,82.38,0.93,2.41,0.386,64,,,,,-10.43,1.725,0.444,88.3,0.175,1.038,,,-2.64,-3.17,0.708,

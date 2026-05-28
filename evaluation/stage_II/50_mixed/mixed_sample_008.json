@@ -1,0 +1,2898 @@
+{
+  "metadata": {
+    "instrument": "GEN",
+    "initial_capital": 10000,
+    "window_type": "mixed_sample_008",
+    "description": "GEN window (2016-09-30 \u2013 2016-11-03) sampled from S&P500 indicator archive.",
+    "num_mcqs": 25,
+    "notes": "Orders express target exposure fractions relative to the leverage ceiling.",
+    "max_leverage": 2.5,
+    "exposure_buckets": [
+      0.8,
+      0.6,
+      0.4,
+      0.2
+    ],
+    "start_reference": "2016-09-30",
+    "end_reference": "2016-11-03",
+    "regime": "mixed",
+    "original_sample": "snp500_sample_016"
+  },
+  "mcqs": [
+    {
+      "scenario_instance_id": "GEN_2016-09-30_mixed_sample_008_001",
+      "scenario_id": "GEN_2016-09-30",
+      "window_type": "mixed_sample_008",
+      "chronological_index": 1,
+      "state_id": "mixed_sample_008_state_001",
+      "time_spot": "2016-09-30",
+      "reference_session": "2016-09-30",
+      "question": "Session summary for September 30, 2016: GEN opened $12.28, ranged $12.23-$12.33, closed $12.28. Volume 10.9M (1.25x 20-day avg). 20-day $12.18 | 50-day $11.40. 5-day return +0.24%. ATR-14 $0.22. RSI 54.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2016-09-30",
+        "open": 12.28,
+        "high": 12.33,
+        "low": 12.23,
+        "close": 12.28,
+        "volume": 10888100,
+        "ma20": 12.18,
+        "ma50": 11.4,
+        "volume_vs_20d": 1.25,
+        "atr14": 0.22,
+        "chg_5d_pct": 0.24
+      },
+      "weekly_snapshot": {
+        "ticker": "GEN",
+        "week_start": "2016-09-26",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 54.9,
+        "price_vs_sma50": 1.078,
+        "notes": "ADX 28.2, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "GEN_2016-09-30_mixed_sample_008_002",
+      "scenario_id": "GEN_2016-09-30",
+      "window_type": "mixed_sample_008",
+      "chronological_index": 2,
+      "state_id": "mixed_sample_008_state_002",
+      "time_spot": "2016-10-03",
+      "reference_session": "2016-10-03",
+      "question": "Session summary for October 03, 2016: GEN opened $12.27, ranged $12.26-$12.32, closed $12.29. Volume 5.2M (0.59x 20-day avg). 20-day $12.20 | 50-day $11.45. 5-day return +0.60%. ATR-14 $0.20. RSI 58.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2016-10-03",
+        "open": 12.27,
+        "high": 12.32,
+        "low": 12.26,
+        "close": 12.29,
+        "volume": 5224000,
+        "ma20": 12.2,
+        "ma50": 11.45,
+        "volume_vs_20d": 0.59,
+        "atr14": 0.2,
+        "chg_5d_pct": 0.6
+      },
+      "weekly_snapshot": {
+        "ticker": "GEN",
+        "week_start": "2016-10-03",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 58.8,
+        "price_vs_sma50": 1.074,
+        "notes": "ADX 27.2, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "GEN_2016-09-30_mixed_sample_008_003",
+      "scenario_id": "GEN_2016-09-30",
+      "window_type": "mixed_sample_008",
+      "chronological_index": 3,
+      "state_id": "mixed_sample_008_state_003",
+      "time_spot": "2016-10-04",
+      "reference_session": "2016-10-04",
+      "question": "Session summary for October 04, 2016: GEN opened $12.27, ranged $12.22-$12.37, closed $12.36. Volume 7.2M (0.84x 20-day avg). 20-day $12.22 | 50-day $11.49. 5-day return +0.36%. ATR-14 $0.18. RSI 63.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2016-10-04",
+        "open": 12.27,
+        "high": 12.37,
+        "low": 12.22,
+        "close": 12.36,
+        "volume": 7202000,
+        "ma20": 12.22,
+        "ma50": 11.49,
+        "volume_vs_20d": 0.84,
+        "atr14": 0.18,
+        "chg_5d_pct": 0.36
+      },
+      "weekly_snapshot": {
+        "ticker": "GEN",
+        "week_start": "2016-10-03",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 63.8,
+        "price_vs_sma50": 1.075,
+        "notes": "ADX 24.9, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "GEN_2016-09-30_mixed_sample_008_004",
+      "scenario_id": "GEN_2016-09-30",
+      "window_type": "mixed_sample_008",
+      "chronological_index": 4,
+      "state_id": "mixed_sample_008_state_004",
+      "time_spot": "2016-10-05",
+      "reference_session": "2016-10-05",
+      "question": "Session summary for October 05, 2016: GEN opened $12.59, ranged $12.35-$12.59, closed $12.43. Volume 7.6M (0.89x 20-day avg). 20-day $12.23 | 50-day $11.54. 5-day return +0.47%. ATR-14 $0.18. RSI 61.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2016-10-05",
+        "open": 12.59,
+        "high": 12.59,
+        "low": 12.35,
+        "close": 12.43,
+        "volume": 7580700,
+        "ma20": 12.23,
+        "ma50": 11.54,
+        "volume_vs_20d": 0.89,
+        "atr14": 0.18,
+        "chg_5d_pct": 0.47
+      },
+      "weekly_snapshot": {
+        "ticker": "GEN",
+        "week_start": "2016-10-03",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 61.4,
+        "price_vs_sma50": 1.076,
+        "notes": "ADX 24.0, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "GEN_2016-09-30_mixed_sample_008_005",
+      "scenario_id": "GEN_2016-09-30",
+      "window_type": "mixed_sample_008",
+      "chronological_index": 5,
+      "state_id": "mixed_sample_008_state_005",
+      "time_spot": "2016-10-06",
+      "reference_session": "2016-10-06",
+      "question": "Session summary for October 06, 2016: GEN opened $12.38, ranged $12.33-$12.43, closed $12.38. Volume 5.9M (0.70x 20-day avg). 20-day $12.24 | 50-day $11.59. 5-day return +1.16%. ATR-14 $0.17. RSI 52.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2016-10-06",
+        "open": 12.38,
+        "high": 12.43,
+        "low": 12.33,
+        "close": 12.38,
+        "volume": 5872400,
+        "ma20": 12.24,
+        "ma50": 11.59,
+        "volume_vs_20d": 0.7,
+        "atr14": 0.17,
+        "chg_5d_pct": 1.16
+      },
+      "weekly_snapshot": {
+        "ticker": "GEN",
+        "week_start": "2016-10-03",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 52.2,
+        "price_vs_sma50": 1.068,
+        "notes": "ADX 21.7, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "GEN_2016-09-30_mixed_sample_008_006",
+      "scenario_id": "GEN_2016-09-30",
+      "window_type": "mixed_sample_008",
+      "chronological_index": 6,
+      "state_id": "mixed_sample_008_state_006",
+      "time_spot": "2016-10-07",
+      "reference_session": "2016-10-07",
+      "question": "Session summary for October 07, 2016: GEN opened $12.41, ranged $12.30-$12.42, closed $12.34. Volume 4.1M (0.50x 20-day avg). 20-day $12.25 | 50-day $11.64. 5-day return +0.44%. ATR-14 $0.16. RSI 60.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2016-10-07",
+        "open": 12.41,
+        "high": 12.42,
+        "low": 12.3,
+        "close": 12.34,
+        "volume": 4135300,
+        "ma20": 12.25,
+        "ma50": 11.64,
+        "volume_vs_20d": 0.5,
+        "atr14": 0.16,
+        "chg_5d_pct": 0.44
+      },
+      "weekly_snapshot": {
+        "ticker": "GEN",
+        "week_start": "2016-10-03",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 60.6,
+        "price_vs_sma50": 1.06,
+        "notes": "ADX 20.0, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "GEN_2016-09-30_mixed_sample_008_007",
+      "scenario_id": "GEN_2016-09-30",
+      "window_type": "mixed_sample_008",
+      "chronological_index": 7,
+      "state_id": "mixed_sample_008_state_007",
+      "time_spot": "2016-10-10",
+      "reference_session": "2016-10-10",
+      "question": "Session summary for October 10, 2016: GEN opened $12.35, ranged $12.32-$12.42, closed $12.36. Volume 6.6M (0.83x 20-day avg). 20-day $12.26 | 50-day $11.69. 5-day return +0.56%. ATR-14 $0.15. RSI 66.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2016-10-10",
+        "open": 12.35,
+        "high": 12.42,
+        "low": 12.32,
+        "close": 12.36,
+        "volume": 6630800,
+        "ma20": 12.26,
+        "ma50": 11.69,
+        "volume_vs_20d": 0.83,
+        "atr14": 0.15,
+        "chg_5d_pct": 0.56
+      },
+      "weekly_snapshot": {
+        "ticker": "GEN",
+        "week_start": "2016-10-10",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 66.3,
+        "price_vs_sma50": 1.057,
+        "notes": "ADX 20.7, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "GEN_2016-09-30_mixed_sample_008_008",
+      "scenario_id": "GEN_2016-09-30",
+      "window_type": "mixed_sample_008",
+      "chronological_index": 8,
+      "state_id": "mixed_sample_008_state_008",
+      "time_spot": "2016-10-11",
+      "reference_session": "2016-10-11",
+      "question": "Session summary for October 11, 2016: GEN opened $12.36, ranged $12.15-$12.36, closed $12.27. Volume 8.9M (1.11x 20-day avg). 20-day $12.27 | 50-day $11.73. 5-day return -0.75%. ATR-14 $0.15. RSI 49.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2016-10-11",
+        "open": 12.36,
+        "high": 12.36,
+        "low": 12.15,
+        "close": 12.27,
+        "volume": 8884500,
+        "ma20": 12.27,
+        "ma50": 11.73,
+        "volume_vs_20d": 1.11,
+        "atr14": 0.15,
+        "chg_5d_pct": -0.75
+      },
+      "weekly_snapshot": {
+        "ticker": "GEN",
+        "week_start": "2016-10-10",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 49.3,
+        "price_vs_sma50": 1.045,
+        "notes": "ADX 19.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "GEN_2016-09-30_mixed_sample_008_009",
+      "scenario_id": "GEN_2016-09-30",
+      "window_type": "mixed_sample_008",
+      "chronological_index": 9,
+      "state_id": "mixed_sample_008_state_009",
+      "time_spot": "2016-10-12",
+      "reference_session": "2016-10-12",
+      "question": "Session summary for October 12, 2016: GEN opened $12.11, ranged $12.07-$12.29, closed $12.21. Volume 7.7M (0.95x 20-day avg). 20-day $12.28 | 50-day $11.78. 5-day return -1.77%. ATR-14 $0.15. RSI 45.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2016-10-12",
+        "open": 12.11,
+        "high": 12.29,
+        "low": 12.07,
+        "close": 12.21,
+        "volume": 7724900,
+        "ma20": 12.28,
+        "ma50": 11.78,
+        "volume_vs_20d": 0.95,
+        "atr14": 0.15,
+        "chg_5d_pct": -1.77
+      },
+      "weekly_snapshot": {
+        "ticker": "GEN",
+        "week_start": "2016-10-10",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 45.6,
+        "price_vs_sma50": 1.037,
+        "notes": "ADX 17.4, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "GEN_2016-09-30_mixed_sample_008_010",
+      "scenario_id": "GEN_2016-09-30",
+      "window_type": "mixed_sample_008",
+      "chronological_index": 10,
+      "state_id": "mixed_sample_008_state_010",
+      "time_spot": "2016-10-13",
+      "reference_session": "2016-10-13",
+      "question": "Session summary for October 13, 2016: GEN opened $12.18, ranged $11.76-$12.18, closed $11.88. Volume 11.9M (1.47x 20-day avg). 20-day $12.27 | 50-day $11.81. 5-day return -4.03%. ATR-14 $0.17. RSI 32.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2016-10-13",
+        "open": 12.18,
+        "high": 12.18,
+        "low": 11.76,
+        "close": 11.88,
+        "volume": 11881800,
+        "ma20": 12.27,
+        "ma50": 11.81,
+        "volume_vs_20d": 1.47,
+        "atr14": 0.17,
+        "chg_5d_pct": -4.03
+      },
+      "weekly_snapshot": {
+        "ticker": "GEN",
+        "week_start": "2016-10-10",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 32.9,
+        "price_vs_sma50": 1.006,
+        "notes": "ADX 17.8, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "GEN_2016-09-30_mixed_sample_008_011",
+      "scenario_id": "GEN_2016-09-30",
+      "window_type": "mixed_sample_008",
+      "chronological_index": 11,
+      "state_id": "mixed_sample_008_state_011",
+      "time_spot": "2016-10-14",
+      "reference_session": "2016-10-14",
+      "question": "Session summary for October 14, 2016: GEN opened $11.95, ranged $11.76-$12.03, closed $11.79. Volume 7.9M (1.03x 20-day avg). 20-day $12.24 | 50-day $11.84. 5-day return -4.44%. ATR-14 $0.18. RSI 31.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2016-10-14",
+        "open": 11.95,
+        "high": 12.03,
+        "low": 11.76,
+        "close": 11.79,
+        "volume": 7901300,
+        "ma20": 12.24,
+        "ma50": 11.84,
+        "volume_vs_20d": 1.03,
+        "atr14": 0.18,
+        "chg_5d_pct": -4.44
+      },
+      "weekly_snapshot": {
+        "ticker": "GEN",
+        "week_start": "2016-10-10",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 31.3,
+        "price_vs_sma50": 0.996,
+        "notes": "ADX 19.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "GEN_2016-09-30_mixed_sample_008_012",
+      "scenario_id": "GEN_2016-09-30",
+      "window_type": "mixed_sample_008",
+      "chronological_index": 12,
+      "state_id": "mixed_sample_008_state_012",
+      "time_spot": "2016-10-17",
+      "reference_session": "2016-10-17",
+      "question": "Session summary for October 17, 2016: GEN opened $11.80, ranged $11.80-$11.94, closed $11.84. Volume 5.7M (0.75x 20-day avg). 20-day $12.22 | 50-day $11.86. 5-day return -4.20%. ATR-14 $0.18. RSI 28.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2016-10-17",
+        "open": 11.8,
+        "high": 11.94,
+        "low": 11.8,
+        "close": 11.84,
+        "volume": 5654600,
+        "ma20": 12.22,
+        "ma50": 11.86,
+        "volume_vs_20d": 0.75,
+        "atr14": 0.18,
+        "chg_5d_pct": -4.2
+      },
+      "weekly_snapshot": {
+        "ticker": "GEN",
+        "week_start": "2016-10-17",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 28.3,
+        "price_vs_sma50": 0.998,
+        "notes": "ADX 21.0, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "GEN_2016-09-30_mixed_sample_008_013",
+      "scenario_id": "GEN_2016-09-30",
+      "window_type": "mixed_sample_008",
+      "chronological_index": 13,
+      "state_id": "mixed_sample_008_state_013",
+      "time_spot": "2016-10-18",
+      "reference_session": "2016-10-18",
+      "question": "Session summary for October 18, 2016: GEN opened $11.96, ranged $11.78-$12.02, closed $11.85. Volume 8.5M (1.16x 20-day avg). 20-day $12.21 | 50-day $11.89. 5-day return -3.35%. ATR-14 $0.19. RSI 25.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2016-10-18",
+        "open": 11.96,
+        "high": 12.02,
+        "low": 11.78,
+        "close": 11.85,
+        "volume": 8454900,
+        "ma20": 12.21,
+        "ma50": 11.89,
+        "volume_vs_20d": 1.16,
+        "atr14": 0.19,
+        "chg_5d_pct": -3.35
+      },
+      "weekly_snapshot": {
+        "ticker": "GEN",
+        "week_start": "2016-10-17",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 25.6,
+        "price_vs_sma50": 0.997,
+        "notes": "ADX 23.0, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "GEN_2016-09-30_mixed_sample_008_014",
+      "scenario_id": "GEN_2016-09-30",
+      "window_type": "mixed_sample_008",
+      "chronological_index": 14,
+      "state_id": "mixed_sample_008_state_014",
+      "time_spot": "2016-10-19",
+      "reference_session": "2016-10-19",
+      "question": "Session summary for October 19, 2016: GEN opened $11.86, ranged $11.75-$11.87, closed $11.86. Volume 5.4M (0.75x 20-day avg). 20-day $12.19 | 50-day $11.91. 5-day return -2.85%. ATR-14 $0.18. RSI 29.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2016-10-19",
+        "open": 11.86,
+        "high": 11.87,
+        "low": 11.75,
+        "close": 11.86,
+        "volume": 5390000,
+        "ma20": 12.19,
+        "ma50": 11.91,
+        "volume_vs_20d": 0.75,
+        "atr14": 0.18,
+        "chg_5d_pct": -2.85
+      },
+      "weekly_snapshot": {
+        "ticker": "GEN",
+        "week_start": "2016-10-17",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 29.5,
+        "price_vs_sma50": 0.995,
+        "notes": "ADX 24.1, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "GEN_2016-09-30_mixed_sample_008_015",
+      "scenario_id": "GEN_2016-09-30",
+      "window_type": "mixed_sample_008",
+      "chronological_index": 15,
+      "state_id": "mixed_sample_008_state_015",
+      "time_spot": "2016-10-20",
+      "reference_session": "2016-10-20",
+      "question": "Session summary for October 20, 2016: GEN opened $11.82, ranged $11.78-$11.92, closed $11.84. Volume 4.2M (0.58x 20-day avg). 20-day $12.17 | 50-day $11.94. 5-day return -0.33%. ATR-14 $0.18. RSI 25.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2016-10-20",
+        "open": 11.82,
+        "high": 11.92,
+        "low": 11.78,
+        "close": 11.84,
+        "volume": 4182800,
+        "ma20": 12.17,
+        "ma50": 11.94,
+        "volume_vs_20d": 0.58,
+        "atr14": 0.18,
+        "chg_5d_pct": -0.33
+      },
+      "weekly_snapshot": {
+        "ticker": "GEN",
+        "week_start": "2016-10-17",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 25.5,
+        "price_vs_sma50": 0.992,
+        "notes": "ADX 23.8, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "GEN_2016-09-30_mixed_sample_008_016",
+      "scenario_id": "GEN_2016-09-30",
+      "window_type": "mixed_sample_008",
+      "chronological_index": 16,
+      "state_id": "mixed_sample_008_state_016",
+      "time_spot": "2016-10-21",
+      "reference_session": "2016-10-21",
+      "question": "Session summary for October 21, 2016: GEN opened $11.85, ranged $11.76-$11.86, closed $11.79. Volume 5.8M (0.82x 20-day avg). 20-day $12.15 | 50-day $11.96. 5-day return -0.04%. ATR-14 $0.19. RSI 23.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2016-10-21",
+        "open": 11.85,
+        "high": 11.86,
+        "low": 11.76,
+        "close": 11.79,
+        "volume": 5837300,
+        "ma20": 12.15,
+        "ma50": 11.96,
+        "volume_vs_20d": 0.82,
+        "atr14": 0.19,
+        "chg_5d_pct": -0.04
+      },
+      "weekly_snapshot": {
+        "ticker": "GEN",
+        "week_start": "2016-10-17",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 23.6,
+        "price_vs_sma50": 0.985,
+        "notes": "ADX 24.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "GEN_2016-09-30_mixed_sample_008_017",
+      "scenario_id": "GEN_2016-09-30",
+      "window_type": "mixed_sample_008",
+      "chronological_index": 17,
+      "state_id": "mixed_sample_008_state_017",
+      "time_spot": "2016-10-24",
+      "reference_session": "2016-10-24",
+      "question": "Session summary for October 24, 2016: GEN opened $11.83, ranged $11.83-$12.21, closed $12.19. Volume 8.6M (1.18x 20-day avg). 20-day $12.14 | 50-day $11.98. 5-day return +2.94%. ATR-14 $0.20. RSI 43.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2016-10-24",
+        "open": 11.83,
+        "high": 12.21,
+        "low": 11.83,
+        "close": 12.19,
+        "volume": 8597500,
+        "ma20": 12.14,
+        "ma50": 11.98,
+        "volume_vs_20d": 1.18,
+        "atr14": 0.2,
+        "chg_5d_pct": 2.94
+      },
+      "weekly_snapshot": {
+        "ticker": "GEN",
+        "week_start": "2016-10-24",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 43.3,
+        "price_vs_sma50": 1.017,
+        "notes": "ADX 23.6, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "GEN_2016-09-30_mixed_sample_008_018",
+      "scenario_id": "GEN_2016-09-30",
+      "window_type": "mixed_sample_008",
+      "chronological_index": 18,
+      "state_id": "mixed_sample_008_state_018",
+      "time_spot": "2016-10-25",
+      "reference_session": "2016-10-25",
+      "question": "Session summary for October 25, 2016: GEN opened $12.13, ranged $12.13-$12.25, closed $12.23. Volume 8.3M (1.14x 20-day avg). 20-day $12.14 | 50-day $12.00. 5-day return +3.18%. ATR-14 $0.20. RSI 42.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2016-10-25",
+        "open": 12.13,
+        "high": 12.25,
+        "low": 12.13,
+        "close": 12.23,
+        "volume": 8325600,
+        "ma20": 12.14,
+        "ma50": 12.0,
+        "volume_vs_20d": 1.14,
+        "atr14": 0.2,
+        "chg_5d_pct": 3.18
+      },
+      "weekly_snapshot": {
+        "ticker": "GEN",
+        "week_start": "2016-10-24",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 42.2,
+        "price_vs_sma50": 1.019,
+        "notes": "ADX 22.4, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "GEN_2016-09-30_mixed_sample_008_019",
+      "scenario_id": "GEN_2016-09-30",
+      "window_type": "mixed_sample_008",
+      "chronological_index": 19,
+      "state_id": "mixed_sample_008_state_019",
+      "time_spot": "2016-10-26",
+      "reference_session": "2016-10-26",
+      "question": "Session summary for October 26, 2016: GEN opened $12.16, ranged $12.15-$12.32, closed $12.25. Volume 8.3M (1.12x 20-day avg). 20-day $12.13 | 50-day $12.03. 5-day return +3.30%. ATR-14 $0.20. RSI 44.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2016-10-26",
+        "open": 12.16,
+        "high": 12.32,
+        "low": 12.15,
+        "close": 12.25,
+        "volume": 8319600,
+        "ma20": 12.13,
+        "ma50": 12.03,
+        "volume_vs_20d": 1.12,
+        "atr14": 0.2,
+        "chg_5d_pct": 3.3
+      },
+      "weekly_snapshot": {
+        "ticker": "GEN",
+        "week_start": "2016-10-24",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 44.7,
+        "price_vs_sma50": 1.019,
+        "notes": "ADX 21.7, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "GEN_2016-09-30_mixed_sample_008_020",
+      "scenario_id": "GEN_2016-09-30",
+      "window_type": "mixed_sample_008",
+      "chronological_index": 20,
+      "state_id": "mixed_sample_008_state_020",
+      "time_spot": "2016-10-27",
+      "reference_session": "2016-10-27",
+      "question": "Session summary for October 27, 2016: GEN opened $12.30, ranged $12.19-$12.33, closed $12.20. Volume 7.4M (1.01x 20-day avg). 20-day $12.13 | 50-day $12.05. 5-day return +3.02%. ATR-14 $0.20. RSI 44.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2016-10-27",
+        "open": 12.3,
+        "high": 12.33,
+        "low": 12.19,
+        "close": 12.2,
+        "volume": 7365300,
+        "ma20": 12.13,
+        "ma50": 12.05,
+        "volume_vs_20d": 1.01,
+        "atr14": 0.2,
+        "chg_5d_pct": 3.02
+      },
+      "weekly_snapshot": {
+        "ticker": "GEN",
+        "week_start": "2016-10-24",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 44.5,
+        "price_vs_sma50": 1.013,
+        "notes": "ADX 20.8, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "GEN_2016-09-30_mixed_sample_008_021",
+      "scenario_id": "GEN_2016-09-30",
+      "window_type": "mixed_sample_008",
+      "chronological_index": 21,
+      "state_id": "mixed_sample_008_state_021",
+      "time_spot": "2016-10-28",
+      "reference_session": "2016-10-28",
+      "question": "Session summary for October 28, 2016: GEN opened $12.05, ranged $12.05-$12.25, closed $12.18. Volume 6.1M (0.86x 20-day avg). 20-day $12.13 | 50-day $12.06. 5-day return +3.32%. ATR-14 $0.21. RSI 42.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2016-10-28",
+        "open": 12.05,
+        "high": 12.25,
+        "low": 12.05,
+        "close": 12.18,
+        "volume": 6069200,
+        "ma20": 12.13,
+        "ma50": 12.06,
+        "volume_vs_20d": 0.86,
+        "atr14": 0.21,
+        "chg_5d_pct": 3.32
+      },
+      "weekly_snapshot": {
+        "ticker": "GEN",
+        "week_start": "2016-10-24",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 42.7,
+        "price_vs_sma50": 1.009,
+        "notes": "ADX 19.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "GEN_2016-09-30_mixed_sample_008_022",
+      "scenario_id": "GEN_2016-09-30",
+      "window_type": "mixed_sample_008",
+      "chronological_index": 22,
+      "state_id": "mixed_sample_008_state_022",
+      "time_spot": "2016-10-31",
+      "reference_session": "2016-10-31",
+      "question": "Session summary for October 31, 2016: GEN opened $12.25, ranged $12.22-$12.32, closed $12.25. Volume 6.1M (0.85x 20-day avg). 20-day $12.12 | 50-day $12.08. 5-day return +0.52%. ATR-14 $0.21. RSI 49.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2016-10-31",
+        "open": 12.25,
+        "high": 12.32,
+        "low": 12.22,
+        "close": 12.25,
+        "volume": 6056100,
+        "ma20": 12.12,
+        "ma50": 12.08,
+        "volume_vs_20d": 0.85,
+        "atr14": 0.21,
+        "chg_5d_pct": 0.52
+      },
+      "weekly_snapshot": {
+        "ticker": "GEN",
+        "week_start": "2016-10-31",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 49.4,
+        "price_vs_sma50": 1.014,
+        "notes": "ADX 18.8, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "GEN_2016-09-30_mixed_sample_008_023",
+      "scenario_id": "GEN_2016-09-30",
+      "window_type": "mixed_sample_008",
+      "chronological_index": 23,
+      "state_id": "mixed_sample_008_state_023",
+      "time_spot": "2016-11-01",
+      "reference_session": "2016-11-01",
+      "question": "Session summary for November 01, 2016: GEN opened $12.30, ranged $12.21-$12.40, closed $12.34. Volume 8.7M (1.21x 20-day avg). 20-day $12.12 | 50-day $12.09. 5-day return +0.92%. ATR-14 $0.20. RSI 55.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2016-11-01",
+        "open": 12.3,
+        "high": 12.4,
+        "low": 12.21,
+        "close": 12.34,
+        "volume": 8693100,
+        "ma20": 12.12,
+        "ma50": 12.09,
+        "volume_vs_20d": 1.21,
+        "atr14": 0.2,
+        "chg_5d_pct": 0.92
+      },
+      "weekly_snapshot": {
+        "ticker": "GEN",
+        "week_start": "2016-10-31",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 55.4,
+        "price_vs_sma50": 1.021,
+        "notes": "ADX 19.4, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "GEN_2016-09-30_mixed_sample_008_024",
+      "scenario_id": "GEN_2016-09-30",
+      "window_type": "mixed_sample_008",
+      "chronological_index": 24,
+      "state_id": "mixed_sample_008_state_024",
+      "time_spot": "2016-11-02",
+      "reference_session": "2016-11-02",
+      "question": "Session summary for November 02, 2016: GEN opened $12.35, ranged $12.29-$12.42, closed $12.35. Volume 12.1M (1.64x 20-day avg). 20-day $12.12 | 50-day $12.10. 5-day return +0.80%. ATR-14 $0.18. RSI 74.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2016-11-02",
+        "open": 12.35,
+        "high": 12.42,
+        "low": 12.29,
+        "close": 12.35,
+        "volume": 12137900,
+        "ma20": 12.12,
+        "ma50": 12.1,
+        "volume_vs_20d": 1.64,
+        "atr14": 0.18,
+        "chg_5d_pct": 0.8
+      },
+      "weekly_snapshot": {
+        "ticker": "GEN",
+        "week_start": "2016-10-31",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 74.6,
+        "price_vs_sma50": 1.02,
+        "notes": "ADX 21.4, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "GEN_2016-09-30_mixed_sample_008_025",
+      "scenario_id": "GEN_2016-09-30",
+      "window_type": "mixed_sample_008",
+      "chronological_index": 25,
+      "state_id": "mixed_sample_008_state_025",
+      "time_spot": "2016-11-03",
+      "reference_session": "2016-11-03",
+      "question": "Session summary for November 03, 2016: GEN opened $12.36, ranged $12.29-$12.47, closed $12.46. Volume 12.6M (1.63x 20-day avg). 20-day $12.12 | 50-day $12.12. 5-day return +2.09%. ATR-14 $0.17. RSI 84.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2016-11-03",
+        "open": 12.36,
+        "high": 12.47,
+        "low": 12.29,
+        "close": 12.46,
+        "volume": 12643500,
+        "ma20": 12.12,
+        "ma50": 12.12,
+        "volume_vs_20d": 1.63,
+        "atr14": 0.17,
+        "chg_5d_pct": 2.09
+      },
+      "weekly_snapshot": {
+        "ticker": "GEN",
+        "week_start": "2016-10-31",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 84.7,
+        "price_vs_sma50": 1.028,
+        "notes": "ADX 23.9, MACD bullish"
+      }
+    }
+  ]
+}

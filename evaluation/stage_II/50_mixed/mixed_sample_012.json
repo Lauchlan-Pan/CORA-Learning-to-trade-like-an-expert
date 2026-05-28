@@ -1,0 +1,2898 @@
+{
+  "metadata": {
+    "instrument": "AME",
+    "initial_capital": 10000,
+    "window_type": "mixed_sample_012",
+    "description": "AME window (2010-07-13 \u2013 2010-08-16) - mixed regime.",
+    "num_mcqs": 25,
+    "notes": "Orders express target exposure fractions relative to the leverage ceiling.",
+    "max_leverage": 2.5,
+    "exposure_buckets": [
+      0.8,
+      0.6,
+      0.4,
+      0.2
+    ],
+    "start_reference": "2010-07-13",
+    "end_reference": "2010-08-16",
+    "regime": "mixed",
+    "bh_return": 0.25
+  },
+  "mcqs": [
+    {
+      "scenario_instance_id": "AME_2010-07-13_mixed_sample_012_001",
+      "scenario_id": "AME_2010-07-13",
+      "window_type": "mixed_sample_012",
+      "chronological_index": 1,
+      "state_id": "mixed_sample_012_state_001",
+      "time_spot": "2010-07-13",
+      "reference_session": "2010-07-13",
+      "question": "Session summary for July 13, 2010: AME opened $17.25, ranged $17.10-$17.47, closed $17.44. Volume 1.1M (0.93x 20-day avg). 20-day $16.78 | 50-day $16.72. 5-day return +7.16%. ATR-14 $0.33. RSI 61.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-07-13",
+        "open": 17.25,
+        "high": 17.47,
+        "low": 17.1,
+        "close": 17.44,
+        "volume": 1118925,
+        "ma20": 16.78,
+        "ma50": 16.72,
+        "volume_vs_20d": 0.93,
+        "atr14": 0.33,
+        "chg_5d_pct": 7.16
+      },
+      "weekly_snapshot": {
+        "ticker": "AME",
+        "week_start": "2010-07-12",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 61.8,
+        "price_vs_sma50": 1.043,
+        "notes": "ADX 15.4, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AME_2010-07-13_mixed_sample_012_002",
+      "scenario_id": "AME_2010-07-13",
+      "window_type": "mixed_sample_012",
+      "chronological_index": 2,
+      "state_id": "mixed_sample_012_state_002",
+      "time_spot": "2010-07-14",
+      "reference_session": "2010-07-14",
+      "question": "Session summary for July 14, 2010: AME opened $17.39, ranged $17.33-$17.54, closed $17.48. Volume 0.8M (0.69x 20-day avg). 20-day $16.80 | 50-day $16.72. 5-day return +4.71%. ATR-14 $0.32. RSI 63.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-07-14",
+        "open": 17.39,
+        "high": 17.54,
+        "low": 17.33,
+        "close": 17.48,
+        "volume": 783900,
+        "ma20": 16.8,
+        "ma50": 16.72,
+        "volume_vs_20d": 0.69,
+        "atr14": 0.32,
+        "chg_5d_pct": 4.71
+      },
+      "weekly_snapshot": {
+        "ticker": "AME",
+        "week_start": "2010-07-12",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 63.1,
+        "price_vs_sma50": 1.046,
+        "notes": "ADX 17.5, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AME_2010-07-13_mixed_sample_012_003",
+      "scenario_id": "AME_2010-07-13",
+      "window_type": "mixed_sample_012",
+      "chronological_index": 3,
+      "state_id": "mixed_sample_012_state_003",
+      "time_spot": "2010-07-15",
+      "reference_session": "2010-07-15",
+      "question": "Session summary for July 15, 2010: AME opened $17.45, ranged $17.14-$17.47, closed $17.37. Volume 0.8M (0.70x 20-day avg). 20-day $16.81 | 50-day $16.72. 5-day return +2.96%. ATR-14 $0.33. RSI 67.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-07-15",
+        "open": 17.45,
+        "high": 17.47,
+        "low": 17.14,
+        "close": 17.37,
+        "volume": 783000,
+        "ma20": 16.81,
+        "ma50": 16.72,
+        "volume_vs_20d": 0.7,
+        "atr14": 0.33,
+        "chg_5d_pct": 2.96
+      },
+      "weekly_snapshot": {
+        "ticker": "AME",
+        "week_start": "2010-07-12",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 67.2,
+        "price_vs_sma50": 1.039,
+        "notes": "ADX 17.9, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AME_2010-07-13_mixed_sample_012_004",
+      "scenario_id": "AME_2010-07-13",
+      "window_type": "mixed_sample_012",
+      "chronological_index": 4,
+      "state_id": "mixed_sample_012_state_004",
+      "time_spot": "2010-07-16",
+      "reference_session": "2010-07-16",
+      "question": "Session summary for July 16, 2010: AME opened $17.31, ranged $16.84-$17.31, closed $16.87. Volume 0.8M (0.68x 20-day avg). 20-day $16.80 | 50-day $16.72. 5-day return -1.53%. ATR-14 $0.34. RSI 53.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-07-16",
+        "open": 17.31,
+        "high": 17.31,
+        "low": 16.84,
+        "close": 16.87,
+        "volume": 753750,
+        "ma20": 16.8,
+        "ma50": 16.72,
+        "volume_vs_20d": 0.68,
+        "atr14": 0.34,
+        "chg_5d_pct": -1.53
+      },
+      "weekly_snapshot": {
+        "ticker": "AME",
+        "week_start": "2010-07-12",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 53.9,
+        "price_vs_sma50": 1.009,
+        "notes": "ADX 16.5, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AME_2010-07-13_mixed_sample_012_005",
+      "scenario_id": "AME_2010-07-13",
+      "window_type": "mixed_sample_012",
+      "chronological_index": 5,
+      "state_id": "mixed_sample_012_state_005",
+      "time_spot": "2010-07-19",
+      "reference_session": "2010-07-19",
+      "question": "Session summary for July 19, 2010: AME opened $16.94, ranged $16.77-$17.09, closed $17.05. Volume 0.4M (0.35x 20-day avg). 20-day $16.80 | 50-day $16.73. 5-day return -0.12%. ATR-14 $0.35. RSI 55.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-07-19",
+        "open": 16.94,
+        "high": 17.09,
+        "low": 16.77,
+        "close": 17.05,
+        "volume": 366975,
+        "ma20": 16.8,
+        "ma50": 16.73,
+        "volume_vs_20d": 0.35,
+        "atr14": 0.35,
+        "chg_5d_pct": -0.12
+      },
+      "weekly_snapshot": {
+        "ticker": "AME",
+        "week_start": "2010-07-19",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 55.8,
+        "price_vs_sma50": 1.019,
+        "notes": "ADX 13.9, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AME_2010-07-13_mixed_sample_012_006",
+      "scenario_id": "AME_2010-07-13",
+      "window_type": "mixed_sample_012",
+      "chronological_index": 6,
+      "state_id": "mixed_sample_012_state_006",
+      "time_spot": "2010-07-20",
+      "reference_session": "2010-07-20",
+      "question": "Session summary for July 20, 2010: AME opened $16.85, ranged $16.74-$17.28, closed $17.23. Volume 0.6M (0.58x 20-day avg). 20-day $16.80 | 50-day $16.75. 5-day return -1.20%. ATR-14 $0.35. RSI 66.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-07-20",
+        "open": 16.85,
+        "high": 17.28,
+        "low": 16.74,
+        "close": 17.23,
+        "volume": 622125,
+        "ma20": 16.8,
+        "ma50": 16.75,
+        "volume_vs_20d": 0.58,
+        "atr14": 0.35,
+        "chg_5d_pct": -1.2
+      },
+      "weekly_snapshot": {
+        "ticker": "AME",
+        "week_start": "2010-07-19",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 66.8,
+        "price_vs_sma50": 1.029,
+        "notes": "ADX 15.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AME_2010-07-13_mixed_sample_012_007",
+      "scenario_id": "AME_2010-07-13",
+      "window_type": "mixed_sample_012",
+      "chronological_index": 7,
+      "state_id": "mixed_sample_012_state_007",
+      "time_spot": "2010-07-21",
+      "reference_session": "2010-07-21",
+      "question": "Session summary for July 21, 2010: AME opened $17.87, ranged $17.67-$18.18, closed $17.74. Volume 2.3M (1.98x 20-day avg). 20-day $16.85 | 50-day $16.77. 5-day return +1.45%. ATR-14 $0.39. RSI 75.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-07-21",
+        "open": 17.87,
+        "high": 18.18,
+        "low": 17.67,
+        "close": 17.74,
+        "volume": 2263275,
+        "ma20": 16.85,
+        "ma50": 16.77,
+        "volume_vs_20d": 1.98,
+        "atr14": 0.39,
+        "chg_5d_pct": 1.45
+      },
+      "weekly_snapshot": {
+        "ticker": "AME",
+        "week_start": "2010-07-19",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 75.3,
+        "price_vs_sma50": 1.058,
+        "notes": "ADX 18.9, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AME_2010-07-13_mixed_sample_012_008",
+      "scenario_id": "AME_2010-07-13",
+      "window_type": "mixed_sample_012",
+      "chronological_index": 8,
+      "state_id": "mixed_sample_012_state_008",
+      "time_spot": "2010-07-22",
+      "reference_session": "2010-07-22",
+      "question": "Session summary for July 22, 2010: AME opened $17.94, ranged $17.89-$18.20, closed $17.97. Volume 1.5M (1.28x 20-day avg). 20-day $16.91 | 50-day $16.78. 5-day return +3.44%. ATR-14 $0.41. RSI 77.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-07-22",
+        "open": 17.94,
+        "high": 18.2,
+        "low": 17.89,
+        "close": 17.97,
+        "volume": 1525950,
+        "ma20": 16.91,
+        "ma50": 16.78,
+        "volume_vs_20d": 1.28,
+        "atr14": 0.41,
+        "chg_5d_pct": 3.44
+      },
+      "weekly_snapshot": {
+        "ticker": "AME",
+        "week_start": "2010-07-19",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 77.5,
+        "price_vs_sma50": 1.071,
+        "notes": "ADX 22.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AME_2010-07-13_mixed_sample_012_009",
+      "scenario_id": "AME_2010-07-13",
+      "window_type": "mixed_sample_012",
+      "chronological_index": 9,
+      "state_id": "mixed_sample_012_state_009",
+      "time_spot": "2010-07-23",
+      "reference_session": "2010-07-23",
+      "question": "Session summary for July 23, 2010: AME opened $17.97, ranged $17.73-$18.29, closed $18.24. Volume 2.6M (2.04x 20-day avg). 20-day $16.99 | 50-day $16.80. 5-day return +8.15%. ATR-14 $0.43. RSI 78.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-07-23",
+        "open": 17.97,
+        "high": 18.29,
+        "low": 17.73,
+        "close": 18.24,
+        "volume": 2614725,
+        "ma20": 16.99,
+        "ma50": 16.8,
+        "volume_vs_20d": 2.04,
+        "atr14": 0.43,
+        "chg_5d_pct": 8.15
+      },
+      "weekly_snapshot": {
+        "ticker": "AME",
+        "week_start": "2010-07-19",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 78.2,
+        "price_vs_sma50": 1.086,
+        "notes": "ADX 24.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AME_2010-07-13_mixed_sample_012_010",
+      "scenario_id": "AME_2010-07-13",
+      "window_type": "mixed_sample_012",
+      "chronological_index": 10,
+      "state_id": "mixed_sample_012_state_010",
+      "time_spot": "2010-07-26",
+      "reference_session": "2010-07-26",
+      "question": "Session summary for July 26, 2010: AME opened $18.26, ranged $18.22-$18.63, closed $18.59. Volume 1.4M (1.11x 20-day avg). 20-day $17.09 | 50-day $16.82. 5-day return +9.04%. ATR-14 $0.42. RSI 81.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-07-26",
+        "open": 18.26,
+        "high": 18.63,
+        "low": 18.22,
+        "close": 18.59,
+        "volume": 1440225,
+        "ma20": 17.09,
+        "ma50": 16.82,
+        "volume_vs_20d": 1.11,
+        "atr14": 0.42,
+        "chg_5d_pct": 9.04
+      },
+      "weekly_snapshot": {
+        "ticker": "AME",
+        "week_start": "2010-07-26",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 81.5,
+        "price_vs_sma50": 1.105,
+        "notes": "ADX 27.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AME_2010-07-13_mixed_sample_012_011",
+      "scenario_id": "AME_2010-07-13",
+      "window_type": "mixed_sample_012",
+      "chronological_index": 11,
+      "state_id": "mixed_sample_012_state_011",
+      "time_spot": "2010-07-27",
+      "reference_session": "2010-07-27",
+      "question": "Session summary for July 27, 2010: AME opened $18.74, ranged $17.98-$18.74, closed $18.05. Volume 1.8M (1.34x 20-day avg). 20-day $17.15 | 50-day $16.83. 5-day return +4.75%. ATR-14 $0.45. RSI 67.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-07-27",
+        "open": 18.74,
+        "high": 18.74,
+        "low": 17.98,
+        "close": 18.05,
+        "volume": 1796625,
+        "ma20": 17.15,
+        "ma50": 16.83,
+        "volume_vs_20d": 1.34,
+        "atr14": 0.45,
+        "chg_5d_pct": 4.75
+      },
+      "weekly_snapshot": {
+        "ticker": "AME",
+        "week_start": "2010-07-26",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 67.9,
+        "price_vs_sma50": 1.072,
+        "notes": "ADX 29.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AME_2010-07-13_mixed_sample_012_012",
+      "scenario_id": "AME_2010-07-13",
+      "window_type": "mixed_sample_012",
+      "chronological_index": 12,
+      "state_id": "mixed_sample_012_state_012",
+      "time_spot": "2010-07-28",
+      "reference_session": "2010-07-28",
+      "question": "Session summary for July 28, 2010: AME opened $18.05, ranged $17.91-$18.21, closed $17.96. Volume 1.0M (0.72x 20-day avg). 20-day $17.24 | 50-day $16.85. 5-day return +1.27%. ATR-14 $0.45. RSI 64.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-07-28",
+        "open": 18.05,
+        "high": 18.21,
+        "low": 17.91,
+        "close": 17.96,
+        "volume": 951750,
+        "ma20": 17.24,
+        "ma50": 16.85,
+        "volume_vs_20d": 0.72,
+        "atr14": 0.45,
+        "chg_5d_pct": 1.27
+      },
+      "weekly_snapshot": {
+        "ticker": "AME",
+        "week_start": "2010-07-26",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 64.8,
+        "price_vs_sma50": 1.066,
+        "notes": "ADX 31.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AME_2010-07-13_mixed_sample_012_013",
+      "scenario_id": "AME_2010-07-13",
+      "window_type": "mixed_sample_012",
+      "chronological_index": 13,
+      "state_id": "mixed_sample_012_state_013",
+      "time_spot": "2010-07-29",
+      "reference_session": "2010-07-29",
+      "question": "Session summary for July 29, 2010: AME opened $18.07, ranged $17.64-$18.09, closed $17.80. Volume 1.2M (0.89x 20-day avg). 20-day $17.32 | 50-day $16.86. 5-day return -0.92%. ATR-14 $0.46. RSI 59.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-07-29",
+        "open": 18.07,
+        "high": 18.09,
+        "low": 17.64,
+        "close": 17.8,
+        "volume": 1156050,
+        "ma20": 17.32,
+        "ma50": 16.86,
+        "volume_vs_20d": 0.89,
+        "atr14": 0.46,
+        "chg_5d_pct": -0.92
+      },
+      "weekly_snapshot": {
+        "ticker": "AME",
+        "week_start": "2010-07-26",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 59.4,
+        "price_vs_sma50": 1.056,
+        "notes": "ADX 32.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AME_2010-07-13_mixed_sample_012_014",
+      "scenario_id": "AME_2010-07-13",
+      "window_type": "mixed_sample_012",
+      "chronological_index": 14,
+      "state_id": "mixed_sample_012_state_014",
+      "time_spot": "2010-07-30",
+      "reference_session": "2010-07-30",
+      "question": "Session summary for July 30, 2010: AME opened $17.65, ranged $17.51-$18.14, closed $17.85. Volume 0.8M (0.62x 20-day avg). 20-day $17.40 | 50-day $16.88. 5-day return -2.14%. ATR-14 $0.49. RSI 60.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-07-30",
+        "open": 17.65,
+        "high": 18.14,
+        "low": 17.51,
+        "close": 17.85,
+        "volume": 757125,
+        "ma20": 17.4,
+        "ma50": 16.88,
+        "volume_vs_20d": 0.62,
+        "atr14": 0.49,
+        "chg_5d_pct": -2.14
+      },
+      "weekly_snapshot": {
+        "ticker": "AME",
+        "week_start": "2010-07-26",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 60.9,
+        "price_vs_sma50": 1.057,
+        "notes": "ADX 32.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AME_2010-07-13_mixed_sample_012_015",
+      "scenario_id": "AME_2010-07-13",
+      "window_type": "mixed_sample_012",
+      "chronological_index": 15,
+      "state_id": "mixed_sample_012_state_015",
+      "time_spot": "2010-08-02",
+      "reference_session": "2010-08-02",
+      "question": "Session summary for August 02, 2010: AME opened $18.14, ranged $17.99-$18.14, closed $18.08. Volume 1.3M (1.08x 20-day avg). 20-day $17.49 | 50-day $16.92. 5-day return -2.71%. ATR-14 $0.48. RSI 59.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-08-02",
+        "open": 18.14,
+        "high": 18.14,
+        "low": 17.99,
+        "close": 18.08,
+        "volume": 1322325,
+        "ma20": 17.49,
+        "ma50": 16.92,
+        "volume_vs_20d": 1.08,
+        "atr14": 0.48,
+        "chg_5d_pct": -2.71
+      },
+      "weekly_snapshot": {
+        "ticker": "AME",
+        "week_start": "2010-08-02",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 59.3,
+        "price_vs_sma50": 1.069,
+        "notes": "ADX 31.5, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AME_2010-07-13_mixed_sample_012_016",
+      "scenario_id": "AME_2010-07-13",
+      "window_type": "mixed_sample_012",
+      "chronological_index": 16,
+      "state_id": "mixed_sample_012_state_016",
+      "time_spot": "2010-08-03",
+      "reference_session": "2010-08-03",
+      "question": "Session summary for August 03, 2010: AME opened $18.01, ranged $17.89-$18.16, closed $18.05. Volume 0.7M (0.57x 20-day avg). 20-day $17.58 | 50-day $16.95. 5-day return +0.00%. ATR-14 $0.49. RSI 58.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-08-03",
+        "open": 18.01,
+        "high": 18.16,
+        "low": 17.89,
+        "close": 18.05,
+        "volume": 687825,
+        "ma20": 17.58,
+        "ma50": 16.95,
+        "volume_vs_20d": 0.57,
+        "atr14": 0.49,
+        "chg_5d_pct": 0.0
+      },
+      "weekly_snapshot": {
+        "ticker": "AME",
+        "week_start": "2010-08-02",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 58.3,
+        "price_vs_sma50": 1.065,
+        "notes": "ADX 29.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AME_2010-07-13_mixed_sample_012_017",
+      "scenario_id": "AME_2010-07-13",
+      "window_type": "mixed_sample_012",
+      "chronological_index": 17,
+      "state_id": "mixed_sample_012_state_017",
+      "time_spot": "2010-08-04",
+      "reference_session": "2010-08-04",
+      "question": "Session summary for August 04, 2010: AME opened $18.19, ranged $18.07-$18.33, closed $18.22. Volume 0.8M (0.67x 20-day avg). 20-day $17.65 | 50-day $16.99. 5-day return +1.46%. ATR-14 $0.48. RSI 62.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-08-04",
+        "open": 18.19,
+        "high": 18.33,
+        "low": 18.07,
+        "close": 18.22,
+        "volume": 767250,
+        "ma20": 17.65,
+        "ma50": 16.99,
+        "volume_vs_20d": 0.67,
+        "atr14": 0.48,
+        "chg_5d_pct": 1.46
+      },
+      "weekly_snapshot": {
+        "ticker": "AME",
+        "week_start": "2010-08-02",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 62.2,
+        "price_vs_sma50": 1.073,
+        "notes": "ADX 28.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AME_2010-07-13_mixed_sample_012_018",
+      "scenario_id": "AME_2010-07-13",
+      "window_type": "mixed_sample_012",
+      "chronological_index": 18,
+      "state_id": "mixed_sample_012_state_018",
+      "time_spot": "2010-08-05",
+      "reference_session": "2010-08-05",
+      "question": "Session summary for August 05, 2010: AME opened $18.05, ranged $17.91-$18.36, closed $18.30. Volume 1.0M (0.89x 20-day avg). 20-day $17.72 | 50-day $17.03. 5-day return +2.81%. ATR-14 $0.48. RSI 73.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-08-05",
+        "open": 18.05,
+        "high": 18.36,
+        "low": 17.91,
+        "close": 18.3,
+        "volume": 990000,
+        "ma20": 17.72,
+        "ma50": 17.03,
+        "volume_vs_20d": 0.89,
+        "atr14": 0.48,
+        "chg_5d_pct": 2.81
+      },
+      "weekly_snapshot": {
+        "ticker": "AME",
+        "week_start": "2010-08-02",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 73.4,
+        "price_vs_sma50": 1.075,
+        "notes": "ADX 28.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AME_2010-07-13_mixed_sample_012_019",
+      "scenario_id": "AME_2010-07-13",
+      "window_type": "mixed_sample_012",
+      "chronological_index": 19,
+      "state_id": "mixed_sample_012_state_019",
+      "time_spot": "2010-08-06",
+      "reference_session": "2010-08-06",
+      "question": "Session summary for August 06, 2010: AME opened $18.10, ranged $17.92-$18.36, closed $18.34. Volume 1.0M (0.92x 20-day avg). 20-day $17.78 | 50-day $17.07. 5-day return +2.73%. ATR-14 $0.48. RSI 72.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-08-06",
+        "open": 18.1,
+        "high": 18.36,
+        "low": 17.92,
+        "close": 18.34,
+        "volume": 1040850,
+        "ma20": 17.78,
+        "ma50": 17.07,
+        "volume_vs_20d": 0.92,
+        "atr14": 0.48,
+        "chg_5d_pct": 2.73
+      },
+      "weekly_snapshot": {
+        "ticker": "AME",
+        "week_start": "2010-08-02",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 72.0,
+        "price_vs_sma50": 1.074,
+        "notes": "ADX 28.7, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AME_2010-07-13_mixed_sample_012_020",
+      "scenario_id": "AME_2010-07-13",
+      "window_type": "mixed_sample_012",
+      "chronological_index": 20,
+      "state_id": "mixed_sample_012_state_020",
+      "time_spot": "2010-08-09",
+      "reference_session": "2010-08-09",
+      "question": "Session summary for August 09, 2010: AME opened $18.38, ranged $18.34-$18.58, closed $18.55. Volume 0.9M (0.76x 20-day avg). 20-day $17.86 | 50-day $17.11. 5-day return +2.61%. ATR-14 $0.46. RSI 72.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-08-09",
+        "open": 18.38,
+        "high": 18.58,
+        "low": 18.34,
+        "close": 18.55,
+        "volume": 855675,
+        "ma20": 17.86,
+        "ma50": 17.11,
+        "volume_vs_20d": 0.76,
+        "atr14": 0.46,
+        "chg_5d_pct": 2.61
+      },
+      "weekly_snapshot": {
+        "ticker": "AME",
+        "week_start": "2010-08-09",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 72.3,
+        "price_vs_sma50": 1.084,
+        "notes": "ADX 27.8, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AME_2010-07-13_mixed_sample_012_021",
+      "scenario_id": "AME_2010-07-13",
+      "window_type": "mixed_sample_012",
+      "chronological_index": 21,
+      "state_id": "mixed_sample_012_state_021",
+      "time_spot": "2010-08-10",
+      "reference_session": "2010-08-10",
+      "question": "Session summary for August 10, 2010: AME opened $18.29, ranged $18.09-$18.37, closed $18.30. Volume 0.7M (0.60x 20-day avg). 20-day $17.90 | 50-day $17.15. 5-day return +1.36%. ATR-14 $0.43. RSI 60.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-08-10",
+        "open": 18.29,
+        "high": 18.37,
+        "low": 18.09,
+        "close": 18.3,
+        "volume": 666225,
+        "ma20": 17.9,
+        "ma50": 17.15,
+        "volume_vs_20d": 0.6,
+        "atr14": 0.43,
+        "chg_5d_pct": 1.36
+      },
+      "weekly_snapshot": {
+        "ticker": "AME",
+        "week_start": "2010-08-09",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 60.3,
+        "price_vs_sma50": 1.067,
+        "notes": "ADX 26.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AME_2010-07-13_mixed_sample_012_022",
+      "scenario_id": "AME_2010-07-13",
+      "window_type": "mixed_sample_012",
+      "chronological_index": 22,
+      "state_id": "mixed_sample_012_state_022",
+      "time_spot": "2010-08-11",
+      "reference_session": "2010-08-11",
+      "question": "Session summary for August 11, 2010: AME opened $17.91, ranged $17.53-$17.95, closed $17.74. Volume 1.1M (0.96x 20-day avg). 20-day $17.91 | 50-day $17.18. 5-day return -2.63%. ATR-14 $0.45. RSI 46.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-08-11",
+        "open": 17.91,
+        "high": 17.95,
+        "low": 17.53,
+        "close": 17.74,
+        "volume": 1072800,
+        "ma20": 17.91,
+        "ma50": 17.18,
+        "volume_vs_20d": 0.96,
+        "atr14": 0.45,
+        "chg_5d_pct": -2.63
+      },
+      "weekly_snapshot": {
+        "ticker": "AME",
+        "week_start": "2010-08-09",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 46.3,
+        "price_vs_sma50": 1.033,
+        "notes": "ADX 24.8, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AME_2010-07-13_mixed_sample_012_023",
+      "scenario_id": "AME_2010-07-13",
+      "window_type": "mixed_sample_012",
+      "chronological_index": 23,
+      "state_id": "mixed_sample_012_state_023",
+      "time_spot": "2010-08-12",
+      "reference_session": "2010-08-12",
+      "question": "Session summary for August 12, 2010: AME opened $17.40, ranged $17.32-$17.64, closed $17.51. Volume 0.9M (0.80x 20-day avg). 20-day $17.92 | 50-day $17.20. 5-day return -4.34%. ATR-14 $0.44. RSI 37.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-08-12",
+        "open": 17.4,
+        "high": 17.64,
+        "low": 17.32,
+        "close": 17.51,
+        "volume": 904950,
+        "ma20": 17.92,
+        "ma50": 17.2,
+        "volume_vs_20d": 0.8,
+        "atr14": 0.44,
+        "chg_5d_pct": -4.34
+      },
+      "weekly_snapshot": {
+        "ticker": "AME",
+        "week_start": "2010-08-09",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 37.8,
+        "price_vs_sma50": 1.018,
+        "notes": "ADX 24.4, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AME_2010-07-13_mixed_sample_012_024",
+      "scenario_id": "AME_2010-07-13",
+      "window_type": "mixed_sample_012",
+      "chronological_index": 24,
+      "state_id": "mixed_sample_012_state_024",
+      "time_spot": "2010-08-13",
+      "reference_session": "2010-08-13",
+      "question": "Session summary for August 13, 2010: AME opened $17.51, ranged $17.41-$17.59, closed $17.44. Volume 0.9M (0.80x 20-day avg). 20-day $17.95 | 50-day $17.21. 5-day return -4.88%. ATR-14 $0.43. RSI 28.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-08-13",
+        "open": 17.51,
+        "high": 17.59,
+        "low": 17.41,
+        "close": 17.44,
+        "volume": 903375,
+        "ma20": 17.95,
+        "ma50": 17.21,
+        "volume_vs_20d": 0.8,
+        "atr14": 0.43,
+        "chg_5d_pct": -4.88
+      },
+      "weekly_snapshot": {
+        "ticker": "AME",
+        "week_start": "2010-08-09",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 28.9,
+        "price_vs_sma50": 1.014,
+        "notes": "ADX 25.4, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AME_2010-07-13_mixed_sample_012_025",
+      "scenario_id": "AME_2010-07-13",
+      "window_type": "mixed_sample_012",
+      "chronological_index": 25,
+      "state_id": "mixed_sample_012_state_025",
+      "time_spot": "2010-08-16",
+      "reference_session": "2010-08-16",
+      "question": "Session summary for August 16, 2010: AME opened $17.31, ranged $17.19-$17.55, closed $17.49. Volume 0.6M (0.54x 20-day avg). 20-day $17.97 | 50-day $17.23. 5-day return -5.76%. ATR-14 $0.40. RSI 37.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-08-16",
+        "open": 17.31,
+        "high": 17.55,
+        "low": 17.19,
+        "close": 17.49,
+        "volume": 617625,
+        "ma20": 17.97,
+        "ma50": 17.23,
+        "volume_vs_20d": 0.54,
+        "atr14": 0.4,
+        "chg_5d_pct": -5.76
+      },
+      "weekly_snapshot": {
+        "ticker": "AME",
+        "week_start": "2010-08-16",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 37.3,
+        "price_vs_sma50": 1.015,
+        "notes": "ADX 27.2, MACD bearish"
+      }
+    }
+  ]
+}

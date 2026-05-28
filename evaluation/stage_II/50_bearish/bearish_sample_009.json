@@ -1,0 +1,2898 @@
+{
+  "metadata": {
+    "instrument": "SYF",
+    "initial_capital": 10000,
+    "window_type": "bearish_sample_009",
+    "description": "SYF window (2022-09-12 \u2013 2022-10-14) sampled from S&P500 indicator archive.",
+    "num_mcqs": 25,
+    "notes": "Orders express target exposure fractions relative to the leverage ceiling.",
+    "max_leverage": 2.5,
+    "exposure_buckets": [
+      0.8,
+      0.6,
+      0.4,
+      0.2
+    ],
+    "start_reference": "2022-09-12",
+    "end_reference": "2022-10-14",
+    "regime": "bearish",
+    "original_sample": "snp500_sample_054"
+  },
+  "mcqs": [
+    {
+      "scenario_instance_id": "SYF_2022-09-12_bearish_sample_009_001",
+      "scenario_id": "SYF_2022-09-12",
+      "window_type": "bearish_sample_009",
+      "chronological_index": 1,
+      "state_id": "bearish_sample_009_state_001",
+      "time_spot": "2022-09-12",
+      "reference_session": "2022-09-12",
+      "question": "Session summary for September 12, 2022: SYF opened $31.43, ranged $31.26-$32.24, closed $31.91. Volume 4.4M (1.17x 20-day avg). 20-day $31.30 | 50-day $30.45. 5-day return +7.29%. ATR-14 $1.00. RSI 54.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-09-12",
+        "open": 31.43,
+        "high": 32.24,
+        "low": 31.26,
+        "close": 31.91,
+        "volume": 4420800,
+        "ma20": 31.3,
+        "ma50": 30.45,
+        "volume_vs_20d": 1.17,
+        "atr14": 1.0,
+        "chg_5d_pct": 7.29
+      },
+      "weekly_snapshot": {
+        "ticker": "SYF",
+        "week_start": "2022-09-12",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 54.8,
+        "price_vs_sma50": 1.048,
+        "notes": "ADX 29.4, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "SYF_2022-09-12_bearish_sample_009_002",
+      "scenario_id": "SYF_2022-09-12",
+      "window_type": "bearish_sample_009",
+      "chronological_index": 2,
+      "state_id": "bearish_sample_009_state_002",
+      "time_spot": "2022-09-13",
+      "reference_session": "2022-09-13",
+      "question": "Session summary for September 13, 2022: SYF opened $30.83, ranged $29.26-$30.89, closed $29.40. Volume 4.9M (1.26x 20-day avg). 20-day $31.11 | 50-day $30.51. 5-day return +1.94%. ATR-14 $1.14. RSI 39.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-09-13",
+        "open": 30.83,
+        "high": 30.89,
+        "low": 29.26,
+        "close": 29.4,
+        "volume": 4887300,
+        "ma20": 31.11,
+        "ma50": 30.51,
+        "volume_vs_20d": 1.26,
+        "atr14": 1.14,
+        "chg_5d_pct": 1.94
+      },
+      "weekly_snapshot": {
+        "ticker": "SYF",
+        "week_start": "2022-09-12",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 39.8,
+        "price_vs_sma50": 0.964,
+        "notes": "ADX 30.6, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "SYF_2022-09-12_bearish_sample_009_003",
+      "scenario_id": "SYF_2022-09-12",
+      "window_type": "bearish_sample_009",
+      "chronological_index": 3,
+      "state_id": "bearish_sample_009_state_003",
+      "time_spot": "2022-09-14",
+      "reference_session": "2022-09-14",
+      "question": "Session summary for September 14, 2022: SYF opened $29.61, ranged $28.68-$29.61, closed $29.53. Volume 4.9M (1.25x 20-day avg). 20-day $30.91 | 50-day $30.57. 5-day return -0.66%. ATR-14 $1.14. RSI 38.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-09-14",
+        "open": 29.61,
+        "high": 29.61,
+        "low": 28.68,
+        "close": 29.53,
+        "volume": 4943800,
+        "ma20": 30.91,
+        "ma50": 30.57,
+        "volume_vs_20d": 1.25,
+        "atr14": 1.14,
+        "chg_5d_pct": -0.66
+      },
+      "weekly_snapshot": {
+        "ticker": "SYF",
+        "week_start": "2022-09-12",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 38.8,
+        "price_vs_sma50": 0.966,
+        "notes": "ADX 32.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "SYF_2022-09-12_bearish_sample_009_004",
+      "scenario_id": "SYF_2022-09-12",
+      "window_type": "bearish_sample_009",
+      "chronological_index": 4,
+      "state_id": "bearish_sample_009_state_004",
+      "time_spot": "2022-09-15",
+      "reference_session": "2022-09-15",
+      "question": "Session summary for September 15, 2022: SYF opened $29.64, ranged $29.58-$30.88, closed $30.33. Volume 4.6M (1.14x 20-day avg). 20-day $30.79 | 50-day $30.65. 5-day return +0.00%. ATR-14 $1.19. RSI 39.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-09-15",
+        "open": 29.64,
+        "high": 30.88,
+        "low": 29.58,
+        "close": 30.33,
+        "volume": 4627700,
+        "ma20": 30.79,
+        "ma50": 30.65,
+        "volume_vs_20d": 1.14,
+        "atr14": 1.19,
+        "chg_5d_pct": 0.0
+      },
+      "weekly_snapshot": {
+        "ticker": "SYF",
+        "week_start": "2022-09-12",
+        "trend_regime": "rangebound",
+        "volatility_regime": "high",
+        "rsi_14": 39.1,
+        "price_vs_sma50": 0.99,
+        "notes": "ADX 32.8, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "SYF_2022-09-12_bearish_sample_009_005",
+      "scenario_id": "SYF_2022-09-12",
+      "window_type": "bearish_sample_009",
+      "chronological_index": 5,
+      "state_id": "bearish_sample_009_state_005",
+      "time_spot": "2022-09-16",
+      "reference_session": "2022-09-16",
+      "question": "Session summary for September 16, 2022: SYF opened $29.89, ranged $29.33-$30.33, closed $30.25. Volume 10.0M (2.24x 20-day avg). 20-day $30.66 | 50-day $30.71. 5-day return -2.72%. ATR-14 $1.14. RSI 44.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-09-16",
+        "open": 29.89,
+        "high": 30.33,
+        "low": 29.33,
+        "close": 30.25,
+        "volume": 10016700,
+        "ma20": 30.66,
+        "ma50": 30.71,
+        "volume_vs_20d": 2.24,
+        "atr14": 1.14,
+        "chg_5d_pct": -2.72
+      },
+      "weekly_snapshot": {
+        "ticker": "SYF",
+        "week_start": "2022-09-12",
+        "trend_regime": "rangebound",
+        "volatility_regime": "high",
+        "rsi_14": 44.4,
+        "price_vs_sma50": 0.985,
+        "notes": "ADX 33.4, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "SYF_2022-09-12_bearish_sample_009_006",
+      "scenario_id": "SYF_2022-09-12",
+      "window_type": "bearish_sample_009",
+      "chronological_index": 6,
+      "state_id": "bearish_sample_009_state_006",
+      "time_spot": "2022-09-19",
+      "reference_session": "2022-09-19",
+      "question": "Session summary for September 19, 2022: SYF opened $29.74, ranged $29.64-$30.47, closed $30.44. Volume 4.0M (0.89x 20-day avg). 20-day $30.58 | 50-day $30.77. 5-day return -4.64%. ATR-14 $1.14. RSI 49.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-09-19",
+        "open": 29.74,
+        "high": 30.47,
+        "low": 29.64,
+        "close": 30.44,
+        "volume": 3958100,
+        "ma20": 30.58,
+        "ma50": 30.77,
+        "volume_vs_20d": 0.89,
+        "atr14": 1.14,
+        "chg_5d_pct": -4.64
+      },
+      "weekly_snapshot": {
+        "ticker": "SYF",
+        "week_start": "2022-09-19",
+        "trend_regime": "rangebound",
+        "volatility_regime": "high",
+        "rsi_14": 49.9,
+        "price_vs_sma50": 0.989,
+        "notes": "ADX 33.1, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "SYF_2022-09-12_bearish_sample_009_007",
+      "scenario_id": "SYF_2022-09-12",
+      "window_type": "bearish_sample_009",
+      "chronological_index": 7,
+      "state_id": "bearish_sample_009_state_007",
+      "time_spot": "2022-09-20",
+      "reference_session": "2022-09-20",
+      "question": "Session summary for September 20, 2022: SYF opened $29.97, ranged $29.02-$29.98, closed $29.44. Volume 4.8M (1.07x 20-day avg). 20-day $30.50 | 50-day $30.81. 5-day return +0.13%. ATR-14 $1.20. RSI 43.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-09-20",
+        "open": 29.97,
+        "high": 29.98,
+        "low": 29.02,
+        "close": 29.44,
+        "volume": 4765400,
+        "ma20": 30.5,
+        "ma50": 30.81,
+        "volume_vs_20d": 1.07,
+        "atr14": 1.2,
+        "chg_5d_pct": 0.13
+      },
+      "weekly_snapshot": {
+        "ticker": "SYF",
+        "week_start": "2022-09-19",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 43.6,
+        "price_vs_sma50": 0.956,
+        "notes": "ADX 31.2, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "SYF_2022-09-12_bearish_sample_009_008",
+      "scenario_id": "SYF_2022-09-12",
+      "window_type": "bearish_sample_009",
+      "chronological_index": 8,
+      "state_id": "bearish_sample_009_state_008",
+      "time_spot": "2022-09-21",
+      "reference_session": "2022-09-21",
+      "question": "Session summary for September 21, 2022: SYF opened $29.67, ranged $28.49-$29.77, closed $28.50. Volume 3.9M (0.88x 20-day avg). 20-day $30.35 | 50-day $30.81. 5-day return -3.50%. ATR-14 $1.23. RSI 40.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-09-21",
+        "open": 29.67,
+        "high": 29.77,
+        "low": 28.49,
+        "close": 28.5,
+        "volume": 3908300,
+        "ma20": 30.35,
+        "ma50": 30.81,
+        "volume_vs_20d": 0.88,
+        "atr14": 1.23,
+        "chg_5d_pct": -3.5
+      },
+      "weekly_snapshot": {
+        "ticker": "SYF",
+        "week_start": "2022-09-19",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 40.5,
+        "price_vs_sma50": 0.925,
+        "notes": "ADX 29.1, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "SYF_2022-09-12_bearish_sample_009_009",
+      "scenario_id": "SYF_2022-09-12",
+      "window_type": "bearish_sample_009",
+      "chronological_index": 9,
+      "state_id": "bearish_sample_009_state_009",
+      "time_spot": "2022-09-22",
+      "reference_session": "2022-09-22",
+      "question": "Session summary for September 22, 2022: SYF opened $28.53, ranged $27.53-$28.65, closed $27.66. Volume 4.1M (0.92x 20-day avg). 20-day $30.13 | 50-day $30.81. 5-day return -8.80%. ATR-14 $1.22. RSI 39.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-09-22",
+        "open": 28.53,
+        "high": 28.65,
+        "low": 27.53,
+        "close": 27.66,
+        "volume": 4116800,
+        "ma20": 30.13,
+        "ma50": 30.81,
+        "volume_vs_20d": 0.92,
+        "atr14": 1.22,
+        "chg_5d_pct": -8.8
+      },
+      "weekly_snapshot": {
+        "ticker": "SYF",
+        "week_start": "2022-09-19",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 39.8,
+        "price_vs_sma50": 0.898,
+        "notes": "ADX 26.5, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "SYF_2022-09-12_bearish_sample_009_010",
+      "scenario_id": "SYF_2022-09-12",
+      "window_type": "bearish_sample_009",
+      "chronological_index": 10,
+      "state_id": "bearish_sample_009_state_010",
+      "time_spot": "2022-09-23",
+      "reference_session": "2022-09-23",
+      "question": "Session summary for September 23, 2022: SYF opened $27.15, ranged $26.72-$27.54, closed $27.23. Volume 4.8M (1.06x 20-day avg). 20-day $29.86 | 50-day $30.80. 5-day return -9.97%. ATR-14 $1.22. RSI 38.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-09-23",
+        "open": 27.15,
+        "high": 27.54,
+        "low": 26.72,
+        "close": 27.23,
+        "volume": 4772400,
+        "ma20": 29.86,
+        "ma50": 30.8,
+        "volume_vs_20d": 1.06,
+        "atr14": 1.22,
+        "chg_5d_pct": -9.97
+      },
+      "weekly_snapshot": {
+        "ticker": "SYF",
+        "week_start": "2022-09-19",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 38.5,
+        "price_vs_sma50": 0.884,
+        "notes": "ADX 25.2, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "SYF_2022-09-12_bearish_sample_009_011",
+      "scenario_id": "SYF_2022-09-12",
+      "window_type": "bearish_sample_009",
+      "chronological_index": 11,
+      "state_id": "bearish_sample_009_state_011",
+      "time_spot": "2022-09-26",
+      "reference_session": "2022-09-26",
+      "question": "Session summary for September 26, 2022: SYF opened $26.91, ranged $26.20-$27.43, closed $26.25. Volume 4.3M (0.96x 20-day avg). 20-day $29.61 | 50-day $30.75. 5-day return -13.76%. ATR-14 $1.22. RSI 38.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-09-26",
+        "open": 26.91,
+        "high": 27.43,
+        "low": 26.2,
+        "close": 26.25,
+        "volume": 4289600,
+        "ma20": 29.61,
+        "ma50": 30.75,
+        "volume_vs_20d": 0.96,
+        "atr14": 1.22,
+        "chg_5d_pct": -13.76
+      },
+      "weekly_snapshot": {
+        "ticker": "SYF",
+        "week_start": "2022-09-26",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 38.2,
+        "price_vs_sma50": 0.854,
+        "notes": "ADX 22.9, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "SYF_2022-09-12_bearish_sample_009_012",
+      "scenario_id": "SYF_2022-09-12",
+      "window_type": "bearish_sample_009",
+      "chronological_index": 12,
+      "state_id": "bearish_sample_009_state_012",
+      "time_spot": "2022-09-27",
+      "reference_session": "2022-09-27",
+      "question": "Session summary for September 27, 2022: SYF opened $26.60, ranged $25.84-$26.69, closed $26.16. Volume 4.4M (0.97x 20-day avg). 20-day $29.39 | 50-day $30.69. 5-day return -11.16%. ATR-14 $1.20. RSI 32.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-09-27",
+        "open": 26.6,
+        "high": 26.69,
+        "low": 25.84,
+        "close": 26.16,
+        "volume": 4399100,
+        "ma20": 29.39,
+        "ma50": 30.69,
+        "volume_vs_20d": 0.97,
+        "atr14": 1.2,
+        "chg_5d_pct": -11.16
+      },
+      "weekly_snapshot": {
+        "ticker": "SYF",
+        "week_start": "2022-09-26",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 32.4,
+        "price_vs_sma50": 0.852,
+        "notes": "ADX 21.0, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "SYF_2022-09-12_bearish_sample_009_013",
+      "scenario_id": "SYF_2022-09-12",
+      "window_type": "bearish_sample_009",
+      "chronological_index": 13,
+      "state_id": "bearish_sample_009_state_013",
+      "time_spot": "2022-09-28",
+      "reference_session": "2022-09-28",
+      "question": "Session summary for September 28, 2022: SYF opened $26.34, ranged $26.07-$27.12, closed $26.97. Volume 5.6M (1.22x 20-day avg). 20-day $29.21 | 50-day $30.62. 5-day return -5.35%. ATR-14 $1.19. RSI 33.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-09-28",
+        "open": 26.34,
+        "high": 27.12,
+        "low": 26.07,
+        "close": 26.97,
+        "volume": 5598200,
+        "ma20": 29.21,
+        "ma50": 30.62,
+        "volume_vs_20d": 1.22,
+        "atr14": 1.19,
+        "chg_5d_pct": -5.35
+      },
+      "weekly_snapshot": {
+        "ticker": "SYF",
+        "week_start": "2022-09-26",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 33.8,
+        "price_vs_sma50": 0.881,
+        "notes": "ADX 19.9, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "SYF_2022-09-12_bearish_sample_009_014",
+      "scenario_id": "SYF_2022-09-12",
+      "window_type": "bearish_sample_009",
+      "chronological_index": 14,
+      "state_id": "bearish_sample_009_state_014",
+      "time_spot": "2022-09-29",
+      "reference_session": "2022-09-29",
+      "question": "Session summary for September 29, 2022: SYF opened $26.46, ranged $26.41-$27.24, closed $26.83. Volume 6.4M (1.36x 20-day avg). 20-day $29.02 | 50-day $30.54. 5-day return -2.99%. ATR-14 $1.19. RSI 28.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-09-29",
+        "open": 26.46,
+        "high": 27.24,
+        "low": 26.41,
+        "close": 26.83,
+        "volume": 6387200,
+        "ma20": 29.02,
+        "ma50": 30.54,
+        "volume_vs_20d": 1.36,
+        "atr14": 1.19,
+        "chg_5d_pct": -2.99
+      },
+      "weekly_snapshot": {
+        "ticker": "SYF",
+        "week_start": "2022-09-26",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 28.2,
+        "price_vs_sma50": 0.879,
+        "notes": "ADX 20.9, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "SYF_2022-09-12_bearish_sample_009_015",
+      "scenario_id": "SYF_2022-09-12",
+      "window_type": "bearish_sample_009",
+      "chronological_index": 15,
+      "state_id": "bearish_sample_009_state_015",
+      "time_spot": "2022-09-30",
+      "reference_session": "2022-09-30",
+      "question": "Session summary for September 30, 2022: SYF opened $26.81, ranged $26.16-$26.91, closed $26.23. Volume 5.7M (1.21x 20-day avg). 20-day $28.84 | 50-day $30.46. 5-day return -3.69%. ATR-14 $1.16. RSI 20.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-09-30",
+        "open": 26.81,
+        "high": 26.91,
+        "low": 26.16,
+        "close": 26.23,
+        "volume": 5695000,
+        "ma20": 28.84,
+        "ma50": 30.46,
+        "volume_vs_20d": 1.21,
+        "atr14": 1.16,
+        "chg_5d_pct": -3.69
+      },
+      "weekly_snapshot": {
+        "ticker": "SYF",
+        "week_start": "2022-09-26",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 20.3,
+        "price_vs_sma50": 0.861,
+        "notes": "ADX 24.7, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "SYF_2022-09-12_bearish_sample_009_016",
+      "scenario_id": "SYF_2022-09-12",
+      "window_type": "bearish_sample_009",
+      "chronological_index": 16,
+      "state_id": "bearish_sample_009_state_016",
+      "time_spot": "2022-10-03",
+      "reference_session": "2022-10-03",
+      "question": "Session summary for October 03, 2022: SYF opened $26.80, ranged $26.37-$27.92, closed $27.78. Volume 6.8M (1.39x 20-day avg). 20-day $28.75 | 50-day $30.41. 5-day return +5.85%. ATR-14 $1.09. RSI 40.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-03",
+        "open": 26.8,
+        "high": 27.92,
+        "low": 26.37,
+        "close": 27.78,
+        "volume": 6801000,
+        "ma20": 28.75,
+        "ma50": 30.41,
+        "volume_vs_20d": 1.39,
+        "atr14": 1.09,
+        "chg_5d_pct": 5.85
+      },
+      "weekly_snapshot": {
+        "ticker": "SYF",
+        "week_start": "2022-10-03",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 40.6,
+        "price_vs_sma50": 0.914,
+        "notes": "ADX 24.9, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "SYF_2022-09-12_bearish_sample_009_017",
+      "scenario_id": "SYF_2022-09-12",
+      "window_type": "bearish_sample_009",
+      "chronological_index": 17,
+      "state_id": "bearish_sample_009_state_017",
+      "time_spot": "2022-10-04",
+      "reference_session": "2022-10-04",
+      "question": "Session summary for October 04, 2022: SYF opened $28.47, ranged $28.42-$29.51, closed $29.48. Volume 9.1M (1.78x 20-day avg). 20-day $28.78 | 50-day $30.40. 5-day return +12.70%. ATR-14 $1.15. RSI 49.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-04",
+        "open": 28.47,
+        "high": 29.51,
+        "low": 28.42,
+        "close": 29.48,
+        "volume": 9055000,
+        "ma20": 28.78,
+        "ma50": 30.4,
+        "volume_vs_20d": 1.78,
+        "atr14": 1.15,
+        "chg_5d_pct": 12.7
+      },
+      "weekly_snapshot": {
+        "ticker": "SYF",
+        "week_start": "2022-10-03",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 49.7,
+        "price_vs_sma50": 0.97,
+        "notes": "ADX 22.9, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "SYF_2022-09-12_bearish_sample_009_018",
+      "scenario_id": "SYF_2022-09-12",
+      "window_type": "bearish_sample_009",
+      "chronological_index": 18,
+      "state_id": "bearish_sample_009_state_018",
+      "time_spot": "2022-10-05",
+      "reference_session": "2022-10-05",
+      "question": "Session summary for October 05, 2022: SYF opened $28.81, ranged $28.81-$29.74, closed $29.54. Volume 7.3M (1.38x 20-day avg). 20-day $28.77 | 50-day $30.40. 5-day return +9.52%. ATR-14 $1.12. RSI 45.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-05",
+        "open": 28.81,
+        "high": 29.74,
+        "low": 28.81,
+        "close": 29.54,
+        "volume": 7347300,
+        "ma20": 28.77,
+        "ma50": 30.4,
+        "volume_vs_20d": 1.38,
+        "atr14": 1.12,
+        "chg_5d_pct": 9.52
+      },
+      "weekly_snapshot": {
+        "ticker": "SYF",
+        "week_start": "2022-10-03",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 45.8,
+        "price_vs_sma50": 0.972,
+        "notes": "ADX 22.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "SYF_2022-09-12_bearish_sample_009_019",
+      "scenario_id": "SYF_2022-09-12",
+      "window_type": "bearish_sample_009",
+      "chronological_index": 19,
+      "state_id": "bearish_sample_009_state_019",
+      "time_spot": "2022-10-06",
+      "reference_session": "2022-10-06",
+      "question": "Session summary for October 06, 2022: SYF opened $29.21, ranged $29.01-$29.64, closed $29.30. Volume 7.0M (1.27x 20-day avg). 20-day $28.72 | 50-day $30.39. 5-day return +9.19%. ATR-14 $1.09. RSI 45.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-06",
+        "open": 29.21,
+        "high": 29.64,
+        "low": 29.01,
+        "close": 29.3,
+        "volume": 6971200,
+        "ma20": 28.72,
+        "ma50": 30.39,
+        "volume_vs_20d": 1.27,
+        "atr14": 1.09,
+        "chg_5d_pct": 9.19
+      },
+      "weekly_snapshot": {
+        "ticker": "SYF",
+        "week_start": "2022-10-03",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 45.0,
+        "price_vs_sma50": 0.964,
+        "notes": "ADX 21.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "SYF_2022-09-12_bearish_sample_009_020",
+      "scenario_id": "SYF_2022-09-12",
+      "window_type": "bearish_sample_009",
+      "chronological_index": 20,
+      "state_id": "bearish_sample_009_state_020",
+      "time_spot": "2022-10-07",
+      "reference_session": "2022-10-07",
+      "question": "Session summary for October 07, 2022: SYF opened $28.85, ranged $28.52-$28.95, closed $28.70. Volume 7.5M (1.32x 20-day avg). 20-day $28.60 | 50-day $30.36. 5-day return +9.40%. ATR-14 $1.09. RSI 41.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-07",
+        "open": 28.85,
+        "high": 28.95,
+        "low": 28.52,
+        "close": 28.7,
+        "volume": 7534000,
+        "ma20": 28.6,
+        "ma50": 30.36,
+        "volume_vs_20d": 1.32,
+        "atr14": 1.09,
+        "chg_5d_pct": 9.4
+      },
+      "weekly_snapshot": {
+        "ticker": "SYF",
+        "week_start": "2022-10-03",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 41.3,
+        "price_vs_sma50": 0.945,
+        "notes": "ADX 21.7, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "SYF_2022-09-12_bearish_sample_009_021",
+      "scenario_id": "SYF_2022-09-12",
+      "window_type": "bearish_sample_009",
+      "chronological_index": 21,
+      "state_id": "bearish_sample_009_state_021",
+      "time_spot": "2022-10-10",
+      "reference_session": "2022-10-10",
+      "question": "Session summary for October 10, 2022: SYF opened $28.95, ranged $28.65-$29.16, closed $28.85. Volume 5.8M (1.01x 20-day avg). 20-day $28.44 | 50-day $30.31. 5-day return +3.85%. ATR-14 $1.02. RSI 46.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-10",
+        "open": 28.95,
+        "high": 29.16,
+        "low": 28.65,
+        "close": 28.85,
+        "volume": 5843600,
+        "ma20": 28.44,
+        "ma50": 30.31,
+        "volume_vs_20d": 1.01,
+        "atr14": 1.02,
+        "chg_5d_pct": 3.85
+      },
+      "weekly_snapshot": {
+        "ticker": "SYF",
+        "week_start": "2022-10-10",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 46.8,
+        "price_vs_sma50": 0.952,
+        "notes": "ADX 21.2, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "SYF_2022-09-12_bearish_sample_009_022",
+      "scenario_id": "SYF_2022-09-12",
+      "window_type": "bearish_sample_009",
+      "chronological_index": 22,
+      "state_id": "bearish_sample_009_state_022",
+      "time_spot": "2022-10-11",
+      "reference_session": "2022-10-11",
+      "question": "Session summary for October 11, 2022: SYF opened $28.68, ranged $28.41-$29.51, closed $28.77. Volume 6.9M (1.17x 20-day avg). 20-day $28.41 | 50-day $30.26. 5-day return -2.40%. ATR-14 $1.01. RSI 51.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-11",
+        "open": 28.68,
+        "high": 29.51,
+        "low": 28.41,
+        "close": 28.77,
+        "volume": 6906300,
+        "ma20": 28.41,
+        "ma50": 30.26,
+        "volume_vs_20d": 1.17,
+        "atr14": 1.01,
+        "chg_5d_pct": -2.4
+      },
+      "weekly_snapshot": {
+        "ticker": "SYF",
+        "week_start": "2022-10-10",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 51.6,
+        "price_vs_sma50": 0.951,
+        "notes": "ADX 20.4, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "SYF_2022-09-12_bearish_sample_009_023",
+      "scenario_id": "SYF_2022-09-12",
+      "window_type": "bearish_sample_009",
+      "chronological_index": 23,
+      "state_id": "bearish_sample_009_state_023",
+      "time_spot": "2022-10-12",
+      "reference_session": "2022-10-12",
+      "question": "Session summary for October 12, 2022: SYF opened $28.80, ranged $28.58-$29.57, closed $29.11. Volume 5.3M (0.90x 20-day avg). 20-day $28.39 | 50-day $30.23. 5-day return -1.45%. ATR-14 $1.00. RSI 59.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-12",
+        "open": 28.8,
+        "high": 29.57,
+        "low": 28.58,
+        "close": 29.11,
+        "volume": 5320200,
+        "ma20": 28.39,
+        "ma50": 30.23,
+        "volume_vs_20d": 0.9,
+        "atr14": 1.0,
+        "chg_5d_pct": -1.45
+      },
+      "weekly_snapshot": {
+        "ticker": "SYF",
+        "week_start": "2022-10-10",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 59.3,
+        "price_vs_sma50": 0.963,
+        "notes": "ADX 20.9, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "SYF_2022-09-12_bearish_sample_009_024",
+      "scenario_id": "SYF_2022-09-12",
+      "window_type": "bearish_sample_009",
+      "chronological_index": 24,
+      "state_id": "bearish_sample_009_state_024",
+      "time_spot": "2022-10-13",
+      "reference_session": "2022-10-13",
+      "question": "Session summary for October 13, 2022: SYF opened $28.39, ranged $27.92-$30.37, closed $30.13. Volume 7.4M (1.22x 20-day avg). 20-day $28.38 | 50-day $30.20. 5-day return +2.83%. ATR-14 $1.11. RSI 67.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-13",
+        "open": 28.39,
+        "high": 30.37,
+        "low": 27.92,
+        "close": 30.13,
+        "volume": 7358500,
+        "ma20": 28.38,
+        "ma50": 30.2,
+        "volume_vs_20d": 1.22,
+        "atr14": 1.11,
+        "chg_5d_pct": 2.83
+      },
+      "weekly_snapshot": {
+        "ticker": "SYF",
+        "week_start": "2022-10-10",
+        "trend_regime": "rangebound",
+        "volatility_regime": "high",
+        "rsi_14": 67.2,
+        "price_vs_sma50": 0.998,
+        "notes": "ADX 22.5, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "SYF_2022-09-12_bearish_sample_009_025",
+      "scenario_id": "SYF_2022-09-12",
+      "window_type": "bearish_sample_009",
+      "chronological_index": 25,
+      "state_id": "bearish_sample_009_state_025",
+      "time_spot": "2022-10-14",
+      "reference_session": "2022-10-14",
+      "question": "Session summary for October 14, 2022: SYF opened $30.33, ranged $29.20-$30.72, closed $29.24. Volume 5.9M (1.02x 20-day avg). 20-day $28.33 | 50-day $30.16. 5-day return +1.88%. ATR-14 $1.13. RSI 68.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-14",
+        "open": 30.33,
+        "high": 30.72,
+        "low": 29.2,
+        "close": 29.24,
+        "volume": 5947200,
+        "ma20": 28.33,
+        "ma50": 30.16,
+        "volume_vs_20d": 1.02,
+        "atr14": 1.13,
+        "chg_5d_pct": 1.88
+      },
+      "weekly_snapshot": {
+        "ticker": "SYF",
+        "week_start": "2022-10-10",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 68.0,
+        "price_vs_sma50": 0.969,
+        "notes": "ADX 25.5, MACD bullish"
+      }
+    }
+  ]
+}

@@ -1,0 +1,2898 @@
+{
+  "metadata": {
+    "instrument": "ADSK",
+    "initial_capital": 10000,
+    "window_type": "bullish_sample_022",
+    "description": "ADSK window (2022-07-13 \u2013 2022-08-16) - bullish regime.",
+    "num_mcqs": 25,
+    "notes": "Orders express target exposure fractions relative to the leverage ceiling.",
+    "max_leverage": 2.5,
+    "exposure_buckets": [
+      0.8,
+      0.6,
+      0.4,
+      0.2
+    ],
+    "start_reference": "2022-07-13",
+    "end_reference": "2022-08-16",
+    "regime": "bullish",
+    "bh_return": 36.67
+  },
+  "mcqs": [
+    {
+      "scenario_instance_id": "ADSK_2022-07-13_bullish_sample_022_001",
+      "scenario_id": "ADSK_2022-07-13",
+      "window_type": "bullish_sample_022",
+      "chronological_index": 1,
+      "state_id": "bullish_sample_022_state_001",
+      "time_spot": "2022-07-13",
+      "reference_session": "2022-07-13",
+      "question": "Session summary for July 13, 2022: ADSK opened $167.00, ranged $166.94-$171.68, closed $170.95. Volume 1.1M (0.67x 20-day avg). 20-day $175.67 | 50-day $187.14. 5-day return -3.27%. ATR-14 $7.55. RSI 51.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-07-13",
+        "open": 167.0,
+        "high": 171.68,
+        "low": 166.94,
+        "close": 170.95,
+        "volume": 1139100,
+        "ma20": 175.67,
+        "ma50": 187.14,
+        "volume_vs_20d": 0.67,
+        "atr14": 7.55,
+        "chg_5d_pct": -3.27
+      },
+      "weekly_snapshot": {
+        "ticker": "ADSK",
+        "week_start": "2022-07-11",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 51.4,
+        "price_vs_sma50": 0.913,
+        "notes": "ADX 22.9, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADSK_2022-07-13_bullish_sample_022_002",
+      "scenario_id": "ADSK_2022-07-13",
+      "window_type": "bullish_sample_022",
+      "chronological_index": 2,
+      "state_id": "bullish_sample_022_state_002",
+      "time_spot": "2022-07-14",
+      "reference_session": "2022-07-14",
+      "question": "Session summary for July 14, 2022: ADSK opened $170.76, ranged $167.21-$171.90, closed $170.96. Volume 1.3M (0.77x 20-day avg). 20-day $175.64 | 50-day $186.70. 5-day return -6.19%. ATR-14 $6.83. RSI 37.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-07-14",
+        "open": 170.76,
+        "high": 171.9,
+        "low": 167.21,
+        "close": 170.96,
+        "volume": 1292500,
+        "ma20": 175.64,
+        "ma50": 186.7,
+        "volume_vs_20d": 0.77,
+        "atr14": 6.83,
+        "chg_5d_pct": -6.19
+      },
+      "weekly_snapshot": {
+        "ticker": "ADSK",
+        "week_start": "2022-07-11",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 37.9,
+        "price_vs_sma50": 0.916,
+        "notes": "ADX 21.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADSK_2022-07-13_bullish_sample_022_003",
+      "scenario_id": "ADSK_2022-07-13",
+      "window_type": "bullish_sample_022",
+      "chronological_index": 3,
+      "state_id": "bullish_sample_022_state_003",
+      "time_spot": "2022-07-15",
+      "reference_session": "2022-07-15",
+      "question": "Session summary for July 15, 2022: ADSK opened $174.36, ranged $172.60-$177.11, closed $176.21. Volume 1.4M (0.87x 20-day avg). 20-day $175.61 | 50-day $186.36. 5-day return -2.01%. ATR-14 $6.58. RSI 33.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-07-15",
+        "open": 174.36,
+        "high": 177.11,
+        "low": 172.6,
+        "close": 176.21,
+        "volume": 1443800,
+        "ma20": 175.61,
+        "ma50": 186.36,
+        "volume_vs_20d": 0.87,
+        "atr14": 6.58,
+        "chg_5d_pct": -2.01
+      },
+      "weekly_snapshot": {
+        "ticker": "ADSK",
+        "week_start": "2022-07-11",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 33.0,
+        "price_vs_sma50": 0.946,
+        "notes": "ADX 21.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADSK_2022-07-13_bullish_sample_022_004",
+      "scenario_id": "ADSK_2022-07-13",
+      "window_type": "bullish_sample_022",
+      "chronological_index": 4,
+      "state_id": "bullish_sample_022_state_004",
+      "time_spot": "2022-07-18",
+      "reference_session": "2022-07-18",
+      "question": "Session summary for July 18, 2022: ADSK opened $178.34, ranged $175.61-$179.50, closed $177.22. Volume 2.1M (1.28x 20-day avg). 20-day $176.26 | 50-day $185.83. 5-day return +0.28%. ATR-14 $6.22. RSI 39.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-07-18",
+        "open": 178.34,
+        "high": 179.5,
+        "low": 175.61,
+        "close": 177.22,
+        "volume": 2114100,
+        "ma20": 176.26,
+        "ma50": 185.83,
+        "volume_vs_20d": 1.28,
+        "atr14": 6.22,
+        "chg_5d_pct": 0.28
+      },
+      "weekly_snapshot": {
+        "ticker": "ADSK",
+        "week_start": "2022-07-18",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 39.7,
+        "price_vs_sma50": 0.954,
+        "notes": "ADX 21.4, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADSK_2022-07-13_bullish_sample_022_005",
+      "scenario_id": "ADSK_2022-07-13",
+      "window_type": "bullish_sample_022",
+      "chronological_index": 5,
+      "state_id": "bullish_sample_022_state_005",
+      "time_spot": "2022-07-19",
+      "reference_session": "2022-07-19",
+      "question": "Session summary for July 19, 2022: ADSK opened $180.85, ranged $178.95-$185.06, closed $184.76. Volume 1.1M (0.74x 20-day avg). 20-day $177.11 | 50-day $185.56. 5-day return +7.21%. ATR-14 $6.05. RSI 59.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-07-19",
+        "open": 180.85,
+        "high": 185.06,
+        "low": 178.95,
+        "close": 184.76,
+        "volume": 1149900,
+        "ma20": 177.11,
+        "ma50": 185.56,
+        "volume_vs_20d": 0.74,
+        "atr14": 6.05,
+        "chg_5d_pct": 7.21
+      },
+      "weekly_snapshot": {
+        "ticker": "ADSK",
+        "week_start": "2022-07-18",
+        "trend_regime": "rangebound",
+        "volatility_regime": "high",
+        "rsi_14": 59.8,
+        "price_vs_sma50": 0.996,
+        "notes": "ADX 20.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADSK_2022-07-13_bullish_sample_022_006",
+      "scenario_id": "ADSK_2022-07-13",
+      "window_type": "bullish_sample_022",
+      "chronological_index": 6,
+      "state_id": "bullish_sample_022_state_006",
+      "time_spot": "2022-07-20",
+      "reference_session": "2022-07-20",
+      "question": "Session summary for July 20, 2022: ADSK opened $186.31, ranged $185.53-$197.07, closed $196.38. Volume 1.7M (1.12x 20-day avg). 20-day $178.58 | 50-day $185.61. 5-day return +14.88%. ATR-14 $6.56. RSI 68.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-07-20",
+        "open": 186.31,
+        "high": 197.07,
+        "low": 185.53,
+        "close": 196.38,
+        "volume": 1741700,
+        "ma20": 178.58,
+        "ma50": 185.61,
+        "volume_vs_20d": 1.12,
+        "atr14": 6.56,
+        "chg_5d_pct": 14.88
+      },
+      "weekly_snapshot": {
+        "ticker": "ADSK",
+        "week_start": "2022-07-18",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 68.7,
+        "price_vs_sma50": 1.058,
+        "notes": "ADX 21.7, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADSK_2022-07-13_bullish_sample_022_007",
+      "scenario_id": "ADSK_2022-07-13",
+      "window_type": "bullish_sample_022",
+      "chronological_index": 7,
+      "state_id": "bullish_sample_022_state_007",
+      "time_spot": "2022-07-21",
+      "reference_session": "2022-07-21",
+      "question": "Session summary for July 21, 2022: ADSK opened $196.20, ranged $195.32-$199.85, closed $199.10. Volume 1.3M (0.85x 20-day avg). 20-day $180.08 | 50-day $185.87. 5-day return +16.46%. ATR-14 $6.42. RSI 77.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-07-21",
+        "open": 196.2,
+        "high": 199.85,
+        "low": 195.32,
+        "close": 199.1,
+        "volume": 1304400,
+        "ma20": 180.08,
+        "ma50": 185.87,
+        "volume_vs_20d": 0.85,
+        "atr14": 6.42,
+        "chg_5d_pct": 16.46
+      },
+      "weekly_snapshot": {
+        "ticker": "ADSK",
+        "week_start": "2022-07-18",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 77.1,
+        "price_vs_sma50": 1.071,
+        "notes": "ADX 24.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADSK_2022-07-13_bullish_sample_022_008",
+      "scenario_id": "ADSK_2022-07-13",
+      "window_type": "bullish_sample_022",
+      "chronological_index": 8,
+      "state_id": "bullish_sample_022_state_008",
+      "time_spot": "2022-07-22",
+      "reference_session": "2022-07-22",
+      "question": "Session summary for July 22, 2022: ADSK opened $199.19, ranged $194.48-$203.55, closed $195.95. Volume 1.5M (0.98x 20-day avg). 20-day $180.71 | 50-day $186.06. 5-day return +11.20%. ATR-14 $6.77. RSI 71.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-07-22",
+        "open": 199.19,
+        "high": 203.55,
+        "low": 194.48,
+        "close": 195.95,
+        "volume": 1457600,
+        "ma20": 180.71,
+        "ma50": 186.06,
+        "volume_vs_20d": 0.98,
+        "atr14": 6.77,
+        "chg_5d_pct": 11.2
+      },
+      "weekly_snapshot": {
+        "ticker": "ADSK",
+        "week_start": "2022-07-18",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 71.5,
+        "price_vs_sma50": 1.053,
+        "notes": "ADX 27.9, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADSK_2022-07-13_bullish_sample_022_009",
+      "scenario_id": "ADSK_2022-07-13",
+      "window_type": "bullish_sample_022",
+      "chronological_index": 9,
+      "state_id": "bullish_sample_022_state_009",
+      "time_spot": "2022-07-25",
+      "reference_session": "2022-07-25",
+      "question": "Session summary for July 25, 2022: ADSK opened $194.76, ranged $192.54-$196.06, closed $195.71. Volume 1.4M (1.02x 20-day avg). 20-day $180.87 | 50-day $186.36. 5-day return +10.43%. ATR-14 $6.54. RSI 69.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-07-25",
+        "open": 194.76,
+        "high": 196.06,
+        "low": 192.54,
+        "close": 195.71,
+        "volume": 1445000,
+        "ma20": 180.87,
+        "ma50": 186.36,
+        "volume_vs_20d": 1.02,
+        "atr14": 6.54,
+        "chg_5d_pct": 10.43
+      },
+      "weekly_snapshot": {
+        "ticker": "ADSK",
+        "week_start": "2022-07-25",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 69.4,
+        "price_vs_sma50": 1.05,
+        "notes": "ADX 31.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADSK_2022-07-13_bullish_sample_022_010",
+      "scenario_id": "ADSK_2022-07-13",
+      "window_type": "bullish_sample_022",
+      "chronological_index": 10,
+      "state_id": "bullish_sample_022_state_010",
+      "time_spot": "2022-07-26",
+      "reference_session": "2022-07-26",
+      "question": "Session summary for July 26, 2022: ADSK opened $196.34, ranged $192.17-$196.92, closed $193.07. Volume 1.5M (1.05x 20-day avg). 20-day $181.23 | 50-day $186.52. 5-day return +4.50%. ATR-14 $6.47. RSI 66.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-07-26",
+        "open": 196.34,
+        "high": 196.92,
+        "low": 192.17,
+        "close": 193.07,
+        "volume": 1470700,
+        "ma20": 181.23,
+        "ma50": 186.52,
+        "volume_vs_20d": 1.05,
+        "atr14": 6.47,
+        "chg_5d_pct": 4.5
+      },
+      "weekly_snapshot": {
+        "ticker": "ADSK",
+        "week_start": "2022-07-25",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 66.0,
+        "price_vs_sma50": 1.035,
+        "notes": "ADX 33.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADSK_2022-07-13_bullish_sample_022_011",
+      "scenario_id": "ADSK_2022-07-13",
+      "window_type": "bullish_sample_022",
+      "chronological_index": 11,
+      "state_id": "bullish_sample_022_state_011",
+      "time_spot": "2022-07-27",
+      "reference_session": "2022-07-27",
+      "question": "Session summary for July 27, 2022: ADSK opened $196.58, ranged $194.88-$204.67, closed $203.41. Volume 1.6M (1.13x 20-day avg). 20-day $182.56 | 50-day $186.65. 5-day return +3.58%. ATR-14 $6.83. RSI 69.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-07-27",
+        "open": 196.58,
+        "high": 204.67,
+        "low": 194.88,
+        "close": 203.41,
+        "volume": 1574200,
+        "ma20": 182.56,
+        "ma50": 186.65,
+        "volume_vs_20d": 1.13,
+        "atr14": 6.83,
+        "chg_5d_pct": 3.58
+      },
+      "weekly_snapshot": {
+        "ticker": "ADSK",
+        "week_start": "2022-07-25",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 69.0,
+        "price_vs_sma50": 1.09,
+        "notes": "ADX 36.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADSK_2022-07-13_bullish_sample_022_012",
+      "scenario_id": "ADSK_2022-07-13",
+      "window_type": "bullish_sample_022",
+      "chronological_index": 12,
+      "state_id": "bullish_sample_022_state_012",
+      "time_spot": "2022-07-28",
+      "reference_session": "2022-07-28",
+      "question": "Session summary for July 28, 2022: ADSK opened $203.30, ranged $203.22-$212.62, closed $212.16. Volume 1.8M (1.26x 20-day avg). 20-day $184.32 | 50-day $187.04. 5-day return +6.56%. ATR-14 $7.03. RSI 76.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-07-28",
+        "open": 203.3,
+        "high": 212.62,
+        "low": 203.22,
+        "close": 212.16,
+        "volume": 1791900,
+        "ma20": 184.32,
+        "ma50": 187.04,
+        "volume_vs_20d": 1.26,
+        "atr14": 7.03,
+        "chg_5d_pct": 6.56
+      },
+      "weekly_snapshot": {
+        "ticker": "ADSK",
+        "week_start": "2022-07-25",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 76.0,
+        "price_vs_sma50": 1.134,
+        "notes": "ADX 38.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADSK_2022-07-13_bullish_sample_022_013",
+      "scenario_id": "ADSK_2022-07-13",
+      "window_type": "bullish_sample_022",
+      "chronological_index": 13,
+      "state_id": "bullish_sample_022_state_013",
+      "time_spot": "2022-07-29",
+      "reference_session": "2022-07-29",
+      "question": "Session summary for July 29, 2022: ADSK opened $211.89, ranged $211.21-$217.65, closed $216.32. Volume 1.8M (1.25x 20-day avg). 20-day $186.54 | 50-day $187.45. 5-day return +10.40%. ATR-14 $7.08. RSI 81.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-07-29",
+        "open": 211.89,
+        "high": 217.65,
+        "low": 211.21,
+        "close": 216.32,
+        "volume": 1780000,
+        "ma20": 186.54,
+        "ma50": 187.45,
+        "volume_vs_20d": 1.25,
+        "atr14": 7.08,
+        "chg_5d_pct": 10.4
+      },
+      "weekly_snapshot": {
+        "ticker": "ADSK",
+        "week_start": "2022-07-25",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 81.3,
+        "price_vs_sma50": 1.154,
+        "notes": "ADX 41.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADSK_2022-07-13_bullish_sample_022_014",
+      "scenario_id": "ADSK_2022-07-13",
+      "window_type": "bullish_sample_022",
+      "chronological_index": 14,
+      "state_id": "bullish_sample_022_state_014",
+      "time_spot": "2022-08-01",
+      "reference_session": "2022-08-01",
+      "question": "Session summary for August 01, 2022: ADSK opened $212.01, ranged $211.88-$218.34, closed $218.14. Volume 1.4M (1.01x 20-day avg). 20-day $188.76 | 50-day $188.06. 5-day return +11.46%. ATR-14 $6.86. RSI 87.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-08-01",
+        "open": 212.01,
+        "high": 218.34,
+        "low": 211.88,
+        "close": 218.14,
+        "volume": 1446900,
+        "ma20": 188.76,
+        "ma50": 188.06,
+        "volume_vs_20d": 1.01,
+        "atr14": 6.86,
+        "chg_5d_pct": 11.46
+      },
+      "weekly_snapshot": {
+        "ticker": "ADSK",
+        "week_start": "2022-08-01",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 87.8,
+        "price_vs_sma50": 1.16,
+        "notes": "ADX 45.2, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADSK_2022-07-13_bullish_sample_022_015",
+      "scenario_id": "ADSK_2022-07-13",
+      "window_type": "bullish_sample_022",
+      "chronological_index": 15,
+      "state_id": "bullish_sample_022_state_015",
+      "time_spot": "2022-08-02",
+      "reference_session": "2022-08-02",
+      "question": "Session summary for August 02, 2022: ADSK opened $214.36, ranged $213.29-$217.87, closed $216.18. Volume 1.9M (1.32x 20-day avg). 20-day $190.72 | 50-day $188.51. 5-day return +11.97%. ATR-14 $6.82. RSI 86.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-08-02",
+        "open": 214.36,
+        "high": 217.87,
+        "low": 213.29,
+        "close": 216.18,
+        "volume": 1894000,
+        "ma20": 190.72,
+        "ma50": 188.51,
+        "volume_vs_20d": 1.32,
+        "atr14": 6.82,
+        "chg_5d_pct": 11.97
+      },
+      "weekly_snapshot": {
+        "ticker": "ADSK",
+        "week_start": "2022-08-01",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 86.9,
+        "price_vs_sma50": 1.147,
+        "notes": "ADX 50.9, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADSK_2022-07-13_bullish_sample_022_016",
+      "scenario_id": "ADSK_2022-07-13",
+      "window_type": "bullish_sample_022",
+      "chronological_index": 16,
+      "state_id": "bullish_sample_022_state_016",
+      "time_spot": "2022-08-03",
+      "reference_session": "2022-08-03",
+      "question": "Session summary for August 03, 2022: ADSK opened $216.64, ranged $215.99-$220.35, closed $218.44. Volume 1.6M (1.07x 20-day avg). 20-day $192.80 | 50-day $189.05. 5-day return +7.39%. ATR-14 $6.80. RSI 87.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-08-03",
+        "open": 216.64,
+        "high": 220.35,
+        "low": 215.99,
+        "close": 218.44,
+        "volume": 1562500,
+        "ma20": 192.8,
+        "ma50": 189.05,
+        "volume_vs_20d": 1.07,
+        "atr14": 6.8,
+        "chg_5d_pct": 7.39
+      },
+      "weekly_snapshot": {
+        "ticker": "ADSK",
+        "week_start": "2022-08-01",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 87.4,
+        "price_vs_sma50": 1.155,
+        "notes": "ADX 56.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADSK_2022-07-13_bullish_sample_022_017",
+      "scenario_id": "ADSK_2022-07-13",
+      "window_type": "bullish_sample_022",
+      "chronological_index": 17,
+      "state_id": "bullish_sample_022_state_017",
+      "time_spot": "2022-08-04",
+      "reference_session": "2022-08-04",
+      "question": "Session summary for August 04, 2022: ADSK opened $218.76, ranged $216.16-$222.00, closed $221.94. Volume 1.6M (1.10x 20-day avg). 20-day $194.79 | 50-day $189.81. 5-day return +4.61%. ATR-14 $6.78. RSI 87.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-08-04",
+        "open": 218.76,
+        "high": 222.0,
+        "low": 216.16,
+        "close": 221.94,
+        "volume": 1645400,
+        "ma20": 194.79,
+        "ma50": 189.81,
+        "volume_vs_20d": 1.1,
+        "atr14": 6.78,
+        "chg_5d_pct": 4.61
+      },
+      "weekly_snapshot": {
+        "ticker": "ADSK",
+        "week_start": "2022-08-01",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 87.1,
+        "price_vs_sma50": 1.169,
+        "notes": "ADX 61.4, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADSK_2022-07-13_bullish_sample_022_018",
+      "scenario_id": "ADSK_2022-07-13",
+      "window_type": "bullish_sample_022",
+      "chronological_index": 18,
+      "state_id": "bullish_sample_022_state_018",
+      "time_spot": "2022-08-05",
+      "reference_session": "2022-08-05",
+      "question": "Session summary for August 05, 2022: ADSK opened $216.46, ranged $216.14-$223.12, closed $221.70. Volume 1.1M (0.75x 20-day avg). 20-day $196.88 | 50-day $190.66. 5-day return +2.49%. ATR-14 $7.00. RSI 86.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-08-05",
+        "open": 216.46,
+        "high": 223.12,
+        "low": 216.14,
+        "close": 221.7,
+        "volume": 1113400,
+        "ma20": 196.88,
+        "ma50": 190.66,
+        "volume_vs_20d": 0.75,
+        "atr14": 7.0,
+        "chg_5d_pct": 2.49
+      },
+      "weekly_snapshot": {
+        "ticker": "ADSK",
+        "week_start": "2022-08-01",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 86.5,
+        "price_vs_sma50": 1.163,
+        "notes": "ADX 66.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADSK_2022-07-13_bullish_sample_022_019",
+      "scenario_id": "ADSK_2022-07-13",
+      "window_type": "bullish_sample_022",
+      "chronological_index": 19,
+      "state_id": "bullish_sample_022_state_019",
+      "time_spot": "2022-08-08",
+      "reference_session": "2022-08-08",
+      "question": "Session summary for August 08, 2022: ADSK opened $222.96, ranged $219.25-$224.92, closed $220.69. Volume 0.8M (0.55x 20-day avg). 20-day $199.08 | 50-day $191.34. 5-day return +1.17%. ATR-14 $6.84. RSI 83.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-08-08",
+        "open": 222.96,
+        "high": 224.92,
+        "low": 219.25,
+        "close": 220.69,
+        "volume": 811000,
+        "ma20": 199.08,
+        "ma50": 191.34,
+        "volume_vs_20d": 0.55,
+        "atr14": 6.84,
+        "chg_5d_pct": 1.17
+      },
+      "weekly_snapshot": {
+        "ticker": "ADSK",
+        "week_start": "2022-08-08",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 83.0,
+        "price_vs_sma50": 1.153,
+        "notes": "ADX 72.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADSK_2022-07-13_bullish_sample_022_020",
+      "scenario_id": "ADSK_2022-07-13",
+      "window_type": "bullish_sample_022",
+      "chronological_index": 20,
+      "state_id": "bullish_sample_022_state_020",
+      "time_spot": "2022-08-09",
+      "reference_session": "2022-08-09",
+      "question": "Session summary for August 09, 2022: ADSK opened $218.79, ranged $215.12-$219.19, closed $218.14. Volume 1.0M (0.67x 20-day avg). 20-day $201.37 | 50-day $191.87. 5-day return +0.91%. ATR-14 $6.36. RSI 74.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-08-09",
+        "open": 218.79,
+        "high": 219.19,
+        "low": 215.12,
+        "close": 218.14,
+        "volume": 970200,
+        "ma20": 201.37,
+        "ma50": 191.87,
+        "volume_vs_20d": 0.67,
+        "atr14": 6.36,
+        "chg_5d_pct": 0.91
+      },
+      "weekly_snapshot": {
+        "ticker": "ADSK",
+        "week_start": "2022-08-08",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 74.0,
+        "price_vs_sma50": 1.137,
+        "notes": "ADX 73.9, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADSK_2022-07-13_bullish_sample_022_021",
+      "scenario_id": "ADSK_2022-07-13",
+      "window_type": "bullish_sample_022",
+      "chronological_index": 21,
+      "state_id": "bullish_sample_022_state_021",
+      "time_spot": "2022-08-10",
+      "reference_session": "2022-08-10",
+      "question": "Session summary for August 10, 2022: ADSK opened $225.15, ranged $224.11-$227.58, closed $226.32. Volume 1.2M (0.81x 20-day avg). 20-day $204.14 | 50-day $192.17. 5-day return +3.61%. ATR-14 $6.71. RSI 76.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-08-10",
+        "open": 225.15,
+        "high": 227.58,
+        "low": 224.11,
+        "close": 226.32,
+        "volume": 1176900,
+        "ma20": 204.14,
+        "ma50": 192.17,
+        "volume_vs_20d": 0.81,
+        "atr14": 6.71,
+        "chg_5d_pct": 3.61
+      },
+      "weekly_snapshot": {
+        "ticker": "ADSK",
+        "week_start": "2022-08-08",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 76.8,
+        "price_vs_sma50": 1.178,
+        "notes": "ADX 74.9, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADSK_2022-07-13_bullish_sample_022_022",
+      "scenario_id": "ADSK_2022-07-13",
+      "window_type": "bullish_sample_022",
+      "chronological_index": 22,
+      "state_id": "bullish_sample_022_state_022",
+      "time_spot": "2022-08-11",
+      "reference_session": "2022-08-11",
+      "question": "Session summary for August 11, 2022: ADSK opened $228.34, ranged $226.33-$232.28, closed $227.26. Volume 1.0M (0.72x 20-day avg). 20-day $206.96 | 50-day $192.56. 5-day return +2.40%. ATR-14 $6.49. RSI 82.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-08-11",
+        "open": 228.34,
+        "high": 232.28,
+        "low": 226.33,
+        "close": 227.26,
+        "volume": 1042800,
+        "ma20": 206.96,
+        "ma50": 192.56,
+        "volume_vs_20d": 0.72,
+        "atr14": 6.49,
+        "chg_5d_pct": 2.4
+      },
+      "weekly_snapshot": {
+        "ticker": "ADSK",
+        "week_start": "2022-08-08",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 82.2,
+        "price_vs_sma50": 1.18,
+        "notes": "ADX 75.8, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADSK_2022-07-13_bullish_sample_022_023",
+      "scenario_id": "ADSK_2022-07-13",
+      "window_type": "bullish_sample_022",
+      "chronological_index": 23,
+      "state_id": "bullish_sample_022_state_023",
+      "time_spot": "2022-08-12",
+      "reference_session": "2022-08-12",
+      "question": "Session summary for August 12, 2022: ADSK opened $229.68, ranged $227.56-$233.15, closed $233.01. Volume 1.0M (0.67x 20-day avg). 20-day $209.80 | 50-day $193.07. 5-day return +5.10%. ATR-14 $6.66. RSI 84.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-08-12",
+        "open": 229.68,
+        "high": 233.15,
+        "low": 227.56,
+        "close": 233.01,
+        "volume": 957200,
+        "ma20": 209.8,
+        "ma50": 193.07,
+        "volume_vs_20d": 0.67,
+        "atr14": 6.66,
+        "chg_5d_pct": 5.1
+      },
+      "weekly_snapshot": {
+        "ticker": "ADSK",
+        "week_start": "2022-08-08",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 84.5,
+        "price_vs_sma50": 1.207,
+        "notes": "ADX 77.8, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADSK_2022-07-13_bullish_sample_022_024",
+      "scenario_id": "ADSK_2022-07-13",
+      "window_type": "bullish_sample_022",
+      "chronological_index": 24,
+      "state_id": "bullish_sample_022_state_024",
+      "time_spot": "2022-08-15",
+      "reference_session": "2022-08-15",
+      "question": "Session summary for August 15, 2022: ADSK opened $232.38, ranged $231.92-$234.96, closed $234.04. Volume 0.9M (0.63x 20-day avg). 20-day $212.64 | 50-day $193.47. 5-day return +6.05%. ATR-14 $6.54. RSI 89.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-08-15",
+        "open": 232.38,
+        "high": 234.96,
+        "low": 231.92,
+        "close": 234.04,
+        "volume": 853200,
+        "ma20": 212.64,
+        "ma50": 193.47,
+        "volume_vs_20d": 0.63,
+        "atr14": 6.54,
+        "chg_5d_pct": 6.05
+      },
+      "weekly_snapshot": {
+        "ticker": "ADSK",
+        "week_start": "2022-08-15",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 89.0,
+        "price_vs_sma50": 1.21,
+        "notes": "ADX 80.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADSK_2022-07-13_bullish_sample_022_025",
+      "scenario_id": "ADSK_2022-07-13",
+      "window_type": "bullish_sample_022",
+      "chronological_index": 25,
+      "state_id": "bullish_sample_022_state_025",
+      "time_spot": "2022-08-16",
+      "reference_session": "2022-08-16",
+      "question": "Session summary for August 16, 2022: ADSK opened $231.25, ranged $230.18-$235.01, closed $233.64. Volume 0.9M (0.66x 20-day avg). 20-day $215.08 | 50-day $193.98. 5-day return +7.11%. ATR-14 $6.05. RSI 85.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-08-16",
+        "open": 231.25,
+        "high": 235.01,
+        "low": 230.18,
+        "close": 233.64,
+        "volume": 893000,
+        "ma20": 215.08,
+        "ma50": 193.98,
+        "volume_vs_20d": 0.66,
+        "atr14": 6.05,
+        "chg_5d_pct": 7.11
+      },
+      "weekly_snapshot": {
+        "ticker": "ADSK",
+        "week_start": "2022-08-15",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 85.5,
+        "price_vs_sma50": 1.204,
+        "notes": "ADX 81.1, MACD bullish"
+      }
+    }
+  ]
+}

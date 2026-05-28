@@ -1,0 +1,2898 @@
+{
+  "metadata": {
+    "instrument": "ABBV",
+    "initial_capital": 10000,
+    "window_type": "bearish_sample_041",
+    "description": "ABBV window (2015-09-18 \u2013 2015-10-22) - bearish regime.",
+    "num_mcqs": 25,
+    "notes": "Orders express target exposure fractions relative to the leverage ceiling.",
+    "max_leverage": 2.5,
+    "exposure_buckets": [
+      0.8,
+      0.6,
+      0.4,
+      0.2
+    ],
+    "start_reference": "2015-09-18",
+    "end_reference": "2015-10-22",
+    "regime": "bearish",
+    "bh_return": -20.43
+  },
+  "mcqs": [
+    {
+      "scenario_instance_id": "ABBV_2015-09-18_bearish_sample_041_001",
+      "scenario_id": "ABBV_2015-09-18",
+      "window_type": "bearish_sample_041",
+      "chronological_index": 1,
+      "state_id": "bearish_sample_041_state_001",
+      "time_spot": "2015-09-18",
+      "reference_session": "2015-09-18",
+      "question": "Session summary for September 18, 2015: ABBV opened $39.13, ranged $38.83-$40.71, closed $40.31. Volume 29.0M (2.27x 20-day avg). 20-day $40.31 | 50-day $43.59. 5-day return +3.15%. ATR-14 $1.12. RSI 38.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-09-18",
+        "open": 39.13,
+        "high": 40.71,
+        "low": 38.83,
+        "close": 40.31,
+        "volume": 28957000,
+        "ma20": 40.31,
+        "ma50": 43.59,
+        "volume_vs_20d": 2.27,
+        "atr14": 1.12,
+        "chg_5d_pct": 3.15
+      },
+      "weekly_snapshot": {
+        "ticker": "ABBV",
+        "week_start": "2015-09-14",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 38.2,
+        "price_vs_sma50": 0.925,
+        "notes": "ADX 66.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ABBV_2015-09-18_bearish_sample_041_002",
+      "scenario_id": "ABBV_2015-09-18",
+      "window_type": "bearish_sample_041",
+      "chronological_index": 2,
+      "state_id": "bearish_sample_041_state_002",
+      "time_spot": "2015-09-21",
+      "reference_session": "2015-09-21",
+      "question": "Session summary for September 21, 2015: ABBV opened $40.33, ranged $39.04-$40.65, closed $39.11. Volume 11.0M (0.88x 20-day avg). 20-day $40.10 | 50-day $43.47. 5-day return +0.76%. ATR-14 $1.13. RSI 37.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-09-21",
+        "open": 40.33,
+        "high": 40.65,
+        "low": 39.04,
+        "close": 39.11,
+        "volume": 11038100,
+        "ma20": 40.1,
+        "ma50": 43.47,
+        "volume_vs_20d": 0.88,
+        "atr14": 1.13,
+        "chg_5d_pct": 0.76
+      },
+      "weekly_snapshot": {
+        "ticker": "ABBV",
+        "week_start": "2015-09-21",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 37.4,
+        "price_vs_sma50": 0.9,
+        "notes": "ADX 64.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ABBV_2015-09-18_bearish_sample_041_003",
+      "scenario_id": "ABBV_2015-09-18",
+      "window_type": "bearish_sample_041",
+      "chronological_index": 3,
+      "state_id": "bearish_sample_041_state_003",
+      "time_spot": "2015-09-22",
+      "reference_session": "2015-09-22",
+      "question": "Session summary for September 22, 2015: ABBV opened $38.30, ranged $37.47-$38.36, closed $38.02. Volume 14.2M (1.18x 20-day avg). 20-day $39.91 | 50-day $43.31. 5-day return -2.47%. ATR-14 $1.14. RSI 38.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-09-22",
+        "open": 38.3,
+        "high": 38.36,
+        "low": 37.47,
+        "close": 38.02,
+        "volume": 14192000,
+        "ma20": 39.91,
+        "ma50": 43.31,
+        "volume_vs_20d": 1.18,
+        "atr14": 1.14,
+        "chg_5d_pct": -2.47
+      },
+      "weekly_snapshot": {
+        "ticker": "ABBV",
+        "week_start": "2015-09-21",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 38.2,
+        "price_vs_sma50": 0.878,
+        "notes": "ADX 61.5, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ABBV_2015-09-18_bearish_sample_041_004",
+      "scenario_id": "ABBV_2015-09-18",
+      "window_type": "bearish_sample_041",
+      "chronological_index": 4,
+      "state_id": "bearish_sample_041_state_004",
+      "time_spot": "2015-09-23",
+      "reference_session": "2015-09-23",
+      "question": "Session summary for September 23, 2015: ABBV opened $38.13, ranged $37.63-$38.46, closed $37.82. Volume 9.8M (0.84x 20-day avg). 20-day $39.80 | 50-day $43.15. 5-day return -3.50%. ATR-14 $1.14. RSI 34.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-09-23",
+        "open": 38.13,
+        "high": 38.46,
+        "low": 37.63,
+        "close": 37.82,
+        "volume": 9827000,
+        "ma20": 39.8,
+        "ma50": 43.15,
+        "volume_vs_20d": 0.84,
+        "atr14": 1.14,
+        "chg_5d_pct": -3.5
+      },
+      "weekly_snapshot": {
+        "ticker": "ABBV",
+        "week_start": "2015-09-21",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 34.6,
+        "price_vs_sma50": 0.876,
+        "notes": "ADX 58.8, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ABBV_2015-09-18_bearish_sample_041_005",
+      "scenario_id": "ABBV_2015-09-18",
+      "window_type": "bearish_sample_041",
+      "chronological_index": 5,
+      "state_id": "bearish_sample_041_state_005",
+      "time_spot": "2015-09-24",
+      "reference_session": "2015-09-24",
+      "question": "Session summary for September 24, 2015: ABBV opened $37.49, ranged $36.82-$37.85, closed $37.25. Volume 8.6M (0.76x 20-day avg). 20-day $39.59 | 50-day $42.97. 5-day return -5.50%. ATR-14 $1.15. RSI 28.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-09-24",
+        "open": 37.49,
+        "high": 37.85,
+        "low": 36.82,
+        "close": 37.25,
+        "volume": 8625500,
+        "ma20": 39.59,
+        "ma50": 42.97,
+        "volume_vs_20d": 0.76,
+        "atr14": 1.15,
+        "chg_5d_pct": -5.5
+      },
+      "weekly_snapshot": {
+        "ticker": "ABBV",
+        "week_start": "2015-09-21",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 28.8,
+        "price_vs_sma50": 0.867,
+        "notes": "ADX 57.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ABBV_2015-09-18_bearish_sample_041_006",
+      "scenario_id": "ABBV_2015-09-18",
+      "window_type": "bearish_sample_041",
+      "chronological_index": 6,
+      "state_id": "bearish_sample_041_state_006",
+      "time_spot": "2015-09-25",
+      "reference_session": "2015-09-25",
+      "question": "Session summary for September 25, 2015: ABBV opened $38.09, ranged $36.27-$38.11, closed $36.70. Volume 8.7M (0.77x 20-day avg). 20-day $39.30 | 50-day $42.79. 5-day return -8.95%. ATR-14 $1.16. RSI 31.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-09-25",
+        "open": 38.09,
+        "high": 38.11,
+        "low": 36.27,
+        "close": 36.7,
+        "volume": 8673500,
+        "ma20": 39.3,
+        "ma50": 42.79,
+        "volume_vs_20d": 0.77,
+        "atr14": 1.16,
+        "chg_5d_pct": -8.95
+      },
+      "weekly_snapshot": {
+        "ticker": "ABBV",
+        "week_start": "2015-09-21",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 31.4,
+        "price_vs_sma50": 0.858,
+        "notes": "ADX 54.9, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ABBV_2015-09-18_bearish_sample_041_007",
+      "scenario_id": "ABBV_2015-09-18",
+      "window_type": "bearish_sample_041",
+      "chronological_index": 7,
+      "state_id": "bearish_sample_041_state_007",
+      "time_spot": "2015-09-28",
+      "reference_session": "2015-09-28",
+      "question": "Session summary for September 28, 2015: ABBV opened $36.47, ranged $34.46-$36.50, closed $34.57. Volume 15.1M (1.30x 20-day avg). 20-day $38.92 | 50-day $42.56. 5-day return -11.60%. ATR-14 $1.27. RSI 19.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-09-28",
+        "open": 36.47,
+        "high": 36.5,
+        "low": 34.46,
+        "close": 34.57,
+        "volume": 15123000,
+        "ma20": 38.92,
+        "ma50": 42.56,
+        "volume_vs_20d": 1.3,
+        "atr14": 1.27,
+        "chg_5d_pct": -11.6
+      },
+      "weekly_snapshot": {
+        "ticker": "ABBV",
+        "week_start": "2015-09-28",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 19.6,
+        "price_vs_sma50": 0.812,
+        "notes": "ADX 53.5, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ABBV_2015-09-18_bearish_sample_041_008",
+      "scenario_id": "ABBV_2015-09-18",
+      "window_type": "bearish_sample_041",
+      "chronological_index": 8,
+      "state_id": "bearish_sample_041_state_008",
+      "time_spot": "2015-09-29",
+      "reference_session": "2015-09-29",
+      "question": "Session summary for September 29, 2015: ABBV opened $34.97, ranged $34.16-$35.68, closed $34.76. Volume 12.8M (1.12x 20-day avg). 20-day $38.60 | 50-day $42.32. 5-day return -8.57%. ATR-14 $1.26. RSI 23.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-09-29",
+        "open": 34.97,
+        "high": 35.68,
+        "low": 34.16,
+        "close": 34.76,
+        "volume": 12842800,
+        "ma20": 38.6,
+        "ma50": 42.32,
+        "volume_vs_20d": 1.12,
+        "atr14": 1.26,
+        "chg_5d_pct": -8.57
+      },
+      "weekly_snapshot": {
+        "ticker": "ABBV",
+        "week_start": "2015-09-28",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 23.6,
+        "price_vs_sma50": 0.821,
+        "notes": "ADX 52.1, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ABBV_2015-09-18_bearish_sample_041_009",
+      "scenario_id": "ABBV_2015-09-18",
+      "window_type": "bearish_sample_041",
+      "chronological_index": 9,
+      "state_id": "bearish_sample_041_state_009",
+      "time_spot": "2015-09-30",
+      "reference_session": "2015-09-30",
+      "question": "Session summary for September 30, 2015: ABBV opened $35.25, ranged $35.14-$35.89, closed $35.83. Volume 11.9M (1.04x 20-day avg). 20-day $38.40 | 50-day $42.11. 5-day return -5.26%. ATR-14 $1.28. RSI 30.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-09-30",
+        "open": 35.25,
+        "high": 35.89,
+        "low": 35.14,
+        "close": 35.83,
+        "volume": 11895500,
+        "ma20": 38.4,
+        "ma50": 42.11,
+        "volume_vs_20d": 1.04,
+        "atr14": 1.28,
+        "chg_5d_pct": -5.26
+      },
+      "weekly_snapshot": {
+        "ticker": "ABBV",
+        "week_start": "2015-09-28",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 30.9,
+        "price_vs_sma50": 0.851,
+        "notes": "ADX 50.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ABBV_2015-09-18_bearish_sample_041_010",
+      "scenario_id": "ABBV_2015-09-18",
+      "window_type": "bearish_sample_041",
+      "chronological_index": 10,
+      "state_id": "bearish_sample_041_state_010",
+      "time_spot": "2015-10-01",
+      "reference_session": "2015-10-01",
+      "question": "Session summary for October 01, 2015: ABBV opened $36.01, ranged $35.51-$36.37, closed $36.30. Volume 9.3M (0.82x 20-day avg). 20-day $38.21 | 50-day $41.90. 5-day return -2.55%. ATR-14 $1.31. RSI 35.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-10-01",
+        "open": 36.01,
+        "high": 36.37,
+        "low": 35.51,
+        "close": 36.3,
+        "volume": 9255800,
+        "ma20": 38.21,
+        "ma50": 41.9,
+        "volume_vs_20d": 0.82,
+        "atr14": 1.31,
+        "chg_5d_pct": -2.55
+      },
+      "weekly_snapshot": {
+        "ticker": "ABBV",
+        "week_start": "2015-09-28",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 35.0,
+        "price_vs_sma50": 0.866,
+        "notes": "ADX 48.1, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ABBV_2015-09-18_bearish_sample_041_011",
+      "scenario_id": "ABBV_2015-09-18",
+      "window_type": "bearish_sample_041",
+      "chronological_index": 11,
+      "state_id": "bearish_sample_041_state_011",
+      "time_spot": "2015-10-02",
+      "reference_session": "2015-10-02",
+      "question": "Session summary for October 02, 2015: ABBV opened $35.47, ranged $35.37-$36.78, closed $36.76. Volume 6.9M (0.63x 20-day avg). 20-day $38.02 | 50-day $41.71. 5-day return +0.14%. ATR-14 $1.31. RSI 39.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-10-02",
+        "open": 35.47,
+        "high": 36.78,
+        "low": 35.37,
+        "close": 36.76,
+        "volume": 6942600,
+        "ma20": 38.02,
+        "ma50": 41.71,
+        "volume_vs_20d": 0.63,
+        "atr14": 1.31,
+        "chg_5d_pct": 0.14
+      },
+      "weekly_snapshot": {
+        "ticker": "ABBV",
+        "week_start": "2015-09-28",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 39.1,
+        "price_vs_sma50": 0.881,
+        "notes": "ADX 46.5, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ABBV_2015-09-18_bearish_sample_041_012",
+      "scenario_id": "ABBV_2015-09-18",
+      "window_type": "bearish_sample_041",
+      "chronological_index": 12,
+      "state_id": "bearish_sample_041_state_012",
+      "time_spot": "2015-10-05",
+      "reference_session": "2015-10-05",
+      "question": "Session summary for October 05, 2015: ABBV opened $37.13, ranged $36.51-$37.50, closed $37.32. Volume 9.3M (0.84x 20-day avg). 20-day $37.92 | 50-day $41.56. 5-day return +7.96%. ATR-14 $1.33. RSI 41.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-10-05",
+        "open": 37.13,
+        "high": 37.5,
+        "low": 36.51,
+        "close": 37.32,
+        "volume": 9332800,
+        "ma20": 37.92,
+        "ma50": 41.56,
+        "volume_vs_20d": 0.84,
+        "atr14": 1.33,
+        "chg_5d_pct": 7.96
+      },
+      "weekly_snapshot": {
+        "ticker": "ABBV",
+        "week_start": "2015-10-05",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 41.6,
+        "price_vs_sma50": 0.898,
+        "notes": "ADX 43.9, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ABBV_2015-09-18_bearish_sample_041_013",
+      "scenario_id": "ABBV_2015-09-18",
+      "window_type": "bearish_sample_041",
+      "chronological_index": 13,
+      "state_id": "bearish_sample_041_state_013",
+      "time_spot": "2015-10-06",
+      "reference_session": "2015-10-06",
+      "question": "Session summary for October 06, 2015: ABBV opened $37.05, ranged $35.53-$37.32, closed $36.27. Volume 9.0M (0.82x 20-day avg). 20-day $37.74 | 50-day $41.37. 5-day return +4.34%. ATR-14 $1.41. RSI 36.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-10-06",
+        "open": 37.05,
+        "high": 37.32,
+        "low": 35.53,
+        "close": 36.27,
+        "volume": 9008300,
+        "ma20": 37.74,
+        "ma50": 41.37,
+        "volume_vs_20d": 0.82,
+        "atr14": 1.41,
+        "chg_5d_pct": 4.34
+      },
+      "weekly_snapshot": {
+        "ticker": "ABBV",
+        "week_start": "2015-10-05",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 36.3,
+        "price_vs_sma50": 0.877,
+        "notes": "ADX 42.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ABBV_2015-09-18_bearish_sample_041_014",
+      "scenario_id": "ABBV_2015-09-18",
+      "window_type": "bearish_sample_041",
+      "chronological_index": 14,
+      "state_id": "bearish_sample_041_state_014",
+      "time_spot": "2015-10-07",
+      "reference_session": "2015-10-07",
+      "question": "Session summary for October 07, 2015: ABBV opened $36.12, ranged $35.50-$37.24, closed $36.63. Volume 11.1M (0.99x 20-day avg). 20-day $37.62 | 50-day $41.17. 5-day return +2.24%. ATR-14 $1.46. RSI 37.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-10-07",
+        "open": 36.12,
+        "high": 37.24,
+        "low": 35.5,
+        "close": 36.63,
+        "volume": 11056100,
+        "ma20": 37.62,
+        "ma50": 41.17,
+        "volume_vs_20d": 0.99,
+        "atr14": 1.46,
+        "chg_5d_pct": 2.24
+      },
+      "weekly_snapshot": {
+        "ticker": "ABBV",
+        "week_start": "2015-10-05",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 37.1,
+        "price_vs_sma50": 0.89,
+        "notes": "ADX 41.4, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ABBV_2015-09-18_bearish_sample_041_015",
+      "scenario_id": "ABBV_2015-09-18",
+      "window_type": "bearish_sample_041",
+      "chronological_index": 15,
+      "state_id": "bearish_sample_041_state_015",
+      "time_spot": "2015-10-08",
+      "reference_session": "2015-10-08",
+      "question": "Session summary for October 08, 2015: ABBV opened $36.30, ranged $36.08-$36.98, closed $36.90. Volume 6.7M (0.61x 20-day avg). 20-day $37.50 | 50-day $40.97. 5-day return +1.65%. ATR-14 $1.39. RSI 33.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-10-08",
+        "open": 36.3,
+        "high": 36.98,
+        "low": 36.08,
+        "close": 36.9,
+        "volume": 6737300,
+        "ma20": 37.5,
+        "ma50": 40.97,
+        "volume_vs_20d": 0.61,
+        "atr14": 1.39,
+        "chg_5d_pct": 1.65
+      },
+      "weekly_snapshot": {
+        "ticker": "ABBV",
+        "week_start": "2015-10-05",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 33.2,
+        "price_vs_sma50": 0.901,
+        "notes": "ADX 42.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ABBV_2015-09-18_bearish_sample_041_016",
+      "scenario_id": "ABBV_2015-09-18",
+      "window_type": "bearish_sample_041",
+      "chronological_index": 16,
+      "state_id": "bearish_sample_041_state_016",
+      "time_spot": "2015-10-09",
+      "reference_session": "2015-10-09",
+      "question": "Session summary for October 09, 2015: ABBV opened $36.99, ranged $36.53-$37.20, closed $36.64. Volume 7.2M (0.66x 20-day avg). 20-day $37.38 | 50-day $40.78. 5-day return -0.32%. ATR-14 $1.33. RSI 36.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-10-09",
+        "open": 36.99,
+        "high": 37.2,
+        "low": 36.53,
+        "close": 36.64,
+        "volume": 7178500,
+        "ma20": 37.38,
+        "ma50": 40.78,
+        "volume_vs_20d": 0.66,
+        "atr14": 1.33,
+        "chg_5d_pct": -0.32
+      },
+      "weekly_snapshot": {
+        "ticker": "ABBV",
+        "week_start": "2015-10-05",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 36.6,
+        "price_vs_sma50": 0.898,
+        "notes": "ADX 42.8, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ABBV_2015-09-18_bearish_sample_041_017",
+      "scenario_id": "ABBV_2015-09-18",
+      "window_type": "bearish_sample_041",
+      "chronological_index": 17,
+      "state_id": "bearish_sample_041_state_017",
+      "time_spot": "2015-10-12",
+      "reference_session": "2015-10-12",
+      "question": "Session summary for October 12, 2015: ABBV opened $36.74, ranged $36.56-$37.05, closed $36.72. Volume 6.5M (0.60x 20-day avg). 20-day $37.27 | 50-day $40.59. 5-day return -1.61%. ATR-14 $1.24. RSI 42.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-10-12",
+        "open": 36.74,
+        "high": 37.05,
+        "low": 36.56,
+        "close": 36.72,
+        "volume": 6515000,
+        "ma20": 37.27,
+        "ma50": 40.59,
+        "volume_vs_20d": 0.6,
+        "atr14": 1.24,
+        "chg_5d_pct": -1.61
+      },
+      "weekly_snapshot": {
+        "ticker": "ABBV",
+        "week_start": "2015-10-12",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 42.1,
+        "price_vs_sma50": 0.905,
+        "notes": "ADX 42.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ABBV_2015-09-18_bearish_sample_041_018",
+      "scenario_id": "ABBV_2015-09-18",
+      "window_type": "bearish_sample_041",
+      "chronological_index": 18,
+      "state_id": "bearish_sample_041_state_018",
+      "time_spot": "2015-10-13",
+      "reference_session": "2015-10-13",
+      "question": "Session summary for October 13, 2015: ABBV opened $36.66, ranged $35.69-$36.79, closed $35.75. Volume 9.5M (0.88x 20-day avg). 20-day $37.11 | 50-day $40.39. 5-day return -1.42%. ATR-14 $1.26. RSI 38.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-10-13",
+        "open": 36.66,
+        "high": 36.79,
+        "low": 35.69,
+        "close": 35.75,
+        "volume": 9467900,
+        "ma20": 37.11,
+        "ma50": 40.39,
+        "volume_vs_20d": 0.88,
+        "atr14": 1.26,
+        "chg_5d_pct": -1.42
+      },
+      "weekly_snapshot": {
+        "ticker": "ABBV",
+        "week_start": "2015-10-12",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 38.5,
+        "price_vs_sma50": 0.885,
+        "notes": "ADX 43.2, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ABBV_2015-09-18_bearish_sample_041_019",
+      "scenario_id": "ABBV_2015-09-18",
+      "window_type": "bearish_sample_041",
+      "chronological_index": 19,
+      "state_id": "bearish_sample_041_state_019",
+      "time_spot": "2015-10-14",
+      "reference_session": "2015-10-14",
+      "question": "Session summary for October 14, 2015: ABBV opened $35.95, ranged $35.60-$36.30, closed $35.85. Volume 8.7M (0.81x 20-day avg). 20-day $36.95 | 50-day $40.19. 5-day return -2.14%. ATR-14 $1.24. RSI 41.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-10-14",
+        "open": 35.95,
+        "high": 36.3,
+        "low": 35.6,
+        "close": 35.85,
+        "volume": 8727400,
+        "ma20": 36.95,
+        "ma50": 40.19,
+        "volume_vs_20d": 0.81,
+        "atr14": 1.24,
+        "chg_5d_pct": -2.14
+      },
+      "weekly_snapshot": {
+        "ticker": "ABBV",
+        "week_start": "2015-10-12",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 41.8,
+        "price_vs_sma50": 0.892,
+        "notes": "ADX 42.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ABBV_2015-09-18_bearish_sample_041_020",
+      "scenario_id": "ABBV_2015-09-18",
+      "window_type": "bearish_sample_041",
+      "chronological_index": 20,
+      "state_id": "bearish_sample_041_state_020",
+      "time_spot": "2015-10-15",
+      "reference_session": "2015-10-15",
+      "question": "Session summary for October 15, 2015: ABBV opened $36.10, ranged $35.79-$37.35, closed $37.31. Volume 7.8M (0.73x 20-day avg). 20-day $36.84 | 50-day $40.01. 5-day return +1.10%. ATR-14 $1.22. RSI 53.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-10-15",
+        "open": 36.1,
+        "high": 37.35,
+        "low": 35.79,
+        "close": 37.31,
+        "volume": 7781600,
+        "ma20": 36.84,
+        "ma50": 40.01,
+        "volume_vs_20d": 0.73,
+        "atr14": 1.22,
+        "chg_5d_pct": 1.1
+      },
+      "weekly_snapshot": {
+        "ticker": "ABBV",
+        "week_start": "2015-10-12",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 53.2,
+        "price_vs_sma50": 0.933,
+        "notes": "ADX 40.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ABBV_2015-09-18_bearish_sample_041_021",
+      "scenario_id": "ABBV_2015-09-18",
+      "window_type": "bearish_sample_041",
+      "chronological_index": 21,
+      "state_id": "bearish_sample_041_state_021",
+      "time_spot": "2015-10-16",
+      "reference_session": "2015-10-16",
+      "question": "Session summary for October 16, 2015: ABBV opened $37.41, ranged $37.08-$37.86, closed $37.57. Volume 7.3M (0.77x 20-day avg). 20-day $36.70 | 50-day $39.85. 5-day return +2.54%. ATR-14 $1.12. RSI 69.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-10-16",
+        "open": 37.41,
+        "high": 37.86,
+        "low": 37.08,
+        "close": 37.57,
+        "volume": 7342800,
+        "ma20": 36.7,
+        "ma50": 39.85,
+        "volume_vs_20d": 0.77,
+        "atr14": 1.12,
+        "chg_5d_pct": 2.54
+      },
+      "weekly_snapshot": {
+        "ticker": "ABBV",
+        "week_start": "2015-10-12",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 69.8,
+        "price_vs_sma50": 0.943,
+        "notes": "ADX 37.5, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ABBV_2015-09-18_bearish_sample_041_022",
+      "scenario_id": "ABBV_2015-09-18",
+      "window_type": "bearish_sample_041",
+      "chronological_index": 22,
+      "state_id": "bearish_sample_041_state_022",
+      "time_spot": "2015-10-19",
+      "reference_session": "2015-10-19",
+      "question": "Session summary for October 19, 2015: ABBV opened $37.41, ranged $37.01-$37.68, closed $37.32. Volume 6.5M (0.69x 20-day avg). 20-day $36.61 | 50-day $39.69. 5-day return +1.63%. ATR-14 $1.06. RSI 66.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-10-19",
+        "open": 37.41,
+        "high": 37.68,
+        "low": 37.01,
+        "close": 37.32,
+        "volume": 6463000,
+        "ma20": 36.61,
+        "ma50": 39.69,
+        "volume_vs_20d": 0.69,
+        "atr14": 1.06,
+        "chg_5d_pct": 1.63
+      },
+      "weekly_snapshot": {
+        "ticker": "ABBV",
+        "week_start": "2015-10-19",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 66.8,
+        "price_vs_sma50": 0.94,
+        "notes": "ADX 35.4, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ABBV_2015-09-18_bearish_sample_041_023",
+      "scenario_id": "ABBV_2015-09-18",
+      "window_type": "bearish_sample_041",
+      "chronological_index": 23,
+      "state_id": "bearish_sample_041_state_023",
+      "time_spot": "2015-10-20",
+      "reference_session": "2015-10-20",
+      "question": "Session summary for October 20, 2015: ABBV opened $37.31, ranged $36.30-$37.47, closed $36.44. Volume 6.5M (0.72x 20-day avg). 20-day $36.54 | 50-day $39.51. 5-day return +1.91%. ATR-14 $1.06. RSI 54.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-10-20",
+        "open": 37.31,
+        "high": 37.47,
+        "low": 36.3,
+        "close": 36.44,
+        "volume": 6494600,
+        "ma20": 36.54,
+        "ma50": 39.51,
+        "volume_vs_20d": 0.72,
+        "atr14": 1.06,
+        "chg_5d_pct": 1.91
+      },
+      "weekly_snapshot": {
+        "ticker": "ABBV",
+        "week_start": "2015-10-19",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 54.1,
+        "price_vs_sma50": 0.922,
+        "notes": "ADX 32.5, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ABBV_2015-09-18_bearish_sample_041_024",
+      "scenario_id": "ABBV_2015-09-18",
+      "window_type": "bearish_sample_041",
+      "chronological_index": 24,
+      "state_id": "bearish_sample_041_state_024",
+      "time_spot": "2015-10-21",
+      "reference_session": "2015-10-21",
+      "question": "Session summary for October 21, 2015: ABBV opened $36.74, ranged $35.27-$36.96, closed $35.77. Volume 11.6M (1.29x 20-day avg). 20-day $36.43 | 50-day $39.32. 5-day return -0.20%. ATR-14 $1.12. RSI 46.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-10-21",
+        "open": 36.74,
+        "high": 36.96,
+        "low": 35.27,
+        "close": 35.77,
+        "volume": 11638800,
+        "ma20": 36.43,
+        "ma50": 39.32,
+        "volume_vs_20d": 1.29,
+        "atr14": 1.12,
+        "chg_5d_pct": -0.2
+      },
+      "weekly_snapshot": {
+        "ticker": "ABBV",
+        "week_start": "2015-10-19",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 46.5,
+        "price_vs_sma50": 0.91,
+        "notes": "ADX 30.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ABBV_2015-09-18_bearish_sample_041_025",
+      "scenario_id": "ABBV_2015-09-18",
+      "window_type": "bearish_sample_041",
+      "chronological_index": 25,
+      "state_id": "bearish_sample_041_state_025",
+      "time_spot": "2015-10-22",
+      "reference_session": "2015-10-22",
+      "question": "Session summary for October 22, 2015: ABBV opened $35.81, ranged $30.20-$36.18, closed $32.08. Volume 46.5M (4.25x 20-day avg). 20-day $36.17 | 50-day $39.06. 5-day return -14.02%. ATR-14 $1.44. RSI 28.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-10-22",
+        "open": 35.81,
+        "high": 36.18,
+        "low": 30.2,
+        "close": 32.08,
+        "volume": 46517700,
+        "ma20": 36.17,
+        "ma50": 39.06,
+        "volume_vs_20d": 4.25,
+        "atr14": 1.44,
+        "chg_5d_pct": -14.02
+      },
+      "weekly_snapshot": {
+        "ticker": "ABBV",
+        "week_start": "2015-10-19",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 28.5,
+        "price_vs_sma50": 0.821,
+        "notes": "ADX 32.2, MACD bearish"
+      }
+    }
+  ]
+}

@@ -1,0 +1,2898 @@
+{
+  "metadata": {
+    "instrument": "T",
+    "initial_capital": 10000,
+    "window_type": "mixed_sample_018",
+    "description": "T window (2013-09-11 \u2013 2013-10-15) sampled from S&P500 indicator archive.",
+    "num_mcqs": 25,
+    "notes": "Orders express target exposure fractions relative to the leverage ceiling.",
+    "max_leverage": 2.5,
+    "exposure_buckets": [
+      0.8,
+      0.6,
+      0.4,
+      0.2
+    ],
+    "start_reference": "2013-09-11",
+    "end_reference": "2013-10-15",
+    "regime": "mixed",
+    "original_sample": "snp500_sample_072"
+  },
+  "mcqs": [
+    {
+      "scenario_instance_id": "T_2013-09-11_mixed_sample_018_001",
+      "scenario_id": "T_2013-09-11",
+      "window_type": "mixed_sample_018",
+      "chronological_index": 1,
+      "state_id": "mixed_sample_018_state_001",
+      "time_spot": "2013-09-11",
+      "reference_session": "2013-09-11",
+      "question": "Session summary for September 11, 2013: T opened $10.84, ranged $10.80-$10.92, closed $10.83. Volume 27.9M (1.00x 20-day avg). 20-day $10.79 | 50-day $11.11. 5-day return +0.68%. ATR-14 $0.17. RSI 56.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-09-11",
+        "open": 10.84,
+        "high": 10.92,
+        "low": 10.8,
+        "close": 10.83,
+        "volume": 27920512,
+        "ma20": 10.79,
+        "ma50": 11.11,
+        "volume_vs_20d": 1.0,
+        "atr14": 0.17,
+        "chg_5d_pct": 0.68
+      },
+      "weekly_snapshot": {
+        "ticker": "T",
+        "week_start": "2013-09-09",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 56.6,
+        "price_vs_sma50": 0.975,
+        "notes": "ADX 49.8, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "T_2013-09-11_mixed_sample_018_002",
+      "scenario_id": "T_2013-09-11",
+      "window_type": "mixed_sample_018",
+      "chronological_index": 2,
+      "state_id": "mixed_sample_018_state_002",
+      "time_spot": "2013-09-12",
+      "reference_session": "2013-09-12",
+      "question": "Session summary for September 12, 2013: T opened $10.82, ranged $10.82-$10.99, closed $10.96. Volume 32.6M (1.15x 20-day avg). 20-day $10.78 | 50-day $11.10. 5-day return +3.12%. ATR-14 $0.16. RSI 57.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-09-12",
+        "open": 10.82,
+        "high": 10.99,
+        "low": 10.82,
+        "close": 10.96,
+        "volume": 32619653,
+        "ma20": 10.78,
+        "ma50": 11.1,
+        "volume_vs_20d": 1.15,
+        "atr14": 0.16,
+        "chg_5d_pct": 3.12
+      },
+      "weekly_snapshot": {
+        "ticker": "T",
+        "week_start": "2013-09-09",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 57.4,
+        "price_vs_sma50": 0.988,
+        "notes": "ADX 46.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "T_2013-09-11_mixed_sample_018_003",
+      "scenario_id": "T_2013-09-11",
+      "window_type": "mixed_sample_018",
+      "chronological_index": 3,
+      "state_id": "mixed_sample_018_state_003",
+      "time_spot": "2013-09-13",
+      "reference_session": "2013-09-13",
+      "question": "Session summary for September 13, 2013: T opened $11.01, ranged $10.91-$11.08, closed $10.94. Volume 18.8M (0.67x 20-day avg). 20-day $10.78 | 50-day $11.10. 5-day return +2.72%. ATR-14 $0.16. RSI 50.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-09-13",
+        "open": 11.01,
+        "high": 11.08,
+        "low": 10.91,
+        "close": 10.94,
+        "volume": 18838666,
+        "ma20": 10.78,
+        "ma50": 11.1,
+        "volume_vs_20d": 0.67,
+        "atr14": 0.16,
+        "chg_5d_pct": 2.72
+      },
+      "weekly_snapshot": {
+        "ticker": "T",
+        "week_start": "2013-09-09",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 50.4,
+        "price_vs_sma50": 0.986,
+        "notes": "ADX 43.9, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "T_2013-09-11_mixed_sample_018_004",
+      "scenario_id": "T_2013-09-11",
+      "window_type": "mixed_sample_018",
+      "chronological_index": 4,
+      "state_id": "mixed_sample_018_state_004",
+      "time_spot": "2013-09-16",
+      "reference_session": "2013-09-16",
+      "question": "Session summary for September 16, 2013: T opened $11.02, ranged $10.96-$11.08, closed $11.02. Volume 21.0M (0.76x 20-day avg). 20-day $10.79 | 50-day $11.09. 5-day return +2.80%. ATR-14 $0.15. RSI 61.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-09-16",
+        "open": 11.02,
+        "high": 11.08,
+        "low": 10.96,
+        "close": 11.02,
+        "volume": 21010688,
+        "ma20": 10.79,
+        "ma50": 11.09,
+        "volume_vs_20d": 0.76,
+        "atr14": 0.15,
+        "chg_5d_pct": 2.8
+      },
+      "weekly_snapshot": {
+        "ticker": "T",
+        "week_start": "2013-09-16",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 61.8,
+        "price_vs_sma50": 0.994,
+        "notes": "ADX 41.8, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "T_2013-09-11_mixed_sample_018_005",
+      "scenario_id": "T_2013-09-11",
+      "window_type": "mixed_sample_018",
+      "chronological_index": 5,
+      "state_id": "mixed_sample_018_state_005",
+      "time_spot": "2013-09-17",
+      "reference_session": "2013-09-17",
+      "question": "Session summary for September 17, 2013: T opened $11.03, ranged $11.02-$11.11, closed $11.08. Volume 23.6M (0.86x 20-day avg). 20-day $10.80 | 50-day $11.09. 5-day return +2.30%. ATR-14 $0.15. RSI 66.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-09-17",
+        "open": 11.03,
+        "high": 11.11,
+        "low": 11.02,
+        "close": 11.08,
+        "volume": 23565611,
+        "ma20": 10.8,
+        "ma50": 11.09,
+        "volume_vs_20d": 0.86,
+        "atr14": 0.15,
+        "chg_5d_pct": 2.3
+      },
+      "weekly_snapshot": {
+        "ticker": "T",
+        "week_start": "2013-09-16",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 66.5,
+        "price_vs_sma50": 0.999,
+        "notes": "ADX 40.7, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "T_2013-09-11_mixed_sample_018_006",
+      "scenario_id": "T_2013-09-11",
+      "window_type": "mixed_sample_018",
+      "chronological_index": 6,
+      "state_id": "mixed_sample_018_state_006",
+      "time_spot": "2013-09-18",
+      "reference_session": "2013-09-18",
+      "question": "Session summary for September 18, 2013: T opened $11.08, ranged $10.94-$11.16, closed $11.15. Volume 30.2M (1.09x 20-day avg). 20-day $10.82 | 50-day $11.08. 5-day return +2.88%. ATR-14 $0.16. RSI 70.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-09-18",
+        "open": 11.08,
+        "high": 11.16,
+        "low": 10.94,
+        "close": 11.15,
+        "volume": 30211562,
+        "ma20": 10.82,
+        "ma50": 11.08,
+        "volume_vs_20d": 1.09,
+        "atr14": 0.16,
+        "chg_5d_pct": 2.88
+      },
+      "weekly_snapshot": {
+        "ticker": "T",
+        "week_start": "2013-09-16",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 70.7,
+        "price_vs_sma50": 1.006,
+        "notes": "ADX 38.7, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "T_2013-09-11_mixed_sample_018_007",
+      "scenario_id": "T_2013-09-11",
+      "window_type": "mixed_sample_018",
+      "chronological_index": 7,
+      "state_id": "mixed_sample_018_state_007",
+      "time_spot": "2013-09-19",
+      "reference_session": "2013-09-19",
+      "question": "Session summary for September 19, 2013: T opened $11.15, ranged $11.06-$11.15, closed $11.10. Volume 20.8M (0.76x 20-day avg). 20-day $10.84 | 50-day $11.08. 5-day return +1.25%. ATR-14 $0.15. RSI 67.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-09-19",
+        "open": 11.15,
+        "high": 11.15,
+        "low": 11.06,
+        "close": 11.1,
+        "volume": 20776473,
+        "ma20": 10.84,
+        "ma50": 11.08,
+        "volume_vs_20d": 0.76,
+        "atr14": 0.15,
+        "chg_5d_pct": 1.25
+      },
+      "weekly_snapshot": {
+        "ticker": "T",
+        "week_start": "2013-09-16",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 67.2,
+        "price_vs_sma50": 1.002,
+        "notes": "ADX 37.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "T_2013-09-11_mixed_sample_018_008",
+      "scenario_id": "T_2013-09-11",
+      "window_type": "mixed_sample_018",
+      "chronological_index": 8,
+      "state_id": "mixed_sample_018_state_008",
+      "time_spot": "2013-09-20",
+      "reference_session": "2013-09-20",
+      "question": "Session summary for September 20, 2013: T opened $11.10, ranged $10.91-$11.11, closed $10.94. Volume 48.6M (1.72x 20-day avg). 20-day $10.85 | 50-day $11.07. 5-day return -0.03%. ATR-14 $0.16. RSI 56.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-09-20",
+        "open": 11.1,
+        "high": 11.11,
+        "low": 10.91,
+        "close": 10.94,
+        "volume": 48633300,
+        "ma20": 10.85,
+        "ma50": 11.07,
+        "volume_vs_20d": 1.72,
+        "atr14": 0.16,
+        "chg_5d_pct": -0.03
+      },
+      "weekly_snapshot": {
+        "ticker": "T",
+        "week_start": "2013-09-16",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 56.5,
+        "price_vs_sma50": 0.988,
+        "notes": "ADX 34.7, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "T_2013-09-11_mixed_sample_018_009",
+      "scenario_id": "T_2013-09-11",
+      "window_type": "mixed_sample_018",
+      "chronological_index": 9,
+      "state_id": "mixed_sample_018_state_009",
+      "time_spot": "2013-09-23",
+      "reference_session": "2013-09-23",
+      "question": "Session summary for September 23, 2013: T opened $10.97, ranged $10.75-$10.97, closed $10.91. Volume 30.7M (1.11x 20-day avg). 20-day $10.85 | 50-day $11.06. 5-day return -1.01%. ATR-14 $0.16. RSI 63.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-09-23",
+        "open": 10.97,
+        "high": 10.97,
+        "low": 10.75,
+        "close": 10.91,
+        "volume": 30743412,
+        "ma20": 10.85,
+        "ma50": 11.06,
+        "volume_vs_20d": 1.11,
+        "atr14": 0.16,
+        "chg_5d_pct": -1.01
+      },
+      "weekly_snapshot": {
+        "ticker": "T",
+        "week_start": "2013-09-23",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 63.7,
+        "price_vs_sma50": 0.987,
+        "notes": "ADX 31.2, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "T_2013-09-11_mixed_sample_018_010",
+      "scenario_id": "T_2013-09-11",
+      "window_type": "mixed_sample_018",
+      "chronological_index": 10,
+      "state_id": "mixed_sample_018_state_010",
+      "time_spot": "2013-09-24",
+      "reference_session": "2013-09-24",
+      "question": "Session summary for September 24, 2013: T opened $10.87, ranged $10.85-$10.94, closed $10.87. Volume 25.5M (0.91x 20-day avg). 20-day $10.85 | 50-day $11.05. 5-day return -1.90%. ATR-14 $0.15. RSI 55.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-09-24",
+        "open": 10.87,
+        "high": 10.94,
+        "low": 10.85,
+        "close": 10.87,
+        "volume": 25464492,
+        "ma20": 10.85,
+        "ma50": 11.05,
+        "volume_vs_20d": 0.91,
+        "atr14": 0.15,
+        "chg_5d_pct": -1.9
+      },
+      "weekly_snapshot": {
+        "ticker": "T",
+        "week_start": "2013-09-23",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 55.9,
+        "price_vs_sma50": 0.984,
+        "notes": "ADX 27.8, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "T_2013-09-11_mixed_sample_018_011",
+      "scenario_id": "T_2013-09-11",
+      "window_type": "mixed_sample_018",
+      "chronological_index": 11,
+      "state_id": "mixed_sample_018_state_011",
+      "time_spot": "2013-09-25",
+      "reference_session": "2013-09-25",
+      "question": "Session summary for September 25, 2013: T opened $10.88, ranged $10.83-$10.96, closed $10.86. Volume 25.3M (0.90x 20-day avg). 20-day $10.86 | 50-day $11.04. 5-day return -2.58%. ATR-14 $0.15. RSI 63.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-09-25",
+        "open": 10.88,
+        "high": 10.96,
+        "low": 10.83,
+        "close": 10.86,
+        "volume": 25303361,
+        "ma20": 10.86,
+        "ma50": 11.04,
+        "volume_vs_20d": 0.9,
+        "atr14": 0.15,
+        "chg_5d_pct": -2.58
+      },
+      "weekly_snapshot": {
+        "ticker": "T",
+        "week_start": "2013-09-23",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 63.5,
+        "price_vs_sma50": 0.984,
+        "notes": "ADX 25.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "T_2013-09-11_mixed_sample_018_012",
+      "scenario_id": "T_2013-09-11",
+      "window_type": "mixed_sample_018",
+      "chronological_index": 12,
+      "state_id": "mixed_sample_018_state_012",
+      "time_spot": "2013-09-26",
+      "reference_session": "2013-09-26",
+      "question": "Session summary for September 26, 2013: T opened $10.90, ranged $10.87-$10.98, closed $10.92. Volume 21.8M (0.78x 20-day avg). 20-day $10.87 | 50-day $11.03. 5-day return -1.67%. ATR-14 $0.15. RSI 65.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-09-26",
+        "open": 10.9,
+        "high": 10.98,
+        "low": 10.87,
+        "close": 10.92,
+        "volume": 21838321,
+        "ma20": 10.87,
+        "ma50": 11.03,
+        "volume_vs_20d": 0.78,
+        "atr14": 0.15,
+        "chg_5d_pct": -1.67
+      },
+      "weekly_snapshot": {
+        "ticker": "T",
+        "week_start": "2013-09-23",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 65.0,
+        "price_vs_sma50": 0.99,
+        "notes": "ADX 23.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "T_2013-09-11_mixed_sample_018_013",
+      "scenario_id": "T_2013-09-11",
+      "window_type": "mixed_sample_018",
+      "chronological_index": 13,
+      "state_id": "mixed_sample_018_state_013",
+      "time_spot": "2013-09-27",
+      "reference_session": "2013-09-27",
+      "question": "Session summary for September 27, 2013: T opened $10.88, ranged $10.79-$10.89, closed $10.84. Volume 18.5M (0.67x 20-day avg). 20-day $10.87 | 50-day $11.02. 5-day return -0.96%. ATR-14 $0.15. RSI 56.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-09-27",
+        "open": 10.88,
+        "high": 10.89,
+        "low": 10.79,
+        "close": 10.84,
+        "volume": 18533220,
+        "ma20": 10.87,
+        "ma50": 11.02,
+        "volume_vs_20d": 0.67,
+        "atr14": 0.15,
+        "chg_5d_pct": -0.96
+      },
+      "weekly_snapshot": {
+        "ticker": "T",
+        "week_start": "2013-09-23",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 56.3,
+        "price_vs_sma50": 0.984,
+        "notes": "ADX 22.7, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "T_2013-09-11_mixed_sample_018_014",
+      "scenario_id": "T_2013-09-11",
+      "window_type": "mixed_sample_018",
+      "chronological_index": 14,
+      "state_id": "mixed_sample_018_state_014",
+      "time_spot": "2013-09-30",
+      "reference_session": "2013-09-30",
+      "question": "Session summary for September 30, 2013: T opened $10.77, ranged $10.74-$10.81, closed $10.79. Volume 27.6M (1.00x 20-day avg). 20-day $10.87 | 50-day $11.00. 5-day return -1.17%. ATR-14 $0.14. RSI 47.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-09-30",
+        "open": 10.77,
+        "high": 10.81,
+        "low": 10.74,
+        "close": 10.79,
+        "volume": 27565283,
+        "ma20": 10.87,
+        "ma50": 11.0,
+        "volume_vs_20d": 1.0,
+        "atr14": 0.14,
+        "chg_5d_pct": -1.17
+      },
+      "weekly_snapshot": {
+        "ticker": "T",
+        "week_start": "2013-09-30",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 47.1,
+        "price_vs_sma50": 0.98,
+        "notes": "ADX 24.7, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "T_2013-09-11_mixed_sample_018_015",
+      "scenario_id": "T_2013-09-11",
+      "window_type": "mixed_sample_018",
+      "chronological_index": 15,
+      "state_id": "mixed_sample_018_state_015",
+      "time_spot": "2013-10-01",
+      "reference_session": "2013-10-01",
+      "question": "Session summary for October 01, 2013: T opened $10.78, ranged $10.77-$10.92, closed $10.86. Volume 22.2M (0.83x 20-day avg). 20-day $10.88 | 50-day $10.99. 5-day return -0.09%. ATR-14 $0.14. RSI 51.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-10-01",
+        "open": 10.78,
+        "high": 10.92,
+        "low": 10.77,
+        "close": 10.86,
+        "volume": 22189975,
+        "ma20": 10.88,
+        "ma50": 10.99,
+        "volume_vs_20d": 0.83,
+        "atr14": 0.14,
+        "chg_5d_pct": -0.09
+      },
+      "weekly_snapshot": {
+        "ticker": "T",
+        "week_start": "2013-09-30",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 51.6,
+        "price_vs_sma50": 0.988,
+        "notes": "ADX 24.7, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "T_2013-09-11_mixed_sample_018_016",
+      "scenario_id": "T_2013-09-11",
+      "window_type": "mixed_sample_018",
+      "chronological_index": 16,
+      "state_id": "mixed_sample_018_state_016",
+      "time_spot": "2013-10-02",
+      "reference_session": "2013-10-02",
+      "question": "Session summary for October 02, 2013: T opened $10.83, ranged $10.76-$10.86, closed $10.82. Volume 28.5M (1.06x 20-day avg). 20-day $10.89 | 50-day $10.98. 5-day return -0.32%. ATR-14 $0.14. RSI 41.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-10-02",
+        "open": 10.83,
+        "high": 10.86,
+        "low": 10.76,
+        "close": 10.82,
+        "volume": 28479240,
+        "ma20": 10.89,
+        "ma50": 10.98,
+        "volume_vs_20d": 1.06,
+        "atr14": 0.14,
+        "chg_5d_pct": -0.32
+      },
+      "weekly_snapshot": {
+        "ticker": "T",
+        "week_start": "2013-09-30",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 41.3,
+        "price_vs_sma50": 0.985,
+        "notes": "ADX 23.9, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "T_2013-09-11_mixed_sample_018_017",
+      "scenario_id": "T_2013-09-11",
+      "window_type": "mixed_sample_018",
+      "chronological_index": 17,
+      "state_id": "mixed_sample_018_state_017",
+      "time_spot": "2013-10-03",
+      "reference_session": "2013-10-03",
+      "question": "Session summary for October 03, 2013: T opened $10.81, ranged $10.72-$10.82, closed $10.73. Volume 29.7M (1.10x 20-day avg). 20-day $10.89 | 50-day $10.97. 5-day return -1.72%. ATR-14 $0.13. RSI 37.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-10-03",
+        "open": 10.81,
+        "high": 10.82,
+        "low": 10.72,
+        "close": 10.73,
+        "volume": 29706985,
+        "ma20": 10.89,
+        "ma50": 10.97,
+        "volume_vs_20d": 1.1,
+        "atr14": 0.13,
+        "chg_5d_pct": -1.72
+      },
+      "weekly_snapshot": {
+        "ticker": "T",
+        "week_start": "2013-09-30",
+        "trend_regime": "downtrend",
+        "volatility_regime": "low",
+        "rsi_14": 37.8,
+        "price_vs_sma50": 0.978,
+        "notes": "ADX 24.5, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "T_2013-09-11_mixed_sample_018_018",
+      "scenario_id": "T_2013-09-11",
+      "window_type": "mixed_sample_018",
+      "chronological_index": 18,
+      "state_id": "mixed_sample_018_state_018",
+      "time_spot": "2013-10-04",
+      "reference_session": "2013-10-04",
+      "question": "Session summary for October 04, 2013: T opened $10.74, ranged $10.72-$10.78, closed $10.76. Volume 92.3M (3.04x 20-day avg). 20-day $10.90 | 50-day $10.96. 5-day return -0.68%. ATR-14 $0.13. RSI 34.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-10-04",
+        "open": 10.74,
+        "high": 10.78,
+        "low": 10.72,
+        "close": 10.76,
+        "volume": 92311796,
+        "ma20": 10.9,
+        "ma50": 10.96,
+        "volume_vs_20d": 3.04,
+        "atr14": 0.13,
+        "chg_5d_pct": -0.68
+      },
+      "weekly_snapshot": {
+        "ticker": "T",
+        "week_start": "2013-09-30",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 34.5,
+        "price_vs_sma50": 0.982,
+        "notes": "ADX 25.4, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "T_2013-09-11_mixed_sample_018_019",
+      "scenario_id": "T_2013-09-11",
+      "window_type": "mixed_sample_018",
+      "chronological_index": 19,
+      "state_id": "mixed_sample_018_state_019",
+      "time_spot": "2013-10-07",
+      "reference_session": "2013-10-07",
+      "question": "Session summary for October 07, 2013: T opened $10.74, ranged $10.72-$10.88, closed $10.84. Volume 83.9M (2.52x 20-day avg). 20-day $10.90 | 50-day $10.95. 5-day return +0.53%. ATR-14 $0.13. RSI 36.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-10-07",
+        "open": 10.74,
+        "high": 10.88,
+        "low": 10.72,
+        "close": 10.84,
+        "volume": 83900556,
+        "ma20": 10.9,
+        "ma50": 10.95,
+        "volume_vs_20d": 2.52,
+        "atr14": 0.13,
+        "chg_5d_pct": 0.53
+      },
+      "weekly_snapshot": {
+        "ticker": "T",
+        "week_start": "2013-10-07",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 36.2,
+        "price_vs_sma50": 0.99,
+        "notes": "ADX 23.9, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "T_2013-09-11_mixed_sample_018_020",
+      "scenario_id": "T_2013-09-11",
+      "window_type": "mixed_sample_018",
+      "chronological_index": 20,
+      "state_id": "mixed_sample_018_state_020",
+      "time_spot": "2013-10-08",
+      "reference_session": "2013-10-08",
+      "question": "Session summary for October 08, 2013: T opened $10.90, ranged $10.74-$10.92, closed $10.75. Volume 43.4M (1.29x 20-day avg). 20-day $10.90 | 50-day $10.94. 5-day return -1.06%. ATR-14 $0.13. RSI 27.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-10-08",
+        "open": 10.9,
+        "high": 10.92,
+        "low": 10.74,
+        "close": 10.75,
+        "volume": 43425082,
+        "ma20": 10.9,
+        "ma50": 10.94,
+        "volume_vs_20d": 1.29,
+        "atr14": 0.13,
+        "chg_5d_pct": -1.06
+      },
+      "weekly_snapshot": {
+        "ticker": "T",
+        "week_start": "2013-10-07",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 27.8,
+        "price_vs_sma50": 0.983,
+        "notes": "ADX 22.6, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "T_2013-09-11_mixed_sample_018_021",
+      "scenario_id": "T_2013-09-11",
+      "window_type": "mixed_sample_018",
+      "chronological_index": 21,
+      "state_id": "mixed_sample_018_state_021",
+      "time_spot": "2013-10-09",
+      "reference_session": "2013-10-09",
+      "question": "Session summary for October 09, 2013: T opened $10.79, ranged $10.76-$11.07, closed $10.96. Volume 44.3M (1.28x 20-day avg). 20-day $10.91 | 50-day $10.93. 5-day return +1.21%. ATR-14 $0.15. RSI 43.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-10-09",
+        "open": 10.79,
+        "high": 11.07,
+        "low": 10.76,
+        "close": 10.96,
+        "volume": 44262909,
+        "ma20": 10.91,
+        "ma50": 10.93,
+        "volume_vs_20d": 1.28,
+        "atr14": 0.15,
+        "chg_5d_pct": 1.21
+      },
+      "weekly_snapshot": {
+        "ticker": "T",
+        "week_start": "2013-10-07",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 43.1,
+        "price_vs_sma50": 1.002,
+        "notes": "ADX 20.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "T_2013-09-11_mixed_sample_018_022",
+      "scenario_id": "T_2013-09-11",
+      "window_type": "mixed_sample_018",
+      "chronological_index": 22,
+      "state_id": "mixed_sample_018_state_022",
+      "time_spot": "2013-10-10",
+      "reference_session": "2013-10-10",
+      "question": "Session summary for October 10, 2013: T opened $11.07, ranged $10.90-$11.08, closed $11.08. Volume 31.5M (0.92x 20-day avg). 20-day $10.91 | 50-day $10.93. 5-day return +3.33%. ATR-14 $0.15. RSI 57.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-10-10",
+        "open": 11.07,
+        "high": 11.08,
+        "low": 10.9,
+        "close": 11.08,
+        "volume": 31535164,
+        "ma20": 10.91,
+        "ma50": 10.93,
+        "volume_vs_20d": 0.92,
+        "atr14": 0.15,
+        "chg_5d_pct": 3.33
+      },
+      "weekly_snapshot": {
+        "ticker": "T",
+        "week_start": "2013-10-07",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 57.0,
+        "price_vs_sma50": 1.014,
+        "notes": "ADX 20.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "T_2013-09-11_mixed_sample_018_023",
+      "scenario_id": "T_2013-09-11",
+      "window_type": "mixed_sample_018",
+      "chronological_index": 23,
+      "state_id": "mixed_sample_018_state_023",
+      "time_spot": "2013-10-11",
+      "reference_session": "2013-10-11",
+      "question": "Session summary for October 11, 2013: T opened $11.08, ranged $11.01-$11.12, closed $11.10. Volume 31.3M (0.89x 20-day avg). 20-day $10.92 | 50-day $10.92. 5-day return +3.14%. ATR-14 $0.14. RSI 59.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-10-11",
+        "open": 11.08,
+        "high": 11.12,
+        "low": 11.01,
+        "close": 11.1,
+        "volume": 31309158,
+        "ma20": 10.92,
+        "ma50": 10.92,
+        "volume_vs_20d": 0.89,
+        "atr14": 0.14,
+        "chg_5d_pct": 3.14
+      },
+      "weekly_snapshot": {
+        "ticker": "T",
+        "week_start": "2013-10-07",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 59.3,
+        "price_vs_sma50": 1.017,
+        "notes": "ADX 23.5, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "T_2013-09-11_mixed_sample_018_024",
+      "scenario_id": "T_2013-09-11",
+      "window_type": "mixed_sample_018",
+      "chronological_index": 24,
+      "state_id": "mixed_sample_018_state_024",
+      "time_spot": "2013-10-14",
+      "reference_session": "2013-10-14",
+      "question": "Session summary for October 14, 2013: T opened $11.03, ranged $10.99-$11.07, closed $11.01. Volume 24.6M (0.70x 20-day avg). 20-day $10.92 | 50-day $10.91. 5-day return +1.54%. ATR-14 $0.14. RSI 56.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-10-14",
+        "open": 11.03,
+        "high": 11.07,
+        "low": 10.99,
+        "close": 11.01,
+        "volume": 24586150,
+        "ma20": 10.92,
+        "ma50": 10.91,
+        "volume_vs_20d": 0.7,
+        "atr14": 0.14,
+        "chg_5d_pct": 1.54
+      },
+      "weekly_snapshot": {
+        "ticker": "T",
+        "week_start": "2013-10-14",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 56.5,
+        "price_vs_sma50": 1.009,
+        "notes": "ADX 26.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "T_2013-09-11_mixed_sample_018_025",
+      "scenario_id": "T_2013-09-11",
+      "window_type": "mixed_sample_018",
+      "chronological_index": 25,
+      "state_id": "mixed_sample_018_state_025",
+      "time_spot": "2013-10-15",
+      "reference_session": "2013-10-15",
+      "question": "Session summary for October 15, 2013: T opened $10.99, ranged $10.94-$11.08, closed $10.94. Volume 21.7M (0.62x 20-day avg). 20-day $10.91 | 50-day $10.90. 5-day return +1.81%. ATR-14 $0.14. RSI 53.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-10-15",
+        "open": 10.99,
+        "high": 11.08,
+        "low": 10.94,
+        "close": 10.94,
+        "volume": 21651240,
+        "ma20": 10.91,
+        "ma50": 10.9,
+        "volume_vs_20d": 0.62,
+        "atr14": 0.14,
+        "chg_5d_pct": 1.81
+      },
+      "weekly_snapshot": {
+        "ticker": "T",
+        "week_start": "2013-10-14",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 53.7,
+        "price_vs_sma50": 1.003,
+        "notes": "ADX 27.9, MACD bullish"
+      }
+    }
+  ]
+}

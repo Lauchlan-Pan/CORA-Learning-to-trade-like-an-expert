@@ -1,0 +1,2898 @@
+{
+  "metadata": {
+    "instrument": "AES",
+    "initial_capital": 10000,
+    "window_type": "bullish_sample_005",
+    "description": "AES window (2010-07-06 \u2013 2010-08-09) - bullish regime.",
+    "num_mcqs": 25,
+    "notes": "Orders express target exposure fractions relative to the leverage ceiling.",
+    "max_leverage": 2.5,
+    "exposure_buckets": [
+      0.8,
+      0.6,
+      0.4,
+      0.2
+    ],
+    "start_reference": "2010-07-06",
+    "end_reference": "2010-08-09",
+    "regime": "bullish",
+    "bh_return": 24.38
+  },
+  "mcqs": [
+    {
+      "scenario_instance_id": "AES_2010-07-06_bullish_sample_005_001",
+      "scenario_id": "AES_2010-07-06",
+      "window_type": "bullish_sample_005",
+      "chronological_index": 1,
+      "state_id": "bullish_sample_005_state_001",
+      "time_spot": "2010-07-06",
+      "reference_session": "2010-07-06",
+      "question": "Session summary for July 06, 2010: AES opened $6.06, ranged $5.77-$6.14, closed $5.82. Volume 8.6M (1.10x 20-day avg). 20-day $6.50 | 50-day $6.72. 5-day return -8.90%. ATR-14 $0.23. RSI 10.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-07-06",
+        "open": 6.06,
+        "high": 6.14,
+        "low": 5.77,
+        "close": 5.82,
+        "volume": 8637100,
+        "ma20": 6.5,
+        "ma50": 6.72,
+        "volume_vs_20d": 1.1,
+        "atr14": 0.23,
+        "chg_5d_pct": -8.9
+      },
+      "weekly_snapshot": {
+        "ticker": "AES",
+        "week_start": "2010-07-05",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 10.3,
+        "price_vs_sma50": 0.866,
+        "notes": "ADX 30.9, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AES_2010-07-06_bullish_sample_005_002",
+      "scenario_id": "AES_2010-07-06",
+      "window_type": "bullish_sample_005",
+      "chronological_index": 2,
+      "state_id": "bullish_sample_005_state_002",
+      "time_spot": "2010-07-07",
+      "reference_session": "2010-07-07",
+      "question": "Session summary for July 07, 2010: AES opened $5.89, ranged $5.85-$6.49, closed $6.45. Volume 17.7M (2.11x 20-day avg). 20-day $6.51 | 50-day $6.69. 5-day return +6.59%. ATR-14 $0.27. RSI 37.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-07-07",
+        "open": 5.89,
+        "high": 6.49,
+        "low": 5.85,
+        "close": 6.45,
+        "volume": 17659400,
+        "ma20": 6.51,
+        "ma50": 6.69,
+        "volume_vs_20d": 2.11,
+        "atr14": 0.27,
+        "chg_5d_pct": 6.59
+      },
+      "weekly_snapshot": {
+        "ticker": "AES",
+        "week_start": "2010-07-05",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 37.6,
+        "price_vs_sma50": 0.964,
+        "notes": "ADX 31.7, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AES_2010-07-06_bullish_sample_005_003",
+      "scenario_id": "AES_2010-07-06",
+      "window_type": "bullish_sample_005",
+      "chronological_index": 3,
+      "state_id": "bullish_sample_005_state_003",
+      "time_spot": "2010-07-08",
+      "reference_session": "2010-07-08",
+      "question": "Session summary for July 08, 2010: AES opened $6.58, ranged $6.31-$6.58, closed $6.40. Volume 8.1M (0.98x 20-day avg). 20-day $6.50 | 50-day $6.67. 5-day return +5.95%. ATR-14 $0.27. RSI 37.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-07-08",
+        "open": 6.58,
+        "high": 6.58,
+        "low": 6.31,
+        "close": 6.4,
+        "volume": 8103800,
+        "ma20": 6.5,
+        "ma50": 6.67,
+        "volume_vs_20d": 0.98,
+        "atr14": 0.27,
+        "chg_5d_pct": 5.95
+      },
+      "weekly_snapshot": {
+        "ticker": "AES",
+        "week_start": "2010-07-05",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 37.4,
+        "price_vs_sma50": 0.96,
+        "notes": "ADX 32.6, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AES_2010-07-06_bullish_sample_005_004",
+      "scenario_id": "AES_2010-07-06",
+      "window_type": "bullish_sample_005",
+      "chronological_index": 4,
+      "state_id": "bullish_sample_005_state_004",
+      "time_spot": "2010-07-09",
+      "reference_session": "2010-07-09",
+      "question": "Session summary for July 09, 2010: AES opened $6.32, ranged $6.32-$6.72, closed $6.69. Volume 12.9M (1.54x 20-day avg). 20-day $6.50 | 50-day $6.65. 5-day return +12.54%. ATR-14 $0.29. RSI 46.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-07-09",
+        "open": 6.32,
+        "high": 6.72,
+        "low": 6.32,
+        "close": 6.69,
+        "volume": 12917700,
+        "ma20": 6.5,
+        "ma50": 6.65,
+        "volume_vs_20d": 1.54,
+        "atr14": 0.29,
+        "chg_5d_pct": 12.54
+      },
+      "weekly_snapshot": {
+        "ticker": "AES",
+        "week_start": "2010-07-05",
+        "trend_regime": "rangebound",
+        "volatility_regime": "high",
+        "rsi_14": 46.1,
+        "price_vs_sma50": 1.006,
+        "notes": "ADX 33.4, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AES_2010-07-06_bullish_sample_005_005",
+      "scenario_id": "AES_2010-07-06",
+      "window_type": "bullish_sample_005",
+      "chronological_index": 5,
+      "state_id": "bullish_sample_005_state_005",
+      "time_spot": "2010-07-12",
+      "reference_session": "2010-07-12",
+      "question": "Session summary for July 12, 2010: AES opened $6.65, ranged $6.59-$6.72, closed $6.70. Volume 6.4M (0.77x 20-day avg). 20-day $6.50 | 50-day $6.63. 5-day return +12.39%. ATR-14 $0.28. RSI 45.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-07-12",
+        "open": 6.65,
+        "high": 6.72,
+        "low": 6.59,
+        "close": 6.7,
+        "volume": 6444500,
+        "ma20": 6.5,
+        "ma50": 6.63,
+        "volume_vs_20d": 0.77,
+        "atr14": 0.28,
+        "chg_5d_pct": 12.39
+      },
+      "weekly_snapshot": {
+        "ticker": "AES",
+        "week_start": "2010-07-12",
+        "trend_regime": "rangebound",
+        "volatility_regime": "high",
+        "rsi_14": 45.9,
+        "price_vs_sma50": 1.011,
+        "notes": "ADX 31.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AES_2010-07-06_bullish_sample_005_006",
+      "scenario_id": "AES_2010-07-06",
+      "window_type": "bullish_sample_005",
+      "chronological_index": 6,
+      "state_id": "bullish_sample_005_state_006",
+      "time_spot": "2010-07-13",
+      "reference_session": "2010-07-13",
+      "question": "Session summary for July 13, 2010: AES opened $6.81, ranged $6.64-$6.84, closed $6.69. Volume 4.8M (0.58x 20-day avg). 20-day $6.49 | 50-day $6.61. 5-day return +14.94%. ATR-14 $0.27. RSI 50.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-07-13",
+        "open": 6.81,
+        "high": 6.84,
+        "low": 6.64,
+        "close": 6.69,
+        "volume": 4839100,
+        "ma20": 6.49,
+        "ma50": 6.61,
+        "volume_vs_20d": 0.58,
+        "atr14": 0.27,
+        "chg_5d_pct": 14.94
+      },
+      "weekly_snapshot": {
+        "ticker": "AES",
+        "week_start": "2010-07-12",
+        "trend_regime": "rangebound",
+        "volatility_regime": "high",
+        "rsi_14": 50.9,
+        "price_vs_sma50": 1.012,
+        "notes": "ADX 29.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AES_2010-07-06_bullish_sample_005_007",
+      "scenario_id": "AES_2010-07-06",
+      "window_type": "bullish_sample_005",
+      "chronological_index": 7,
+      "state_id": "bullish_sample_005_state_007",
+      "time_spot": "2010-07-14",
+      "reference_session": "2010-07-14",
+      "question": "Session summary for July 14, 2010: AES opened $6.64, ranged $6.61-$6.80, closed $6.68. Volume 5.9M (0.71x 20-day avg). 20-day $6.47 | 50-day $6.59. 5-day return +3.55%. ATR-14 $0.27. RSI 53.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-07-14",
+        "open": 6.64,
+        "high": 6.8,
+        "low": 6.61,
+        "close": 6.68,
+        "volume": 5886900,
+        "ma20": 6.47,
+        "ma50": 6.59,
+        "volume_vs_20d": 0.71,
+        "atr14": 0.27,
+        "chg_5d_pct": 3.55
+      },
+      "weekly_snapshot": {
+        "ticker": "AES",
+        "week_start": "2010-07-12",
+        "trend_regime": "rangebound",
+        "volatility_regime": "high",
+        "rsi_14": 53.1,
+        "price_vs_sma50": 1.014,
+        "notes": "ADX 28.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AES_2010-07-06_bullish_sample_005_008",
+      "scenario_id": "AES_2010-07-06",
+      "window_type": "bullish_sample_005",
+      "chronological_index": 8,
+      "state_id": "bullish_sample_005_state_008",
+      "time_spot": "2010-07-15",
+      "reference_session": "2010-07-15",
+      "question": "Session summary for July 15, 2010: AES opened $6.65, ranged $6.54-$6.69, closed $6.67. Volume 5.2M (0.63x 20-day avg). 20-day $6.46 | 50-day $6.57. 5-day return +4.19%. ATR-14 $0.26. RSI 59.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-07-15",
+        "open": 6.65,
+        "high": 6.69,
+        "low": 6.54,
+        "close": 6.67,
+        "volume": 5184700,
+        "ma20": 6.46,
+        "ma50": 6.57,
+        "volume_vs_20d": 0.63,
+        "atr14": 0.26,
+        "chg_5d_pct": 4.19
+      },
+      "weekly_snapshot": {
+        "ticker": "AES",
+        "week_start": "2010-07-12",
+        "trend_regime": "rangebound",
+        "volatility_regime": "high",
+        "rsi_14": 59.5,
+        "price_vs_sma50": 1.015,
+        "notes": "ADX 27.5, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AES_2010-07-06_bullish_sample_005_009",
+      "scenario_id": "AES_2010-07-06",
+      "window_type": "bullish_sample_005",
+      "chronological_index": 9,
+      "state_id": "bullish_sample_005_state_009",
+      "time_spot": "2010-07-16",
+      "reference_session": "2010-07-16",
+      "question": "Session summary for July 16, 2010: AES opened $6.61, ranged $6.48-$6.63, closed $6.53. Volume 7.6M (0.91x 20-day avg). 20-day $6.44 | 50-day $6.56. 5-day return -2.44%. ATR-14 $0.26. RSI 52.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-07-16",
+        "open": 6.61,
+        "high": 6.63,
+        "low": 6.48,
+        "close": 6.53,
+        "volume": 7567800,
+        "ma20": 6.44,
+        "ma50": 6.56,
+        "volume_vs_20d": 0.91,
+        "atr14": 0.26,
+        "chg_5d_pct": -2.44
+      },
+      "weekly_snapshot": {
+        "ticker": "AES",
+        "week_start": "2010-07-12",
+        "trend_regime": "rangebound",
+        "volatility_regime": "high",
+        "rsi_14": 52.2,
+        "price_vs_sma50": 0.996,
+        "notes": "ADX 26.8, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AES_2010-07-06_bullish_sample_005_010",
+      "scenario_id": "AES_2010-07-06",
+      "window_type": "bullish_sample_005",
+      "chronological_index": 10,
+      "state_id": "bullish_sample_005_state_010",
+      "time_spot": "2010-07-19",
+      "reference_session": "2010-07-19",
+      "question": "Session summary for July 19, 2010: AES opened $6.59, ranged $6.52-$6.63, closed $6.59. Volume 3.2M (0.40x 20-day avg). 20-day $6.42 | 50-day $6.55. 5-day return -1.76%. ATR-14 $0.26. RSI 55.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-07-19",
+        "open": 6.59,
+        "high": 6.63,
+        "low": 6.52,
+        "close": 6.59,
+        "volume": 3161100,
+        "ma20": 6.42,
+        "ma50": 6.55,
+        "volume_vs_20d": 0.4,
+        "atr14": 0.26,
+        "chg_5d_pct": -1.76
+      },
+      "weekly_snapshot": {
+        "ticker": "AES",
+        "week_start": "2010-07-19",
+        "trend_regime": "rangebound",
+        "volatility_regime": "high",
+        "rsi_14": 55.4,
+        "price_vs_sma50": 1.006,
+        "notes": "ADX 25.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AES_2010-07-06_bullish_sample_005_011",
+      "scenario_id": "AES_2010-07-06",
+      "window_type": "bullish_sample_005",
+      "chronological_index": 11,
+      "state_id": "bullish_sample_005_state_011",
+      "time_spot": "2010-07-20",
+      "reference_session": "2010-07-20",
+      "question": "Session summary for July 20, 2010: AES opened $6.47, ranged $6.47-$6.74, closed $6.70. Volume 4.1M (0.51x 20-day avg). 20-day $6.41 | 50-day $6.55. 5-day return +0.20%. ATR-14 $0.25. RSI 70.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-07-20",
+        "open": 6.47,
+        "high": 6.74,
+        "low": 6.47,
+        "close": 6.7,
+        "volume": 4050500,
+        "ma20": 6.41,
+        "ma50": 6.55,
+        "volume_vs_20d": 0.51,
+        "atr14": 0.25,
+        "chg_5d_pct": 0.2
+      },
+      "weekly_snapshot": {
+        "ticker": "AES",
+        "week_start": "2010-07-19",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 70.5,
+        "price_vs_sma50": 1.023,
+        "notes": "ADX 26.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AES_2010-07-06_bullish_sample_005_012",
+      "scenario_id": "AES_2010-07-06",
+      "window_type": "bullish_sample_005",
+      "chronological_index": 12,
+      "state_id": "bullish_sample_005_state_012",
+      "time_spot": "2010-07-21",
+      "reference_session": "2010-07-21",
+      "question": "Session summary for July 21, 2010: AES opened $6.72, ranged $6.51-$6.76, closed $6.56. Volume 5.0M (0.64x 20-day avg). 20-day $6.41 | 50-day $6.54. 5-day return -1.76%. ATR-14 $0.25. RSI 64.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-07-21",
+        "open": 6.72,
+        "high": 6.76,
+        "low": 6.51,
+        "close": 6.56,
+        "volume": 4990300,
+        "ma20": 6.41,
+        "ma50": 6.54,
+        "volume_vs_20d": 0.64,
+        "atr14": 0.25,
+        "chg_5d_pct": -1.76
+      },
+      "weekly_snapshot": {
+        "ticker": "AES",
+        "week_start": "2010-07-19",
+        "trend_regime": "rangebound",
+        "volatility_regime": "high",
+        "rsi_14": 64.9,
+        "price_vs_sma50": 1.002,
+        "notes": "ADX 25.9, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AES_2010-07-06_bullish_sample_005_013",
+      "scenario_id": "AES_2010-07-06",
+      "window_type": "bullish_sample_005",
+      "chronological_index": 13,
+      "state_id": "bullish_sample_005_state_013",
+      "time_spot": "2010-07-22",
+      "reference_session": "2010-07-22",
+      "question": "Session summary for July 22, 2010: AES opened $6.64, ranged $6.61-$6.82, closed $6.80. Volume 5.5M (0.70x 20-day avg). 20-day $6.42 | 50-day $6.54. 5-day return +1.86%. ATR-14 $0.26. RSI 72.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-07-22",
+        "open": 6.64,
+        "high": 6.82,
+        "low": 6.61,
+        "close": 6.8,
+        "volume": 5488100,
+        "ma20": 6.42,
+        "ma50": 6.54,
+        "volume_vs_20d": 0.7,
+        "atr14": 0.26,
+        "chg_5d_pct": 1.86
+      },
+      "weekly_snapshot": {
+        "ticker": "AES",
+        "week_start": "2010-07-19",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 72.7,
+        "price_vs_sma50": 1.039,
+        "notes": "ADX 26.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AES_2010-07-06_bullish_sample_005_014",
+      "scenario_id": "AES_2010-07-06",
+      "window_type": "bullish_sample_005",
+      "chronological_index": 14,
+      "state_id": "bullish_sample_005_state_014",
+      "time_spot": "2010-07-23",
+      "reference_session": "2010-07-23",
+      "question": "Session summary for July 23, 2010: AES opened $6.80, ranged $6.71-$6.86, closed $6.84. Volume 5.9M (0.78x 20-day avg). 20-day $6.45 | 50-day $6.53. 5-day return +4.81%. ATR-14 $0.26. RSI 73.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-07-23",
+        "open": 6.8,
+        "high": 6.86,
+        "low": 6.71,
+        "close": 6.84,
+        "volume": 5933900,
+        "ma20": 6.45,
+        "ma50": 6.53,
+        "volume_vs_20d": 0.78,
+        "atr14": 0.26,
+        "chg_5d_pct": 4.81
+      },
+      "weekly_snapshot": {
+        "ticker": "AES",
+        "week_start": "2010-07-19",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 73.1,
+        "price_vs_sma50": 1.048,
+        "notes": "ADX 25.9, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AES_2010-07-06_bullish_sample_005_015",
+      "scenario_id": "AES_2010-07-06",
+      "window_type": "bullish_sample_005",
+      "chronological_index": 15,
+      "state_id": "bullish_sample_005_state_015",
+      "time_spot": "2010-07-26",
+      "reference_session": "2010-07-26",
+      "question": "Session summary for July 26, 2010: AES opened $6.82, ranged $6.78-$6.87, closed $6.85. Volume 4.2M (0.59x 20-day avg). 20-day $6.47 | 50-day $6.52. 5-day return +3.97%. ATR-14 $0.24. RSI 79.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-07-26",
+        "open": 6.82,
+        "high": 6.87,
+        "low": 6.78,
+        "close": 6.85,
+        "volume": 4165100,
+        "ma20": 6.47,
+        "ma50": 6.52,
+        "volume_vs_20d": 0.59,
+        "atr14": 0.24,
+        "chg_5d_pct": 3.97
+      },
+      "weekly_snapshot": {
+        "ticker": "AES",
+        "week_start": "2010-07-26",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 79.2,
+        "price_vs_sma50": 1.05,
+        "notes": "ADX 26.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AES_2010-07-06_bullish_sample_005_016",
+      "scenario_id": "AES_2010-07-06",
+      "window_type": "bullish_sample_005",
+      "chronological_index": 16,
+      "state_id": "bullish_sample_005_state_016",
+      "time_spot": "2010-07-27",
+      "reference_session": "2010-07-27",
+      "question": "Session summary for July 27, 2010: AES opened $6.89, ranged $6.82-$7.00, closed $7.00. Volume 6.9M (0.97x 20-day avg). 20-day $6.50 | 50-day $6.52. 5-day return +4.49%. ATR-14 $0.20. RSI 71.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-07-27",
+        "open": 6.89,
+        "high": 7.0,
+        "low": 6.82,
+        "close": 7.0,
+        "volume": 6921900,
+        "ma20": 6.5,
+        "ma50": 6.52,
+        "volume_vs_20d": 0.97,
+        "atr14": 0.2,
+        "chg_5d_pct": 4.49
+      },
+      "weekly_snapshot": {
+        "ticker": "AES",
+        "week_start": "2010-07-26",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 71.6,
+        "price_vs_sma50": 1.073,
+        "notes": "ADX 27.9, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AES_2010-07-06_bullish_sample_005_017",
+      "scenario_id": "AES_2010-07-06",
+      "window_type": "bullish_sample_005",
+      "chronological_index": 17,
+      "state_id": "bullish_sample_005_state_017",
+      "time_spot": "2010-07-28",
+      "reference_session": "2010-07-28",
+      "question": "Session summary for July 28, 2010: AES opened $6.95, ranged $6.86-$6.99, closed $6.90. Volume 3.3M (0.47x 20-day avg). 20-day $6.54 | 50-day $6.53. 5-day return +5.18%. ATR-14 $0.19. RSI 68.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-07-28",
+        "open": 6.95,
+        "high": 6.99,
+        "low": 6.86,
+        "close": 6.9,
+        "volume": 3270600,
+        "ma20": 6.54,
+        "ma50": 6.53,
+        "volume_vs_20d": 0.47,
+        "atr14": 0.19,
+        "chg_5d_pct": 5.18
+      },
+      "weekly_snapshot": {
+        "ticker": "AES",
+        "week_start": "2010-07-26",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 68.4,
+        "price_vs_sma50": 1.057,
+        "notes": "ADX 30.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AES_2010-07-06_bullish_sample_005_018",
+      "scenario_id": "AES_2010-07-06",
+      "window_type": "bullish_sample_005",
+      "chronological_index": 18,
+      "state_id": "bullish_sample_005_state_018",
+      "time_spot": "2010-07-29",
+      "reference_session": "2010-07-29",
+      "question": "Session summary for July 29, 2010: AES opened $6.97, ranged $6.72-$6.98, closed $6.76. Volume 4.3M (0.65x 20-day avg). 20-day $6.58 | 50-day $6.53. 5-day return -0.48%. ATR-14 $0.18. RSI 53.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-07-29",
+        "open": 6.97,
+        "high": 6.98,
+        "low": 6.72,
+        "close": 6.76,
+        "volume": 4291500,
+        "ma20": 6.58,
+        "ma50": 6.53,
+        "volume_vs_20d": 0.65,
+        "atr14": 0.18,
+        "chg_5d_pct": -0.48
+      },
+      "weekly_snapshot": {
+        "ticker": "AES",
+        "week_start": "2010-07-26",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 53.0,
+        "price_vs_sma50": 1.035,
+        "notes": "ADX 30.7, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AES_2010-07-06_bullish_sample_005_019",
+      "scenario_id": "AES_2010-07-06",
+      "window_type": "bullish_sample_005",
+      "chronological_index": 19,
+      "state_id": "bullish_sample_005_state_019",
+      "time_spot": "2010-07-30",
+      "reference_session": "2010-07-30",
+      "question": "Session summary for July 30, 2010: AES opened $6.68, ranged $6.62-$6.78, closed $6.74. Volume 4.1M (0.64x 20-day avg). 20-day $6.62 | 50-day $6.54. 5-day return -1.43%. ATR-14 $0.19. RSI 51.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-07-30",
+        "open": 6.68,
+        "high": 6.78,
+        "low": 6.62,
+        "close": 6.74,
+        "volume": 4133400,
+        "ma20": 6.62,
+        "ma50": 6.54,
+        "volume_vs_20d": 0.64,
+        "atr14": 0.19,
+        "chg_5d_pct": -1.43
+      },
+      "weekly_snapshot": {
+        "ticker": "AES",
+        "week_start": "2010-07-26",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 51.6,
+        "price_vs_sma50": 1.031,
+        "notes": "ADX 29.5, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AES_2010-07-06_bullish_sample_005_020",
+      "scenario_id": "AES_2010-07-06",
+      "window_type": "bullish_sample_005",
+      "chronological_index": 20,
+      "state_id": "bullish_sample_005_state_020",
+      "time_spot": "2010-08-02",
+      "reference_session": "2010-08-02",
+      "question": "Session summary for August 02, 2010: AES opened $6.84, ranged $6.84-$7.06, closed $7.04. Volume 5.5M (0.85x 20-day avg). 20-day $6.67 | 50-day $6.56. 5-day return +2.77%. ATR-14 $0.19. RSI 61.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-08-02",
+        "open": 6.84,
+        "high": 7.06,
+        "low": 6.84,
+        "close": 7.04,
+        "volume": 5462900,
+        "ma20": 6.67,
+        "ma50": 6.56,
+        "volume_vs_20d": 0.85,
+        "atr14": 0.19,
+        "chg_5d_pct": 2.77
+      },
+      "weekly_snapshot": {
+        "ticker": "AES",
+        "week_start": "2010-08-02",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 61.7,
+        "price_vs_sma50": 1.073,
+        "notes": "ADX 30.5, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AES_2010-07-06_bullish_sample_005_021",
+      "scenario_id": "AES_2010-07-06",
+      "window_type": "bullish_sample_005",
+      "chronological_index": 21,
+      "state_id": "bullish_sample_005_state_021",
+      "time_spot": "2010-08-03",
+      "reference_session": "2010-08-03",
+      "question": "Session summary for August 03, 2010: AES opened $6.99, ranged $6.81-$7.03, closed $6.83. Volume 5.0M (0.80x 20-day avg). 20-day $6.72 | 50-day $6.57. 5-day return -2.43%. ATR-14 $0.20. RSI 54.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-08-03",
+        "open": 6.99,
+        "high": 7.03,
+        "low": 6.81,
+        "close": 6.83,
+        "volume": 5012400,
+        "ma20": 6.72,
+        "ma50": 6.57,
+        "volume_vs_20d": 0.8,
+        "atr14": 0.2,
+        "chg_5d_pct": -2.43
+      },
+      "weekly_snapshot": {
+        "ticker": "AES",
+        "week_start": "2010-08-02",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 54.7,
+        "price_vs_sma50": 1.04,
+        "notes": "ADX 32.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AES_2010-07-06_bullish_sample_005_022",
+      "scenario_id": "AES_2010-07-06",
+      "window_type": "bullish_sample_005",
+      "chronological_index": 22,
+      "state_id": "bullish_sample_005_state_022",
+      "time_spot": "2010-08-04",
+      "reference_session": "2010-08-04",
+      "question": "Session summary for August 04, 2010: AES opened $6.83, ranged $6.76-$6.93, closed $6.89. Volume 3.3M (0.60x 20-day avg). 20-day $6.74 | 50-day $6.58. 5-day return -0.09%. ATR-14 $0.20. RSI 56.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-08-04",
+        "open": 6.83,
+        "high": 6.93,
+        "low": 6.76,
+        "close": 6.89,
+        "volume": 3318000,
+        "ma20": 6.74,
+        "ma50": 6.58,
+        "volume_vs_20d": 0.6,
+        "atr14": 0.2,
+        "chg_5d_pct": -0.09
+      },
+      "weekly_snapshot": {
+        "ticker": "AES",
+        "week_start": "2010-08-02",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 56.4,
+        "price_vs_sma50": 1.047,
+        "notes": "ADX 33.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AES_2010-07-06_bullish_sample_005_023",
+      "scenario_id": "AES_2010-07-06",
+      "window_type": "bullish_sample_005",
+      "chronological_index": 23,
+      "state_id": "bullish_sample_005_state_023",
+      "time_spot": "2010-08-05",
+      "reference_session": "2010-08-05",
+      "question": "Session summary for August 05, 2010: AES opened $6.83, ranged $6.81-$7.02, closed $6.98. Volume 4.1M (0.76x 20-day avg). 20-day $6.77 | 50-day $6.60. 5-day return +3.19%. ATR-14 $0.20. RSI 63.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-08-05",
+        "open": 6.83,
+        "high": 7.02,
+        "low": 6.81,
+        "close": 6.98,
+        "volume": 4052200,
+        "ma20": 6.77,
+        "ma50": 6.6,
+        "volume_vs_20d": 0.76,
+        "atr14": 0.2,
+        "chg_5d_pct": 3.19
+      },
+      "weekly_snapshot": {
+        "ticker": "AES",
+        "week_start": "2010-08-02",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 63.5,
+        "price_vs_sma50": 1.058,
+        "notes": "ADX 36.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AES_2010-07-06_bullish_sample_005_024",
+      "scenario_id": "AES_2010-07-06",
+      "window_type": "bullish_sample_005",
+      "chronological_index": 24,
+      "state_id": "bullish_sample_005_state_024",
+      "time_spot": "2010-08-06",
+      "reference_session": "2010-08-06",
+      "question": "Session summary for August 06, 2010: AES opened $6.91, ranged $6.56-$7.00, closed $6.97. Volume 7.9M (1.55x 20-day avg). 20-day $6.79 | 50-day $6.61. 5-day return +3.30%. ATR-14 $0.22. RSI 61.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-08-06",
+        "open": 6.91,
+        "high": 7.0,
+        "low": 6.56,
+        "close": 6.97,
+        "volume": 7938200,
+        "ma20": 6.79,
+        "ma50": 6.61,
+        "volume_vs_20d": 1.55,
+        "atr14": 0.22,
+        "chg_5d_pct": 3.3
+      },
+      "weekly_snapshot": {
+        "ticker": "AES",
+        "week_start": "2010-08-02",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 61.7,
+        "price_vs_sma50": 1.054,
+        "notes": "ADX 37.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AES_2010-07-06_bullish_sample_005_025",
+      "scenario_id": "AES_2010-07-06",
+      "window_type": "bullish_sample_005",
+      "chronological_index": 25,
+      "state_id": "bullish_sample_005_state_025",
+      "time_spot": "2010-08-09",
+      "reference_session": "2010-08-09",
+      "question": "Session summary for August 09, 2010: AES opened $7.00, ranged $6.97-$7.29, closed $7.24. Volume 9.0M (1.73x 20-day avg). 20-day $6.81 | 50-day $6.62. 5-day return +2.88%. ATR-14 $0.23. RSI 65.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2010-08-09",
+        "open": 7.0,
+        "high": 7.29,
+        "low": 6.97,
+        "close": 7.24,
+        "volume": 9045600,
+        "ma20": 6.81,
+        "ma50": 6.62,
+        "volume_vs_20d": 1.73,
+        "atr14": 0.23,
+        "chg_5d_pct": 2.88
+      },
+      "weekly_snapshot": {
+        "ticker": "AES",
+        "week_start": "2010-08-09",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 65.1,
+        "price_vs_sma50": 1.094,
+        "notes": "ADX 36.5, MACD bullish"
+      }
+    }
+  ]
+}

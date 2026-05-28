@@ -1,0 +1,2898 @@
+{
+  "metadata": {
+    "instrument": "ALB",
+    "initial_capital": 10000,
+    "window_type": "mixed_sample_009",
+    "description": "ALB window (2014-03-11 \u2013 2014-04-14) - mixed regime.",
+    "num_mcqs": 25,
+    "notes": "Orders express target exposure fractions relative to the leverage ceiling.",
+    "max_leverage": 2.5,
+    "exposure_buckets": [
+      0.8,
+      0.6,
+      0.4,
+      0.2
+    ],
+    "start_reference": "2014-03-11",
+    "end_reference": "2014-04-14",
+    "regime": "mixed",
+    "bh_return": 0.5
+  },
+  "mcqs": [
+    {
+      "scenario_instance_id": "ALB_2014-03-11_mixed_sample_009_001",
+      "scenario_id": "ALB_2014-03-11",
+      "window_type": "mixed_sample_009",
+      "chronological_index": 1,
+      "state_id": "mixed_sample_009_state_001",
+      "time_spot": "2014-03-11",
+      "reference_session": "2014-03-11",
+      "question": "Session summary for March 11, 2014: ALB opened $55.29, ranged $55.28-$55.83, closed $55.35. Volume 0.5M (0.94x 20-day avg). 20-day $55.05 | 50-day $54.64. 5-day return -0.76%. ATR-14 $0.78. RSI 61.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2014-03-11",
+        "open": 55.29,
+        "high": 55.83,
+        "low": 55.28,
+        "close": 55.35,
+        "volume": 479500,
+        "ma20": 55.05,
+        "ma50": 54.64,
+        "volume_vs_20d": 0.94,
+        "atr14": 0.78,
+        "chg_5d_pct": -0.76
+      },
+      "weekly_snapshot": {
+        "ticker": "ALB",
+        "week_start": "2014-03-10",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 61.5,
+        "price_vs_sma50": 1.013,
+        "notes": "ADX 33.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALB_2014-03-11_mixed_sample_009_002",
+      "scenario_id": "ALB_2014-03-11",
+      "window_type": "mixed_sample_009",
+      "chronological_index": 2,
+      "state_id": "mixed_sample_009_state_002",
+      "time_spot": "2014-03-12",
+      "reference_session": "2014-03-12",
+      "question": "Session summary for March 12, 2014: ALB opened $54.99, ranged $54.82-$55.31, closed $55.14. Volume 0.6M (1.18x 20-day avg). 20-day $55.10 | 50-day $54.67. 5-day return -1.14%. ATR-14 $0.80. RSI 58.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2014-03-12",
+        "open": 54.99,
+        "high": 55.31,
+        "low": 54.82,
+        "close": 55.14,
+        "volume": 615600,
+        "ma20": 55.1,
+        "ma50": 54.67,
+        "volume_vs_20d": 1.18,
+        "atr14": 0.8,
+        "chg_5d_pct": -1.14
+      },
+      "weekly_snapshot": {
+        "ticker": "ALB",
+        "week_start": "2014-03-10",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 58.2,
+        "price_vs_sma50": 1.009,
+        "notes": "ADX 33.5, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALB_2014-03-11_mixed_sample_009_003",
+      "scenario_id": "ALB_2014-03-11",
+      "window_type": "mixed_sample_009",
+      "chronological_index": 3,
+      "state_id": "mixed_sample_009_state_003",
+      "time_spot": "2014-03-13",
+      "reference_session": "2014-03-13",
+      "question": "Session summary for March 13, 2014: ALB opened $55.16, ranged $54.38-$55.48, closed $54.45. Volume 0.6M (1.15x 20-day avg). 20-day $55.10 | 50-day $54.69. 5-day return -3.17%. ATR-14 $0.81. RSI 55.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2014-03-13",
+        "open": 55.16,
+        "high": 55.48,
+        "low": 54.38,
+        "close": 54.45,
+        "volume": 606800,
+        "ma20": 55.1,
+        "ma50": 54.69,
+        "volume_vs_20d": 1.15,
+        "atr14": 0.81,
+        "chg_5d_pct": -3.17
+      },
+      "weekly_snapshot": {
+        "ticker": "ALB",
+        "week_start": "2014-03-10",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 55.2,
+        "price_vs_sma50": 0.996,
+        "notes": "ADX 33.1, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALB_2014-03-11_mixed_sample_009_004",
+      "scenario_id": "ALB_2014-03-11",
+      "window_type": "mixed_sample_009",
+      "chronological_index": 4,
+      "state_id": "mixed_sample_009_state_004",
+      "time_spot": "2014-03-14",
+      "reference_session": "2014-03-14",
+      "question": "Session summary for March 14, 2014: ALB opened $54.31, ranged $53.81-$54.96, closed $53.88. Volume 0.6M (1.12x 20-day avg). 20-day $55.06 | 50-day $54.69. 5-day return -4.14%. ATR-14 $0.86. RSI 49.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2014-03-14",
+        "open": 54.31,
+        "high": 54.96,
+        "low": 53.81,
+        "close": 53.88,
+        "volume": 603200,
+        "ma20": 55.06,
+        "ma50": 54.69,
+        "volume_vs_20d": 1.12,
+        "atr14": 0.86,
+        "chg_5d_pct": -4.14
+      },
+      "weekly_snapshot": {
+        "ticker": "ALB",
+        "week_start": "2014-03-10",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 49.6,
+        "price_vs_sma50": 0.985,
+        "notes": "ADX 33.8, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALB_2014-03-11_mixed_sample_009_005",
+      "scenario_id": "ALB_2014-03-11",
+      "window_type": "mixed_sample_009",
+      "chronological_index": 5,
+      "state_id": "mixed_sample_009_state_005",
+      "time_spot": "2014-03-17",
+      "reference_session": "2014-03-17",
+      "question": "Session summary for March 17, 2014: ALB opened $54.34, ranged $53.95-$54.71, closed $54.58. Volume 0.5M (0.84x 20-day avg). 20-day $55.03 | 50-day $54.72. 5-day return -2.04%. ATR-14 $0.86. RSI 52.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2014-03-17",
+        "open": 54.34,
+        "high": 54.71,
+        "low": 53.95,
+        "close": 54.58,
+        "volume": 460900,
+        "ma20": 55.03,
+        "ma50": 54.72,
+        "volume_vs_20d": 0.84,
+        "atr14": 0.86,
+        "chg_5d_pct": -2.04
+      },
+      "weekly_snapshot": {
+        "ticker": "ALB",
+        "week_start": "2014-03-17",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 52.7,
+        "price_vs_sma50": 0.997,
+        "notes": "ADX 33.9, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALB_2014-03-11_mixed_sample_009_006",
+      "scenario_id": "ALB_2014-03-11",
+      "window_type": "mixed_sample_009",
+      "chronological_index": 6,
+      "state_id": "mixed_sample_009_state_006",
+      "time_spot": "2014-03-18",
+      "reference_session": "2014-03-18",
+      "question": "Session summary for March 18, 2014: ALB opened $54.74, ranged $54.43-$54.98, closed $54.93. Volume 0.4M (0.79x 20-day avg). 20-day $55.05 | 50-day $54.75. 5-day return -0.77%. ATR-14 $0.81. RSI 45.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2014-03-18",
+        "open": 54.74,
+        "high": 54.98,
+        "low": 54.43,
+        "close": 54.93,
+        "volume": 437200,
+        "ma20": 55.05,
+        "ma50": 54.75,
+        "volume_vs_20d": 0.79,
+        "atr14": 0.81,
+        "chg_5d_pct": -0.77
+      },
+      "weekly_snapshot": {
+        "ticker": "ALB",
+        "week_start": "2014-03-17",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 45.2,
+        "price_vs_sma50": 1.003,
+        "notes": "ADX 30.9, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALB_2014-03-11_mixed_sample_009_007",
+      "scenario_id": "ALB_2014-03-11",
+      "window_type": "mixed_sample_009",
+      "chronological_index": 7,
+      "state_id": "mixed_sample_009_state_007",
+      "time_spot": "2014-03-19",
+      "reference_session": "2014-03-19",
+      "question": "Session summary for March 19, 2014: ALB opened $54.97, ranged $54.35-$55.19, closed $54.53. Volume 0.2M (0.46x 20-day avg). 20-day $55.06 | 50-day $54.77. 5-day return -1.09%. ATR-14 $0.84. RSI 41.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2014-03-19",
+        "open": 54.97,
+        "high": 55.19,
+        "low": 54.35,
+        "close": 54.53,
+        "volume": 241200,
+        "ma20": 55.06,
+        "ma50": 54.77,
+        "volume_vs_20d": 0.46,
+        "atr14": 0.84,
+        "chg_5d_pct": -1.09
+      },
+      "weekly_snapshot": {
+        "ticker": "ALB",
+        "week_start": "2014-03-17",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 41.6,
+        "price_vs_sma50": 0.996,
+        "notes": "ADX 28.2, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALB_2014-03-11_mixed_sample_009_008",
+      "scenario_id": "ALB_2014-03-11",
+      "window_type": "mixed_sample_009",
+      "chronological_index": 8,
+      "state_id": "mixed_sample_009_state_008",
+      "time_spot": "2014-03-20",
+      "reference_session": "2014-03-20",
+      "question": "Session summary for March 20, 2014: ALB opened $54.52, ranged $53.99-$54.65, closed $54.35. Volume 0.7M (1.30x 20-day avg). 20-day $55.06 | 50-day $54.79. 5-day return -0.19%. ATR-14 $0.82. RSI 35.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2014-03-20",
+        "open": 54.52,
+        "high": 54.65,
+        "low": 53.99,
+        "close": 54.35,
+        "volume": 690800,
+        "ma20": 55.06,
+        "ma50": 54.79,
+        "volume_vs_20d": 1.3,
+        "atr14": 0.82,
+        "chg_5d_pct": -0.19
+      },
+      "weekly_snapshot": {
+        "ticker": "ALB",
+        "week_start": "2014-03-17",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 35.8,
+        "price_vs_sma50": 0.992,
+        "notes": "ADX 26.6, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALB_2014-03-11_mixed_sample_009_009",
+      "scenario_id": "ALB_2014-03-11",
+      "window_type": "mixed_sample_009",
+      "chronological_index": 9,
+      "state_id": "mixed_sample_009_state_009",
+      "time_spot": "2014-03-21",
+      "reference_session": "2014-03-21",
+      "question": "Session summary for March 21, 2014: ALB opened $54.65, ranged $54.44-$55.33, closed $54.84. Volume 1.1M (1.96x 20-day avg). 20-day $55.10 | 50-day $54.79. 5-day return +1.78%. ATR-14 $0.82. RSI 43.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2014-03-21",
+        "open": 54.65,
+        "high": 55.33,
+        "low": 54.44,
+        "close": 54.84,
+        "volume": 1080700,
+        "ma20": 55.1,
+        "ma50": 54.79,
+        "volume_vs_20d": 1.96,
+        "atr14": 0.82,
+        "chg_5d_pct": 1.78
+      },
+      "weekly_snapshot": {
+        "ticker": "ALB",
+        "week_start": "2014-03-17",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 43.4,
+        "price_vs_sma50": 1.001,
+        "notes": "ADX 24.5, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALB_2014-03-11_mixed_sample_009_010",
+      "scenario_id": "ALB_2014-03-11",
+      "window_type": "mixed_sample_009",
+      "chronological_index": 10,
+      "state_id": "mixed_sample_009_state_010",
+      "time_spot": "2014-03-24",
+      "reference_session": "2014-03-24",
+      "question": "Session summary for March 24, 2014: ALB opened $54.98, ranged $54.42-$55.53, closed $54.64. Volume 0.6M (1.15x 20-day avg). 20-day $55.13 | 50-day $54.77. 5-day return +0.11%. ATR-14 $0.81. RSI 38.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2014-03-24",
+        "open": 54.98,
+        "high": 55.53,
+        "low": 54.42,
+        "close": 54.64,
+        "volume": 643500,
+        "ma20": 55.13,
+        "ma50": 54.77,
+        "volume_vs_20d": 1.15,
+        "atr14": 0.81,
+        "chg_5d_pct": 0.11
+      },
+      "weekly_snapshot": {
+        "ticker": "ALB",
+        "week_start": "2014-03-24",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 38.9,
+        "price_vs_sma50": 0.998,
+        "notes": "ADX 22.9, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALB_2014-03-11_mixed_sample_009_011",
+      "scenario_id": "ALB_2014-03-11",
+      "window_type": "mixed_sample_009",
+      "chronological_index": 11,
+      "state_id": "mixed_sample_009_state_011",
+      "time_spot": "2014-03-25",
+      "reference_session": "2014-03-25",
+      "question": "Session summary for March 25, 2014: ALB opened $55.27, ranged $54.81-$55.54, closed $55.00. Volume 0.3M (0.61x 20-day avg). 20-day $55.17 | 50-day $54.75. 5-day return +0.14%. ATR-14 $0.83. RSI 42.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2014-03-25",
+        "open": 55.27,
+        "high": 55.54,
+        "low": 54.81,
+        "close": 55.0,
+        "volume": 336100,
+        "ma20": 55.17,
+        "ma50": 54.75,
+        "volume_vs_20d": 0.61,
+        "atr14": 0.83,
+        "chg_5d_pct": 0.14
+      },
+      "weekly_snapshot": {
+        "ticker": "ALB",
+        "week_start": "2014-03-24",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 42.9,
+        "price_vs_sma50": 1.005,
+        "notes": "ADX 21.5, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALB_2014-03-11_mixed_sample_009_012",
+      "scenario_id": "ALB_2014-03-11",
+      "window_type": "mixed_sample_009",
+      "chronological_index": 12,
+      "state_id": "mixed_sample_009_state_012",
+      "time_spot": "2014-03-26",
+      "reference_session": "2014-03-26",
+      "question": "Session summary for March 26, 2014: ALB opened $55.17, ranged $54.58-$55.58, closed $54.59. Volume 0.4M (0.77x 20-day avg). 20-day $55.13 | 50-day $54.73. 5-day return +0.09%. ATR-14 $0.85. RSI 34.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2014-03-26",
+        "open": 55.17,
+        "high": 55.58,
+        "low": 54.58,
+        "close": 54.59,
+        "volume": 420500,
+        "ma20": 55.13,
+        "ma50": 54.73,
+        "volume_vs_20d": 0.77,
+        "atr14": 0.85,
+        "chg_5d_pct": 0.09
+      },
+      "weekly_snapshot": {
+        "ticker": "ALB",
+        "week_start": "2014-03-24",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 34.9,
+        "price_vs_sma50": 0.997,
+        "notes": "ADX 20.2, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALB_2014-03-11_mixed_sample_009_013",
+      "scenario_id": "ALB_2014-03-11",
+      "window_type": "mixed_sample_009",
+      "chronological_index": 13,
+      "state_id": "mixed_sample_009_state_013",
+      "time_spot": "2014-03-27",
+      "reference_session": "2014-03-27",
+      "question": "Session summary for March 27, 2014: ALB opened $54.70, ranged $54.58-$55.22, closed $55.04. Volume 0.5M (0.89x 20-day avg). 20-day $55.11 | 50-day $54.70. 5-day return +1.26%. ATR-14 $0.85. RSI 40.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2014-03-27",
+        "open": 54.7,
+        "high": 55.22,
+        "low": 54.58,
+        "close": 55.04,
+        "volume": 495000,
+        "ma20": 55.11,
+        "ma50": 54.7,
+        "volume_vs_20d": 0.89,
+        "atr14": 0.85,
+        "chg_5d_pct": 1.26
+      },
+      "weekly_snapshot": {
+        "ticker": "ALB",
+        "week_start": "2014-03-24",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 40.0,
+        "price_vs_sma50": 1.006,
+        "notes": "ADX 19.1, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALB_2014-03-11_mixed_sample_009_014",
+      "scenario_id": "ALB_2014-03-11",
+      "window_type": "mixed_sample_009",
+      "chronological_index": 14,
+      "state_id": "mixed_sample_009_state_014",
+      "time_spot": "2014-03-28",
+      "reference_session": "2014-03-28",
+      "question": "Session summary for March 28, 2014: ALB opened $55.03, ranged $54.87-$55.37, closed $55.21. Volume 0.4M (0.63x 20-day avg). 20-day $55.09 | 50-day $54.68. 5-day return +0.68%. ATR-14 $0.81. RSI 45.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2014-03-28",
+        "open": 55.03,
+        "high": 55.37,
+        "low": 54.87,
+        "close": 55.21,
+        "volume": 351400,
+        "ma20": 55.09,
+        "ma50": 54.68,
+        "volume_vs_20d": 0.63,
+        "atr14": 0.81,
+        "chg_5d_pct": 0.68
+      },
+      "weekly_snapshot": {
+        "ticker": "ALB",
+        "week_start": "2014-03-24",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 45.5,
+        "price_vs_sma50": 1.01,
+        "notes": "ADX 17.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALB_2014-03-11_mixed_sample_009_015",
+      "scenario_id": "ALB_2014-03-11",
+      "window_type": "mixed_sample_009",
+      "chronological_index": 15,
+      "state_id": "mixed_sample_009_state_015",
+      "time_spot": "2014-03-31",
+      "reference_session": "2014-03-31",
+      "question": "Session summary for March 31, 2014: ALB opened $55.55, ranged $55.32-$56.51, closed $56.33. Volume 0.5M (0.94x 20-day avg). 20-day $55.13 | 50-day $54.69. 5-day return +3.10%. ATR-14 $0.87. RSI 57.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2014-03-31",
+        "open": 55.55,
+        "high": 56.51,
+        "low": 55.32,
+        "close": 56.33,
+        "volume": 510900,
+        "ma20": 55.13,
+        "ma50": 54.69,
+        "volume_vs_20d": 0.94,
+        "atr14": 0.87,
+        "chg_5d_pct": 3.1
+      },
+      "weekly_snapshot": {
+        "ticker": "ALB",
+        "week_start": "2014-03-31",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 57.8,
+        "price_vs_sma50": 1.03,
+        "notes": "ADX 16.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALB_2014-03-11_mixed_sample_009_016",
+      "scenario_id": "ALB_2014-03-11",
+      "window_type": "mixed_sample_009",
+      "chronological_index": 16,
+      "state_id": "mixed_sample_009_state_016",
+      "time_spot": "2014-04-01",
+      "reference_session": "2014-04-01",
+      "question": "Session summary for April 01, 2014: ALB opened $56.48, ranged $55.87-$56.71, closed $56.36. Volume 0.5M (0.96x 20-day avg). 20-day $55.16 | 50-day $54.70. 5-day return +2.47%. ATR-14 $0.89. RSI 60.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2014-04-01",
+        "open": 56.48,
+        "high": 56.71,
+        "low": 55.87,
+        "close": 56.36,
+        "volume": 475300,
+        "ma20": 55.16,
+        "ma50": 54.7,
+        "volume_vs_20d": 0.96,
+        "atr14": 0.89,
+        "chg_5d_pct": 2.47
+      },
+      "weekly_snapshot": {
+        "ticker": "ALB",
+        "week_start": "2014-03-31",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 60.0,
+        "price_vs_sma50": 1.03,
+        "notes": "ADX 16.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALB_2014-03-11_mixed_sample_009_017",
+      "scenario_id": "ALB_2014-03-11",
+      "window_type": "mixed_sample_009",
+      "chronological_index": 17,
+      "state_id": "mixed_sample_009_state_017",
+      "time_spot": "2014-04-02",
+      "reference_session": "2014-04-02",
+      "question": "Session summary for April 02, 2014: ALB opened $56.54, ranged $56.07-$56.89, closed $56.76. Volume 0.3M (0.67x 20-day avg). 20-day $55.21 | 50-day $54.72. 5-day return +3.98%. ATR-14 $0.87. RSI 69.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2014-04-02",
+        "open": 56.54,
+        "high": 56.89,
+        "low": 56.07,
+        "close": 56.76,
+        "volume": 329400,
+        "ma20": 55.21,
+        "ma50": 54.72,
+        "volume_vs_20d": 0.67,
+        "atr14": 0.87,
+        "chg_5d_pct": 3.98
+      },
+      "weekly_snapshot": {
+        "ticker": "ALB",
+        "week_start": "2014-03-31",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 69.8,
+        "price_vs_sma50": 1.037,
+        "notes": "ADX 17.7, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALB_2014-03-11_mixed_sample_009_018",
+      "scenario_id": "ALB_2014-03-11",
+      "window_type": "mixed_sample_009",
+      "chronological_index": 18,
+      "state_id": "mixed_sample_009_state_018",
+      "time_spot": "2014-04-03",
+      "reference_session": "2014-04-03",
+      "question": "Session summary for April 03, 2014: ALB opened $56.84, ranged $56.51-$57.25, closed $56.66. Volume 0.4M (0.88x 20-day avg). 20-day $55.23 | 50-day $54.73. 5-day return +2.94%. ATR-14 $0.84. RSI 75.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2014-04-03",
+        "open": 56.84,
+        "high": 57.25,
+        "low": 56.51,
+        "close": 56.66,
+        "volume": 444500,
+        "ma20": 55.23,
+        "ma50": 54.73,
+        "volume_vs_20d": 0.88,
+        "atr14": 0.84,
+        "chg_5d_pct": 2.94
+      },
+      "weekly_snapshot": {
+        "ticker": "ALB",
+        "week_start": "2014-03-31",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 75.8,
+        "price_vs_sma50": 1.035,
+        "notes": "ADX 21.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALB_2014-03-11_mixed_sample_009_019",
+      "scenario_id": "ALB_2014-03-11",
+      "window_type": "mixed_sample_009",
+      "chronological_index": 19,
+      "state_id": "mixed_sample_009_state_019",
+      "time_spot": "2014-04-04",
+      "reference_session": "2014-04-04",
+      "question": "Session summary for April 04, 2014: ALB opened $57.02, ranged $55.61-$57.02, closed $56.07. Volume 0.5M (1.07x 20-day avg). 20-day $55.22 | 50-day $54.74. 5-day return +1.55%. ATR-14 $0.88. RSI 64.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2014-04-04",
+        "open": 57.02,
+        "high": 57.02,
+        "low": 55.61,
+        "close": 56.07,
+        "volume": 546000,
+        "ma20": 55.22,
+        "ma50": 54.74,
+        "volume_vs_20d": 1.07,
+        "atr14": 0.88,
+        "chg_5d_pct": 1.55
+      },
+      "weekly_snapshot": {
+        "ticker": "ALB",
+        "week_start": "2014-03-31",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 64.2,
+        "price_vs_sma50": 1.024,
+        "notes": "ADX 23.7, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALB_2014-03-11_mixed_sample_009_020",
+      "scenario_id": "ALB_2014-03-11",
+      "window_type": "mixed_sample_009",
+      "chronological_index": 20,
+      "state_id": "mixed_sample_009_state_020",
+      "time_spot": "2014-04-07",
+      "reference_session": "2014-04-07",
+      "question": "Session summary for April 07, 2014: ALB opened $56.04, ranged $55.05-$56.05, closed $55.15. Volume 0.4M (0.82x 20-day avg). 20-day $55.19 | 50-day $54.78. 5-day return -2.09%. ATR-14 $0.91. RSI 52.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2014-04-07",
+        "open": 56.04,
+        "high": 56.05,
+        "low": 55.05,
+        "close": 55.15,
+        "volume": 415500,
+        "ma20": 55.19,
+        "ma50": 54.78,
+        "volume_vs_20d": 0.82,
+        "atr14": 0.91,
+        "chg_5d_pct": -2.09
+      },
+      "weekly_snapshot": {
+        "ticker": "ALB",
+        "week_start": "2014-04-07",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 52.0,
+        "price_vs_sma50": 1.007,
+        "notes": "ADX 25.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALB_2014-03-11_mixed_sample_009_021",
+      "scenario_id": "ALB_2014-03-11",
+      "window_type": "mixed_sample_009",
+      "chronological_index": 21,
+      "state_id": "mixed_sample_009_state_021",
+      "time_spot": "2014-04-08",
+      "reference_session": "2014-04-08",
+      "question": "Session summary for April 08, 2014: ALB opened $55.03, ranged $54.87-$55.72, closed $55.44. Volume 0.5M (0.98x 20-day avg). 20-day $55.20 | 50-day $54.81. 5-day return -1.63%. ATR-14 $0.91. RSI 57.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2014-04-08",
+        "open": 55.03,
+        "high": 55.72,
+        "low": 54.87,
+        "close": 55.44,
+        "volume": 499300,
+        "ma20": 55.2,
+        "ma50": 54.81,
+        "volume_vs_20d": 0.98,
+        "atr14": 0.91,
+        "chg_5d_pct": -1.63
+      },
+      "weekly_snapshot": {
+        "ticker": "ALB",
+        "week_start": "2014-04-07",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 57.9,
+        "price_vs_sma50": 1.012,
+        "notes": "ADX 25.9, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALB_2014-03-11_mixed_sample_009_022",
+      "scenario_id": "ALB_2014-03-11",
+      "window_type": "mixed_sample_009",
+      "chronological_index": 22,
+      "state_id": "mixed_sample_009_state_022",
+      "time_spot": "2014-04-09",
+      "reference_session": "2014-04-09",
+      "question": "Session summary for April 09, 2014: ALB opened $55.64, ranged $55.54-$56.38, closed $56.04. Volume 0.8M (1.46x 20-day avg). 20-day $55.24 | 50-day $54.86. 5-day return -1.27%. ATR-14 $0.93. RSI 63.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2014-04-09",
+        "open": 55.64,
+        "high": 56.38,
+        "low": 55.54,
+        "close": 56.04,
+        "volume": 754500,
+        "ma20": 55.24,
+        "ma50": 54.86,
+        "volume_vs_20d": 1.46,
+        "atr14": 0.93,
+        "chg_5d_pct": -1.27
+      },
+      "weekly_snapshot": {
+        "ticker": "ALB",
+        "week_start": "2014-04-07",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 63.8,
+        "price_vs_sma50": 1.021,
+        "notes": "ADX 26.7, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALB_2014-03-11_mixed_sample_009_023",
+      "scenario_id": "ALB_2014-03-11",
+      "window_type": "mixed_sample_009",
+      "chronological_index": 23,
+      "state_id": "mixed_sample_009_state_023",
+      "time_spot": "2014-04-10",
+      "reference_session": "2014-04-10",
+      "question": "Session summary for April 10, 2014: ALB opened $55.96, ranged $55.17-$56.29, closed $55.24. Volume 0.7M (1.38x 20-day avg). 20-day $55.28 | 50-day $54.87. 5-day return -2.50%. ATR-14 $0.94. RSI 53.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2014-04-10",
+        "open": 55.96,
+        "high": 56.29,
+        "low": 55.17,
+        "close": 55.24,
+        "volume": 719500,
+        "ma20": 55.28,
+        "ma50": 54.87,
+        "volume_vs_20d": 1.38,
+        "atr14": 0.94,
+        "chg_5d_pct": -2.5
+      },
+      "weekly_snapshot": {
+        "ticker": "ALB",
+        "week_start": "2014-04-07",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 53.1,
+        "price_vs_sma50": 1.007,
+        "notes": "ADX 27.4, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALB_2014-03-11_mixed_sample_009_024",
+      "scenario_id": "ALB_2014-03-11",
+      "window_type": "mixed_sample_009",
+      "chronological_index": 24,
+      "state_id": "mixed_sample_009_state_024",
+      "time_spot": "2014-04-11",
+      "reference_session": "2014-04-11",
+      "question": "Session summary for April 11, 2014: ALB opened $55.04, ranged $54.83-$55.72, closed $55.01. Volume 0.5M (0.96x 20-day avg). 20-day $55.34 | 50-day $54.88. 5-day return -1.89%. ATR-14 $0.93. RSI 52.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2014-04-11",
+        "open": 55.04,
+        "high": 55.72,
+        "low": 54.83,
+        "close": 55.01,
+        "volume": 497300,
+        "ma20": 55.34,
+        "ma50": 54.88,
+        "volume_vs_20d": 0.96,
+        "atr14": 0.93,
+        "chg_5d_pct": -1.89
+      },
+      "weekly_snapshot": {
+        "ticker": "ALB",
+        "week_start": "2014-04-07",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 52.9,
+        "price_vs_sma50": 1.002,
+        "notes": "ADX 26.4, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALB_2014-03-11_mixed_sample_009_025",
+      "scenario_id": "ALB_2014-03-11",
+      "window_type": "mixed_sample_009",
+      "chronological_index": 25,
+      "state_id": "mixed_sample_009_state_025",
+      "time_spot": "2014-04-14",
+      "reference_session": "2014-04-14",
+      "question": "Session summary for April 14, 2014: ALB opened $55.28, ranged $55.04-$55.81, closed $55.63. Volume 0.6M (1.09x 20-day avg). 20-day $55.39 | 50-day $54.90. 5-day return +0.86%. ATR-14 $0.92. RSI 54.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2014-04-14",
+        "open": 55.28,
+        "high": 55.81,
+        "low": 55.04,
+        "close": 55.63,
+        "volume": 572300,
+        "ma20": 55.39,
+        "ma50": 54.9,
+        "volume_vs_20d": 1.09,
+        "atr14": 0.92,
+        "chg_5d_pct": 0.86
+      },
+      "weekly_snapshot": {
+        "ticker": "ALB",
+        "week_start": "2014-04-14",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 54.7,
+        "price_vs_sma50": 1.013,
+        "notes": "ADX 25.7, MACD bearish"
+      }
+    }
+  ]
+}

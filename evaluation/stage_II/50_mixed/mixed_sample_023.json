@@ -1,0 +1,2898 @@
+{
+  "metadata": {
+    "instrument": "ADM",
+    "initial_capital": 10000,
+    "window_type": "mixed_sample_023",
+    "description": "ADM window (2013-07-31 \u2013 2013-09-04) - mixed regime.",
+    "num_mcqs": 25,
+    "notes": "Orders express target exposure fractions relative to the leverage ceiling.",
+    "max_leverage": 2.5,
+    "exposure_buckets": [
+      0.8,
+      0.6,
+      0.4,
+      0.2
+    ],
+    "start_reference": "2013-07-31",
+    "end_reference": "2013-09-04",
+    "regime": "mixed",
+    "bh_return": -0.5
+  },
+  "mcqs": [
+    {
+      "scenario_instance_id": "ADM_2013-07-31_mixed_sample_023_001",
+      "scenario_id": "ADM_2013-07-31",
+      "window_type": "mixed_sample_023",
+      "chronological_index": 1,
+      "state_id": "mixed_sample_023_state_001",
+      "time_spot": "2013-07-31",
+      "reference_session": "2013-07-31",
+      "question": "Session summary for July 31, 2013: ADM opened $25.63, ranged $25.48-$25.99, closed $25.83. Volume 4.3M (1.48x 20-day avg). 20-day $25.50 | 50-day $24.39. 5-day return +1.11%. ATR-14 $0.42. RSI 52.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-07-31",
+        "open": 25.63,
+        "high": 25.99,
+        "low": 25.48,
+        "close": 25.83,
+        "volume": 4299500,
+        "ma20": 25.5,
+        "ma50": 24.39,
+        "volume_vs_20d": 1.48,
+        "atr14": 0.42,
+        "chg_5d_pct": 1.11
+      },
+      "weekly_snapshot": {
+        "ticker": "ADM",
+        "week_start": "2013-07-29",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 52.9,
+        "price_vs_sma50": 1.059,
+        "notes": "ADX 54.0, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADM_2013-07-31_mixed_sample_023_002",
+      "scenario_id": "ADM_2013-07-31",
+      "window_type": "mixed_sample_023",
+      "chronological_index": 2,
+      "state_id": "mixed_sample_023_state_002",
+      "time_spot": "2013-08-01",
+      "reference_session": "2013-08-01",
+      "question": "Session summary for August 01, 2013: ADM opened $26.00, ranged $25.95-$26.34, closed $26.33. Volume 3.6M (1.19x 20-day avg). 20-day $25.58 | 50-day $24.43. 5-day return +1.47%. ATR-14 $0.45. RSI 58.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-08-01",
+        "open": 26.0,
+        "high": 26.34,
+        "low": 25.95,
+        "close": 26.33,
+        "volume": 3601100,
+        "ma20": 25.58,
+        "ma50": 24.43,
+        "volume_vs_20d": 1.19,
+        "atr14": 0.45,
+        "chg_5d_pct": 1.47
+      },
+      "weekly_snapshot": {
+        "ticker": "ADM",
+        "week_start": "2013-07-29",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 58.0,
+        "price_vs_sma50": 1.078,
+        "notes": "ADX 48.5, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADM_2013-07-31_mixed_sample_023_003",
+      "scenario_id": "ADM_2013-07-31",
+      "window_type": "mixed_sample_023",
+      "chronological_index": 3,
+      "state_id": "mixed_sample_023_state_003",
+      "time_spot": "2013-08-02",
+      "reference_session": "2013-08-02",
+      "question": "Session summary for August 02, 2013: ADM opened $26.22, ranged $26.07-$26.60, closed $26.60. Volume 3.7M (1.19x 20-day avg). 20-day $25.68 | 50-day $24.47. 5-day return +2.45%. ATR-14 $0.47. RSI 61.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-08-02",
+        "open": 26.22,
+        "high": 26.6,
+        "low": 26.07,
+        "close": 26.6,
+        "volume": 3680400,
+        "ma20": 25.68,
+        "ma50": 24.47,
+        "volume_vs_20d": 1.19,
+        "atr14": 0.47,
+        "chg_5d_pct": 2.45
+      },
+      "weekly_snapshot": {
+        "ticker": "ADM",
+        "week_start": "2013-07-29",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 61.8,
+        "price_vs_sma50": 1.087,
+        "notes": "ADX 43.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADM_2013-07-31_mixed_sample_023_004",
+      "scenario_id": "ADM_2013-07-31",
+      "window_type": "mixed_sample_023",
+      "chronological_index": 4,
+      "state_id": "mixed_sample_023_state_004",
+      "time_spot": "2013-08-05",
+      "reference_session": "2013-08-05",
+      "question": "Session summary for August 05, 2013: ADM opened $26.53, ranged $26.36-$26.83, closed $26.81. Volume 5.6M (1.74x 20-day avg). 20-day $25.77 | 50-day $24.53. 5-day return +4.13%. ATR-14 $0.47. RSI 69.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-08-05",
+        "open": 26.53,
+        "high": 26.83,
+        "low": 26.36,
+        "close": 26.81,
+        "volume": 5637500,
+        "ma20": 25.77,
+        "ma50": 24.53,
+        "volume_vs_20d": 1.74,
+        "atr14": 0.47,
+        "chg_5d_pct": 4.13
+      },
+      "weekly_snapshot": {
+        "ticker": "ADM",
+        "week_start": "2013-08-05",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 69.6,
+        "price_vs_sma50": 1.093,
+        "notes": "ADX 41.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADM_2013-07-31_mixed_sample_023_005",
+      "scenario_id": "ADM_2013-07-31",
+      "window_type": "mixed_sample_023",
+      "chronological_index": 5,
+      "state_id": "mixed_sample_023_state_005",
+      "time_spot": "2013-08-06",
+      "reference_session": "2013-08-06",
+      "question": "Session summary for August 06, 2013: ADM opened $26.10, ranged $25.76-$27.04, closed $26.83. Volume 6.8M (2.04x 20-day avg). 20-day $25.84 | 50-day $24.58. 5-day return +5.19%. ATR-14 $0.53. RSI 70.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-08-06",
+        "open": 26.1,
+        "high": 27.04,
+        "low": 25.76,
+        "close": 26.83,
+        "volume": 6807800,
+        "ma20": 25.84,
+        "ma50": 24.58,
+        "volume_vs_20d": 2.04,
+        "atr14": 0.53,
+        "chg_5d_pct": 5.19
+      },
+      "weekly_snapshot": {
+        "ticker": "ADM",
+        "week_start": "2013-08-05",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 70.0,
+        "price_vs_sma50": 1.091,
+        "notes": "ADX 38.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADM_2013-07-31_mixed_sample_023_006",
+      "scenario_id": "ADM_2013-07-31",
+      "window_type": "mixed_sample_023",
+      "chronological_index": 6,
+      "state_id": "mixed_sample_023_state_006",
+      "time_spot": "2013-08-07",
+      "reference_session": "2013-08-07",
+      "question": "Session summary for August 07, 2013: ADM opened $26.73, ranged $26.43-$26.89, closed $26.74. Volume 3.2M (0.95x 20-day avg). 20-day $25.91 | 50-day $24.63. 5-day return +3.54%. ATR-14 $0.55. RSI 67.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-08-07",
+        "open": 26.73,
+        "high": 26.89,
+        "low": 26.43,
+        "close": 26.74,
+        "volume": 3236300,
+        "ma20": 25.91,
+        "ma50": 24.63,
+        "volume_vs_20d": 0.95,
+        "atr14": 0.55,
+        "chg_5d_pct": 3.54
+      },
+      "weekly_snapshot": {
+        "ticker": "ADM",
+        "week_start": "2013-08-05",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 67.8,
+        "price_vs_sma50": 1.085,
+        "notes": "ADX 35.2, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADM_2013-07-31_mixed_sample_023_007",
+      "scenario_id": "ADM_2013-07-31",
+      "window_type": "mixed_sample_023",
+      "chronological_index": 7,
+      "state_id": "mixed_sample_023_state_007",
+      "time_spot": "2013-08-08",
+      "reference_session": "2013-08-08",
+      "question": "Session summary for August 08, 2013: ADM opened $26.89, ranged $26.81-$27.18, closed $27.12. Volume 4.0M (1.17x 20-day avg). 20-day $25.99 | 50-day $24.70. 5-day return +3.01%. ATR-14 $0.53. RSI 65.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-08-08",
+        "open": 26.89,
+        "high": 27.18,
+        "low": 26.81,
+        "close": 27.12,
+        "volume": 4012200,
+        "ma20": 25.99,
+        "ma50": 24.7,
+        "volume_vs_20d": 1.17,
+        "atr14": 0.53,
+        "chg_5d_pct": 3.01
+      },
+      "weekly_snapshot": {
+        "ticker": "ADM",
+        "week_start": "2013-08-05",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 65.6,
+        "price_vs_sma50": 1.098,
+        "notes": "ADX 31.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADM_2013-07-31_mixed_sample_023_008",
+      "scenario_id": "ADM_2013-07-31",
+      "window_type": "mixed_sample_023",
+      "chronological_index": 8,
+      "state_id": "mixed_sample_023_state_008",
+      "time_spot": "2013-08-09",
+      "reference_session": "2013-08-09",
+      "question": "Session summary for August 09, 2013: ADM opened $27.05, ranged $26.94-$27.25, closed $27.18. Volume 2.8M (0.80x 20-day avg). 20-day $26.06 | 50-day $24.78. 5-day return +2.16%. ATR-14 $0.52. RSI 73.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-08-09",
+        "open": 27.05,
+        "high": 27.25,
+        "low": 26.94,
+        "close": 27.18,
+        "volume": 2761000,
+        "ma20": 26.06,
+        "ma50": 24.78,
+        "volume_vs_20d": 0.8,
+        "atr14": 0.52,
+        "chg_5d_pct": 2.16
+      },
+      "weekly_snapshot": {
+        "ticker": "ADM",
+        "week_start": "2013-08-05",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 73.3,
+        "price_vs_sma50": 1.097,
+        "notes": "ADX 27.2, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADM_2013-07-31_mixed_sample_023_009",
+      "scenario_id": "ADM_2013-07-31",
+      "window_type": "mixed_sample_023",
+      "chronological_index": 9,
+      "state_id": "mixed_sample_023_state_009",
+      "time_spot": "2013-08-12",
+      "reference_session": "2013-08-12",
+      "question": "Session summary for August 12, 2013: ADM opened $27.08, ranged $26.87-$27.33, closed $27.31. Volume 3.6M (1.03x 20-day avg). 20-day $26.14 | 50-day $24.87. 5-day return +1.85%. ATR-14 $0.51. RSI 72.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-08-12",
+        "open": 27.08,
+        "high": 27.33,
+        "low": 26.87,
+        "close": 27.31,
+        "volume": 3614500,
+        "ma20": 26.14,
+        "ma50": 24.87,
+        "volume_vs_20d": 1.03,
+        "atr14": 0.51,
+        "chg_5d_pct": 1.85
+      },
+      "weekly_snapshot": {
+        "ticker": "ADM",
+        "week_start": "2013-08-12",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 72.0,
+        "price_vs_sma50": 1.098,
+        "notes": "ADX 24.4, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADM_2013-07-31_mixed_sample_023_010",
+      "scenario_id": "ADM_2013-07-31",
+      "window_type": "mixed_sample_023",
+      "chronological_index": 10,
+      "state_id": "mixed_sample_023_state_010",
+      "time_spot": "2013-08-13",
+      "reference_session": "2013-08-13",
+      "question": "Session summary for August 13, 2013: ADM opened $27.28, ranged $27.13-$27.36, closed $27.35. Volume 3.5M (1.01x 20-day avg). 20-day $26.24 | 50-day $24.95. 5-day return +1.95%. ATR-14 $0.50. RSI 81.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-08-13",
+        "open": 27.28,
+        "high": 27.36,
+        "low": 27.13,
+        "close": 27.35,
+        "volume": 3530500,
+        "ma20": 26.24,
+        "ma50": 24.95,
+        "volume_vs_20d": 1.01,
+        "atr14": 0.5,
+        "chg_5d_pct": 1.95
+      },
+      "weekly_snapshot": {
+        "ticker": "ADM",
+        "week_start": "2013-08-12",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 81.1,
+        "price_vs_sma50": 1.096,
+        "notes": "ADX 21.8, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADM_2013-07-31_mixed_sample_023_011",
+      "scenario_id": "ADM_2013-07-31",
+      "window_type": "mixed_sample_023",
+      "chronological_index": 11,
+      "state_id": "mixed_sample_023_state_011",
+      "time_spot": "2013-08-14",
+      "reference_session": "2013-08-14",
+      "question": "Session summary for August 14, 2013: ADM opened $27.32, ranged $27.16-$27.48, closed $27.29. Volume 3.7M (1.05x 20-day avg). 20-day $26.35 | 50-day $25.03. 5-day return +2.07%. ATR-14 $0.48. RSI 76.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-08-14",
+        "open": 27.32,
+        "high": 27.48,
+        "low": 27.16,
+        "close": 27.29,
+        "volume": 3738500,
+        "ma20": 26.35,
+        "ma50": 25.03,
+        "volume_vs_20d": 1.05,
+        "atr14": 0.48,
+        "chg_5d_pct": 2.07
+      },
+      "weekly_snapshot": {
+        "ticker": "ADM",
+        "week_start": "2013-08-12",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 76.1,
+        "price_vs_sma50": 1.09,
+        "notes": "ADX 20.8, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADM_2013-07-31_mixed_sample_023_012",
+      "scenario_id": "ADM_2013-07-31",
+      "window_type": "mixed_sample_023",
+      "chronological_index": 12,
+      "state_id": "mixed_sample_023_state_012",
+      "time_spot": "2013-08-15",
+      "reference_session": "2013-08-15",
+      "question": "Session summary for August 15, 2013: ADM opened $27.05, ranged $26.16-$27.16, closed $26.22. Volume 5.2M (1.38x 20-day avg). 20-day $26.39 | 50-day $25.09. 5-day return -3.32%. ATR-14 $0.53. RSI 53.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-08-15",
+        "open": 27.05,
+        "high": 27.16,
+        "low": 26.16,
+        "close": 26.22,
+        "volume": 5150500,
+        "ma20": 26.39,
+        "ma50": 25.09,
+        "volume_vs_20d": 1.38,
+        "atr14": 0.53,
+        "chg_5d_pct": -3.32
+      },
+      "weekly_snapshot": {
+        "ticker": "ADM",
+        "week_start": "2013-08-12",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 53.5,
+        "price_vs_sma50": 1.045,
+        "notes": "ADX 18.8, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADM_2013-07-31_mixed_sample_023_013",
+      "scenario_id": "ADM_2013-07-31",
+      "window_type": "mixed_sample_023",
+      "chronological_index": 13,
+      "state_id": "mixed_sample_023_state_013",
+      "time_spot": "2013-08-16",
+      "reference_session": "2013-08-16",
+      "question": "Session summary for August 16, 2013: ADM opened $26.16, ranged $26.12-$26.43, closed $26.38. Volume 3.4M (0.94x 20-day avg). 20-day $26.41 | 50-day $25.16. 5-day return -2.94%. ATR-14 $0.53. RSI 58.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-08-16",
+        "open": 26.16,
+        "high": 26.43,
+        "low": 26.12,
+        "close": 26.38,
+        "volume": 3435000,
+        "ma20": 26.41,
+        "ma50": 25.16,
+        "volume_vs_20d": 0.94,
+        "atr14": 0.53,
+        "chg_5d_pct": -2.94
+      },
+      "weekly_snapshot": {
+        "ticker": "ADM",
+        "week_start": "2013-08-12",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 58.8,
+        "price_vs_sma50": 1.049,
+        "notes": "ADX 17.9, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADM_2013-07-31_mixed_sample_023_014",
+      "scenario_id": "ADM_2013-07-31",
+      "window_type": "mixed_sample_023",
+      "chronological_index": 14,
+      "state_id": "mixed_sample_023_state_014",
+      "time_spot": "2013-08-19",
+      "reference_session": "2013-08-19",
+      "question": "Session summary for August 19, 2013: ADM opened $26.21, ranged $25.87-$26.29, closed $25.90. Volume 3.2M (0.87x 20-day avg). 20-day $26.42 | 50-day $25.21. 5-day return -5.13%. ATR-14 $0.53. RSI 55.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-08-19",
+        "open": 26.21,
+        "high": 26.29,
+        "low": 25.87,
+        "close": 25.9,
+        "volume": 3185500,
+        "ma20": 26.42,
+        "ma50": 25.21,
+        "volume_vs_20d": 0.87,
+        "atr14": 0.53,
+        "chg_5d_pct": -5.13
+      },
+      "weekly_snapshot": {
+        "ticker": "ADM",
+        "week_start": "2013-08-19",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 55.2,
+        "price_vs_sma50": 1.028,
+        "notes": "ADX 18.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADM_2013-07-31_mixed_sample_023_015",
+      "scenario_id": "ADM_2013-07-31",
+      "window_type": "mixed_sample_023",
+      "chronological_index": 15,
+      "state_id": "mixed_sample_023_state_015",
+      "time_spot": "2013-08-20",
+      "reference_session": "2013-08-20",
+      "question": "Session summary for August 20, 2013: ADM opened $25.96, ranged $25.85-$26.18, closed $26.05. Volume 2.7M (0.75x 20-day avg). 20-day $26.43 | 50-day $25.26. 5-day return -4.79%. ATR-14 $0.52. RSI 53.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-08-20",
+        "open": 25.96,
+        "high": 26.18,
+        "low": 25.85,
+        "close": 26.05,
+        "volume": 2744100,
+        "ma20": 26.43,
+        "ma50": 25.26,
+        "volume_vs_20d": 0.75,
+        "atr14": 0.52,
+        "chg_5d_pct": -4.79
+      },
+      "weekly_snapshot": {
+        "ticker": "ADM",
+        "week_start": "2013-08-19",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 53.0,
+        "price_vs_sma50": 1.031,
+        "notes": "ADX 19.1, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADM_2013-07-31_mixed_sample_023_016",
+      "scenario_id": "ADM_2013-07-31",
+      "window_type": "mixed_sample_023",
+      "chronological_index": 16,
+      "state_id": "mixed_sample_023_state_016",
+      "time_spot": "2013-08-21",
+      "reference_session": "2013-08-21",
+      "question": "Session summary for August 21, 2013: ADM opened $26.06, ranged $25.81-$26.15, closed $25.84. Volume 3.1M (0.85x 20-day avg). 20-day $26.45 | 50-day $25.31. 5-day return -5.32%. ATR-14 $0.51. RSI 42.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-08-21",
+        "open": 26.06,
+        "high": 26.15,
+        "low": 25.81,
+        "close": 25.84,
+        "volume": 3114700,
+        "ma20": 26.45,
+        "ma50": 25.31,
+        "volume_vs_20d": 0.85,
+        "atr14": 0.51,
+        "chg_5d_pct": -5.32
+      },
+      "weekly_snapshot": {
+        "ticker": "ADM",
+        "week_start": "2013-08-19",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 42.6,
+        "price_vs_sma50": 1.021,
+        "notes": "ADX 20.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADM_2013-07-31_mixed_sample_023_017",
+      "scenario_id": "ADM_2013-07-31",
+      "window_type": "mixed_sample_023",
+      "chronological_index": 17,
+      "state_id": "mixed_sample_023_state_017",
+      "time_spot": "2013-08-22",
+      "reference_session": "2013-08-22",
+      "question": "Session summary for August 22, 2013: ADM opened $25.90, ranged $25.56-$25.99, closed $25.68. Volume 3.0M (0.82x 20-day avg). 20-day $26.43 | 50-day $25.36. 5-day return -2.08%. ATR-14 $0.50. RSI 35.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-08-22",
+        "open": 25.9,
+        "high": 25.99,
+        "low": 25.56,
+        "close": 25.68,
+        "volume": 2995000,
+        "ma20": 26.43,
+        "ma50": 25.36,
+        "volume_vs_20d": 0.82,
+        "atr14": 0.5,
+        "chg_5d_pct": -2.08
+      },
+      "weekly_snapshot": {
+        "ticker": "ADM",
+        "week_start": "2013-08-19",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 35.5,
+        "price_vs_sma50": 1.013,
+        "notes": "ADX 21.9, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADM_2013-07-31_mixed_sample_023_018",
+      "scenario_id": "ADM_2013-07-31",
+      "window_type": "mixed_sample_023",
+      "chronological_index": 18,
+      "state_id": "mixed_sample_023_state_018",
+      "time_spot": "2013-08-23",
+      "reference_session": "2013-08-23",
+      "question": "Session summary for August 23, 2013: ADM opened $25.76, ranged $25.45-$25.87, closed $25.82. Volume 3.0M (0.81x 20-day avg). 20-day $26.43 | 50-day $25.40. 5-day return -2.10%. ATR-14 $0.50. RSI 34.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-08-23",
+        "open": 25.76,
+        "high": 25.87,
+        "low": 25.45,
+        "close": 25.82,
+        "volume": 3013100,
+        "ma20": 26.43,
+        "ma50": 25.4,
+        "volume_vs_20d": 0.81,
+        "atr14": 0.5,
+        "chg_5d_pct": -2.1
+      },
+      "weekly_snapshot": {
+        "ticker": "ADM",
+        "week_start": "2013-08-19",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 34.4,
+        "price_vs_sma50": 1.017,
+        "notes": "ADX 22.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADM_2013-07-31_mixed_sample_023_019",
+      "scenario_id": "ADM_2013-07-31",
+      "window_type": "mixed_sample_023",
+      "chronological_index": 19,
+      "state_id": "mixed_sample_023_state_019",
+      "time_spot": "2013-08-26",
+      "reference_session": "2013-08-26",
+      "question": "Session summary for August 26, 2013: ADM opened $25.77, ranged $24.45-$25.79, closed $24.56. Volume 8.2M (2.04x 20-day avg). 20-day $26.37 | 50-day $25.42. 5-day return -5.19%. ATR-14 $0.51. RSI 24.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-08-26",
+        "open": 25.77,
+        "high": 25.79,
+        "low": 24.45,
+        "close": 24.56,
+        "volume": 8166200,
+        "ma20": 26.37,
+        "ma50": 25.42,
+        "volume_vs_20d": 2.04,
+        "atr14": 0.51,
+        "chg_5d_pct": -5.19
+      },
+      "weekly_snapshot": {
+        "ticker": "ADM",
+        "week_start": "2013-08-26",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 24.2,
+        "price_vs_sma50": 0.966,
+        "notes": "ADX 25.4, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADM_2013-07-31_mixed_sample_023_020",
+      "scenario_id": "ADM_2013-07-31",
+      "window_type": "mixed_sample_023",
+      "chronological_index": 20,
+      "state_id": "mixed_sample_023_state_020",
+      "time_spot": "2013-08-27",
+      "reference_session": "2013-08-27",
+      "question": "Session summary for August 27, 2013: ADM opened $24.37, ranged $24.35-$24.83, closed $24.65. Volume 4.3M (1.06x 20-day avg). 20-day $26.32 | 50-day $25.44. 5-day return -5.36%. ATR-14 $0.51. RSI 26.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-08-27",
+        "open": 24.37,
+        "high": 24.83,
+        "low": 24.35,
+        "close": 24.65,
+        "volume": 4280400,
+        "ma20": 26.32,
+        "ma50": 25.44,
+        "volume_vs_20d": 1.06,
+        "atr14": 0.51,
+        "chg_5d_pct": -5.36
+      },
+      "weekly_snapshot": {
+        "ticker": "ADM",
+        "week_start": "2013-08-26",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 26.3,
+        "price_vs_sma50": 0.969,
+        "notes": "ADX 28.6, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADM_2013-07-31_mixed_sample_023_021",
+      "scenario_id": "ADM_2013-07-31",
+      "window_type": "mixed_sample_023",
+      "chronological_index": 21,
+      "state_id": "mixed_sample_023_state_021",
+      "time_spot": "2013-08-28",
+      "reference_session": "2013-08-28",
+      "question": "Session summary for August 28, 2013: ADM opened $24.56, ranged $24.48-$24.83, closed $24.63. Volume 3.8M (0.94x 20-day avg). 20-day $26.26 | 50-day $25.46. 5-day return -4.68%. ATR-14 $0.50. RSI 19.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-08-28",
+        "open": 24.56,
+        "high": 24.83,
+        "low": 24.48,
+        "close": 24.63,
+        "volume": 3794200,
+        "ma20": 26.26,
+        "ma50": 25.46,
+        "volume_vs_20d": 0.94,
+        "atr14": 0.5,
+        "chg_5d_pct": -4.68
+      },
+      "weekly_snapshot": {
+        "ticker": "ADM",
+        "week_start": "2013-08-26",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 19.2,
+        "price_vs_sma50": 0.967,
+        "notes": "ADX 33.6, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADM_2013-07-31_mixed_sample_023_022",
+      "scenario_id": "ADM_2013-07-31",
+      "window_type": "mixed_sample_023",
+      "chronological_index": 22,
+      "state_id": "mixed_sample_023_state_022",
+      "time_spot": "2013-08-29",
+      "reference_session": "2013-08-29",
+      "question": "Session summary for August 29, 2013: ADM opened $24.58, ranged $24.47-$24.98, closed $24.78. Volume 3.7M (0.92x 20-day avg). 20-day $26.19 | 50-day $25.48. 5-day return -3.49%. ATR-14 $0.51. RSI 21.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-08-29",
+        "open": 24.58,
+        "high": 24.98,
+        "low": 24.47,
+        "close": 24.78,
+        "volume": 3722300,
+        "ma20": 26.19,
+        "ma50": 25.48,
+        "volume_vs_20d": 0.92,
+        "atr14": 0.51,
+        "chg_5d_pct": -3.49
+      },
+      "weekly_snapshot": {
+        "ticker": "ADM",
+        "week_start": "2013-08-26",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 21.0,
+        "price_vs_sma50": 0.972,
+        "notes": "ADX 38.2, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADM_2013-07-31_mixed_sample_023_023",
+      "scenario_id": "ADM_2013-07-31",
+      "window_type": "mixed_sample_023",
+      "chronological_index": 23,
+      "state_id": "mixed_sample_023_state_023",
+      "time_spot": "2013-08-30",
+      "reference_session": "2013-08-30",
+      "question": "Session summary for August 30, 2013: ADM opened $24.89, ranged $24.79-$25.21, closed $25.06. Volume 5.4M (1.31x 20-day avg). 20-day $26.11 | 50-day $25.52. 5-day return -2.95%. ATR-14 $0.51. RSI 23.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-08-30",
+        "open": 24.89,
+        "high": 25.21,
+        "low": 24.79,
+        "close": 25.06,
+        "volume": 5383400,
+        "ma20": 26.11,
+        "ma50": 25.52,
+        "volume_vs_20d": 1.31,
+        "atr14": 0.51,
+        "chg_5d_pct": -2.95
+      },
+      "weekly_snapshot": {
+        "ticker": "ADM",
+        "week_start": "2013-08-26",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 23.9,
+        "price_vs_sma50": 0.982,
+        "notes": "ADX 41.7, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADM_2013-07-31_mixed_sample_023_024",
+      "scenario_id": "ADM_2013-07-31",
+      "window_type": "mixed_sample_023",
+      "chronological_index": 24,
+      "state_id": "mixed_sample_023_state_024",
+      "time_spot": "2013-09-03",
+      "reference_session": "2013-09-03",
+      "question": "Session summary for September 03, 2013: ADM opened $25.22, ranged $25.13-$25.38, closed $25.20. Volume 3.7M (0.91x 20-day avg). 20-day $26.03 | 50-day $25.56. 5-day return +2.61%. ATR-14 $0.52. RSI 25.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-09-03",
+        "open": 25.22,
+        "high": 25.38,
+        "low": 25.13,
+        "close": 25.2,
+        "volume": 3656300,
+        "ma20": 26.03,
+        "ma50": 25.56,
+        "volume_vs_20d": 0.91,
+        "atr14": 0.52,
+        "chg_5d_pct": 2.61
+      },
+      "weekly_snapshot": {
+        "ticker": "ADM",
+        "week_start": "2013-09-02",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 25.4,
+        "price_vs_sma50": 0.986,
+        "notes": "ADX 44.7, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADM_2013-07-31_mixed_sample_023_025",
+      "scenario_id": "ADM_2013-07-31",
+      "window_type": "mixed_sample_023",
+      "chronological_index": 25,
+      "state_id": "mixed_sample_023_state_025",
+      "time_spot": "2013-09-04",
+      "reference_session": "2013-09-04",
+      "question": "Session summary for September 04, 2013: ADM opened $25.38, ranged $25.23-$25.82, closed $25.70. Volume 4.7M (1.21x 20-day avg). 20-day $25.97 | 50-day $25.60. 5-day return +4.24%. ATR-14 $0.54. RSI 33.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2013-09-04",
+        "open": 25.38,
+        "high": 25.82,
+        "low": 25.23,
+        "close": 25.7,
+        "volume": 4733800,
+        "ma20": 25.97,
+        "ma50": 25.6,
+        "volume_vs_20d": 1.21,
+        "atr14": 0.54,
+        "chg_5d_pct": 4.24
+      },
+      "weekly_snapshot": {
+        "ticker": "ADM",
+        "week_start": "2013-09-02",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 33.4,
+        "price_vs_sma50": 1.004,
+        "notes": "ADX 46.0, MACD bearish"
+      }
+    }
+  ]
+}

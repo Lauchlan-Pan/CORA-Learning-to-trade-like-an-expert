@@ -1,0 +1,2898 @@
+{
+  "metadata": {
+    "instrument": "AIZ",
+    "initial_capital": 10000,
+    "window_type": "bearish_sample_048",
+    "description": "AIZ window (2022-10-04 \u2013 2022-11-07) - bearish regime.",
+    "num_mcqs": 25,
+    "notes": "Orders express target exposure fractions relative to the leverage ceiling.",
+    "max_leverage": 2.5,
+    "exposure_buckets": [
+      0.8,
+      0.6,
+      0.4,
+      0.2
+    ],
+    "start_reference": "2022-10-04",
+    "end_reference": "2022-11-07",
+    "regime": "bearish",
+    "bh_return": -21.06
+  },
+  "mcqs": [
+    {
+      "scenario_instance_id": "AIZ_2022-10-04_bearish_sample_048_001",
+      "scenario_id": "AIZ_2022-10-04",
+      "window_type": "bearish_sample_048",
+      "chronological_index": 1,
+      "state_id": "bearish_sample_048_state_001",
+      "time_spot": "2022-10-04",
+      "reference_session": "2022-10-04",
+      "question": "Session summary for October 04, 2022: AIZ opened $143.26, ranged $143.26-$145.60, closed $145.58. Volume 0.3M (0.86x 20-day avg). 20-day $146.01 | 50-day $152.15. 5-day return +3.72%. ATR-14 $3.40. RSI 44.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-04",
+        "open": 143.26,
+        "high": 145.6,
+        "low": 143.26,
+        "close": 145.58,
+        "volume": 341900,
+        "ma20": 146.01,
+        "ma50": 152.15,
+        "volume_vs_20d": 0.86,
+        "atr14": 3.4,
+        "chg_5d_pct": 3.72
+      },
+      "weekly_snapshot": {
+        "ticker": "AIZ",
+        "week_start": "2022-10-03",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 44.4,
+        "price_vs_sma50": 0.957,
+        "notes": "ADX 49.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AIZ_2022-10-04_bearish_sample_048_002",
+      "scenario_id": "AIZ_2022-10-04",
+      "window_type": "bearish_sample_048",
+      "chronological_index": 2,
+      "state_id": "bearish_sample_048_state_002",
+      "time_spot": "2022-10-05",
+      "reference_session": "2022-10-05",
+      "question": "Session summary for October 05, 2022: AIZ opened $143.84, ranged $143.59-$145.32, closed $144.61. Volume 0.3M (0.73x 20-day avg). 20-day $145.52 | 50-day $151.78. 5-day return +1.65%. ATR-14 $3.36. RSI 43.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-05",
+        "open": 143.84,
+        "high": 145.32,
+        "low": 143.59,
+        "close": 144.61,
+        "volume": 290600,
+        "ma20": 145.52,
+        "ma50": 151.78,
+        "volume_vs_20d": 0.73,
+        "atr14": 3.36,
+        "chg_5d_pct": 1.65
+      },
+      "weekly_snapshot": {
+        "ticker": "AIZ",
+        "week_start": "2022-10-03",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 43.0,
+        "price_vs_sma50": 0.953,
+        "notes": "ADX 50.7, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AIZ_2022-10-04_bearish_sample_048_003",
+      "scenario_id": "AIZ_2022-10-04",
+      "window_type": "bearish_sample_048",
+      "chronological_index": 3,
+      "state_id": "bearish_sample_048_state_003",
+      "time_spot": "2022-10-06",
+      "reference_session": "2022-10-06",
+      "question": "Session summary for October 06, 2022: AIZ opened $144.22, ranged $142.02-$145.46, closed $142.71. Volume 0.4M (1.10x 20-day avg). 20-day $144.83 | 50-day $151.37. 5-day return +1.48%. ATR-14 $3.46. RSI 41.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-06",
+        "open": 144.22,
+        "high": 145.46,
+        "low": 142.02,
+        "close": 142.71,
+        "volume": 438700,
+        "ma20": 144.83,
+        "ma50": 151.37,
+        "volume_vs_20d": 1.1,
+        "atr14": 3.46,
+        "chg_5d_pct": 1.48
+      },
+      "weekly_snapshot": {
+        "ticker": "AIZ",
+        "week_start": "2022-10-03",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 41.4,
+        "price_vs_sma50": 0.943,
+        "notes": "ADX 52.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AIZ_2022-10-04_bearish_sample_048_004",
+      "scenario_id": "AIZ_2022-10-04",
+      "window_type": "bearish_sample_048",
+      "chronological_index": 4,
+      "state_id": "bearish_sample_048_state_004",
+      "time_spot": "2022-10-07",
+      "reference_session": "2022-10-07",
+      "question": "Session summary for October 07, 2022: AIZ opened $141.66, ranged $139.38-$141.66, closed $140.58. Volume 0.3M (0.83x 20-day avg). 20-day $144.07 | 50-day $150.92. 5-day return +1.67%. ATR-14 $3.56. RSI 38.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-07",
+        "open": 141.66,
+        "high": 141.66,
+        "low": 139.38,
+        "close": 140.58,
+        "volume": 331700,
+        "ma20": 144.07,
+        "ma50": 150.92,
+        "volume_vs_20d": 0.83,
+        "atr14": 3.56,
+        "chg_5d_pct": 1.67
+      },
+      "weekly_snapshot": {
+        "ticker": "AIZ",
+        "week_start": "2022-10-03",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 38.0,
+        "price_vs_sma50": 0.931,
+        "notes": "ADX 54.4, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AIZ_2022-10-04_bearish_sample_048_005",
+      "scenario_id": "AIZ_2022-10-04",
+      "window_type": "bearish_sample_048",
+      "chronological_index": 5,
+      "state_id": "bearish_sample_048_state_005",
+      "time_spot": "2022-10-10",
+      "reference_session": "2022-10-10",
+      "question": "Session summary for October 10, 2022: AIZ opened $141.45, ranged $140.88-$142.97, closed $142.37. Volume 0.2M (0.61x 20-day avg). 20-day $143.41 | 50-day $150.44. 5-day return -0.07%. ATR-14 $3.29. RSI 47.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-10",
+        "open": 141.45,
+        "high": 142.97,
+        "low": 140.88,
+        "close": 142.37,
+        "volume": 240800,
+        "ma20": 143.41,
+        "ma50": 150.44,
+        "volume_vs_20d": 0.61,
+        "atr14": 3.29,
+        "chg_5d_pct": -0.07
+      },
+      "weekly_snapshot": {
+        "ticker": "AIZ",
+        "week_start": "2022-10-10",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 47.8,
+        "price_vs_sma50": 0.946,
+        "notes": "ADX 54.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AIZ_2022-10-04_bearish_sample_048_006",
+      "scenario_id": "AIZ_2022-10-04",
+      "window_type": "bearish_sample_048",
+      "chronological_index": 6,
+      "state_id": "bearish_sample_048_state_006",
+      "time_spot": "2022-10-11",
+      "reference_session": "2022-10-11",
+      "question": "Session summary for October 11, 2022: AIZ opened $142.15, ranged $141.57-$145.30, closed $142.88. Volume 0.3M (0.78x 20-day avg). 20-day $143.01 | 50-day $149.98. 5-day return -1.85%. ATR-14 $3.24. RSI 54.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-11",
+        "open": 142.15,
+        "high": 145.3,
+        "low": 141.57,
+        "close": 142.88,
+        "volume": 305000,
+        "ma20": 143.01,
+        "ma50": 149.98,
+        "volume_vs_20d": 0.78,
+        "atr14": 3.24,
+        "chg_5d_pct": -1.85
+      },
+      "weekly_snapshot": {
+        "ticker": "AIZ",
+        "week_start": "2022-10-10",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 54.1,
+        "price_vs_sma50": 0.953,
+        "notes": "ADX 52.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AIZ_2022-10-04_bearish_sample_048_007",
+      "scenario_id": "AIZ_2022-10-04",
+      "window_type": "bearish_sample_048",
+      "chronological_index": 7,
+      "state_id": "bearish_sample_048_state_007",
+      "time_spot": "2022-10-12",
+      "reference_session": "2022-10-12",
+      "question": "Session summary for October 12, 2022: AIZ opened $142.44, ranged $139.38-$142.48, closed $139.50. Volume 0.3M (0.81x 20-day avg). 20-day $142.56 | 50-day $149.52. 5-day return -3.53%. ATR-14 $3.26. RSI 46.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-12",
+        "open": 142.44,
+        "high": 142.48,
+        "low": 139.38,
+        "close": 139.5,
+        "volume": 313100,
+        "ma20": 142.56,
+        "ma50": 149.52,
+        "volume_vs_20d": 0.81,
+        "atr14": 3.26,
+        "chg_5d_pct": -3.53
+      },
+      "weekly_snapshot": {
+        "ticker": "AIZ",
+        "week_start": "2022-10-10",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 46.3,
+        "price_vs_sma50": 0.933,
+        "notes": "ADX 50.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AIZ_2022-10-04_bearish_sample_048_008",
+      "scenario_id": "AIZ_2022-10-04",
+      "window_type": "bearish_sample_048",
+      "chronological_index": 8,
+      "state_id": "bearish_sample_048_state_008",
+      "time_spot": "2022-10-13",
+      "reference_session": "2022-10-13",
+      "question": "Session summary for October 13, 2022: AIZ opened $137.98, ranged $136.84-$144.94, closed $144.51. Volume 0.4M (1.12x 20-day avg). 20-day $142.37 | 50-day $149.49. 5-day return +1.26%. ATR-14 $3.64. RSI 55.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-13",
+        "open": 137.98,
+        "high": 144.94,
+        "low": 136.84,
+        "close": 144.51,
+        "volume": 433300,
+        "ma20": 142.37,
+        "ma50": 149.49,
+        "volume_vs_20d": 1.12,
+        "atr14": 3.64,
+        "chg_5d_pct": 1.26
+      },
+      "weekly_snapshot": {
+        "ticker": "AIZ",
+        "week_start": "2022-10-10",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 55.9,
+        "price_vs_sma50": 0.967,
+        "notes": "ADX 48.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AIZ_2022-10-04_bearish_sample_048_009",
+      "scenario_id": "AIZ_2022-10-04",
+      "window_type": "bearish_sample_048",
+      "chronological_index": 9,
+      "state_id": "bearish_sample_048_state_009",
+      "time_spot": "2022-10-14",
+      "reference_session": "2022-10-14",
+      "question": "Session summary for October 14, 2022: AIZ opened $145.22, ranged $140.06-$146.01, closed $140.26. Volume 0.4M (1.16x 20-day avg). 20-day $142.02 | 50-day $149.33. 5-day return -0.23%. ATR-14 $3.77. RSI 51.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-14",
+        "open": 145.22,
+        "high": 146.01,
+        "low": 140.06,
+        "close": 140.26,
+        "volume": 436700,
+        "ma20": 142.02,
+        "ma50": 149.33,
+        "volume_vs_20d": 1.16,
+        "atr14": 3.77,
+        "chg_5d_pct": -0.23
+      },
+      "weekly_snapshot": {
+        "ticker": "AIZ",
+        "week_start": "2022-10-10",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 51.6,
+        "price_vs_sma50": 0.939,
+        "notes": "ADX 44.5, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AIZ_2022-10-04_bearish_sample_048_010",
+      "scenario_id": "AIZ_2022-10-04",
+      "window_type": "bearish_sample_048",
+      "chronological_index": 10,
+      "state_id": "bearish_sample_048_state_010",
+      "time_spot": "2022-10-17",
+      "reference_session": "2022-10-17",
+      "question": "Session summary for October 17, 2022: AIZ opened $142.35, ranged $141.89-$144.61, closed $144.22. Volume 0.3M (0.90x 20-day avg). 20-day $141.85 | 50-day $149.27. 5-day return +1.30%. ATR-14 $3.88. RSI 55.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-17",
+        "open": 142.35,
+        "high": 144.61,
+        "low": 141.89,
+        "close": 144.22,
+        "volume": 340900,
+        "ma20": 141.85,
+        "ma50": 149.27,
+        "volume_vs_20d": 0.9,
+        "atr14": 3.88,
+        "chg_5d_pct": 1.3
+      },
+      "weekly_snapshot": {
+        "ticker": "AIZ",
+        "week_start": "2022-10-17",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 55.2,
+        "price_vs_sma50": 0.966,
+        "notes": "ADX 40.2, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AIZ_2022-10-04_bearish_sample_048_011",
+      "scenario_id": "AIZ_2022-10-04",
+      "window_type": "bearish_sample_048",
+      "chronological_index": 11,
+      "state_id": "bearish_sample_048_state_011",
+      "time_spot": "2022-10-18",
+      "reference_session": "2022-10-18",
+      "question": "Session summary for October 18, 2022: AIZ opened $146.82, ranged $145.82-$147.62, closed $146.99. Volume 0.3M (0.88x 20-day avg). 20-day $142.03 | 50-day $149.22. 5-day return +2.88%. ATR-14 $3.93. RSI 56.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-18",
+        "open": 146.82,
+        "high": 147.62,
+        "low": 145.82,
+        "close": 146.99,
+        "volume": 329500,
+        "ma20": 142.03,
+        "ma50": 149.22,
+        "volume_vs_20d": 0.88,
+        "atr14": 3.93,
+        "chg_5d_pct": 2.88
+      },
+      "weekly_snapshot": {
+        "ticker": "AIZ",
+        "week_start": "2022-10-17",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 56.2,
+        "price_vs_sma50": 0.985,
+        "notes": "ADX 35.2, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AIZ_2022-10-04_bearish_sample_048_012",
+      "scenario_id": "AIZ_2022-10-04",
+      "window_type": "bearish_sample_048",
+      "chronological_index": 12,
+      "state_id": "bearish_sample_048_state_012",
+      "time_spot": "2022-10-19",
+      "reference_session": "2022-10-19",
+      "question": "Session summary for October 19, 2022: AIZ opened $146.66, ranged $143.98-$147.97, closed $144.67. Volume 0.4M (0.97x 20-day avg). 20-day $142.22 | 50-day $149.11. 5-day return +3.70%. ATR-14 $4.00. RSI 55.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-19",
+        "open": 146.66,
+        "high": 147.97,
+        "low": 143.98,
+        "close": 144.67,
+        "volume": 365300,
+        "ma20": 142.22,
+        "ma50": 149.11,
+        "volume_vs_20d": 0.97,
+        "atr14": 4.0,
+        "chg_5d_pct": 3.7
+      },
+      "weekly_snapshot": {
+        "ticker": "AIZ",
+        "week_start": "2022-10-17",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 55.2,
+        "price_vs_sma50": 0.97,
+        "notes": "ADX 29.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AIZ_2022-10-04_bearish_sample_048_013",
+      "scenario_id": "AIZ_2022-10-04",
+      "window_type": "bearish_sample_048",
+      "chronological_index": 13,
+      "state_id": "bearish_sample_048_state_013",
+      "time_spot": "2022-10-20",
+      "reference_session": "2022-10-20",
+      "question": "Session summary for October 20, 2022: AIZ opened $142.91, ranged $137.88-$142.91, closed $138.30. Volume 0.4M (1.04x 20-day avg). 20-day $142.06 | 50-day $148.81. 5-day return -4.29%. ATR-14 $4.19. RSI 50.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-20",
+        "open": 142.91,
+        "high": 142.91,
+        "low": 137.88,
+        "close": 138.3,
+        "volume": 392600,
+        "ma20": 142.06,
+        "ma50": 148.81,
+        "volume_vs_20d": 1.04,
+        "atr14": 4.19,
+        "chg_5d_pct": -4.29
+      },
+      "weekly_snapshot": {
+        "ticker": "AIZ",
+        "week_start": "2022-10-17",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 50.0,
+        "price_vs_sma50": 0.929,
+        "notes": "ADX 25.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AIZ_2022-10-04_bearish_sample_048_014",
+      "scenario_id": "AIZ_2022-10-04",
+      "window_type": "bearish_sample_048",
+      "chronological_index": 14,
+      "state_id": "bearish_sample_048_state_014",
+      "time_spot": "2022-10-21",
+      "reference_session": "2022-10-21",
+      "question": "Session summary for October 21, 2022: AIZ opened $138.71, ranged $138.08-$140.52, closed $139.84. Volume 0.4M (1.07x 20-day avg). 20-day $142.01 | 50-day $148.51. 5-day return -0.30%. ATR-14 $4.04. RSI 46.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-21",
+        "open": 138.71,
+        "high": 140.52,
+        "low": 138.08,
+        "close": 139.84,
+        "volume": 407500,
+        "ma20": 142.01,
+        "ma50": 148.51,
+        "volume_vs_20d": 1.07,
+        "atr14": 4.04,
+        "chg_5d_pct": -0.3
+      },
+      "weekly_snapshot": {
+        "ticker": "AIZ",
+        "week_start": "2022-10-17",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 46.7,
+        "price_vs_sma50": 0.942,
+        "notes": "ADX 21.5, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AIZ_2022-10-04_bearish_sample_048_015",
+      "scenario_id": "AIZ_2022-10-04",
+      "window_type": "bearish_sample_048",
+      "chronological_index": 15,
+      "state_id": "bearish_sample_048_state_015",
+      "time_spot": "2022-10-24",
+      "reference_session": "2022-10-24",
+      "question": "Session summary for October 24, 2022: AIZ opened $141.18, ranged $141.05-$143.46, closed $143.36. Volume 0.3M (0.82x 20-day avg). 20-day $142.22 | 50-day $148.22. 5-day return -0.60%. ATR-14 $4.08. RSI 47.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-24",
+        "open": 141.18,
+        "high": 143.46,
+        "low": 141.05,
+        "close": 143.36,
+        "volume": 304500,
+        "ma20": 142.22,
+        "ma50": 148.22,
+        "volume_vs_20d": 0.82,
+        "atr14": 4.08,
+        "chg_5d_pct": -0.6
+      },
+      "weekly_snapshot": {
+        "ticker": "AIZ",
+        "week_start": "2022-10-24",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 47.3,
+        "price_vs_sma50": 0.967,
+        "notes": "ADX 20.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AIZ_2022-10-04_bearish_sample_048_016",
+      "scenario_id": "AIZ_2022-10-04",
+      "window_type": "bearish_sample_048",
+      "chronological_index": 16,
+      "state_id": "bearish_sample_048_state_016",
+      "time_spot": "2022-10-25",
+      "reference_session": "2022-10-25",
+      "question": "Session summary for October 25, 2022: AIZ opened $142.56, ranged $141.89-$145.40, closed $145.39. Volume 0.4M (1.04x 20-day avg). 20-day $142.47 | 50-day $147.96. 5-day return -1.09%. ATR-14 $4.18. RSI 50.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-25",
+        "open": 142.56,
+        "high": 145.4,
+        "low": 141.89,
+        "close": 145.39,
+        "volume": 385700,
+        "ma20": 142.47,
+        "ma50": 147.96,
+        "volume_vs_20d": 1.04,
+        "atr14": 4.18,
+        "chg_5d_pct": -1.09
+      },
+      "weekly_snapshot": {
+        "ticker": "AIZ",
+        "week_start": "2022-10-24",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 50.9,
+        "price_vs_sma50": 0.983,
+        "notes": "ADX 18.2, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AIZ_2022-10-04_bearish_sample_048_017",
+      "scenario_id": "AIZ_2022-10-04",
+      "window_type": "bearish_sample_048",
+      "chronological_index": 17,
+      "state_id": "bearish_sample_048_state_017",
+      "time_spot": "2022-10-26",
+      "reference_session": "2022-10-26",
+      "question": "Session summary for October 26, 2022: AIZ opened $143.31, ranged $127.27-$144.27, closed $130.17. Volume 1.7M (3.87x 20-day avg). 20-day $141.87 | 50-day $147.33. 5-day return -10.03%. ATR-14 $5.23. RSI 38.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-26",
+        "open": 143.31,
+        "high": 144.27,
+        "low": 127.27,
+        "close": 130.17,
+        "volume": 1666600,
+        "ma20": 141.87,
+        "ma50": 147.33,
+        "volume_vs_20d": 3.87,
+        "atr14": 5.23,
+        "chg_5d_pct": -10.03
+      },
+      "weekly_snapshot": {
+        "ticker": "AIZ",
+        "week_start": "2022-10-24",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 38.6,
+        "price_vs_sma50": 0.883,
+        "notes": "ADX 18.1, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AIZ_2022-10-04_bearish_sample_048_018",
+      "scenario_id": "AIZ_2022-10-04",
+      "window_type": "bearish_sample_048",
+      "chronological_index": 18,
+      "state_id": "bearish_sample_048_state_018",
+      "time_spot": "2022-10-27",
+      "reference_session": "2022-10-27",
+      "question": "Session summary for October 27, 2022: AIZ opened $129.98, ranged $124.90-$132.42, closed $125.83. Volume 1.3M (2.81x 20-day avg). 20-day $141.13 | 50-day $146.60. 5-day return -9.02%. ATR-14 $5.53. RSI 37.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-27",
+        "open": 129.98,
+        "high": 132.42,
+        "low": 124.9,
+        "close": 125.83,
+        "volume": 1333000,
+        "ma20": 141.13,
+        "ma50": 146.6,
+        "volume_vs_20d": 2.81,
+        "atr14": 5.53,
+        "chg_5d_pct": -9.02
+      },
+      "weekly_snapshot": {
+        "ticker": "AIZ",
+        "week_start": "2022-10-24",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 37.1,
+        "price_vs_sma50": 0.858,
+        "notes": "ADX 17.5, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AIZ_2022-10-04_bearish_sample_048_019",
+      "scenario_id": "AIZ_2022-10-04",
+      "window_type": "bearish_sample_048",
+      "chronological_index": 19,
+      "state_id": "bearish_sample_048_state_019",
+      "time_spot": "2022-10-28",
+      "reference_session": "2022-10-28",
+      "question": "Session summary for October 28, 2022: AIZ opened $126.36, ranged $123.75-$128.34, closed $128.20. Volume 0.9M (1.81x 20-day avg). 20-day $140.62 | 50-day $145.91. 5-day return -8.32%. ATR-14 $5.69. RSI 37.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-28",
+        "open": 126.36,
+        "high": 128.34,
+        "low": 123.75,
+        "close": 128.2,
+        "volume": 890700,
+        "ma20": 140.62,
+        "ma50": 145.91,
+        "volume_vs_20d": 1.81,
+        "atr14": 5.69,
+        "chg_5d_pct": -8.32
+      },
+      "weekly_snapshot": {
+        "ticker": "AIZ",
+        "week_start": "2022-10-24",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 37.7,
+        "price_vs_sma50": 0.879,
+        "notes": "ADX 19.0, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AIZ_2022-10-04_bearish_sample_048_020",
+      "scenario_id": "AIZ_2022-10-04",
+      "window_type": "bearish_sample_048",
+      "chronological_index": 20,
+      "state_id": "bearish_sample_048_state_020",
+      "time_spot": "2022-10-31",
+      "reference_session": "2022-10-31",
+      "question": "Session summary for October 31, 2022: AIZ opened $128.07, ranged $127.15-$129.37, closed $129.32. Volume 0.7M (1.33x 20-day avg). 20-day $139.96 | 50-day $145.23. 5-day return -9.79%. ATR-14 $5.58. RSI 38.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-31",
+        "open": 128.07,
+        "high": 129.37,
+        "low": 127.15,
+        "close": 129.32,
+        "volume": 678800,
+        "ma20": 139.96,
+        "ma50": 145.23,
+        "volume_vs_20d": 1.33,
+        "atr14": 5.58,
+        "chg_5d_pct": -9.79
+      },
+      "weekly_snapshot": {
+        "ticker": "AIZ",
+        "week_start": "2022-10-31",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 38.3,
+        "price_vs_sma50": 0.89,
+        "notes": "ADX 22.1, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AIZ_2022-10-04_bearish_sample_048_021",
+      "scenario_id": "AIZ_2022-10-04",
+      "window_type": "bearish_sample_048",
+      "chronological_index": 21,
+      "state_id": "bearish_sample_048_state_021",
+      "time_spot": "2022-11-01",
+      "reference_session": "2022-11-01",
+      "question": "Session summary for November 01, 2022: AIZ opened $130.06, ranged $127.03-$130.06, closed $128.21. Volume 0.7M (1.35x 20-day avg). 20-day $139.10 | 50-day $144.67. 5-day return -11.81%. ATR-14 $5.55. RSI 39.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-11-01",
+        "open": 130.06,
+        "high": 130.06,
+        "low": 127.03,
+        "close": 128.21,
+        "volume": 714400,
+        "ma20": 139.1,
+        "ma50": 144.67,
+        "volume_vs_20d": 1.35,
+        "atr14": 5.55,
+        "chg_5d_pct": -11.81
+      },
+      "weekly_snapshot": {
+        "ticker": "AIZ",
+        "week_start": "2022-10-31",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 39.9,
+        "price_vs_sma50": 0.886,
+        "notes": "ADX 24.8, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AIZ_2022-10-04_bearish_sample_048_022",
+      "scenario_id": "AIZ_2022-10-04",
+      "window_type": "bearish_sample_048",
+      "chronological_index": 22,
+      "state_id": "bearish_sample_048_state_022",
+      "time_spot": "2022-11-02",
+      "reference_session": "2022-11-02",
+      "question": "Session summary for November 02, 2022: AIZ opened $126.68, ranged $123.85-$129.77, closed $124.71. Volume 0.9M (1.54x 20-day avg). 20-day $138.10 | 50-day $144.06. 5-day return -4.19%. ATR-14 $5.39. RSI 31.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-11-02",
+        "open": 126.68,
+        "high": 129.77,
+        "low": 123.85,
+        "close": 124.71,
+        "volume": 860900,
+        "ma20": 138.1,
+        "ma50": 144.06,
+        "volume_vs_20d": 1.54,
+        "atr14": 5.39,
+        "chg_5d_pct": -4.19
+      },
+      "weekly_snapshot": {
+        "ticker": "AIZ",
+        "week_start": "2022-10-31",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 31.8,
+        "price_vs_sma50": 0.866,
+        "notes": "ADX 26.8, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AIZ_2022-10-04_bearish_sample_048_023",
+      "scenario_id": "AIZ_2022-10-04",
+      "window_type": "bearish_sample_048",
+      "chronological_index": 23,
+      "state_id": "bearish_sample_048_state_023",
+      "time_spot": "2022-11-03",
+      "reference_session": "2022-11-03",
+      "question": "Session summary for November 03, 2022: AIZ opened $121.97, ranged $117.29-$122.36, closed $117.47. Volume 0.7M (1.29x 20-day avg). 20-day $136.84 | 50-day $143.29. 5-day return -6.64%. ATR-14 $5.49. RSI 30.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-11-03",
+        "open": 121.97,
+        "high": 122.36,
+        "low": 117.29,
+        "close": 117.47,
+        "volume": 739400,
+        "ma20": 136.84,
+        "ma50": 143.29,
+        "volume_vs_20d": 1.29,
+        "atr14": 5.49,
+        "chg_5d_pct": -6.64
+      },
+      "weekly_snapshot": {
+        "ticker": "AIZ",
+        "week_start": "2022-10-31",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 30.2,
+        "price_vs_sma50": 0.82,
+        "notes": "ADX 30.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AIZ_2022-10-04_bearish_sample_048_024",
+      "scenario_id": "AIZ_2022-10-04",
+      "window_type": "bearish_sample_048",
+      "chronological_index": 24,
+      "state_id": "bearish_sample_048_state_024",
+      "time_spot": "2022-11-04",
+      "reference_session": "2022-11-04",
+      "question": "Session summary for November 04, 2022: AIZ opened $118.83, ranged $114.08-$118.83, closed $115.38. Volume 1.1M (1.78x 20-day avg). 20-day $135.58 | 50-day $142.45. 5-day return -10.00%. ATR-14 $5.52. RSI 24.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-11-04",
+        "open": 118.83,
+        "high": 118.83,
+        "low": 114.08,
+        "close": 115.38,
+        "volume": 1085100,
+        "ma20": 135.58,
+        "ma50": 142.45,
+        "volume_vs_20d": 1.78,
+        "atr14": 5.52,
+        "chg_5d_pct": -10.0
+      },
+      "weekly_snapshot": {
+        "ticker": "AIZ",
+        "week_start": "2022-10-31",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 24.0,
+        "price_vs_sma50": 0.81,
+        "notes": "ADX 34.0, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AIZ_2022-10-04_bearish_sample_048_025",
+      "scenario_id": "AIZ_2022-10-04",
+      "window_type": "bearish_sample_048",
+      "chronological_index": 25,
+      "state_id": "bearish_sample_048_state_025",
+      "time_spot": "2022-11-07",
+      "reference_session": "2022-11-07",
+      "question": "Session summary for November 07, 2022: AIZ opened $115.38, ranged $113.28-$115.58, closed $114.92. Volume 1.2M (1.78x 20-day avg). 20-day $134.21 | 50-day $141.68. 5-day return -11.14%. ATR-14 $5.45. RSI 19.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-11-07",
+        "open": 115.38,
+        "high": 115.58,
+        "low": 113.28,
+        "close": 114.92,
+        "volume": 1168600,
+        "ma20": 134.21,
+        "ma50": 141.68,
+        "volume_vs_20d": 1.78,
+        "atr14": 5.45,
+        "chg_5d_pct": -11.14
+      },
+      "weekly_snapshot": {
+        "ticker": "AIZ",
+        "week_start": "2022-11-07",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 19.9,
+        "price_vs_sma50": 0.811,
+        "notes": "ADX 38.9, MACD bearish"
+      }
+    }
+  ]
+}

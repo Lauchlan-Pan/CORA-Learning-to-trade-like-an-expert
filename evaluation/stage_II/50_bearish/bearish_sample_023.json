@@ -1,0 +1,2898 @@
+{
+  "metadata": {
+    "instrument": "WDC",
+    "initial_capital": 10000,
+    "window_type": "bearish_sample_023",
+    "description": "WDC window (2015-06-04 \u2013 2015-07-09) sampled from S&P500 indicator archive.",
+    "num_mcqs": 25,
+    "notes": "Orders express target exposure fractions relative to the leverage ceiling.",
+    "max_leverage": 2.5,
+    "exposure_buckets": [
+      0.8,
+      0.6,
+      0.4,
+      0.2
+    ],
+    "start_reference": "2015-06-04",
+    "end_reference": "2015-07-09",
+    "regime": "bearish",
+    "original_sample": "snp500_sample_075"
+  },
+  "mcqs": [
+    {
+      "scenario_instance_id": "WDC_2015-06-04_bearish_sample_023_001",
+      "scenario_id": "WDC_2015-06-04",
+      "window_type": "bearish_sample_023",
+      "chronological_index": 1,
+      "state_id": "bearish_sample_023_state_001",
+      "time_spot": "2015-06-04",
+      "reference_session": "2015-06-04",
+      "question": "Session summary for June 04, 2015: WDC opened $61.99, ranged $60.28-$62.40, closed $60.78. Volume 2.4M (1.11x 20-day avg). 20-day $61.35 | 50-day $61.37. 5-day return -3.86%. ATR-14 $1.33. RSI 41.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-06-04",
+        "open": 61.99,
+        "high": 62.4,
+        "low": 60.28,
+        "close": 60.78,
+        "volume": 2443846,
+        "ma20": 61.35,
+        "ma50": 61.37,
+        "volume_vs_20d": 1.11,
+        "atr14": 1.33,
+        "chg_5d_pct": -3.86
+      },
+      "weekly_snapshot": {
+        "ticker": "WDC",
+        "week_start": "2015-06-01",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 41.9,
+        "price_vs_sma50": 0.99,
+        "notes": "ADX 14.2, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "WDC_2015-06-04_bearish_sample_023_002",
+      "scenario_id": "WDC_2015-06-04",
+      "window_type": "bearish_sample_023",
+      "chronological_index": 2,
+      "state_id": "bearish_sample_023_state_002",
+      "time_spot": "2015-06-05",
+      "reference_session": "2015-06-05",
+      "question": "Session summary for June 05, 2015: WDC opened $60.78, ranged $60.06-$60.90, closed $60.44. Volume 1.4M (0.64x 20-day avg). 20-day $61.36 | 50-day $61.38. 5-day return -2.56%. ATR-14 $1.33. RSI 42.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-06-05",
+        "open": 60.78,
+        "high": 60.9,
+        "low": 60.06,
+        "close": 60.44,
+        "volume": 1389944,
+        "ma20": 61.36,
+        "ma50": 61.38,
+        "volume_vs_20d": 0.64,
+        "atr14": 1.33,
+        "chg_5d_pct": -2.56
+      },
+      "weekly_snapshot": {
+        "ticker": "WDC",
+        "week_start": "2015-06-01",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 42.4,
+        "price_vs_sma50": 0.985,
+        "notes": "ADX 14.7, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "WDC_2015-06-04_bearish_sample_023_003",
+      "scenario_id": "WDC_2015-06-04",
+      "window_type": "bearish_sample_023",
+      "chronological_index": 3,
+      "state_id": "bearish_sample_023_state_003",
+      "time_spot": "2015-06-08",
+      "reference_session": "2015-06-08",
+      "question": "Session summary for June 08, 2015: WDC opened $60.30, ranged $58.86-$60.71, closed $59.00. Volume 2.3M (1.05x 20-day avg). 20-day $61.23 | 50-day $61.37. 5-day return -4.66%. ATR-14 $1.41. RSI 37.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-06-08",
+        "open": 60.3,
+        "high": 60.71,
+        "low": 58.86,
+        "close": 59.0,
+        "volume": 2322659,
+        "ma20": 61.23,
+        "ma50": 61.37,
+        "volume_vs_20d": 1.05,
+        "atr14": 1.41,
+        "chg_5d_pct": -4.66
+      },
+      "weekly_snapshot": {
+        "ticker": "WDC",
+        "week_start": "2015-06-08",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 37.2,
+        "price_vs_sma50": 0.961,
+        "notes": "ADX 16.2, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "WDC_2015-06-04_bearish_sample_023_004",
+      "scenario_id": "WDC_2015-06-04",
+      "window_type": "bearish_sample_023",
+      "chronological_index": 4,
+      "state_id": "bearish_sample_023_state_004",
+      "time_spot": "2015-06-09",
+      "reference_session": "2015-06-09",
+      "question": "Session summary for June 09, 2015: WDC opened $58.97, ranged $58.24-$59.16, closed $58.64. Volume 2.1M (0.93x 20-day avg). 20-day $61.10 | 50-day $61.37. 5-day return -5.06%. ATR-14 $1.33. RSI 40.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-06-09",
+        "open": 58.97,
+        "high": 59.16,
+        "low": 58.24,
+        "close": 58.64,
+        "volume": 2073538,
+        "ma20": 61.1,
+        "ma50": 61.37,
+        "volume_vs_20d": 0.93,
+        "atr14": 1.33,
+        "chg_5d_pct": -5.06
+      },
+      "weekly_snapshot": {
+        "ticker": "WDC",
+        "week_start": "2015-06-08",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 40.6,
+        "price_vs_sma50": 0.956,
+        "notes": "ADX 17.5, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "WDC_2015-06-04_bearish_sample_023_005",
+      "scenario_id": "WDC_2015-06-04",
+      "window_type": "bearish_sample_023",
+      "chronological_index": 5,
+      "state_id": "bearish_sample_023_state_005",
+      "time_spot": "2015-06-10",
+      "reference_session": "2015-06-10",
+      "question": "Session summary for June 10, 2015: WDC opened $59.27, ranged $58.69-$59.95, closed $59.64. Volume 2.4M (1.07x 20-day avg). 20-day $61.03 | 50-day $61.38. 5-day return -4.63%. ATR-14 $1.36. RSI 46.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-06-10",
+        "open": 59.27,
+        "high": 59.95,
+        "low": 58.69,
+        "close": 59.64,
+        "volume": 2415666,
+        "ma20": 61.03,
+        "ma50": 61.38,
+        "volume_vs_20d": 1.07,
+        "atr14": 1.36,
+        "chg_5d_pct": -4.63
+      },
+      "weekly_snapshot": {
+        "ticker": "WDC",
+        "week_start": "2015-06-08",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 46.9,
+        "price_vs_sma50": 0.972,
+        "notes": "ADX 17.6, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "WDC_2015-06-04_bearish_sample_023_006",
+      "scenario_id": "WDC_2015-06-04",
+      "window_type": "bearish_sample_023",
+      "chronological_index": 6,
+      "state_id": "bearish_sample_023_state_006",
+      "time_spot": "2015-06-11",
+      "reference_session": "2015-06-11",
+      "question": "Session summary for June 11, 2015: WDC opened $59.60, ranged $59.60-$60.44, closed $60.18. Volume 1.7M (0.76x 20-day avg). 20-day $60.98 | 50-day $61.42. 5-day return -0.99%. ATR-14 $1.36. RSI 48.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-06-11",
+        "open": 59.6,
+        "high": 60.44,
+        "low": 59.6,
+        "close": 60.18,
+        "volume": 1713550,
+        "ma20": 60.98,
+        "ma50": 61.42,
+        "volume_vs_20d": 0.76,
+        "atr14": 1.36,
+        "chg_5d_pct": -0.99
+      },
+      "weekly_snapshot": {
+        "ticker": "WDC",
+        "week_start": "2015-06-08",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 48.0,
+        "price_vs_sma50": 0.98,
+        "notes": "ADX 15.9, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "WDC_2015-06-04_bearish_sample_023_007",
+      "scenario_id": "WDC_2015-06-04",
+      "window_type": "bearish_sample_023",
+      "chronological_index": 7,
+      "state_id": "bearish_sample_023_state_007",
+      "time_spot": "2015-06-12",
+      "reference_session": "2015-06-12",
+      "question": "Session summary for June 12, 2015: WDC opened $59.59, ranged $58.70-$59.82, closed $59.26. Volume 2.0M (0.88x 20-day avg). 20-day $60.81 | 50-day $61.43. 5-day return -1.96%. ATR-14 $1.43. RSI 44.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-06-12",
+        "open": 59.59,
+        "high": 59.82,
+        "low": 58.7,
+        "close": 59.26,
+        "volume": 1995084,
+        "ma20": 60.81,
+        "ma50": 61.43,
+        "volume_vs_20d": 0.88,
+        "atr14": 1.43,
+        "chg_5d_pct": -1.96
+      },
+      "weekly_snapshot": {
+        "ticker": "WDC",
+        "week_start": "2015-06-08",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 44.8,
+        "price_vs_sma50": 0.965,
+        "notes": "ADX 14.7, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "WDC_2015-06-04_bearish_sample_023_008",
+      "scenario_id": "WDC_2015-06-04",
+      "window_type": "bearish_sample_023",
+      "chronological_index": 8,
+      "state_id": "bearish_sample_023_state_008",
+      "time_spot": "2015-06-15",
+      "reference_session": "2015-06-15",
+      "question": "Session summary for June 15, 2015: WDC opened $58.76, ranged $58.19-$58.86, closed $58.46. Volume 1.7M (0.78x 20-day avg). 20-day $60.62 | 50-day $61.42. 5-day return -0.92%. ATR-14 $1.35. RSI 46.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-06-15",
+        "open": 58.76,
+        "high": 58.86,
+        "low": 58.19,
+        "close": 58.46,
+        "volume": 1715931,
+        "ma20": 60.62,
+        "ma50": 61.42,
+        "volume_vs_20d": 0.78,
+        "atr14": 1.35,
+        "chg_5d_pct": -0.92
+      },
+      "weekly_snapshot": {
+        "ticker": "WDC",
+        "week_start": "2015-06-15",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 46.5,
+        "price_vs_sma50": 0.952,
+        "notes": "ADX 12.8, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "WDC_2015-06-04_bearish_sample_023_009",
+      "scenario_id": "WDC_2015-06-04",
+      "window_type": "bearish_sample_023",
+      "chronological_index": 9,
+      "state_id": "bearish_sample_023_state_009",
+      "time_spot": "2015-06-16",
+      "reference_session": "2015-06-16",
+      "question": "Session summary for June 16, 2015: WDC opened $58.28, ranged $57.97-$58.78, closed $58.01. Volume 1.9M (0.84x 20-day avg). 20-day $60.40 | 50-day $61.39. 5-day return -1.08%. ATR-14 $1.34. RSI 41.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-06-16",
+        "open": 58.28,
+        "high": 58.78,
+        "low": 57.97,
+        "close": 58.01,
+        "volume": 1868473,
+        "ma20": 60.4,
+        "ma50": 61.39,
+        "volume_vs_20d": 0.84,
+        "atr14": 1.34,
+        "chg_5d_pct": -1.08
+      },
+      "weekly_snapshot": {
+        "ticker": "WDC",
+        "week_start": "2015-06-15",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 41.8,
+        "price_vs_sma50": 0.945,
+        "notes": "ADX 12.1, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "WDC_2015-06-04_bearish_sample_023_010",
+      "scenario_id": "WDC_2015-06-04",
+      "window_type": "bearish_sample_023",
+      "chronological_index": 10,
+      "state_id": "bearish_sample_023_state_010",
+      "time_spot": "2015-06-17",
+      "reference_session": "2015-06-17",
+      "question": "Session summary for June 17, 2015: WDC opened $58.28, ranged $58.14-$59.50, closed $58.63. Volume 2.3M (1.09x 20-day avg). 20-day $60.29 | 50-day $61.36. 5-day return -1.69%. ATR-14 $1.20. RSI 28.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-06-17",
+        "open": 58.28,
+        "high": 59.5,
+        "low": 58.14,
+        "close": 58.63,
+        "volume": 2347796,
+        "ma20": 60.29,
+        "ma50": 61.36,
+        "volume_vs_20d": 1.09,
+        "atr14": 1.2,
+        "chg_5d_pct": -1.69
+      },
+      "weekly_snapshot": {
+        "ticker": "WDC",
+        "week_start": "2015-06-15",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 28.0,
+        "price_vs_sma50": 0.955,
+        "notes": "ADX 13.4, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "WDC_2015-06-04_bearish_sample_023_011",
+      "scenario_id": "WDC_2015-06-04",
+      "window_type": "bearish_sample_023",
+      "chronological_index": 11,
+      "state_id": "bearish_sample_023_state_011",
+      "time_spot": "2015-06-18",
+      "reference_session": "2015-06-18",
+      "question": "Session summary for June 18, 2015: WDC opened $58.69, ranged $58.04-$59.14, closed $58.88. Volume 2.5M (1.12x 20-day avg). 20-day $60.21 | 50-day $61.34. 5-day return -2.16%. ATR-14 $1.16. RSI 33.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-06-18",
+        "open": 58.69,
+        "high": 59.14,
+        "low": 58.04,
+        "close": 58.88,
+        "volume": 2466072,
+        "ma20": 60.21,
+        "ma50": 61.34,
+        "volume_vs_20d": 1.12,
+        "atr14": 1.16,
+        "chg_5d_pct": -2.16
+      },
+      "weekly_snapshot": {
+        "ticker": "WDC",
+        "week_start": "2015-06-15",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 33.4,
+        "price_vs_sma50": 0.96,
+        "notes": "ADX 15.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "WDC_2015-06-04_bearish_sample_023_012",
+      "scenario_id": "WDC_2015-06-04",
+      "window_type": "bearish_sample_023",
+      "chronological_index": 12,
+      "state_id": "bearish_sample_023_state_012",
+      "time_spot": "2015-06-19",
+      "reference_session": "2015-06-19",
+      "question": "Session summary for June 19, 2015: WDC opened $58.83, ranged $57.92-$58.93, closed $57.99. Volume 3.4M (1.49x 20-day avg). 20-day $60.08 | 50-day $61.31. 5-day return -2.14%. ATR-14 $1.16. RSI 31.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-06-19",
+        "open": 58.83,
+        "high": 58.93,
+        "low": 57.92,
+        "close": 57.99,
+        "volume": 3427232,
+        "ma20": 60.08,
+        "ma50": 61.31,
+        "volume_vs_20d": 1.49,
+        "atr14": 1.16,
+        "chg_5d_pct": -2.14
+      },
+      "weekly_snapshot": {
+        "ticker": "WDC",
+        "week_start": "2015-06-15",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 31.0,
+        "price_vs_sma50": 0.946,
+        "notes": "ADX 17.8, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "WDC_2015-06-04_bearish_sample_023_013",
+      "scenario_id": "WDC_2015-06-04",
+      "window_type": "bearish_sample_023",
+      "chronological_index": 13,
+      "state_id": "bearish_sample_023_state_013",
+      "time_spot": "2015-06-22",
+      "reference_session": "2015-06-22",
+      "question": "Session summary for June 22, 2015: WDC opened $58.43, ranged $57.77-$58.56, closed $58.36. Volume 1.5M (0.64x 20-day avg). 20-day $59.96 | 50-day $61.25. 5-day return -0.16%. ATR-14 $1.18. RSI 33.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-06-22",
+        "open": 58.43,
+        "high": 58.56,
+        "low": 57.77,
+        "close": 58.36,
+        "volume": 1472631,
+        "ma20": 59.96,
+        "ma50": 61.25,
+        "volume_vs_20d": 0.64,
+        "atr14": 1.18,
+        "chg_5d_pct": -0.16
+      },
+      "weekly_snapshot": {
+        "ticker": "WDC",
+        "week_start": "2015-06-22",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 33.8,
+        "price_vs_sma50": 0.953,
+        "notes": "ADX 19.9, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "WDC_2015-06-04_bearish_sample_023_014",
+      "scenario_id": "WDC_2015-06-04",
+      "window_type": "bearish_sample_023",
+      "chronological_index": 14,
+      "state_id": "bearish_sample_023_state_014",
+      "time_spot": "2015-06-23",
+      "reference_session": "2015-06-23",
+      "question": "Session summary for June 23, 2015: WDC opened $58.04, ranged $56.41-$58.19, closed $56.46. Volume 3.9M (1.64x 20-day avg). 20-day $59.82 | 50-day $61.16. 5-day return -2.67%. ATR-14 $1.26. RSI 23.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-06-23",
+        "open": 58.04,
+        "high": 58.19,
+        "low": 56.41,
+        "close": 56.46,
+        "volume": 3895309,
+        "ma20": 59.82,
+        "ma50": 61.16,
+        "volume_vs_20d": 1.64,
+        "atr14": 1.26,
+        "chg_5d_pct": -2.67
+      },
+      "weekly_snapshot": {
+        "ticker": "WDC",
+        "week_start": "2015-06-22",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 23.9,
+        "price_vs_sma50": 0.923,
+        "notes": "ADX 23.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "WDC_2015-06-04_bearish_sample_023_015",
+      "scenario_id": "WDC_2015-06-04",
+      "window_type": "bearish_sample_023",
+      "chronological_index": 15,
+      "state_id": "bearish_sample_023_state_015",
+      "time_spot": "2015-06-24",
+      "reference_session": "2015-06-24",
+      "question": "Session summary for June 24, 2015: WDC opened $56.41, ranged $55.71-$56.58, closed $55.90. Volume 2.6M (1.06x 20-day avg). 20-day $59.60 | 50-day $61.06. 5-day return -4.66%. ATR-14 $1.17. RSI 26.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-06-24",
+        "open": 56.41,
+        "high": 56.58,
+        "low": 55.71,
+        "close": 55.9,
+        "volume": 2556565,
+        "ma20": 59.6,
+        "ma50": 61.06,
+        "volume_vs_20d": 1.06,
+        "atr14": 1.17,
+        "chg_5d_pct": -4.66
+      },
+      "weekly_snapshot": {
+        "ticker": "WDC",
+        "week_start": "2015-06-22",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 26.6,
+        "price_vs_sma50": 0.915,
+        "notes": "ADX 25.7, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "WDC_2015-06-04_bearish_sample_023_016",
+      "scenario_id": "WDC_2015-06-04",
+      "window_type": "bearish_sample_023",
+      "chronological_index": 16,
+      "state_id": "bearish_sample_023_state_016",
+      "time_spot": "2015-06-25",
+      "reference_session": "2015-06-25",
+      "question": "Session summary for June 25, 2015: WDC opened $56.16, ranged $54.51-$56.16, closed $54.76. Volume 3.5M (1.49x 20-day avg). 20-day $59.18 | 50-day $60.89. 5-day return -7.00%. ATR-14 $1.22. RSI 24.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-06-25",
+        "open": 56.16,
+        "high": 56.16,
+        "low": 54.51,
+        "close": 54.76,
+        "volume": 3477902,
+        "ma20": 59.18,
+        "ma50": 60.89,
+        "volume_vs_20d": 1.49,
+        "atr14": 1.22,
+        "chg_5d_pct": -7.0
+      },
+      "weekly_snapshot": {
+        "ticker": "WDC",
+        "week_start": "2015-06-22",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 24.7,
+        "price_vs_sma50": 0.899,
+        "notes": "ADX 28.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "WDC_2015-06-04_bearish_sample_023_017",
+      "scenario_id": "WDC_2015-06-04",
+      "window_type": "bearish_sample_023",
+      "chronological_index": 17,
+      "state_id": "bearish_sample_023_state_017",
+      "time_spot": "2015-06-26",
+      "reference_session": "2015-06-26",
+      "question": "Session summary for June 26, 2015: WDC opened $54.12, ranged $53.44-$54.69, closed $53.81. Volume 3.9M (1.66x 20-day avg). 20-day $58.77 | 50-day $60.72. 5-day return -7.22%. ATR-14 $1.19. RSI 25.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-06-26",
+        "open": 54.12,
+        "high": 54.69,
+        "low": 53.44,
+        "close": 53.81,
+        "volume": 3857868,
+        "ma20": 58.77,
+        "ma50": 60.72,
+        "volume_vs_20d": 1.66,
+        "atr14": 1.19,
+        "chg_5d_pct": -7.22
+      },
+      "weekly_snapshot": {
+        "ticker": "WDC",
+        "week_start": "2015-06-22",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 25.9,
+        "price_vs_sma50": 0.886,
+        "notes": "ADX 30.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "WDC_2015-06-04_bearish_sample_023_018",
+      "scenario_id": "WDC_2015-06-04",
+      "window_type": "bearish_sample_023",
+      "chronological_index": 18,
+      "state_id": "bearish_sample_023_state_018",
+      "time_spot": "2015-06-29",
+      "reference_session": "2015-06-29",
+      "question": "Session summary for June 29, 2015: WDC opened $53.08, ranged $51.89-$53.19, closed $52.22. Volume 4.5M (1.82x 20-day avg). 20-day $58.29 | 50-day $60.50. 5-day return -10.52%. ATR-14 $1.26. RSI 23.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-06-29",
+        "open": 53.08,
+        "high": 53.19,
+        "low": 51.89,
+        "close": 52.22,
+        "volume": 4464464,
+        "ma20": 58.29,
+        "ma50": 60.5,
+        "volume_vs_20d": 1.82,
+        "atr14": 1.26,
+        "chg_5d_pct": -10.52
+      },
+      "weekly_snapshot": {
+        "ticker": "WDC",
+        "week_start": "2015-06-29",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 23.2,
+        "price_vs_sma50": 0.863,
+        "notes": "ADX 33.0, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "WDC_2015-06-04_bearish_sample_023_019",
+      "scenario_id": "WDC_2015-06-04",
+      "window_type": "bearish_sample_023",
+      "chronological_index": 19,
+      "state_id": "bearish_sample_023_state_019",
+      "time_spot": "2015-06-30",
+      "reference_session": "2015-06-30",
+      "question": "Session summary for June 30, 2015: WDC opened $52.44, ranged $50.21-$52.81, closed $50.27. Volume 5.7M (2.13x 20-day avg). 20-day $57.71 | 50-day $60.21. 5-day return -10.97%. ATR-14 $1.35. RSI 13.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-06-30",
+        "open": 52.44,
+        "high": 52.81,
+        "low": 50.21,
+        "close": 50.27,
+        "volume": 5698955,
+        "ma20": 57.71,
+        "ma50": 60.21,
+        "volume_vs_20d": 2.13,
+        "atr14": 1.35,
+        "chg_5d_pct": -10.97
+      },
+      "weekly_snapshot": {
+        "ticker": "WDC",
+        "week_start": "2015-06-29",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 13.8,
+        "price_vs_sma50": 0.835,
+        "notes": "ADX 37.7, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "WDC_2015-06-04_bearish_sample_023_020",
+      "scenario_id": "WDC_2015-06-04",
+      "window_type": "bearish_sample_023",
+      "chronological_index": 20,
+      "state_id": "bearish_sample_023_state_020",
+      "time_spot": "2015-07-01",
+      "reference_session": "2015-07-01",
+      "question": "Session summary for July 01, 2015: WDC opened $50.74, ranged $50.17-$50.93, closed $50.92. Volume 4.9M (1.73x 20-day avg). 20-day $57.13 | 50-day $59.96. 5-day return -8.89%. ATR-14 $1.34. RSI 14.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-07-01",
+        "open": 50.74,
+        "high": 50.93,
+        "low": 50.17,
+        "close": 50.92,
+        "volume": 4896026,
+        "ma20": 57.13,
+        "ma50": 59.96,
+        "volume_vs_20d": 1.73,
+        "atr14": 1.34,
+        "chg_5d_pct": -8.89
+      },
+      "weekly_snapshot": {
+        "ticker": "WDC",
+        "week_start": "2015-06-29",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 14.5,
+        "price_vs_sma50": 0.849,
+        "notes": "ADX 43.5, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "WDC_2015-06-04_bearish_sample_023_021",
+      "scenario_id": "WDC_2015-06-04",
+      "window_type": "bearish_sample_023",
+      "chronological_index": 21,
+      "state_id": "bearish_sample_023_state_021",
+      "time_spot": "2015-07-02",
+      "reference_session": "2015-07-02",
+      "question": "Session summary for July 02, 2015: WDC opened $51.28, ranged $51.14-$52.53, closed $51.84. Volume 4.4M (1.49x 20-day avg). 20-day $56.68 | 50-day $59.71. 5-day return -5.33%. ATR-14 $1.35. RSI 21.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-07-02",
+        "open": 51.28,
+        "high": 52.53,
+        "low": 51.14,
+        "close": 51.84,
+        "volume": 4366826,
+        "ma20": 56.68,
+        "ma50": 59.71,
+        "volume_vs_20d": 1.49,
+        "atr14": 1.35,
+        "chg_5d_pct": -5.33
+      },
+      "weekly_snapshot": {
+        "ticker": "WDC",
+        "week_start": "2015-06-29",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 21.6,
+        "price_vs_sma50": 0.868,
+        "notes": "ADX 46.7, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "WDC_2015-06-04_bearish_sample_023_022",
+      "scenario_id": "WDC_2015-06-04",
+      "window_type": "bearish_sample_023",
+      "chronological_index": 22,
+      "state_id": "bearish_sample_023_state_022",
+      "time_spot": "2015-07-06",
+      "reference_session": "2015-07-06",
+      "question": "Session summary for July 06, 2015: WDC opened $51.17, ranged $50.23-$51.28, closed $51.17. Volume 4.5M (1.46x 20-day avg). 20-day $56.22 | 50-day $59.46. 5-day return -4.90%. ATR-14 $1.39. RSI 21.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-07-06",
+        "open": 51.17,
+        "high": 51.28,
+        "low": 50.23,
+        "close": 51.17,
+        "volume": 4480869,
+        "ma20": 56.22,
+        "ma50": 59.46,
+        "volume_vs_20d": 1.46,
+        "atr14": 1.39,
+        "chg_5d_pct": -4.9
+      },
+      "weekly_snapshot": {
+        "ticker": "WDC",
+        "week_start": "2015-07-06",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 21.8,
+        "price_vs_sma50": 0.861,
+        "notes": "ADX 50.6, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "WDC_2015-06-04_bearish_sample_023_023",
+      "scenario_id": "WDC_2015-06-04",
+      "window_type": "bearish_sample_023",
+      "chronological_index": 23,
+      "state_id": "bearish_sample_023_state_023",
+      "time_spot": "2015-07-07",
+      "reference_session": "2015-07-07",
+      "question": "Session summary for July 07, 2015: WDC opened $51.18, ranged $49.53-$51.37, closed $51.17. Volume 4.4M (1.40x 20-day avg). 20-day $55.83 | 50-day $59.21. 5-day return -2.01%. ATR-14 $1.47. RSI 22.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-07-07",
+        "open": 51.18,
+        "high": 51.37,
+        "low": 49.53,
+        "close": 51.17,
+        "volume": 4439062,
+        "ma20": 55.83,
+        "ma50": 59.21,
+        "volume_vs_20d": 1.4,
+        "atr14": 1.47,
+        "chg_5d_pct": -2.01
+      },
+      "weekly_snapshot": {
+        "ticker": "WDC",
+        "week_start": "2015-07-06",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 22.6,
+        "price_vs_sma50": 0.864,
+        "notes": "ADX 54.5, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "WDC_2015-06-04_bearish_sample_023_024",
+      "scenario_id": "WDC_2015-06-04",
+      "window_type": "bearish_sample_023",
+      "chronological_index": 24,
+      "state_id": "bearish_sample_023_state_024",
+      "time_spot": "2015-07-08",
+      "reference_session": "2015-07-08",
+      "question": "Session summary for July 08, 2015: WDC opened $50.84, ranged $50.12-$51.11, closed $50.20. Volume 3.1M (0.95x 20-day avg). 20-day $55.41 | 50-day $58.96. 5-day return -0.14%. ATR-14 $1.43. RSI 17.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-07-08",
+        "open": 50.84,
+        "high": 51.11,
+        "low": 50.12,
+        "close": 50.2,
+        "volume": 3080738,
+        "ma20": 55.41,
+        "ma50": 58.96,
+        "volume_vs_20d": 0.95,
+        "atr14": 1.43,
+        "chg_5d_pct": -0.14
+      },
+      "weekly_snapshot": {
+        "ticker": "WDC",
+        "week_start": "2015-07-06",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 17.1,
+        "price_vs_sma50": 0.851,
+        "notes": "ADX 56.8, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "WDC_2015-06-04_bearish_sample_023_025",
+      "scenario_id": "WDC_2015-06-04",
+      "window_type": "bearish_sample_023",
+      "chronological_index": 25,
+      "state_id": "bearish_sample_023_state_025",
+      "time_spot": "2015-07-09",
+      "reference_session": "2015-07-09",
+      "question": "Session summary for July 09, 2015: WDC opened $51.11, ranged $49.58-$51.12, closed $49.58. Volume 2.8M (0.86x 20-day avg). 20-day $54.90 | 50-day $58.70. 5-day return -2.63%. ATR-14 $1.47. RSI 14.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-07-09",
+        "open": 51.11,
+        "high": 51.12,
+        "low": 49.58,
+        "close": 49.58,
+        "volume": 2787032,
+        "ma20": 54.9,
+        "ma50": 58.7,
+        "volume_vs_20d": 0.86,
+        "atr14": 1.47,
+        "chg_5d_pct": -2.63
+      },
+      "weekly_snapshot": {
+        "ticker": "WDC",
+        "week_start": "2015-07-06",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 14.7,
+        "price_vs_sma50": 0.845,
+        "notes": "ADX 59.5, MACD bearish"
+      }
+    }
+  ]
+}

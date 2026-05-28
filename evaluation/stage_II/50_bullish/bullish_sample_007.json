@@ -1,0 +1,2898 @@
+{
+  "metadata": {
+    "instrument": "REGN",
+    "initial_capital": 10000,
+    "window_type": "bullish_sample_007",
+    "description": "REGN window (2012-10-18 \u2013 2012-11-26) sampled from S&P500 indicator archive.",
+    "num_mcqs": 25,
+    "notes": "Orders express target exposure fractions relative to the leverage ceiling.",
+    "max_leverage": 2.5,
+    "exposure_buckets": [
+      0.8,
+      0.6,
+      0.4,
+      0.2
+    ],
+    "start_reference": "2012-10-18",
+    "end_reference": "2012-11-26",
+    "regime": "bullish",
+    "original_sample": "snp500_sample_082"
+  },
+  "mcqs": [
+    {
+      "scenario_instance_id": "REGN_2012-10-18_bullish_sample_007_001",
+      "scenario_id": "REGN_2012-10-18",
+      "window_type": "bullish_sample_007",
+      "chronological_index": 1,
+      "state_id": "bullish_sample_007_state_001",
+      "time_spot": "2012-10-18",
+      "reference_session": "2012-10-18",
+      "question": "Session summary for October 18, 2012: REGN opened $162.16, ranged $158.83-$163.01, closed $160.03. Volume 0.6M (0.83x 20-day avg). 20-day $153.05 | 50-day $147.31. 5-day return +4.57%. ATR-14 $4.55. RSI 60.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2012-10-18",
+        "open": 162.16,
+        "high": 163.01,
+        "low": 158.83,
+        "close": 160.03,
+        "volume": 593700,
+        "ma20": 153.05,
+        "ma50": 147.31,
+        "volume_vs_20d": 0.83,
+        "atr14": 4.55,
+        "chg_5d_pct": 4.57
+      },
+      "weekly_snapshot": {
+        "ticker": "REGN",
+        "week_start": "2012-10-15",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 60.4,
+        "price_vs_sma50": 1.086,
+        "notes": "ADX 27.5, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "REGN_2012-10-18_bullish_sample_007_002",
+      "scenario_id": "REGN_2012-10-18",
+      "window_type": "bullish_sample_007",
+      "chronological_index": 2,
+      "state_id": "bullish_sample_007_state_002",
+      "time_spot": "2012-10-19",
+      "reference_session": "2012-10-19",
+      "question": "Session summary for October 19, 2012: REGN opened $159.35, ranged $155.99-$160.34, closed $157.56. Volume 0.7M (1.02x 20-day avg). 20-day $153.71 | 50-day $147.71. 5-day return +4.98%. ATR-14 $4.62. RSI 54.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2012-10-19",
+        "open": 159.35,
+        "high": 160.34,
+        "low": 155.99,
+        "close": 157.56,
+        "volume": 690700,
+        "ma20": 153.71,
+        "ma50": 147.71,
+        "volume_vs_20d": 1.02,
+        "atr14": 4.62,
+        "chg_5d_pct": 4.98
+      },
+      "weekly_snapshot": {
+        "ticker": "REGN",
+        "week_start": "2012-10-15",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 54.9,
+        "price_vs_sma50": 1.067,
+        "notes": "ADX 29.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "REGN_2012-10-18_bullish_sample_007_003",
+      "scenario_id": "REGN_2012-10-18",
+      "window_type": "bullish_sample_007",
+      "chronological_index": 3,
+      "state_id": "bullish_sample_007_state_003",
+      "time_spot": "2012-10-22",
+      "reference_session": "2012-10-22",
+      "question": "Session summary for October 22, 2012: REGN opened $157.96, ranged $156.16-$162.38, closed $162.25. Volume 0.8M (1.17x 20-day avg). 20-day $154.64 | 50-day $148.23. 5-day return +5.48%. ATR-14 $4.78. RSI 57.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2012-10-22",
+        "open": 157.96,
+        "high": 162.38,
+        "low": 156.16,
+        "close": 162.25,
+        "volume": 802400,
+        "ma20": 154.64,
+        "ma50": 148.23,
+        "volume_vs_20d": 1.17,
+        "atr14": 4.78,
+        "chg_5d_pct": 5.48
+      },
+      "weekly_snapshot": {
+        "ticker": "REGN",
+        "week_start": "2012-10-22",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 57.1,
+        "price_vs_sma50": 1.095,
+        "notes": "ADX 28.7, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "REGN_2012-10-18_bullish_sample_007_004",
+      "scenario_id": "REGN_2012-10-18",
+      "window_type": "bullish_sample_007",
+      "chronological_index": 4,
+      "state_id": "bullish_sample_007_state_004",
+      "time_spot": "2012-10-23",
+      "reference_session": "2012-10-23",
+      "question": "Session summary for October 23, 2012: REGN opened $159.32, ranged $151.98-$160.05, closed $152.34. Volume 1.1M (1.59x 20-day avg). 20-day $154.99 | 50-day $148.59. 5-day return -3.12%. ATR-14 $5.24. RSI 45.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2012-10-23",
+        "open": 159.32,
+        "high": 160.05,
+        "low": 151.98,
+        "close": 152.34,
+        "volume": 1123500,
+        "ma20": 154.99,
+        "ma50": 148.59,
+        "volume_vs_20d": 1.59,
+        "atr14": 5.24,
+        "chg_5d_pct": -3.12
+      },
+      "weekly_snapshot": {
+        "ticker": "REGN",
+        "week_start": "2012-10-22",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 45.0,
+        "price_vs_sma50": 1.025,
+        "notes": "ADX 26.9, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "REGN_2012-10-18_bullish_sample_007_005",
+      "scenario_id": "REGN_2012-10-18",
+      "window_type": "bullish_sample_007",
+      "chronological_index": 5,
+      "state_id": "bullish_sample_007_state_005",
+      "time_spot": "2012-10-24",
+      "reference_session": "2012-10-24",
+      "question": "Session summary for October 24, 2012: REGN opened $157.78, ranged $151.77-$162.47, closed $162.00. Volume 2.0M (2.57x 20-day avg). 20-day $155.97 | 50-day $149.12. 5-day return -0.94%. ATR-14 $5.57. RSI 51.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2012-10-24",
+        "open": 157.78,
+        "high": 162.47,
+        "low": 151.77,
+        "close": 162.0,
+        "volume": 1974200,
+        "ma20": 155.97,
+        "ma50": 149.12,
+        "volume_vs_20d": 2.57,
+        "atr14": 5.57,
+        "chg_5d_pct": -0.94
+      },
+      "weekly_snapshot": {
+        "ticker": "REGN",
+        "week_start": "2012-10-22",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 51.2,
+        "price_vs_sma50": 1.086,
+        "notes": "ADX 24.2, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "REGN_2012-10-18_bullish_sample_007_006",
+      "scenario_id": "REGN_2012-10-18",
+      "window_type": "bullish_sample_007",
+      "chronological_index": 6,
+      "state_id": "bullish_sample_007_state_006",
+      "time_spot": "2012-10-25",
+      "reference_session": "2012-10-25",
+      "question": "Session summary for October 25, 2012: REGN opened $163.44, ranged $153.55-$164.18, closed $154.57. Volume 1.0M (1.29x 20-day avg). 20-day $156.17 | 50-day $149.47. 5-day return -3.42%. ATR-14 $5.97. RSI 47.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2012-10-25",
+        "open": 163.44,
+        "high": 164.18,
+        "low": 153.55,
+        "close": 154.57,
+        "volume": 989700,
+        "ma20": 156.17,
+        "ma50": 149.47,
+        "volume_vs_20d": 1.29,
+        "atr14": 5.97,
+        "chg_5d_pct": -3.42
+      },
+      "weekly_snapshot": {
+        "ticker": "REGN",
+        "week_start": "2012-10-22",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 47.0,
+        "price_vs_sma50": 1.034,
+        "notes": "ADX 21.9, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "REGN_2012-10-18_bullish_sample_007_007",
+      "scenario_id": "REGN_2012-10-18",
+      "window_type": "bullish_sample_007",
+      "chronological_index": 7,
+      "state_id": "bullish_sample_007_state_007",
+      "time_spot": "2012-10-26",
+      "reference_session": "2012-10-26",
+      "question": "Session summary for October 26, 2012: REGN opened $155.75, ranged $145.60-$155.93, closed $148.61. Volume 0.9M (1.20x 20-day avg). 20-day $156.01 | 50-day $149.70. 5-day return -5.68%. ATR-14 $6.36. RSI 45.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2012-10-26",
+        "open": 155.75,
+        "high": 155.93,
+        "low": 145.6,
+        "close": 148.61,
+        "volume": 927300,
+        "ma20": 156.01,
+        "ma50": 149.7,
+        "volume_vs_20d": 1.2,
+        "atr14": 6.36,
+        "chg_5d_pct": -5.68
+      },
+      "weekly_snapshot": {
+        "ticker": "REGN",
+        "week_start": "2012-10-22",
+        "trend_regime": "rangebound",
+        "volatility_regime": "high",
+        "rsi_14": 45.3,
+        "price_vs_sma50": 0.993,
+        "notes": "ADX 20.2, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "REGN_2012-10-18_bullish_sample_007_008",
+      "scenario_id": "REGN_2012-10-18",
+      "window_type": "bullish_sample_007",
+      "chronological_index": 8,
+      "state_id": "bullish_sample_007_state_008",
+      "time_spot": "2012-10-31",
+      "reference_session": "2012-10-31",
+      "question": "Session summary for October 31, 2012: REGN opened $148.89, ranged $140.97-$149.06, closed $141.69. Volume 1.0M (1.26x 20-day avg). 20-day $155.40 | 50-day $149.79. 5-day return -12.67%. ATR-14 $6.65. RSI 42.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2012-10-31",
+        "open": 148.89,
+        "high": 149.06,
+        "low": 140.97,
+        "close": 141.69,
+        "volume": 974800,
+        "ma20": 155.4,
+        "ma50": 149.79,
+        "volume_vs_20d": 1.26,
+        "atr14": 6.65,
+        "chg_5d_pct": -12.67
+      },
+      "weekly_snapshot": {
+        "ticker": "REGN",
+        "week_start": "2012-10-29",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 42.6,
+        "price_vs_sma50": 0.946,
+        "notes": "ADX 19.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "REGN_2012-10-18_bullish_sample_007_009",
+      "scenario_id": "REGN_2012-10-18",
+      "window_type": "bullish_sample_007",
+      "chronological_index": 9,
+      "state_id": "bullish_sample_007_state_009",
+      "time_spot": "2012-11-01",
+      "reference_session": "2012-11-01",
+      "question": "Session summary for November 01, 2012: REGN opened $143.88, ranged $142.59-$149.06, closed $145.75. Volume 0.8M (1.07x 20-day avg). 20-day $154.87 | 50-day $149.99. 5-day return -4.33%. ATR-14 $6.91. RSI 45.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2012-11-01",
+        "open": 143.88,
+        "high": 149.06,
+        "low": 142.59,
+        "close": 145.75,
+        "volume": 849400,
+        "ma20": 154.87,
+        "ma50": 149.99,
+        "volume_vs_20d": 1.07,
+        "atr14": 6.91,
+        "chg_5d_pct": -4.33
+      },
+      "weekly_snapshot": {
+        "ticker": "REGN",
+        "week_start": "2012-10-29",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 45.6,
+        "price_vs_sma50": 0.972,
+        "notes": "ADX 18.4, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "REGN_2012-10-18_bullish_sample_007_010",
+      "scenario_id": "REGN_2012-10-18",
+      "window_type": "bullish_sample_007",
+      "chronological_index": 10,
+      "state_id": "bullish_sample_007_state_010",
+      "time_spot": "2012-11-02",
+      "reference_session": "2012-11-02",
+      "question": "Session summary for November 02, 2012: REGN opened $146.63, ranged $140.75-$146.63, closed $142.89. Volume 0.7M (0.85x 20-day avg). 20-day $154.15 | 50-day $150.16. 5-day return -11.80%. ATR-14 $7.10. RSI 43.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2012-11-02",
+        "open": 146.63,
+        "high": 146.63,
+        "low": 140.75,
+        "close": 142.89,
+        "volume": 682900,
+        "ma20": 154.15,
+        "ma50": 150.16,
+        "volume_vs_20d": 0.85,
+        "atr14": 7.1,
+        "chg_5d_pct": -11.8
+      },
+      "weekly_snapshot": {
+        "ticker": "REGN",
+        "week_start": "2012-10-29",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 43.1,
+        "price_vs_sma50": 0.952,
+        "notes": "ADX 17.8, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "REGN_2012-10-18_bullish_sample_007_011",
+      "scenario_id": "REGN_2012-10-18",
+      "window_type": "bullish_sample_007",
+      "chronological_index": 11,
+      "state_id": "bullish_sample_007_state_011",
+      "time_spot": "2012-11-05",
+      "reference_session": "2012-11-05",
+      "question": "Session summary for November 05, 2012: REGN opened $144.80, ranged $140.68-$145.34, closed $144.23. Volume 0.5M (0.61x 20-day avg). 20-day $153.33 | 50-day $150.29. 5-day return -6.69%. ATR-14 $7.12. RSI 45.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2012-11-05",
+        "open": 144.8,
+        "high": 145.34,
+        "low": 140.68,
+        "close": 144.23,
+        "volume": 477500,
+        "ma20": 153.33,
+        "ma50": 150.29,
+        "volume_vs_20d": 0.61,
+        "atr14": 7.12,
+        "chg_5d_pct": -6.69
+      },
+      "weekly_snapshot": {
+        "ticker": "REGN",
+        "week_start": "2012-11-05",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 45.9,
+        "price_vs_sma50": 0.96,
+        "notes": "ADX 16.7, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "REGN_2012-10-18_bullish_sample_007_012",
+      "scenario_id": "REGN_2012-10-18",
+      "window_type": "bullish_sample_007",
+      "chronological_index": 12,
+      "state_id": "bullish_sample_007_state_012",
+      "time_spot": "2012-11-06",
+      "reference_session": "2012-11-06",
+      "question": "Session summary for November 06, 2012: REGN opened $144.38, ranged $141.44-$144.38, closed $143.77. Volume 0.5M (0.64x 20-day avg). 20-day $152.60 | 50-day $150.32. 5-day return -3.26%. ATR-14 $7.02. RSI 42.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2012-11-06",
+        "open": 144.38,
+        "high": 144.38,
+        "low": 141.44,
+        "close": 143.77,
+        "volume": 486400,
+        "ma20": 152.6,
+        "ma50": 150.32,
+        "volume_vs_20d": 0.64,
+        "atr14": 7.02,
+        "chg_5d_pct": -3.26
+      },
+      "weekly_snapshot": {
+        "ticker": "REGN",
+        "week_start": "2012-11-05",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 42.7,
+        "price_vs_sma50": 0.956,
+        "notes": "ADX 16.0, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "REGN_2012-10-18_bullish_sample_007_013",
+      "scenario_id": "REGN_2012-10-18",
+      "window_type": "bullish_sample_007",
+      "chronological_index": 13,
+      "state_id": "bullish_sample_007_state_013",
+      "time_spot": "2012-11-07",
+      "reference_session": "2012-11-07",
+      "question": "Session summary for November 07, 2012: REGN opened $142.22, ranged $135.92-$143.70, closed $137.64. Volume 1.0M (1.32x 20-day avg). 20-day $151.75 | 50-day $150.18. 5-day return -2.86%. ATR-14 $7.32. RSI 36.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2012-11-07",
+        "open": 142.22,
+        "high": 143.7,
+        "low": 135.92,
+        "close": 137.64,
+        "volume": 1043200,
+        "ma20": 151.75,
+        "ma50": 150.18,
+        "volume_vs_20d": 1.32,
+        "atr14": 7.32,
+        "chg_5d_pct": -2.86
+      },
+      "weekly_snapshot": {
+        "ticker": "REGN",
+        "week_start": "2012-11-05",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 36.3,
+        "price_vs_sma50": 0.916,
+        "notes": "ADX 15.7, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "REGN_2012-10-18_bullish_sample_007_014",
+      "scenario_id": "REGN_2012-10-18",
+      "window_type": "bullish_sample_007",
+      "chronological_index": 14,
+      "state_id": "bullish_sample_007_state_014",
+      "time_spot": "2012-11-08",
+      "reference_session": "2012-11-08",
+      "question": "Session summary for November 08, 2012: REGN opened $137.69, ranged $137.03-$140.72, closed $137.07. Volume 0.6M (0.79x 20-day avg). 20-day $151.01 | 50-day $150.03. 5-day return -5.95%. ATR-14 $6.98. RSI 29.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2012-11-08",
+        "open": 137.69,
+        "high": 140.72,
+        "low": 137.03,
+        "close": 137.07,
+        "volume": 637000,
+        "ma20": 151.01,
+        "ma50": 150.03,
+        "volume_vs_20d": 0.79,
+        "atr14": 6.98,
+        "chg_5d_pct": -5.95
+      },
+      "weekly_snapshot": {
+        "ticker": "REGN",
+        "week_start": "2012-11-05",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 29.9,
+        "price_vs_sma50": 0.914,
+        "notes": "ADX 17.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "REGN_2012-10-18_bullish_sample_007_015",
+      "scenario_id": "REGN_2012-10-18",
+      "window_type": "bullish_sample_007",
+      "chronological_index": 15,
+      "state_id": "bullish_sample_007_state_015",
+      "time_spot": "2012-11-09",
+      "reference_session": "2012-11-09",
+      "question": "Session summary for November 09, 2012: REGN opened $136.25, ranged $135.55-$142.37, closed $140.14. Volume 0.5M (0.61x 20-day avg). 20-day $150.41 | 50-day $149.91. 5-day return -1.92%. ATR-14 $7.13. RSI 34.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2012-11-09",
+        "open": 136.25,
+        "high": 142.37,
+        "low": 135.55,
+        "close": 140.14,
+        "volume": 493100,
+        "ma20": 150.41,
+        "ma50": 149.91,
+        "volume_vs_20d": 0.61,
+        "atr14": 7.13,
+        "chg_5d_pct": -1.92
+      },
+      "weekly_snapshot": {
+        "ticker": "REGN",
+        "week_start": "2012-11-05",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 34.8,
+        "price_vs_sma50": 0.935,
+        "notes": "ADX 18.5, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "REGN_2012-10-18_bullish_sample_007_016",
+      "scenario_id": "REGN_2012-10-18",
+      "window_type": "bullish_sample_007",
+      "chronological_index": 16,
+      "state_id": "bullish_sample_007_state_016",
+      "time_spot": "2012-11-12",
+      "reference_session": "2012-11-12",
+      "question": "Session summary for November 12, 2012: REGN opened $142.02, ranged $141.63-$145.61, closed $144.28. Volume 0.5M (0.64x 20-day avg). 20-day $149.98 | 50-day $149.89. 5-day return +0.03%. ATR-14 $7.21. RSI 40.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2012-11-12",
+        "open": 142.02,
+        "high": 145.61,
+        "low": 141.63,
+        "close": 144.28,
+        "volume": 508400,
+        "ma20": 149.98,
+        "ma50": 149.89,
+        "volume_vs_20d": 0.64,
+        "atr14": 7.21,
+        "chg_5d_pct": 0.03
+      },
+      "weekly_snapshot": {
+        "ticker": "REGN",
+        "week_start": "2012-11-12",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 40.1,
+        "price_vs_sma50": 0.963,
+        "notes": "ADX 19.6, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "REGN_2012-10-18_bullish_sample_007_017",
+      "scenario_id": "REGN_2012-10-18",
+      "window_type": "bullish_sample_007",
+      "chronological_index": 17,
+      "state_id": "bullish_sample_007_state_017",
+      "time_spot": "2012-11-13",
+      "reference_session": "2012-11-13",
+      "question": "Session summary for November 13, 2012: REGN opened $144.42, ranged $143.59-$148.34, closed $147.45. Volume 0.5M (0.68x 20-day avg). 20-day $149.84 | 50-day $149.95. 5-day return +2.56%. ATR-14 $7.10. RSI 38.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2012-11-13",
+        "open": 144.42,
+        "high": 148.34,
+        "low": 143.59,
+        "close": 147.45,
+        "volume": 544400,
+        "ma20": 149.84,
+        "ma50": 149.95,
+        "volume_vs_20d": 0.68,
+        "atr14": 7.1,
+        "chg_5d_pct": 2.56
+      },
+      "weekly_snapshot": {
+        "ticker": "REGN",
+        "week_start": "2012-11-12",
+        "trend_regime": "rangebound",
+        "volatility_regime": "high",
+        "rsi_14": 38.7,
+        "price_vs_sma50": 0.983,
+        "notes": "ADX 20.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "REGN_2012-10-18_bullish_sample_007_018",
+      "scenario_id": "REGN_2012-10-18",
+      "window_type": "bullish_sample_007",
+      "chronological_index": 18,
+      "state_id": "bullish_sample_007_state_018",
+      "time_spot": "2012-11-14",
+      "reference_session": "2012-11-14",
+      "question": "Session summary for November 14, 2012: REGN opened $149.11, ranged $145.38-$149.32, closed $146.92. Volume 0.7M (0.87x 20-day avg). 20-day $149.50 | 50-day $149.94. 5-day return +6.74%. ATR-14 $6.65. RSI 45.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2012-11-14",
+        "open": 149.11,
+        "high": 149.32,
+        "low": 145.38,
+        "close": 146.92,
+        "volume": 696800,
+        "ma20": 149.5,
+        "ma50": 149.94,
+        "volume_vs_20d": 0.87,
+        "atr14": 6.65,
+        "chg_5d_pct": 6.74
+      },
+      "weekly_snapshot": {
+        "ticker": "REGN",
+        "week_start": "2012-11-12",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 45.2,
+        "price_vs_sma50": 0.98,
+        "notes": "ADX 21.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "REGN_2012-10-18_bullish_sample_007_019",
+      "scenario_id": "REGN_2012-10-18",
+      "window_type": "bullish_sample_007",
+      "chronological_index": 19,
+      "state_id": "bullish_sample_007_state_019",
+      "time_spot": "2012-11-15",
+      "reference_session": "2012-11-15",
+      "question": "Session summary for November 15, 2012: REGN opened $146.22, ranged $140.61-$146.93, closed $141.86. Volume 0.9M (1.14x 20-day avg). 20-day $148.73 | 50-day $149.78. 5-day return +3.49%. ATR-14 $6.34. RSI 30.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2012-11-15",
+        "open": 146.22,
+        "high": 146.93,
+        "low": 140.61,
+        "close": 141.86,
+        "volume": 939900,
+        "ma20": 148.73,
+        "ma50": 149.78,
+        "volume_vs_20d": 1.14,
+        "atr14": 6.34,
+        "chg_5d_pct": 3.49
+      },
+      "weekly_snapshot": {
+        "ticker": "REGN",
+        "week_start": "2012-11-12",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 30.5,
+        "price_vs_sma50": 0.947,
+        "notes": "ADX 24.2, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "REGN_2012-10-18_bullish_sample_007_020",
+      "scenario_id": "REGN_2012-10-18",
+      "window_type": "bullish_sample_007",
+      "chronological_index": 20,
+      "state_id": "bullish_sample_007_state_020",
+      "time_spot": "2012-11-16",
+      "reference_session": "2012-11-16",
+      "question": "Session summary for November 16, 2012: REGN opened $142.40, ranged $140.41-$159.32, closed $157.02. Volume 1.7M (1.94x 20-day avg). 20-day $148.40 | 50-day $149.95. 5-day return +12.04%. ATR-14 $6.93. RSI 52.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2012-11-16",
+        "open": 142.4,
+        "high": 159.32,
+        "low": 140.41,
+        "close": 157.02,
+        "volume": 1654200,
+        "ma20": 148.4,
+        "ma50": 149.95,
+        "volume_vs_20d": 1.94,
+        "atr14": 6.93,
+        "chg_5d_pct": 12.04
+      },
+      "weekly_snapshot": {
+        "ticker": "REGN",
+        "week_start": "2012-11-12",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 52.1,
+        "price_vs_sma50": 1.047,
+        "notes": "ADX 24.5, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "REGN_2012-10-18_bullish_sample_007_021",
+      "scenario_id": "REGN_2012-10-18",
+      "window_type": "bullish_sample_007",
+      "chronological_index": 21,
+      "state_id": "bullish_sample_007_state_021",
+      "time_spot": "2012-11-19",
+      "reference_session": "2012-11-19",
+      "question": "Session summary for November 19, 2012: REGN opened $157.01, ranged $156.01-$160.56, closed $159.76. Volume 0.8M (0.92x 20-day avg). 20-day $148.39 | 50-day $150.11. 5-day return +10.72%. ATR-14 $6.52. RSI 59.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2012-11-19",
+        "open": 157.01,
+        "high": 160.56,
+        "low": 156.01,
+        "close": 159.76,
+        "volume": 796100,
+        "ma20": 148.39,
+        "ma50": 150.11,
+        "volume_vs_20d": 0.92,
+        "atr14": 6.52,
+        "chg_5d_pct": 10.72
+      },
+      "weekly_snapshot": {
+        "ticker": "REGN",
+        "week_start": "2012-11-19",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 59.9,
+        "price_vs_sma50": 1.064,
+        "notes": "ADX 25.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "REGN_2012-10-18_bullish_sample_007_022",
+      "scenario_id": "REGN_2012-10-18",
+      "window_type": "bullish_sample_007",
+      "chronological_index": 22,
+      "state_id": "bullish_sample_007_state_022",
+      "time_spot": "2012-11-20",
+      "reference_session": "2012-11-20",
+      "question": "Session summary for November 20, 2012: REGN opened $159.18, ranged $159.05-$173.85, closed $172.13. Volume 1.9M (2.06x 20-day avg). 20-day $149.12 | 50-day $150.51. 5-day return +16.74%. ATR-14 $7.00. RSI 74.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2012-11-20",
+        "open": 159.18,
+        "high": 173.85,
+        "low": 159.05,
+        "close": 172.13,
+        "volume": 1909100,
+        "ma20": 149.12,
+        "ma50": 150.51,
+        "volume_vs_20d": 2.06,
+        "atr14": 7.0,
+        "chg_5d_pct": 16.74
+      },
+      "weekly_snapshot": {
+        "ticker": "REGN",
+        "week_start": "2012-11-19",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 74.7,
+        "price_vs_sma50": 1.144,
+        "notes": "ADX 28.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "REGN_2012-10-18_bullish_sample_007_023",
+      "scenario_id": "REGN_2012-10-18",
+      "window_type": "bullish_sample_007",
+      "chronological_index": 23,
+      "state_id": "bullish_sample_007_state_023",
+      "time_spot": "2012-11-21",
+      "reference_session": "2012-11-21",
+      "question": "Session summary for November 21, 2012: REGN opened $171.27, ranged $170.77-$175.40, closed $173.80. Volume 0.9M (0.96x 20-day avg). 20-day $149.70 | 50-day $150.99. 5-day return +18.30%. ATR-14 $6.80. RSI 73.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2012-11-21",
+        "open": 171.27,
+        "high": 175.4,
+        "low": 170.77,
+        "close": 173.8,
+        "volume": 893900,
+        "ma20": 149.7,
+        "ma50": 150.99,
+        "volume_vs_20d": 0.96,
+        "atr14": 6.8,
+        "chg_5d_pct": 18.3
+      },
+      "weekly_snapshot": {
+        "ticker": "REGN",
+        "week_start": "2012-11-19",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 73.7,
+        "price_vs_sma50": 1.151,
+        "notes": "ADX 31.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "REGN_2012-10-18_bullish_sample_007_024",
+      "scenario_id": "REGN_2012-10-18",
+      "window_type": "bullish_sample_007",
+      "chronological_index": 24,
+      "state_id": "bullish_sample_007_state_024",
+      "time_spot": "2012-11-23",
+      "reference_session": "2012-11-23",
+      "question": "Session summary for November 23, 2012: REGN opened $174.25, ranged $172.76-$175.75, closed $175.33. Volume 0.3M (0.34x 20-day avg). 20-day $150.85 | 50-day $151.54. 5-day return +23.59%. ATR-14 $6.59. RSI 78.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2012-11-23",
+        "open": 174.25,
+        "high": 175.75,
+        "low": 172.76,
+        "close": 175.33,
+        "volume": 300500,
+        "ma20": 150.85,
+        "ma50": 151.54,
+        "volume_vs_20d": 0.34,
+        "atr14": 6.59,
+        "chg_5d_pct": 23.59
+      },
+      "weekly_snapshot": {
+        "ticker": "REGN",
+        "week_start": "2012-11-19",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 78.0,
+        "price_vs_sma50": 1.157,
+        "notes": "ADX 34.4, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "REGN_2012-10-18_bullish_sample_007_025",
+      "scenario_id": "REGN_2012-10-18",
+      "window_type": "bullish_sample_007",
+      "chronological_index": 25,
+      "state_id": "bullish_sample_007_state_025",
+      "time_spot": "2012-11-26",
+      "reference_session": "2012-11-26",
+      "question": "Session summary for November 26, 2012: REGN opened $174.13, ranged $170.00-$175.16, closed $173.65. Volume 0.8M (0.98x 20-day avg). 20-day $151.43 | 50-day $152.11. 5-day return +10.59%. ATR-14 $6.64. RSI 75.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2012-11-26",
+        "open": 174.13,
+        "high": 175.16,
+        "low": 170.0,
+        "close": 173.65,
+        "volume": 816600,
+        "ma20": 151.43,
+        "ma50": 152.11,
+        "volume_vs_20d": 0.98,
+        "atr14": 6.64,
+        "chg_5d_pct": 10.59
+      },
+      "weekly_snapshot": {
+        "ticker": "REGN",
+        "week_start": "2012-11-26",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 75.2,
+        "price_vs_sma50": 1.142,
+        "notes": "ADX 37.2, MACD bullish"
+      }
+    }
+  ]
+}

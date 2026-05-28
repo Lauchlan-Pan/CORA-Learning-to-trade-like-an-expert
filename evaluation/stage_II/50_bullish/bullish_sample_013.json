@@ -1,0 +1,2898 @@
+{
+  "metadata": {
+    "instrument": "AEP",
+    "initial_capital": 10000,
+    "window_type": "bullish_sample_013",
+    "description": "AEP window (2020-09-22 \u2013 2020-10-26) - bullish regime.",
+    "num_mcqs": 25,
+    "notes": "Orders express target exposure fractions relative to the leverage ceiling.",
+    "max_leverage": 2.5,
+    "exposure_buckets": [
+      0.8,
+      0.6,
+      0.4,
+      0.2
+    ],
+    "start_reference": "2020-09-22",
+    "end_reference": "2020-10-26",
+    "regime": "bullish",
+    "bh_return": 17.21
+  },
+  "mcqs": [
+    {
+      "scenario_instance_id": "AEP_2020-09-22_bullish_sample_013_001",
+      "scenario_id": "AEP_2020-09-22",
+      "window_type": "bullish_sample_013",
+      "chronological_index": 1,
+      "state_id": "bullish_sample_013_state_001",
+      "time_spot": "2020-09-22",
+      "reference_session": "2020-09-22",
+      "question": "Session summary for September 22, 2020: AEP opened $65.74, ranged $65.63-$67.14, closed $66.47. Volume 1.8M (0.74x 20-day avg). 20-day $66.01 | 50-day $68.48. 5-day return -0.19%. ATR-14 $1.53. RSI 58.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-09-22",
+        "open": 65.74,
+        "high": 67.14,
+        "low": 65.63,
+        "close": 66.47,
+        "volume": 1773700,
+        "ma20": 66.01,
+        "ma50": 68.48,
+        "volume_vs_20d": 0.74,
+        "atr14": 1.53,
+        "chg_5d_pct": -0.19
+      },
+      "weekly_snapshot": {
+        "ticker": "AEP",
+        "week_start": "2020-09-21",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 58.8,
+        "price_vs_sma50": 0.971,
+        "notes": "ADX 22.9, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEP_2020-09-22_bullish_sample_013_002",
+      "scenario_id": "AEP_2020-09-22",
+      "window_type": "bullish_sample_013",
+      "chronological_index": 2,
+      "state_id": "bullish_sample_013_state_002",
+      "time_spot": "2020-09-23",
+      "reference_session": "2020-09-23",
+      "question": "Session summary for September 23, 2020: AEP opened $66.46, ranged $65.71-$66.74, closed $65.91. Volume 3.4M (1.37x 20-day avg). 20-day $65.99 | 50-day $68.39. 5-day return -1.59%. ATR-14 $1.43. RSI 44.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-09-23",
+        "open": 66.46,
+        "high": 66.74,
+        "low": 65.71,
+        "close": 65.91,
+        "volume": 3406000,
+        "ma20": 65.99,
+        "ma50": 68.39,
+        "volume_vs_20d": 1.37,
+        "atr14": 1.43,
+        "chg_5d_pct": -1.59
+      },
+      "weekly_snapshot": {
+        "ticker": "AEP",
+        "week_start": "2020-09-21",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 44.2,
+        "price_vs_sma50": 0.964,
+        "notes": "ADX 22.5, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEP_2020-09-22_bullish_sample_013_003",
+      "scenario_id": "AEP_2020-09-22",
+      "window_type": "bullish_sample_013",
+      "chronological_index": 3,
+      "state_id": "bullish_sample_013_state_003",
+      "time_spot": "2020-09-24",
+      "reference_session": "2020-09-24",
+      "question": "Session summary for September 24, 2020: AEP opened $65.87, ranged $65.41-$67.07, closed $67.00. Volume 3.6M (1.40x 20-day avg). 20-day $66.07 | 50-day $68.33. 5-day return +0.56%. ATR-14 $1.40. RSI 54.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-09-24",
+        "open": 65.87,
+        "high": 67.07,
+        "low": 65.41,
+        "close": 67.0,
+        "volume": 3551500,
+        "ma20": 66.07,
+        "ma50": 68.33,
+        "volume_vs_20d": 1.4,
+        "atr14": 1.4,
+        "chg_5d_pct": 0.56
+      },
+      "weekly_snapshot": {
+        "ticker": "AEP",
+        "week_start": "2020-09-21",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 54.5,
+        "price_vs_sma50": 0.981,
+        "notes": "ADX 22.4, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEP_2020-09-22_bullish_sample_013_004",
+      "scenario_id": "AEP_2020-09-22",
+      "window_type": "bullish_sample_013",
+      "chronological_index": 4,
+      "state_id": "bullish_sample_013_state_004",
+      "time_spot": "2020-09-25",
+      "reference_session": "2020-09-25",
+      "question": "Session summary for September 25, 2020: AEP opened $66.85, ranged $66.44-$67.34, closed $67.14. Volume 3.3M (1.25x 20-day avg). 20-day $66.16 | 50-day $68.27. 5-day return +2.37%. ATR-14 $1.34. RSI 58.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-09-25",
+        "open": 66.85,
+        "high": 67.34,
+        "low": 66.44,
+        "close": 67.14,
+        "volume": 3252500,
+        "ma20": 66.16,
+        "ma50": 68.27,
+        "volume_vs_20d": 1.25,
+        "atr14": 1.34,
+        "chg_5d_pct": 2.37
+      },
+      "weekly_snapshot": {
+        "ticker": "AEP",
+        "week_start": "2020-09-21",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 58.1,
+        "price_vs_sma50": 0.983,
+        "notes": "ADX 23.7, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEP_2020-09-22_bullish_sample_013_005",
+      "scenario_id": "AEP_2020-09-22",
+      "window_type": "bullish_sample_013",
+      "chronological_index": 5,
+      "state_id": "bullish_sample_013_state_005",
+      "time_spot": "2020-09-28",
+      "reference_session": "2020-09-28",
+      "question": "Session summary for September 28, 2020: AEP opened $67.48, ranged $66.98-$67.87, closed $67.14. Volume 1.7M (0.67x 20-day avg). 20-day $66.26 | 50-day $68.16. 5-day return +1.63%. ATR-14 $1.31. RSI 58.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-09-28",
+        "open": 67.48,
+        "high": 67.87,
+        "low": 66.98,
+        "close": 67.14,
+        "volume": 1707900,
+        "ma20": 66.26,
+        "ma50": 68.16,
+        "volume_vs_20d": 0.67,
+        "atr14": 1.31,
+        "chg_5d_pct": 1.63
+      },
+      "weekly_snapshot": {
+        "ticker": "AEP",
+        "week_start": "2020-09-28",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 58.5,
+        "price_vs_sma50": 0.985,
+        "notes": "ADX 26.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEP_2020-09-22_bullish_sample_013_006",
+      "scenario_id": "AEP_2020-09-22",
+      "window_type": "bullish_sample_013",
+      "chronological_index": 6,
+      "state_id": "bullish_sample_013_state_006",
+      "time_spot": "2020-09-29",
+      "reference_session": "2020-09-29",
+      "question": "Session summary for September 29, 2020: AEP opened $67.44, ranged $66.99-$67.89, closed $67.40. Volume 1.7M (0.71x 20-day avg). 20-day $66.35 | 50-day $68.08. 5-day return +1.40%. ATR-14 $1.24. RSI 55.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-09-29",
+        "open": 67.44,
+        "high": 67.89,
+        "low": 66.99,
+        "close": 67.4,
+        "volume": 1688800,
+        "ma20": 66.35,
+        "ma50": 68.08,
+        "volume_vs_20d": 0.71,
+        "atr14": 1.24,
+        "chg_5d_pct": 1.4
+      },
+      "weekly_snapshot": {
+        "ticker": "AEP",
+        "week_start": "2020-09-28",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 55.7,
+        "price_vs_sma50": 0.99,
+        "notes": "ADX 27.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEP_2020-09-22_bullish_sample_013_007",
+      "scenario_id": "AEP_2020-09-22",
+      "window_type": "bullish_sample_013",
+      "chronological_index": 7,
+      "state_id": "bullish_sample_013_state_007",
+      "time_spot": "2020-09-30",
+      "reference_session": "2020-09-30",
+      "question": "Session summary for September 30, 2020: AEP opened $67.88, ranged $67.63-$68.34, closed $68.03. Volume 2.6M (1.11x 20-day avg). 20-day $66.51 | 50-day $68.00. 5-day return +3.22%. ATR-14 $1.21. RSI 68.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-09-30",
+        "open": 67.88,
+        "high": 68.34,
+        "low": 67.63,
+        "close": 68.03,
+        "volume": 2594900,
+        "ma20": 66.51,
+        "ma50": 68.0,
+        "volume_vs_20d": 1.11,
+        "atr14": 1.21,
+        "chg_5d_pct": 3.22
+      },
+      "weekly_snapshot": {
+        "ticker": "AEP",
+        "week_start": "2020-09-28",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 68.7,
+        "price_vs_sma50": 1.001,
+        "notes": "ADX 29.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEP_2020-09-22_bullish_sample_013_008",
+      "scenario_id": "AEP_2020-09-22",
+      "window_type": "bullish_sample_013",
+      "chronological_index": 8,
+      "state_id": "bullish_sample_013_state_008",
+      "time_spot": "2020-10-01",
+      "reference_session": "2020-10-01",
+      "question": "Session summary for October 01, 2020: AEP opened $68.00, ranged $67.68-$69.17, closed $69.14. Volume 2.4M (1.03x 20-day avg). 20-day $66.62 | 50-day $67.90. 5-day return +3.19%. ATR-14 $1.25. RSI 71.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-10-01",
+        "open": 68.0,
+        "high": 69.17,
+        "low": 67.68,
+        "close": 69.14,
+        "volume": 2365600,
+        "ma20": 66.62,
+        "ma50": 67.9,
+        "volume_vs_20d": 1.03,
+        "atr14": 1.25,
+        "chg_5d_pct": 3.19
+      },
+      "weekly_snapshot": {
+        "ticker": "AEP",
+        "week_start": "2020-09-28",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 71.0,
+        "price_vs_sma50": 1.018,
+        "notes": "ADX 31.9, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEP_2020-09-22_bullish_sample_013_009",
+      "scenario_id": "AEP_2020-09-22",
+      "window_type": "bullish_sample_013",
+      "chronological_index": 9,
+      "state_id": "bullish_sample_013_state_009",
+      "time_spot": "2020-10-02",
+      "reference_session": "2020-10-02",
+      "question": "Session summary for October 02, 2020: AEP opened $68.87, ranged $68.44-$71.26, closed $71.01. Volume 3.9M (1.63x 20-day avg). 20-day $66.86 | 50-day $67.86. 5-day return +5.77%. ATR-14 $1.34. RSI 74.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-10-02",
+        "open": 68.87,
+        "high": 71.26,
+        "low": 68.44,
+        "close": 71.01,
+        "volume": 3883000,
+        "ma20": 66.86,
+        "ma50": 67.86,
+        "volume_vs_20d": 1.63,
+        "atr14": 1.34,
+        "chg_5d_pct": 5.77
+      },
+      "weekly_snapshot": {
+        "ticker": "AEP",
+        "week_start": "2020-09-28",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 74.0,
+        "price_vs_sma50": 1.046,
+        "notes": "ADX 34.2, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEP_2020-09-22_bullish_sample_013_010",
+      "scenario_id": "AEP_2020-09-22",
+      "window_type": "bullish_sample_013",
+      "chronological_index": 10,
+      "state_id": "bullish_sample_013_state_010",
+      "time_spot": "2020-10-05",
+      "reference_session": "2020-10-05",
+      "question": "Session summary for October 05, 2020: AEP opened $70.96, ranged $70.13-$72.70, closed $72.46. Volume 3.4M (1.37x 20-day avg). 20-day $67.20 | 50-day $67.85. 5-day return +7.94%. ATR-14 $1.41. RSI 80.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-10-05",
+        "open": 70.96,
+        "high": 72.7,
+        "low": 70.13,
+        "close": 72.46,
+        "volume": 3397300,
+        "ma20": 67.2,
+        "ma50": 67.85,
+        "volume_vs_20d": 1.37,
+        "atr14": 1.41,
+        "chg_5d_pct": 7.94
+      },
+      "weekly_snapshot": {
+        "ticker": "AEP",
+        "week_start": "2020-10-05",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 80.0,
+        "price_vs_sma50": 1.068,
+        "notes": "ADX 36.8, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEP_2020-09-22_bullish_sample_013_011",
+      "scenario_id": "AEP_2020-09-22",
+      "window_type": "bullish_sample_013",
+      "chronological_index": 11,
+      "state_id": "bullish_sample_013_state_011",
+      "time_spot": "2020-10-06",
+      "reference_session": "2020-10-06",
+      "question": "Session summary for October 06, 2020: AEP opened $72.11, ranged $71.89-$74.65, closed $73.61. Volume 4.4M (1.68x 20-day avg). 20-day $67.59 | 50-day $67.95. 5-day return +9.21%. ATR-14 $1.52. RSI 81.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-10-06",
+        "open": 72.11,
+        "high": 74.65,
+        "low": 71.89,
+        "close": 73.61,
+        "volume": 4369600,
+        "ma20": 67.59,
+        "ma50": 67.95,
+        "volume_vs_20d": 1.68,
+        "atr14": 1.52,
+        "chg_5d_pct": 9.21
+      },
+      "weekly_snapshot": {
+        "ticker": "AEP",
+        "week_start": "2020-10-05",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 81.5,
+        "price_vs_sma50": 1.083,
+        "notes": "ADX 38.9, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEP_2020-09-22_bullish_sample_013_012",
+      "scenario_id": "AEP_2020-09-22",
+      "window_type": "bullish_sample_013",
+      "chronological_index": 12,
+      "state_id": "bullish_sample_013_state_012",
+      "time_spot": "2020-10-07",
+      "reference_session": "2020-10-07",
+      "question": "Session summary for October 07, 2020: AEP opened $73.92, ranged $73.33-$74.63, closed $73.76. Volume 2.3M (0.87x 20-day avg). 20-day $67.95 | 50-day $68.03. 5-day return +8.42%. ATR-14 $1.53. RSI 84.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-10-07",
+        "open": 73.92,
+        "high": 74.63,
+        "low": 73.33,
+        "close": 73.76,
+        "volume": 2257000,
+        "ma20": 67.95,
+        "ma50": 68.03,
+        "volume_vs_20d": 0.87,
+        "atr14": 1.53,
+        "chg_5d_pct": 8.42
+      },
+      "weekly_snapshot": {
+        "ticker": "AEP",
+        "week_start": "2020-10-05",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 84.5,
+        "price_vs_sma50": 1.084,
+        "notes": "ADX 41.9, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEP_2020-09-22_bullish_sample_013_013",
+      "scenario_id": "AEP_2020-09-22",
+      "window_type": "bullish_sample_013",
+      "chronological_index": 13,
+      "state_id": "bullish_sample_013_state_013",
+      "time_spot": "2020-10-08",
+      "reference_session": "2020-10-08",
+      "question": "Session summary for October 08, 2020: AEP opened $74.03, ranged $73.56-$74.77, closed $74.40. Volume 1.6M (0.63x 20-day avg). 20-day $68.40 | 50-day $68.12. 5-day return +7.61%. ATR-14 $1.53. RSI 94.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-10-08",
+        "open": 74.03,
+        "high": 74.77,
+        "low": 73.56,
+        "close": 74.4,
+        "volume": 1626200,
+        "ma20": 68.4,
+        "ma50": 68.12,
+        "volume_vs_20d": 0.63,
+        "atr14": 1.53,
+        "chg_5d_pct": 7.61
+      },
+      "weekly_snapshot": {
+        "ticker": "AEP",
+        "week_start": "2020-10-05",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 94.4,
+        "price_vs_sma50": 1.092,
+        "notes": "ADX 45.4, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEP_2020-09-22_bullish_sample_013_014",
+      "scenario_id": "AEP_2020-09-22",
+      "window_type": "bullish_sample_013",
+      "chronological_index": 14,
+      "state_id": "bullish_sample_013_state_014",
+      "time_spot": "2020-10-09",
+      "reference_session": "2020-10-09",
+      "question": "Session summary for October 09, 2020: AEP opened $74.88, ranged $73.72-$74.88, closed $74.77. Volume 2.7M (1.05x 20-day avg). 20-day $68.85 | 50-day $68.19. 5-day return +5.30%. ATR-14 $1.51. RSI 94.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-10-09",
+        "open": 74.88,
+        "high": 74.88,
+        "low": 73.72,
+        "close": 74.77,
+        "volume": 2734600,
+        "ma20": 68.85,
+        "ma50": 68.19,
+        "volume_vs_20d": 1.05,
+        "atr14": 1.51,
+        "chg_5d_pct": 5.3
+      },
+      "weekly_snapshot": {
+        "ticker": "AEP",
+        "week_start": "2020-10-05",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 94.3,
+        "price_vs_sma50": 1.096,
+        "notes": "ADX 51.2, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEP_2020-09-22_bullish_sample_013_015",
+      "scenario_id": "AEP_2020-09-22",
+      "window_type": "bullish_sample_013",
+      "chronological_index": 15,
+      "state_id": "bullish_sample_013_state_015",
+      "time_spot": "2020-10-12",
+      "reference_session": "2020-10-12",
+      "question": "Session summary for October 12, 2020: AEP opened $74.67, ranged $74.01-$75.97, closed $75.32. Volume 2.3M (0.88x 20-day avg). 20-day $69.27 | 50-day $68.26. 5-day return +3.94%. ATR-14 $1.54. RSI 94.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-10-12",
+        "open": 74.67,
+        "high": 75.97,
+        "low": 74.01,
+        "close": 75.32,
+        "volume": 2301800,
+        "ma20": 69.27,
+        "ma50": 68.26,
+        "volume_vs_20d": 0.88,
+        "atr14": 1.54,
+        "chg_5d_pct": 3.94
+      },
+      "weekly_snapshot": {
+        "ticker": "AEP",
+        "week_start": "2020-10-12",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 94.4,
+        "price_vs_sma50": 1.103,
+        "notes": "ADX 56.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEP_2020-09-22_bullish_sample_013_016",
+      "scenario_id": "AEP_2020-09-22",
+      "window_type": "bullish_sample_013",
+      "chronological_index": 16,
+      "state_id": "bullish_sample_013_state_016",
+      "time_spot": "2020-10-13",
+      "reference_session": "2020-10-13",
+      "question": "Session summary for October 13, 2020: AEP opened $74.83, ranged $73.62-$74.89, closed $74.28. Volume 3.1M (1.15x 20-day avg). 20-day $69.65 | 50-day $68.33. 5-day return +0.90%. ATR-14 $1.59. RSI 90.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-10-13",
+        "open": 74.83,
+        "high": 74.89,
+        "low": 73.62,
+        "close": 74.28,
+        "volume": 3103100,
+        "ma20": 69.65,
+        "ma50": 68.33,
+        "volume_vs_20d": 1.15,
+        "atr14": 1.59,
+        "chg_5d_pct": 0.9
+      },
+      "weekly_snapshot": {
+        "ticker": "AEP",
+        "week_start": "2020-10-12",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 90.0,
+        "price_vs_sma50": 1.087,
+        "notes": "ADX 61.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEP_2020-09-22_bullish_sample_013_017",
+      "scenario_id": "AEP_2020-09-22",
+      "window_type": "bullish_sample_013",
+      "chronological_index": 17,
+      "state_id": "bullish_sample_013_state_017",
+      "time_spot": "2020-10-14",
+      "reference_session": "2020-10-14",
+      "question": "Session summary for October 14, 2020: AEP opened $74.53, ranged $73.75-$74.96, closed $74.37. Volume 2.3M (0.84x 20-day avg). 20-day $70.02 | 50-day $68.41. 5-day return +0.82%. ATR-14 $1.56. RSI 89.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-10-14",
+        "open": 74.53,
+        "high": 74.96,
+        "low": 73.75,
+        "close": 74.37,
+        "volume": 2283300,
+        "ma20": 70.02,
+        "ma50": 68.41,
+        "volume_vs_20d": 0.84,
+        "atr14": 1.56,
+        "chg_5d_pct": 0.82
+      },
+      "weekly_snapshot": {
+        "ticker": "AEP",
+        "week_start": "2020-10-12",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 89.0,
+        "price_vs_sma50": 1.087,
+        "notes": "ADX 66.7, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEP_2020-09-22_bullish_sample_013_018",
+      "scenario_id": "AEP_2020-09-22",
+      "window_type": "bullish_sample_013",
+      "chronological_index": 18,
+      "state_id": "bullish_sample_013_state_018",
+      "time_spot": "2020-10-15",
+      "reference_session": "2020-10-15",
+      "question": "Session summary for October 15, 2020: AEP opened $73.72, ranged $73.72-$75.44, closed $74.54. Volume 1.7M (0.62x 20-day avg). 20-day $70.42 | 50-day $68.50. 5-day return +0.18%. ATR-14 $1.62. RSI 89.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-10-15",
+        "open": 73.72,
+        "high": 75.44,
+        "low": 73.72,
+        "close": 74.54,
+        "volume": 1674800,
+        "ma20": 70.42,
+        "ma50": 68.5,
+        "volume_vs_20d": 0.62,
+        "atr14": 1.62,
+        "chg_5d_pct": 0.18
+      },
+      "weekly_snapshot": {
+        "ticker": "AEP",
+        "week_start": "2020-10-12",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 89.0,
+        "price_vs_sma50": 1.088,
+        "notes": "ADX 71.2, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEP_2020-09-22_bullish_sample_013_019",
+      "scenario_id": "AEP_2020-09-22",
+      "window_type": "bullish_sample_013",
+      "chronological_index": 19,
+      "state_id": "bullish_sample_013_state_019",
+      "time_spot": "2020-10-16",
+      "reference_session": "2020-10-16",
+      "question": "Session summary for October 16, 2020: AEP opened $74.72, ranged $74.39-$76.33, closed $76.18. Volume 2.0M (0.74x 20-day avg). 20-day $70.95 | 50-day $68.61. 5-day return +1.89%. ATR-14 $1.69. RSI 90.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-10-16",
+        "open": 74.72,
+        "high": 76.33,
+        "low": 74.39,
+        "close": 76.18,
+        "volume": 1966600,
+        "ma20": 70.95,
+        "ma50": 68.61,
+        "volume_vs_20d": 0.74,
+        "atr14": 1.69,
+        "chg_5d_pct": 1.89
+      },
+      "weekly_snapshot": {
+        "ticker": "AEP",
+        "week_start": "2020-10-12",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 90.7,
+        "price_vs_sma50": 1.11,
+        "notes": "ADX 75.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEP_2020-09-22_bullish_sample_013_020",
+      "scenario_id": "AEP_2020-09-22",
+      "window_type": "bullish_sample_013",
+      "chronological_index": 20,
+      "state_id": "bullish_sample_013_state_020",
+      "time_spot": "2020-10-19",
+      "reference_session": "2020-10-19",
+      "question": "Session summary for October 19, 2020: AEP opened $76.11, ranged $75.70-$76.48, closed $75.98. Volume 2.2M (0.85x 20-day avg). 20-day $71.45 | 50-day $68.69. 5-day return +0.88%. ATR-14 $1.68. RSI 88.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-10-19",
+        "open": 76.11,
+        "high": 76.48,
+        "low": 75.7,
+        "close": 75.98,
+        "volume": 2229600,
+        "ma20": 71.45,
+        "ma50": 68.69,
+        "volume_vs_20d": 0.85,
+        "atr14": 1.68,
+        "chg_5d_pct": 0.88
+      },
+      "weekly_snapshot": {
+        "ticker": "AEP",
+        "week_start": "2020-10-19",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 88.8,
+        "price_vs_sma50": 1.106,
+        "notes": "ADX 80.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEP_2020-09-22_bullish_sample_013_021",
+      "scenario_id": "AEP_2020-09-22",
+      "window_type": "bullish_sample_013",
+      "chronological_index": 21,
+      "state_id": "bullish_sample_013_state_021",
+      "time_spot": "2020-10-20",
+      "reference_session": "2020-10-20",
+      "question": "Session summary for October 20, 2020: AEP opened $76.50, ranged $74.94-$76.50, closed $75.48. Volume 3.6M (1.35x 20-day avg). 20-day $71.90 | 50-day $68.77. 5-day return +1.63%. ATR-14 $1.73. RSI 84.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-10-20",
+        "open": 76.5,
+        "high": 76.5,
+        "low": 74.94,
+        "close": 75.48,
+        "volume": 3647000,
+        "ma20": 71.9,
+        "ma50": 68.77,
+        "volume_vs_20d": 1.35,
+        "atr14": 1.73,
+        "chg_5d_pct": 1.63
+      },
+      "weekly_snapshot": {
+        "ticker": "AEP",
+        "week_start": "2020-10-19",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 84.1,
+        "price_vs_sma50": 1.098,
+        "notes": "ADX 82.2, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEP_2020-09-22_bullish_sample_013_022",
+      "scenario_id": "AEP_2020-09-22",
+      "window_type": "bullish_sample_013",
+      "chronological_index": 22,
+      "state_id": "bullish_sample_013_state_022",
+      "time_spot": "2020-10-21",
+      "reference_session": "2020-10-21",
+      "question": "Session summary for October 21, 2020: AEP opened $75.26, ranged $74.99-$76.06, closed $75.25. Volume 2.6M (0.98x 20-day avg). 20-day $72.36 | 50-day $68.89. 5-day return +1.19%. ATR-14 $1.70. RSI 80.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-10-21",
+        "open": 75.26,
+        "high": 76.06,
+        "low": 74.99,
+        "close": 75.25,
+        "volume": 2604500,
+        "ma20": 72.36,
+        "ma50": 68.89,
+        "volume_vs_20d": 0.98,
+        "atr14": 1.7,
+        "chg_5d_pct": 1.19
+      },
+      "weekly_snapshot": {
+        "ticker": "AEP",
+        "week_start": "2020-10-19",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 80.4,
+        "price_vs_sma50": 1.092,
+        "notes": "ADX 83.7, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEP_2020-09-22_bullish_sample_013_023",
+      "scenario_id": "AEP_2020-09-22",
+      "window_type": "bullish_sample_013",
+      "chronological_index": 23,
+      "state_id": "bullish_sample_013_state_023",
+      "time_spot": "2020-10-22",
+      "reference_session": "2020-10-22",
+      "question": "Session summary for October 22, 2020: AEP opened $75.06, ranged $74.74-$77.17, closed $76.75. Volume 3.5M (1.32x 20-day avg). 20-day $72.85 | 50-day $69.02. 5-day return +2.97%. ATR-14 $1.67. RSI 79.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-10-22",
+        "open": 75.06,
+        "high": 77.17,
+        "low": 74.74,
+        "close": 76.75,
+        "volume": 3507900,
+        "ma20": 72.85,
+        "ma50": 69.02,
+        "volume_vs_20d": 1.32,
+        "atr14": 1.67,
+        "chg_5d_pct": 2.97
+      },
+      "weekly_snapshot": {
+        "ticker": "AEP",
+        "week_start": "2020-10-19",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 79.6,
+        "price_vs_sma50": 1.112,
+        "notes": "ADX 84.7, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEP_2020-09-22_bullish_sample_013_024",
+      "scenario_id": "AEP_2020-09-22",
+      "window_type": "bullish_sample_013",
+      "chronological_index": 24,
+      "state_id": "bullish_sample_013_state_024",
+      "time_spot": "2020-10-23",
+      "reference_session": "2020-10-23",
+      "question": "Session summary for October 23, 2020: AEP opened $76.71, ranged $76.18-$76.84, closed $76.48. Volume 3.5M (1.32x 20-day avg). 20-day $73.32 | 50-day $69.16. 5-day return +0.39%. ATR-14 $1.53. RSI 73.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-10-23",
+        "open": 76.71,
+        "high": 76.84,
+        "low": 76.18,
+        "close": 76.48,
+        "volume": 3525700,
+        "ma20": 73.32,
+        "ma50": 69.16,
+        "volume_vs_20d": 1.32,
+        "atr14": 1.53,
+        "chg_5d_pct": 0.39
+      },
+      "weekly_snapshot": {
+        "ticker": "AEP",
+        "week_start": "2020-10-19",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 73.7,
+        "price_vs_sma50": 1.106,
+        "notes": "ADX 85.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEP_2020-09-22_bullish_sample_013_025",
+      "scenario_id": "AEP_2020-09-22",
+      "window_type": "bullish_sample_013",
+      "chronological_index": 25,
+      "state_id": "bullish_sample_013_state_025",
+      "time_spot": "2020-10-26",
+      "reference_session": "2020-10-26",
+      "question": "Session summary for October 26, 2020: AEP opened $76.13, ranged $76.13-$78.42, closed $77.91. Volume 3.8M (1.35x 20-day avg). 20-day $73.86 | 50-day $69.33. 5-day return +2.53%. ATR-14 $1.50. RSI 74.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-10-26",
+        "open": 76.13,
+        "high": 78.42,
+        "low": 76.13,
+        "close": 77.91,
+        "volume": 3753500,
+        "ma20": 73.86,
+        "ma50": 69.33,
+        "volume_vs_20d": 1.35,
+        "atr14": 1.5,
+        "chg_5d_pct": 2.53
+      },
+      "weekly_snapshot": {
+        "ticker": "AEP",
+        "week_start": "2020-10-26",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 74.5,
+        "price_vs_sma50": 1.124,
+        "notes": "ADX 84.7, MACD bullish"
+      }
+    }
+  ]
+}

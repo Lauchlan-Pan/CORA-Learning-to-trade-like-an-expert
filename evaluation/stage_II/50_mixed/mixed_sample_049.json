@@ -1,0 +1,2898 @@
+{
+  "metadata": {
+    "instrument": "ALGN",
+    "initial_capital": 10000,
+    "window_type": "mixed_sample_049",
+    "description": "ALGN window (2012-03-09 \u2013 2012-04-13) - mixed regime.",
+    "num_mcqs": 25,
+    "notes": "Orders express target exposure fractions relative to the leverage ceiling.",
+    "max_leverage": 2.5,
+    "exposure_buckets": [
+      0.8,
+      0.6,
+      0.4,
+      0.2
+    ],
+    "start_reference": "2012-03-09",
+    "end_reference": "2012-04-13",
+    "regime": "mixed",
+    "bh_return": 0.49
+  },
+  "mcqs": [
+    {
+      "scenario_instance_id": "ALGN_2012-03-09_mixed_sample_049_001",
+      "scenario_id": "ALGN_2012-03-09",
+      "window_type": "mixed_sample_049",
+      "chronological_index": 1,
+      "state_id": "mixed_sample_049_state_001",
+      "time_spot": "2012-03-09",
+      "reference_session": "2012-03-09",
+      "question": "Session summary for March 09, 2012: ALGN opened $26.48, ranged $26.37-$27.00, closed $26.60. Volume 0.3M (0.50x 20-day avg). 20-day $26.39 | 50-day $25.36. 5-day return +2.35%. ATR-14 $0.85. RSI 44.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2012-03-09",
+        "open": 26.48,
+        "high": 27.0,
+        "low": 26.37,
+        "close": 26.6,
+        "volume": 293700,
+        "ma20": 26.39,
+        "ma50": 25.36,
+        "volume_vs_20d": 0.5,
+        "atr14": 0.85,
+        "chg_5d_pct": 2.35
+      },
+      "weekly_snapshot": {
+        "ticker": "ALGN",
+        "week_start": "2012-03-05",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 44.4,
+        "price_vs_sma50": 1.049,
+        "notes": "ADX 21.1, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALGN_2012-03-09_mixed_sample_049_002",
+      "scenario_id": "ALGN_2012-03-09",
+      "window_type": "mixed_sample_049",
+      "chronological_index": 2,
+      "state_id": "mixed_sample_049_state_002",
+      "time_spot": "2012-03-12",
+      "reference_session": "2012-03-12",
+      "question": "Session summary for March 12, 2012: ALGN opened $26.69, ranged $25.77-$26.69, closed $26.04. Volume 0.4M (0.68x 20-day avg). 20-day $26.39 | 50-day $25.41. 5-day return +0.58%. ATR-14 $0.83. RSI 43.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2012-03-12",
+        "open": 26.69,
+        "high": 26.69,
+        "low": 25.77,
+        "close": 26.04,
+        "volume": 404800,
+        "ma20": 26.39,
+        "ma50": 25.41,
+        "volume_vs_20d": 0.68,
+        "atr14": 0.83,
+        "chg_5d_pct": 0.58
+      },
+      "weekly_snapshot": {
+        "ticker": "ALGN",
+        "week_start": "2012-03-12",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 43.0,
+        "price_vs_sma50": 1.025,
+        "notes": "ADX 18.1, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALGN_2012-03-09_mixed_sample_049_003",
+      "scenario_id": "ALGN_2012-03-09",
+      "window_type": "mixed_sample_049",
+      "chronological_index": 3,
+      "state_id": "mixed_sample_049_state_003",
+      "time_spot": "2012-03-13",
+      "reference_session": "2012-03-13",
+      "question": "Session summary for March 13, 2012: ALGN opened $26.29, ranged $26.09-$27.14, closed $27.09. Volume 0.4M (0.70x 20-day avg). 20-day $26.42 | 50-day $25.47. 5-day return +6.86%. ATR-14 $0.82. RSI 54.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2012-03-13",
+        "open": 26.29,
+        "high": 27.14,
+        "low": 26.09,
+        "close": 27.09,
+        "volume": 414600,
+        "ma20": 26.42,
+        "ma50": 25.47,
+        "volume_vs_20d": 0.7,
+        "atr14": 0.82,
+        "chg_5d_pct": 6.86
+      },
+      "weekly_snapshot": {
+        "ticker": "ALGN",
+        "week_start": "2012-03-12",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 54.4,
+        "price_vs_sma50": 1.064,
+        "notes": "ADX 15.2, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALGN_2012-03-09_mixed_sample_049_004",
+      "scenario_id": "ALGN_2012-03-09",
+      "window_type": "mixed_sample_049",
+      "chronological_index": 4,
+      "state_id": "mixed_sample_049_state_004",
+      "time_spot": "2012-03-14",
+      "reference_session": "2012-03-14",
+      "question": "Session summary for March 14, 2012: ALGN opened $27.00, ranged $26.75-$27.25, closed $26.85. Volume 0.7M (1.13x 20-day avg). 20-day $26.44 | 50-day $25.53. 5-day return +4.19%. ATR-14 $0.83. RSI 52.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2012-03-14",
+        "open": 27.0,
+        "high": 27.25,
+        "low": 26.75,
+        "close": 26.85,
+        "volume": 695900,
+        "ma20": 26.44,
+        "ma50": 25.53,
+        "volume_vs_20d": 1.13,
+        "atr14": 0.83,
+        "chg_5d_pct": 4.19
+      },
+      "weekly_snapshot": {
+        "ticker": "ALGN",
+        "week_start": "2012-03-12",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 52.6,
+        "price_vs_sma50": 1.052,
+        "notes": "ADX 12.5, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALGN_2012-03-09_mixed_sample_049_005",
+      "scenario_id": "ALGN_2012-03-09",
+      "window_type": "mixed_sample_049",
+      "chronological_index": 5,
+      "state_id": "mixed_sample_049_state_005",
+      "time_spot": "2012-03-15",
+      "reference_session": "2012-03-15",
+      "question": "Session summary for March 15, 2012: ALGN opened $26.80, ranged $26.65-$27.19, closed $27.19. Volume 0.2M (0.30x 20-day avg). 20-day $26.48 | 50-day $25.60. 5-day return +2.60%. ATR-14 $0.83. RSI 54.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2012-03-15",
+        "open": 26.8,
+        "high": 27.19,
+        "low": 26.65,
+        "close": 27.19,
+        "volume": 182900,
+        "ma20": 26.48,
+        "ma50": 25.6,
+        "volume_vs_20d": 0.3,
+        "atr14": 0.83,
+        "chg_5d_pct": 2.6
+      },
+      "weekly_snapshot": {
+        "ticker": "ALGN",
+        "week_start": "2012-03-12",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 54.2,
+        "price_vs_sma50": 1.062,
+        "notes": "ADX 10.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALGN_2012-03-09_mixed_sample_049_006",
+      "scenario_id": "ALGN_2012-03-09",
+      "window_type": "mixed_sample_049",
+      "chronological_index": 6,
+      "state_id": "mixed_sample_049_state_006",
+      "time_spot": "2012-03-16",
+      "reference_session": "2012-03-16",
+      "question": "Session summary for March 16, 2012: ALGN opened $27.25, ranged $26.85-$27.25, closed $27.07. Volume 0.5M (0.76x 20-day avg). 20-day $26.48 | 50-day $25.65. 5-day return +1.77%. ATR-14 $0.79. RSI 49.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2012-03-16",
+        "open": 27.25,
+        "high": 27.25,
+        "low": 26.85,
+        "close": 27.07,
+        "volume": 455300,
+        "ma20": 26.48,
+        "ma50": 25.65,
+        "volume_vs_20d": 0.76,
+        "atr14": 0.79,
+        "chg_5d_pct": 1.77
+      },
+      "weekly_snapshot": {
+        "ticker": "ALGN",
+        "week_start": "2012-03-12",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 49.6,
+        "price_vs_sma50": 1.055,
+        "notes": "ADX 8.4, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALGN_2012-03-09_mixed_sample_049_007",
+      "scenario_id": "ALGN_2012-03-09",
+      "window_type": "mixed_sample_049",
+      "chronological_index": 7,
+      "state_id": "mixed_sample_049_state_007",
+      "time_spot": "2012-03-19",
+      "reference_session": "2012-03-19",
+      "question": "Session summary for March 19, 2012: ALGN opened $27.00, ranged $26.64-$27.09, closed $26.74. Volume 0.3M (0.60x 20-day avg). 20-day $26.46 | 50-day $25.70. 5-day return +2.69%. ATR-14 $0.75. RSI 50.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2012-03-19",
+        "open": 27.0,
+        "high": 27.09,
+        "low": 26.64,
+        "close": 26.74,
+        "volume": 347600,
+        "ma20": 26.46,
+        "ma50": 25.7,
+        "volume_vs_20d": 0.6,
+        "atr14": 0.75,
+        "chg_5d_pct": 2.69
+      },
+      "weekly_snapshot": {
+        "ticker": "ALGN",
+        "week_start": "2012-03-19",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 50.0,
+        "price_vs_sma50": 1.04,
+        "notes": "ADX 7.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALGN_2012-03-09_mixed_sample_049_008",
+      "scenario_id": "ALGN_2012-03-09",
+      "window_type": "mixed_sample_049",
+      "chronological_index": 8,
+      "state_id": "mixed_sample_049_state_008",
+      "time_spot": "2012-03-20",
+      "reference_session": "2012-03-20",
+      "question": "Session summary for March 20, 2012: ALGN opened $26.49, ranged $26.26-$26.60, closed $26.40. Volume 0.4M (0.63x 20-day avg). 20-day $26.44 | 50-day $25.75. 5-day return -2.55%. ATR-14 $0.67. RSI 57.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2012-03-20",
+        "open": 26.49,
+        "high": 26.6,
+        "low": 26.26,
+        "close": 26.4,
+        "volume": 351600,
+        "ma20": 26.44,
+        "ma50": 25.75,
+        "volume_vs_20d": 0.63,
+        "atr14": 0.67,
+        "chg_5d_pct": -2.55
+      },
+      "weekly_snapshot": {
+        "ticker": "ALGN",
+        "week_start": "2012-03-19",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 57.0,
+        "price_vs_sma50": 1.025,
+        "notes": "ADX 7.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALGN_2012-03-09_mixed_sample_049_009",
+      "scenario_id": "ALGN_2012-03-09",
+      "window_type": "mixed_sample_049",
+      "chronological_index": 9,
+      "state_id": "mixed_sample_049_state_009",
+      "time_spot": "2012-03-21",
+      "reference_session": "2012-03-21",
+      "question": "Session summary for March 21, 2012: ALGN opened $26.48, ranged $26.30-$27.09, closed $26.79. Volume 0.4M (0.81x 20-day avg). 20-day $26.45 | 50-day $25.84. 5-day return -0.22%. ATR-14 $0.66. RSI 55.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2012-03-21",
+        "open": 26.48,
+        "high": 27.09,
+        "low": 26.3,
+        "close": 26.79,
+        "volume": 440000,
+        "ma20": 26.45,
+        "ma50": 25.84,
+        "volume_vs_20d": 0.81,
+        "atr14": 0.66,
+        "chg_5d_pct": -0.22
+      },
+      "weekly_snapshot": {
+        "ticker": "ALGN",
+        "week_start": "2012-03-19",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 55.6,
+        "price_vs_sma50": 1.037,
+        "notes": "ADX 7.5, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALGN_2012-03-09_mixed_sample_049_010",
+      "scenario_id": "ALGN_2012-03-09",
+      "window_type": "mixed_sample_049",
+      "chronological_index": 10,
+      "state_id": "mixed_sample_049_state_010",
+      "time_spot": "2012-03-22",
+      "reference_session": "2012-03-22",
+      "question": "Session summary for March 22, 2012: ALGN opened $26.57, ranged $25.98-$26.71, closed $26.13. Volume 0.3M (0.57x 20-day avg). 20-day $26.43 | 50-day $25.89. 5-day return -3.90%. ATR-14 $0.68. RSI 51.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2012-03-22",
+        "open": 26.57,
+        "high": 26.71,
+        "low": 25.98,
+        "close": 26.13,
+        "volume": 299100,
+        "ma20": 26.43,
+        "ma50": 25.89,
+        "volume_vs_20d": 0.57,
+        "atr14": 0.68,
+        "chg_5d_pct": -3.9
+      },
+      "weekly_snapshot": {
+        "ticker": "ALGN",
+        "week_start": "2012-03-19",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 51.2,
+        "price_vs_sma50": 1.009,
+        "notes": "ADX 6.5, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALGN_2012-03-09_mixed_sample_049_011",
+      "scenario_id": "ALGN_2012-03-09",
+      "window_type": "mixed_sample_049",
+      "chronological_index": 11,
+      "state_id": "mixed_sample_049_state_011",
+      "time_spot": "2012-03-23",
+      "reference_session": "2012-03-23",
+      "question": "Session summary for March 23, 2012: ALGN opened $26.13, ranged $25.89-$26.82, closed $26.80. Volume 0.3M (0.54x 20-day avg). 20-day $26.44 | 50-day $25.95. 5-day return -1.00%. ATR-14 $0.71. RSI 57.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2012-03-23",
+        "open": 26.13,
+        "high": 26.82,
+        "low": 25.89,
+        "close": 26.8,
+        "volume": 280000,
+        "ma20": 26.44,
+        "ma50": 25.95,
+        "volume_vs_20d": 0.54,
+        "atr14": 0.71,
+        "chg_5d_pct": -1.0
+      },
+      "weekly_snapshot": {
+        "ticker": "ALGN",
+        "week_start": "2012-03-19",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 57.0,
+        "price_vs_sma50": 1.033,
+        "notes": "ADX 6.7, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALGN_2012-03-09_mixed_sample_049_012",
+      "scenario_id": "ALGN_2012-03-09",
+      "window_type": "mixed_sample_049",
+      "chronological_index": 12,
+      "state_id": "mixed_sample_049_state_012",
+      "time_spot": "2012-03-26",
+      "reference_session": "2012-03-26",
+      "question": "Session summary for March 26, 2012: ALGN opened $27.06, ranged $27.06-$28.50, closed $28.24. Volume 0.9M (1.77x 20-day avg). 20-day $26.50 | 50-day $26.02. 5-day return +5.61%. ATR-14 $0.75. RSI 69.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2012-03-26",
+        "open": 27.06,
+        "high": 28.5,
+        "low": 27.06,
+        "close": 28.24,
+        "volume": 943700,
+        "ma20": 26.5,
+        "ma50": 26.02,
+        "volume_vs_20d": 1.77,
+        "atr14": 0.75,
+        "chg_5d_pct": 5.61
+      },
+      "weekly_snapshot": {
+        "ticker": "ALGN",
+        "week_start": "2012-03-26",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 69.6,
+        "price_vs_sma50": 1.085,
+        "notes": "ADX 9.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALGN_2012-03-09_mixed_sample_049_013",
+      "scenario_id": "ALGN_2012-03-09",
+      "window_type": "mixed_sample_049",
+      "chronological_index": 13,
+      "state_id": "mixed_sample_049_state_013",
+      "time_spot": "2012-03-27",
+      "reference_session": "2012-03-27",
+      "question": "Session summary for March 27, 2012: ALGN opened $28.37, ranged $27.94-$28.50, closed $28.13. Volume 1.0M (1.84x 20-day avg). 20-day $26.57 | 50-day $26.10. 5-day return +6.55%. ATR-14 $0.76. RSI 66.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2012-03-27",
+        "open": 28.37,
+        "high": 28.5,
+        "low": 27.94,
+        "close": 28.13,
+        "volume": 1001300,
+        "ma20": 26.57,
+        "ma50": 26.1,
+        "volume_vs_20d": 1.84,
+        "atr14": 0.76,
+        "chg_5d_pct": 6.55
+      },
+      "weekly_snapshot": {
+        "ticker": "ALGN",
+        "week_start": "2012-03-26",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 66.7,
+        "price_vs_sma50": 1.078,
+        "notes": "ADX 11.4, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALGN_2012-03-09_mixed_sample_049_014",
+      "scenario_id": "ALGN_2012-03-09",
+      "window_type": "mixed_sample_049",
+      "chronological_index": 14,
+      "state_id": "mixed_sample_049_state_014",
+      "time_spot": "2012-03-28",
+      "reference_session": "2012-03-28",
+      "question": "Session summary for March 28, 2012: ALGN opened $28.17, ranged $27.52-$28.69, closed $27.91. Volume 0.7M (1.30x 20-day avg). 20-day $26.68 | 50-day $26.16. 5-day return +4.18%. ATR-14 $0.78. RSI 60.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2012-03-28",
+        "open": 28.17,
+        "high": 28.69,
+        "low": 27.52,
+        "close": 27.91,
+        "volume": 684400,
+        "ma20": 26.68,
+        "ma50": 26.16,
+        "volume_vs_20d": 1.3,
+        "atr14": 0.78,
+        "chg_5d_pct": 4.18
+      },
+      "weekly_snapshot": {
+        "ticker": "ALGN",
+        "week_start": "2012-03-26",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 60.7,
+        "price_vs_sma50": 1.067,
+        "notes": "ADX 12.7, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALGN_2012-03-09_mixed_sample_049_015",
+      "scenario_id": "ALGN_2012-03-09",
+      "window_type": "mixed_sample_049",
+      "chronological_index": 15,
+      "state_id": "mixed_sample_049_state_015",
+      "time_spot": "2012-03-29",
+      "reference_session": "2012-03-29",
+      "question": "Session summary for March 29, 2012: ALGN opened $27.66, ranged $27.19-$27.88, closed $27.25. Volume 0.6M (1.22x 20-day avg). 20-day $26.74 | 50-day $26.21. 5-day return +4.29%. ATR-14 $0.79. RSI 54.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2012-03-29",
+        "open": 27.66,
+        "high": 27.88,
+        "low": 27.19,
+        "close": 27.25,
+        "volume": 626700,
+        "ma20": 26.74,
+        "ma50": 26.21,
+        "volume_vs_20d": 1.22,
+        "atr14": 0.79,
+        "chg_5d_pct": 4.29
+      },
+      "weekly_snapshot": {
+        "ticker": "ALGN",
+        "week_start": "2012-03-26",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 54.6,
+        "price_vs_sma50": 1.04,
+        "notes": "ADX 13.4, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALGN_2012-03-09_mixed_sample_049_016",
+      "scenario_id": "ALGN_2012-03-09",
+      "window_type": "mixed_sample_049",
+      "chronological_index": 16,
+      "state_id": "mixed_sample_049_state_016",
+      "time_spot": "2012-03-30",
+      "reference_session": "2012-03-30",
+      "question": "Session summary for March 30, 2012: ALGN opened $27.59, ranged $27.45-$27.96, closed $27.55. Volume 0.7M (1.35x 20-day avg). 20-day $26.81 | 50-day $26.26. 5-day return +2.80%. ATR-14 $0.78. RSI 61.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2012-03-30",
+        "open": 27.59,
+        "high": 27.96,
+        "low": 27.45,
+        "close": 27.55,
+        "volume": 674200,
+        "ma20": 26.81,
+        "ma50": 26.26,
+        "volume_vs_20d": 1.35,
+        "atr14": 0.78,
+        "chg_5d_pct": 2.8
+      },
+      "weekly_snapshot": {
+        "ticker": "ALGN",
+        "week_start": "2012-03-26",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 61.0,
+        "price_vs_sma50": 1.049,
+        "notes": "ADX 13.8, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALGN_2012-03-09_mixed_sample_049_017",
+      "scenario_id": "ALGN_2012-03-09",
+      "window_type": "mixed_sample_049",
+      "chronological_index": 17,
+      "state_id": "mixed_sample_049_state_017",
+      "time_spot": "2012-04-02",
+      "reference_session": "2012-04-02",
+      "question": "Session summary for April 02, 2012: ALGN opened $27.40, ranged $27.31-$28.72, closed $28.70. Volume 0.7M (1.34x 20-day avg). 20-day $26.96 | 50-day $26.33. 5-day return +1.63%. ATR-14 $0.80. RSI 61.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2012-04-02",
+        "open": 27.4,
+        "high": 28.72,
+        "low": 27.31,
+        "close": 28.7,
+        "volume": 681700,
+        "ma20": 26.96,
+        "ma50": 26.33,
+        "volume_vs_20d": 1.34,
+        "atr14": 0.8,
+        "chg_5d_pct": 1.63
+      },
+      "weekly_snapshot": {
+        "ticker": "ALGN",
+        "week_start": "2012-04-02",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 61.5,
+        "price_vs_sma50": 1.09,
+        "notes": "ADX 15.7, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALGN_2012-03-09_mixed_sample_049_018",
+      "scenario_id": "ALGN_2012-03-09",
+      "window_type": "mixed_sample_049",
+      "chronological_index": 18,
+      "state_id": "mixed_sample_049_state_018",
+      "time_spot": "2012-04-03",
+      "reference_session": "2012-04-03",
+      "question": "Session summary for April 03, 2012: ALGN opened $28.69, ranged $28.41-$29.65, closed $28.67. Volume 1.0M (1.93x 20-day avg). 20-day $27.12 | 50-day $26.40. 5-day return +1.92%. ATR-14 $0.85. RSI 63.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2012-04-03",
+        "open": 28.69,
+        "high": 29.65,
+        "low": 28.41,
+        "close": 28.67,
+        "volume": 1007600,
+        "ma20": 27.12,
+        "ma50": 26.4,
+        "volume_vs_20d": 1.93,
+        "atr14": 0.85,
+        "chg_5d_pct": 1.92
+      },
+      "weekly_snapshot": {
+        "ticker": "ALGN",
+        "week_start": "2012-04-02",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 63.5,
+        "price_vs_sma50": 1.086,
+        "notes": "ADX 18.5, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALGN_2012-03-09_mixed_sample_049_019",
+      "scenario_id": "ALGN_2012-03-09",
+      "window_type": "mixed_sample_049",
+      "chronological_index": 19,
+      "state_id": "mixed_sample_049_state_019",
+      "time_spot": "2012-04-04",
+      "reference_session": "2012-04-04",
+      "question": "Session summary for April 04, 2012: ALGN opened $28.24, ranged $27.50-$28.65, closed $27.68. Volume 0.6M (1.04x 20-day avg). 20-day $27.22 | 50-day $26.45. 5-day return -0.82%. ATR-14 $0.90. RSI 53.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2012-04-04",
+        "open": 28.24,
+        "high": 28.65,
+        "low": 27.5,
+        "close": 27.68,
+        "volume": 557700,
+        "ma20": 27.22,
+        "ma50": 26.45,
+        "volume_vs_20d": 1.04,
+        "atr14": 0.9,
+        "chg_5d_pct": -0.82
+      },
+      "weekly_snapshot": {
+        "ticker": "ALGN",
+        "week_start": "2012-04-02",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 53.3,
+        "price_vs_sma50": 1.046,
+        "notes": "ADX 20.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALGN_2012-03-09_mixed_sample_049_020",
+      "scenario_id": "ALGN_2012-03-09",
+      "window_type": "mixed_sample_049",
+      "chronological_index": 20,
+      "state_id": "mixed_sample_049_state_020",
+      "time_spot": "2012-04-05",
+      "reference_session": "2012-04-05",
+      "question": "Session summary for April 05, 2012: ALGN opened $27.47, ranged $27.41-$27.88, closed $27.74. Volume 0.3M (0.47x 20-day avg). 20-day $27.28 | 50-day $26.51. 5-day return +1.80%. ATR-14 $0.90. RSI 54.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2012-04-05",
+        "open": 27.47,
+        "high": 27.88,
+        "low": 27.41,
+        "close": 27.74,
+        "volume": 251400,
+        "ma20": 27.28,
+        "ma50": 26.51,
+        "volume_vs_20d": 0.47,
+        "atr14": 0.9,
+        "chg_5d_pct": 1.8
+      },
+      "weekly_snapshot": {
+        "ticker": "ALGN",
+        "week_start": "2012-04-02",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 54.6,
+        "price_vs_sma50": 1.046,
+        "notes": "ADX 21.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALGN_2012-03-09_mixed_sample_049_021",
+      "scenario_id": "ALGN_2012-03-09",
+      "window_type": "mixed_sample_049",
+      "chronological_index": 21,
+      "state_id": "mixed_sample_049_state_021",
+      "time_spot": "2012-04-09",
+      "reference_session": "2012-04-09",
+      "question": "Session summary for April 09, 2012: ALGN opened $27.29, ranged $27.12-$27.58, closed $27.25. Volume 0.3M (0.56x 20-day avg). 20-day $27.31 | 50-day $26.56. 5-day return -1.09%. ATR-14 $0.91. RSI 53.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2012-04-09",
+        "open": 27.29,
+        "high": 27.58,
+        "low": 27.12,
+        "close": 27.25,
+        "volume": 295900,
+        "ma20": 27.31,
+        "ma50": 26.56,
+        "volume_vs_20d": 0.56,
+        "atr14": 0.91,
+        "chg_5d_pct": -1.09
+      },
+      "weekly_snapshot": {
+        "ticker": "ALGN",
+        "week_start": "2012-04-09",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 53.4,
+        "price_vs_sma50": 1.026,
+        "notes": "ADX 21.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALGN_2012-03-09_mixed_sample_049_022",
+      "scenario_id": "ALGN_2012-03-09",
+      "window_type": "mixed_sample_049",
+      "chronological_index": 22,
+      "state_id": "mixed_sample_049_state_022",
+      "time_spot": "2012-04-10",
+      "reference_session": "2012-04-10",
+      "question": "Session summary for April 10, 2012: ALGN opened $27.24, ranged $26.06-$27.37, closed $26.33. Volume 0.6M (1.19x 20-day avg). 20-day $27.33 | 50-day $26.58. 5-day return -8.26%. ATR-14 $0.97. RSI 49.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2012-04-10",
+        "open": 27.24,
+        "high": 27.37,
+        "low": 26.06,
+        "close": 26.33,
+        "volume": 644300,
+        "ma20": 27.33,
+        "ma50": 26.58,
+        "volume_vs_20d": 1.19,
+        "atr14": 0.97,
+        "chg_5d_pct": -8.26
+      },
+      "weekly_snapshot": {
+        "ticker": "ALGN",
+        "week_start": "2012-04-09",
+        "trend_regime": "rangebound",
+        "volatility_regime": "high",
+        "rsi_14": 49.6,
+        "price_vs_sma50": 0.991,
+        "notes": "ADX 21.5, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALGN_2012-03-09_mixed_sample_049_023",
+      "scenario_id": "ALGN_2012-03-09",
+      "window_type": "mixed_sample_049",
+      "chronological_index": 23,
+      "state_id": "mixed_sample_049_state_023",
+      "time_spot": "2012-04-11",
+      "reference_session": "2012-04-11",
+      "question": "Session summary for April 11, 2012: ALGN opened $26.69, ranged $26.30-$26.77, closed $26.75. Volume 0.5M (0.91x 20-day avg). 20-day $27.31 | 50-day $26.60. 5-day return -6.70%. ATR-14 $0.95. RSI 49.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2012-04-11",
+        "open": 26.69,
+        "high": 26.77,
+        "low": 26.3,
+        "close": 26.75,
+        "volume": 496900,
+        "ma20": 27.31,
+        "ma50": 26.6,
+        "volume_vs_20d": 0.91,
+        "atr14": 0.95,
+        "chg_5d_pct": -6.7
+      },
+      "weekly_snapshot": {
+        "ticker": "ALGN",
+        "week_start": "2012-04-09",
+        "trend_regime": "rangebound",
+        "volatility_regime": "high",
+        "rsi_14": 49.8,
+        "price_vs_sma50": 1.006,
+        "notes": "ADX 21.2, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALGN_2012-03-09_mixed_sample_049_024",
+      "scenario_id": "ALGN_2012-03-09",
+      "window_type": "mixed_sample_049",
+      "chronological_index": 24,
+      "state_id": "mixed_sample_049_state_024",
+      "time_spot": "2012-04-12",
+      "reference_session": "2012-04-12",
+      "question": "Session summary for April 12, 2012: ALGN opened $26.81, ranged $26.81-$27.49, closed $27.27. Volume 0.3M (0.61x 20-day avg). 20-day $27.33 | 50-day $26.68. 5-day return -1.48%. ATR-14 $0.94. RSI 57.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2012-04-12",
+        "open": 26.81,
+        "high": 27.49,
+        "low": 26.81,
+        "close": 27.27,
+        "volume": 322400,
+        "ma20": 27.33,
+        "ma50": 26.68,
+        "volume_vs_20d": 0.61,
+        "atr14": 0.94,
+        "chg_5d_pct": -1.48
+      },
+      "weekly_snapshot": {
+        "ticker": "ALGN",
+        "week_start": "2012-04-09",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 57.1,
+        "price_vs_sma50": 1.022,
+        "notes": "ADX 22.1, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ALGN_2012-03-09_mixed_sample_049_025",
+      "scenario_id": "ALGN_2012-03-09",
+      "window_type": "mixed_sample_049",
+      "chronological_index": 25,
+      "state_id": "mixed_sample_049_state_025",
+      "time_spot": "2012-04-13",
+      "reference_session": "2012-04-13",
+      "question": "Session summary for April 13, 2012: ALGN opened $27.02, ranged $26.51-$27.02, closed $26.73. Volume 0.3M (0.54x 20-day avg). 20-day $27.31 | 50-day $26.72. 5-day return -3.64%. ATR-14 $0.93. RSI 49.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2012-04-13",
+        "open": 27.02,
+        "high": 27.02,
+        "low": 26.51,
+        "close": 26.73,
+        "volume": 287600,
+        "ma20": 27.31,
+        "ma50": 26.72,
+        "volume_vs_20d": 0.54,
+        "atr14": 0.93,
+        "chg_5d_pct": -3.64
+      },
+      "weekly_snapshot": {
+        "ticker": "ALGN",
+        "week_start": "2012-04-09",
+        "trend_regime": "rangebound",
+        "volatility_regime": "high",
+        "rsi_14": 49.6,
+        "price_vs_sma50": 1.0,
+        "notes": "ADX 22.6, MACD bearish"
+      }
+    }
+  ]
+}

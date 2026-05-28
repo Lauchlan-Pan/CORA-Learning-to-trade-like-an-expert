@@ -1,0 +1,2898 @@
+{
+  "metadata": {
+    "instrument": "HUM",
+    "initial_capital": 10000,
+    "window_type": "bearish_sample_012",
+    "description": "HUM window (2020-10-20 \u2013 2020-11-23) sampled from S&P500 indicator archive.",
+    "num_mcqs": 25,
+    "notes": "Orders express target exposure fractions relative to the leverage ceiling.",
+    "max_leverage": 2.5,
+    "exposure_buckets": [
+      0.8,
+      0.6,
+      0.4,
+      0.2
+    ],
+    "start_reference": "2020-10-20",
+    "end_reference": "2020-11-23",
+    "regime": "bearish",
+    "original_sample": "snp500_sample_081"
+  },
+  "mcqs": [
+    {
+      "scenario_instance_id": "HUM_2020-10-20_bearish_sample_012_001",
+      "scenario_id": "HUM_2020-10-20",
+      "window_type": "bearish_sample_012",
+      "chronological_index": 1,
+      "state_id": "bearish_sample_012_state_001",
+      "time_spot": "2020-10-20",
+      "reference_session": "2020-10-20",
+      "question": "Session summary for October 20, 2020: HUM opened $417.33, ranged $414.40-$423.19, closed $419.11. Volume 0.4M (0.69x 20-day avg). 20-day $401.66 | 50-day $395.99. 5-day return +0.83%. ATR-14 $10.10. RSI 63.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-10-20",
+        "open": 417.33,
+        "high": 423.19,
+        "low": 414.4,
+        "close": 419.11,
+        "volume": 380800,
+        "ma20": 401.66,
+        "ma50": 395.99,
+        "volume_vs_20d": 0.69,
+        "atr14": 10.1,
+        "chg_5d_pct": 0.83
+      },
+      "weekly_snapshot": {
+        "ticker": "HUM",
+        "week_start": "2020-10-19",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 63.7,
+        "price_vs_sma50": 1.058,
+        "notes": "ADX 49.4, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "HUM_2020-10-20_bearish_sample_012_002",
+      "scenario_id": "HUM_2020-10-20",
+      "window_type": "bearish_sample_012",
+      "chronological_index": 2,
+      "state_id": "bearish_sample_012_state_002",
+      "time_spot": "2020-10-21",
+      "reference_session": "2020-10-21",
+      "question": "Session summary for October 21, 2020: HUM opened $418.31, ranged $416.49-$422.48, closed $419.90. Volume 0.9M (1.62x 20-day avg). 20-day $404.18 | 50-day $396.41. 5-day return +3.36%. ATR-14 $10.02. RSI 63.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-10-21",
+        "open": 418.31,
+        "high": 422.48,
+        "low": 416.49,
+        "close": 419.9,
+        "volume": 878500,
+        "ma20": 404.18,
+        "ma50": 396.41,
+        "volume_vs_20d": 1.62,
+        "atr14": 10.02,
+        "chg_5d_pct": 3.36
+      },
+      "weekly_snapshot": {
+        "ticker": "HUM",
+        "week_start": "2020-10-19",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 63.4,
+        "price_vs_sma50": 1.059,
+        "notes": "ADX 48.5, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "HUM_2020-10-20_bearish_sample_012_003",
+      "scenario_id": "HUM_2020-10-20",
+      "window_type": "bearish_sample_012",
+      "chronological_index": 3,
+      "state_id": "bearish_sample_012_state_003",
+      "time_spot": "2020-10-22",
+      "reference_session": "2020-10-22",
+      "question": "Session summary for October 22, 2020: HUM opened $419.01, ranged $417.49-$426.11, closed $423.67. Volume 0.5M (0.87x 20-day avg). 20-day $406.81 | 50-day $396.83. 5-day return +1.33%. ATR-14 $9.93. RSI 70.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-10-22",
+        "open": 419.01,
+        "high": 426.11,
+        "low": 417.49,
+        "close": 423.67,
+        "volume": 478000,
+        "ma20": 406.81,
+        "ma50": 396.83,
+        "volume_vs_20d": 0.87,
+        "atr14": 9.93,
+        "chg_5d_pct": 1.33
+      },
+      "weekly_snapshot": {
+        "ticker": "HUM",
+        "week_start": "2020-10-19",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 70.9,
+        "price_vs_sma50": 1.068,
+        "notes": "ADX 49.9, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "HUM_2020-10-20_bearish_sample_012_004",
+      "scenario_id": "HUM_2020-10-20",
+      "window_type": "bearish_sample_012",
+      "chronological_index": 4,
+      "state_id": "bearish_sample_012_state_004",
+      "time_spot": "2020-10-23",
+      "reference_session": "2020-10-23",
+      "question": "Session summary for October 23, 2020: HUM opened $426.40, ranged $424.23-$431.62, closed $426.70. Volume 0.5M (0.89x 20-day avg). 20-day $408.92 | 50-day $397.32. 5-day return +1.51%. ATR-14 $9.70. RSI 67.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-10-23",
+        "open": 426.4,
+        "high": 431.62,
+        "low": 424.23,
+        "close": 426.7,
+        "volume": 480000,
+        "ma20": 408.92,
+        "ma50": 397.32,
+        "volume_vs_20d": 0.89,
+        "atr14": 9.7,
+        "chg_5d_pct": 1.51
+      },
+      "weekly_snapshot": {
+        "ticker": "HUM",
+        "week_start": "2020-10-19",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 67.5,
+        "price_vs_sma50": 1.074,
+        "notes": "ADX 51.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "HUM_2020-10-20_bearish_sample_012_005",
+      "scenario_id": "HUM_2020-10-20",
+      "window_type": "bearish_sample_012",
+      "chronological_index": 5,
+      "state_id": "bearish_sample_012_state_005",
+      "time_spot": "2020-10-26",
+      "reference_session": "2020-10-26",
+      "question": "Session summary for October 26, 2020: HUM opened $424.07, ranged $413.81-$427.36, closed $417.88. Volume 0.4M (0.72x 20-day avg). 20-day $410.64 | 50-day $397.59. 5-day return +0.47%. ATR-14 $10.18. RSI 62.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-10-26",
+        "open": 424.07,
+        "high": 427.36,
+        "low": 413.81,
+        "close": 417.88,
+        "volume": 378400,
+        "ma20": 410.64,
+        "ma50": 397.59,
+        "volume_vs_20d": 0.72,
+        "atr14": 10.18,
+        "chg_5d_pct": 0.47
+      },
+      "weekly_snapshot": {
+        "ticker": "HUM",
+        "week_start": "2020-10-26",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 62.4,
+        "price_vs_sma50": 1.051,
+        "notes": "ADX 50.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "HUM_2020-10-20_bearish_sample_012_006",
+      "scenario_id": "HUM_2020-10-20",
+      "window_type": "bearish_sample_012",
+      "chronological_index": 6,
+      "state_id": "bearish_sample_012_state_006",
+      "time_spot": "2020-10-27",
+      "reference_session": "2020-10-27",
+      "question": "Session summary for October 27, 2020: HUM opened $416.06, ranged $412.76-$417.51, closed $415.01. Volume 0.4M (0.86x 20-day avg). 20-day $412.11 | 50-day $397.83. 5-day return -0.98%. ATR-14 $9.58. RSI 52.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-10-27",
+        "open": 416.06,
+        "high": 417.51,
+        "low": 412.76,
+        "close": 415.01,
+        "volume": 434300,
+        "ma20": 412.11,
+        "ma50": 397.83,
+        "volume_vs_20d": 0.86,
+        "atr14": 9.58,
+        "chg_5d_pct": -0.98
+      },
+      "weekly_snapshot": {
+        "ticker": "HUM",
+        "week_start": "2020-10-26",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 52.1,
+        "price_vs_sma50": 1.043,
+        "notes": "ADX 47.1, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "HUM_2020-10-20_bearish_sample_012_007",
+      "scenario_id": "HUM_2020-10-20",
+      "window_type": "bearish_sample_012",
+      "chronological_index": 7,
+      "state_id": "bearish_sample_012_state_007",
+      "time_spot": "2020-10-28",
+      "reference_session": "2020-10-28",
+      "question": "Session summary for October 28, 2020: HUM opened $406.37, ranged $396.17-$410.55, closed $396.87. Volume 0.7M (1.31x 20-day avg). 20-day $412.08 | 50-day $397.77. 5-day return -5.48%. ATR-14 $10.34. RSI 41.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-10-28",
+        "open": 406.37,
+        "high": 410.55,
+        "low": 396.17,
+        "close": 396.87,
+        "volume": 652700,
+        "ma20": 412.08,
+        "ma50": 397.77,
+        "volume_vs_20d": 1.31,
+        "atr14": 10.34,
+        "chg_5d_pct": -5.48
+      },
+      "weekly_snapshot": {
+        "ticker": "HUM",
+        "week_start": "2020-10-26",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 41.5,
+        "price_vs_sma50": 0.998,
+        "notes": "ADX 45.6, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "HUM_2020-10-20_bearish_sample_012_008",
+      "scenario_id": "HUM_2020-10-20",
+      "window_type": "bearish_sample_012",
+      "chronological_index": 8,
+      "state_id": "bearish_sample_012_state_008",
+      "time_spot": "2020-10-29",
+      "reference_session": "2020-10-29",
+      "question": "Session summary for October 29, 2020: HUM opened $395.58, ranged $380.77-$397.59, closed $381.02. Volume 1.3M (2.34x 20-day avg). 20-day $411.19 | 50-day $397.37. 5-day return -10.07%. ATR-14 $10.96. RSI 30.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-10-29",
+        "open": 395.58,
+        "high": 397.59,
+        "low": 380.77,
+        "close": 381.02,
+        "volume": 1255100,
+        "ma20": 411.19,
+        "ma50": 397.37,
+        "volume_vs_20d": 2.34,
+        "atr14": 10.96,
+        "chg_5d_pct": -10.07
+      },
+      "weekly_snapshot": {
+        "ticker": "HUM",
+        "week_start": "2020-10-26",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 30.3,
+        "price_vs_sma50": 0.959,
+        "notes": "ADX 43.1, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "HUM_2020-10-20_bearish_sample_012_009",
+      "scenario_id": "HUM_2020-10-20",
+      "window_type": "bearish_sample_012",
+      "chronological_index": 9,
+      "state_id": "bearish_sample_012_state_009",
+      "time_spot": "2020-10-30",
+      "reference_session": "2020-10-30",
+      "question": "Session summary for October 30, 2020: HUM opened $382.44, ranged $376.93-$386.18, closed $383.45. Volume 0.9M (1.69x 20-day avg). 20-day $410.75 | 50-day $397.10. 5-day return -10.13%. ATR-14 $10.90. RSI 33.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-10-30",
+        "open": 382.44,
+        "high": 386.18,
+        "low": 376.93,
+        "close": 383.45,
+        "volume": 942600,
+        "ma20": 410.75,
+        "ma50": 397.1,
+        "volume_vs_20d": 1.69,
+        "atr14": 10.9,
+        "chg_5d_pct": -10.13
+      },
+      "weekly_snapshot": {
+        "ticker": "HUM",
+        "week_start": "2020-10-26",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 33.2,
+        "price_vs_sma50": 0.966,
+        "notes": "ADX 41.2, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "HUM_2020-10-20_bearish_sample_012_010",
+      "scenario_id": "HUM_2020-10-20",
+      "window_type": "bearish_sample_012",
+      "chronological_index": 10,
+      "state_id": "bearish_sample_012_state_010",
+      "time_spot": "2020-11-02",
+      "reference_session": "2020-11-02",
+      "question": "Session summary for November 02, 2020: HUM opened $387.99, ranged $383.06-$396.65, closed $392.39. Volume 1.1M (1.82x 20-day avg). 20-day $410.22 | 50-day $396.92. 5-day return -6.10%. ATR-14 $11.20. RSI 37.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-11-02",
+        "open": 387.99,
+        "high": 396.65,
+        "low": 383.06,
+        "close": 392.39,
+        "volume": 1079000,
+        "ma20": 410.22,
+        "ma50": 396.92,
+        "volume_vs_20d": 1.82,
+        "atr14": 11.2,
+        "chg_5d_pct": -6.1
+      },
+      "weekly_snapshot": {
+        "ticker": "HUM",
+        "week_start": "2020-11-02",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 37.9,
+        "price_vs_sma50": 0.989,
+        "notes": "ADX 38.5, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "HUM_2020-10-20_bearish_sample_012_011",
+      "scenario_id": "HUM_2020-10-20",
+      "window_type": "bearish_sample_012",
+      "chronological_index": 11,
+      "state_id": "bearish_sample_012_state_011",
+      "time_spot": "2020-11-03",
+      "reference_session": "2020-11-03",
+      "question": "Session summary for November 03, 2020: HUM opened $394.41, ranged $393.43-$413.38, closed $406.65. Volume 1.0M (1.60x 20-day avg). 20-day $410.57 | 50-day $397.27. 5-day return -2.02%. ATR-14 $11.98. RSI 50.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-11-03",
+        "open": 394.41,
+        "high": 413.38,
+        "low": 393.43,
+        "close": 406.65,
+        "volume": 971000,
+        "ma20": 410.57,
+        "ma50": 397.27,
+        "volume_vs_20d": 1.6,
+        "atr14": 11.98,
+        "chg_5d_pct": -2.02
+      },
+      "weekly_snapshot": {
+        "ticker": "HUM",
+        "week_start": "2020-11-02",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 50.2,
+        "price_vs_sma50": 1.024,
+        "notes": "ADX 34.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "HUM_2020-10-20_bearish_sample_012_012",
+      "scenario_id": "HUM_2020-10-20",
+      "window_type": "bearish_sample_012",
+      "chronological_index": 12,
+      "state_id": "bearish_sample_012_state_012",
+      "time_spot": "2020-11-04",
+      "reference_session": "2020-11-04",
+      "question": "Session summary for November 04, 2020: HUM opened $427.37, ranged $427.37-$455.88, closed $434.09. Volume 2.0M (2.91x 20-day avg). 20-day $411.66 | 50-day $398.16. 5-day return +9.38%. ATR-14 $14.30. RSI 56.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-11-04",
+        "open": 427.37,
+        "high": 455.88,
+        "low": 427.37,
+        "close": 434.09,
+        "volume": 1982100,
+        "ma20": 411.66,
+        "ma50": 398.16,
+        "volume_vs_20d": 2.91,
+        "atr14": 14.3,
+        "chg_5d_pct": 9.38
+      },
+      "weekly_snapshot": {
+        "ticker": "HUM",
+        "week_start": "2020-11-02",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 56.9,
+        "price_vs_sma50": 1.09,
+        "notes": "ADX 32.7, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "HUM_2020-10-20_bearish_sample_012_013",
+      "scenario_id": "HUM_2020-10-20",
+      "window_type": "bearish_sample_012",
+      "chronological_index": 13,
+      "state_id": "bearish_sample_012_state_013",
+      "time_spot": "2020-11-05",
+      "reference_session": "2020-11-05",
+      "question": "Session summary for November 05, 2020: HUM opened $441.76, ranged $421.58-$444.09, closed $423.32. Volume 1.3M (1.83x 20-day avg). 20-day $412.30 | 50-day $398.89. 5-day return +11.10%. ATR-14 $15.16. RSI 51.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-11-05",
+        "open": 441.76,
+        "high": 444.09,
+        "low": 421.58,
+        "close": 423.32,
+        "volume": 1324400,
+        "ma20": 412.3,
+        "ma50": 398.89,
+        "volume_vs_20d": 1.83,
+        "atr14": 15.16,
+        "chg_5d_pct": 11.1
+      },
+      "weekly_snapshot": {
+        "ticker": "HUM",
+        "week_start": "2020-11-02",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 51.2,
+        "price_vs_sma50": 1.061,
+        "notes": "ADX 30.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "HUM_2020-10-20_bearish_sample_012_014",
+      "scenario_id": "HUM_2020-10-20",
+      "window_type": "bearish_sample_012",
+      "chronological_index": 14,
+      "state_id": "bearish_sample_012_state_014",
+      "time_spot": "2020-11-06",
+      "reference_session": "2020-11-06",
+      "question": "Session summary for November 06, 2020: HUM opened $422.13, ranged $411.29-$422.14, closed $415.40. Volume 0.7M (0.92x 20-day avg). 20-day $412.26 | 50-day $399.38. 5-day return +8.33%. ATR-14 $15.24. RSI 49.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-11-06",
+        "open": 422.13,
+        "high": 422.14,
+        "low": 411.29,
+        "close": 415.4,
+        "volume": 681800,
+        "ma20": 412.26,
+        "ma50": 399.38,
+        "volume_vs_20d": 0.92,
+        "atr14": 15.24,
+        "chg_5d_pct": 8.33
+      },
+      "weekly_snapshot": {
+        "ticker": "HUM",
+        "week_start": "2020-11-02",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 49.8,
+        "price_vs_sma50": 1.04,
+        "notes": "ADX 28.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "HUM_2020-10-20_bearish_sample_012_015",
+      "scenario_id": "HUM_2020-10-20",
+      "window_type": "bearish_sample_012",
+      "chronological_index": 15,
+      "state_id": "bearish_sample_012_state_015",
+      "time_spot": "2020-11-09",
+      "reference_session": "2020-11-09",
+      "question": "Session summary for November 09, 2020: HUM opened $430.30, ranged $405.81-$435.97, closed $406.22. Volume 1.0M (1.26x 20-day avg). 20-day $411.90 | 50-day $399.68. 5-day return +3.53%. ATR-14 $16.76. RSI 45.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-11-09",
+        "open": 430.3,
+        "high": 435.97,
+        "low": 405.81,
+        "close": 406.22,
+        "volume": 955100,
+        "ma20": 411.9,
+        "ma50": 399.68,
+        "volume_vs_20d": 1.26,
+        "atr14": 16.76,
+        "chg_5d_pct": 3.53
+      },
+      "weekly_snapshot": {
+        "ticker": "HUM",
+        "week_start": "2020-11-09",
+        "trend_regime": "rangebound",
+        "volatility_regime": "high",
+        "rsi_14": 45.2,
+        "price_vs_sma50": 1.016,
+        "notes": "ADX 27.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "HUM_2020-10-20_bearish_sample_012_016",
+      "scenario_id": "HUM_2020-10-20",
+      "window_type": "bearish_sample_012",
+      "chronological_index": 16,
+      "state_id": "bearish_sample_012_state_016",
+      "time_spot": "2020-11-10",
+      "reference_session": "2020-11-10",
+      "question": "Session summary for November 10, 2020: HUM opened $405.57, ranged $392.68-$414.24, closed $413.60. Volume 1.1M (1.38x 20-day avg). 20-day $411.80 | 50-day $399.99. 5-day return +1.71%. ATR-14 $17.87. RSI 47.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-11-10",
+        "open": 405.57,
+        "high": 414.24,
+        "low": 392.68,
+        "close": 413.6,
+        "volume": 1097400,
+        "ma20": 411.8,
+        "ma50": 399.99,
+        "volume_vs_20d": 1.38,
+        "atr14": 17.87,
+        "chg_5d_pct": 1.71
+      },
+      "weekly_snapshot": {
+        "ticker": "HUM",
+        "week_start": "2020-11-09",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 47.8,
+        "price_vs_sma50": 1.034,
+        "notes": "ADX 25.9, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "HUM_2020-10-20_bearish_sample_012_017",
+      "scenario_id": "HUM_2020-10-20",
+      "window_type": "bearish_sample_012",
+      "chronological_index": 17,
+      "state_id": "bearish_sample_012_state_017",
+      "time_spot": "2020-11-11",
+      "reference_session": "2020-11-11",
+      "question": "Session summary for November 11, 2020: HUM opened $416.31, ranged $404.93-$417.63, closed $409.11. Volume 1.0M (1.19x 20-day avg). 20-day $411.94 | 50-day $400.22. 5-day return -5.75%. ATR-14 $18.16. RSI 44.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-11-11",
+        "open": 416.31,
+        "high": 417.63,
+        "low": 404.93,
+        "close": 409.11,
+        "volume": 978600,
+        "ma20": 411.94,
+        "ma50": 400.22,
+        "volume_vs_20d": 1.19,
+        "atr14": 18.16,
+        "chg_5d_pct": -5.75
+      },
+      "weekly_snapshot": {
+        "ticker": "HUM",
+        "week_start": "2020-11-09",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 44.9,
+        "price_vs_sma50": 1.022,
+        "notes": "ADX 23.4, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "HUM_2020-10-20_bearish_sample_012_018",
+      "scenario_id": "HUM_2020-10-20",
+      "window_type": "bearish_sample_012",
+      "chronological_index": 18,
+      "state_id": "bearish_sample_012_state_018",
+      "time_spot": "2020-11-12",
+      "reference_session": "2020-11-12",
+      "question": "Session summary for November 12, 2020: HUM opened $409.88, ranged $406.24-$417.66, closed $414.68. Volume 0.8M (0.90x 20-day avg). 20-day $411.77 | 50-day $400.31. 5-day return -2.04%. ATR-14 $18.41. RSI 45.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-11-12",
+        "open": 409.88,
+        "high": 417.66,
+        "low": 406.24,
+        "close": 414.68,
+        "volume": 755200,
+        "ma20": 411.77,
+        "ma50": 400.31,
+        "volume_vs_20d": 0.9,
+        "atr14": 18.41,
+        "chg_5d_pct": -2.04
+      },
+      "weekly_snapshot": {
+        "ticker": "HUM",
+        "week_start": "2020-11-09",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 45.8,
+        "price_vs_sma50": 1.036,
+        "notes": "ADX 20.6, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "HUM_2020-10-20_bearish_sample_012_019",
+      "scenario_id": "HUM_2020-10-20",
+      "window_type": "bearish_sample_012",
+      "chronological_index": 19,
+      "state_id": "bearish_sample_012_state_019",
+      "time_spot": "2020-11-13",
+      "reference_session": "2020-11-13",
+      "question": "Session summary for November 13, 2020: HUM opened $417.91, ranged $410.82-$419.04, closed $416.22. Volume 0.7M (0.83x 20-day avg). 20-day $411.56 | 50-day $400.55. 5-day return +0.20%. ATR-14 $18.03. RSI 49.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-11-13",
+        "open": 417.91,
+        "high": 419.04,
+        "low": 410.82,
+        "close": 416.22,
+        "volume": 702400,
+        "ma20": 411.56,
+        "ma50": 400.55,
+        "volume_vs_20d": 0.83,
+        "atr14": 18.03,
+        "chg_5d_pct": 0.2
+      },
+      "weekly_snapshot": {
+        "ticker": "HUM",
+        "week_start": "2020-11-09",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 49.4,
+        "price_vs_sma50": 1.039,
+        "notes": "ADX 20.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "HUM_2020-10-20_bearish_sample_012_020",
+      "scenario_id": "HUM_2020-10-20",
+      "window_type": "bearish_sample_012",
+      "chronological_index": 20,
+      "state_id": "bearish_sample_012_state_020",
+      "time_spot": "2020-11-16",
+      "reference_session": "2020-11-16",
+      "question": "Session summary for November 16, 2020: HUM opened $417.44, ranged $407.06-$420.51, closed $411.55. Volume 0.7M (0.76x 20-day avg). 20-day $411.34 | 50-day $400.86. 5-day return +1.31%. ATR-14 $18.63. RSI 48.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-11-16",
+        "open": 417.44,
+        "high": 420.51,
+        "low": 407.06,
+        "close": 411.55,
+        "volume": 652300,
+        "ma20": 411.34,
+        "ma50": 400.86,
+        "volume_vs_20d": 0.76,
+        "atr14": 18.63,
+        "chg_5d_pct": 1.31
+      },
+      "weekly_snapshot": {
+        "ticker": "HUM",
+        "week_start": "2020-11-16",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 48.8,
+        "price_vs_sma50": 1.027,
+        "notes": "ADX 20.9, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "HUM_2020-10-20_bearish_sample_012_021",
+      "scenario_id": "HUM_2020-10-20",
+      "window_type": "bearish_sample_012",
+      "chronological_index": 21,
+      "state_id": "bearish_sample_012_state_021",
+      "time_spot": "2020-11-17",
+      "reference_session": "2020-11-17",
+      "question": "Session summary for November 17, 2020: HUM opened $408.33, ranged $401.47-$409.83, closed $405.49. Volume 0.6M (0.66x 20-day avg). 20-day $410.66 | 50-day $401.20. 5-day return -1.96%. ATR-14 $18.00. RSI 53.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-11-17",
+        "open": 408.33,
+        "high": 409.83,
+        "low": 401.47,
+        "close": 405.49,
+        "volume": 571200,
+        "ma20": 410.66,
+        "ma50": 401.2,
+        "volume_vs_20d": 0.66,
+        "atr14": 18.0,
+        "chg_5d_pct": -1.96
+      },
+      "weekly_snapshot": {
+        "ticker": "HUM",
+        "week_start": "2020-11-16",
+        "trend_regime": "rangebound",
+        "volatility_regime": "high",
+        "rsi_14": 53.4,
+        "price_vs_sma50": 1.011,
+        "notes": "ADX 20.4, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "HUM_2020-10-20_bearish_sample_012_022",
+      "scenario_id": "HUM_2020-10-20",
+      "window_type": "bearish_sample_012",
+      "chronological_index": 22,
+      "state_id": "bearish_sample_012_state_022",
+      "time_spot": "2020-11-18",
+      "reference_session": "2020-11-18",
+      "question": "Session summary for November 18, 2020: HUM opened $405.98, ranged $397.32-$407.19, closed $401.85. Volume 0.5M (0.64x 20-day avg). 20-day $409.76 | 50-day $401.41. 5-day return -1.77%. ATR-14 $17.51. RSI 59.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-11-18",
+        "open": 405.98,
+        "high": 407.19,
+        "low": 397.32,
+        "close": 401.85,
+        "volume": 545200,
+        "ma20": 409.76,
+        "ma50": 401.41,
+        "volume_vs_20d": 0.64,
+        "atr14": 17.51,
+        "chg_5d_pct": -1.77
+      },
+      "weekly_snapshot": {
+        "ticker": "HUM",
+        "week_start": "2020-11-16",
+        "trend_regime": "rangebound",
+        "volatility_regime": "high",
+        "rsi_14": 59.1,
+        "price_vs_sma50": 1.001,
+        "notes": "ADX 19.6, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "HUM_2020-10-20_bearish_sample_012_023",
+      "scenario_id": "HUM_2020-10-20",
+      "window_type": "bearish_sample_012",
+      "chronological_index": 23,
+      "state_id": "bearish_sample_012_state_023",
+      "time_spot": "2020-11-19",
+      "reference_session": "2020-11-19",
+      "question": "Session summary for November 19, 2020: HUM opened $400.11, ranged $389.47-$402.71, closed $391.03. Volume 1.5M (1.66x 20-day avg). 20-day $408.13 | 50-day $401.68. 5-day return -5.70%. ATR-14 $17.79. RSI 53.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-11-19",
+        "open": 400.11,
+        "high": 402.71,
+        "low": 389.47,
+        "close": 391.03,
+        "volume": 1489900,
+        "ma20": 408.13,
+        "ma50": 401.68,
+        "volume_vs_20d": 1.66,
+        "atr14": 17.79,
+        "chg_5d_pct": -5.7
+      },
+      "weekly_snapshot": {
+        "ticker": "HUM",
+        "week_start": "2020-11-16",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 53.1,
+        "price_vs_sma50": 0.973,
+        "notes": "ADX 17.6, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "HUM_2020-10-20_bearish_sample_012_024",
+      "scenario_id": "HUM_2020-10-20",
+      "window_type": "bearish_sample_012",
+      "chronological_index": 24,
+      "state_id": "bearish_sample_012_state_024",
+      "time_spot": "2020-11-20",
+      "reference_session": "2020-11-20",
+      "question": "Session summary for November 20, 2020: HUM opened $389.47, ranged $385.75-$393.75, closed $390.11. Volume 0.7M (0.82x 20-day avg). 20-day $406.30 | 50-day $401.98. 5-day return -6.27%. ATR-14 $17.39. RSI 49.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-11-20",
+        "open": 389.47,
+        "high": 393.75,
+        "low": 385.75,
+        "close": 390.11,
+        "volume": 743900,
+        "ma20": 406.3,
+        "ma50": 401.98,
+        "volume_vs_20d": 0.82,
+        "atr14": 17.39,
+        "chg_5d_pct": -6.27
+      },
+      "weekly_snapshot": {
+        "ticker": "HUM",
+        "week_start": "2020-11-16",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 49.0,
+        "price_vs_sma50": 0.97,
+        "notes": "ADX 16.5, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "HUM_2020-10-20_bearish_sample_012_025",
+      "scenario_id": "HUM_2020-10-20",
+      "window_type": "bearish_sample_012",
+      "chronological_index": 25,
+      "state_id": "bearish_sample_012_state_025",
+      "time_spot": "2020-11-23",
+      "reference_session": "2020-11-23",
+      "question": "Session summary for November 23, 2020: HUM opened $393.11, ranged $388.63-$396.22, closed $393.07. Volume 1.1M (1.16x 20-day avg). 20-day $405.06 | 50-day $402.10. 5-day return -4.49%. ATR-14 $16.43. RSI 43.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-11-23",
+        "open": 393.11,
+        "high": 396.22,
+        "low": 388.63,
+        "close": 393.07,
+        "volume": 1093500,
+        "ma20": 405.06,
+        "ma50": 402.1,
+        "volume_vs_20d": 1.16,
+        "atr14": 16.43,
+        "chg_5d_pct": -4.49
+      },
+      "weekly_snapshot": {
+        "ticker": "HUM",
+        "week_start": "2020-11-23",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 43.4,
+        "price_vs_sma50": 0.978,
+        "notes": "ADX 16.5, MACD bearish"
+      }
+    }
+  ]
+}

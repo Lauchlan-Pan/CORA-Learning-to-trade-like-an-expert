@@ -1,0 +1,2898 @@
+{
+  "metadata": {
+    "instrument": "AEE",
+    "initial_capital": 10000,
+    "window_type": "mixed_sample_033",
+    "description": "AEE window (2019-07-23 \u2013 2019-08-26) - mixed regime.",
+    "num_mcqs": 25,
+    "notes": "Orders express target exposure fractions relative to the leverage ceiling.",
+    "max_leverage": 2.5,
+    "exposure_buckets": [
+      0.8,
+      0.6,
+      0.4,
+      0.2
+    ],
+    "start_reference": "2019-07-23",
+    "end_reference": "2019-08-26",
+    "regime": "mixed",
+    "bh_return": -0.5
+  },
+  "mcqs": [
+    {
+      "scenario_instance_id": "AEE_2019-07-23_mixed_sample_033_001",
+      "scenario_id": "AEE_2019-07-23",
+      "window_type": "mixed_sample_033",
+      "chronological_index": 1,
+      "state_id": "mixed_sample_033_state_001",
+      "time_spot": "2019-07-23",
+      "reference_session": "2019-07-23",
+      "question": "Session summary for July 23, 2019: AEE opened $64.33, ranged $63.83-$64.64, closed $64.27. Volume 1.0M (1.01x 20-day avg). 20-day $64.18 | 50-day $63.60. 5-day return +0.00%. ATR-14 $0.87. RSI 54.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-07-23",
+        "open": 64.33,
+        "high": 64.64,
+        "low": 63.83,
+        "close": 64.27,
+        "volume": 988100,
+        "ma20": 64.18,
+        "ma50": 63.6,
+        "volume_vs_20d": 1.01,
+        "atr14": 0.87,
+        "chg_5d_pct": 0.0
+      },
+      "weekly_snapshot": {
+        "ticker": "AEE",
+        "week_start": "2019-07-22",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 54.0,
+        "price_vs_sma50": 1.011,
+        "notes": "ADX 12.9, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEE_2019-07-23_mixed_sample_033_002",
+      "scenario_id": "AEE_2019-07-23",
+      "window_type": "mixed_sample_033",
+      "chronological_index": 2,
+      "state_id": "mixed_sample_033_state_002",
+      "time_spot": "2019-07-24",
+      "reference_session": "2019-07-24",
+      "question": "Session summary for July 24, 2019: AEE opened $64.59, ranged $63.83-$64.59, closed $64.44. Volume 0.8M (0.87x 20-day avg). 20-day $64.18 | 50-day $63.64. 5-day return -0.40%. ATR-14 $0.85. RSI 48.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-07-24",
+        "open": 64.59,
+        "high": 64.59,
+        "low": 63.83,
+        "close": 64.44,
+        "volume": 847700,
+        "ma20": 64.18,
+        "ma50": 63.64,
+        "volume_vs_20d": 0.87,
+        "atr14": 0.85,
+        "chg_5d_pct": -0.4
+      },
+      "weekly_snapshot": {
+        "ticker": "AEE",
+        "week_start": "2019-07-22",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 48.8,
+        "price_vs_sma50": 1.013,
+        "notes": "ADX 15.2, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEE_2019-07-23_mixed_sample_033_003",
+      "scenario_id": "AEE_2019-07-23",
+      "window_type": "mixed_sample_033",
+      "chronological_index": 3,
+      "state_id": "mixed_sample_033_state_003",
+      "time_spot": "2019-07-25",
+      "reference_session": "2019-07-25",
+      "question": "Session summary for July 25, 2019: AEE opened $64.83, ranged $64.02-$64.97, closed $64.28. Volume 1.2M (1.25x 20-day avg). 20-day $64.24 | 50-day $63.69. 5-day return -1.18%. ATR-14 $0.83. RSI 47.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-07-25",
+        "open": 64.83,
+        "high": 64.97,
+        "low": 64.02,
+        "close": 64.28,
+        "volume": 1219900,
+        "ma20": 64.24,
+        "ma50": 63.69,
+        "volume_vs_20d": 1.25,
+        "atr14": 0.83,
+        "chg_5d_pct": -1.18
+      },
+      "weekly_snapshot": {
+        "ticker": "AEE",
+        "week_start": "2019-07-22",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 47.4,
+        "price_vs_sma50": 1.009,
+        "notes": "ADX 14.1, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEE_2019-07-23_mixed_sample_033_004",
+      "scenario_id": "AEE_2019-07-23",
+      "window_type": "mixed_sample_033",
+      "chronological_index": 4,
+      "state_id": "mixed_sample_033_state_004",
+      "time_spot": "2019-07-26",
+      "reference_session": "2019-07-26",
+      "question": "Session summary for July 26, 2019: AEE opened $64.37, ranged $64.00-$64.76, closed $64.57. Volume 1.1M (1.13x 20-day avg). 20-day $64.32 | 50-day $63.74. 5-day return +0.80%. ATR-14 $0.83. RSI 51.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-07-26",
+        "open": 64.37,
+        "high": 64.76,
+        "low": 64.0,
+        "close": 64.57,
+        "volume": 1120500,
+        "ma20": 64.32,
+        "ma50": 63.74,
+        "volume_vs_20d": 1.13,
+        "atr14": 0.83,
+        "chg_5d_pct": 0.8
+      },
+      "weekly_snapshot": {
+        "ticker": "AEE",
+        "week_start": "2019-07-22",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 51.5,
+        "price_vs_sma50": 1.013,
+        "notes": "ADX 13.7, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEE_2019-07-23_mixed_sample_033_005",
+      "scenario_id": "AEE_2019-07-23",
+      "window_type": "mixed_sample_033",
+      "chronological_index": 5,
+      "state_id": "mixed_sample_033_state_005",
+      "time_spot": "2019-07-29",
+      "reference_session": "2019-07-29",
+      "question": "Session summary for July 29, 2019: AEE opened $64.75, ranged $64.19-$65.07, closed $64.79. Volume 1.1M (1.16x 20-day avg). 20-day $64.40 | 50-day $63.79. 5-day return +0.75%. ATR-14 $0.85. RSI 52.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-07-29",
+        "open": 64.75,
+        "high": 65.07,
+        "low": 64.19,
+        "close": 64.79,
+        "volume": 1078800,
+        "ma20": 64.4,
+        "ma50": 63.79,
+        "volume_vs_20d": 1.16,
+        "atr14": 0.85,
+        "chg_5d_pct": 0.75
+      },
+      "weekly_snapshot": {
+        "ticker": "AEE",
+        "week_start": "2019-07-29",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 52.8,
+        "price_vs_sma50": 1.016,
+        "notes": "ADX 13.7, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEE_2019-07-23_mixed_sample_033_006",
+      "scenario_id": "AEE_2019-07-23",
+      "window_type": "mixed_sample_033",
+      "chronological_index": 6,
+      "state_id": "mixed_sample_033_state_006",
+      "time_spot": "2019-07-30",
+      "reference_session": "2019-07-30",
+      "question": "Session summary for July 30, 2019: AEE opened $64.71, ranged $63.92-$65.14, closed $64.25. Volume 0.9M (0.99x 20-day avg). 20-day $64.44 | 50-day $63.83. 5-day return -0.03%. ATR-14 $0.89. RSI 45.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-07-30",
+        "open": 64.71,
+        "high": 65.14,
+        "low": 63.92,
+        "close": 64.25,
+        "volume": 918100,
+        "ma20": 64.44,
+        "ma50": 63.83,
+        "volume_vs_20d": 0.99,
+        "atr14": 0.89,
+        "chg_5d_pct": -0.03
+      },
+      "weekly_snapshot": {
+        "ticker": "AEE",
+        "week_start": "2019-07-29",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 45.4,
+        "price_vs_sma50": 1.007,
+        "notes": "ADX 14.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEE_2019-07-23_mixed_sample_033_007",
+      "scenario_id": "AEE_2019-07-23",
+      "window_type": "mixed_sample_033",
+      "chronological_index": 7,
+      "state_id": "mixed_sample_033_state_007",
+      "time_spot": "2019-07-31",
+      "reference_session": "2019-07-31",
+      "question": "Session summary for July 31, 2019: AEE opened $64.22, ranged $63.60-$64.65, closed $63.81. Volume 1.0M (1.14x 20-day avg). 20-day $64.43 | 50-day $63.85. 5-day return -0.97%. ATR-14 $0.90. RSI 40.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-07-31",
+        "open": 64.22,
+        "high": 64.65,
+        "low": 63.6,
+        "close": 63.81,
+        "volume": 1041300,
+        "ma20": 64.43,
+        "ma50": 63.85,
+        "volume_vs_20d": 1.14,
+        "atr14": 0.9,
+        "chg_5d_pct": -0.97
+      },
+      "weekly_snapshot": {
+        "ticker": "AEE",
+        "week_start": "2019-07-29",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 40.7,
+        "price_vs_sma50": 0.999,
+        "notes": "ADX 14.2, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEE_2019-07-23_mixed_sample_033_008",
+      "scenario_id": "AEE_2019-07-23",
+      "window_type": "mixed_sample_033",
+      "chronological_index": 8,
+      "state_id": "mixed_sample_033_state_008",
+      "time_spot": "2019-08-01",
+      "reference_session": "2019-08-01",
+      "question": "Session summary for August 01, 2019: AEE opened $63.74, ranged $63.54-$65.01, closed $64.61. Volume 2.3M (2.33x 20-day avg). 20-day $64.43 | 50-day $63.90. 5-day return +0.51%. ATR-14 $0.94. RSI 54.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-08-01",
+        "open": 63.74,
+        "high": 65.01,
+        "low": 63.54,
+        "close": 64.61,
+        "volume": 2349600,
+        "ma20": 64.43,
+        "ma50": 63.9,
+        "volume_vs_20d": 2.33,
+        "atr14": 0.94,
+        "chg_5d_pct": 0.51
+      },
+      "weekly_snapshot": {
+        "ticker": "AEE",
+        "week_start": "2019-07-29",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 54.2,
+        "price_vs_sma50": 1.011,
+        "notes": "ADX 13.0, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEE_2019-07-23_mixed_sample_033_009",
+      "scenario_id": "AEE_2019-07-23",
+      "window_type": "mixed_sample_033",
+      "chronological_index": 9,
+      "state_id": "mixed_sample_033_state_009",
+      "time_spot": "2019-08-02",
+      "reference_session": "2019-08-02",
+      "question": "Session summary for August 02, 2019: AEE opened $64.65, ranged $63.58-$65.26, closed $63.85. Volume 2.2M (2.00x 20-day avg). 20-day $64.41 | 50-day $63.92. 5-day return -1.11%. ATR-14 $1.02. RSI 45.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-08-02",
+        "open": 64.65,
+        "high": 65.26,
+        "low": 63.58,
+        "close": 63.85,
+        "volume": 2160300,
+        "ma20": 64.41,
+        "ma50": 63.92,
+        "volume_vs_20d": 2.0,
+        "atr14": 1.02,
+        "chg_5d_pct": -1.11
+      },
+      "weekly_snapshot": {
+        "ticker": "AEE",
+        "week_start": "2019-07-29",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 45.8,
+        "price_vs_sma50": 0.999,
+        "notes": "ADX 12.0, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEE_2019-07-23_mixed_sample_033_010",
+      "scenario_id": "AEE_2019-07-23",
+      "window_type": "mixed_sample_033",
+      "chronological_index": 10,
+      "state_id": "mixed_sample_033_state_010",
+      "time_spot": "2019-08-05",
+      "reference_session": "2019-08-05",
+      "question": "Session summary for August 05, 2019: AEE opened $64.14, ranged $62.92-$64.66, closed $63.27. Volume 2.2M (1.88x 20-day avg). 20-day $64.35 | 50-day $63.92. 5-day return -2.34%. ATR-14 $1.09. RSI 41.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-08-05",
+        "open": 64.14,
+        "high": 64.66,
+        "low": 62.92,
+        "close": 63.27,
+        "volume": 2157700,
+        "ma20": 64.35,
+        "ma50": 63.92,
+        "volume_vs_20d": 1.88,
+        "atr14": 1.09,
+        "chg_5d_pct": -2.34
+      },
+      "weekly_snapshot": {
+        "ticker": "AEE",
+        "week_start": "2019-08-05",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 41.7,
+        "price_vs_sma50": 0.99,
+        "notes": "ADX 10.9, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEE_2019-07-23_mixed_sample_033_011",
+      "scenario_id": "AEE_2019-07-23",
+      "window_type": "mixed_sample_033",
+      "chronological_index": 11,
+      "state_id": "mixed_sample_033_state_011",
+      "time_spot": "2019-08-06",
+      "reference_session": "2019-08-06",
+      "question": "Session summary for August 06, 2019: AEE opened $63.28, ranged $62.11-$63.52, closed $63.23. Volume 5.3M (3.86x 20-day avg). 20-day $64.28 | 50-day $63.92. 5-day return -1.59%. ATR-14 $1.13. RSI 37.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-08-06",
+        "open": 63.28,
+        "high": 63.52,
+        "low": 62.11,
+        "close": 63.23,
+        "volume": 5268700,
+        "ma20": 64.28,
+        "ma50": 63.92,
+        "volume_vs_20d": 3.86,
+        "atr14": 1.13,
+        "chg_5d_pct": -1.59
+      },
+      "weekly_snapshot": {
+        "ticker": "AEE",
+        "week_start": "2019-08-05",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 37.0,
+        "price_vs_sma50": 0.989,
+        "notes": "ADX 12.1, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEE_2019-07-23_mixed_sample_033_012",
+      "scenario_id": "AEE_2019-07-23",
+      "window_type": "mixed_sample_033",
+      "chronological_index": 12,
+      "state_id": "mixed_sample_033_state_012",
+      "time_spot": "2019-08-07",
+      "reference_session": "2019-08-07",
+      "question": "Session summary for August 07, 2019: AEE opened $63.32, ranged $62.40-$63.77, closed $63.42. Volume 3.0M (2.01x 20-day avg). 20-day $64.22 | 50-day $63.94. 5-day return -0.62%. ATR-14 $1.16. RSI 35.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-08-07",
+        "open": 63.32,
+        "high": 63.77,
+        "low": 62.4,
+        "close": 63.42,
+        "volume": 2969400,
+        "ma20": 64.22,
+        "ma50": 63.94,
+        "volume_vs_20d": 2.01,
+        "atr14": 1.16,
+        "chg_5d_pct": -0.62
+      },
+      "weekly_snapshot": {
+        "ticker": "AEE",
+        "week_start": "2019-08-05",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 35.0,
+        "price_vs_sma50": 0.992,
+        "notes": "ADX 12.6, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEE_2019-07-23_mixed_sample_033_013",
+      "scenario_id": "AEE_2019-07-23",
+      "window_type": "mixed_sample_033",
+      "chronological_index": 13,
+      "state_id": "mixed_sample_033_state_013",
+      "time_spot": "2019-08-08",
+      "reference_session": "2019-08-08",
+      "question": "Session summary for August 08, 2019: AEE opened $63.31, ranged $62.73-$64.49, closed $64.34. Volume 2.6M (1.65x 20-day avg). 20-day $64.20 | 50-day $64.00. 5-day return -0.42%. ATR-14 $1.21. RSI 52.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-08-08",
+        "open": 63.31,
+        "high": 64.49,
+        "low": 62.73,
+        "close": 64.34,
+        "volume": 2579300,
+        "ma20": 64.2,
+        "ma50": 64.0,
+        "volume_vs_20d": 1.65,
+        "atr14": 1.21,
+        "chg_5d_pct": -0.42
+      },
+      "weekly_snapshot": {
+        "ticker": "AEE",
+        "week_start": "2019-08-05",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 52.7,
+        "price_vs_sma50": 1.005,
+        "notes": "ADX 12.2, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEE_2019-07-23_mixed_sample_033_014",
+      "scenario_id": "AEE_2019-07-23",
+      "window_type": "mixed_sample_033",
+      "chronological_index": 14,
+      "state_id": "mixed_sample_033_state_014",
+      "time_spot": "2019-08-09",
+      "reference_session": "2019-08-09",
+      "question": "Session summary for August 09, 2019: AEE opened $64.43, ranged $63.73-$64.83, closed $64.65. Volume 2.8M (1.67x 20-day avg). 20-day $64.22 | 50-day $64.07. 5-day return +1.25%. ATR-14 $1.21. RSI 53.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-08-09",
+        "open": 64.43,
+        "high": 64.83,
+        "low": 63.73,
+        "close": 64.65,
+        "volume": 2787400,
+        "ma20": 64.22,
+        "ma50": 64.07,
+        "volume_vs_20d": 1.67,
+        "atr14": 1.21,
+        "chg_5d_pct": 1.25
+      },
+      "weekly_snapshot": {
+        "ticker": "AEE",
+        "week_start": "2019-08-05",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 53.2,
+        "price_vs_sma50": 1.009,
+        "notes": "ADX 12.5, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEE_2019-07-23_mixed_sample_033_015",
+      "scenario_id": "AEE_2019-07-23",
+      "window_type": "mixed_sample_033",
+      "chronological_index": 15,
+      "state_id": "mixed_sample_033_state_015",
+      "time_spot": "2019-08-12",
+      "reference_session": "2019-08-12",
+      "question": "Session summary for August 12, 2019: AEE opened $64.89, ranged $64.31-$64.92, closed $64.61. Volume 2.0M (1.17x 20-day avg). 20-day $64.24 | 50-day $64.14. 5-day return +2.12%. ATR-14 $1.20. RSI 53.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-08-12",
+        "open": 64.89,
+        "high": 64.92,
+        "low": 64.31,
+        "close": 64.61,
+        "volume": 2022600,
+        "ma20": 64.24,
+        "ma50": 64.14,
+        "volume_vs_20d": 1.17,
+        "atr14": 1.2,
+        "chg_5d_pct": 2.12
+      },
+      "weekly_snapshot": {
+        "ticker": "AEE",
+        "week_start": "2019-08-12",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 53.2,
+        "price_vs_sma50": 1.007,
+        "notes": "ADX 13.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEE_2019-07-23_mixed_sample_033_016",
+      "scenario_id": "AEE_2019-07-23",
+      "window_type": "mixed_sample_033",
+      "chronological_index": 16,
+      "state_id": "mixed_sample_033_state_016",
+      "time_spot": "2019-08-13",
+      "reference_session": "2019-08-13",
+      "question": "Session summary for August 13, 2019: AEE opened $64.56, ranged $64.21-$64.91, closed $64.50. Volume 2.8M (1.56x 20-day avg). 20-day $64.25 | 50-day $64.18. 5-day return +2.01%. ATR-14 $1.19. RSI 50.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-08-13",
+        "open": 64.56,
+        "high": 64.91,
+        "low": 64.21,
+        "close": 64.5,
+        "volume": 2817400,
+        "ma20": 64.25,
+        "ma50": 64.18,
+        "volume_vs_20d": 1.56,
+        "atr14": 1.19,
+        "chg_5d_pct": 2.01
+      },
+      "weekly_snapshot": {
+        "ticker": "AEE",
+        "week_start": "2019-08-12",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 50.6,
+        "price_vs_sma50": 1.005,
+        "notes": "ADX 11.5, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEE_2019-07-23_mixed_sample_033_017",
+      "scenario_id": "AEE_2019-07-23",
+      "window_type": "mixed_sample_033",
+      "chronological_index": 17,
+      "state_id": "mixed_sample_033_state_017",
+      "time_spot": "2019-08-14",
+      "reference_session": "2019-08-14",
+      "question": "Session summary for August 14, 2019: AEE opened $64.70, ranged $63.34-$64.72, closed $63.44. Volume 1.5M (0.83x 20-day avg). 20-day $64.19 | 50-day $64.20. 5-day return +0.04%. ATR-14 $1.22. RSI 43.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-08-14",
+        "open": 64.7,
+        "high": 64.72,
+        "low": 63.34,
+        "close": 63.44,
+        "volume": 1528400,
+        "ma20": 64.19,
+        "ma50": 64.2,
+        "volume_vs_20d": 0.83,
+        "atr14": 1.22,
+        "chg_5d_pct": 0.04
+      },
+      "weekly_snapshot": {
+        "ticker": "AEE",
+        "week_start": "2019-08-12",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 43.3,
+        "price_vs_sma50": 0.988,
+        "notes": "ADX 12.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEE_2019-07-23_mixed_sample_033_018",
+      "scenario_id": "AEE_2019-07-23",
+      "window_type": "mixed_sample_033",
+      "chronological_index": 18,
+      "state_id": "mixed_sample_033_state_018",
+      "time_spot": "2019-08-15",
+      "reference_session": "2019-08-15",
+      "question": "Session summary for August 15, 2019: AEE opened $63.26, ranged $63.16-$64.18, closed $63.91. Volume 3.1M (1.61x 20-day avg). 20-day $64.13 | 50-day $64.20. 5-day return -0.67%. ATR-14 $1.24. RSI 44.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-08-15",
+        "open": 63.26,
+        "high": 64.18,
+        "low": 63.16,
+        "close": 63.91,
+        "volume": 3140600,
+        "ma20": 64.13,
+        "ma50": 64.2,
+        "volume_vs_20d": 1.61,
+        "atr14": 1.24,
+        "chg_5d_pct": -0.67
+      },
+      "weekly_snapshot": {
+        "ticker": "AEE",
+        "week_start": "2019-08-12",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 44.9,
+        "price_vs_sma50": 0.995,
+        "notes": "ADX 13.2, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEE_2019-07-23_mixed_sample_033_019",
+      "scenario_id": "AEE_2019-07-23",
+      "window_type": "mixed_sample_033",
+      "chronological_index": 19,
+      "state_id": "mixed_sample_033_state_019",
+      "time_spot": "2019-08-16",
+      "reference_session": "2019-08-16",
+      "question": "Session summary for August 16, 2019: AEE opened $63.96, ranged $63.88-$64.79, closed $64.61. Volume 2.3M (1.14x 20-day avg). 20-day $64.16 | 50-day $64.21. 5-day return -0.07%. ATR-14 $1.25. RSI 48.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-08-16",
+        "open": 63.96,
+        "high": 64.79,
+        "low": 63.88,
+        "close": 64.61,
+        "volume": 2310400,
+        "ma20": 64.16,
+        "ma50": 64.21,
+        "volume_vs_20d": 1.14,
+        "atr14": 1.25,
+        "chg_5d_pct": -0.07
+      },
+      "weekly_snapshot": {
+        "ticker": "AEE",
+        "week_start": "2019-08-12",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 48.7,
+        "price_vs_sma50": 1.006,
+        "notes": "ADX 13.5, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEE_2019-07-23_mixed_sample_033_020",
+      "scenario_id": "AEE_2019-07-23",
+      "window_type": "mixed_sample_033",
+      "chronological_index": 20,
+      "state_id": "mixed_sample_033_state_020",
+      "time_spot": "2019-08-19",
+      "reference_session": "2019-08-19",
+      "question": "Session summary for August 19, 2019: AEE opened $64.62, ranged $64.13-$65.18, closed $64.89. Volume 1.8M (0.90x 20-day avg). 20-day $64.19 | 50-day $64.24. 5-day return +0.43%. ATR-14 $1.23. RSI 54.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-08-19",
+        "open": 64.62,
+        "high": 65.18,
+        "low": 64.13,
+        "close": 64.89,
+        "volume": 1842900,
+        "ma20": 64.19,
+        "ma50": 64.24,
+        "volume_vs_20d": 0.9,
+        "atr14": 1.23,
+        "chg_5d_pct": 0.43
+      },
+      "weekly_snapshot": {
+        "ticker": "AEE",
+        "week_start": "2019-08-19",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 54.8,
+        "price_vs_sma50": 1.01,
+        "notes": "ADX 12.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEE_2019-07-23_mixed_sample_033_021",
+      "scenario_id": "AEE_2019-07-23",
+      "window_type": "mixed_sample_033",
+      "chronological_index": 21,
+      "state_id": "mixed_sample_033_state_021",
+      "time_spot": "2019-08-20",
+      "reference_session": "2019-08-20",
+      "question": "Session summary for August 20, 2019: AEE opened $65.08, ranged $64.44-$65.08, closed $64.63. Volume 1.7M (0.82x 20-day avg). 20-day $64.21 | 50-day $64.26. 5-day return +0.20%. ATR-14 $1.20. RSI 56.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-08-20",
+        "open": 65.08,
+        "high": 65.08,
+        "low": 64.44,
+        "close": 64.63,
+        "volume": 1719000,
+        "ma20": 64.21,
+        "ma50": 64.26,
+        "volume_vs_20d": 0.82,
+        "atr14": 1.2,
+        "chg_5d_pct": 0.2
+      },
+      "weekly_snapshot": {
+        "ticker": "AEE",
+        "week_start": "2019-08-19",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 56.3,
+        "price_vs_sma50": 1.006,
+        "notes": "ADX 12.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEE_2019-07-23_mixed_sample_033_022",
+      "scenario_id": "AEE_2019-07-23",
+      "window_type": "mixed_sample_033",
+      "chronological_index": 22,
+      "state_id": "mixed_sample_033_state_022",
+      "time_spot": "2019-08-21",
+      "reference_session": "2019-08-21",
+      "question": "Session summary for August 21, 2019: AEE opened $64.60, ranged $64.41-$64.88, closed $64.85. Volume 1.2M (0.58x 20-day avg). 20-day $64.23 | 50-day $64.29. 5-day return +2.22%. ATR-14 $1.13. RSI 52.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-08-21",
+        "open": 64.6,
+        "high": 64.88,
+        "low": 64.41,
+        "close": 64.85,
+        "volume": 1215000,
+        "ma20": 64.23,
+        "ma50": 64.29,
+        "volume_vs_20d": 0.58,
+        "atr14": 1.13,
+        "chg_5d_pct": 2.22
+      },
+      "weekly_snapshot": {
+        "ticker": "AEE",
+        "week_start": "2019-08-19",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 52.0,
+        "price_vs_sma50": 1.009,
+        "notes": "ADX 11.9, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEE_2019-07-23_mixed_sample_033_023",
+      "scenario_id": "AEE_2019-07-23",
+      "window_type": "mixed_sample_033",
+      "chronological_index": 23,
+      "state_id": "mixed_sample_033_state_023",
+      "time_spot": "2019-08-22",
+      "reference_session": "2019-08-22",
+      "question": "Session summary for August 22, 2019: AEE opened $64.80, ranged $64.34-$64.97, closed $64.76. Volume 1.2M (0.55x 20-day avg). 20-day $64.25 | 50-day $64.30. 5-day return +1.33%. ATR-14 $1.06. RSI 58.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-08-22",
+        "open": 64.8,
+        "high": 64.97,
+        "low": 64.34,
+        "close": 64.76,
+        "volume": 1160400,
+        "ma20": 64.25,
+        "ma50": 64.3,
+        "volume_vs_20d": 0.55,
+        "atr14": 1.06,
+        "chg_5d_pct": 1.33
+      },
+      "weekly_snapshot": {
+        "ticker": "AEE",
+        "week_start": "2019-08-19",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 58.6,
+        "price_vs_sma50": 1.007,
+        "notes": "ADX 11.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEE_2019-07-23_mixed_sample_033_024",
+      "scenario_id": "AEE_2019-07-23",
+      "window_type": "mixed_sample_033",
+      "chronological_index": 24,
+      "state_id": "mixed_sample_033_state_024",
+      "time_spot": "2019-08-23",
+      "reference_session": "2019-08-23",
+      "question": "Session summary for August 23, 2019: AEE opened $64.96, ranged $63.28-$65.17, closed $63.51. Volume 1.7M (0.79x 20-day avg). 20-day $64.20 | 50-day $64.29. 5-day return -1.71%. ATR-14 $1.07. RSI 52.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-08-23",
+        "open": 64.96,
+        "high": 65.17,
+        "low": 63.28,
+        "close": 63.51,
+        "volume": 1698900,
+        "ma20": 64.2,
+        "ma50": 64.29,
+        "volume_vs_20d": 0.79,
+        "atr14": 1.07,
+        "chg_5d_pct": -1.71
+      },
+      "weekly_snapshot": {
+        "ticker": "AEE",
+        "week_start": "2019-08-19",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 52.0,
+        "price_vs_sma50": 0.988,
+        "notes": "ADX 12.0, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AEE_2019-07-23_mixed_sample_033_025",
+      "scenario_id": "AEE_2019-07-23",
+      "window_type": "mixed_sample_033",
+      "chronological_index": 25,
+      "state_id": "mixed_sample_033_state_025",
+      "time_spot": "2019-08-26",
+      "reference_session": "2019-08-26",
+      "question": "Session summary for August 26, 2019: AEE opened $63.52, ranged $63.42-$63.97, closed $63.95. Volume 1.4M (0.66x 20-day avg). 20-day $64.16 | 50-day $64.27. 5-day return -1.46%. ATR-14 $1.01. RSI 55.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-08-26",
+        "open": 63.52,
+        "high": 63.97,
+        "low": 63.42,
+        "close": 63.95,
+        "volume": 1428300,
+        "ma20": 64.16,
+        "ma50": 64.27,
+        "volume_vs_20d": 0.66,
+        "atr14": 1.01,
+        "chg_5d_pct": -1.46
+      },
+      "weekly_snapshot": {
+        "ticker": "AEE",
+        "week_start": "2019-08-26",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 55.6,
+        "price_vs_sma50": 0.995,
+        "notes": "ADX 9.5, MACD bearish"
+      }
+    }
+  ]
+}

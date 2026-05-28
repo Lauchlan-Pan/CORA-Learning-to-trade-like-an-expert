@@ -1,0 +1,2898 @@
+{
+  "metadata": {
+    "instrument": "ADP",
+    "initial_capital": 10000,
+    "window_type": "bearish_sample_038",
+    "description": "ADP window (2011-07-07 \u2013 2011-08-10) - bearish regime.",
+    "num_mcqs": 25,
+    "notes": "Orders express target exposure fractions relative to the leverage ceiling.",
+    "max_leverage": 2.5,
+    "exposure_buckets": [
+      0.8,
+      0.6,
+      0.4,
+      0.2
+    ],
+    "start_reference": "2011-07-07",
+    "end_reference": "2011-08-10",
+    "regime": "bearish",
+    "bh_return": -18.56
+  },
+  "mcqs": [
+    {
+      "scenario_instance_id": "ADP_2011-07-07_bearish_sample_038_001",
+      "scenario_id": "ADP_2011-07-07",
+      "window_type": "bearish_sample_038",
+      "chronological_index": 1,
+      "state_id": "bearish_sample_038_state_001",
+      "time_spot": "2011-07-07",
+      "reference_session": "2011-07-07",
+      "question": "Session summary for July 07, 2011: ADP opened $34.61, ranged $34.59-$35.03, closed $35.03. Volume 3.2M (0.99x 20-day avg). 20-day $33.47 | 50-day $33.85. 5-day return +4.74%. ATR-14 $0.56. RSI 73.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2011-07-07",
+        "open": 34.61,
+        "high": 35.03,
+        "low": 34.59,
+        "close": 35.03,
+        "volume": 3195578,
+        "ma20": 33.47,
+        "ma50": 33.85,
+        "volume_vs_20d": 0.99,
+        "atr14": 0.56,
+        "chg_5d_pct": 4.74
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2011-07-04",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 73.3,
+        "price_vs_sma50": 1.035,
+        "notes": "ADX 26.2, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2011-07-07_bearish_sample_038_002",
+      "scenario_id": "ADP_2011-07-07",
+      "window_type": "bearish_sample_038",
+      "chronological_index": 2,
+      "state_id": "bearish_sample_038_state_002",
+      "time_spot": "2011-07-08",
+      "reference_session": "2011-07-08",
+      "question": "Session summary for July 08, 2011: ADP opened $34.67, ranged $34.24-$34.96, closed $34.70. Volume 3.1M (0.96x 20-day avg). 20-day $33.52 | 50-day $33.85. 5-day return +3.45%. ATR-14 $0.57. RSI 69.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2011-07-08",
+        "open": 34.67,
+        "high": 34.96,
+        "low": 34.24,
+        "close": 34.7,
+        "volume": 3130314,
+        "ma20": 33.52,
+        "ma50": 33.85,
+        "volume_vs_20d": 0.96,
+        "atr14": 0.57,
+        "chg_5d_pct": 3.45
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2011-07-04",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 69.5,
+        "price_vs_sma50": 1.025,
+        "notes": "ADX 26.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2011-07-07_bearish_sample_038_003",
+      "scenario_id": "ADP_2011-07-07",
+      "window_type": "bearish_sample_038",
+      "chronological_index": 3,
+      "state_id": "bearish_sample_038_state_003",
+      "time_spot": "2011-07-11",
+      "reference_session": "2011-07-11",
+      "question": "Session summary for July 11, 2011: ADP opened $34.40, ranged $34.17-$34.49, closed $34.30. Volume 2.3M (0.72x 20-day avg). 20-day $33.58 | 50-day $33.85. 5-day return -0.04%. ATR-14 $0.54. RSI 60.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2011-07-11",
+        "open": 34.4,
+        "high": 34.49,
+        "low": 34.17,
+        "close": 34.3,
+        "volume": 2290415,
+        "ma20": 33.58,
+        "ma50": 33.85,
+        "volume_vs_20d": 0.72,
+        "atr14": 0.54,
+        "chg_5d_pct": -0.04
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2011-07-11",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 60.3,
+        "price_vs_sma50": 1.013,
+        "notes": "ADX 24.8, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2011-07-07_bearish_sample_038_004",
+      "scenario_id": "ADP_2011-07-07",
+      "window_type": "bearish_sample_038",
+      "chronological_index": 4,
+      "state_id": "bearish_sample_038_state_004",
+      "time_spot": "2011-07-12",
+      "reference_session": "2011-07-12",
+      "question": "Session summary for July 12, 2011: ADP opened $34.34, ranged $34.06-$34.51, closed $34.26. Volume 2.6M (0.83x 20-day avg). 20-day $33.62 | 50-day $33.85. 5-day return +0.26%. ATR-14 $0.54. RSI 58.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2011-07-12",
+        "open": 34.34,
+        "high": 34.51,
+        "low": 34.06,
+        "close": 34.26,
+        "volume": 2611727,
+        "ma20": 33.62,
+        "ma50": 33.85,
+        "volume_vs_20d": 0.83,
+        "atr14": 0.54,
+        "chg_5d_pct": 0.26
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2011-07-11",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 58.0,
+        "price_vs_sma50": 1.012,
+        "notes": "ADX 23.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2011-07-07_bearish_sample_038_005",
+      "scenario_id": "ADP_2011-07-07",
+      "window_type": "bearish_sample_038",
+      "chronological_index": 5,
+      "state_id": "bearish_sample_038_state_005",
+      "time_spot": "2011-07-13",
+      "reference_session": "2011-07-13",
+      "question": "Session summary for July 13, 2011: ADP opened $34.40, ranged $34.10-$34.57, closed $34.18. Volume 2.0M (0.65x 20-day avg). 20-day $33.65 | 50-day $33.84. 5-day return -0.57%. ATR-14 $0.55. RSI 59.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2011-07-13",
+        "open": 34.4,
+        "high": 34.57,
+        "low": 34.1,
+        "close": 34.18,
+        "volume": 1987897,
+        "ma20": 33.65,
+        "ma50": 33.84,
+        "volume_vs_20d": 0.65,
+        "atr14": 0.55,
+        "chg_5d_pct": -0.57
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2011-07-11",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 59.8,
+        "price_vs_sma50": 1.01,
+        "notes": "ADX 21.9, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2011-07-07_bearish_sample_038_006",
+      "scenario_id": "ADP_2011-07-07",
+      "window_type": "bearish_sample_038",
+      "chronological_index": 6,
+      "state_id": "bearish_sample_038_state_006",
+      "time_spot": "2011-07-14",
+      "reference_session": "2011-07-14",
+      "question": "Session summary for July 14, 2011: ADP opened $34.27, ranged $33.85-$34.46, closed $33.93. Volume 2.1M (0.71x 20-day avg). 20-day $33.71 | 50-day $33.83. 5-day return -3.14%. ATR-14 $0.55. RSI 60.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2011-07-14",
+        "open": 34.27,
+        "high": 34.46,
+        "low": 33.85,
+        "close": 33.93,
+        "volume": 2128335,
+        "ma20": 33.71,
+        "ma50": 33.83,
+        "volume_vs_20d": 0.71,
+        "atr14": 0.55,
+        "chg_5d_pct": -3.14
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2011-07-11",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 60.3,
+        "price_vs_sma50": 1.003,
+        "notes": "ADX 21.7, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2011-07-07_bearish_sample_038_007",
+      "scenario_id": "ADP_2011-07-07",
+      "window_type": "bearish_sample_038",
+      "chronological_index": 7,
+      "state_id": "bearish_sample_038_state_007",
+      "time_spot": "2011-07-15",
+      "reference_session": "2011-07-15",
+      "question": "Session summary for July 15, 2011: ADP opened $33.99, ranged $33.57-$34.12, closed $33.82. Volume 3.0M (1.02x 20-day avg). 20-day $33.75 | 50-day $33.82. 5-day return -2.55%. ATR-14 $0.55. RSI 65.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2011-07-15",
+        "open": 33.99,
+        "high": 34.12,
+        "low": 33.57,
+        "close": 33.82,
+        "volume": 3044433,
+        "ma20": 33.75,
+        "ma50": 33.82,
+        "volume_vs_20d": 1.02,
+        "atr14": 0.55,
+        "chg_5d_pct": -2.55
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2011-07-11",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 65.4,
+        "price_vs_sma50": 1.0,
+        "notes": "ADX 21.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2011-07-07_bearish_sample_038_008",
+      "scenario_id": "ADP_2011-07-07",
+      "window_type": "bearish_sample_038",
+      "chronological_index": 8,
+      "state_id": "bearish_sample_038_state_008",
+      "time_spot": "2011-07-18",
+      "reference_session": "2011-07-18",
+      "question": "Session summary for July 18, 2011: ADP opened $33.58, ranged $33.10-$33.69, closed $33.33. Volume 2.2M (0.79x 20-day avg). 20-day $33.77 | 50-day $33.81. 5-day return -2.84%. ATR-14 $0.55. RSI 55.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2011-07-18",
+        "open": 33.58,
+        "high": 33.69,
+        "low": 33.1,
+        "close": 33.33,
+        "volume": 2230276,
+        "ma20": 33.77,
+        "ma50": 33.81,
+        "volume_vs_20d": 0.79,
+        "atr14": 0.55,
+        "chg_5d_pct": -2.84
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2011-07-18",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 55.5,
+        "price_vs_sma50": 0.986,
+        "notes": "ADX 19.2, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2011-07-07_bearish_sample_038_009",
+      "scenario_id": "ADP_2011-07-07",
+      "window_type": "bearish_sample_038",
+      "chronological_index": 9,
+      "state_id": "bearish_sample_038_state_009",
+      "time_spot": "2011-07-19",
+      "reference_session": "2011-07-19",
+      "question": "Session summary for July 19, 2011: ADP opened $33.56, ranged $33.36-$33.86, closed $33.76. Volume 2.6M (0.92x 20-day avg). 20-day $33.79 | 50-day $33.81. 5-day return -1.45%. ATR-14 $0.55. RSI 57.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2011-07-19",
+        "open": 33.56,
+        "high": 33.86,
+        "low": 33.36,
+        "close": 33.76,
+        "volume": 2613891,
+        "ma20": 33.79,
+        "ma50": 33.81,
+        "volume_vs_20d": 0.92,
+        "atr14": 0.55,
+        "chg_5d_pct": -1.45
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2011-07-18",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 57.0,
+        "price_vs_sma50": 0.999,
+        "notes": "ADX 18.2, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2011-07-07_bearish_sample_038_010",
+      "scenario_id": "ADP_2011-07-07",
+      "window_type": "bearish_sample_038",
+      "chronological_index": 10,
+      "state_id": "bearish_sample_038_state_010",
+      "time_spot": "2011-07-20",
+      "reference_session": "2011-07-20",
+      "question": "Session summary for July 20, 2011: ADP opened $33.53, ranged $33.33-$33.74, closed $33.41. Volume 2.3M (0.81x 20-day avg). 20-day $33.78 | 50-day $33.80. 5-day return -2.27%. ATR-14 $0.55. RSI 49.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2011-07-20",
+        "open": 33.53,
+        "high": 33.74,
+        "low": 33.33,
+        "close": 33.41,
+        "volume": 2288479,
+        "ma20": 33.78,
+        "ma50": 33.8,
+        "volume_vs_20d": 0.81,
+        "atr14": 0.55,
+        "chg_5d_pct": -2.27
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2011-07-18",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 49.6,
+        "price_vs_sma50": 0.989,
+        "notes": "ADX 16.9, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2011-07-07_bearish_sample_038_011",
+      "scenario_id": "ADP_2011-07-07",
+      "window_type": "bearish_sample_038",
+      "chronological_index": 11,
+      "state_id": "bearish_sample_038_state_011",
+      "time_spot": "2011-07-21",
+      "reference_session": "2011-07-21",
+      "question": "Session summary for July 21, 2011: ADP opened $33.53, ranged $33.47-$34.15, closed $33.84. Volume 2.7M (0.96x 20-day avg). 20-day $33.81 | 50-day $33.79. 5-day return -0.26%. ATR-14 $0.59. RSI 53.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2011-07-21",
+        "open": 33.53,
+        "high": 34.15,
+        "low": 33.47,
+        "close": 33.84,
+        "volume": 2702050,
+        "ma20": 33.81,
+        "ma50": 33.79,
+        "volume_vs_20d": 0.96,
+        "atr14": 0.59,
+        "chg_5d_pct": -0.26
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2011-07-18",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 53.2,
+        "price_vs_sma50": 1.002,
+        "notes": "ADX 16.8, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2011-07-07_bearish_sample_038_012",
+      "scenario_id": "ADP_2011-07-07",
+      "window_type": "bearish_sample_038",
+      "chronological_index": 12,
+      "state_id": "bearish_sample_038_state_012",
+      "time_spot": "2011-07-22",
+      "reference_session": "2011-07-22",
+      "question": "Session summary for July 22, 2011: ADP opened $33.91, ranged $33.69-$34.02, closed $33.89. Volume 1.9M (0.70x 20-day avg). 20-day $33.85 | 50-day $33.79. 5-day return +0.23%. ATR-14 $0.54. RSI 44.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2011-07-22",
+        "open": 33.91,
+        "high": 34.02,
+        "low": 33.69,
+        "close": 33.89,
+        "volume": 1887779,
+        "ma20": 33.85,
+        "ma50": 33.79,
+        "volume_vs_20d": 0.7,
+        "atr14": 0.54,
+        "chg_5d_pct": 0.23
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2011-07-18",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 44.7,
+        "price_vs_sma50": 1.003,
+        "notes": "ADX 17.2, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2011-07-07_bearish_sample_038_013",
+      "scenario_id": "ADP_2011-07-07",
+      "window_type": "bearish_sample_038",
+      "chronological_index": 13,
+      "state_id": "bearish_sample_038_state_013",
+      "time_spot": "2011-07-25",
+      "reference_session": "2011-07-25",
+      "question": "Session summary for July 25, 2011: ADP opened $33.68, ranged $33.45-$33.84, closed $33.72. Volume 2.8M (1.04x 20-day avg). 20-day $33.90 | 50-day $33.77. 5-day return +1.18%. ATR-14 $0.55. RSI 44.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2011-07-25",
+        "open": 33.68,
+        "high": 33.84,
+        "low": 33.45,
+        "close": 33.72,
+        "volume": 2776540,
+        "ma20": 33.9,
+        "ma50": 33.77,
+        "volume_vs_20d": 1.04,
+        "atr14": 0.55,
+        "chg_5d_pct": 1.18
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2011-07-25",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 44.4,
+        "price_vs_sma50": 0.999,
+        "notes": "ADX 18.2, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2011-07-07_bearish_sample_038_014",
+      "scenario_id": "ADP_2011-07-07",
+      "window_type": "bearish_sample_038",
+      "chronological_index": 14,
+      "state_id": "bearish_sample_038_state_014",
+      "time_spot": "2011-07-26",
+      "reference_session": "2011-07-26",
+      "question": "Session summary for July 26, 2011: ADP opened $33.76, ranged $33.70-$34.01, closed $33.86. Volume 3.3M (1.23x 20-day avg). 20-day $33.95 | 50-day $33.76. 5-day return +0.28%. ATR-14 $0.54. RSI 43.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2011-07-26",
+        "open": 33.76,
+        "high": 34.01,
+        "low": 33.7,
+        "close": 33.86,
+        "volume": 3317338,
+        "ma20": 33.95,
+        "ma50": 33.76,
+        "volume_vs_20d": 1.23,
+        "atr14": 0.54,
+        "chg_5d_pct": 0.28
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2011-07-25",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 43.4,
+        "price_vs_sma50": 1.003,
+        "notes": "ADX 17.7, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2011-07-07_bearish_sample_038_015",
+      "scenario_id": "ADP_2011-07-07",
+      "window_type": "bearish_sample_038",
+      "chronological_index": 15,
+      "state_id": "bearish_sample_038_state_015",
+      "time_spot": "2011-07-27",
+      "reference_session": "2011-07-27",
+      "question": "Session summary for July 27, 2011: ADP opened $33.78, ranged $33.29-$33.78, closed $33.35. Volume 4.3M (1.54x 20-day avg). 20-day $33.96 | 50-day $33.75. 5-day return -0.17%. ATR-14 $0.53. RSI 27.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2011-07-27",
+        "open": 33.78,
+        "high": 33.78,
+        "low": 33.29,
+        "close": 33.35,
+        "volume": 4268175,
+        "ma20": 33.96,
+        "ma50": 33.75,
+        "volume_vs_20d": 1.54,
+        "atr14": 0.53,
+        "chg_5d_pct": -0.17
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2011-07-25",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 27.9,
+        "price_vs_sma50": 0.988,
+        "notes": "ADX 18.4, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2011-07-07_bearish_sample_038_016",
+      "scenario_id": "ADP_2011-07-07",
+      "window_type": "bearish_sample_038",
+      "chronological_index": 16,
+      "state_id": "bearish_sample_038_state_016",
+      "time_spot": "2011-07-28",
+      "reference_session": "2011-07-28",
+      "question": "Session summary for July 28, 2011: ADP opened $33.16, ranged $32.77-$33.35, closed $32.97. Volume 2.9M (1.06x 20-day avg). 20-day $33.94 | 50-day $33.73. 5-day return -2.58%. ATR-14 $0.52. RSI 27.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2011-07-28",
+        "open": 33.16,
+        "high": 33.35,
+        "low": 32.77,
+        "close": 32.97,
+        "volume": 2878936,
+        "ma20": 33.94,
+        "ma50": 33.73,
+        "volume_vs_20d": 1.06,
+        "atr14": 0.52,
+        "chg_5d_pct": -2.58
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2011-07-25",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 27.6,
+        "price_vs_sma50": 0.977,
+        "notes": "ADX 20.7, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2011-07-07_bearish_sample_038_017",
+      "scenario_id": "ADP_2011-07-07",
+      "window_type": "bearish_sample_038",
+      "chronological_index": 17,
+      "state_id": "bearish_sample_038_state_017",
+      "time_spot": "2011-07-29",
+      "reference_session": "2011-07-29",
+      "question": "Session summary for July 29, 2011: ADP opened $32.89, ranged $32.52-$33.11, closed $32.78. Volume 3.3M (1.20x 20-day avg). 20-day $33.90 | 50-day $33.70. 5-day return -3.27%. ATR-14 $0.52. RSI 29.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2011-07-29",
+        "open": 32.89,
+        "high": 33.11,
+        "low": 32.52,
+        "close": 32.78,
+        "volume": 3313921,
+        "ma20": 33.9,
+        "ma50": 33.7,
+        "volume_vs_20d": 1.2,
+        "atr14": 0.52,
+        "chg_5d_pct": -3.27
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2011-07-25",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 29.2,
+        "price_vs_sma50": 0.973,
+        "notes": "ADX 23.0, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2011-07-07_bearish_sample_038_018",
+      "scenario_id": "ADP_2011-07-07",
+      "window_type": "bearish_sample_038",
+      "chronological_index": 18,
+      "state_id": "bearish_sample_038_state_018",
+      "time_spot": "2011-08-01",
+      "reference_session": "2011-08-01",
+      "question": "Session summary for August 01, 2011: ADP opened $32.96, ranged $31.96-$33.07, closed $32.25. Volume 3.9M (1.40x 20-day avg). 20-day $33.80 | 50-day $33.66. 5-day return -4.36%. ATR-14 $0.57. RSI 25.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2011-08-01",
+        "open": 32.96,
+        "high": 33.07,
+        "low": 31.96,
+        "close": 32.25,
+        "volume": 3906087,
+        "ma20": 33.8,
+        "ma50": 33.66,
+        "volume_vs_20d": 1.4,
+        "atr14": 0.57,
+        "chg_5d_pct": -4.36
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2011-08-01",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 25.7,
+        "price_vs_sma50": 0.958,
+        "notes": "ADX 26.0, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2011-07-07_bearish_sample_038_019",
+      "scenario_id": "ADP_2011-07-07",
+      "window_type": "bearish_sample_038",
+      "chronological_index": 19,
+      "state_id": "bearish_sample_038_state_019",
+      "time_spot": "2011-08-02",
+      "reference_session": "2011-08-02",
+      "question": "Session summary for August 02, 2011: ADP opened $32.00, ranged $31.56-$32.26, closed $31.58. Volume 4.8M (1.67x 20-day avg). 20-day $33.67 | 50-day $33.61. 5-day return -6.73%. ATR-14 $0.59. RSI 22.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2011-08-02",
+        "open": 32.0,
+        "high": 32.26,
+        "low": 31.56,
+        "close": 31.58,
+        "volume": 4827879,
+        "ma20": 33.67,
+        "ma50": 33.61,
+        "volume_vs_20d": 1.67,
+        "atr14": 0.59,
+        "chg_5d_pct": -6.73
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2011-08-01",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 22.5,
+        "price_vs_sma50": 0.94,
+        "notes": "ADX 29.4, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2011-07-07_bearish_sample_038_020",
+      "scenario_id": "ADP_2011-07-07",
+      "window_type": "bearish_sample_038",
+      "chronological_index": 20,
+      "state_id": "bearish_sample_038_state_020",
+      "time_spot": "2011-08-03",
+      "reference_session": "2011-08-03",
+      "question": "Session summary for August 03, 2011: ADP opened $31.59, ranged $31.28-$31.74, closed $31.63. Volume 4.3M (1.43x 20-day avg). 20-day $33.53 | 50-day $33.56. 5-day return -5.17%. ATR-14 $0.58. RSI 24.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2011-08-03",
+        "open": 31.59,
+        "high": 31.74,
+        "low": 31.28,
+        "close": 31.63,
+        "volume": 4262024,
+        "ma20": 33.53,
+        "ma50": 33.56,
+        "volume_vs_20d": 1.43,
+        "atr14": 0.58,
+        "chg_5d_pct": -5.17
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2011-08-01",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 24.5,
+        "price_vs_sma50": 0.942,
+        "notes": "ADX 31.8, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2011-07-07_bearish_sample_038_021",
+      "scenario_id": "ADP_2011-07-07",
+      "window_type": "bearish_sample_038",
+      "chronological_index": 21,
+      "state_id": "bearish_sample_038_state_021",
+      "time_spot": "2011-08-04",
+      "reference_session": "2011-08-04",
+      "question": "Session summary for August 04, 2011: ADP opened $31.28, ranged $30.49-$31.42, closed $30.49. Volume 5.3M (1.72x 20-day avg). 20-day $33.30 | 50-day $33.50. 5-day return -7.53%. ATR-14 $0.62. RSI 20.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2011-08-04",
+        "open": 31.28,
+        "high": 31.42,
+        "low": 30.49,
+        "close": 30.49,
+        "volume": 5298742,
+        "ma20": 33.3,
+        "ma50": 33.5,
+        "volume_vs_20d": 1.72,
+        "atr14": 0.62,
+        "chg_5d_pct": -7.53
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2011-08-01",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 20.0,
+        "price_vs_sma50": 0.91,
+        "notes": "ADX 34.9, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2011-07-07_bearish_sample_038_022",
+      "scenario_id": "ADP_2011-07-07",
+      "window_type": "bearish_sample_038",
+      "chronological_index": 22,
+      "state_id": "bearish_sample_038_state_022",
+      "time_spot": "2011-08-05",
+      "reference_session": "2011-08-05",
+      "question": "Session summary for August 05, 2011: ADP opened $30.73, ranged $29.90-$31.17, closed $30.82. Volume 8.1M (2.43x 20-day avg). 20-day $33.11 | 50-day $33.44. 5-day return -6.00%. ATR-14 $0.66. RSI 26.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2011-08-05",
+        "open": 30.73,
+        "high": 31.17,
+        "low": 29.9,
+        "close": 30.82,
+        "volume": 8121184,
+        "ma20": 33.11,
+        "ma50": 33.44,
+        "volume_vs_20d": 2.43,
+        "atr14": 0.66,
+        "chg_5d_pct": -6.0
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2011-08-01",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 26.7,
+        "price_vs_sma50": 0.921,
+        "notes": "ADX 38.7, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2011-07-07_bearish_sample_038_023",
+      "scenario_id": "ADP_2011-07-07",
+      "window_type": "bearish_sample_038",
+      "chronological_index": 23,
+      "state_id": "bearish_sample_038_state_023",
+      "time_spot": "2011-08-08",
+      "reference_session": "2011-08-08",
+      "question": "Session summary for August 08, 2011: ADP opened $30.17, ranged $29.06-$30.64, closed $29.07. Volume 9.8M (2.63x 20-day avg). 20-day $32.85 | 50-day $33.35. 5-day return -9.87%. ATR-14 $0.75. RSI 14.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2011-08-08",
+        "open": 30.17,
+        "high": 30.64,
+        "low": 29.06,
+        "close": 29.07,
+        "volume": 9775012,
+        "ma20": 32.85,
+        "ma50": 33.35,
+        "volume_vs_20d": 2.63,
+        "atr14": 0.75,
+        "chg_5d_pct": -9.87
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2011-08-08",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 14.9,
+        "price_vs_sma50": 0.872,
+        "notes": "ADX 43.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2011-07-07_bearish_sample_038_024",
+      "scenario_id": "ADP_2011-07-07",
+      "window_type": "bearish_sample_038",
+      "chronological_index": 24,
+      "state_id": "bearish_sample_038_state_024",
+      "time_spot": "2011-08-09",
+      "reference_session": "2011-08-09",
+      "question": "Session summary for August 09, 2011: ADP opened $29.73, ranged $28.67-$29.90, closed $29.80. Volume 12.2M (2.90x 20-day avg). 20-day $32.62 | 50-day $33.26. 5-day return -5.65%. ATR-14 $0.80. RSI 24.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2011-08-09",
+        "open": 29.73,
+        "high": 29.9,
+        "low": 28.67,
+        "close": 29.8,
+        "volume": 12158142,
+        "ma20": 32.62,
+        "ma50": 33.26,
+        "volume_vs_20d": 2.9,
+        "atr14": 0.8,
+        "chg_5d_pct": -5.65
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2011-08-08",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 24.5,
+        "price_vs_sma50": 0.896,
+        "notes": "ADX 48.7, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2011-07-07_bearish_sample_038_025",
+      "scenario_id": "ADP_2011-07-07",
+      "window_type": "bearish_sample_038",
+      "chronological_index": 25,
+      "state_id": "bearish_sample_038_state_025",
+      "time_spot": "2011-08-10",
+      "reference_session": "2011-08-10",
+      "question": "Session summary for August 10, 2011: ADP opened $29.33, ranged $28.47-$29.47, closed $28.53. Volume 10.2M (2.21x 20-day avg). 20-day $32.34 | 50-day $33.13. 5-day return -9.78%. ATR-14 $0.84. RSI 16.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2011-08-10",
+        "open": 29.33,
+        "high": 29.47,
+        "low": 28.47,
+        "close": 28.53,
+        "volume": 10187330,
+        "ma20": 32.34,
+        "ma50": 33.13,
+        "volume_vs_20d": 2.21,
+        "atr14": 0.84,
+        "chg_5d_pct": -9.78
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2011-08-08",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 16.4,
+        "price_vs_sma50": 0.861,
+        "notes": "ADX 54.4, MACD bearish"
+      }
+    }
+  ]
+}

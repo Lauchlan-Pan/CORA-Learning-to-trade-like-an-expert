@@ -1,0 +1,2898 @@
+{
+  "metadata": {
+    "instrument": "JPM",
+    "initial_capital": 10000,
+    "window_type": "bullish_sample_048",
+    "description": "JPM window (2024-10-07 \u2013 2024-11-08) sampled from S&P500 indicator archive.",
+    "num_mcqs": 25,
+    "notes": "Orders express target exposure fractions relative to the leverage ceiling.",
+    "max_leverage": 2.5,
+    "exposure_buckets": [
+      0.8,
+      0.6,
+      0.4,
+      0.2
+    ],
+    "start_reference": "2024-10-07",
+    "end_reference": "2024-11-08",
+    "regime": "bullish",
+    "original_sample": "snp500_sample_088"
+  },
+  "mcqs": [
+    {
+      "scenario_instance_id": "JPM_2024-10-07_bullish_sample_048_001",
+      "scenario_id": "JPM_2024-10-07",
+      "window_type": "bullish_sample_048",
+      "chronological_index": 1,
+      "state_id": "bullish_sample_048_state_001",
+      "time_spot": "2024-10-07",
+      "reference_session": "2024-10-07",
+      "question": "Session summary for October 07, 2024: JPM opened $207.66, ranged $206.34-$209.92, closed $207.56. Volume 6.7M (0.66x 20-day avg). 20-day $204.34 | 50-day $206.44. 5-day return +0.65%. ATR-14 $3.70. RSI 56.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-10-07",
+        "open": 207.66,
+        "high": 209.92,
+        "low": 206.34,
+        "close": 207.56,
+        "volume": 6718900,
+        "ma20": 204.34,
+        "ma50": 206.44,
+        "volume_vs_20d": 0.66,
+        "atr14": 3.7,
+        "chg_5d_pct": 0.65
+      },
+      "weekly_snapshot": {
+        "ticker": "JPM",
+        "week_start": "2024-10-07",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 56.6,
+        "price_vs_sma50": 1.005,
+        "notes": "ADX 35.9, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "JPM_2024-10-07_bullish_sample_048_002",
+      "scenario_id": "JPM_2024-10-07",
+      "window_type": "bullish_sample_048",
+      "chronological_index": 2,
+      "state_id": "bullish_sample_048_state_002",
+      "time_spot": "2024-10-08",
+      "reference_session": "2024-10-08",
+      "question": "Session summary for October 08, 2024: JPM opened $207.22, ranged $205.05-$207.96, closed $207.38. Volume 6.0M (0.66x 20-day avg). 20-day $204.66 | 50-day $206.46. 5-day return +2.42%. ATR-14 $3.58. RSI 60.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-10-08",
+        "open": 207.22,
+        "high": 207.96,
+        "low": 205.05,
+        "close": 207.38,
+        "volume": 6021800,
+        "ma20": 204.66,
+        "ma50": 206.46,
+        "volume_vs_20d": 0.66,
+        "atr14": 3.58,
+        "chg_5d_pct": 2.42
+      },
+      "weekly_snapshot": {
+        "ticker": "JPM",
+        "week_start": "2024-10-07",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 60.8,
+        "price_vs_sma50": 1.004,
+        "notes": "ADX 32.7, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "JPM_2024-10-07_bullish_sample_048_003",
+      "scenario_id": "JPM_2024-10-07",
+      "window_type": "bullish_sample_048",
+      "chronological_index": 3,
+      "state_id": "bullish_sample_048_state_003",
+      "time_spot": "2024-10-09",
+      "reference_session": "2024-10-09",
+      "question": "Session summary for October 09, 2024: JPM opened $206.35, ranged $206.04-$210.82, closed $210.01. Volume 7.0M (0.80x 20-day avg). 20-day $205.02 | 50-day $206.45. 5-day return +3.59%. ATR-14 $3.60. RSI 60.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-10-09",
+        "open": 206.35,
+        "high": 210.82,
+        "low": 206.04,
+        "close": 210.01,
+        "volume": 7024000,
+        "ma20": 205.02,
+        "ma50": 206.45,
+        "volume_vs_20d": 0.8,
+        "atr14": 3.6,
+        "chg_5d_pct": 3.59
+      },
+      "weekly_snapshot": {
+        "ticker": "JPM",
+        "week_start": "2024-10-07",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 60.3,
+        "price_vs_sma50": 1.017,
+        "notes": "ADX 30.2, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "JPM_2024-10-07_bullish_sample_048_004",
+      "scenario_id": "JPM_2024-10-07",
+      "window_type": "bullish_sample_048",
+      "chronological_index": 4,
+      "state_id": "bullish_sample_048_state_004",
+      "time_spot": "2024-10-10",
+      "reference_session": "2024-10-10",
+      "question": "Session summary for October 10, 2024: JPM opened $211.38, ranged $208.09-$211.38, closed $209.44. Volume 7.9M (0.91x 20-day avg). 20-day $205.39 | 50-day $206.48. 5-day return +4.34%. ATR-14 $3.70. RSI 57.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-10-10",
+        "open": 211.38,
+        "high": 211.38,
+        "low": 208.09,
+        "close": 209.44,
+        "volume": 7927100,
+        "ma20": 205.39,
+        "ma50": 206.48,
+        "volume_vs_20d": 0.91,
+        "atr14": 3.7,
+        "chg_5d_pct": 4.34
+      },
+      "weekly_snapshot": {
+        "ticker": "JPM",
+        "week_start": "2024-10-07",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 57.4,
+        "price_vs_sma50": 1.014,
+        "notes": "ADX 26.9, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "JPM_2024-10-07_bullish_sample_048_005",
+      "scenario_id": "JPM_2024-10-07",
+      "window_type": "bullish_sample_048",
+      "chronological_index": 5,
+      "state_id": "bullish_sample_048_state_005",
+      "time_spot": "2024-10-11",
+      "reference_session": "2024-10-11",
+      "question": "Session summary for October 11, 2024: JPM opened $212.23, ranged $211.72-$221.04, closed $218.74. Volume 18.3M (2.02x 20-day avg). 20-day $206.34 | 50-day $206.78. 5-day return +5.24%. ATR-14 $4.41. RSI 70.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-10-11",
+        "open": 212.23,
+        "high": 221.04,
+        "low": 211.72,
+        "close": 218.74,
+        "volume": 18320700,
+        "ma20": 206.34,
+        "ma50": 206.78,
+        "volume_vs_20d": 2.02,
+        "atr14": 4.41,
+        "chg_5d_pct": 5.24
+      },
+      "weekly_snapshot": {
+        "ticker": "JPM",
+        "week_start": "2024-10-07",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 70.6,
+        "price_vs_sma50": 1.058,
+        "notes": "ADX 25.7, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "JPM_2024-10-07_bullish_sample_048_006",
+      "scenario_id": "JPM_2024-10-07",
+      "window_type": "bullish_sample_048",
+      "chronological_index": 6,
+      "state_id": "bullish_sample_048_state_006",
+      "time_spot": "2024-10-14",
+      "reference_session": "2024-10-14",
+      "question": "Session summary for October 14, 2024: JPM opened $219.64, ranged $215.38-$220.13, closed $217.94. Volume 9.0M (0.99x 20-day avg). 20-day $207.07 | 50-day $207.25. 5-day return +5.00%. ATR-14 $4.56. RSI 68.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-10-14",
+        "open": 219.64,
+        "high": 220.13,
+        "low": 215.38,
+        "close": 217.94,
+        "volume": 9048900,
+        "ma20": 207.07,
+        "ma50": 207.25,
+        "volume_vs_20d": 0.99,
+        "atr14": 4.56,
+        "chg_5d_pct": 5.0
+      },
+      "weekly_snapshot": {
+        "ticker": "JPM",
+        "week_start": "2024-10-14",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 68.5,
+        "price_vs_sma50": 1.052,
+        "notes": "ADX 24.9, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "JPM_2024-10-07_bullish_sample_048_007",
+      "scenario_id": "JPM_2024-10-07",
+      "window_type": "bullish_sample_048",
+      "chronological_index": 7,
+      "state_id": "bullish_sample_048_state_007",
+      "time_spot": "2024-10-15",
+      "reference_session": "2024-10-15",
+      "question": "Session summary for October 15, 2024: JPM opened $220.09, ranged $218.28-$221.85, closed $218.84. Volume 9.2M (1.00x 20-day avg). 20-day $207.78 | 50-day $207.81. 5-day return +5.52%. ATR-14 $4.59. RSI 72.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-10-15",
+        "open": 220.09,
+        "high": 221.85,
+        "low": 218.28,
+        "close": 218.84,
+        "volume": 9235800,
+        "ma20": 207.78,
+        "ma50": 207.81,
+        "volume_vs_20d": 1.0,
+        "atr14": 4.59,
+        "chg_5d_pct": 5.52
+      },
+      "weekly_snapshot": {
+        "ticker": "JPM",
+        "week_start": "2024-10-14",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 72.7,
+        "price_vs_sma50": 1.053,
+        "notes": "ADX 24.9, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "JPM_2024-10-07_bullish_sample_048_008",
+      "scenario_id": "JPM_2024-10-07",
+      "window_type": "bullish_sample_048",
+      "chronological_index": 8,
+      "state_id": "bullish_sample_048_state_008",
+      "time_spot": "2024-10-16",
+      "reference_session": "2024-10-16",
+      "question": "Session summary for October 16, 2024: JPM opened $218.78, ranged $217.51-$220.11, closed $220.07. Volume 6.4M (0.70x 20-day avg). 20-day $208.63 | 50-day $208.29. 5-day return +4.79%. ATR-14 $4.59. RSI 74.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-10-16",
+        "open": 218.78,
+        "high": 220.11,
+        "low": 217.51,
+        "close": 220.07,
+        "volume": 6382500,
+        "ma20": 208.63,
+        "ma50": 208.29,
+        "volume_vs_20d": 0.7,
+        "atr14": 4.59,
+        "chg_5d_pct": 4.79
+      },
+      "weekly_snapshot": {
+        "ticker": "JPM",
+        "week_start": "2024-10-14",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 74.8,
+        "price_vs_sma50": 1.057,
+        "notes": "ADX 25.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "JPM_2024-10-07_bullish_sample_048_009",
+      "scenario_id": "JPM_2024-10-07",
+      "window_type": "bullish_sample_048",
+      "chronological_index": 9,
+      "state_id": "bullish_sample_048_state_009",
+      "time_spot": "2024-10-17",
+      "reference_session": "2024-10-17",
+      "question": "Session summary for October 17, 2024: JPM opened $220.69, ranged $219.74-$222.24, closed $220.84. Volume 6.5M (0.73x 20-day avg). 20-day $209.38 | 50-day $208.79. 5-day return +5.44%. ATR-14 $4.55. RSI 74.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-10-17",
+        "open": 220.69,
+        "high": 222.24,
+        "low": 219.74,
+        "close": 220.84,
+        "volume": 6470200,
+        "ma20": 209.38,
+        "ma50": 208.79,
+        "volume_vs_20d": 0.73,
+        "atr14": 4.55,
+        "chg_5d_pct": 5.44
+      },
+      "weekly_snapshot": {
+        "ticker": "JPM",
+        "week_start": "2024-10-14",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 74.8,
+        "price_vs_sma50": 1.058,
+        "notes": "ADX 26.2, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "JPM_2024-10-07_bullish_sample_048_010",
+      "scenario_id": "JPM_2024-10-07",
+      "window_type": "bullish_sample_048",
+      "chronological_index": 10,
+      "state_id": "bullish_sample_048_state_010",
+      "time_spot": "2024-10-18",
+      "reference_session": "2024-10-18",
+      "question": "Session summary for October 18, 2024: JPM opened $221.41, ranged $219.54-$222.31, closed $221.77. Volume 7.0M (0.86x 20-day avg). 20-day $210.15 | 50-day $209.23. 5-day return +1.39%. ATR-14 $4.35. RSI 75.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-10-18",
+        "open": 221.41,
+        "high": 222.31,
+        "low": 219.54,
+        "close": 221.77,
+        "volume": 7000500,
+        "ma20": 210.15,
+        "ma50": 209.23,
+        "volume_vs_20d": 0.86,
+        "atr14": 4.35,
+        "chg_5d_pct": 1.39
+      },
+      "weekly_snapshot": {
+        "ticker": "JPM",
+        "week_start": "2024-10-14",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 75.3,
+        "price_vs_sma50": 1.06,
+        "notes": "ADX 31.2, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "JPM_2024-10-07_bullish_sample_048_011",
+      "scenario_id": "JPM_2024-10-07",
+      "window_type": "bullish_sample_048",
+      "chronological_index": 11,
+      "state_id": "bullish_sample_048_state_011",
+      "time_spot": "2024-10-21",
+      "reference_session": "2024-10-21",
+      "question": "Session summary for October 21, 2024: JPM opened $221.62, ranged $219.34-$222.10, closed $219.44. Volume 5.9M (0.73x 20-day avg). 20-day $210.78 | 50-day $209.60. 5-day return +0.69%. ATR-14 $4.22. RSI 78.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-10-21",
+        "open": 221.62,
+        "high": 222.1,
+        "low": 219.34,
+        "close": 219.44,
+        "volume": 5870000,
+        "ma20": 210.78,
+        "ma50": 209.6,
+        "volume_vs_20d": 0.73,
+        "atr14": 4.22,
+        "chg_5d_pct": 0.69
+      },
+      "weekly_snapshot": {
+        "ticker": "JPM",
+        "week_start": "2024-10-21",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 78.9,
+        "price_vs_sma50": 1.047,
+        "notes": "ADX 36.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "JPM_2024-10-07_bullish_sample_048_012",
+      "scenario_id": "JPM_2024-10-07",
+      "window_type": "bullish_sample_048",
+      "chronological_index": 12,
+      "state_id": "bullish_sample_048_state_012",
+      "time_spot": "2024-10-22",
+      "reference_session": "2024-10-22",
+      "question": "Session summary for October 22, 2024: JPM opened $219.46, ranged $217.57-$221.68, closed $220.54. Volume 9.6M (1.17x 20-day avg). 20-day $211.46 | 50-day $209.98. 5-day return +0.78%. ATR-14 $4.29. RSI 79.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-10-22",
+        "open": 219.46,
+        "high": 221.68,
+        "low": 217.57,
+        "close": 220.54,
+        "volume": 9586800,
+        "ma20": 211.46,
+        "ma50": 209.98,
+        "volume_vs_20d": 1.17,
+        "atr14": 4.29,
+        "chg_5d_pct": 0.78
+      },
+      "weekly_snapshot": {
+        "ticker": "JPM",
+        "week_start": "2024-10-21",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 79.5,
+        "price_vs_sma50": 1.05,
+        "notes": "ADX 39.8, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "JPM_2024-10-07_bullish_sample_048_013",
+      "scenario_id": "JPM_2024-10-07",
+      "window_type": "bullish_sample_048",
+      "chronological_index": 13,
+      "state_id": "bullish_sample_048_state_013",
+      "time_spot": "2024-10-23",
+      "reference_session": "2024-10-23",
+      "question": "Session summary for October 23, 2024: JPM opened $220.09, ranged $218.98-$221.21, closed $219.84. Volume 6.2M (0.77x 20-day avg). 20-day $212.17 | 50-day $210.31. 5-day return -0.10%. ATR-14 $4.24. RSI 83.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-10-23",
+        "open": 220.09,
+        "high": 221.21,
+        "low": 218.98,
+        "close": 219.84,
+        "volume": 6180500,
+        "ma20": 212.17,
+        "ma50": 210.31,
+        "volume_vs_20d": 0.77,
+        "atr14": 4.24,
+        "chg_5d_pct": -0.1
+      },
+      "weekly_snapshot": {
+        "ticker": "JPM",
+        "week_start": "2024-10-21",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 83.1,
+        "price_vs_sma50": 1.045,
+        "notes": "ADX 44.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "JPM_2024-10-07_bullish_sample_048_014",
+      "scenario_id": "JPM_2024-10-07",
+      "window_type": "bullish_sample_048",
+      "chronological_index": 14,
+      "state_id": "bullish_sample_048_state_014",
+      "time_spot": "2024-10-24",
+      "reference_session": "2024-10-24",
+      "question": "Session summary for October 24, 2024: JPM opened $218.29, ranged $218.12-$221.47, closed $221.39. Volume 6.0M (0.75x 20-day avg). 20-day $212.99 | 50-day $210.62. 5-day return +0.25%. ATR-14 $3.94. RSI 79.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-10-24",
+        "open": 218.29,
+        "high": 221.47,
+        "low": 218.12,
+        "close": 221.39,
+        "volume": 6002200,
+        "ma20": 212.99,
+        "ma50": 210.62,
+        "volume_vs_20d": 0.75,
+        "atr14": 3.94,
+        "chg_5d_pct": 0.25
+      },
+      "weekly_snapshot": {
+        "ticker": "JPM",
+        "week_start": "2024-10-21",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 79.1,
+        "price_vs_sma50": 1.051,
+        "notes": "ADX 46.5, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "JPM_2024-10-07_bullish_sample_048_015",
+      "scenario_id": "JPM_2024-10-07",
+      "window_type": "bullish_sample_048",
+      "chronological_index": 15,
+      "state_id": "bullish_sample_048_state_015",
+      "time_spot": "2024-10-25",
+      "reference_session": "2024-10-25",
+      "question": "Session summary for October 25, 2024: JPM opened $221.41, ranged $217.35-$222.02, closed $218.76. Volume 6.4M (0.80x 20-day avg). 20-day $213.63 | 50-day $210.86. 5-day return -1.36%. ATR-14 $4.01. RSI 71.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-10-25",
+        "open": 221.41,
+        "high": 222.02,
+        "low": 217.35,
+        "close": 218.76,
+        "volume": 6369700,
+        "ma20": 213.63,
+        "ma50": 210.86,
+        "volume_vs_20d": 0.8,
+        "atr14": 4.01,
+        "chg_5d_pct": -1.36
+      },
+      "weekly_snapshot": {
+        "ticker": "JPM",
+        "week_start": "2024-10-21",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 71.9,
+        "price_vs_sma50": 1.037,
+        "notes": "ADX 48.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "JPM_2024-10-07_bullish_sample_048_016",
+      "scenario_id": "JPM_2024-10-07",
+      "window_type": "bullish_sample_048",
+      "chronological_index": 16,
+      "state_id": "bullish_sample_048_state_016",
+      "time_spot": "2024-10-28",
+      "reference_session": "2024-10-28",
+      "question": "Session summary for October 28, 2024: JPM opened $219.78, ranged $219.39-$222.04, closed $221.90. Volume 6.8M (0.87x 20-day avg). 20-day $214.41 | 50-day $211.11. 5-day return +1.12%. ATR-14 $4.04. RSI 75.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-10-28",
+        "open": 219.78,
+        "high": 222.04,
+        "low": 219.39,
+        "close": 221.9,
+        "volume": 6843000,
+        "ma20": 214.41,
+        "ma50": 211.11,
+        "volume_vs_20d": 0.87,
+        "atr14": 4.04,
+        "chg_5d_pct": 1.12
+      },
+      "weekly_snapshot": {
+        "ticker": "JPM",
+        "week_start": "2024-10-28",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 75.4,
+        "price_vs_sma50": 1.051,
+        "notes": "ADX 51.7, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "JPM_2024-10-07_bullish_sample_048_017",
+      "scenario_id": "JPM_2024-10-07",
+      "window_type": "bullish_sample_048",
+      "chronological_index": 17,
+      "state_id": "bullish_sample_048_state_017",
+      "time_spot": "2024-10-29",
+      "reference_session": "2024-10-29",
+      "question": "Session summary for October 29, 2024: JPM opened $221.61, ranged $219.25-$223.13, closed $219.34. Volume 6.6M (0.85x 20-day avg). 20-day $215.26 | 50-day $211.28. 5-day return -0.54%. ATR-14 $3.98. RSI 66.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-10-29",
+        "open": 221.61,
+        "high": 223.13,
+        "low": 219.25,
+        "close": 219.34,
+        "volume": 6580000,
+        "ma20": 215.26,
+        "ma50": 211.28,
+        "volume_vs_20d": 0.85,
+        "atr14": 3.98,
+        "chg_5d_pct": -0.54
+      },
+      "weekly_snapshot": {
+        "ticker": "JPM",
+        "week_start": "2024-10-28",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 66.4,
+        "price_vs_sma50": 1.038,
+        "notes": "ADX 54.2, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "JPM_2024-10-07_bullish_sample_048_018",
+      "scenario_id": "JPM_2024-10-07",
+      "window_type": "bullish_sample_048",
+      "chronological_index": 18,
+      "state_id": "bullish_sample_048_state_018",
+      "time_spot": "2024-10-30",
+      "reference_session": "2024-10-30",
+      "question": "Session summary for October 30, 2024: JPM opened $218.99, ranged $218.04-$222.70, closed $220.83. Volume 7.1M (0.91x 20-day avg). 20-day $216.16 | 50-day $211.50. 5-day return +0.45%. ATR-14 $4.07. RSI 69.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-10-30",
+        "open": 218.99,
+        "high": 222.7,
+        "low": 218.04,
+        "close": 220.83,
+        "volume": 7110900,
+        "ma20": 216.16,
+        "ma50": 211.5,
+        "volume_vs_20d": 0.91,
+        "atr14": 4.07,
+        "chg_5d_pct": 0.45
+      },
+      "weekly_snapshot": {
+        "ticker": "JPM",
+        "week_start": "2024-10-28",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 69.4,
+        "price_vs_sma50": 1.044,
+        "notes": "ADX 55.7, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "JPM_2024-10-07_bullish_sample_048_019",
+      "scenario_id": "JPM_2024-10-07",
+      "window_type": "bullish_sample_048",
+      "chronological_index": 19,
+      "state_id": "bullish_sample_048_state_019",
+      "time_spot": "2024-10-31",
+      "reference_session": "2024-10-31",
+      "question": "Session summary for October 31, 2024: JPM opened $221.11, ranged $218.28-$222.09, closed $218.38. Volume 7.8M (1.00x 20-day avg). 20-day $217.04 | 50-day $211.67. 5-day return -1.36%. ATR-14 $3.52. RSI 49.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-10-31",
+        "open": 221.11,
+        "high": 222.09,
+        "low": 218.28,
+        "close": 218.38,
+        "volume": 7829900,
+        "ma20": 217.04,
+        "ma50": 211.67,
+        "volume_vs_20d": 1.0,
+        "atr14": 3.52,
+        "chg_5d_pct": -1.36
+      },
+      "weekly_snapshot": {
+        "ticker": "JPM",
+        "week_start": "2024-10-28",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 49.2,
+        "price_vs_sma50": 1.032,
+        "notes": "ADX 53.1, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "JPM_2024-10-07_bullish_sample_048_020",
+      "scenario_id": "JPM_2024-10-07",
+      "window_type": "bullish_sample_048",
+      "chronological_index": 20,
+      "state_id": "bullish_sample_048_state_020",
+      "time_spot": "2024-11-01",
+      "reference_session": "2024-11-01",
+      "question": "Session summary for November 01, 2024: JPM opened $219.99, ranged $219.14-$222.54, closed $219.38. Volume 6.9M (0.90x 20-day avg). 20-day $217.62 | 50-day $211.82. 5-day return +0.28%. ATR-14 $3.48. RSI 53.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-11-01",
+        "open": 219.99,
+        "high": 222.54,
+        "low": 219.14,
+        "close": 219.38,
+        "volume": 6923500,
+        "ma20": 217.62,
+        "ma50": 211.82,
+        "volume_vs_20d": 0.9,
+        "atr14": 3.48,
+        "chg_5d_pct": 0.28
+      },
+      "weekly_snapshot": {
+        "ticker": "JPM",
+        "week_start": "2024-10-28",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 53.2,
+        "price_vs_sma50": 1.036,
+        "notes": "ADX 50.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "JPM_2024-10-07_bullish_sample_048_021",
+      "scenario_id": "JPM_2024-10-07",
+      "window_type": "bullish_sample_048",
+      "chronological_index": 21,
+      "state_id": "bullish_sample_048_state_021",
+      "time_spot": "2024-11-04",
+      "reference_session": "2024-11-04",
+      "question": "Session summary for November 04, 2024: JPM opened $219.09, ranged $215.67-$220.19, closed $216.27. Volume 8.2M (1.06x 20-day avg). 20-day $218.05 | 50-day $211.88. 5-day return -2.54%. ATR-14 $3.52. RSI 44.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-11-04",
+        "open": 219.09,
+        "high": 220.19,
+        "low": 215.67,
+        "close": 216.27,
+        "volume": 8229600,
+        "ma20": 218.05,
+        "ma50": 211.88,
+        "volume_vs_20d": 1.06,
+        "atr14": 3.52,
+        "chg_5d_pct": -2.54
+      },
+      "weekly_snapshot": {
+        "ticker": "JPM",
+        "week_start": "2024-11-04",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 44.9,
+        "price_vs_sma50": 1.021,
+        "notes": "ADX 49.5, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "JPM_2024-10-07_bullish_sample_048_022",
+      "scenario_id": "JPM_2024-10-07",
+      "window_type": "bullish_sample_048",
+      "chronological_index": 22,
+      "state_id": "bullish_sample_048_state_022",
+      "time_spot": "2024-11-05",
+      "reference_session": "2024-11-05",
+      "question": "Session summary for November 05, 2024: JPM opened $216.52, ranged $216.49-$218.42, closed $217.95. Volume 5.6M (0.72x 20-day avg). 20-day $218.58 | 50-day $211.95. 5-day return -0.63%. ATR-14 $3.49. RSI 45.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-11-05",
+        "open": 216.52,
+        "high": 218.42,
+        "low": 216.49,
+        "close": 217.95,
+        "volume": 5600700,
+        "ma20": 218.58,
+        "ma50": 211.95,
+        "volume_vs_20d": 0.72,
+        "atr14": 3.49,
+        "chg_5d_pct": -0.63
+      },
+      "weekly_snapshot": {
+        "ticker": "JPM",
+        "week_start": "2024-11-04",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 45.8,
+        "price_vs_sma50": 1.028,
+        "notes": "ADX 48.7, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "JPM_2024-10-07_bullish_sample_048_023",
+      "scenario_id": "JPM_2024-10-07",
+      "window_type": "bullish_sample_048",
+      "chronological_index": 23,
+      "state_id": "bullish_sample_048_state_023",
+      "time_spot": "2024-11-06",
+      "reference_session": "2024-11-06",
+      "question": "Session summary for November 06, 2024: JPM opened $231.25, ranged $231.02-$244.04, closed $243.11. Volume 24.0M (2.80x 20-day avg). 20-day $220.24 | 50-day $212.51. 5-day return +10.09%. ATR-14 $5.17. RSI 72.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-11-06",
+        "open": 231.25,
+        "high": 244.04,
+        "low": 231.02,
+        "close": 243.11,
+        "volume": 23987800,
+        "ma20": 220.24,
+        "ma50": 212.51,
+        "volume_vs_20d": 2.8,
+        "atr14": 5.17,
+        "chg_5d_pct": 10.09
+      },
+      "weekly_snapshot": {
+        "ticker": "JPM",
+        "week_start": "2024-11-04",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 72.4,
+        "price_vs_sma50": 1.144,
+        "notes": "ADX 48.8, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "JPM_2024-10-07_bullish_sample_048_024",
+      "scenario_id": "JPM_2024-10-07",
+      "window_type": "bullish_sample_048",
+      "chronological_index": 24,
+      "state_id": "bullish_sample_048_state_024",
+      "time_spot": "2024-11-07",
+      "reference_session": "2024-11-07",
+      "question": "Session summary for November 07, 2024: JPM opened $240.60, ranged $231.46-$240.66, closed $232.61. Volume 16.5M (1.83x 20-day avg). 20-day $221.40 | 50-day $212.83. 5-day return +6.52%. ATR-14 $5.81. RSI 59.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-11-07",
+        "open": 240.6,
+        "high": 240.66,
+        "low": 231.46,
+        "close": 232.61,
+        "volume": 16451100,
+        "ma20": 221.4,
+        "ma50": 212.83,
+        "volume_vs_20d": 1.83,
+        "atr14": 5.81,
+        "chg_5d_pct": 6.52
+      },
+      "weekly_snapshot": {
+        "ticker": "JPM",
+        "week_start": "2024-11-04",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 59.1,
+        "price_vs_sma50": 1.093,
+        "notes": "ADX 47.4, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "JPM_2024-10-07_bullish_sample_048_025",
+      "scenario_id": "JPM_2024-10-07",
+      "window_type": "bullish_sample_048",
+      "chronological_index": 25,
+      "state_id": "bullish_sample_048_state_025",
+      "time_spot": "2024-11-08",
+      "reference_session": "2024-11-08",
+      "question": "Session summary for November 08, 2024: JPM opened $235.52, ranged $232.01-$235.52, closed $233.20. Volume 9.5M (1.11x 20-day avg). 20-day $222.12 | 50-day $213.15. 5-day return +6.30%. ATR-14 $5.86. RSI 61.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-11-08",
+        "open": 235.52,
+        "high": 235.52,
+        "low": 232.01,
+        "close": 233.2,
+        "volume": 9502100,
+        "ma20": 222.12,
+        "ma50": 213.15,
+        "volume_vs_20d": 1.11,
+        "atr14": 5.86,
+        "chg_5d_pct": 6.3
+      },
+      "weekly_snapshot": {
+        "ticker": "JPM",
+        "week_start": "2024-11-04",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 61.9,
+        "price_vs_sma50": 1.094,
+        "notes": "ADX 46.3, MACD bullish"
+      }
+    }
+  ]
+}

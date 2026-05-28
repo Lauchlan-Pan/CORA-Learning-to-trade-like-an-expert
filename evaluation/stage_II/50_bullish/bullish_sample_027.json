@@ -1,0 +1,2898 @@
+{
+  "metadata": {
+    "instrument": "ADI",
+    "initial_capital": 10000,
+    "window_type": "bullish_sample_027",
+    "description": "ADI window (2024-04-18 \u2013 2024-05-22) - bullish regime.",
+    "num_mcqs": 25,
+    "notes": "Orders express target exposure fractions relative to the leverage ceiling.",
+    "max_leverage": 2.5,
+    "exposure_buckets": [
+      0.8,
+      0.6,
+      0.4,
+      0.2
+    ],
+    "start_reference": "2024-04-18",
+    "end_reference": "2024-05-22",
+    "regime": "bullish",
+    "bh_return": 28.03
+  },
+  "mcqs": [
+    {
+      "scenario_instance_id": "ADI_2024-04-18_bullish_sample_027_001",
+      "scenario_id": "ADI_2024-04-18",
+      "window_type": "bullish_sample_027",
+      "chronological_index": 1,
+      "state_id": "bullish_sample_027_state_001",
+      "time_spot": "2024-04-18",
+      "reference_session": "2024-04-18",
+      "question": "Session summary for April 18, 2024: ADI opened $184.41, ranged $182.72-$186.25, closed $183.68. Volume 2.7M (0.99x 20-day avg). 20-day $189.94 | 50-day $188.74. 5-day return -5.57%. ATR-14 $5.00. RSI 37.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-04-18",
+        "open": 184.41,
+        "high": 186.25,
+        "low": 182.72,
+        "close": 183.68,
+        "volume": 2748900,
+        "ma20": 189.94,
+        "ma50": 188.74,
+        "volume_vs_20d": 0.99,
+        "atr14": 5.0,
+        "chg_5d_pct": -5.57
+      },
+      "weekly_snapshot": {
+        "ticker": "ADI",
+        "week_start": "2024-04-15",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 37.8,
+        "price_vs_sma50": 0.973,
+        "notes": "ADX 18.9, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADI_2024-04-18_bullish_sample_027_002",
+      "scenario_id": "ADI_2024-04-18",
+      "window_type": "bullish_sample_027",
+      "chronological_index": 2,
+      "state_id": "bullish_sample_027_state_002",
+      "time_spot": "2024-04-19",
+      "reference_session": "2024-04-19",
+      "question": "Session summary for April 19, 2024: ADI opened $183.20, ranged $178.78-$184.02, closed $179.55. Volume 4.1M (1.46x 20-day avg). 20-day $189.37 | 50-day $188.59. 5-day return -4.63%. ATR-14 $5.13. RSI 35.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-04-19",
+        "open": 183.2,
+        "high": 184.02,
+        "low": 178.78,
+        "close": 179.55,
+        "volume": 4121300,
+        "ma20": 189.37,
+        "ma50": 188.59,
+        "volume_vs_20d": 1.46,
+        "atr14": 5.13,
+        "chg_5d_pct": -4.63
+      },
+      "weekly_snapshot": {
+        "ticker": "ADI",
+        "week_start": "2024-04-15",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 35.3,
+        "price_vs_sma50": 0.952,
+        "notes": "ADX 20.4, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADI_2024-04-18_bullish_sample_027_003",
+      "scenario_id": "ADI_2024-04-18",
+      "window_type": "bullish_sample_027",
+      "chronological_index": 3,
+      "state_id": "bullish_sample_027_state_003",
+      "time_spot": "2024-04-22",
+      "reference_session": "2024-04-22",
+      "question": "Session summary for April 22, 2024: ADI opened $180.61, ranged $179.38-$184.40, closed $182.44. Volume 3.6M (1.23x 20-day avg). 20-day $189.01 | 50-day $188.45. 5-day return -2.09%. ATR-14 $5.22. RSI 40.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-04-22",
+        "open": 180.61,
+        "high": 184.4,
+        "low": 179.38,
+        "close": 182.44,
+        "volume": 3557800,
+        "ma20": 189.01,
+        "ma50": 188.45,
+        "volume_vs_20d": 1.23,
+        "atr14": 5.22,
+        "chg_5d_pct": -2.09
+      },
+      "weekly_snapshot": {
+        "ticker": "ADI",
+        "week_start": "2024-04-22",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 40.7,
+        "price_vs_sma50": 0.968,
+        "notes": "ADX 21.1, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADI_2024-04-18_bullish_sample_027_004",
+      "scenario_id": "ADI_2024-04-18",
+      "window_type": "bullish_sample_027",
+      "chronological_index": 4,
+      "state_id": "bullish_sample_027_state_004",
+      "time_spot": "2024-04-23",
+      "reference_session": "2024-04-23",
+      "question": "Session summary for April 23, 2024: ADI opened $183.11, ranged $182.55-$186.89, closed $185.98. Volume 4.2M (1.39x 20-day avg). 20-day $188.98 | 50-day $188.37. 5-day return -0.68%. ATR-14 $5.25. RSI 44.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-04-23",
+        "open": 183.11,
+        "high": 186.89,
+        "low": 182.55,
+        "close": 185.98,
+        "volume": 4177800,
+        "ma20": 188.98,
+        "ma50": 188.37,
+        "volume_vs_20d": 1.39,
+        "atr14": 5.25,
+        "chg_5d_pct": -0.68
+      },
+      "weekly_snapshot": {
+        "ticker": "ADI",
+        "week_start": "2024-04-22",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 44.5,
+        "price_vs_sma50": 0.987,
+        "notes": "ADX 21.5, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADI_2024-04-18_bullish_sample_027_005",
+      "scenario_id": "ADI_2024-04-18",
+      "window_type": "bullish_sample_027",
+      "chronological_index": 5,
+      "state_id": "bullish_sample_027_state_005",
+      "time_spot": "2024-04-24",
+      "reference_session": "2024-04-24",
+      "question": "Session summary for April 24, 2024: ADI opened $195.87, ranged $190.98-$197.49, closed $192.42. Volume 6.5M (2.04x 20-day avg). 20-day $189.35 | 50-day $188.44. 5-day return +3.73%. ATR-14 $5.56. RSI 54.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-04-24",
+        "open": 195.87,
+        "high": 197.49,
+        "low": 190.98,
+        "close": 192.42,
+        "volume": 6527500,
+        "ma20": 189.35,
+        "ma50": 188.44,
+        "volume_vs_20d": 2.04,
+        "atr14": 5.56,
+        "chg_5d_pct": 3.73
+      },
+      "weekly_snapshot": {
+        "ticker": "ADI",
+        "week_start": "2024-04-22",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 54.3,
+        "price_vs_sma50": 1.021,
+        "notes": "ADX 21.8, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADI_2024-04-18_bullish_sample_027_006",
+      "scenario_id": "ADI_2024-04-18",
+      "window_type": "bullish_sample_027",
+      "chronological_index": 6,
+      "state_id": "bullish_sample_027_state_006",
+      "time_spot": "2024-04-25",
+      "reference_session": "2024-04-25",
+      "question": "Session summary for April 25, 2024: ADI opened $193.75, ranged $191.04-$194.96, closed $193.83. Volume 3.3M (1.02x 20-day avg). 20-day $189.57 | 50-day $188.71. 5-day return +5.52%. ATR-14 $5.53. RSI 53.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-04-25",
+        "open": 193.75,
+        "high": 194.96,
+        "low": 191.04,
+        "close": 193.83,
+        "volume": 3301500,
+        "ma20": 189.57,
+        "ma50": 188.71,
+        "volume_vs_20d": 1.02,
+        "atr14": 5.53,
+        "chg_5d_pct": 5.52
+      },
+      "weekly_snapshot": {
+        "ticker": "ADI",
+        "week_start": "2024-04-22",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 53.1,
+        "price_vs_sma50": 1.027,
+        "notes": "ADX 21.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADI_2024-04-18_bullish_sample_027_007",
+      "scenario_id": "ADI_2024-04-18",
+      "window_type": "bullish_sample_027",
+      "chronological_index": 7,
+      "state_id": "bullish_sample_027_state_007",
+      "time_spot": "2024-04-26",
+      "reference_session": "2024-04-26",
+      "question": "Session summary for April 26, 2024: ADI opened $192.96, ranged $192.88-$198.39, closed $197.77. Volume 3.1M (0.97x 20-day avg). 20-day $189.78 | 50-day $189.04. 5-day return +10.15%. ATR-14 $5.71. RSI 55.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-04-26",
+        "open": 192.96,
+        "high": 198.39,
+        "low": 192.88,
+        "close": 197.77,
+        "volume": 3136300,
+        "ma20": 189.78,
+        "ma50": 189.04,
+        "volume_vs_20d": 0.97,
+        "atr14": 5.71,
+        "chg_5d_pct": 10.15
+      },
+      "weekly_snapshot": {
+        "ticker": "ADI",
+        "week_start": "2024-04-22",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 55.0,
+        "price_vs_sma50": 1.046,
+        "notes": "ADX 20.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADI_2024-04-18_bullish_sample_027_008",
+      "scenario_id": "ADI_2024-04-18",
+      "window_type": "bullish_sample_027",
+      "chronological_index": 8,
+      "state_id": "bullish_sample_027_state_008",
+      "time_spot": "2024-04-29",
+      "reference_session": "2024-04-29",
+      "question": "Session summary for April 29, 2024: ADI opened $196.64, ranged $196.47-$199.74, closed $199.66. Volume 2.3M (0.70x 20-day avg). 20-day $190.14 | 50-day $189.38. 5-day return +9.44%. ATR-14 $5.42. RSI 49.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-04-29",
+        "open": 196.64,
+        "high": 199.74,
+        "low": 196.47,
+        "close": 199.66,
+        "volume": 2289200,
+        "ma20": 190.14,
+        "ma50": 189.38,
+        "volume_vs_20d": 0.7,
+        "atr14": 5.42,
+        "chg_5d_pct": 9.44
+      },
+      "weekly_snapshot": {
+        "ticker": "ADI",
+        "week_start": "2024-04-29",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 49.8,
+        "price_vs_sma50": 1.054,
+        "notes": "ADX 17.5, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADI_2024-04-18_bullish_sample_027_009",
+      "scenario_id": "ADI_2024-04-18",
+      "window_type": "bullish_sample_027",
+      "chronological_index": 9,
+      "state_id": "bullish_sample_027_state_009",
+      "time_spot": "2024-04-30",
+      "reference_session": "2024-04-30",
+      "question": "Session summary for April 30, 2024: ADI opened $199.40, ranged $196.33-$199.96, closed $196.44. Volume 2.7M (0.82x 20-day avg). 20-day $190.42 | 50-day $189.63. 5-day return +5.62%. ATR-14 $5.07. RSI 54.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-04-30",
+        "open": 199.4,
+        "high": 199.96,
+        "low": 196.33,
+        "close": 196.44,
+        "volume": 2668400,
+        "ma20": 190.42,
+        "ma50": 189.63,
+        "volume_vs_20d": 0.82,
+        "atr14": 5.07,
+        "chg_5d_pct": 5.62
+      },
+      "weekly_snapshot": {
+        "ticker": "ADI",
+        "week_start": "2024-04-29",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 54.9,
+        "price_vs_sma50": 1.036,
+        "notes": "ADX 16.2, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADI_2024-04-18_bullish_sample_027_010",
+      "scenario_id": "ADI_2024-04-18",
+      "window_type": "bullish_sample_027",
+      "chronological_index": 10,
+      "state_id": "bullish_sample_027_state_010",
+      "time_spot": "2024-05-01",
+      "reference_session": "2024-05-01",
+      "question": "Session summary for May 01, 2024: ADI opened $192.96, ranged $189.82-$195.37, closed $189.86. Volume 3.6M (1.06x 20-day avg). 20-day $190.34 | 50-day $189.74. 5-day return -1.33%. ATR-14 $5.20. RSI 45.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-05-01",
+        "open": 192.96,
+        "high": 195.37,
+        "low": 189.82,
+        "close": 189.86,
+        "volume": 3554600,
+        "ma20": 190.34,
+        "ma50": 189.74,
+        "volume_vs_20d": 1.06,
+        "atr14": 5.2,
+        "chg_5d_pct": -1.33
+      },
+      "weekly_snapshot": {
+        "ticker": "ADI",
+        "week_start": "2024-04-29",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 45.0,
+        "price_vs_sma50": 1.001,
+        "notes": "ADX 14.8, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADI_2024-04-18_bullish_sample_027_011",
+      "scenario_id": "ADI_2024-04-18",
+      "window_type": "bullish_sample_027",
+      "chronological_index": 11,
+      "state_id": "bullish_sample_027_state_011",
+      "time_spot": "2024-05-02",
+      "reference_session": "2024-05-02",
+      "question": "Session summary for May 02, 2024: ADI opened $192.02, ranged $187.61-$193.22, closed $192.41. Volume 2.7M (0.82x 20-day avg). 20-day $190.57 | 50-day $189.81. 5-day return -0.73%. ATR-14 $5.15. RSI 54.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-05-02",
+        "open": 192.02,
+        "high": 193.22,
+        "low": 187.61,
+        "close": 192.41,
+        "volume": 2728100,
+        "ma20": 190.57,
+        "ma50": 189.81,
+        "volume_vs_20d": 0.82,
+        "atr14": 5.15,
+        "chg_5d_pct": -0.73
+      },
+      "weekly_snapshot": {
+        "ticker": "ADI",
+        "week_start": "2024-04-29",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 54.8,
+        "price_vs_sma50": 1.014,
+        "notes": "ADX 13.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADI_2024-04-18_bullish_sample_027_012",
+      "scenario_id": "ADI_2024-04-18",
+      "window_type": "bullish_sample_027",
+      "chronological_index": 12,
+      "state_id": "bullish_sample_027_state_012",
+      "time_spot": "2024-05-03",
+      "reference_session": "2024-05-03",
+      "question": "Session summary for May 03, 2024: ADI opened $194.90, ranged $194.90-$197.63, closed $195.48. Volume 2.4M (0.71x 20-day avg). 20-day $190.81 | 50-day $189.98. 5-day return -1.16%. ATR-14 $5.05. RSI 60.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-05-03",
+        "open": 194.9,
+        "high": 197.63,
+        "low": 194.9,
+        "close": 195.48,
+        "volume": 2372800,
+        "ma20": 190.81,
+        "ma50": 189.98,
+        "volume_vs_20d": 0.71,
+        "atr14": 5.05,
+        "chg_5d_pct": -1.16
+      },
+      "weekly_snapshot": {
+        "ticker": "ADI",
+        "week_start": "2024-04-29",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 60.4,
+        "price_vs_sma50": 1.029,
+        "notes": "ADX 13.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADI_2024-04-18_bullish_sample_027_013",
+      "scenario_id": "ADI_2024-04-18",
+      "window_type": "bullish_sample_027",
+      "chronological_index": 13,
+      "state_id": "bullish_sample_027_state_013",
+      "time_spot": "2024-05-06",
+      "reference_session": "2024-05-06",
+      "question": "Session summary for May 06, 2024: ADI opened $196.01, ranged $195.84-$199.20, closed $199.09. Volume 2.2M (0.65x 20-day avg). 20-day $191.13 | 50-day $190.26. 5-day return -0.28%. ATR-14 $5.06. RSI 62.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-05-06",
+        "open": 196.01,
+        "high": 199.2,
+        "low": 195.84,
+        "close": 199.09,
+        "volume": 2168900,
+        "ma20": 191.13,
+        "ma50": 190.26,
+        "volume_vs_20d": 0.65,
+        "atr14": 5.06,
+        "chg_5d_pct": -0.28
+      },
+      "weekly_snapshot": {
+        "ticker": "ADI",
+        "week_start": "2024-05-06",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 62.6,
+        "price_vs_sma50": 1.046,
+        "notes": "ADX 13.4, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADI_2024-04-18_bullish_sample_027_014",
+      "scenario_id": "ADI_2024-04-18",
+      "window_type": "bullish_sample_027",
+      "chronological_index": 14,
+      "state_id": "bullish_sample_027_state_014",
+      "time_spot": "2024-05-07",
+      "reference_session": "2024-05-07",
+      "question": "Session summary for May 07, 2024: ADI opened $200.25, ranged $199.30-$201.49, closed $199.34. Volume 3.3M (1.00x 20-day avg). 20-day $191.10 | 50-day $190.56. 5-day return +1.48%. ATR-14 $4.98. RSI 65.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-05-07",
+        "open": 200.25,
+        "high": 201.49,
+        "low": 199.3,
+        "close": 199.34,
+        "volume": 3276700,
+        "ma20": 191.1,
+        "ma50": 190.56,
+        "volume_vs_20d": 1.0,
+        "atr14": 4.98,
+        "chg_5d_pct": 1.48
+      },
+      "weekly_snapshot": {
+        "ticker": "ADI",
+        "week_start": "2024-05-06",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 65.3,
+        "price_vs_sma50": 1.046,
+        "notes": "ADX 14.4, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADI_2024-04-18_bullish_sample_027_015",
+      "scenario_id": "ADI_2024-04-18",
+      "window_type": "bullish_sample_027",
+      "chronological_index": 15,
+      "state_id": "bullish_sample_027_state_015",
+      "time_spot": "2024-05-08",
+      "reference_session": "2024-05-08",
+      "question": "Session summary for May 08, 2024: ADI opened $198.18, ranged $197.62-$200.74, closed $200.60. Volume 2.5M (0.78x 20-day avg). 20-day $191.52 | 50-day $190.89. 5-day return +5.66%. ATR-14 $4.95. RSI 68.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-05-08",
+        "open": 198.18,
+        "high": 200.74,
+        "low": 197.62,
+        "close": 200.6,
+        "volume": 2464300,
+        "ma20": 191.52,
+        "ma50": 190.89,
+        "volume_vs_20d": 0.78,
+        "atr14": 4.95,
+        "chg_5d_pct": 5.66
+      },
+      "weekly_snapshot": {
+        "ticker": "ADI",
+        "week_start": "2024-05-06",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 68.9,
+        "price_vs_sma50": 1.051,
+        "notes": "ADX 15.7, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADI_2024-04-18_bullish_sample_027_016",
+      "scenario_id": "ADI_2024-04-18",
+      "window_type": "bullish_sample_027",
+      "chronological_index": 16,
+      "state_id": "bullish_sample_027_state_016",
+      "time_spot": "2024-05-09",
+      "reference_session": "2024-05-09",
+      "question": "Session summary for May 09, 2024: ADI opened $200.23, ranged $199.47-$201.19, closed $200.53. Volume 2.9M (0.93x 20-day avg). 20-day $191.82 | 50-day $191.24. 5-day return +4.22%. ATR-14 $4.69. RSI 75.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-05-09",
+        "open": 200.23,
+        "high": 201.19,
+        "low": 199.47,
+        "close": 200.53,
+        "volume": 2941800,
+        "ma20": 191.82,
+        "ma50": 191.24,
+        "volume_vs_20d": 0.93,
+        "atr14": 4.69,
+        "chg_5d_pct": 4.22
+      },
+      "weekly_snapshot": {
+        "ticker": "ADI",
+        "week_start": "2024-05-06",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 75.8,
+        "price_vs_sma50": 1.049,
+        "notes": "ADX 17.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADI_2024-04-18_bullish_sample_027_017",
+      "scenario_id": "ADI_2024-04-18",
+      "window_type": "bullish_sample_027",
+      "chronological_index": 17,
+      "state_id": "bullish_sample_027_state_017",
+      "time_spot": "2024-05-10",
+      "reference_session": "2024-05-10",
+      "question": "Session summary for May 10, 2024: ADI opened $201.67, ranged $200.97-$203.44, closed $202.88. Volume 2.6M (0.84x 20-day avg). 20-day $192.55 | 50-day $191.56. 5-day return +3.79%. ATR-14 $4.54. RSI 75.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-05-10",
+        "open": 201.67,
+        "high": 203.44,
+        "low": 200.97,
+        "close": 202.88,
+        "volume": 2617000,
+        "ma20": 192.55,
+        "ma50": 191.56,
+        "volume_vs_20d": 0.84,
+        "atr14": 4.54,
+        "chg_5d_pct": 3.79
+      },
+      "weekly_snapshot": {
+        "ticker": "ADI",
+        "week_start": "2024-05-06",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 75.4,
+        "price_vs_sma50": 1.059,
+        "notes": "ADX 19.2, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADI_2024-04-18_bullish_sample_027_018",
+      "scenario_id": "ADI_2024-04-18",
+      "window_type": "bullish_sample_027",
+      "chronological_index": 18,
+      "state_id": "bullish_sample_027_state_018",
+      "time_spot": "2024-05-13",
+      "reference_session": "2024-05-13",
+      "question": "Session summary for May 13, 2024: ADI opened $204.49, ranged $203.73-$205.39, closed $204.05. Volume 2.3M (0.75x 20-day avg). 20-day $193.44 | 50-day $191.81. 5-day return +2.49%. ATR-14 $4.41. RSI 73.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-05-13",
+        "open": 204.49,
+        "high": 205.39,
+        "low": 203.73,
+        "close": 204.05,
+        "volume": 2314800,
+        "ma20": 193.44,
+        "ma50": 191.81,
+        "volume_vs_20d": 0.75,
+        "atr14": 4.41,
+        "chg_5d_pct": 2.49
+      },
+      "weekly_snapshot": {
+        "ticker": "ADI",
+        "week_start": "2024-05-13",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 73.9,
+        "price_vs_sma50": 1.064,
+        "notes": "ADX 21.7, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADI_2024-04-18_bullish_sample_027_019",
+      "scenario_id": "ADI_2024-04-18",
+      "window_type": "bullish_sample_027",
+      "chronological_index": 19,
+      "state_id": "bullish_sample_027_state_019",
+      "time_spot": "2024-05-14",
+      "reference_session": "2024-05-14",
+      "question": "Session summary for May 14, 2024: ADI opened $204.66, ranged $202.41-$208.00, closed $207.53. Volume 2.7M (0.86x 20-day avg). 20-day $194.45 | 50-day $192.15. 5-day return +4.11%. ATR-14 $3.98. RSI 71.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-05-14",
+        "open": 204.66,
+        "high": 208.0,
+        "low": 202.41,
+        "close": 207.53,
+        "volume": 2683400,
+        "ma20": 194.45,
+        "ma50": 192.15,
+        "volume_vs_20d": 0.86,
+        "atr14": 3.98,
+        "chg_5d_pct": 4.11
+      },
+      "weekly_snapshot": {
+        "ticker": "ADI",
+        "week_start": "2024-05-13",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 71.7,
+        "price_vs_sma50": 1.08,
+        "notes": "ADX 23.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADI_2024-04-18_bullish_sample_027_020",
+      "scenario_id": "ADI_2024-04-18",
+      "window_type": "bullish_sample_027",
+      "chronological_index": 20,
+      "state_id": "bullish_sample_027_state_020",
+      "time_spot": "2024-05-15",
+      "reference_session": "2024-05-15",
+      "question": "Session summary for May 15, 2024: ADI opened $209.97, ranged $208.29-$211.41, closed $211.27. Volume 3.8M (1.20x 20-day avg). 20-day $195.74 | 50-day $192.66. 5-day return +5.32%. ATR-14 $3.98. RSI 73.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-05-15",
+        "open": 209.97,
+        "high": 211.41,
+        "low": 208.29,
+        "close": 211.27,
+        "volume": 3802700,
+        "ma20": 195.74,
+        "ma50": 192.66,
+        "volume_vs_20d": 1.2,
+        "atr14": 3.98,
+        "chg_5d_pct": 5.32
+      },
+      "weekly_snapshot": {
+        "ticker": "ADI",
+        "week_start": "2024-05-13",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 73.5,
+        "price_vs_sma50": 1.097,
+        "notes": "ADX 24.8, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADI_2024-04-18_bullish_sample_027_021",
+      "scenario_id": "ADI_2024-04-18",
+      "window_type": "bullish_sample_027",
+      "chronological_index": 21,
+      "state_id": "bullish_sample_027_state_021",
+      "time_spot": "2024-05-16",
+      "reference_session": "2024-05-16",
+      "question": "Session summary for May 16, 2024: ADI opened $211.51, ranged $209.22-$211.51, closed $209.67. Volume 2.8M (0.89x 20-day avg). 20-day $197.04 | 50-day $193.10. 5-day return +4.56%. ATR-14 $3.75. RSI 67.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-05-16",
+        "open": 211.51,
+        "high": 211.51,
+        "low": 209.22,
+        "close": 209.67,
+        "volume": 2820000,
+        "ma20": 197.04,
+        "ma50": 193.1,
+        "volume_vs_20d": 0.89,
+        "atr14": 3.75,
+        "chg_5d_pct": 4.56
+      },
+      "weekly_snapshot": {
+        "ticker": "ADI",
+        "week_start": "2024-05-13",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 67.1,
+        "price_vs_sma50": 1.086,
+        "notes": "ADX 25.8, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADI_2024-04-18_bullish_sample_027_022",
+      "scenario_id": "ADI_2024-04-18",
+      "window_type": "bullish_sample_027",
+      "chronological_index": 22,
+      "state_id": "bullish_sample_027_state_022",
+      "time_spot": "2024-05-17",
+      "reference_session": "2024-05-17",
+      "question": "Session summary for May 17, 2024: ADI opened $210.05, ranged $208.54-$211.15, closed $209.63. Volume 2.4M (0.77x 20-day avg). 20-day $198.54 | 50-day $193.41. 5-day return +3.33%. ATR-14 $3.70. RSI 65.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-05-17",
+        "open": 210.05,
+        "high": 211.15,
+        "low": 208.54,
+        "close": 209.63,
+        "volume": 2373800,
+        "ma20": 198.54,
+        "ma50": 193.41,
+        "volume_vs_20d": 0.77,
+        "atr14": 3.7,
+        "chg_5d_pct": 3.33
+      },
+      "weekly_snapshot": {
+        "ticker": "ADI",
+        "week_start": "2024-05-13",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 65.1,
+        "price_vs_sma50": 1.084,
+        "notes": "ADX 27.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADI_2024-04-18_bullish_sample_027_023",
+      "scenario_id": "ADI_2024-04-18",
+      "window_type": "bullish_sample_027",
+      "chronological_index": 23,
+      "state_id": "bullish_sample_027_state_023",
+      "time_spot": "2024-05-20",
+      "reference_session": "2024-05-20",
+      "question": "Session summary for May 20, 2024: ADI opened $210.49, ranged $209.49-$214.15, closed $212.96. Volume 2.6M (0.87x 20-day avg). 20-day $200.07 | 50-day $193.83. 5-day return +4.37%. ATR-14 $3.78. RSI 75.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-05-20",
+        "open": 210.49,
+        "high": 214.15,
+        "low": 209.49,
+        "close": 212.96,
+        "volume": 2647900,
+        "ma20": 200.07,
+        "ma50": 193.83,
+        "volume_vs_20d": 0.87,
+        "atr14": 3.78,
+        "chg_5d_pct": 4.37
+      },
+      "weekly_snapshot": {
+        "ticker": "ADI",
+        "week_start": "2024-05-20",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 75.0,
+        "price_vs_sma50": 1.099,
+        "notes": "ADX 28.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADI_2024-04-18_bullish_sample_027_024",
+      "scenario_id": "ADI_2024-04-18",
+      "window_type": "bullish_sample_027",
+      "chronological_index": 24,
+      "state_id": "bullish_sample_027_state_024",
+      "time_spot": "2024-05-21",
+      "reference_session": "2024-05-21",
+      "question": "Session summary for May 21, 2024: ADI opened $210.73, ranged $210.09-$212.57, closed $212.14. Volume 3.4M (1.14x 20-day avg). 20-day $201.38 | 50-day $194.19. 5-day return +2.22%. ATR-14 $3.51. RSI 90.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-05-21",
+        "open": 210.73,
+        "high": 212.57,
+        "low": 210.09,
+        "close": 212.14,
+        "volume": 3428800,
+        "ma20": 201.38,
+        "ma50": 194.19,
+        "volume_vs_20d": 1.14,
+        "atr14": 3.51,
+        "chg_5d_pct": 2.22
+      },
+      "weekly_snapshot": {
+        "ticker": "ADI",
+        "week_start": "2024-05-20",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 90.8,
+        "price_vs_sma50": 1.092,
+        "notes": "ADX 33.2, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADI_2024-04-18_bullish_sample_027_025",
+      "scenario_id": "ADI_2024-04-18",
+      "window_type": "bullish_sample_027",
+      "chronological_index": 25,
+      "state_id": "bullish_sample_027_state_025",
+      "time_spot": "2024-05-22",
+      "reference_session": "2024-05-22",
+      "question": "Session summary for May 22, 2024: ADI opened $223.06, ranged $220.08-$235.37, closed $235.17. Volume 9.4M (3.00x 20-day avg). 20-day $203.52 | 50-day $194.99. 5-day return +11.31%. ATR-14 $4.77. RSI 94.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-05-22",
+        "open": 223.06,
+        "high": 235.37,
+        "low": 220.08,
+        "close": 235.17,
+        "volume": 9445800,
+        "ma20": 203.52,
+        "ma50": 194.99,
+        "volume_vs_20d": 3.0,
+        "atr14": 4.77,
+        "chg_5d_pct": 11.31
+      },
+      "weekly_snapshot": {
+        "ticker": "ADI",
+        "week_start": "2024-05-20",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 94.7,
+        "price_vs_sma50": 1.206,
+        "notes": "ADX 39.5, MACD bullish"
+      }
+    }
+  ]
+}

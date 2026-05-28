@@ -1,0 +1,2898 @@
+{
+  "metadata": {
+    "instrument": "AMCR",
+    "initial_capital": 10000,
+    "window_type": "bearish_sample_024",
+    "description": "AMCR window (2019-07-19 \u2013 2019-08-22) - bearish regime.",
+    "num_mcqs": 25,
+    "notes": "Orders express target exposure fractions relative to the leverage ceiling.",
+    "max_leverage": 2.5,
+    "exposure_buckets": [
+      0.8,
+      0.6,
+      0.4,
+      0.2
+    ],
+    "start_reference": "2019-07-19",
+    "end_reference": "2019-08-22",
+    "regime": "bearish",
+    "bh_return": -15.35
+  },
+  "mcqs": [
+    {
+      "scenario_instance_id": "AMCR_2019-07-19_bearish_sample_024_001",
+      "scenario_id": "AMCR_2019-07-19",
+      "window_type": "bearish_sample_024",
+      "chronological_index": 1,
+      "state_id": "bearish_sample_024_state_001",
+      "time_spot": "2019-07-19",
+      "reference_session": "2019-07-19",
+      "question": "Session summary for July 19, 2019: AMCR opened $8.62, ranged $8.56-$8.69, closed $8.58. Volume 3.4M (0.46x 20-day avg). 20-day $8.59 | 50-day $8.62. 5-day return +1.08%. ATR-14 $0.19. RSI 44.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-07-19",
+        "open": 8.62,
+        "high": 8.69,
+        "low": 8.56,
+        "close": 8.58,
+        "volume": 3358100,
+        "ma20": 8.59,
+        "ma50": 8.62,
+        "volume_vs_20d": 0.46,
+        "atr14": 0.19,
+        "chg_5d_pct": 1.08
+      },
+      "weekly_snapshot": {
+        "ticker": "AMCR",
+        "week_start": "2019-07-15",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 44.1,
+        "price_vs_sma50": 0.995,
+        "notes": "ADX 16.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AMCR_2019-07-19_bearish_sample_024_002",
+      "scenario_id": "AMCR_2019-07-19",
+      "window_type": "bearish_sample_024",
+      "chronological_index": 2,
+      "state_id": "bearish_sample_024_state_002",
+      "time_spot": "2019-07-22",
+      "reference_session": "2019-07-22",
+      "question": "Session summary for July 22, 2019: AMCR opened $8.43, ranged $8.11-$8.43, closed $8.18. Volume 8.5M (1.23x 20-day avg). 20-day $8.58 | 50-day $8.61. 5-day return -3.07%. ATR-14 $0.21. RSI 35.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-07-22",
+        "open": 8.43,
+        "high": 8.43,
+        "low": 8.11,
+        "close": 8.18,
+        "volume": 8515500,
+        "ma20": 8.58,
+        "ma50": 8.61,
+        "volume_vs_20d": 1.23,
+        "atr14": 0.21,
+        "chg_5d_pct": -3.07
+      },
+      "weekly_snapshot": {
+        "ticker": "AMCR",
+        "week_start": "2019-07-22",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 35.2,
+        "price_vs_sma50": 0.95,
+        "notes": "ADX 18.4, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AMCR_2019-07-19_bearish_sample_024_003",
+      "scenario_id": "AMCR_2019-07-19",
+      "window_type": "bearish_sample_024",
+      "chronological_index": 3,
+      "state_id": "bearish_sample_024_state_003",
+      "time_spot": "2019-07-23",
+      "reference_session": "2019-07-23",
+      "question": "Session summary for July 23, 2019: AMCR opened $8.22, ranged $8.19-$8.28, closed $8.27. Volume 3.0M (0.50x 20-day avg). 20-day $8.57 | 50-day $8.60. 5-day return -0.37%. ATR-14 $0.21. RSI 34.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-07-23",
+        "open": 8.22,
+        "high": 8.28,
+        "low": 8.19,
+        "close": 8.27,
+        "volume": 2969500,
+        "ma20": 8.57,
+        "ma50": 8.6,
+        "volume_vs_20d": 0.5,
+        "atr14": 0.21,
+        "chg_5d_pct": -0.37
+      },
+      "weekly_snapshot": {
+        "ticker": "AMCR",
+        "week_start": "2019-07-22",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 34.3,
+        "price_vs_sma50": 0.962,
+        "notes": "ADX 21.4, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AMCR_2019-07-19_bearish_sample_024_004",
+      "scenario_id": "AMCR_2019-07-19",
+      "window_type": "bearish_sample_024",
+      "chronological_index": 4,
+      "state_id": "bearish_sample_024_state_004",
+      "time_spot": "2019-07-24",
+      "reference_session": "2019-07-24",
+      "question": "Session summary for July 24, 2019: AMCR opened $8.25, ranged $8.12-$8.30, closed $8.21. Volume 3.8M (0.70x 20-day avg). 20-day $8.55 | 50-day $8.58. 5-day return -3.49%. ATR-14 $0.21. RSI 30.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-07-24",
+        "open": 8.25,
+        "high": 8.3,
+        "low": 8.12,
+        "close": 8.21,
+        "volume": 3836800,
+        "ma20": 8.55,
+        "ma50": 8.58,
+        "volume_vs_20d": 0.7,
+        "atr14": 0.21,
+        "chg_5d_pct": -3.49
+      },
+      "weekly_snapshot": {
+        "ticker": "AMCR",
+        "week_start": "2019-07-22",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 30.4,
+        "price_vs_sma50": 0.957,
+        "notes": "ADX 23.5, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AMCR_2019-07-19_bearish_sample_024_005",
+      "scenario_id": "AMCR_2019-07-19",
+      "window_type": "bearish_sample_024",
+      "chronological_index": 5,
+      "state_id": "bearish_sample_024_state_005",
+      "time_spot": "2019-07-25",
+      "reference_session": "2019-07-25",
+      "question": "Session summary for July 25, 2019: AMCR opened $8.19, ranged $8.19-$8.45, closed $8.36. Volume 5.5M (1.03x 20-day avg). 20-day $8.53 | 50-day $8.57. 5-day return -2.66%. ATR-14 $0.23. RSI 36.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-07-25",
+        "open": 8.19,
+        "high": 8.45,
+        "low": 8.19,
+        "close": 8.36,
+        "volume": 5477800,
+        "ma20": 8.53,
+        "ma50": 8.57,
+        "volume_vs_20d": 1.03,
+        "atr14": 0.23,
+        "chg_5d_pct": -2.66
+      },
+      "weekly_snapshot": {
+        "ticker": "AMCR",
+        "week_start": "2019-07-22",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 36.8,
+        "price_vs_sma50": 0.975,
+        "notes": "ADX 24.8, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AMCR_2019-07-19_bearish_sample_024_006",
+      "scenario_id": "AMCR_2019-07-19",
+      "window_type": "bearish_sample_024",
+      "chronological_index": 6,
+      "state_id": "bearish_sample_024_state_006",
+      "time_spot": "2019-07-26",
+      "reference_session": "2019-07-26",
+      "question": "Session summary for July 26, 2019: AMCR opened $8.32, ranged $8.24-$8.47, closed $8.34. Volume 3.2M (0.61x 20-day avg). 20-day $8.51 | 50-day $8.56. 5-day return -2.75%. ATR-14 $0.23. RSI 39.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-07-26",
+        "open": 8.32,
+        "high": 8.47,
+        "low": 8.24,
+        "close": 8.34,
+        "volume": 3171800,
+        "ma20": 8.51,
+        "ma50": 8.56,
+        "volume_vs_20d": 0.61,
+        "atr14": 0.23,
+        "chg_5d_pct": -2.75
+      },
+      "weekly_snapshot": {
+        "ticker": "AMCR",
+        "week_start": "2019-07-22",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 39.3,
+        "price_vs_sma50": 0.975,
+        "notes": "ADX 25.4, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AMCR_2019-07-19_bearish_sample_024_007",
+      "scenario_id": "AMCR_2019-07-19",
+      "window_type": "bearish_sample_024",
+      "chronological_index": 7,
+      "state_id": "bearish_sample_024_state_007",
+      "time_spot": "2019-07-29",
+      "reference_session": "2019-07-29",
+      "question": "Session summary for July 29, 2019: AMCR opened $8.34, ranged $8.20-$8.34, closed $8.27. Volume 1.7M (0.35x 20-day avg). 20-day $8.48 | 50-day $8.55. 5-day return +1.21%. ATR-14 $0.21. RSI 46.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-07-29",
+        "open": 8.34,
+        "high": 8.34,
+        "low": 8.2,
+        "close": 8.27,
+        "volume": 1736600,
+        "ma20": 8.48,
+        "ma50": 8.55,
+        "volume_vs_20d": 0.35,
+        "atr14": 0.21,
+        "chg_5d_pct": 1.21
+      },
+      "weekly_snapshot": {
+        "ticker": "AMCR",
+        "week_start": "2019-07-29",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 46.1,
+        "price_vs_sma50": 0.968,
+        "notes": "ADX 26.7, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AMCR_2019-07-19_bearish_sample_024_008",
+      "scenario_id": "AMCR_2019-07-19",
+      "window_type": "bearish_sample_024",
+      "chronological_index": 8,
+      "state_id": "bearish_sample_024_state_008",
+      "time_spot": "2019-07-30",
+      "reference_session": "2019-07-30",
+      "question": "Session summary for July 30, 2019: AMCR opened $8.21, ranged $8.01-$8.24, closed $8.08. Volume 3.8M (0.81x 20-day avg). 20-day $8.45 | 50-day $8.53. 5-day return -2.30%. ATR-14 $0.22. RSI 41.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-07-30",
+        "open": 8.21,
+        "high": 8.24,
+        "low": 8.01,
+        "close": 8.08,
+        "volume": 3826500,
+        "ma20": 8.45,
+        "ma50": 8.53,
+        "volume_vs_20d": 0.81,
+        "atr14": 0.22,
+        "chg_5d_pct": -2.3
+      },
+      "weekly_snapshot": {
+        "ticker": "AMCR",
+        "week_start": "2019-07-29",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 41.7,
+        "price_vs_sma50": 0.947,
+        "notes": "ADX 27.9, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AMCR_2019-07-19_bearish_sample_024_009",
+      "scenario_id": "AMCR_2019-07-19",
+      "window_type": "bearish_sample_024",
+      "chronological_index": 9,
+      "state_id": "bearish_sample_024_state_009",
+      "time_spot": "2019-07-31",
+      "reference_session": "2019-07-31",
+      "question": "Session summary for July 31, 2019: AMCR opened $8.11, ranged $8.05-$8.33, closed $8.07. Volume 6.7M (1.42x 20-day avg). 20-day $8.41 | 50-day $8.51. 5-day return -1.76%. ATR-14 $0.23. RSI 38.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-07-31",
+        "open": 8.11,
+        "high": 8.33,
+        "low": 8.05,
+        "close": 8.07,
+        "volume": 6685900,
+        "ma20": 8.41,
+        "ma50": 8.51,
+        "volume_vs_20d": 1.42,
+        "atr14": 0.23,
+        "chg_5d_pct": -1.76
+      },
+      "weekly_snapshot": {
+        "ticker": "AMCR",
+        "week_start": "2019-07-29",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 38.0,
+        "price_vs_sma50": 0.948,
+        "notes": "ADX 29.2, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AMCR_2019-07-19_bearish_sample_024_010",
+      "scenario_id": "AMCR_2019-07-19",
+      "window_type": "bearish_sample_024",
+      "chronological_index": 10,
+      "state_id": "bearish_sample_024_state_010",
+      "time_spot": "2019-08-01",
+      "reference_session": "2019-08-01",
+      "question": "Session summary for August 01, 2019: AMCR opened $8.08, ranged $7.98-$8.18, closed $8.00. Volume 3.7M (0.78x 20-day avg). 20-day $8.37 | 50-day $8.50. 5-day return -4.28%. ATR-14 $0.23. RSI 34.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-08-01",
+        "open": 8.08,
+        "high": 8.18,
+        "low": 7.98,
+        "close": 8.0,
+        "volume": 3703200,
+        "ma20": 8.37,
+        "ma50": 8.5,
+        "volume_vs_20d": 0.78,
+        "atr14": 0.23,
+        "chg_5d_pct": -4.28
+      },
+      "weekly_snapshot": {
+        "ticker": "AMCR",
+        "week_start": "2019-07-29",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 34.2,
+        "price_vs_sma50": 0.942,
+        "notes": "ADX 31.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AMCR_2019-07-19_bearish_sample_024_011",
+      "scenario_id": "AMCR_2019-07-19",
+      "window_type": "bearish_sample_024",
+      "chronological_index": 11,
+      "state_id": "bearish_sample_024_state_011",
+      "time_spot": "2019-08-02",
+      "reference_session": "2019-08-02",
+      "question": "Session summary for August 02, 2019: AMCR opened $8.05, ranged $8.01-$8.16, closed $8.02. Volume 3.7M (0.78x 20-day avg). 20-day $8.33 | 50-day $8.48. 5-day return -3.83%. ATR-14 $0.23. RSI 36.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-08-02",
+        "open": 8.05,
+        "high": 8.16,
+        "low": 8.01,
+        "close": 8.02,
+        "volume": 3722700,
+        "ma20": 8.33,
+        "ma50": 8.48,
+        "volume_vs_20d": 0.78,
+        "atr14": 0.23,
+        "chg_5d_pct": -3.83
+      },
+      "weekly_snapshot": {
+        "ticker": "AMCR",
+        "week_start": "2019-07-29",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 36.4,
+        "price_vs_sma50": 0.946,
+        "notes": "ADX 32.4, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AMCR_2019-07-19_bearish_sample_024_012",
+      "scenario_id": "AMCR_2019-07-19",
+      "window_type": "bearish_sample_024",
+      "chronological_index": 12,
+      "state_id": "bearish_sample_024_state_012",
+      "time_spot": "2019-08-05",
+      "reference_session": "2019-08-05",
+      "question": "Session summary for August 05, 2019: AMCR opened $8.01, ranged $7.82-$8.08, closed $7.84. Volume 5.6M (1.15x 20-day avg). 20-day $8.28 | 50-day $8.46. 5-day return -5.24%. ATR-14 $0.24. RSI 35.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-08-05",
+        "open": 8.01,
+        "high": 8.08,
+        "low": 7.82,
+        "close": 7.84,
+        "volume": 5603100,
+        "ma20": 8.28,
+        "ma50": 8.46,
+        "volume_vs_20d": 1.15,
+        "atr14": 0.24,
+        "chg_5d_pct": -5.24
+      },
+      "weekly_snapshot": {
+        "ticker": "AMCR",
+        "week_start": "2019-08-05",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 35.3,
+        "price_vs_sma50": 0.927,
+        "notes": "ADX 32.0, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AMCR_2019-07-19_bearish_sample_024_013",
+      "scenario_id": "AMCR_2019-07-19",
+      "window_type": "bearish_sample_024",
+      "chronological_index": 13,
+      "state_id": "bearish_sample_024_state_013",
+      "time_spot": "2019-08-06",
+      "reference_session": "2019-08-06",
+      "question": "Session summary for August 06, 2019: AMCR opened $7.84, ranged $7.70-$7.88, closed $7.79. Volume 4.7M (0.98x 20-day avg). 20-day $8.26 | 50-day $8.44. 5-day return -3.49%. ATR-14 $0.23. RSI 24.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-08-06",
+        "open": 7.84,
+        "high": 7.88,
+        "low": 7.7,
+        "close": 7.79,
+        "volume": 4701500,
+        "ma20": 8.26,
+        "ma50": 8.44,
+        "volume_vs_20d": 0.98,
+        "atr14": 0.23,
+        "chg_5d_pct": -3.49
+      },
+      "weekly_snapshot": {
+        "ticker": "AMCR",
+        "week_start": "2019-08-05",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 24.2,
+        "price_vs_sma50": 0.924,
+        "notes": "ADX 33.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AMCR_2019-07-19_bearish_sample_024_014",
+      "scenario_id": "AMCR_2019-07-19",
+      "window_type": "bearish_sample_024",
+      "chronological_index": 14,
+      "state_id": "bearish_sample_024_state_014",
+      "time_spot": "2019-08-07",
+      "reference_session": "2019-08-07",
+      "question": "Session summary for August 07, 2019: AMCR opened $7.73, ranged $7.71-$7.96, closed $7.94. Volume 5.1M (1.05x 20-day avg). 20-day $8.23 | 50-day $8.42. 5-day return -1.60%. ATR-14 $0.22. RSI 27.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-08-07",
+        "open": 7.73,
+        "high": 7.96,
+        "low": 7.71,
+        "close": 7.94,
+        "volume": 5081000,
+        "ma20": 8.23,
+        "ma50": 8.42,
+        "volume_vs_20d": 1.05,
+        "atr14": 0.22,
+        "chg_5d_pct": -1.6
+      },
+      "weekly_snapshot": {
+        "ticker": "AMCR",
+        "week_start": "2019-08-05",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 27.7,
+        "price_vs_sma50": 0.943,
+        "notes": "ADX 35.2, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AMCR_2019-07-19_bearish_sample_024_015",
+      "scenario_id": "AMCR_2019-07-19",
+      "window_type": "bearish_sample_024",
+      "chronological_index": 15,
+      "state_id": "bearish_sample_024_state_015",
+      "time_spot": "2019-08-08",
+      "reference_session": "2019-08-08",
+      "question": "Session summary for August 08, 2019: AMCR opened $7.92, ranged $7.92-$8.11, closed $8.08. Volume 5.5M (1.13x 20-day avg). 20-day $8.22 | 50-day $8.40. 5-day return +0.95%. ATR-14 $0.23. RSI 34.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-08-08",
+        "open": 7.92,
+        "high": 8.11,
+        "low": 7.92,
+        "close": 8.08,
+        "volume": 5529700,
+        "ma20": 8.22,
+        "ma50": 8.4,
+        "volume_vs_20d": 1.13,
+        "atr14": 0.23,
+        "chg_5d_pct": 0.95
+      },
+      "weekly_snapshot": {
+        "ticker": "AMCR",
+        "week_start": "2019-08-05",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 34.1,
+        "price_vs_sma50": 0.961,
+        "notes": "ADX 36.8, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AMCR_2019-07-19_bearish_sample_024_016",
+      "scenario_id": "AMCR_2019-07-19",
+      "window_type": "bearish_sample_024",
+      "chronological_index": 16,
+      "state_id": "bearish_sample_024_state_016",
+      "time_spot": "2019-08-09",
+      "reference_session": "2019-08-09",
+      "question": "Session summary for August 09, 2019: AMCR opened $8.08, ranged $7.90-$8.11, closed $7.97. Volume 3.0M (0.63x 20-day avg). 20-day $8.19 | 50-day $8.38. 5-day return -0.66%. ATR-14 $0.21. RSI 42.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-08-09",
+        "open": 8.08,
+        "high": 8.11,
+        "low": 7.9,
+        "close": 7.97,
+        "volume": 3043200,
+        "ma20": 8.19,
+        "ma50": 8.38,
+        "volume_vs_20d": 0.63,
+        "atr14": 0.21,
+        "chg_5d_pct": -0.66
+      },
+      "weekly_snapshot": {
+        "ticker": "AMCR",
+        "week_start": "2019-08-05",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 42.0,
+        "price_vs_sma50": 0.951,
+        "notes": "ADX 35.6, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AMCR_2019-07-19_bearish_sample_024_017",
+      "scenario_id": "AMCR_2019-07-19",
+      "window_type": "bearish_sample_024",
+      "chronological_index": 17,
+      "state_id": "bearish_sample_024_state_017",
+      "time_spot": "2019-08-12",
+      "reference_session": "2019-08-12",
+      "question": "Session summary for August 12, 2019: AMCR opened $7.87, ranged $7.78-$7.92, closed $7.82. Volume 2.2M (0.46x 20-day avg). 20-day $8.16 | 50-day $8.37. 5-day return -0.29%. ATR-14 $0.21. RSI 33.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-08-12",
+        "open": 7.87,
+        "high": 7.92,
+        "low": 7.78,
+        "close": 7.82,
+        "volume": 2196800,
+        "ma20": 8.16,
+        "ma50": 8.37,
+        "volume_vs_20d": 0.46,
+        "atr14": 0.21,
+        "chg_5d_pct": -0.29
+      },
+      "weekly_snapshot": {
+        "ticker": "AMCR",
+        "week_start": "2019-08-12",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 33.3,
+        "price_vs_sma50": 0.934,
+        "notes": "ADX 34.1, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AMCR_2019-07-19_bearish_sample_024_018",
+      "scenario_id": "AMCR_2019-07-19",
+      "window_type": "bearish_sample_024",
+      "chronological_index": 18,
+      "state_id": "bearish_sample_024_state_018",
+      "time_spot": "2019-08-13",
+      "reference_session": "2019-08-13",
+      "question": "Session summary for August 13, 2019: AMCR opened $7.76, ranged $7.73-$8.01, closed $7.94. Volume 3.3M (0.71x 20-day avg). 20-day $8.14 | 50-day $8.36. 5-day return +1.86%. ATR-14 $0.22. RSI 40.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-08-13",
+        "open": 7.76,
+        "high": 8.01,
+        "low": 7.73,
+        "close": 7.94,
+        "volume": 3282500,
+        "ma20": 8.14,
+        "ma50": 8.36,
+        "volume_vs_20d": 0.71,
+        "atr14": 0.22,
+        "chg_5d_pct": 1.86
+      },
+      "weekly_snapshot": {
+        "ticker": "AMCR",
+        "week_start": "2019-08-12",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 40.3,
+        "price_vs_sma50": 0.95,
+        "notes": "ADX 30.7, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AMCR_2019-07-19_bearish_sample_024_019",
+      "scenario_id": "AMCR_2019-07-19",
+      "window_type": "bearish_sample_024",
+      "chronological_index": 19,
+      "state_id": "bearish_sample_024_state_019",
+      "time_spot": "2019-08-14",
+      "reference_session": "2019-08-14",
+      "question": "Session summary for August 14, 2019: AMCR opened $7.85, ranged $7.55-$7.85, closed $7.57. Volume 5.0M (1.13x 20-day avg). 20-day $8.10 | 50-day $8.34. 5-day return -4.60%. ATR-14 $0.23. RSI 26.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-08-14",
+        "open": 7.85,
+        "high": 7.85,
+        "low": 7.55,
+        "close": 7.57,
+        "volume": 5040500,
+        "ma20": 8.1,
+        "ma50": 8.34,
+        "volume_vs_20d": 1.13,
+        "atr14": 0.23,
+        "chg_5d_pct": -4.6
+      },
+      "weekly_snapshot": {
+        "ticker": "AMCR",
+        "week_start": "2019-08-12",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 26.0,
+        "price_vs_sma50": 0.908,
+        "notes": "ADX 30.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AMCR_2019-07-19_bearish_sample_024_020",
+      "scenario_id": "AMCR_2019-07-19",
+      "window_type": "bearish_sample_024",
+      "chronological_index": 20,
+      "state_id": "bearish_sample_024_state_020",
+      "time_spot": "2019-08-15",
+      "reference_session": "2019-08-15",
+      "question": "Session summary for August 15, 2019: AMCR opened $7.51, ranged $7.38-$7.54, closed $7.38. Volume 3.7M (0.87x 20-day avg). 20-day $8.04 | 50-day $8.32. 5-day return -8.58%. ATR-14 $0.23. RSI 23.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-08-15",
+        "open": 7.51,
+        "high": 7.54,
+        "low": 7.38,
+        "close": 7.38,
+        "volume": 3684900,
+        "ma20": 8.04,
+        "ma50": 8.32,
+        "volume_vs_20d": 0.87,
+        "atr14": 0.23,
+        "chg_5d_pct": -8.58
+      },
+      "weekly_snapshot": {
+        "ticker": "AMCR",
+        "week_start": "2019-08-12",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 23.5,
+        "price_vs_sma50": 0.888,
+        "notes": "ADX 31.1, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AMCR_2019-07-19_bearish_sample_024_021",
+      "scenario_id": "AMCR_2019-07-19",
+      "window_type": "bearish_sample_024",
+      "chronological_index": 21,
+      "state_id": "bearish_sample_024_state_021",
+      "time_spot": "2019-08-16",
+      "reference_session": "2019-08-16",
+      "question": "Session summary for August 16, 2019: AMCR opened $7.46, ranged $7.39-$7.57, closed $7.55. Volume 4.0M (0.94x 20-day avg). 20-day $7.98 | 50-day $8.30. 5-day return -5.25%. ATR-14 $0.23. RSI 31.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-08-16",
+        "open": 7.46,
+        "high": 7.57,
+        "low": 7.39,
+        "close": 7.55,
+        "volume": 4034400,
+        "ma20": 7.98,
+        "ma50": 8.3,
+        "volume_vs_20d": 0.94,
+        "atr14": 0.23,
+        "chg_5d_pct": -5.25
+      },
+      "weekly_snapshot": {
+        "ticker": "AMCR",
+        "week_start": "2019-08-12",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 31.1,
+        "price_vs_sma50": 0.91,
+        "notes": "ADX 32.5, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AMCR_2019-07-19_bearish_sample_024_022",
+      "scenario_id": "AMCR_2019-07-19",
+      "window_type": "bearish_sample_024",
+      "chronological_index": 22,
+      "state_id": "bearish_sample_024_state_022",
+      "time_spot": "2019-08-19",
+      "reference_session": "2019-08-19",
+      "question": "Session summary for August 19, 2019: AMCR opened $7.60, ranged $7.60-$7.82, closed $7.70. Volume 4.4M (1.08x 20-day avg). 20-day $7.96 | 50-day $8.28. 5-day return -1.56%. ATR-14 $0.23. RSI 39.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-08-19",
+        "open": 7.6,
+        "high": 7.82,
+        "low": 7.6,
+        "close": 7.7,
+        "volume": 4407200,
+        "ma20": 7.96,
+        "ma50": 8.28,
+        "volume_vs_20d": 1.08,
+        "atr14": 0.23,
+        "chg_5d_pct": -1.56
+      },
+      "weekly_snapshot": {
+        "ticker": "AMCR",
+        "week_start": "2019-08-19",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 39.8,
+        "price_vs_sma50": 0.929,
+        "notes": "ADX 31.0, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AMCR_2019-07-19_bearish_sample_024_023",
+      "scenario_id": "AMCR_2019-07-19",
+      "window_type": "bearish_sample_024",
+      "chronological_index": 23,
+      "state_id": "bearish_sample_024_state_023",
+      "time_spot": "2019-08-20",
+      "reference_session": "2019-08-20",
+      "question": "Session summary for August 20, 2019: AMCR opened $7.63, ranged $7.56-$7.71, closed $7.59. Volume 5.2M (1.23x 20-day avg). 20-day $7.93 | 50-day $8.26. 5-day return -4.41%. ATR-14 $0.22. RSI 37.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-08-20",
+        "open": 7.63,
+        "high": 7.71,
+        "low": 7.56,
+        "close": 7.59,
+        "volume": 5153200,
+        "ma20": 7.93,
+        "ma50": 8.26,
+        "volume_vs_20d": 1.23,
+        "atr14": 0.22,
+        "chg_5d_pct": -4.41
+      },
+      "weekly_snapshot": {
+        "ticker": "AMCR",
+        "week_start": "2019-08-19",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 37.7,
+        "price_vs_sma50": 0.918,
+        "notes": "ADX 31.1, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AMCR_2019-07-19_bearish_sample_024_024",
+      "scenario_id": "AMCR_2019-07-19",
+      "window_type": "bearish_sample_024",
+      "chronological_index": 24,
+      "state_id": "bearish_sample_024_state_024",
+      "time_spot": "2019-08-21",
+      "reference_session": "2019-08-21",
+      "question": "Session summary for August 21, 2019: AMCR opened $7.50, ranged $7.09-$7.57, closed $7.35. Volume 5.6M (1.31x 20-day avg). 20-day $7.88 | 50-day $8.24. 5-day return -3.02%. ATR-14 $0.24. RSI 34.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-08-21",
+        "open": 7.5,
+        "high": 7.57,
+        "low": 7.09,
+        "close": 7.35,
+        "volume": 5604200,
+        "ma20": 7.88,
+        "ma50": 8.24,
+        "volume_vs_20d": 1.31,
+        "atr14": 0.24,
+        "chg_5d_pct": -3.02
+      },
+      "weekly_snapshot": {
+        "ticker": "AMCR",
+        "week_start": "2019-08-19",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 34.6,
+        "price_vs_sma50": 0.891,
+        "notes": "ADX 31.6, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AMCR_2019-07-19_bearish_sample_024_025",
+      "scenario_id": "AMCR_2019-07-19",
+      "window_type": "bearish_sample_024",
+      "chronological_index": 25,
+      "state_id": "bearish_sample_024_state_025",
+      "time_spot": "2019-08-22",
+      "reference_session": "2019-08-22",
+      "question": "Session summary for August 22, 2019: AMCR opened $7.35, ranged $7.15-$7.39, closed $7.26. Volume 7.3M (1.67x 20-day avg). 20-day $7.83 | 50-day $8.22. 5-day return -1.65%. ATR-14 $0.25. RSI 32.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-08-22",
+        "open": 7.35,
+        "high": 7.39,
+        "low": 7.15,
+        "close": 7.26,
+        "volume": 7288600,
+        "ma20": 7.83,
+        "ma50": 8.22,
+        "volume_vs_20d": 1.67,
+        "atr14": 0.25,
+        "chg_5d_pct": -1.65
+      },
+      "weekly_snapshot": {
+        "ticker": "AMCR",
+        "week_start": "2019-08-19",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 32.6,
+        "price_vs_sma50": 0.884,
+        "notes": "ADX 32.4, MACD bearish"
+      }
+    }
+  ]
+}

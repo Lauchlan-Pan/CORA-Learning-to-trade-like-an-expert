@@ -1,0 +1,2898 @@
+{
+  "metadata": {
+    "instrument": "AJG",
+    "initial_capital": 10000,
+    "window_type": "mixed_sample_027",
+    "description": "AJG window (2024-03-05 \u2013 2024-04-09) - mixed regime.",
+    "num_mcqs": 25,
+    "notes": "Orders express target exposure fractions relative to the leverage ceiling.",
+    "max_leverage": 2.5,
+    "exposure_buckets": [
+      0.8,
+      0.6,
+      0.4,
+      0.2
+    ],
+    "start_reference": "2024-03-05",
+    "end_reference": "2024-04-09",
+    "regime": "mixed",
+    "bh_return": -0.5
+  },
+  "mcqs": [
+    {
+      "scenario_instance_id": "AJG_2024-03-05_mixed_sample_027_001",
+      "scenario_id": "AJG_2024-03-05",
+      "window_type": "mixed_sample_027",
+      "chronological_index": 1,
+      "state_id": "mixed_sample_027_state_001",
+      "time_spot": "2024-03-05",
+      "reference_session": "2024-03-05",
+      "question": "Session summary for March 05, 2024: AJG opened $239.94, ranged $238.75-$243.03, closed $242.84. Volume 0.7M (0.93x 20-day avg). 20-day $237.89 | 50-day $231.71. 5-day return +0.99%. ATR-14 $3.14. RSI 70.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-03-05",
+        "open": 239.94,
+        "high": 243.03,
+        "low": 238.75,
+        "close": 242.84,
+        "volume": 719800,
+        "ma20": 237.89,
+        "ma50": 231.71,
+        "volume_vs_20d": 0.93,
+        "atr14": 3.14,
+        "chg_5d_pct": 0.99
+      },
+      "weekly_snapshot": {
+        "ticker": "AJG",
+        "week_start": "2024-03-04",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 70.8,
+        "price_vs_sma50": 1.048,
+        "notes": "ADX 32.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AJG_2024-03-05_mixed_sample_027_002",
+      "scenario_id": "AJG_2024-03-05",
+      "window_type": "mixed_sample_027",
+      "chronological_index": 2,
+      "state_id": "mixed_sample_027_state_002",
+      "time_spot": "2024-03-06",
+      "reference_session": "2024-03-06",
+      "question": "Session summary for March 06, 2024: AJG opened $242.83, ranged $242.50-$246.27, closed $246.07. Volume 0.7M (0.91x 20-day avg). 20-day $238.64 | 50-day $232.23. 5-day return +1.53%. ATR-14 $3.22. RSI 71.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-03-06",
+        "open": 242.83,
+        "high": 246.27,
+        "low": 242.5,
+        "close": 246.07,
+        "volume": 684200,
+        "ma20": 238.64,
+        "ma50": 232.23,
+        "volume_vs_20d": 0.91,
+        "atr14": 3.22,
+        "chg_5d_pct": 1.53
+      },
+      "weekly_snapshot": {
+        "ticker": "AJG",
+        "week_start": "2024-03-04",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 71.9,
+        "price_vs_sma50": 1.06,
+        "notes": "ADX 34.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AJG_2024-03-05_mixed_sample_027_003",
+      "scenario_id": "AJG_2024-03-05",
+      "window_type": "mixed_sample_027",
+      "chronological_index": 3,
+      "state_id": "mixed_sample_027_state_003",
+      "time_spot": "2024-03-07",
+      "reference_session": "2024-03-07",
+      "question": "Session summary for March 07, 2024: AJG opened $245.93, ranged $245.72-$248.33, closed $247.35. Volume 0.7M (0.93x 20-day avg). 20-day $239.35 | 50-day $232.78. 5-day return +2.45%. ATR-14 $3.13. RSI 71.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-03-07",
+        "open": 245.93,
+        "high": 248.33,
+        "low": 245.72,
+        "close": 247.35,
+        "volume": 682500,
+        "ma20": 239.35,
+        "ma50": 232.78,
+        "volume_vs_20d": 0.93,
+        "atr14": 3.13,
+        "chg_5d_pct": 2.45
+      },
+      "weekly_snapshot": {
+        "ticker": "AJG",
+        "week_start": "2024-03-04",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 71.2,
+        "price_vs_sma50": 1.063,
+        "notes": "ADX 35.4, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AJG_2024-03-05_mixed_sample_027_004",
+      "scenario_id": "AJG_2024-03-05",
+      "window_type": "mixed_sample_027",
+      "chronological_index": 4,
+      "state_id": "mixed_sample_027_state_004",
+      "time_spot": "2024-03-08",
+      "reference_session": "2024-03-08",
+      "question": "Session summary for March 08, 2024: AJG opened $246.88, ranged $246.85-$249.49, closed $249.11. Volume 0.9M (1.26x 20-day avg). 20-day $240.10 | 50-day $233.37. 5-day return +3.35%. ATR-14 $3.12. RSI 77.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-03-08",
+        "open": 246.88,
+        "high": 249.49,
+        "low": 246.85,
+        "close": 249.11,
+        "volume": 943900,
+        "ma20": 240.1,
+        "ma50": 233.37,
+        "volume_vs_20d": 1.26,
+        "atr14": 3.12,
+        "chg_5d_pct": 3.35
+      },
+      "weekly_snapshot": {
+        "ticker": "AJG",
+        "week_start": "2024-03-04",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 77.3,
+        "price_vs_sma50": 1.067,
+        "notes": "ADX 36.5, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AJG_2024-03-05_mixed_sample_027_005",
+      "scenario_id": "AJG_2024-03-05",
+      "window_type": "mixed_sample_027",
+      "chronological_index": 5,
+      "state_id": "mixed_sample_027_state_005",
+      "time_spot": "2024-03-11",
+      "reference_session": "2024-03-11",
+      "question": "Session summary for March 11, 2024: AJG opened $248.83, ranged $247.53-$250.26, closed $250.12. Volume 0.7M (0.89x 20-day avg). 20-day $240.82 | 50-day $233.97. 5-day return +4.20%. ATR-14 $2.94. RSI 75.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-03-11",
+        "open": 248.83,
+        "high": 250.26,
+        "low": 247.53,
+        "close": 250.12,
+        "volume": 665100,
+        "ma20": 240.82,
+        "ma50": 233.97,
+        "volume_vs_20d": 0.89,
+        "atr14": 2.94,
+        "chg_5d_pct": 4.2
+      },
+      "weekly_snapshot": {
+        "ticker": "AJG",
+        "week_start": "2024-03-11",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 75.8,
+        "price_vs_sma50": 1.069,
+        "notes": "ADX 39.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AJG_2024-03-05_mixed_sample_027_006",
+      "scenario_id": "AJG_2024-03-05",
+      "window_type": "mixed_sample_027",
+      "chronological_index": 6,
+      "state_id": "mixed_sample_027_state_006",
+      "time_spot": "2024-03-12",
+      "reference_session": "2024-03-12",
+      "question": "Session summary for March 12, 2024: AJG opened $250.08, ranged $249.56-$252.90, closed $252.21. Volume 0.7M (0.98x 20-day avg). 20-day $241.79 | 50-day $234.60. 5-day return +3.86%. ATR-14 $2.86. RSI 83.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-03-12",
+        "open": 250.08,
+        "high": 252.9,
+        "low": 249.56,
+        "close": 252.21,
+        "volume": 738100,
+        "ma20": 241.79,
+        "ma50": 234.6,
+        "volume_vs_20d": 0.98,
+        "atr14": 2.86,
+        "chg_5d_pct": 3.86
+      },
+      "weekly_snapshot": {
+        "ticker": "AJG",
+        "week_start": "2024-03-11",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 83.4,
+        "price_vs_sma50": 1.075,
+        "notes": "ADX 42.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AJG_2024-03-05_mixed_sample_027_007",
+      "scenario_id": "AJG_2024-03-05",
+      "window_type": "mixed_sample_027",
+      "chronological_index": 7,
+      "state_id": "mixed_sample_027_state_007",
+      "time_spot": "2024-03-13",
+      "reference_session": "2024-03-13",
+      "question": "Session summary for March 13, 2024: AJG opened $252.39, ranged $250.52-$253.07, closed $252.76. Volume 0.6M (0.83x 20-day avg). 20-day $242.77 | 50-day $235.22. 5-day return +2.72%. ATR-14 $2.67. RSI 79.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-03-13",
+        "open": 252.39,
+        "high": 253.07,
+        "low": 250.52,
+        "close": 252.76,
+        "volume": 603700,
+        "ma20": 242.77,
+        "ma50": 235.22,
+        "volume_vs_20d": 0.83,
+        "atr14": 2.67,
+        "chg_5d_pct": 2.72
+      },
+      "weekly_snapshot": {
+        "ticker": "AJG",
+        "week_start": "2024-03-11",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 79.9,
+        "price_vs_sma50": 1.075,
+        "notes": "ADX 43.5, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AJG_2024-03-05_mixed_sample_027_008",
+      "scenario_id": "AJG_2024-03-05",
+      "window_type": "mixed_sample_027",
+      "chronological_index": 8,
+      "state_id": "mixed_sample_027_state_008",
+      "time_spot": "2024-03-14",
+      "reference_session": "2024-03-14",
+      "question": "Session summary for March 14, 2024: AJG opened $252.39, ranged $250.83-$253.09, closed $252.30. Volume 0.7M (0.97x 20-day avg). 20-day $243.60 | 50-day $235.82. 5-day return +2.00%. ATR-14 $2.73. RSI 77.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-03-14",
+        "open": 252.39,
+        "high": 253.09,
+        "low": 250.83,
+        "close": 252.3,
+        "volume": 698400,
+        "ma20": 243.6,
+        "ma50": 235.82,
+        "volume_vs_20d": 0.97,
+        "atr14": 2.73,
+        "chg_5d_pct": 2.0
+      },
+      "weekly_snapshot": {
+        "ticker": "AJG",
+        "week_start": "2024-03-11",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 77.6,
+        "price_vs_sma50": 1.07,
+        "notes": "ADX 44.7, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AJG_2024-03-05_mixed_sample_027_009",
+      "scenario_id": "AJG_2024-03-05",
+      "window_type": "mixed_sample_027",
+      "chronological_index": 9,
+      "state_id": "mixed_sample_027_state_009",
+      "time_spot": "2024-03-15",
+      "reference_session": "2024-03-15",
+      "question": "Session summary for March 15, 2024: AJG opened $248.84, ranged $248.30-$252.90, closed $250.58. Volume 1.5M (2.01x 20-day avg). 20-day $244.25 | 50-day $236.39. 5-day return +0.59%. ATR-14 $2.88. RSI 74.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-03-15",
+        "open": 248.84,
+        "high": 252.9,
+        "low": 248.3,
+        "close": 250.58,
+        "volume": 1521400,
+        "ma20": 244.25,
+        "ma50": 236.39,
+        "volume_vs_20d": 2.01,
+        "atr14": 2.88,
+        "chg_5d_pct": 0.59
+      },
+      "weekly_snapshot": {
+        "ticker": "AJG",
+        "week_start": "2024-03-11",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 74.5,
+        "price_vs_sma50": 1.06,
+        "notes": "ADX 44.8, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AJG_2024-03-05_mixed_sample_027_010",
+      "scenario_id": "AJG_2024-03-05",
+      "window_type": "mixed_sample_027",
+      "chronological_index": 10,
+      "state_id": "mixed_sample_027_state_010",
+      "time_spot": "2024-03-18",
+      "reference_session": "2024-03-18",
+      "question": "Session summary for March 18, 2024: AJG opened $249.39, ranged $248.05-$252.77, closed $251.09. Volume 0.8M (1.08x 20-day avg). 20-day $245.00 | 50-day $236.95. 5-day return +0.39%. ATR-14 $3.07. RSI 77.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-03-18",
+        "open": 249.39,
+        "high": 252.77,
+        "low": 248.05,
+        "close": 251.09,
+        "volume": 821500,
+        "ma20": 245.0,
+        "ma50": 236.95,
+        "volume_vs_20d": 1.08,
+        "atr14": 3.07,
+        "chg_5d_pct": 0.39
+      },
+      "weekly_snapshot": {
+        "ticker": "AJG",
+        "week_start": "2024-03-18",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 77.0,
+        "price_vs_sma50": 1.06,
+        "notes": "ADX 47.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AJG_2024-03-05_mixed_sample_027_011",
+      "scenario_id": "AJG_2024-03-05",
+      "window_type": "mixed_sample_027",
+      "chronological_index": 11,
+      "state_id": "mixed_sample_027_state_011",
+      "time_spot": "2024-03-19",
+      "reference_session": "2024-03-19",
+      "question": "Session summary for March 19, 2024: AJG opened $251.46, ranged $249.87-$252.53, closed $251.26. Volume 0.9M (1.24x 20-day avg). 20-day $245.63 | 50-day $237.53. 5-day return -0.38%. ATR-14 $3.08. RSI 74.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-03-19",
+        "open": 251.46,
+        "high": 252.53,
+        "low": 249.87,
+        "close": 251.26,
+        "volume": 930500,
+        "ma20": 245.63,
+        "ma50": 237.53,
+        "volume_vs_20d": 1.24,
+        "atr14": 3.08,
+        "chg_5d_pct": -0.38
+      },
+      "weekly_snapshot": {
+        "ticker": "AJG",
+        "week_start": "2024-03-18",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 74.8,
+        "price_vs_sma50": 1.058,
+        "notes": "ADX 47.8, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AJG_2024-03-05_mixed_sample_027_012",
+      "scenario_id": "AJG_2024-03-05",
+      "window_type": "mixed_sample_027",
+      "chronological_index": 12,
+      "state_id": "mixed_sample_027_state_012",
+      "time_spot": "2024-03-20",
+      "reference_session": "2024-03-20",
+      "question": "Session summary for March 20, 2024: AJG opened $251.37, ranged $250.46-$253.48, closed $253.25. Volume 0.8M (1.08x 20-day avg). 20-day $246.44 | 50-day $238.07. 5-day return +0.19%. ATR-14 $3.05. RSI 81.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-03-20",
+        "open": 251.37,
+        "high": 253.48,
+        "low": 250.46,
+        "close": 253.25,
+        "volume": 812000,
+        "ma20": 246.44,
+        "ma50": 238.07,
+        "volume_vs_20d": 1.08,
+        "atr14": 3.05,
+        "chg_5d_pct": 0.19
+      },
+      "weekly_snapshot": {
+        "ticker": "AJG",
+        "week_start": "2024-03-18",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 81.1,
+        "price_vs_sma50": 1.064,
+        "notes": "ADX 50.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "AJG_2024-03-05_mixed_sample_027_013",
+      "scenario_id": "AJG_2024-03-05",
+      "window_type": "mixed_sample_027",
+      "chronological_index": 13,
+      "state_id": "mixed_sample_027_state_013",
+      "time_spot": "2024-03-21",
+      "reference_session": "2024-03-21",
+      "question": "Session summary for March 21, 2024: AJG opened $253.07, ranged $247.57-$253.07, closed $247.74. Volume 1.4M (1.78x 20-day avg). 20-day $246.74 | 50-day $238.56. 5-day return -1.81%. ATR-14 $3.32. RSI 63.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-03-21",
+        "open": 253.07,
+        "high": 253.07,
+        "low": 247.57,
+        "close": 247.74,
+        "volume": 1409100,
+        "ma20": 246.74,
+        "ma50": 238.56,
+        "volume_vs_20d": 1.78,
+        "atr14": 3.32,
+        "chg_5d_pct": -1.81
+      },
+      "weekly_snapshot": {
+        "ticker": "AJG",
+        "week_start": "2024-03-18",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 63.9,
+        "price_vs_sma50": 1.038,
+        "notes": "ADX 51.5, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AJG_2024-03-05_mixed_sample_027_014",
+      "scenario_id": "AJG_2024-03-05",
+      "window_type": "mixed_sample_027",
+      "chronological_index": 14,
+      "state_id": "mixed_sample_027_state_014",
+      "time_spot": "2024-03-22",
+      "reference_session": "2024-03-22",
+      "question": "Session summary for March 22, 2024: AJG opened $248.44, ranged $243.99-$248.82, closed $244.00. Volume 1.0M (1.27x 20-day avg). 20-day $246.85 | 50-day $238.90. 5-day return -2.62%. ATR-14 $3.55. RSI 57.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-03-22",
+        "open": 248.44,
+        "high": 248.82,
+        "low": 243.99,
+        "close": 244.0,
+        "volume": 1042300,
+        "ma20": 246.85,
+        "ma50": 238.9,
+        "volume_vs_20d": 1.27,
+        "atr14": 3.55,
+        "chg_5d_pct": -2.62
+      },
+      "weekly_snapshot": {
+        "ticker": "AJG",
+        "week_start": "2024-03-18",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 57.4,
+        "price_vs_sma50": 1.021,
+        "notes": "ADX 50.9, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AJG_2024-03-05_mixed_sample_027_015",
+      "scenario_id": "AJG_2024-03-05",
+      "window_type": "mixed_sample_027",
+      "chronological_index": 15,
+      "state_id": "mixed_sample_027_state_015",
+      "time_spot": "2024-03-25",
+      "reference_session": "2024-03-25",
+      "question": "Session summary for March 25, 2024: AJG opened $244.02, ranged $242.81-$244.68, closed $243.06. Volume 0.9M (1.02x 20-day avg). 20-day $246.95 | 50-day $239.18. 5-day return -3.20%. ATR-14 $3.38. RSI 50.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-03-25",
+        "open": 244.02,
+        "high": 244.68,
+        "low": 242.81,
+        "close": 243.06,
+        "volume": 854800,
+        "ma20": 246.95,
+        "ma50": 239.18,
+        "volume_vs_20d": 1.02,
+        "atr14": 3.38,
+        "chg_5d_pct": -3.2
+      },
+      "weekly_snapshot": {
+        "ticker": "AJG",
+        "week_start": "2024-03-25",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 50.5,
+        "price_vs_sma50": 1.016,
+        "notes": "ADX 48.1, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AJG_2024-03-05_mixed_sample_027_016",
+      "scenario_id": "AJG_2024-03-05",
+      "window_type": "mixed_sample_027",
+      "chronological_index": 16,
+      "state_id": "mixed_sample_027_state_016",
+      "time_spot": "2024-03-26",
+      "reference_session": "2024-03-26",
+      "question": "Session summary for March 26, 2024: AJG opened $242.89, ranged $242.13-$245.52, closed $243.71. Volume 1.0M (1.15x 20-day avg). 20-day $247.12 | 50-day $239.41. 5-day return -3.01%. ATR-14 $3.35. RSI 44.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-03-26",
+        "open": 242.89,
+        "high": 245.52,
+        "low": 242.13,
+        "close": 243.71,
+        "volume": 978600,
+        "ma20": 247.12,
+        "ma50": 239.41,
+        "volume_vs_20d": 1.15,
+        "atr14": 3.35,
+        "chg_5d_pct": -3.01
+      },
+      "weekly_snapshot": {
+        "ticker": "AJG",
+        "week_start": "2024-03-25",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 44.7,
+        "price_vs_sma50": 1.018,
+        "notes": "ADX 45.2, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AJG_2024-03-05_mixed_sample_027_017",
+      "scenario_id": "AJG_2024-03-05",
+      "window_type": "mixed_sample_027",
+      "chronological_index": 17,
+      "state_id": "mixed_sample_027_state_017",
+      "time_spot": "2024-03-27",
+      "reference_session": "2024-03-27",
+      "question": "Session summary for March 27, 2024: AJG opened $244.94, ranged $243.32-$246.09, closed $245.25. Volume 0.9M (1.02x 20-day avg). 20-day $247.26 | 50-day $239.71. 5-day return -3.16%. ATR-14 $3.36. RSI 45.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-03-27",
+        "open": 244.94,
+        "high": 246.09,
+        "low": 243.32,
+        "close": 245.25,
+        "volume": 874300,
+        "ma20": 247.26,
+        "ma50": 239.71,
+        "volume_vs_20d": 1.02,
+        "atr14": 3.36,
+        "chg_5d_pct": -3.16
+      },
+      "weekly_snapshot": {
+        "ticker": "AJG",
+        "week_start": "2024-03-25",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 45.4,
+        "price_vs_sma50": 1.023,
+        "notes": "ADX 43.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AJG_2024-03-05_mixed_sample_027_018",
+      "scenario_id": "AJG_2024-03-05",
+      "window_type": "mixed_sample_027",
+      "chronological_index": 18,
+      "state_id": "mixed_sample_027_state_018",
+      "time_spot": "2024-03-28",
+      "reference_session": "2024-03-28",
+      "question": "Session summary for March 28, 2024: AJG opened $246.45, ranged $244.96-$248.34, closed $247.48. Volume 1.0M (1.13x 20-day avg). 20-day $247.56 | 50-day $240.04. 5-day return -0.10%. ATR-14 $3.41. RSI 46.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-03-28",
+        "open": 246.45,
+        "high": 248.34,
+        "low": 244.96,
+        "close": 247.48,
+        "volume": 960700,
+        "ma20": 247.56,
+        "ma50": 240.04,
+        "volume_vs_20d": 1.13,
+        "atr14": 3.41,
+        "chg_5d_pct": -0.1
+      },
+      "weekly_snapshot": {
+        "ticker": "AJG",
+        "week_start": "2024-03-25",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 46.5,
+        "price_vs_sma50": 1.031,
+        "notes": "ADX 40.6, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AJG_2024-03-05_mixed_sample_027_019",
+      "scenario_id": "AJG_2024-03-05",
+      "window_type": "mixed_sample_027",
+      "chronological_index": 19,
+      "state_id": "mixed_sample_027_state_019",
+      "time_spot": "2024-04-01",
+      "reference_session": "2024-04-01",
+      "question": "Session summary for April 01, 2024: AJG opened $246.53, ranged $243.79-$247.24, closed $244.65. Volume 0.6M (0.69x 20-day avg). 20-day $247.74 | 50-day $240.25. 5-day return +0.26%. ATR-14 $3.48. RSI 39.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-04-01",
+        "open": 246.53,
+        "high": 247.24,
+        "low": 243.79,
+        "close": 244.65,
+        "volume": 589900,
+        "ma20": 247.74,
+        "ma50": 240.25,
+        "volume_vs_20d": 0.69,
+        "atr14": 3.48,
+        "chg_5d_pct": 0.26
+      },
+      "weekly_snapshot": {
+        "ticker": "AJG",
+        "week_start": "2024-04-01",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 39.0,
+        "price_vs_sma50": 1.018,
+        "notes": "ADX 37.6, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AJG_2024-03-05_mixed_sample_027_020",
+      "scenario_id": "AJG_2024-03-05",
+      "window_type": "mixed_sample_027",
+      "chronological_index": 20,
+      "state_id": "mixed_sample_027_state_020",
+      "time_spot": "2024-04-02",
+      "reference_session": "2024-04-02",
+      "question": "Session summary for April 02, 2024: AJG opened $245.55, ranged $242.29-$246.14, closed $242.85. Volume 0.8M (0.89x 20-day avg). 20-day $247.88 | 50-day $240.39. 5-day return -0.09%. ATR-14 $3.52. RSI 31.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-04-02",
+        "open": 245.55,
+        "high": 246.14,
+        "low": 242.29,
+        "close": 242.85,
+        "volume": 770800,
+        "ma20": 247.88,
+        "ma50": 240.39,
+        "volume_vs_20d": 0.89,
+        "atr14": 3.52,
+        "chg_5d_pct": -0.09
+      },
+      "weekly_snapshot": {
+        "ticker": "AJG",
+        "week_start": "2024-04-01",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 31.0,
+        "price_vs_sma50": 1.01,
+        "notes": "ADX 36.0, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AJG_2024-03-05_mixed_sample_027_021",
+      "scenario_id": "AJG_2024-03-05",
+      "window_type": "mixed_sample_027",
+      "chronological_index": 21,
+      "state_id": "mixed_sample_027_state_021",
+      "time_spot": "2024-04-03",
+      "reference_session": "2024-04-03",
+      "question": "Session summary for April 03, 2024: AJG opened $243.04, ranged $242.69-$244.89, closed $242.86. Volume 0.6M (0.75x 20-day avg). 20-day $247.89 | 50-day $240.56. 5-day return -0.35%. ATR-14 $3.49. RSI 29.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-04-03",
+        "open": 243.04,
+        "high": 244.89,
+        "low": 242.69,
+        "close": 242.86,
+        "volume": 644700,
+        "ma20": 247.89,
+        "ma50": 240.56,
+        "volume_vs_20d": 0.75,
+        "atr14": 3.49,
+        "chg_5d_pct": -0.35
+      },
+      "weekly_snapshot": {
+        "ticker": "AJG",
+        "week_start": "2024-04-01",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 29.4,
+        "price_vs_sma50": 1.01,
+        "notes": "ADX 34.8, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AJG_2024-03-05_mixed_sample_027_022",
+      "scenario_id": "AJG_2024-03-05",
+      "window_type": "mixed_sample_027",
+      "chronological_index": 22,
+      "state_id": "mixed_sample_027_state_022",
+      "time_spot": "2024-04-04",
+      "reference_session": "2024-04-04",
+      "question": "Session summary for April 04, 2024: AJG opened $244.70, ranged $237.60-$244.70, closed $237.84. Volume 1.1M (1.28x 20-day avg). 20-day $247.47 | 50-day $240.58. 5-day return -3.02%. ATR-14 $3.84. RSI 24.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-04-04",
+        "open": 244.7,
+        "high": 244.7,
+        "low": 237.6,
+        "close": 237.84,
+        "volume": 1134600,
+        "ma20": 247.47,
+        "ma50": 240.58,
+        "volume_vs_20d": 1.28,
+        "atr14": 3.84,
+        "chg_5d_pct": -3.02
+      },
+      "weekly_snapshot": {
+        "ticker": "AJG",
+        "week_start": "2024-04-01",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 24.8,
+        "price_vs_sma50": 0.989,
+        "notes": "ADX 34.4, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AJG_2024-03-05_mixed_sample_027_023",
+      "scenario_id": "AJG_2024-03-05",
+      "window_type": "mixed_sample_027",
+      "chronological_index": 23,
+      "state_id": "mixed_sample_027_state_023",
+      "time_spot": "2024-04-05",
+      "reference_session": "2024-04-05",
+      "question": "Session summary for April 05, 2024: AJG opened $238.20, ranged $237.87-$243.44, closed $241.49. Volume 0.7M (0.78x 20-day avg). 20-day $247.18 | 50-day $240.69. 5-day return -2.42%. ATR-14 $3.91. RSI 35.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-04-05",
+        "open": 238.2,
+        "high": 243.44,
+        "low": 237.87,
+        "close": 241.49,
+        "volume": 690800,
+        "ma20": 247.18,
+        "ma50": 240.69,
+        "volume_vs_20d": 0.78,
+        "atr14": 3.91,
+        "chg_5d_pct": -2.42
+      },
+      "weekly_snapshot": {
+        "ticker": "AJG",
+        "week_start": "2024-04-01",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 35.1,
+        "price_vs_sma50": 1.003,
+        "notes": "ADX 35.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AJG_2024-03-05_mixed_sample_027_024",
+      "scenario_id": "AJG_2024-03-05",
+      "window_type": "mixed_sample_027",
+      "chronological_index": 24,
+      "state_id": "mixed_sample_027_state_024",
+      "time_spot": "2024-04-08",
+      "reference_session": "2024-04-08",
+      "question": "Session summary for April 08, 2024: AJG opened $241.20, ranged $240.33-$241.83, closed $241.66. Volume 0.5M (0.62x 20-day avg). 20-day $246.81 | 50-day $240.83. 5-day return -1.22%. ATR-14 $3.68. RSI 34.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-04-08",
+        "open": 241.2,
+        "high": 241.83,
+        "low": 240.33,
+        "close": 241.66,
+        "volume": 539200,
+        "ma20": 246.81,
+        "ma50": 240.83,
+        "volume_vs_20d": 0.62,
+        "atr14": 3.68,
+        "chg_5d_pct": -1.22
+      },
+      "weekly_snapshot": {
+        "ticker": "AJG",
+        "week_start": "2024-04-08",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 34.4,
+        "price_vs_sma50": 1.003,
+        "notes": "ADX 35.2, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "AJG_2024-03-05_mixed_sample_027_025",
+      "scenario_id": "AJG_2024-03-05",
+      "window_type": "mixed_sample_027",
+      "chronological_index": 25,
+      "state_id": "mixed_sample_027_state_025",
+      "time_spot": "2024-04-09",
+      "reference_session": "2024-04-09",
+      "question": "Session summary for April 09, 2024: AJG opened $242.33, ranged $239.78-$242.44, closed $241.63. Volume 0.8M (0.92x 20-day avg). 20-day $246.38 | 50-day $241.06. 5-day return -0.50%. ATR-14 $3.68. RSI 34.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-04-09",
+        "open": 242.33,
+        "high": 242.44,
+        "low": 239.78,
+        "close": 241.63,
+        "volume": 803000,
+        "ma20": 246.38,
+        "ma50": 241.06,
+        "volume_vs_20d": 0.92,
+        "atr14": 3.68,
+        "chg_5d_pct": -0.5
+      },
+      "weekly_snapshot": {
+        "ticker": "AJG",
+        "week_start": "2024-04-08",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 34.0,
+        "price_vs_sma50": 1.002,
+        "notes": "ADX 35.3, MACD bearish"
+      }
+    }
+  ]
+}

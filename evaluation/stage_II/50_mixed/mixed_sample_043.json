@@ -1,0 +1,2898 @@
+{
+  "metadata": {
+    "instrument": "ADP",
+    "initial_capital": 10000,
+    "window_type": "mixed_sample_043",
+    "description": "ADP window (2020-08-10 \u2013 2020-09-14) - mixed regime.",
+    "num_mcqs": 25,
+    "notes": "Orders express target exposure fractions relative to the leverage ceiling.",
+    "max_leverage": 2.5,
+    "exposure_buckets": [
+      0.8,
+      0.6,
+      0.4,
+      0.2
+    ],
+    "start_reference": "2020-08-10",
+    "end_reference": "2020-09-14",
+    "regime": "mixed",
+    "bh_return": -0.5
+  },
+  "mcqs": [
+    {
+      "scenario_instance_id": "ADP_2020-08-10_mixed_sample_043_001",
+      "scenario_id": "ADP_2020-08-10",
+      "window_type": "mixed_sample_043",
+      "chronological_index": 1,
+      "state_id": "mixed_sample_043_state_001",
+      "time_spot": "2020-08-10",
+      "reference_session": "2020-08-10",
+      "question": "Session summary for August 10, 2020: ADP opened $124.24, ranged $122.93-$125.13, closed $124.50. Volume 2.5M (1.04x 20-day avg). 20-day $127.79 | 50-day $131.87. 5-day return +2.76%. ATR-14 $3.20. RSI 33.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-08-10",
+        "open": 124.24,
+        "high": 125.13,
+        "low": 122.93,
+        "close": 124.5,
+        "volume": 2507900,
+        "ma20": 127.79,
+        "ma50": 131.87,
+        "volume_vs_20d": 1.04,
+        "atr14": 3.2,
+        "chg_5d_pct": 2.76
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2020-08-10",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 33.5,
+        "price_vs_sma50": 0.944,
+        "notes": "ADX 27.7, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2020-08-10_mixed_sample_043_002",
+      "scenario_id": "ADP_2020-08-10",
+      "window_type": "mixed_sample_043",
+      "chronological_index": 2,
+      "state_id": "mixed_sample_043_state_002",
+      "time_spot": "2020-08-11",
+      "reference_session": "2020-08-11",
+      "question": "Session summary for August 11, 2020: ADP opened $124.27, ranged $123.26-$126.19, closed $124.44. Volume 2.4M (1.01x 20-day avg). 20-day $127.46 | 50-day $131.75. 5-day return +0.99%. ATR-14 $3.32. RSI 31.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-08-11",
+        "open": 124.27,
+        "high": 126.19,
+        "low": 123.26,
+        "close": 124.44,
+        "volume": 2412500,
+        "ma20": 127.46,
+        "ma50": 131.75,
+        "volume_vs_20d": 1.01,
+        "atr14": 3.32,
+        "chg_5d_pct": 0.99
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2020-08-10",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 31.9,
+        "price_vs_sma50": 0.945,
+        "notes": "ADX 30.1, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2020-08-10_mixed_sample_043_003",
+      "scenario_id": "ADP_2020-08-10",
+      "window_type": "mixed_sample_043",
+      "chronological_index": 3,
+      "state_id": "mixed_sample_043_state_003",
+      "time_spot": "2020-08-12",
+      "reference_session": "2020-08-12",
+      "question": "Session summary for August 12, 2020: ADP opened $125.12, ranged $124.95-$126.40, closed $125.77. Volume 2.7M (1.10x 20-day avg). 20-day $127.05 | 50-day $131.61. 5-day return +3.57%. ATR-14 $3.29. RSI 36.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-08-12",
+        "open": 125.12,
+        "high": 126.4,
+        "low": 124.95,
+        "close": 125.77,
+        "volume": 2686100,
+        "ma20": 127.05,
+        "ma50": 131.61,
+        "volume_vs_20d": 1.1,
+        "atr14": 3.29,
+        "chg_5d_pct": 3.57
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2020-08-10",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 36.5,
+        "price_vs_sma50": 0.956,
+        "notes": "ADX 32.4, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2020-08-10_mixed_sample_043_004",
+      "scenario_id": "ADP_2020-08-10",
+      "window_type": "mixed_sample_043",
+      "chronological_index": 4,
+      "state_id": "mixed_sample_043_state_004",
+      "time_spot": "2020-08-13",
+      "reference_session": "2020-08-13",
+      "question": "Session summary for August 13, 2020: ADP opened $125.27, ranged $125.24-$126.64, closed $125.48. Volume 2.4M (0.94x 20-day avg). 20-day $126.74 | 50-day $131.40. 5-day return +2.01%. ATR-14 $3.19. RSI 38.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-08-13",
+        "open": 125.27,
+        "high": 126.64,
+        "low": 125.24,
+        "close": 125.48,
+        "volume": 2363900,
+        "ma20": 126.74,
+        "ma50": 131.4,
+        "volume_vs_20d": 0.94,
+        "atr14": 3.19,
+        "chg_5d_pct": 2.01
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2020-08-10",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 38.2,
+        "price_vs_sma50": 0.955,
+        "notes": "ADX 33.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2020-08-10_mixed_sample_043_005",
+      "scenario_id": "ADP_2020-08-10",
+      "window_type": "mixed_sample_043",
+      "chronological_index": 5,
+      "state_id": "mixed_sample_043_state_005",
+      "time_spot": "2020-08-14",
+      "reference_session": "2020-08-14",
+      "question": "Session summary for August 14, 2020: ADP opened $125.48, ranged $124.32-$126.24, closed $125.21. Volume 2.2M (0.86x 20-day avg). 20-day $126.35 | 50-day $131.22. 5-day return +0.70%. ATR-14 $3.16. RSI 37.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-08-14",
+        "open": 125.48,
+        "high": 126.24,
+        "low": 124.32,
+        "close": 125.21,
+        "volume": 2214900,
+        "ma20": 126.35,
+        "ma50": 131.22,
+        "volume_vs_20d": 0.86,
+        "atr14": 3.16,
+        "chg_5d_pct": 0.7
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2020-08-10",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 37.0,
+        "price_vs_sma50": 0.954,
+        "notes": "ADX 35.9, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2020-08-10_mixed_sample_043_006",
+      "scenario_id": "ADP_2020-08-10",
+      "window_type": "mixed_sample_043",
+      "chronological_index": 6,
+      "state_id": "mixed_sample_043_state_006",
+      "time_spot": "2020-08-17",
+      "reference_session": "2020-08-17",
+      "question": "Session summary for August 17, 2020: ADP opened $125.47, ranged $125.33-$126.82, closed $125.84. Volume 1.6M (0.60x 20-day avg). 20-day $126.00 | 50-day $130.87. 5-day return +1.08%. ATR-14 $3.12. RSI 36.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-08-17",
+        "open": 125.47,
+        "high": 126.82,
+        "low": 125.33,
+        "close": 125.84,
+        "volume": 1559000,
+        "ma20": 126.0,
+        "ma50": 130.87,
+        "volume_vs_20d": 0.6,
+        "atr14": 3.12,
+        "chg_5d_pct": 1.08
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2020-08-17",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 36.5,
+        "price_vs_sma50": 0.962,
+        "notes": "ADX 37.8, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2020-08-10_mixed_sample_043_007",
+      "scenario_id": "ADP_2020-08-10",
+      "window_type": "mixed_sample_043",
+      "chronological_index": 7,
+      "state_id": "mixed_sample_043_state_007",
+      "time_spot": "2020-08-18",
+      "reference_session": "2020-08-18",
+      "question": "Session summary for August 18, 2020: ADP opened $126.60, ranged $125.19-$126.86, closed $126.10. Volume 2.1M (0.79x 20-day avg). 20-day $125.68 | 50-day $130.50. 5-day return +1.34%. ATR-14 $2.51. RSI 58.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-08-18",
+        "open": 126.6,
+        "high": 126.86,
+        "low": 125.19,
+        "close": 126.1,
+        "volume": 2078000,
+        "ma20": 125.68,
+        "ma50": 130.5,
+        "volume_vs_20d": 0.79,
+        "atr14": 2.51,
+        "chg_5d_pct": 1.34
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2020-08-17",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 58.5,
+        "price_vs_sma50": 0.966,
+        "notes": "ADX 36.5, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2020-08-10_mixed_sample_043_008",
+      "scenario_id": "ADP_2020-08-10",
+      "window_type": "mixed_sample_043",
+      "chronological_index": 8,
+      "state_id": "mixed_sample_043_state_008",
+      "time_spot": "2020-08-19",
+      "reference_session": "2020-08-19",
+      "question": "Session summary for August 19, 2020: ADP opened $126.05, ranged $124.55-$126.61, closed $125.16. Volume 1.5M (0.56x 20-day avg). 20-day $125.28 | 50-day $130.18. 5-day return -0.49%. ATR-14 $2.35. RSI 72.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-08-19",
+        "open": 126.05,
+        "high": 126.61,
+        "low": 124.55,
+        "close": 125.16,
+        "volume": 1478900,
+        "ma20": 125.28,
+        "ma50": 130.18,
+        "volume_vs_20d": 0.56,
+        "atr14": 2.35,
+        "chg_5d_pct": -0.49
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2020-08-17",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 72.4,
+        "price_vs_sma50": 0.961,
+        "notes": "ADX 36.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2020-08-10_mixed_sample_043_009",
+      "scenario_id": "ADP_2020-08-10",
+      "window_type": "mixed_sample_043",
+      "chronological_index": 9,
+      "state_id": "mixed_sample_043_state_009",
+      "time_spot": "2020-08-20",
+      "reference_session": "2020-08-20",
+      "question": "Session summary for August 20, 2020: ADP opened $123.98, ranged $123.77-$125.68, closed $125.38. Volume 1.3M (0.49x 20-day avg). 20-day $124.93 | 50-day $129.89. 5-day return -0.08%. ATR-14 $2.18. RSI 72.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-08-20",
+        "open": 123.98,
+        "high": 125.68,
+        "low": 123.77,
+        "close": 125.38,
+        "volume": 1310300,
+        "ma20": 124.93,
+        "ma50": 129.89,
+        "volume_vs_20d": 0.49,
+        "atr14": 2.18,
+        "chg_5d_pct": -0.08
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2020-08-17",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 72.8,
+        "price_vs_sma50": 0.965,
+        "notes": "ADX 35.8, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2020-08-10_mixed_sample_043_010",
+      "scenario_id": "ADP_2020-08-10",
+      "window_type": "mixed_sample_043",
+      "chronological_index": 10,
+      "state_id": "mixed_sample_043_state_010",
+      "time_spot": "2020-08-21",
+      "reference_session": "2020-08-21",
+      "question": "Session summary for August 21, 2020: ADP opened $125.29, ranged $123.54-$125.29, closed $124.42. Volume 1.8M (0.67x 20-day avg). 20-day $124.60 | 50-day $129.80. 5-day return -0.63%. ATR-14 $2.14. RSI 63.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-08-21",
+        "open": 125.29,
+        "high": 125.29,
+        "low": 123.54,
+        "close": 124.42,
+        "volume": 1795700,
+        "ma20": 124.6,
+        "ma50": 129.8,
+        "volume_vs_20d": 0.67,
+        "atr14": 2.14,
+        "chg_5d_pct": -0.63
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2020-08-17",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 63.7,
+        "price_vs_sma50": 0.959,
+        "notes": "ADX 35.9, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2020-08-10_mixed_sample_043_011",
+      "scenario_id": "ADP_2020-08-10",
+      "window_type": "mixed_sample_043",
+      "chronological_index": 11,
+      "state_id": "mixed_sample_043_state_011",
+      "time_spot": "2020-08-24",
+      "reference_session": "2020-08-24",
+      "question": "Session summary for August 24, 2020: ADP opened $124.91, ranged $124.01-$126.80, closed $126.74. Volume 1.4M (0.51x 20-day avg). 20-day $124.37 | 50-day $129.69. 5-day return +0.72%. ATR-14 $2.15. RSI 64.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-08-24",
+        "open": 124.91,
+        "high": 126.8,
+        "low": 124.01,
+        "close": 126.74,
+        "volume": 1387600,
+        "ma20": 124.37,
+        "ma50": 129.69,
+        "volume_vs_20d": 0.51,
+        "atr14": 2.15,
+        "chg_5d_pct": 0.72
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2020-08-24",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 64.5,
+        "price_vs_sma50": 0.977,
+        "notes": "ADX 35.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2020-08-10_mixed_sample_043_012",
+      "scenario_id": "ADP_2020-08-10",
+      "window_type": "mixed_sample_043",
+      "chronological_index": 12,
+      "state_id": "mixed_sample_043_state_012",
+      "time_spot": "2020-08-25",
+      "reference_session": "2020-08-25",
+      "question": "Session summary for August 25, 2020: ADP opened $127.12, ranged $126.29-$128.72, closed $127.10. Volume 1.9M (0.71x 20-day avg). 20-day $124.12 | 50-day $129.58. 5-day return +0.79%. ATR-14 $2.08. RSI 76.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-08-25",
+        "open": 127.12,
+        "high": 128.72,
+        "low": 126.29,
+        "close": 127.1,
+        "volume": 1917300,
+        "ma20": 124.12,
+        "ma50": 129.58,
+        "volume_vs_20d": 0.71,
+        "atr14": 2.08,
+        "chg_5d_pct": 0.79
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2020-08-24",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 76.4,
+        "price_vs_sma50": 0.981,
+        "notes": "ADX 35.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2020-08-10_mixed_sample_043_013",
+      "scenario_id": "ADP_2020-08-10",
+      "window_type": "mixed_sample_043",
+      "chronological_index": 13,
+      "state_id": "mixed_sample_043_state_013",
+      "time_spot": "2020-08-26",
+      "reference_session": "2020-08-26",
+      "question": "Session summary for August 26, 2020: ADP opened $127.07, ranged $125.31-$127.83, closed $125.80. Volume 1.8M (0.72x 20-day avg). 20-day $124.23 | 50-day $129.36. 5-day return +0.51%. ATR-14 $2.10. RSI 63.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-08-26",
+        "open": 127.07,
+        "high": 127.83,
+        "low": 125.31,
+        "close": 125.8,
+        "volume": 1804100,
+        "ma20": 124.23,
+        "ma50": 129.36,
+        "volume_vs_20d": 0.72,
+        "atr14": 2.1,
+        "chg_5d_pct": 0.51
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2020-08-24",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 63.3,
+        "price_vs_sma50": 0.972,
+        "notes": "ADX 34.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2020-08-10_mixed_sample_043_014",
+      "scenario_id": "ADP_2020-08-10",
+      "window_type": "mixed_sample_043",
+      "chronological_index": 14,
+      "state_id": "mixed_sample_043_state_014",
+      "time_spot": "2020-08-27",
+      "reference_session": "2020-08-27",
+      "question": "Session summary for August 27, 2020: ADP opened $127.49, ranged $126.18-$128.37, closed $127.06. Volume 1.7M (0.80x 20-day avg). 20-day $124.60 | 50-day $129.18. 5-day return +1.34%. ATR-14 $2.13. RSI 63.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-08-27",
+        "open": 127.49,
+        "high": 128.37,
+        "low": 126.18,
+        "close": 127.06,
+        "volume": 1738100,
+        "ma20": 124.6,
+        "ma50": 129.18,
+        "volume_vs_20d": 0.8,
+        "atr14": 2.13,
+        "chg_5d_pct": 1.34
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2020-08-24",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 63.1,
+        "price_vs_sma50": 0.984,
+        "notes": "ADX 33.2, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2020-08-10_mixed_sample_043_015",
+      "scenario_id": "ADP_2020-08-10",
+      "window_type": "mixed_sample_043",
+      "chronological_index": 15,
+      "state_id": "mixed_sample_043_state_015",
+      "time_spot": "2020-08-28",
+      "reference_session": "2020-08-28",
+      "question": "Session summary for August 28, 2020: ADP opened $127.00, ranged $125.59-$127.45, closed $127.36. Volume 1.1M (0.52x 20-day avg). 20-day $124.98 | 50-day $128.99. 5-day return +2.36%. ATR-14 $2.10. RSI 63.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-08-28",
+        "open": 127.0,
+        "high": 127.45,
+        "low": 125.59,
+        "close": 127.36,
+        "volume": 1079200,
+        "ma20": 124.98,
+        "ma50": 128.99,
+        "volume_vs_20d": 0.52,
+        "atr14": 2.1,
+        "chg_5d_pct": 2.36
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2020-08-24",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 63.6,
+        "price_vs_sma50": 0.987,
+        "notes": "ADX 31.5, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2020-08-10_mixed_sample_043_016",
+      "scenario_id": "ADP_2020-08-10",
+      "window_type": "mixed_sample_043",
+      "chronological_index": 16,
+      "state_id": "mixed_sample_043_state_016",
+      "time_spot": "2020-08-31",
+      "reference_session": "2020-08-31",
+      "question": "Session summary for August 31, 2020: ADP opened $126.88, ranged $124.67-$127.01, closed $125.33. Volume 2.9M (1.40x 20-day avg). 20-day $125.18 | 50-day $128.82. 5-day return -1.12%. ATR-14 $2.09. RSI 53.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-08-31",
+        "open": 126.88,
+        "high": 127.01,
+        "low": 124.67,
+        "close": 125.33,
+        "volume": 2893600,
+        "ma20": 125.18,
+        "ma50": 128.82,
+        "volume_vs_20d": 1.4,
+        "atr14": 2.09,
+        "chg_5d_pct": -1.12
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2020-08-31",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 53.6,
+        "price_vs_sma50": 0.973,
+        "notes": "ADX 29.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2020-08-10_mixed_sample_043_017",
+      "scenario_id": "ADP_2020-08-10",
+      "window_type": "mixed_sample_043",
+      "chronological_index": 17,
+      "state_id": "mixed_sample_043_state_017",
+      "time_spot": "2020-09-01",
+      "reference_session": "2020-09-01",
+      "question": "Session summary for September 01, 2020: ADP opened $125.06, ranged $123.76-$125.13, closed $124.82. Volume 1.6M (0.80x 20-day avg). 20-day $125.27 | 50-day $128.60. 5-day return -1.79%. ATR-14 $2.06. RSI 45.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-09-01",
+        "open": 125.06,
+        "high": 125.13,
+        "low": 123.76,
+        "close": 124.82,
+        "volume": 1615700,
+        "ma20": 125.27,
+        "ma50": 128.6,
+        "volume_vs_20d": 0.8,
+        "atr14": 2.06,
+        "chg_5d_pct": -1.79
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2020-08-31",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 45.9,
+        "price_vs_sma50": 0.971,
+        "notes": "ADX 27.5, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2020-08-10_mixed_sample_043_018",
+      "scenario_id": "ADP_2020-08-10",
+      "window_type": "mixed_sample_043",
+      "chronological_index": 18,
+      "state_id": "mixed_sample_043_state_018",
+      "time_spot": "2020-09-02",
+      "reference_session": "2020-09-02",
+      "question": "Session summary for September 02, 2020: ADP opened $124.51, ranged $123.90-$128.90, closed $128.38. Volume 2.2M (1.10x 20-day avg). 20-day $125.61 | 50-day $128.46. 5-day return +2.06%. ATR-14 $2.32. RSI 59.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-09-02",
+        "open": 124.51,
+        "high": 128.9,
+        "low": 123.9,
+        "close": 128.38,
+        "volume": 2220000,
+        "ma20": 125.61,
+        "ma50": 128.46,
+        "volume_vs_20d": 1.1,
+        "atr14": 2.32,
+        "chg_5d_pct": 2.06
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2020-08-31",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 59.7,
+        "price_vs_sma50": 0.999,
+        "notes": "ADX 26.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2020-08-10_mixed_sample_043_019",
+      "scenario_id": "ADP_2020-08-10",
+      "window_type": "mixed_sample_043",
+      "chronological_index": 19,
+      "state_id": "mixed_sample_043_state_019",
+      "time_spot": "2020-09-03",
+      "reference_session": "2020-09-03",
+      "question": "Session summary for September 03, 2020: ADP opened $128.79, ranged $124.09-$129.98, closed $125.37. Volume 2.0M (1.01x 20-day avg). 20-day $125.73 | 50-day $128.35. 5-day return -1.33%. ATR-14 $2.60. RSI 50.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-09-03",
+        "open": 128.79,
+        "high": 129.98,
+        "low": 124.09,
+        "close": 125.37,
+        "volume": 2033400,
+        "ma20": 125.73,
+        "ma50": 128.35,
+        "volume_vs_20d": 1.01,
+        "atr14": 2.6,
+        "chg_5d_pct": -1.33
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2020-08-31",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 50.5,
+        "price_vs_sma50": 0.977,
+        "notes": "ADX 26.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2020-08-10_mixed_sample_043_020",
+      "scenario_id": "ADP_2020-08-10",
+      "window_type": "mixed_sample_043",
+      "chronological_index": 20,
+      "state_id": "mixed_sample_043_state_020",
+      "time_spot": "2020-09-04",
+      "reference_session": "2020-09-04",
+      "question": "Session summary for September 04, 2020: ADP opened $125.45, ranged $123.90-$127.71, closed $124.82. Volume 2.9M (1.46x 20-day avg). 20-day $125.76 | 50-day $128.19. 5-day return -1.99%. ATR-14 $2.76. RSI 47.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-09-04",
+        "open": 125.45,
+        "high": 127.71,
+        "low": 123.9,
+        "close": 124.82,
+        "volume": 2924200,
+        "ma20": 125.76,
+        "ma50": 128.19,
+        "volume_vs_20d": 1.46,
+        "atr14": 2.76,
+        "chg_5d_pct": -1.99
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2020-08-31",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 47.1,
+        "price_vs_sma50": 0.974,
+        "notes": "ADX 25.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2020-08-10_mixed_sample_043_021",
+      "scenario_id": "ADP_2020-08-10",
+      "window_type": "mixed_sample_043",
+      "chronological_index": 21,
+      "state_id": "mixed_sample_043_state_021",
+      "time_spot": "2020-09-08",
+      "reference_session": "2020-09-08",
+      "question": "Session summary for September 08, 2020: ADP opened $122.98, ranged $121.46-$124.21, closed $122.45. Volume 2.6M (1.30x 20-day avg). 20-day $125.65 | 50-day $128.03. 5-day return -2.30%. ATR-14 $2.88. RSI 40.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-09-08",
+        "open": 122.98,
+        "high": 124.21,
+        "low": 121.46,
+        "close": 122.45,
+        "volume": 2618000,
+        "ma20": 125.65,
+        "ma50": 128.03,
+        "volume_vs_20d": 1.3,
+        "atr14": 2.88,
+        "chg_5d_pct": -2.3
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2020-09-07",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 40.7,
+        "price_vs_sma50": 0.956,
+        "notes": "ADX 25.2, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2020-08-10_mixed_sample_043_022",
+      "scenario_id": "ADP_2020-08-10",
+      "window_type": "mixed_sample_043",
+      "chronological_index": 22,
+      "state_id": "mixed_sample_043_state_022",
+      "time_spot": "2020-09-09",
+      "reference_session": "2020-09-09",
+      "question": "Session summary for September 09, 2020: ADP opened $123.16, ranged $121.75-$124.82, closed $123.68. Volume 2.0M (0.99x 20-day avg). 20-day $125.61 | 50-day $127.87. 5-day return -0.92%. ATR-14 $2.95. RSI 46.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-09-09",
+        "open": 123.16,
+        "high": 124.82,
+        "low": 121.75,
+        "close": 123.68,
+        "volume": 1961800,
+        "ma20": 125.61,
+        "ma50": 127.87,
+        "volume_vs_20d": 0.99,
+        "atr14": 2.95,
+        "chg_5d_pct": -0.92
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2020-09-07",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 46.3,
+        "price_vs_sma50": 0.967,
+        "notes": "ADX 24.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2020-08-10_mixed_sample_043_023",
+      "scenario_id": "ADP_2020-08-10",
+      "window_type": "mixed_sample_043",
+      "chronological_index": 23,
+      "state_id": "mixed_sample_043_state_023",
+      "time_spot": "2020-09-10",
+      "reference_session": "2020-09-10",
+      "question": "Session summary for September 10, 2020: ADP opened $123.75, ranged $119.08-$124.02, closed $119.64. Volume 2.5M (1.25x 20-day avg). 20-day $125.31 | 50-day $127.58. 5-day return -6.81%. ATR-14 $3.17. RSI 37.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-09-10",
+        "open": 123.75,
+        "high": 124.02,
+        "low": 119.08,
+        "close": 119.64,
+        "volume": 2463700,
+        "ma20": 125.31,
+        "ma50": 127.58,
+        "volume_vs_20d": 1.25,
+        "atr14": 3.17,
+        "chg_5d_pct": -6.81
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2020-09-07",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 37.9,
+        "price_vs_sma50": 0.938,
+        "notes": "ADX 21.2, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2020-08-10_mixed_sample_043_024",
+      "scenario_id": "ADP_2020-08-10",
+      "window_type": "mixed_sample_043",
+      "chronological_index": 24,
+      "state_id": "mixed_sample_043_state_024",
+      "time_spot": "2020-09-11",
+      "reference_session": "2020-09-11",
+      "question": "Session summary for September 11, 2020: ADP opened $120.19, ranged $119.17-$121.37, closed $121.04. Volume 1.9M (0.96x 20-day avg). 20-day $125.09 | 50-day $127.31. 5-day return -3.46%. ATR-14 $3.19. RSI 43.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-09-11",
+        "open": 120.19,
+        "high": 121.37,
+        "low": 119.17,
+        "close": 121.04,
+        "volume": 1862200,
+        "ma20": 125.09,
+        "ma50": 127.31,
+        "volume_vs_20d": 0.96,
+        "atr14": 3.19,
+        "chg_5d_pct": -3.46
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2020-09-07",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 43.0,
+        "price_vs_sma50": 0.951,
+        "notes": "ADX 18.7, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ADP_2020-08-10_mixed_sample_043_025",
+      "scenario_id": "ADP_2020-08-10",
+      "window_type": "mixed_sample_043",
+      "chronological_index": 25,
+      "state_id": "mixed_sample_043_state_025",
+      "time_spot": "2020-09-14",
+      "reference_session": "2020-09-14",
+      "question": "Session summary for September 14, 2020: ADP opened $122.14, ranged $121.84-$124.52, closed $123.88. Volume 4.1M (2.03x 20-day avg). 20-day $125.02 | 50-day $127.08. 5-day return -0.76%. ATR-14 $3.24. RSI 44.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2020-09-14",
+        "open": 122.14,
+        "high": 124.52,
+        "low": 121.84,
+        "close": 123.88,
+        "volume": 4143000,
+        "ma20": 125.02,
+        "ma50": 127.08,
+        "volume_vs_20d": 2.03,
+        "atr14": 3.24,
+        "chg_5d_pct": -0.76
+      },
+      "weekly_snapshot": {
+        "ticker": "ADP",
+        "week_start": "2020-09-14",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 44.2,
+        "price_vs_sma50": 0.975,
+        "notes": "ADX 16.8, MACD bearish"
+      }
+    }
+  ]
+}

@@ -1,0 +1,2898 @@
+{
+  "metadata": {
+    "instrument": "PH",
+    "initial_capital": 10000,
+    "window_type": "mixed_sample_039",
+    "description": "PH window (2024-04-02 \u2013 2024-05-06) sampled from S&P500 indicator archive.",
+    "num_mcqs": 25,
+    "notes": "Orders express target exposure fractions relative to the leverage ceiling.",
+    "max_leverage": 2.5,
+    "exposure_buckets": [
+      0.8,
+      0.6,
+      0.4,
+      0.2
+    ],
+    "start_reference": "2024-04-02",
+    "end_reference": "2024-05-06",
+    "regime": "mixed",
+    "original_sample": "snp500_sample_015"
+  },
+  "mcqs": [
+    {
+      "scenario_instance_id": "PH_2024-04-02_mixed_sample_039_001",
+      "scenario_id": "PH_2024-04-02",
+      "window_type": "mixed_sample_039",
+      "chronological_index": 1,
+      "state_id": "mixed_sample_039_state_001",
+      "time_spot": "2024-04-02",
+      "reference_session": "2024-04-02",
+      "question": "Session summary for April 02, 2024: PH opened $544.23, ranged $537.97-$544.23, closed $540.24. Volume 0.6M (1.14x 20-day avg). 20-day $536.38 | 50-day $515.22. 5-day return -0.56%. ATR-14 $7.42. RSI 57.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-04-02",
+        "open": 544.23,
+        "high": 544.23,
+        "low": 537.97,
+        "close": 540.24,
+        "volume": 625500,
+        "ma20": 536.38,
+        "ma50": 515.22,
+        "volume_vs_20d": 1.14,
+        "atr14": 7.42,
+        "chg_5d_pct": -0.56
+      },
+      "weekly_snapshot": {
+        "ticker": "PH",
+        "week_start": "2024-04-01",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 57.4,
+        "price_vs_sma50": 1.049,
+        "notes": "ADX 21.6, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "PH_2024-04-02_mixed_sample_039_002",
+      "scenario_id": "PH_2024-04-02",
+      "window_type": "mixed_sample_039",
+      "chronological_index": 2,
+      "state_id": "mixed_sample_039_state_002",
+      "time_spot": "2024-04-03",
+      "reference_session": "2024-04-03",
+      "question": "Session summary for April 03, 2024: PH opened $542.76, ranged $541.28-$553.74, closed $551.22. Volume 0.6M (1.04x 20-day avg). 20-day $537.89 | 50-day $516.93. 5-day return +1.71%. ATR-14 $8.15. RSI 63.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-04-03",
+        "open": 542.76,
+        "high": 553.74,
+        "low": 541.28,
+        "close": 551.22,
+        "volume": 564500,
+        "ma20": 537.89,
+        "ma50": 516.93,
+        "volume_vs_20d": 1.04,
+        "atr14": 8.15,
+        "chg_5d_pct": 1.71
+      },
+      "weekly_snapshot": {
+        "ticker": "PH",
+        "week_start": "2024-04-01",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 63.3,
+        "price_vs_sma50": 1.066,
+        "notes": "ADX 22.9, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "PH_2024-04-02_mixed_sample_039_003",
+      "scenario_id": "PH_2024-04-02",
+      "window_type": "mixed_sample_039",
+      "chronological_index": 3,
+      "state_id": "mixed_sample_039_state_003",
+      "time_spot": "2024-04-04",
+      "reference_session": "2024-04-04",
+      "question": "Session summary for April 04, 2024: PH opened $557.69, ranged $544.49-$562.65, closed $548.34. Volume 0.6M (1.15x 20-day avg). 20-day $539.10 | 50-day $518.66. 5-day return -0.43%. ATR-14 $8.50. RSI 63.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-04-04",
+        "open": 557.69,
+        "high": 562.65,
+        "low": 544.49,
+        "close": 548.34,
+        "volume": 610200,
+        "ma20": 539.1,
+        "ma50": 518.66,
+        "volume_vs_20d": 1.15,
+        "atr14": 8.5,
+        "chg_5d_pct": -0.43
+      },
+      "weekly_snapshot": {
+        "ticker": "PH",
+        "week_start": "2024-04-01",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 63.6,
+        "price_vs_sma50": 1.057,
+        "notes": "ADX 26.7, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "PH_2024-04-02_mixed_sample_039_004",
+      "scenario_id": "PH_2024-04-02",
+      "window_type": "mixed_sample_039",
+      "chronological_index": 4,
+      "state_id": "mixed_sample_039_state_004",
+      "time_spot": "2024-04-05",
+      "reference_session": "2024-04-05",
+      "question": "Session summary for April 05, 2024: PH opened $546.94, ranged $546.20-$559.52, closed $559.21. Volume 0.5M (0.92x 20-day avg). 20-day $540.44 | 50-day $520.70. 5-day return +1.96%. ATR-14 $8.94. RSI 69.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-04-05",
+        "open": 546.94,
+        "high": 559.52,
+        "low": 546.2,
+        "close": 559.21,
+        "volume": 484500,
+        "ma20": 540.44,
+        "ma50": 520.7,
+        "volume_vs_20d": 0.92,
+        "atr14": 8.94,
+        "chg_5d_pct": 1.96
+      },
+      "weekly_snapshot": {
+        "ticker": "PH",
+        "week_start": "2024-04-01",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 69.2,
+        "price_vs_sma50": 1.074,
+        "notes": "ADX 30.4, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "PH_2024-04-02_mixed_sample_039_005",
+      "scenario_id": "PH_2024-04-02",
+      "window_type": "mixed_sample_039",
+      "chronological_index": 5,
+      "state_id": "mixed_sample_039_state_005",
+      "time_spot": "2024-04-08",
+      "reference_session": "2024-04-08",
+      "question": "Session summary for April 08, 2024: PH opened $559.27, ranged $555.55-$561.30, closed $558.48. Volume 0.4M (0.86x 20-day avg). 20-day $541.85 | 50-day $522.58. 5-day return +2.71%. ATR-14 $9.01. RSI 68.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-04-08",
+        "open": 559.27,
+        "high": 561.3,
+        "low": 555.55,
+        "close": 558.48,
+        "volume": 449600,
+        "ma20": 541.85,
+        "ma50": 522.58,
+        "volume_vs_20d": 0.86,
+        "atr14": 9.01,
+        "chg_5d_pct": 2.71
+      },
+      "weekly_snapshot": {
+        "ticker": "PH",
+        "week_start": "2024-04-08",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 68.3,
+        "price_vs_sma50": 1.069,
+        "notes": "ADX 33.8, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "PH_2024-04-02_mixed_sample_039_006",
+      "scenario_id": "PH_2024-04-02",
+      "window_type": "mixed_sample_039",
+      "chronological_index": 6,
+      "state_id": "mixed_sample_039_state_006",
+      "time_spot": "2024-04-09",
+      "reference_session": "2024-04-09",
+      "question": "Session summary for April 09, 2024: PH opened $560.53, ranged $540.78-$561.40, closed $553.96. Volume 0.5M (0.95x 20-day avg). 20-day $543.10 | 50-day $524.38. 5-day return +2.54%. ATR-14 $10.12. RSI 63.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-04-09",
+        "open": 560.53,
+        "high": 561.4,
+        "low": 540.78,
+        "close": 553.96,
+        "volume": 488100,
+        "ma20": 543.1,
+        "ma50": 524.38,
+        "volume_vs_20d": 0.95,
+        "atr14": 10.12,
+        "chg_5d_pct": 2.54
+      },
+      "weekly_snapshot": {
+        "ticker": "PH",
+        "week_start": "2024-04-08",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 63.5,
+        "price_vs_sma50": 1.056,
+        "notes": "ADX 35.5, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "PH_2024-04-02_mixed_sample_039_007",
+      "scenario_id": "PH_2024-04-02",
+      "window_type": "mixed_sample_039",
+      "chronological_index": 7,
+      "state_id": "mixed_sample_039_state_007",
+      "time_spot": "2024-04-10",
+      "reference_session": "2024-04-10",
+      "question": "Session summary for April 10, 2024: PH opened $546.04, ranged $540.75-$553.26, closed $548.06. Volume 0.5M (1.04x 20-day avg). 20-day $543.94 | 50-day $525.96. 5-day return -0.57%. ATR-14 $10.37. RSI 55.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-04-10",
+        "open": 546.04,
+        "high": 553.26,
+        "low": 540.75,
+        "close": 548.06,
+        "volume": 538400,
+        "ma20": 543.94,
+        "ma50": 525.96,
+        "volume_vs_20d": 1.04,
+        "atr14": 10.37,
+        "chg_5d_pct": -0.57
+      },
+      "weekly_snapshot": {
+        "ticker": "PH",
+        "week_start": "2024-04-08",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 55.5,
+        "price_vs_sma50": 1.042,
+        "notes": "ADX 35.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "PH_2024-04-02_mixed_sample_039_008",
+      "scenario_id": "PH_2024-04-02",
+      "window_type": "mixed_sample_039",
+      "chronological_index": 8,
+      "state_id": "mixed_sample_039_state_008",
+      "time_spot": "2024-04-11",
+      "reference_session": "2024-04-11",
+      "question": "Session summary for April 11, 2024: PH opened $545.92, ranged $543.34-$550.81, closed $548.48. Volume 0.4M (0.77x 20-day avg). 20-day $544.74 | 50-day $527.53. 5-day return +0.03%. ATR-14 $9.87. RSI 46.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-04-11",
+        "open": 545.92,
+        "high": 550.81,
+        "low": 543.34,
+        "close": 548.48,
+        "volume": 391300,
+        "ma20": 544.74,
+        "ma50": 527.53,
+        "volume_vs_20d": 0.77,
+        "atr14": 9.87,
+        "chg_5d_pct": 0.03
+      },
+      "weekly_snapshot": {
+        "ticker": "PH",
+        "week_start": "2024-04-08",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 46.4,
+        "price_vs_sma50": 1.04,
+        "notes": "ADX 33.4, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "PH_2024-04-02_mixed_sample_039_009",
+      "scenario_id": "PH_2024-04-02",
+      "window_type": "mixed_sample_039",
+      "chronological_index": 9,
+      "state_id": "mixed_sample_039_state_009",
+      "time_spot": "2024-04-12",
+      "reference_session": "2024-04-12",
+      "question": "Session summary for April 12, 2024: PH opened $542.84, ranged $539.18-$547.03, closed $543.08. Volume 0.5M (0.92x 20-day avg). 20-day $545.44 | 50-day $529.25. 5-day return -2.89%. ATR-14 $10.00. RSI 46.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-04-12",
+        "open": 542.84,
+        "high": 547.03,
+        "low": 539.18,
+        "close": 543.08,
+        "volume": 462900,
+        "ma20": 545.44,
+        "ma50": 529.25,
+        "volume_vs_20d": 0.92,
+        "atr14": 10.0,
+        "chg_5d_pct": -2.89
+      },
+      "weekly_snapshot": {
+        "ticker": "PH",
+        "week_start": "2024-04-08",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 46.6,
+        "price_vs_sma50": 1.026,
+        "notes": "ADX 32.4, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "PH_2024-04-02_mixed_sample_039_010",
+      "scenario_id": "PH_2024-04-02",
+      "window_type": "mixed_sample_039",
+      "chronological_index": 10,
+      "state_id": "mixed_sample_039_state_010",
+      "time_spot": "2024-04-15",
+      "reference_session": "2024-04-15",
+      "question": "Session summary for April 15, 2024: PH opened $553.33, ranged $533.76-$554.51, closed $536.22. Volume 0.7M (1.33x 20-day avg). 20-day $545.83 | 50-day $530.13. 5-day return -3.99%. ATR-14 $11.02. RSI 44.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-04-15",
+        "open": 553.33,
+        "high": 554.51,
+        "low": 533.76,
+        "close": 536.22,
+        "volume": 671300,
+        "ma20": 545.83,
+        "ma50": 530.13,
+        "volume_vs_20d": 1.33,
+        "atr14": 11.02,
+        "chg_5d_pct": -3.99
+      },
+      "weekly_snapshot": {
+        "ticker": "PH",
+        "week_start": "2024-04-15",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 44.9,
+        "price_vs_sma50": 1.011,
+        "notes": "ADX 30.0, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "PH_2024-04-02_mixed_sample_039_011",
+      "scenario_id": "PH_2024-04-02",
+      "window_type": "mixed_sample_039",
+      "chronological_index": 11,
+      "state_id": "mixed_sample_039_state_011",
+      "time_spot": "2024-04-16",
+      "reference_session": "2024-04-16",
+      "question": "Session summary for April 16, 2024: PH opened $537.83, ranged $529.78-$539.71, closed $536.98. Volume 0.6M (1.24x 20-day avg). 20-day $546.22 | 50-day $530.83. 5-day return -3.07%. ATR-14 $11.31. RSI 46.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-04-16",
+        "open": 537.83,
+        "high": 539.71,
+        "low": 529.78,
+        "close": 536.98,
+        "volume": 634800,
+        "ma20": 546.22,
+        "ma50": 530.83,
+        "volume_vs_20d": 1.24,
+        "atr14": 11.31,
+        "chg_5d_pct": -3.07
+      },
+      "weekly_snapshot": {
+        "ticker": "PH",
+        "week_start": "2024-04-15",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 46.4,
+        "price_vs_sma50": 1.012,
+        "notes": "ADX 27.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "PH_2024-04-02_mixed_sample_039_012",
+      "scenario_id": "PH_2024-04-02",
+      "window_type": "mixed_sample_039",
+      "chronological_index": 12,
+      "state_id": "mixed_sample_039_state_012",
+      "time_spot": "2024-04-17",
+      "reference_session": "2024-04-17",
+      "question": "Session summary for April 17, 2024: PH opened $541.18, ranged $529.33-$541.18, closed $533.46. Volume 0.5M (1.01x 20-day avg). 20-day $546.30 | 50-day $531.48. 5-day return -2.66%. ATR-14 $11.47. RSI 36.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-04-17",
+        "open": 541.18,
+        "high": 541.18,
+        "low": 529.33,
+        "close": 533.46,
+        "volume": 515400,
+        "ma20": 546.3,
+        "ma50": 531.48,
+        "volume_vs_20d": 1.01,
+        "atr14": 11.47,
+        "chg_5d_pct": -2.66
+      },
+      "weekly_snapshot": {
+        "ticker": "PH",
+        "week_start": "2024-04-15",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 36.4,
+        "price_vs_sma50": 1.004,
+        "notes": "ADX 24.9, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "PH_2024-04-02_mixed_sample_039_013",
+      "scenario_id": "PH_2024-04-02",
+      "window_type": "mixed_sample_039",
+      "chronological_index": 13,
+      "state_id": "mixed_sample_039_state_013",
+      "time_spot": "2024-04-18",
+      "reference_session": "2024-04-18",
+      "question": "Session summary for April 18, 2024: PH opened $537.83, ranged $530.31-$540.72, closed $531.01. Volume 0.4M (0.77x 20-day avg). 20-day $545.89 | 50-day $532.03. 5-day return -3.18%. ATR-14 $11.87. RSI 36.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-04-18",
+        "open": 537.83,
+        "high": 540.72,
+        "low": 530.31,
+        "close": 531.01,
+        "volume": 393000,
+        "ma20": 545.89,
+        "ma50": 532.03,
+        "volume_vs_20d": 0.77,
+        "atr14": 11.87,
+        "chg_5d_pct": -3.18
+      },
+      "weekly_snapshot": {
+        "ticker": "PH",
+        "week_start": "2024-04-15",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 36.3,
+        "price_vs_sma50": 0.998,
+        "notes": "ADX 22.9, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "PH_2024-04-02_mixed_sample_039_014",
+      "scenario_id": "PH_2024-04-02",
+      "window_type": "mixed_sample_039",
+      "chronological_index": 14,
+      "state_id": "mixed_sample_039_state_014",
+      "time_spot": "2024-04-19",
+      "reference_session": "2024-04-19",
+      "question": "Session summary for April 19, 2024: PH opened $533.66, ranged $524.78-$536.14, closed $527.62. Volume 0.6M (1.11x 20-day avg). 20-day $544.61 | 50-day $532.47. 5-day return -2.85%. ATR-14 $12.28. RSI 37.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-04-19",
+        "open": 533.66,
+        "high": 536.14,
+        "low": 524.78,
+        "close": 527.62,
+        "volume": 558000,
+        "ma20": 544.61,
+        "ma50": 532.47,
+        "volume_vs_20d": 1.11,
+        "atr14": 12.28,
+        "chg_5d_pct": -2.85
+      },
+      "weekly_snapshot": {
+        "ticker": "PH",
+        "week_start": "2024-04-15",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 37.0,
+        "price_vs_sma50": 0.991,
+        "notes": "ADX 20.8, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "PH_2024-04-02_mixed_sample_039_015",
+      "scenario_id": "PH_2024-04-02",
+      "window_type": "mixed_sample_039",
+      "chronological_index": 15,
+      "state_id": "mixed_sample_039_state_015",
+      "time_spot": "2024-04-22",
+      "reference_session": "2024-04-22",
+      "question": "Session summary for April 22, 2024: PH opened $530.71, ranged $527.33-$539.46, closed $532.62. Volume 0.5M (1.04x 20-day avg). 20-day $543.86 | 50-day $532.94. 5-day return -0.67%. ATR-14 $12.70. RSI 44.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-04-22",
+        "open": 530.71,
+        "high": 539.46,
+        "low": 527.33,
+        "close": 532.62,
+        "volume": 533700,
+        "ma20": 543.86,
+        "ma50": 532.94,
+        "volume_vs_20d": 1.04,
+        "atr14": 12.7,
+        "chg_5d_pct": -0.67
+      },
+      "weekly_snapshot": {
+        "ticker": "PH",
+        "week_start": "2024-04-22",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 44.0,
+        "price_vs_sma50": 0.999,
+        "notes": "ADX 20.0, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "PH_2024-04-02_mixed_sample_039_016",
+      "scenario_id": "PH_2024-04-02",
+      "window_type": "mixed_sample_039",
+      "chronological_index": 16,
+      "state_id": "mixed_sample_039_state_016",
+      "time_spot": "2024-04-23",
+      "reference_session": "2024-04-23",
+      "question": "Session summary for April 23, 2024: PH opened $538.28, ranged $536.07-$545.59, closed $543.16. Volume 0.4M (0.74x 20-day avg). 20-day $543.85 | 50-day $533.52. 5-day return +1.15%. ATR-14 $12.66. RSI 43.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-04-23",
+        "open": 538.28,
+        "high": 545.59,
+        "low": 536.07,
+        "close": 543.16,
+        "volume": 375700,
+        "ma20": 543.85,
+        "ma50": 533.52,
+        "volume_vs_20d": 0.74,
+        "atr14": 12.66,
+        "chg_5d_pct": 1.15
+      },
+      "weekly_snapshot": {
+        "ticker": "PH",
+        "week_start": "2024-04-22",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 43.6,
+        "price_vs_sma50": 1.018,
+        "notes": "ADX 17.9, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "PH_2024-04-02_mixed_sample_039_017",
+      "scenario_id": "PH_2024-04-02",
+      "window_type": "mixed_sample_039",
+      "chronological_index": 17,
+      "state_id": "mixed_sample_039_state_017",
+      "time_spot": "2024-04-24",
+      "reference_session": "2024-04-24",
+      "question": "Session summary for April 24, 2024: PH opened $545.11, ranged $532.13-$549.54, closed $539.16. Volume 0.7M (1.27x 20-day avg). 20-day $543.71 | 50-day $534.07. 5-day return +1.07%. ATR-14 $12.60. RSI 42.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-04-24",
+        "open": 545.11,
+        "high": 549.54,
+        "low": 532.13,
+        "close": 539.16,
+        "volume": 664600,
+        "ma20": 543.71,
+        "ma50": 534.07,
+        "volume_vs_20d": 1.27,
+        "atr14": 12.6,
+        "chg_5d_pct": 1.07
+      },
+      "weekly_snapshot": {
+        "ticker": "PH",
+        "week_start": "2024-04-22",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 42.9,
+        "price_vs_sma50": 1.01,
+        "notes": "ADX 14.6, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "PH_2024-04-02_mixed_sample_039_018",
+      "scenario_id": "PH_2024-04-02",
+      "window_type": "mixed_sample_039",
+      "chronological_index": 18,
+      "state_id": "mixed_sample_039_state_018",
+      "time_spot": "2024-04-25",
+      "reference_session": "2024-04-25",
+      "question": "Session summary for April 25, 2024: PH opened $532.90, ranged $527.60-$544.78, closed $542.15. Volume 0.5M (1.00x 20-day avg). 20-day $543.29 | 50-day $534.82. 5-day return +2.10%. ATR-14 $12.88. RSI 34.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-04-25",
+        "open": 532.9,
+        "high": 544.78,
+        "low": 527.6,
+        "close": 542.15,
+        "volume": 522400,
+        "ma20": 543.29,
+        "ma50": 534.82,
+        "volume_vs_20d": 1.0,
+        "atr14": 12.88,
+        "chg_5d_pct": 2.1
+      },
+      "weekly_snapshot": {
+        "ticker": "PH",
+        "week_start": "2024-04-22",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 34.9,
+        "price_vs_sma50": 1.014,
+        "notes": "ADX 11.8, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "PH_2024-04-02_mixed_sample_039_019",
+      "scenario_id": "PH_2024-04-02",
+      "window_type": "mixed_sample_039",
+      "chronological_index": 19,
+      "state_id": "mixed_sample_039_state_019",
+      "time_spot": "2024-04-26",
+      "reference_session": "2024-04-26",
+      "question": "Session summary for April 26, 2024: PH opened $542.77, ranged $541.93-$547.32, closed $546.36. Volume 0.5M (1.05x 20-day avg). 20-day $543.18 | 50-day $535.44. 5-day return +3.55%. ATR-14 $12.86. RSI 39.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-04-26",
+        "open": 542.77,
+        "high": 547.32,
+        "low": 541.93,
+        "close": 546.36,
+        "volume": 548700,
+        "ma20": 543.18,
+        "ma50": 535.44,
+        "volume_vs_20d": 1.05,
+        "atr14": 12.86,
+        "chg_5d_pct": 3.55
+      },
+      "weekly_snapshot": {
+        "ticker": "PH",
+        "week_start": "2024-04-22",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 39.9,
+        "price_vs_sma50": 1.02,
+        "notes": "ADX 8.9, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "PH_2024-04-02_mixed_sample_039_020",
+      "scenario_id": "PH_2024-04-02",
+      "window_type": "mixed_sample_039",
+      "chronological_index": 20,
+      "state_id": "mixed_sample_039_state_020",
+      "time_spot": "2024-04-29",
+      "reference_session": "2024-04-29",
+      "question": "Session summary for April 29, 2024: PH opened $546.36, ranged $543.60-$548.67, closed $547.15. Volume 0.5M (1.01x 20-day avg). 20-day $543.35 | 50-day $536.09. 5-day return +2.73%. ATR-14 $11.74. RSI 43.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-04-29",
+        "open": 546.36,
+        "high": 548.67,
+        "low": 543.6,
+        "close": 547.15,
+        "volume": 534600,
+        "ma20": 543.35,
+        "ma50": 536.09,
+        "volume_vs_20d": 1.01,
+        "atr14": 11.74,
+        "chg_5d_pct": 2.73
+      },
+      "weekly_snapshot": {
+        "ticker": "PH",
+        "week_start": "2024-04-29",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 43.9,
+        "price_vs_sma50": 1.021,
+        "notes": "ADX 8.5, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "PH_2024-04-02_mixed_sample_039_021",
+      "scenario_id": "PH_2024-04-02",
+      "window_type": "mixed_sample_039",
+      "chronological_index": 21,
+      "state_id": "mixed_sample_039_state_021",
+      "time_spot": "2024-04-30",
+      "reference_session": "2024-04-30",
+      "question": "Session summary for April 30, 2024: PH opened $545.56, ranged $537.36-$551.60, closed $537.74. Volume 0.6M (1.18x 20-day avg). 20-day $543.22 | 50-day $536.58. 5-day return -1.00%. ATR-14 $11.82. RSI 41.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-04-30",
+        "open": 545.56,
+        "high": 551.6,
+        "low": 537.36,
+        "close": 537.74,
+        "volume": 625400,
+        "ma20": 543.22,
+        "ma50": 536.58,
+        "volume_vs_20d": 1.18,
+        "atr14": 11.82,
+        "chg_5d_pct": -1.0
+      },
+      "weekly_snapshot": {
+        "ticker": "PH",
+        "week_start": "2024-04-29",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 41.4,
+        "price_vs_sma50": 1.002,
+        "notes": "ADX 7.6, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "PH_2024-04-02_mixed_sample_039_022",
+      "scenario_id": "PH_2024-04-02",
+      "window_type": "mixed_sample_039",
+      "chronological_index": 22,
+      "state_id": "mixed_sample_039_state_022",
+      "time_spot": "2024-05-01",
+      "reference_session": "2024-05-01",
+      "question": "Session summary for May 01, 2024: PH opened $535.22, ranged $533.37-$544.93, closed $535.82. Volume 0.9M (1.66x 20-day avg). 20-day $542.45 | 50-day $537.04. 5-day return -0.62%. ATR-14 $12.11. RSI 39.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-05-01",
+        "open": 535.22,
+        "high": 544.93,
+        "low": 533.37,
+        "close": 535.82,
+        "volume": 903800,
+        "ma20": 542.45,
+        "ma50": 537.04,
+        "volume_vs_20d": 1.66,
+        "atr14": 12.11,
+        "chg_5d_pct": -0.62
+      },
+      "weekly_snapshot": {
+        "ticker": "PH",
+        "week_start": "2024-04-29",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 39.7,
+        "price_vs_sma50": 0.998,
+        "notes": "ADX 7.5, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "PH_2024-04-02_mixed_sample_039_023",
+      "scenario_id": "PH_2024-04-02",
+      "window_type": "mixed_sample_039",
+      "chronological_index": 23,
+      "state_id": "mixed_sample_039_state_023",
+      "time_spot": "2024-05-02",
+      "reference_session": "2024-05-02",
+      "question": "Session summary for May 02, 2024: PH opened $518.29, ranged $509.03-$527.96, closed $523.70. Volume 1.7M (2.88x 20-day avg). 20-day $541.22 | 50-day $537.18. 5-day return -3.40%. ATR-14 $13.36. RSI 35.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-05-02",
+        "open": 518.29,
+        "high": 527.96,
+        "low": 509.03,
+        "close": 523.7,
+        "volume": 1732900,
+        "ma20": 541.22,
+        "ma50": 537.18,
+        "volume_vs_20d": 2.88,
+        "atr14": 13.36,
+        "chg_5d_pct": -3.4
+      },
+      "weekly_snapshot": {
+        "ticker": "PH",
+        "week_start": "2024-04-29",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 35.7,
+        "price_vs_sma50": 0.975,
+        "notes": "ADX 8.6, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "PH_2024-04-02_mixed_sample_039_024",
+      "scenario_id": "PH_2024-04-02",
+      "window_type": "mixed_sample_039",
+      "chronological_index": 24,
+      "state_id": "mixed_sample_039_state_024",
+      "time_spot": "2024-05-03",
+      "reference_session": "2024-05-03",
+      "question": "Session summary for May 03, 2024: PH opened $529.43, ranged $525.53-$540.15, closed $529.13. Volume 1.0M (1.55x 20-day avg). 20-day $539.72 | 50-day $537.30. 5-day return -3.15%. ATR-14 $13.05. RSI 44.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-05-03",
+        "open": 529.43,
+        "high": 540.15,
+        "low": 525.53,
+        "close": 529.13,
+        "volume": 970100,
+        "ma20": 539.72,
+        "ma50": 537.3,
+        "volume_vs_20d": 1.55,
+        "atr14": 13.05,
+        "chg_5d_pct": -3.15
+      },
+      "weekly_snapshot": {
+        "ticker": "PH",
+        "week_start": "2024-04-29",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 44.7,
+        "price_vs_sma50": 0.985,
+        "notes": "ADX 9.8, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "PH_2024-04-02_mixed_sample_039_025",
+      "scenario_id": "PH_2024-04-02",
+      "window_type": "mixed_sample_039",
+      "chronological_index": 25,
+      "state_id": "mixed_sample_039_state_025",
+      "time_spot": "2024-05-06",
+      "reference_session": "2024-05-06",
+      "question": "Session summary for May 06, 2024: PH opened $536.75, ranged $535.86-$545.62, closed $543.54. Volume 0.7M (1.06x 20-day avg). 20-day $538.97 | 50-day $537.69. 5-day return -0.66%. ATR-14 $13.52. RSI 54.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2024-05-06",
+        "open": 536.75,
+        "high": 545.62,
+        "low": 535.86,
+        "close": 543.54,
+        "volume": 674700,
+        "ma20": 538.97,
+        "ma50": 537.69,
+        "volume_vs_20d": 1.06,
+        "atr14": 13.52,
+        "chg_5d_pct": -0.66
+      },
+      "weekly_snapshot": {
+        "ticker": "PH",
+        "week_start": "2024-05-06",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 54.1,
+        "price_vs_sma50": 1.011,
+        "notes": "ADX 10.4, MACD bearish"
+      }
+    }
+  ]
+}

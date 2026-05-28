@@ -1,0 +1,2898 @@
+{
+  "metadata": {
+    "instrument": "HII",
+    "initial_capital": 10000,
+    "window_type": "bearish_sample_019",
+    "description": "HII window (2015-08-17 \u2013 2015-09-21) sampled from S&P500 indicator archive.",
+    "num_mcqs": 25,
+    "notes": "Orders express target exposure fractions relative to the leverage ceiling.",
+    "max_leverage": 2.5,
+    "exposure_buckets": [
+      0.8,
+      0.6,
+      0.4,
+      0.2
+    ],
+    "start_reference": "2015-08-17",
+    "end_reference": "2015-09-21",
+    "regime": "bearish",
+    "original_sample": "snp500_sample_076"
+  },
+  "mcqs": [
+    {
+      "scenario_instance_id": "HII_2015-08-17_bearish_sample_019_001",
+      "scenario_id": "HII_2015-08-17",
+      "window_type": "bearish_sample_019",
+      "chronological_index": 1,
+      "state_id": "bearish_sample_019_state_001",
+      "time_spot": "2015-08-17",
+      "reference_session": "2015-08-17",
+      "question": "Session summary for August 17, 2015: HII opened $98.20, ranged $97.52-$99.81, closed $99.48. Volume 0.3M (0.98x 20-day avg). 20-day $96.73 | 50-day $96.34. 5-day return -0.35%. ATR-14 $3.46. RSI 58.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-08-17",
+        "open": 98.2,
+        "high": 99.81,
+        "low": 97.52,
+        "close": 99.48,
+        "volume": 329700,
+        "ma20": 96.73,
+        "ma50": 96.34,
+        "volume_vs_20d": 0.98,
+        "atr14": 3.46,
+        "chg_5d_pct": -0.35
+      },
+      "weekly_snapshot": {
+        "ticker": "HII",
+        "week_start": "2015-08-17",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 58.8,
+        "price_vs_sma50": 1.033,
+        "notes": "ADX 34.2, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "HII_2015-08-17_bearish_sample_019_002",
+      "scenario_id": "HII_2015-08-17",
+      "window_type": "bearish_sample_019",
+      "chronological_index": 2,
+      "state_id": "bearish_sample_019_state_002",
+      "time_spot": "2015-08-18",
+      "reference_session": "2015-08-18",
+      "question": "Session summary for August 18, 2015: HII opened $99.17, ranged $99.01-$100.53, closed $99.81. Volume 0.2M (0.62x 20-day avg). 20-day $96.94 | 50-day $96.36. 5-day return +1.30%. ATR-14 $3.36. RSI 55.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-08-18",
+        "open": 99.17,
+        "high": 100.53,
+        "low": 99.01,
+        "close": 99.81,
+        "volume": 208400,
+        "ma20": 96.94,
+        "ma50": 96.36,
+        "volume_vs_20d": 0.62,
+        "atr14": 3.36,
+        "chg_5d_pct": 1.3
+      },
+      "weekly_snapshot": {
+        "ticker": "HII",
+        "week_start": "2015-08-17",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 55.5,
+        "price_vs_sma50": 1.036,
+        "notes": "ADX 34.9, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "HII_2015-08-17_bearish_sample_019_003",
+      "scenario_id": "HII_2015-08-17",
+      "window_type": "bearish_sample_019",
+      "chronological_index": 3,
+      "state_id": "bearish_sample_019_state_003",
+      "time_spot": "2015-08-19",
+      "reference_session": "2015-08-19",
+      "question": "Session summary for August 19, 2015: HII opened $99.21, ranged $97.50-$99.68, closed $97.97. Volume 0.4M (1.08x 20-day avg). 20-day $97.09 | 50-day $96.38. 5-day return +0.53%. ATR-14 $3.37. RSI 52.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-08-19",
+        "open": 99.21,
+        "high": 99.68,
+        "low": 97.5,
+        "close": 97.97,
+        "volume": 367900,
+        "ma20": 97.09,
+        "ma50": 96.38,
+        "volume_vs_20d": 1.08,
+        "atr14": 3.37,
+        "chg_5d_pct": 0.53
+      },
+      "weekly_snapshot": {
+        "ticker": "HII",
+        "week_start": "2015-08-17",
+        "trend_regime": "rangebound",
+        "volatility_regime": "high",
+        "rsi_14": 52.9,
+        "price_vs_sma50": 1.017,
+        "notes": "ADX 35.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "HII_2015-08-17_bearish_sample_019_004",
+      "scenario_id": "HII_2015-08-17",
+      "window_type": "bearish_sample_019",
+      "chronological_index": 4,
+      "state_id": "bearish_sample_019_state_004",
+      "time_spot": "2015-08-20",
+      "reference_session": "2015-08-20",
+      "question": "Session summary for August 20, 2015: HII opened $97.47, ranged $93.30-$97.77, closed $93.39. Volume 0.4M (1.15x 20-day avg). 20-day $97.01 | 50-day $96.28. 5-day return -3.75%. ATR-14 $3.55. RSI 43.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-08-20",
+        "open": 97.47,
+        "high": 97.77,
+        "low": 93.3,
+        "close": 93.39,
+        "volume": 403200,
+        "ma20": 97.01,
+        "ma50": 96.28,
+        "volume_vs_20d": 1.15,
+        "atr14": 3.55,
+        "chg_5d_pct": -3.75
+      },
+      "weekly_snapshot": {
+        "ticker": "HII",
+        "week_start": "2015-08-17",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 43.2,
+        "price_vs_sma50": 0.97,
+        "notes": "ADX 34.0, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "HII_2015-08-17_bearish_sample_019_005",
+      "scenario_id": "HII_2015-08-17",
+      "window_type": "bearish_sample_019",
+      "chronological_index": 5,
+      "state_id": "bearish_sample_019_state_005",
+      "time_spot": "2015-08-21",
+      "reference_session": "2015-08-21",
+      "question": "Session summary for August 21, 2015: HII opened $92.67, ranged $91.07-$94.44, closed $91.15. Volume 0.5M (1.33x 20-day avg). 20-day $96.93 | 50-day $96.14. 5-day return -7.66%. ATR-14 $3.65. RSI 41.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-08-21",
+        "open": 92.67,
+        "high": 94.44,
+        "low": 91.07,
+        "close": 91.15,
+        "volume": 483800,
+        "ma20": 96.93,
+        "ma50": 96.14,
+        "volume_vs_20d": 1.33,
+        "atr14": 3.65,
+        "chg_5d_pct": -7.66
+      },
+      "weekly_snapshot": {
+        "ticker": "HII",
+        "week_start": "2015-08-17",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 41.9,
+        "price_vs_sma50": 0.948,
+        "notes": "ADX 33.2, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "HII_2015-08-17_bearish_sample_019_006",
+      "scenario_id": "HII_2015-08-17",
+      "window_type": "bearish_sample_019",
+      "chronological_index": 6,
+      "state_id": "bearish_sample_019_state_006",
+      "time_spot": "2015-08-24",
+      "reference_session": "2015-08-24",
+      "question": "Session summary for August 24, 2015: HII opened $85.97, ranged $85.10-$92.76, closed $88.90. Volume 0.6M (1.59x 20-day avg). 20-day $96.72 | 50-day $95.96. 5-day return -10.63%. ATR-14 $4.07. RSI 38.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-08-24",
+        "open": 85.97,
+        "high": 92.76,
+        "low": 85.1,
+        "close": 88.9,
+        "volume": 609700,
+        "ma20": 96.72,
+        "ma50": 95.96,
+        "volume_vs_20d": 1.59,
+        "atr14": 4.07,
+        "chg_5d_pct": -10.63
+      },
+      "weekly_snapshot": {
+        "ticker": "HII",
+        "week_start": "2015-08-24",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 38.5,
+        "price_vs_sma50": 0.926,
+        "notes": "ADX 33.9, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "HII_2015-08-17_bearish_sample_019_007",
+      "scenario_id": "HII_2015-08-17",
+      "window_type": "bearish_sample_019",
+      "chronological_index": 7,
+      "state_id": "bearish_sample_019_state_007",
+      "time_spot": "2015-08-25",
+      "reference_session": "2015-08-25",
+      "question": "Session summary for August 25, 2015: HII opened $91.36, ranged $86.59-$91.36, closed $86.84. Volume 0.4M (1.10x 20-day avg). 20-day $96.31 | 50-day $95.77. 5-day return -12.99%. ATR-14 $4.23. RSI 34.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-08-25",
+        "open": 91.36,
+        "high": 91.36,
+        "low": 86.59,
+        "close": 86.84,
+        "volume": 430400,
+        "ma20": 96.31,
+        "ma50": 95.77,
+        "volume_vs_20d": 1.1,
+        "atr14": 4.23,
+        "chg_5d_pct": -12.99
+      },
+      "weekly_snapshot": {
+        "ticker": "HII",
+        "week_start": "2015-08-24",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 34.2,
+        "price_vs_sma50": 0.907,
+        "notes": "ADX 34.5, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "HII_2015-08-17_bearish_sample_019_008",
+      "scenario_id": "HII_2015-08-17",
+      "window_type": "bearish_sample_019",
+      "chronological_index": 8,
+      "state_id": "bearish_sample_019_state_008",
+      "time_spot": "2015-08-26",
+      "reference_session": "2015-08-26",
+      "question": "Session summary for August 26, 2015: HII opened $88.56, ranged $87.62-$91.05, closed $90.93. Volume 0.4M (0.94x 20-day avg). 20-day $95.99 | 50-day $95.65. 5-day return -7.19%. ATR-14 $3.73. RSI 33.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-08-26",
+        "open": 88.56,
+        "high": 91.05,
+        "low": 87.62,
+        "close": 90.93,
+        "volume": 364800,
+        "ma20": 95.99,
+        "ma50": 95.65,
+        "volume_vs_20d": 0.94,
+        "atr14": 3.73,
+        "chg_5d_pct": -7.19
+      },
+      "weekly_snapshot": {
+        "ticker": "HII",
+        "week_start": "2015-08-24",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 33.8,
+        "price_vs_sma50": 0.951,
+        "notes": "ADX 36.4, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "HII_2015-08-17_bearish_sample_019_009",
+      "scenario_id": "HII_2015-08-17",
+      "window_type": "bearish_sample_019",
+      "chronological_index": 9,
+      "state_id": "bearish_sample_019_state_009",
+      "time_spot": "2015-08-27",
+      "reference_session": "2015-08-27",
+      "question": "Session summary for August 27, 2015: HII opened $91.73, ranged $91.55-$94.45, closed $94.04. Volume 0.4M (0.98x 20-day avg). 20-day $95.87 | 50-day $95.58. 5-day return +0.69%. ATR-14 $3.46. RSI 46.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-08-27",
+        "open": 91.73,
+        "high": 94.45,
+        "low": 91.55,
+        "close": 94.04,
+        "volume": 385400,
+        "ma20": 95.87,
+        "ma50": 95.58,
+        "volume_vs_20d": 0.98,
+        "atr14": 3.46,
+        "chg_5d_pct": 0.69
+      },
+      "weekly_snapshot": {
+        "ticker": "HII",
+        "week_start": "2015-08-24",
+        "trend_regime": "rangebound",
+        "volatility_regime": "high",
+        "rsi_14": 46.9,
+        "price_vs_sma50": 0.984,
+        "notes": "ADX 36.8, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "HII_2015-08-17_bearish_sample_019_010",
+      "scenario_id": "HII_2015-08-17",
+      "window_type": "bearish_sample_019",
+      "chronological_index": 10,
+      "state_id": "bearish_sample_019_state_010",
+      "time_spot": "2015-08-28",
+      "reference_session": "2015-08-28",
+      "question": "Session summary for August 28, 2015: HII opened $93.52, ranged $92.67-$94.87, closed $94.41. Volume 0.4M (0.99x 20-day avg). 20-day $95.72 | 50-day $95.52. 5-day return +3.57%. ATR-14 $3.31. RSI 39.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-08-28",
+        "open": 93.52,
+        "high": 94.87,
+        "low": 92.67,
+        "close": 94.41,
+        "volume": 393000,
+        "ma20": 95.72,
+        "ma50": 95.52,
+        "volume_vs_20d": 0.99,
+        "atr14": 3.31,
+        "chg_5d_pct": 3.57
+      },
+      "weekly_snapshot": {
+        "ticker": "HII",
+        "week_start": "2015-08-24",
+        "trend_regime": "rangebound",
+        "volatility_regime": "high",
+        "rsi_14": 39.6,
+        "price_vs_sma50": 0.988,
+        "notes": "ADX 36.4, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "HII_2015-08-17_bearish_sample_019_011",
+      "scenario_id": "HII_2015-08-17",
+      "window_type": "bearish_sample_019",
+      "chronological_index": 11,
+      "state_id": "bearish_sample_019_state_011",
+      "time_spot": "2015-08-31",
+      "reference_session": "2015-08-31",
+      "question": "Session summary for August 31, 2015: HII opened $93.88, ranged $93.03-$95.08, closed $93.58. Volume 0.3M (0.71x 20-day avg). 20-day $95.61 | 50-day $95.44. 5-day return +5.26%. ATR-14 $3.32. RSI 40.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-08-31",
+        "open": 93.88,
+        "high": 95.08,
+        "low": 93.03,
+        "close": 93.58,
+        "volume": 285200,
+        "ma20": 95.61,
+        "ma50": 95.44,
+        "volume_vs_20d": 0.71,
+        "atr14": 3.32,
+        "chg_5d_pct": 5.26
+      },
+      "weekly_snapshot": {
+        "ticker": "HII",
+        "week_start": "2015-08-31",
+        "trend_regime": "rangebound",
+        "volatility_regime": "high",
+        "rsi_14": 40.4,
+        "price_vs_sma50": 0.981,
+        "notes": "ADX 35.7, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "HII_2015-08-17_bearish_sample_019_012",
+      "scenario_id": "HII_2015-08-17",
+      "window_type": "bearish_sample_019",
+      "chronological_index": 12,
+      "state_id": "bearish_sample_019_state_012",
+      "time_spot": "2015-09-01",
+      "reference_session": "2015-09-01",
+      "question": "Session summary for September 01, 2015: HII opened $92.19, ranged $88.92-$93.32, closed $89.40. Volume 0.9M (2.02x 20-day avg). 20-day $95.28 | 50-day $95.28. 5-day return +2.95%. ATR-14 $3.39. RSI 36.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-09-01",
+        "open": 92.19,
+        "high": 93.32,
+        "low": 88.92,
+        "close": 89.4,
+        "volume": 867100,
+        "ma20": 95.28,
+        "ma50": 95.28,
+        "volume_vs_20d": 2.02,
+        "atr14": 3.39,
+        "chg_5d_pct": 2.95
+      },
+      "weekly_snapshot": {
+        "ticker": "HII",
+        "week_start": "2015-08-31",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 36.0,
+        "price_vs_sma50": 0.938,
+        "notes": "ADX 37.0, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "HII_2015-08-17_bearish_sample_019_013",
+      "scenario_id": "HII_2015-08-17",
+      "window_type": "bearish_sample_019",
+      "chronological_index": 13,
+      "state_id": "bearish_sample_019_state_013",
+      "time_spot": "2015-09-02",
+      "reference_session": "2015-09-02",
+      "question": "Session summary for September 02, 2015: HII opened $90.94, ranged $90.11-$95.05, closed $94.98. Volume 0.8M (1.71x 20-day avg). 20-day $95.18 | 50-day $95.20. 5-day return +4.45%. ATR-14 $3.68. RSI 47.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-09-02",
+        "open": 90.94,
+        "high": 95.05,
+        "low": 90.11,
+        "close": 94.98,
+        "volume": 764600,
+        "ma20": 95.18,
+        "ma50": 95.2,
+        "volume_vs_20d": 1.71,
+        "atr14": 3.68,
+        "chg_5d_pct": 4.45
+      },
+      "weekly_snapshot": {
+        "ticker": "HII",
+        "week_start": "2015-08-31",
+        "trend_regime": "rangebound",
+        "volatility_regime": "high",
+        "rsi_14": 47.0,
+        "price_vs_sma50": 0.998,
+        "notes": "ADX 36.7, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "HII_2015-08-17_bearish_sample_019_014",
+      "scenario_id": "HII_2015-08-17",
+      "window_type": "bearish_sample_019",
+      "chronological_index": 14,
+      "state_id": "bearish_sample_019_state_014",
+      "time_spot": "2015-09-03",
+      "reference_session": "2015-09-03",
+      "question": "Session summary for September 03, 2015: HII opened $95.10, ranged $94.47-$96.58, closed $94.76. Volume 0.5M (1.15x 20-day avg). 20-day $94.86 | 50-day $95.17. 5-day return +0.76%. ATR-14 $3.64. RSI 43.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-09-03",
+        "open": 95.1,
+        "high": 96.58,
+        "low": 94.47,
+        "close": 94.76,
+        "volume": 506100,
+        "ma20": 94.86,
+        "ma50": 95.17,
+        "volume_vs_20d": 1.15,
+        "atr14": 3.64,
+        "chg_5d_pct": 0.76
+      },
+      "weekly_snapshot": {
+        "ticker": "HII",
+        "week_start": "2015-08-31",
+        "trend_regime": "rangebound",
+        "volatility_regime": "high",
+        "rsi_14": 43.9,
+        "price_vs_sma50": 0.996,
+        "notes": "ADX 35.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "HII_2015-08-17_bearish_sample_019_015",
+      "scenario_id": "HII_2015-08-17",
+      "window_type": "bearish_sample_019",
+      "chronological_index": 15,
+      "state_id": "bearish_sample_019_state_015",
+      "time_spot": "2015-09-04",
+      "reference_session": "2015-09-04",
+      "question": "Session summary for September 04, 2015: HII opened $93.46, ranged $92.98-$94.57, closed $93.61. Volume 0.2M (0.53x 20-day avg). 20-day $94.74 | 50-day $95.12. 5-day return -0.85%. ATR-14 $3.61. RSI 41.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-09-04",
+        "open": 93.46,
+        "high": 94.57,
+        "low": 92.98,
+        "close": 93.61,
+        "volume": 221500,
+        "ma20": 94.74,
+        "ma50": 95.12,
+        "volume_vs_20d": 0.53,
+        "atr14": 3.61,
+        "chg_5d_pct": -0.85
+      },
+      "weekly_snapshot": {
+        "ticker": "HII",
+        "week_start": "2015-08-31",
+        "trend_regime": "rangebound",
+        "volatility_regime": "high",
+        "rsi_14": 41.1,
+        "price_vs_sma50": 0.984,
+        "notes": "ADX 35.2, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "HII_2015-08-17_bearish_sample_019_016",
+      "scenario_id": "HII_2015-08-17",
+      "window_type": "bearish_sample_019",
+      "chronological_index": 16,
+      "state_id": "bearish_sample_019_state_016",
+      "time_spot": "2015-09-08",
+      "reference_session": "2015-09-08",
+      "question": "Session summary for September 08, 2015: HII opened $95.20, ranged $94.24-$96.50, closed $96.43. Volume 0.3M (0.65x 20-day avg). 20-day $94.57 | 50-day $95.14. 5-day return +3.04%. ATR-14 $3.70. RSI 45.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-09-08",
+        "open": 95.2,
+        "high": 96.5,
+        "low": 94.24,
+        "close": 96.43,
+        "volume": 270500,
+        "ma20": 94.57,
+        "ma50": 95.14,
+        "volume_vs_20d": 0.65,
+        "atr14": 3.7,
+        "chg_5d_pct": 3.04
+      },
+      "weekly_snapshot": {
+        "ticker": "HII",
+        "week_start": "2015-09-07",
+        "trend_regime": "rangebound",
+        "volatility_regime": "high",
+        "rsi_14": 45.2,
+        "price_vs_sma50": 1.013,
+        "notes": "ADX 34.7, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "HII_2015-08-17_bearish_sample_019_017",
+      "scenario_id": "HII_2015-08-17",
+      "window_type": "bearish_sample_019",
+      "chronological_index": 17,
+      "state_id": "bearish_sample_019_state_017",
+      "time_spot": "2015-09-09",
+      "reference_session": "2015-09-09",
+      "question": "Session summary for September 09, 2015: HII opened $97.22, ranged $95.22-$97.47, closed $95.42. Volume 0.2M (0.58x 20-day avg). 20-day $94.42 | 50-day $95.19. 5-day return +6.73%. ATR-14 $3.70. RSI 46.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-09-09",
+        "open": 97.22,
+        "high": 97.47,
+        "low": 95.22,
+        "close": 95.42,
+        "volume": 238600,
+        "ma20": 94.42,
+        "ma50": 95.19,
+        "volume_vs_20d": 0.58,
+        "atr14": 3.7,
+        "chg_5d_pct": 6.73
+      },
+      "weekly_snapshot": {
+        "ticker": "HII",
+        "week_start": "2015-09-07",
+        "trend_regime": "rangebound",
+        "volatility_regime": "high",
+        "rsi_14": 46.3,
+        "price_vs_sma50": 1.002,
+        "notes": "ADX 34.4, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "HII_2015-08-17_bearish_sample_019_018",
+      "scenario_id": "HII_2015-08-17",
+      "window_type": "bearish_sample_019",
+      "chronological_index": 18,
+      "state_id": "bearish_sample_019_state_018",
+      "time_spot": "2015-09-10",
+      "reference_session": "2015-09-10",
+      "question": "Session summary for September 10, 2015: HII opened $95.47, ranged $94.81-$97.18, closed $95.79. Volume 0.2M (0.59x 20-day avg). 20-day $94.33 | 50-day $95.24. 5-day return +0.85%. ATR-14 $3.54. RSI 54.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-09-10",
+        "open": 95.47,
+        "high": 97.18,
+        "low": 94.81,
+        "close": 95.79,
+        "volume": 238200,
+        "ma20": 94.33,
+        "ma50": 95.24,
+        "volume_vs_20d": 0.59,
+        "atr14": 3.54,
+        "chg_5d_pct": 0.85
+      },
+      "weekly_snapshot": {
+        "ticker": "HII",
+        "week_start": "2015-09-07",
+        "trend_regime": "rangebound",
+        "volatility_regime": "high",
+        "rsi_14": 54.0,
+        "price_vs_sma50": 1.006,
+        "notes": "ADX 35.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "HII_2015-08-17_bearish_sample_019_019",
+      "scenario_id": "HII_2015-08-17",
+      "window_type": "bearish_sample_019",
+      "chronological_index": 19,
+      "state_id": "bearish_sample_019_state_019",
+      "time_spot": "2015-09-11",
+      "reference_session": "2015-09-11",
+      "question": "Session summary for September 11, 2015: HII opened $94.85, ranged $94.60-$96.14, closed $96.05. Volume 0.1M (0.34x 20-day avg). 20-day $94.28 | 50-day $95.28. 5-day return +1.36%. ATR-14 $3.40. RSI 58.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-09-11",
+        "open": 94.85,
+        "high": 96.14,
+        "low": 94.6,
+        "close": 96.05,
+        "volume": 131000,
+        "ma20": 94.28,
+        "ma50": 95.28,
+        "volume_vs_20d": 0.34,
+        "atr14": 3.4,
+        "chg_5d_pct": 1.36
+      },
+      "weekly_snapshot": {
+        "ticker": "HII",
+        "week_start": "2015-09-07",
+        "trend_regime": "rangebound",
+        "volatility_regime": "high",
+        "rsi_14": 58.7,
+        "price_vs_sma50": 1.008,
+        "notes": "ADX 35.7, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "HII_2015-08-17_bearish_sample_019_020",
+      "scenario_id": "HII_2015-08-17",
+      "window_type": "bearish_sample_019",
+      "chronological_index": 20,
+      "state_id": "bearish_sample_019_state_020",
+      "time_spot": "2015-09-14",
+      "reference_session": "2015-09-14",
+      "question": "Session summary for September 14, 2015: HII opened $95.91, ranged $94.79-$95.92, closed $95.63. Volume 0.1M (0.38x 20-day avg). 20-day $94.13 | 50-day $95.32. 5-day return +2.16%. ATR-14 $2.95. RSI 62.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-09-14",
+        "open": 95.91,
+        "high": 95.92,
+        "low": 94.79,
+        "close": 95.63,
+        "volume": 146700,
+        "ma20": 94.13,
+        "ma50": 95.32,
+        "volume_vs_20d": 0.38,
+        "atr14": 2.95,
+        "chg_5d_pct": 2.16
+      },
+      "weekly_snapshot": {
+        "ticker": "HII",
+        "week_start": "2015-09-14",
+        "trend_regime": "rangebound",
+        "volatility_regime": "high",
+        "rsi_14": 62.7,
+        "price_vs_sma50": 1.003,
+        "notes": "ADX 36.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "HII_2015-08-17_bearish_sample_019_021",
+      "scenario_id": "HII_2015-08-17",
+      "window_type": "bearish_sample_019",
+      "chronological_index": 21,
+      "state_id": "bearish_sample_019_state_021",
+      "time_spot": "2015-09-15",
+      "reference_session": "2015-09-15",
+      "question": "Session summary for September 15, 2015: HII opened $96.13, ranged $95.59-$96.80, closed $96.68. Volume 0.1M (0.37x 20-day avg). 20-day $93.99 | 50-day $95.38. 5-day return +0.26%. ATR-14 $2.69. RSI 69.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-09-15",
+        "open": 96.13,
+        "high": 96.8,
+        "low": 95.59,
+        "close": 96.68,
+        "volume": 138100,
+        "ma20": 93.99,
+        "ma50": 95.38,
+        "volume_vs_20d": 0.37,
+        "atr14": 2.69,
+        "chg_5d_pct": 0.26
+      },
+      "weekly_snapshot": {
+        "ticker": "HII",
+        "week_start": "2015-09-14",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 69.3,
+        "price_vs_sma50": 1.014,
+        "notes": "ADX 36.2, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "HII_2015-08-17_bearish_sample_019_022",
+      "scenario_id": "HII_2015-08-17",
+      "window_type": "bearish_sample_019",
+      "chronological_index": 22,
+      "state_id": "bearish_sample_019_state_022",
+      "time_spot": "2015-09-16",
+      "reference_session": "2015-09-16",
+      "question": "Session summary for September 16, 2015: HII opened $96.78, ranged $95.61-$97.09, closed $96.76. Volume 0.2M (0.66x 20-day avg). 20-day $93.84 | 50-day $95.42. 5-day return +1.40%. ATR-14 $2.50. RSI 63.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-09-16",
+        "open": 96.78,
+        "high": 97.09,
+        "low": 95.61,
+        "close": 96.76,
+        "volume": 245500,
+        "ma20": 93.84,
+        "ma50": 95.42,
+        "volume_vs_20d": 0.66,
+        "atr14": 2.5,
+        "chg_5d_pct": 1.4
+      },
+      "weekly_snapshot": {
+        "ticker": "HII",
+        "week_start": "2015-09-14",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 63.6,
+        "price_vs_sma50": 1.014,
+        "notes": "ADX 33.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "HII_2015-08-17_bearish_sample_019_023",
+      "scenario_id": "HII_2015-08-17",
+      "window_type": "bearish_sample_019",
+      "chronological_index": 23,
+      "state_id": "bearish_sample_019_state_023",
+      "time_spot": "2015-09-17",
+      "reference_session": "2015-09-17",
+      "question": "Session summary for September 17, 2015: HII opened $96.67, ranged $95.63-$97.42, closed $95.83. Volume 0.2M (0.46x 20-day avg). 20-day $93.73 | 50-day $95.48. 5-day return +0.04%. ATR-14 $2.37. RSI 54.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-09-17",
+        "open": 96.67,
+        "high": 97.42,
+        "low": 95.63,
+        "close": 95.83,
+        "volume": 167100,
+        "ma20": 93.73,
+        "ma50": 95.48,
+        "volume_vs_20d": 0.46,
+        "atr14": 2.37,
+        "chg_5d_pct": 0.04
+      },
+      "weekly_snapshot": {
+        "ticker": "HII",
+        "week_start": "2015-09-14",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 54.6,
+        "price_vs_sma50": 1.004,
+        "notes": "ADX 30.8, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "HII_2015-08-17_bearish_sample_019_024",
+      "scenario_id": "HII_2015-08-17",
+      "window_type": "bearish_sample_019",
+      "chronological_index": 24,
+      "state_id": "bearish_sample_019_state_024",
+      "time_spot": "2015-09-18",
+      "reference_session": "2015-09-18",
+      "question": "Session summary for September 18, 2015: HII opened $94.86, ranged $92.44-$95.10, closed $92.77. Volume 0.5M (1.31x 20-day avg). 20-day $93.70 | 50-day $95.47. 5-day return -3.41%. ATR-14 $2.46. RSI 46.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-09-18",
+        "open": 94.86,
+        "high": 95.1,
+        "low": 92.44,
+        "close": 92.77,
+        "volume": 481600,
+        "ma20": 93.7,
+        "ma50": 95.47,
+        "volume_vs_20d": 1.31,
+        "atr14": 2.46,
+        "chg_5d_pct": -3.41
+      },
+      "weekly_snapshot": {
+        "ticker": "HII",
+        "week_start": "2015-09-14",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 46.3,
+        "price_vs_sma50": 0.972,
+        "notes": "ADX 28.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "HII_2015-08-17_bearish_sample_019_025",
+      "scenario_id": "HII_2015-08-17",
+      "window_type": "bearish_sample_019",
+      "chronological_index": 25,
+      "state_id": "bearish_sample_019_state_025",
+      "time_spot": "2015-09-21",
+      "reference_session": "2015-09-21",
+      "question": "Session summary for September 21, 2015: HII opened $93.60, ranged $91.72-$93.60, closed $92.13. Volume 0.3M (0.78x 20-day avg). 20-day $93.75 | 50-day $95.42. 5-day return -3.66%. ATR-14 $2.45. RSI 46.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2015-09-21",
+        "open": 93.6,
+        "high": 93.6,
+        "low": 91.72,
+        "close": 92.13,
+        "volume": 280600,
+        "ma20": 93.75,
+        "ma50": 95.42,
+        "volume_vs_20d": 0.78,
+        "atr14": 2.45,
+        "chg_5d_pct": -3.66
+      },
+      "weekly_snapshot": {
+        "ticker": "HII",
+        "week_start": "2015-09-21",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 46.7,
+        "price_vs_sma50": 0.965,
+        "notes": "ADX 26.3, MACD bearish"
+      }
+    }
+  ]
+}

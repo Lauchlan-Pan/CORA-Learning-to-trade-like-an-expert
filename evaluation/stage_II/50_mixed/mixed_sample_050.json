@@ -1,0 +1,2898 @@
+{
+  "metadata": {
+    "instrument": "CAT",
+    "initial_capital": 10000,
+    "window_type": "mixed_sample_050",
+    "description": "CAT window (2022-09-08 \u2013 2022-10-12) sampled from S&P500 indicator archive.",
+    "num_mcqs": 25,
+    "notes": "Orders express target exposure fractions relative to the leverage ceiling.",
+    "max_leverage": 2.5,
+    "exposure_buckets": [
+      0.8,
+      0.6,
+      0.4,
+      0.2
+    ],
+    "start_reference": "2022-09-08",
+    "end_reference": "2022-10-12",
+    "regime": "mixed",
+    "original_sample": "snp500_sample_001"
+  },
+  "mcqs": [
+    {
+      "scenario_instance_id": "CAT_2022-09-08_mixed_sample_050_001",
+      "scenario_id": "CAT_2022-09-08",
+      "window_type": "mixed_sample_050",
+      "chronological_index": 1,
+      "state_id": "mixed_sample_050_state_001",
+      "time_spot": "2022-09-08",
+      "reference_session": "2022-09-08",
+      "question": "Session summary for September 08, 2022: CAT opened $170.07, ranged $168.56-$173.48, closed $173.35. Volume 2.2M (1.03x 20-day avg). 20-day $180.71 | 50-day $174.82. 5-day return -0.84%. ATR-14 $4.81. RSI 32.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-09-08",
+        "open": 170.07,
+        "high": 173.48,
+        "low": 168.56,
+        "close": 173.35,
+        "volume": 2245700,
+        "ma20": 180.71,
+        "ma50": 174.82,
+        "volume_vs_20d": 1.03,
+        "atr14": 4.81,
+        "chg_5d_pct": -0.84
+      },
+      "weekly_snapshot": {
+        "ticker": "CAT",
+        "week_start": "2022-09-05",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 32.0,
+        "price_vs_sma50": 0.992,
+        "notes": "ADX 34.5, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "CAT_2022-09-08_mixed_sample_050_002",
+      "scenario_id": "CAT_2022-09-08",
+      "window_type": "mixed_sample_050",
+      "chronological_index": 2,
+      "state_id": "mixed_sample_050_state_002",
+      "time_spot": "2022-09-09",
+      "reference_session": "2022-09-09",
+      "question": "Session summary for September 09, 2022: CAT opened $177.52, ranged $177.21-$179.61, closed $179.36. Volume 2.3M (1.05x 20-day avg). 20-day $180.50 | 50-day $174.96. 5-day return +3.86%. ATR-14 $5.02. RSI 43.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-09-09",
+        "open": 177.52,
+        "high": 179.61,
+        "low": 177.21,
+        "close": 179.36,
+        "volume": 2279600,
+        "ma20": 180.5,
+        "ma50": 174.96,
+        "volume_vs_20d": 1.05,
+        "atr14": 5.02,
+        "chg_5d_pct": 3.86
+      },
+      "weekly_snapshot": {
+        "ticker": "CAT",
+        "week_start": "2022-09-05",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 43.1,
+        "price_vs_sma50": 1.025,
+        "notes": "ADX 35.0, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "CAT_2022-09-08_mixed_sample_050_003",
+      "scenario_id": "CAT_2022-09-08",
+      "window_type": "mixed_sample_050",
+      "chronological_index": 3,
+      "state_id": "mixed_sample_050_state_003",
+      "time_spot": "2022-09-12",
+      "reference_session": "2022-09-12",
+      "question": "Session summary for September 12, 2022: CAT opened $180.64, ranged $180.42-$182.39, closed $182.11. Volume 1.9M (0.89x 20-day avg). 20-day $180.29 | 50-day $175.24. 5-day return +6.40%. ATR-14 $4.96. RSI 50.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-09-12",
+        "open": 180.64,
+        "high": 182.39,
+        "low": 180.42,
+        "close": 182.11,
+        "volume": 1937200,
+        "ma20": 180.29,
+        "ma50": 175.24,
+        "volume_vs_20d": 0.89,
+        "atr14": 4.96,
+        "chg_5d_pct": 6.4
+      },
+      "weekly_snapshot": {
+        "ticker": "CAT",
+        "week_start": "2022-09-12",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 50.7,
+        "price_vs_sma50": 1.039,
+        "notes": "ADX 33.0, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "CAT_2022-09-08_mixed_sample_050_004",
+      "scenario_id": "CAT_2022-09-08",
+      "window_type": "mixed_sample_050",
+      "chronological_index": 4,
+      "state_id": "mixed_sample_050_state_004",
+      "time_spot": "2022-09-13",
+      "reference_session": "2022-09-13",
+      "question": "Session summary for September 13, 2022: CAT opened $177.80, ranged $173.69-$179.89, closed $174.45. Volume 2.2M (1.01x 20-day avg). 20-day $179.74 | 50-day $175.38. 5-day return +2.02%. ATR-14 $5.13. RSI 35.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-09-13",
+        "open": 177.8,
+        "high": 179.89,
+        "low": 173.69,
+        "close": 174.45,
+        "volume": 2207500,
+        "ma20": 179.74,
+        "ma50": 175.38,
+        "volume_vs_20d": 1.01,
+        "atr14": 5.13,
+        "chg_5d_pct": 2.02
+      },
+      "weekly_snapshot": {
+        "ticker": "CAT",
+        "week_start": "2022-09-12",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 35.9,
+        "price_vs_sma50": 0.995,
+        "notes": "ADX 30.9, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "CAT_2022-09-08_mixed_sample_050_005",
+      "scenario_id": "CAT_2022-09-08",
+      "window_type": "mixed_sample_050",
+      "chronological_index": 5,
+      "state_id": "mixed_sample_050_state_005",
+      "time_spot": "2022-09-14",
+      "reference_session": "2022-09-14",
+      "question": "Session summary for September 14, 2022: CAT opened $174.08, ranged $172.14-$175.24, closed $174.77. Volume 2.3M (1.04x 20-day avg). 20-day $179.13 | 50-day $175.61. 5-day return +2.10%. ATR-14 $5.00. RSI 39.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-09-14",
+        "open": 174.08,
+        "high": 175.24,
+        "low": 172.14,
+        "close": 174.77,
+        "volume": 2295000,
+        "ma20": 179.13,
+        "ma50": 175.61,
+        "volume_vs_20d": 1.04,
+        "atr14": 5.0,
+        "chg_5d_pct": 2.1
+      },
+      "weekly_snapshot": {
+        "ticker": "CAT",
+        "week_start": "2022-09-12",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 39.0,
+        "price_vs_sma50": 0.995,
+        "notes": "ADX 29.1, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "CAT_2022-09-08_mixed_sample_050_006",
+      "scenario_id": "CAT_2022-09-08",
+      "window_type": "mixed_sample_050",
+      "chronological_index": 6,
+      "state_id": "mixed_sample_050_state_006",
+      "time_spot": "2022-09-15",
+      "reference_session": "2022-09-15",
+      "question": "Session summary for September 15, 2022: CAT opened $174.79, ranged $171.96-$176.56, closed $172.73. Volume 1.9M (0.87x 20-day avg). 20-day $178.49 | 50-day $175.83. 5-day return -0.36%. ATR-14 $5.00. RSI 29.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-09-15",
+        "open": 174.79,
+        "high": 176.56,
+        "low": 171.96,
+        "close": 172.73,
+        "volume": 1933100,
+        "ma20": 178.49,
+        "ma50": 175.83,
+        "volume_vs_20d": 0.87,
+        "atr14": 5.0,
+        "chg_5d_pct": -0.36
+      },
+      "weekly_snapshot": {
+        "ticker": "CAT",
+        "week_start": "2022-09-12",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 29.8,
+        "price_vs_sma50": 0.982,
+        "notes": "ADX 27.0, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "CAT_2022-09-08_mixed_sample_050_007",
+      "scenario_id": "CAT_2022-09-08",
+      "window_type": "mixed_sample_050",
+      "chronological_index": 7,
+      "state_id": "mixed_sample_050_state_007",
+      "time_spot": "2022-09-16",
+      "reference_session": "2022-09-16",
+      "question": "Session summary for September 16, 2022: CAT opened $170.37, ranged $168.26-$170.70, closed $169.87. Volume 5.1M (2.12x 20-day avg). 20-day $177.65 | 50-day $175.83. 5-day return -5.29%. ATR-14 $4.74. RSI 33.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-09-16",
+        "open": 170.37,
+        "high": 170.7,
+        "low": 168.26,
+        "close": 169.87,
+        "volume": 5088300,
+        "ma20": 177.65,
+        "ma50": 175.83,
+        "volume_vs_20d": 2.12,
+        "atr14": 4.74,
+        "chg_5d_pct": -5.29
+      },
+      "weekly_snapshot": {
+        "ticker": "CAT",
+        "week_start": "2022-09-12",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 33.0,
+        "price_vs_sma50": 0.966,
+        "notes": "ADX 26.6, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "CAT_2022-09-08_mixed_sample_050_008",
+      "scenario_id": "CAT_2022-09-08",
+      "window_type": "mixed_sample_050",
+      "chronological_index": 8,
+      "state_id": "mixed_sample_050_state_008",
+      "time_spot": "2022-09-19",
+      "reference_session": "2022-09-19",
+      "question": "Session summary for September 19, 2022: CAT opened $167.77, ranged $167.34-$172.96, closed $172.37. Volume 2.9M (1.20x 20-day avg). 20-day $177.01 | 50-day $175.91. 5-day return -5.35%. ATR-14 $4.86. RSI 37.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-09-19",
+        "open": 167.77,
+        "high": 172.96,
+        "low": 167.34,
+        "close": 172.37,
+        "volume": 2923700,
+        "ma20": 177.01,
+        "ma50": 175.91,
+        "volume_vs_20d": 1.2,
+        "atr14": 4.86,
+        "chg_5d_pct": -5.35
+      },
+      "weekly_snapshot": {
+        "ticker": "CAT",
+        "week_start": "2022-09-19",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 37.6,
+        "price_vs_sma50": 0.98,
+        "notes": "ADX 26.2, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "CAT_2022-09-08_mixed_sample_050_009",
+      "scenario_id": "CAT_2022-09-08",
+      "window_type": "mixed_sample_050",
+      "chronological_index": 9,
+      "state_id": "mixed_sample_050_state_009",
+      "time_spot": "2022-09-20",
+      "reference_session": "2022-09-20",
+      "question": "Session summary for September 20, 2022: CAT opened $170.93, ranged $166.88-$171.05, closed $168.47. Volume 2.5M (1.02x 20-day avg). 20-day $176.36 | 50-day $175.99. 5-day return -3.43%. ATR-14 $4.75. RSI 38.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-09-20",
+        "open": 170.93,
+        "high": 171.05,
+        "low": 166.88,
+        "close": 168.47,
+        "volume": 2512400,
+        "ma20": 176.36,
+        "ma50": 175.99,
+        "volume_vs_20d": 1.02,
+        "atr14": 4.75,
+        "chg_5d_pct": -3.43
+      },
+      "weekly_snapshot": {
+        "ticker": "CAT",
+        "week_start": "2022-09-19",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 38.3,
+        "price_vs_sma50": 0.957,
+        "notes": "ADX 26.0, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "CAT_2022-09-08_mixed_sample_050_010",
+      "scenario_id": "CAT_2022-09-08",
+      "window_type": "mixed_sample_050",
+      "chronological_index": 10,
+      "state_id": "mixed_sample_050_state_010",
+      "time_spot": "2022-09-21",
+      "reference_session": "2022-09-21",
+      "question": "Session summary for September 21, 2022: CAT opened $169.69, ranged $162.69-$170.84, closed $162.75. Volume 4.1M (1.59x 20-day avg). 20-day $175.16 | 50-day $175.97. 5-day return -6.88%. ATR-14 $5.09. RSI 34.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-09-21",
+        "open": 169.69,
+        "high": 170.84,
+        "low": 162.69,
+        "close": 162.75,
+        "volume": 4061900,
+        "ma20": 175.16,
+        "ma50": 175.97,
+        "volume_vs_20d": 1.59,
+        "atr14": 5.09,
+        "chg_5d_pct": -6.88
+      },
+      "weekly_snapshot": {
+        "ticker": "CAT",
+        "week_start": "2022-09-19",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 34.9,
+        "price_vs_sma50": 0.925,
+        "notes": "ADX 25.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "CAT_2022-09-08_mixed_sample_050_011",
+      "scenario_id": "CAT_2022-09-08",
+      "window_type": "mixed_sample_050",
+      "chronological_index": 11,
+      "state_id": "mixed_sample_050_state_011",
+      "time_spot": "2022-09-22",
+      "reference_session": "2022-09-22",
+      "question": "Session summary for September 22, 2022: CAT opened $163.46, ranged $161.18-$165.28, closed $161.43. Volume 2.5M (0.98x 20-day avg). 20-day $174.04 | 50-day $175.93. 5-day return -6.54%. ATR-14 $5.07. RSI 35.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-09-22",
+        "open": 163.46,
+        "high": 165.28,
+        "low": 161.18,
+        "close": 161.43,
+        "volume": 2508400,
+        "ma20": 174.04,
+        "ma50": 175.93,
+        "volume_vs_20d": 0.98,
+        "atr14": 5.07,
+        "chg_5d_pct": -6.54
+      },
+      "weekly_snapshot": {
+        "ticker": "CAT",
+        "week_start": "2022-09-19",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 35.6,
+        "price_vs_sma50": 0.918,
+        "notes": "ADX 22.7, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "CAT_2022-09-08_mixed_sample_050_012",
+      "scenario_id": "CAT_2022-09-08",
+      "window_type": "mixed_sample_050",
+      "chronological_index": 12,
+      "state_id": "mixed_sample_050_state_012",
+      "time_spot": "2022-09-23",
+      "reference_session": "2022-09-23",
+      "question": "Session summary for September 23, 2022: CAT opened $159.64, ranged $153.08-$160.38, closed $155.46. Volume 4.0M (1.52x 20-day avg). 20-day $172.41 | 50-day $175.84. 5-day return -8.49%. ATR-14 $5.27. RSI 32.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-09-23",
+        "open": 159.64,
+        "high": 160.38,
+        "low": 153.08,
+        "close": 155.46,
+        "volume": 4047200,
+        "ma20": 172.41,
+        "ma50": 175.84,
+        "volume_vs_20d": 1.52,
+        "atr14": 5.27,
+        "chg_5d_pct": -8.49
+      },
+      "weekly_snapshot": {
+        "ticker": "CAT",
+        "week_start": "2022-09-19",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 32.0,
+        "price_vs_sma50": 0.884,
+        "notes": "ADX 22.9, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "CAT_2022-09-08_mixed_sample_050_013",
+      "scenario_id": "CAT_2022-09-08",
+      "window_type": "mixed_sample_050",
+      "chronological_index": 13,
+      "state_id": "mixed_sample_050_state_013",
+      "time_spot": "2022-09-26",
+      "reference_session": "2022-09-26",
+      "question": "Session summary for September 26, 2022: CAT opened $155.23, ranged $153.54-$156.98, closed $153.92. Volume 3.2M (1.20x 20-day avg). 20-day $171.02 | 50-day $175.66. 5-day return -10.70%. ATR-14 $5.24. RSI 31.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-09-26",
+        "open": 155.23,
+        "high": 156.98,
+        "low": 153.54,
+        "close": 153.92,
+        "volume": 3213400,
+        "ma20": 171.02,
+        "ma50": 175.66,
+        "volume_vs_20d": 1.2,
+        "atr14": 5.24,
+        "chg_5d_pct": -10.7
+      },
+      "weekly_snapshot": {
+        "ticker": "CAT",
+        "week_start": "2022-09-26",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 31.0,
+        "price_vs_sma50": 0.876,
+        "notes": "ADX 22.4, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "CAT_2022-09-08_mixed_sample_050_014",
+      "scenario_id": "CAT_2022-09-08",
+      "window_type": "mixed_sample_050",
+      "chronological_index": 14,
+      "state_id": "mixed_sample_050_state_014",
+      "time_spot": "2022-09-27",
+      "reference_session": "2022-09-27",
+      "question": "Session summary for September 27, 2022: CAT opened $155.66, ranged $152.01-$155.77, closed $153.75. Volume 2.8M (1.01x 20-day avg). 20-day $169.63 | 50-day $175.47. 5-day return -8.74%. ATR-14 $5.26. RSI 30.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-09-27",
+        "open": 155.66,
+        "high": 155.77,
+        "low": 152.01,
+        "close": 153.75,
+        "volume": 2753500,
+        "ma20": 169.63,
+        "ma50": 175.47,
+        "volume_vs_20d": 1.01,
+        "atr14": 5.26,
+        "chg_5d_pct": -8.74
+      },
+      "weekly_snapshot": {
+        "ticker": "CAT",
+        "week_start": "2022-09-26",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 30.6,
+        "price_vs_sma50": 0.876,
+        "notes": "ADX 21.8, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "CAT_2022-09-08_mixed_sample_050_015",
+      "scenario_id": "CAT_2022-09-08",
+      "window_type": "mixed_sample_050",
+      "chronological_index": 15,
+      "state_id": "mixed_sample_050_state_015",
+      "time_spot": "2022-09-28",
+      "reference_session": "2022-09-28",
+      "question": "Session summary for September 28, 2022: CAT opened $155.70, ranged $154.79-$159.47, closed $158.79. Volume 3.7M (1.33x 20-day avg). 20-day $168.72 | 50-day $175.25. 5-day return -2.44%. ATR-14 $5.32. RSI 34.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-09-28",
+        "open": 155.7,
+        "high": 159.47,
+        "low": 154.79,
+        "close": 158.79,
+        "volume": 3694800,
+        "ma20": 168.72,
+        "ma50": 175.25,
+        "volume_vs_20d": 1.33,
+        "atr14": 5.32,
+        "chg_5d_pct": -2.44
+      },
+      "weekly_snapshot": {
+        "ticker": "CAT",
+        "week_start": "2022-09-26",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 34.8,
+        "price_vs_sma50": 0.906,
+        "notes": "ADX 21.0, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "CAT_2022-09-08_mixed_sample_050_016",
+      "scenario_id": "CAT_2022-09-08",
+      "window_type": "mixed_sample_050",
+      "chronological_index": 16,
+      "state_id": "mixed_sample_050_state_016",
+      "time_spot": "2022-09-29",
+      "reference_session": "2022-09-29",
+      "question": "Session summary for September 29, 2022: CAT opened $156.84, ranged $154.79-$157.68, closed $157.03. Volume 3.5M (1.25x 20-day avg). 20-day $167.83 | 50-day $174.99. 5-day return -2.73%. ATR-14 $5.16. RSI 24.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-09-29",
+        "open": 156.84,
+        "high": 157.68,
+        "low": 154.79,
+        "close": 157.03,
+        "volume": 3518100,
+        "ma20": 167.83,
+        "ma50": 174.99,
+        "volume_vs_20d": 1.25,
+        "atr14": 5.16,
+        "chg_5d_pct": -2.73
+      },
+      "weekly_snapshot": {
+        "ticker": "CAT",
+        "week_start": "2022-09-26",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 24.4,
+        "price_vs_sma50": 0.897,
+        "notes": "ADX 23.7, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "CAT_2022-09-08_mixed_sample_050_017",
+      "scenario_id": "CAT_2022-09-08",
+      "window_type": "mixed_sample_050",
+      "chronological_index": 17,
+      "state_id": "mixed_sample_050_state_017",
+      "time_spot": "2022-09-30",
+      "reference_session": "2022-09-30",
+      "question": "Session summary for September 30, 2022: CAT opened $157.02, ranged $155.12-$158.81, closed $155.30. Volume 3.0M (1.05x 20-day avg). 20-day $166.96 | 50-day $174.67. 5-day return -0.10%. ATR-14 $5.21. RSI 18.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-09-30",
+        "open": 157.02,
+        "high": 158.81,
+        "low": 155.12,
+        "close": 155.3,
+        "volume": 2963000,
+        "ma20": 166.96,
+        "ma50": 174.67,
+        "volume_vs_20d": 1.05,
+        "atr14": 5.21,
+        "chg_5d_pct": -0.1
+      },
+      "weekly_snapshot": {
+        "ticker": "CAT",
+        "week_start": "2022-09-26",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 18.5,
+        "price_vs_sma50": 0.889,
+        "notes": "ADX 27.1, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "CAT_2022-09-08_mixed_sample_050_018",
+      "scenario_id": "CAT_2022-09-08",
+      "window_type": "mixed_sample_050",
+      "chronological_index": 18,
+      "state_id": "mixed_sample_050_state_018",
+      "time_spot": "2022-10-03",
+      "reference_session": "2022-10-03",
+      "question": "Session summary for October 03, 2022: CAT opened $158.48, ranged $157.17-$164.10, closed $162.07. Volume 3.4M (1.19x 20-day avg). 20-day $166.51 | 50-day $174.53. 5-day return +5.29%. ATR-14 $5.23. RSI 35.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-03",
+        "open": 158.48,
+        "high": 164.1,
+        "low": 157.17,
+        "close": 162.07,
+        "volume": 3444700,
+        "ma20": 166.51,
+        "ma50": 174.53,
+        "volume_vs_20d": 1.19,
+        "atr14": 5.23,
+        "chg_5d_pct": 5.29
+      },
+      "weekly_snapshot": {
+        "ticker": "CAT",
+        "week_start": "2022-10-03",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 35.1,
+        "price_vs_sma50": 0.929,
+        "notes": "ADX 26.8, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "CAT_2022-09-08_mixed_sample_050_019",
+      "scenario_id": "CAT_2022-09-08",
+      "window_type": "mixed_sample_050",
+      "chronological_index": 19,
+      "state_id": "mixed_sample_050_state_019",
+      "time_spot": "2022-10-04",
+      "reference_session": "2022-10-04",
+      "question": "Session summary for October 04, 2022: CAT opened $164.98, ranged $164.89-$170.55, closed $170.02. Volume 4.0M (1.34x 20-day avg). 20-day $166.46 | 50-day $174.49. 5-day return +10.58%. ATR-14 $5.62. RSI 45.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-04",
+        "open": 164.98,
+        "high": 170.55,
+        "low": 164.89,
+        "close": 170.02,
+        "volume": 4008200,
+        "ma20": 166.46,
+        "ma50": 174.49,
+        "volume_vs_20d": 1.34,
+        "atr14": 5.62,
+        "chg_5d_pct": 10.58
+      },
+      "weekly_snapshot": {
+        "ticker": "CAT",
+        "week_start": "2022-10-03",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 45.2,
+        "price_vs_sma50": 0.974,
+        "notes": "ADX 24.9, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "CAT_2022-09-08_mixed_sample_050_020",
+      "scenario_id": "CAT_2022-09-08",
+      "window_type": "mixed_sample_050",
+      "chronological_index": 20,
+      "state_id": "mixed_sample_050_state_020",
+      "time_spot": "2022-10-05",
+      "reference_session": "2022-10-05",
+      "question": "Session summary for October 05, 2022: CAT opened $167.68, ranged $167.24-$170.62, closed $168.84. Volume 3.1M (1.01x 20-day avg). 20-day $166.34 | 50-day $174.43. 5-day return +6.33%. ATR-14 $5.53. RSI 46.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-05",
+        "open": 167.68,
+        "high": 170.62,
+        "low": 167.24,
+        "close": 168.84,
+        "volume": 3067400,
+        "ma20": 166.34,
+        "ma50": 174.43,
+        "volume_vs_20d": 1.01,
+        "atr14": 5.53,
+        "chg_5d_pct": 6.33
+      },
+      "weekly_snapshot": {
+        "ticker": "CAT",
+        "week_start": "2022-10-03",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 46.0,
+        "price_vs_sma50": 0.968,
+        "notes": "ADX 23.2, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "CAT_2022-09-08_mixed_sample_050_021",
+      "scenario_id": "CAT_2022-09-08",
+      "window_type": "mixed_sample_050",
+      "chronological_index": 21,
+      "state_id": "mixed_sample_050_state_021",
+      "time_spot": "2022-10-06",
+      "reference_session": "2022-10-06",
+      "question": "Session summary for October 06, 2022: CAT opened $167.92, ranged $167.43-$171.30, closed $169.25. Volume 2.4M (0.79x 20-day avg). 20-day $166.14 | 50-day $174.31. 5-day return +7.78%. ATR-14 $5.49. RSI 49.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-06",
+        "open": 167.92,
+        "high": 171.3,
+        "low": 167.43,
+        "close": 169.25,
+        "volume": 2415000,
+        "ma20": 166.14,
+        "ma50": 174.31,
+        "volume_vs_20d": 0.79,
+        "atr14": 5.49,
+        "chg_5d_pct": 7.78
+      },
+      "weekly_snapshot": {
+        "ticker": "CAT",
+        "week_start": "2022-10-03",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 49.3,
+        "price_vs_sma50": 0.971,
+        "notes": "ADX 22.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "CAT_2022-09-08_mixed_sample_050_022",
+      "scenario_id": "CAT_2022-09-08",
+      "window_type": "mixed_sample_050",
+      "chronological_index": 22,
+      "state_id": "mixed_sample_050_state_022",
+      "time_spot": "2022-10-07",
+      "reference_session": "2022-10-07",
+      "question": "Session summary for October 07, 2022: CAT opened $167.27, ranged $165.77-$169.39, closed $168.05. Volume 2.8M (0.90x 20-day avg). 20-day $165.57 | 50-day $174.11. 5-day return +8.21%. ATR-14 $5.34. RSI 45.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-07",
+        "open": 167.27,
+        "high": 169.39,
+        "low": 165.77,
+        "close": 168.05,
+        "volume": 2759200,
+        "ma20": 165.57,
+        "ma50": 174.11,
+        "volume_vs_20d": 0.9,
+        "atr14": 5.34,
+        "chg_5d_pct": 8.21
+      },
+      "weekly_snapshot": {
+        "ticker": "CAT",
+        "week_start": "2022-10-03",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 45.2,
+        "price_vs_sma50": 0.965,
+        "notes": "ADX 20.9, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "CAT_2022-09-08_mixed_sample_050_023",
+      "scenario_id": "CAT_2022-09-08",
+      "window_type": "mixed_sample_050",
+      "chronological_index": 23,
+      "state_id": "mixed_sample_050_state_023",
+      "time_spot": "2022-10-10",
+      "reference_session": "2022-10-10",
+      "question": "Session summary for October 10, 2022: CAT opened $170.19, ranged $166.65-$171.47, closed $169.11. Volume 2.6M (0.85x 20-day avg). 20-day $164.92 | 50-day $173.74. 5-day return +4.35%. ATR-14 $5.30. RSI 50.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-10",
+        "open": 170.19,
+        "high": 171.47,
+        "low": 166.65,
+        "close": 169.11,
+        "volume": 2633900,
+        "ma20": 164.92,
+        "ma50": 173.74,
+        "volume_vs_20d": 0.85,
+        "atr14": 5.3,
+        "chg_5d_pct": 4.35
+      },
+      "weekly_snapshot": {
+        "ticker": "CAT",
+        "week_start": "2022-10-10",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 50.8,
+        "price_vs_sma50": 0.973,
+        "notes": "ADX 21.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "CAT_2022-09-08_mixed_sample_050_024",
+      "scenario_id": "CAT_2022-09-08",
+      "window_type": "mixed_sample_050",
+      "chronological_index": 24,
+      "state_id": "mixed_sample_050_state_024",
+      "time_spot": "2022-10-11",
+      "reference_session": "2022-10-11",
+      "question": "Session summary for October 11, 2022: CAT opened $167.36, ranged $167.22-$173.29, closed $170.14. Volume 2.5M (0.82x 20-day avg). 20-day $164.71 | 50-day $173.46. 5-day return +0.07%. ATR-14 $5.15. RSI 59.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-11",
+        "open": 167.36,
+        "high": 173.29,
+        "low": 167.22,
+        "close": 170.14,
+        "volume": 2542400,
+        "ma20": 164.71,
+        "ma50": 173.46,
+        "volume_vs_20d": 0.82,
+        "atr14": 5.15,
+        "chg_5d_pct": 0.07
+      },
+      "weekly_snapshot": {
+        "ticker": "CAT",
+        "week_start": "2022-10-10",
+        "trend_regime": "rangebound",
+        "volatility_regime": "high",
+        "rsi_14": 59.9,
+        "price_vs_sma50": 0.981,
+        "notes": "ADX 21.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "CAT_2022-09-08_mixed_sample_050_025",
+      "scenario_id": "CAT_2022-09-08",
+      "window_type": "mixed_sample_050",
+      "chronological_index": 25,
+      "state_id": "mixed_sample_050_state_025",
+      "time_spot": "2022-10-12",
+      "reference_session": "2022-10-12",
+      "question": "Session summary for October 12, 2022: CAT opened $169.88, ranged $169.22-$171.43, closed $169.90. Volume 2.3M (0.73x 20-day avg). 20-day $164.46 | 50-day $173.38. 5-day return +0.63%. ATR-14 $5.01. RSI 61.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-12",
+        "open": 169.88,
+        "high": 171.43,
+        "low": 169.22,
+        "close": 169.9,
+        "volume": 2260800,
+        "ma20": 164.46,
+        "ma50": 173.38,
+        "volume_vs_20d": 0.73,
+        "atr14": 5.01,
+        "chg_5d_pct": 0.63
+      },
+      "weekly_snapshot": {
+        "ticker": "CAT",
+        "week_start": "2022-10-10",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 61.8,
+        "price_vs_sma50": 0.98,
+        "notes": "ADX 23.1, MACD bullish"
+      }
+    }
+  ]
+}

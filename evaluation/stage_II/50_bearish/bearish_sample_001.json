@@ -1,0 +1,2898 @@
+{
+  "metadata": {
+    "instrument": "BXP",
+    "initial_capital": 10000,
+    "window_type": "bearish_sample_001",
+    "description": "BXP window (2019-07-26 \u2013 2019-08-29) sampled from S&P500 indicator archive.",
+    "num_mcqs": 25,
+    "notes": "Orders express target exposure fractions relative to the leverage ceiling.",
+    "max_leverage": 2.5,
+    "exposure_buckets": [
+      0.8,
+      0.6,
+      0.4,
+      0.2
+    ],
+    "start_reference": "2019-07-26",
+    "end_reference": "2019-08-29",
+    "regime": "bearish",
+    "original_sample": "snp500_sample_052"
+  },
+  "mcqs": [
+    {
+      "scenario_instance_id": "BXP_2019-07-26_bearish_sample_001_001",
+      "scenario_id": "BXP_2019-07-26",
+      "window_type": "bearish_sample_001",
+      "chronological_index": 1,
+      "state_id": "bearish_sample_001_state_001",
+      "time_spot": "2019-07-26",
+      "reference_session": "2019-07-26",
+      "question": "Session summary for July 26, 2019: BXP opened $97.59, ranged $97.18-$98.12, closed $97.94. Volume 0.5M (0.83x 20-day avg). 20-day $97.71 | 50-day $98.42. 5-day return +2.52%. ATR-14 $1.26. RSI 45.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-07-26",
+        "open": 97.59,
+        "high": 98.12,
+        "low": 97.18,
+        "close": 97.94,
+        "volume": 460700,
+        "ma20": 97.71,
+        "ma50": 98.42,
+        "volume_vs_20d": 0.83,
+        "atr14": 1.26,
+        "chg_5d_pct": 2.52
+      },
+      "weekly_snapshot": {
+        "ticker": "BXP",
+        "week_start": "2019-07-22",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 45.5,
+        "price_vs_sma50": 0.995,
+        "notes": "ADX 15.4, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "BXP_2019-07-26_bearish_sample_001_002",
+      "scenario_id": "BXP_2019-07-26",
+      "window_type": "bearish_sample_001",
+      "chronological_index": 2,
+      "state_id": "bearish_sample_001_state_002",
+      "time_spot": "2019-07-29",
+      "reference_session": "2019-07-29",
+      "question": "Session summary for July 29, 2019: BXP opened $98.21, ranged $97.89-$99.22, closed $98.68. Volume 0.7M (1.23x 20-day avg). 20-day $97.84 | 50-day $98.39. 5-day return +3.03%. ATR-14 $1.29. RSI 51.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-07-29",
+        "open": 98.21,
+        "high": 99.22,
+        "low": 97.89,
+        "close": 98.68,
+        "volume": 660300,
+        "ma20": 97.84,
+        "ma50": 98.39,
+        "volume_vs_20d": 1.23,
+        "atr14": 1.29,
+        "chg_5d_pct": 3.03
+      },
+      "weekly_snapshot": {
+        "ticker": "BXP",
+        "week_start": "2019-07-29",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 51.0,
+        "price_vs_sma50": 1.003,
+        "notes": "ADX 13.5, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "BXP_2019-07-26_bearish_sample_001_003",
+      "scenario_id": "BXP_2019-07-26",
+      "window_type": "bearish_sample_001",
+      "chronological_index": 3,
+      "state_id": "bearish_sample_001_state_003",
+      "time_spot": "2019-07-30",
+      "reference_session": "2019-07-30",
+      "question": "Session summary for July 30, 2019: BXP opened $99.20, ranged $98.50-$100.16, closed $99.21. Volume 0.5M (1.03x 20-day avg). 20-day $97.98 | 50-day $98.40. 5-day return +2.28%. ATR-14 $1.29. RSI 46.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-07-30",
+        "open": 99.2,
+        "high": 100.16,
+        "low": 98.5,
+        "close": 99.21,
+        "volume": 546900,
+        "ma20": 97.98,
+        "ma50": 98.4,
+        "volume_vs_20d": 1.03,
+        "atr14": 1.29,
+        "chg_5d_pct": 2.28
+      },
+      "weekly_snapshot": {
+        "ticker": "BXP",
+        "week_start": "2019-07-29",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 46.2,
+        "price_vs_sma50": 1.008,
+        "notes": "ADX 12.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "BXP_2019-07-26_bearish_sample_001_004",
+      "scenario_id": "BXP_2019-07-26",
+      "window_type": "bearish_sample_001",
+      "chronological_index": 4,
+      "state_id": "bearish_sample_001_state_004",
+      "time_spot": "2019-07-31",
+      "reference_session": "2019-07-31",
+      "question": "Session summary for July 31, 2019: BXP opened $100.32, ranged $98.62-$101.91, closed $99.17. Volume 0.9M (1.61x 20-day avg). 20-day $98.05 | 50-day $98.43. 5-day return +2.03%. ATR-14 $1.38. RSI 52.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-07-31",
+        "open": 100.32,
+        "high": 101.91,
+        "low": 98.62,
+        "close": 99.17,
+        "volume": 884000,
+        "ma20": 98.05,
+        "ma50": 98.43,
+        "volume_vs_20d": 1.61,
+        "atr14": 1.38,
+        "chg_5d_pct": 2.03
+      },
+      "weekly_snapshot": {
+        "ticker": "BXP",
+        "week_start": "2019-07-29",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 52.3,
+        "price_vs_sma50": 1.008,
+        "notes": "ADX 11.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "BXP_2019-07-26_bearish_sample_001_005",
+      "scenario_id": "BXP_2019-07-26",
+      "window_type": "bearish_sample_001",
+      "chronological_index": 5,
+      "state_id": "bearish_sample_001_state_005",
+      "time_spot": "2019-08-01",
+      "reference_session": "2019-08-01",
+      "question": "Session summary for August 01, 2019: BXP opened $98.74, ranged $96.18-$99.18, closed $97.22. Volume 1.0M (1.78x 20-day avg). 20-day $97.95 | 50-day $98.40. 5-day return -0.20%. ATR-14 $1.54. RSI 42.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-08-01",
+        "open": 98.74,
+        "high": 99.18,
+        "low": 96.18,
+        "close": 97.22,
+        "volume": 1037700,
+        "ma20": 97.95,
+        "ma50": 98.4,
+        "volume_vs_20d": 1.78,
+        "atr14": 1.54,
+        "chg_5d_pct": -0.2
+      },
+      "weekly_snapshot": {
+        "ticker": "BXP",
+        "week_start": "2019-07-29",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 42.0,
+        "price_vs_sma50": 0.988,
+        "notes": "ADX 9.7, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "BXP_2019-07-26_bearish_sample_001_006",
+      "scenario_id": "BXP_2019-07-26",
+      "window_type": "bearish_sample_001",
+      "chronological_index": 6,
+      "state_id": "bearish_sample_001_state_006",
+      "time_spot": "2019-08-02",
+      "reference_session": "2019-08-02",
+      "question": "Session summary for August 02, 2019: BXP opened $97.29, ranged $96.65-$97.89, closed $97.08. Volume 0.5M (0.86x 20-day avg). 20-day $97.88 | 50-day $98.38. 5-day return -0.88%. ATR-14 $1.57. RSI 42.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-08-02",
+        "open": 97.29,
+        "high": 97.89,
+        "low": 96.65,
+        "close": 97.08,
+        "volume": 506100,
+        "ma20": 97.88,
+        "ma50": 98.38,
+        "volume_vs_20d": 0.86,
+        "atr14": 1.57,
+        "chg_5d_pct": -0.88
+      },
+      "weekly_snapshot": {
+        "ticker": "BXP",
+        "week_start": "2019-07-29",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 42.1,
+        "price_vs_sma50": 0.987,
+        "notes": "ADX 8.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "BXP_2019-07-26_bearish_sample_001_007",
+      "scenario_id": "BXP_2019-07-26",
+      "window_type": "bearish_sample_001",
+      "chronological_index": 7,
+      "state_id": "bearish_sample_001_state_007",
+      "time_spot": "2019-08-05",
+      "reference_session": "2019-08-05",
+      "question": "Session summary for August 05, 2019: BXP opened $96.32, ranged $93.76-$96.32, closed $94.98. Volume 0.9M (1.53x 20-day avg). 20-day $97.70 | 50-day $98.34. 5-day return -3.74%. ATR-14 $1.76. RSI 35.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-08-05",
+        "open": 96.32,
+        "high": 96.32,
+        "low": 93.76,
+        "close": 94.98,
+        "volume": 928400,
+        "ma20": 97.7,
+        "ma50": 98.34,
+        "volume_vs_20d": 1.53,
+        "atr14": 1.76,
+        "chg_5d_pct": -3.74
+      },
+      "weekly_snapshot": {
+        "ticker": "BXP",
+        "week_start": "2019-08-05",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 35.9,
+        "price_vs_sma50": 0.966,
+        "notes": "ADX 9.5, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "BXP_2019-07-26_bearish_sample_001_008",
+      "scenario_id": "BXP_2019-07-26",
+      "window_type": "bearish_sample_001",
+      "chronological_index": 8,
+      "state_id": "bearish_sample_001_state_008",
+      "time_spot": "2019-08-06",
+      "reference_session": "2019-08-06",
+      "question": "Session summary for August 06, 2019: BXP opened $95.27, ranged $94.33-$96.21, closed $94.87. Volume 0.9M (1.48x 20-day avg). 20-day $97.52 | 50-day $98.28. 5-day return -4.38%. ATR-14 $1.75. RSI 38.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-08-06",
+        "open": 95.27,
+        "high": 96.21,
+        "low": 94.33,
+        "close": 94.87,
+        "volume": 896300,
+        "ma20": 97.52,
+        "ma50": 98.28,
+        "volume_vs_20d": 1.48,
+        "atr14": 1.75,
+        "chg_5d_pct": -4.38
+      },
+      "weekly_snapshot": {
+        "ticker": "BXP",
+        "week_start": "2019-08-05",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 38.9,
+        "price_vs_sma50": 0.965,
+        "notes": "ADX 9.2, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "BXP_2019-07-26_bearish_sample_001_009",
+      "scenario_id": "BXP_2019-07-26",
+      "window_type": "bearish_sample_001",
+      "chronological_index": 9,
+      "state_id": "bearish_sample_001_state_009",
+      "time_spot": "2019-08-07",
+      "reference_session": "2019-08-07",
+      "question": "Session summary for August 07, 2019: BXP opened $94.10, ranged $93.49-$96.77, closed $95.83. Volume 0.7M (1.20x 20-day avg). 20-day $97.31 | 50-day $98.23. 5-day return -3.37%. ATR-14 $1.90. RSI 43.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-08-07",
+        "open": 94.1,
+        "high": 96.77,
+        "low": 93.49,
+        "close": 95.83,
+        "volume": 733800,
+        "ma20": 97.31,
+        "ma50": 98.23,
+        "volume_vs_20d": 1.2,
+        "atr14": 1.9,
+        "chg_5d_pct": -3.37
+      },
+      "weekly_snapshot": {
+        "ticker": "BXP",
+        "week_start": "2019-08-05",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 43.3,
+        "price_vs_sma50": 0.976,
+        "notes": "ADX 9.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "BXP_2019-07-26_bearish_sample_001_010",
+      "scenario_id": "BXP_2019-07-26",
+      "window_type": "bearish_sample_001",
+      "chronological_index": 10,
+      "state_id": "bearish_sample_001_state_010",
+      "time_spot": "2019-08-08",
+      "reference_session": "2019-08-08",
+      "question": "Session summary for August 08, 2019: BXP opened $96.05, ranged $95.57-$97.92, closed $97.64. Volume 0.6M (1.02x 20-day avg). 20-day $97.25 | 50-day $98.23. 5-day return +0.43%. ATR-14 $1.90. RSI 59.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-08-08",
+        "open": 96.05,
+        "high": 97.92,
+        "low": 95.57,
+        "close": 97.64,
+        "volume": 616500,
+        "ma20": 97.25,
+        "ma50": 98.23,
+        "volume_vs_20d": 1.02,
+        "atr14": 1.9,
+        "chg_5d_pct": 0.43
+      },
+      "weekly_snapshot": {
+        "ticker": "BXP",
+        "week_start": "2019-08-05",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 59.8,
+        "price_vs_sma50": 0.994,
+        "notes": "ADX 9.0, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "BXP_2019-07-26_bearish_sample_001_011",
+      "scenario_id": "BXP_2019-07-26",
+      "window_type": "bearish_sample_001",
+      "chronological_index": 11,
+      "state_id": "bearish_sample_001_state_011",
+      "time_spot": "2019-08-09",
+      "reference_session": "2019-08-09",
+      "question": "Session summary for August 09, 2019: BXP opened $97.50, ranged $95.68-$97.71, closed $96.47. Volume 0.5M (0.87x 20-day avg). 20-day $97.14 | 50-day $98.23. 5-day return -0.62%. ATR-14 $1.97. RSI 53.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-08-09",
+        "open": 97.5,
+        "high": 97.71,
+        "low": 95.68,
+        "close": 96.47,
+        "volume": 536900,
+        "ma20": 97.14,
+        "ma50": 98.23,
+        "volume_vs_20d": 0.87,
+        "atr14": 1.97,
+        "chg_5d_pct": -0.62
+      },
+      "weekly_snapshot": {
+        "ticker": "BXP",
+        "week_start": "2019-08-05",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 53.0,
+        "price_vs_sma50": 0.982,
+        "notes": "ADX 9.2, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "BXP_2019-07-26_bearish_sample_001_012",
+      "scenario_id": "BXP_2019-07-26",
+      "window_type": "bearish_sample_001",
+      "chronological_index": 12,
+      "state_id": "bearish_sample_001_state_012",
+      "time_spot": "2019-08-12",
+      "reference_session": "2019-08-12",
+      "question": "Session summary for August 12, 2019: BXP opened $96.13, ranged $94.27-$96.18, closed $94.63. Volume 0.7M (1.14x 20-day avg). 20-day $96.95 | 50-day $98.18. 5-day return -0.37%. ATR-14 $2.03. RSI 40.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-08-12",
+        "open": 96.13,
+        "high": 96.18,
+        "low": 94.27,
+        "close": 94.63,
+        "volume": 725700,
+        "ma20": 96.95,
+        "ma50": 98.18,
+        "volume_vs_20d": 1.14,
+        "atr14": 2.03,
+        "chg_5d_pct": -0.37
+      },
+      "weekly_snapshot": {
+        "ticker": "BXP",
+        "week_start": "2019-08-12",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 40.4,
+        "price_vs_sma50": 0.964,
+        "notes": "ADX 9.6, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "BXP_2019-07-26_bearish_sample_001_013",
+      "scenario_id": "BXP_2019-07-26",
+      "window_type": "bearish_sample_001",
+      "chronological_index": 13,
+      "state_id": "bearish_sample_001_state_013",
+      "time_spot": "2019-08-13",
+      "reference_session": "2019-08-13",
+      "question": "Session summary for August 13, 2019: BXP opened $94.54, ranged $94.32-$95.54, closed $94.94. Volume 0.6M (0.92x 20-day avg). 20-day $96.79 | 50-day $98.13. 5-day return +0.07%. ATR-14 $2.05. RSI 40.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-08-13",
+        "open": 94.54,
+        "high": 95.54,
+        "low": 94.32,
+        "close": 94.94,
+        "volume": 594100,
+        "ma20": 96.79,
+        "ma50": 98.13,
+        "volume_vs_20d": 0.92,
+        "atr14": 2.05,
+        "chg_5d_pct": 0.07
+      },
+      "weekly_snapshot": {
+        "ticker": "BXP",
+        "week_start": "2019-08-12",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 40.9,
+        "price_vs_sma50": 0.967,
+        "notes": "ADX 9.2, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "BXP_2019-07-26_bearish_sample_001_014",
+      "scenario_id": "BXP_2019-07-26",
+      "window_type": "bearish_sample_001",
+      "chronological_index": 14,
+      "state_id": "bearish_sample_001_state_014",
+      "time_spot": "2019-08-14",
+      "reference_session": "2019-08-14",
+      "question": "Session summary for August 14, 2019: BXP opened $94.34, ranged $93.42-$94.63, closed $93.70. Volume 0.6M (0.89x 20-day avg). 20-day $96.63 | 50-day $98.05. 5-day return -2.22%. ATR-14 $2.09. RSI 36.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-08-14",
+        "open": 94.34,
+        "high": 94.63,
+        "low": 93.42,
+        "close": 93.7,
+        "volume": 582300,
+        "ma20": 96.63,
+        "ma50": 98.05,
+        "volume_vs_20d": 0.89,
+        "atr14": 2.09,
+        "chg_5d_pct": -2.22
+      },
+      "weekly_snapshot": {
+        "ticker": "BXP",
+        "week_start": "2019-08-12",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 36.2,
+        "price_vs_sma50": 0.956,
+        "notes": "ADX 10.4, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "BXP_2019-07-26_bearish_sample_001_015",
+      "scenario_id": "BXP_2019-07-26",
+      "window_type": "bearish_sample_001",
+      "chronological_index": 15,
+      "state_id": "bearish_sample_001_state_015",
+      "time_spot": "2019-08-15",
+      "reference_session": "2019-08-15",
+      "question": "Session summary for August 15, 2019: BXP opened $93.65, ranged $93.65-$95.06, closed $94.80. Volume 0.8M (1.15x 20-day avg). 20-day $96.50 | 50-day $97.94. 5-day return -2.91%. ATR-14 $2.12. RSI 38.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-08-15",
+        "open": 93.65,
+        "high": 95.06,
+        "low": 93.65,
+        "close": 94.8,
+        "volume": 760400,
+        "ma20": 96.5,
+        "ma50": 97.94,
+        "volume_vs_20d": 1.15,
+        "atr14": 2.12,
+        "chg_5d_pct": -2.91
+      },
+      "weekly_snapshot": {
+        "ticker": "BXP",
+        "week_start": "2019-08-12",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 38.8,
+        "price_vs_sma50": 0.968,
+        "notes": "ADX 12.0, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "BXP_2019-07-26_bearish_sample_001_016",
+      "scenario_id": "BXP_2019-07-26",
+      "window_type": "bearish_sample_001",
+      "chronological_index": 16,
+      "state_id": "bearish_sample_001_state_016",
+      "time_spot": "2019-08-16",
+      "reference_session": "2019-08-16",
+      "question": "Session summary for August 16, 2019: BXP opened $95.08, ranged $94.48-$96.04, closed $95.63. Volume 0.6M (0.86x 20-day avg). 20-day $96.51 | 50-day $97.84. 5-day return -0.87%. ATR-14 $2.14. RSI 39.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-08-16",
+        "open": 95.08,
+        "high": 96.04,
+        "low": 94.48,
+        "close": 95.63,
+        "volume": 567400,
+        "ma20": 96.51,
+        "ma50": 97.84,
+        "volume_vs_20d": 0.86,
+        "atr14": 2.14,
+        "chg_5d_pct": -0.87
+      },
+      "weekly_snapshot": {
+        "ticker": "BXP",
+        "week_start": "2019-08-12",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 39.2,
+        "price_vs_sma50": 0.977,
+        "notes": "ADX 12.6, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "BXP_2019-07-26_bearish_sample_001_017",
+      "scenario_id": "BXP_2019-07-26",
+      "window_type": "bearish_sample_001",
+      "chronological_index": 17,
+      "state_id": "bearish_sample_001_state_017",
+      "time_spot": "2019-08-19",
+      "reference_session": "2019-08-19",
+      "question": "Session summary for August 19, 2019: BXP opened $96.32, ranged $95.61-$96.39, closed $95.77. Volume 0.4M (0.63x 20-day avg). 20-day $96.51 | 50-day $97.74. 5-day return +1.20%. ATR-14 $2.08. RSI 37.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-08-19",
+        "open": 96.32,
+        "high": 96.39,
+        "low": 95.61,
+        "close": 95.77,
+        "volume": 404800,
+        "ma20": 96.51,
+        "ma50": 97.74,
+        "volume_vs_20d": 0.63,
+        "atr14": 2.08,
+        "chg_5d_pct": 1.2
+      },
+      "weekly_snapshot": {
+        "ticker": "BXP",
+        "week_start": "2019-08-19",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 37.4,
+        "price_vs_sma50": 0.98,
+        "notes": "ADX 13.8, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "BXP_2019-07-26_bearish_sample_001_018",
+      "scenario_id": "BXP_2019-07-26",
+      "window_type": "bearish_sample_001",
+      "chronological_index": 18,
+      "state_id": "bearish_sample_001_state_018",
+      "time_spot": "2019-08-20",
+      "reference_session": "2019-08-20",
+      "question": "Session summary for August 20, 2019: BXP opened $95.40, ranged $94.99-$95.92, closed $95.17. Volume 0.5M (0.77x 20-day avg). 20-day $96.42 | 50-day $97.65. 5-day return +0.24%. ATR-14 $1.91. RSI 36.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-08-20",
+        "open": 95.4,
+        "high": 95.92,
+        "low": 94.99,
+        "close": 95.17,
+        "volume": 492800,
+        "ma20": 96.42,
+        "ma50": 97.65,
+        "volume_vs_20d": 0.77,
+        "atr14": 1.91,
+        "chg_5d_pct": 0.24
+      },
+      "weekly_snapshot": {
+        "ticker": "BXP",
+        "week_start": "2019-08-19",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 36.0,
+        "price_vs_sma50": 0.975,
+        "notes": "ADX 15.8, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "BXP_2019-07-26_bearish_sample_001_019",
+      "scenario_id": "BXP_2019-07-26",
+      "window_type": "bearish_sample_001",
+      "chronological_index": 19,
+      "state_id": "bearish_sample_001_state_019",
+      "time_spot": "2019-08-21",
+      "reference_session": "2019-08-21",
+      "question": "Session summary for August 21, 2019: BXP opened $95.29, ranged $94.59-$95.84, closed $95.23. Volume 0.7M (1.13x 20-day avg). 20-day $96.32 | 50-day $97.58. 5-day return +1.63%. ATR-14 $1.78. RSI 42.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-08-21",
+        "open": 95.29,
+        "high": 95.84,
+        "low": 94.59,
+        "close": 95.23,
+        "volume": 742100,
+        "ma20": 96.32,
+        "ma50": 97.58,
+        "volume_vs_20d": 1.13,
+        "atr14": 1.78,
+        "chg_5d_pct": 1.63
+      },
+      "weekly_snapshot": {
+        "ticker": "BXP",
+        "week_start": "2019-08-19",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 42.0,
+        "price_vs_sma50": 0.976,
+        "notes": "ADX 18.7, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "BXP_2019-07-26_bearish_sample_001_020",
+      "scenario_id": "BXP_2019-07-26",
+      "window_type": "bearish_sample_001",
+      "chronological_index": 20,
+      "state_id": "bearish_sample_001_state_020",
+      "time_spot": "2019-08-22",
+      "reference_session": "2019-08-22",
+      "question": "Session summary for August 22, 2019: BXP opened $95.63, ranged $94.20-$95.69, closed $95.42. Volume 0.5M (0.72x 20-day avg). 20-day $96.22 | 50-day $97.50. 5-day return +0.66%. ATR-14 $1.80. RSI 43.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-08-22",
+        "open": 95.63,
+        "high": 95.69,
+        "low": 94.2,
+        "close": 95.42,
+        "volume": 473900,
+        "ma20": 96.22,
+        "ma50": 97.5,
+        "volume_vs_20d": 0.72,
+        "atr14": 1.8,
+        "chg_5d_pct": 0.66
+      },
+      "weekly_snapshot": {
+        "ticker": "BXP",
+        "week_start": "2019-08-19",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 43.3,
+        "price_vs_sma50": 0.979,
+        "notes": "ADX 21.8, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "BXP_2019-07-26_bearish_sample_001_021",
+      "scenario_id": "BXP_2019-07-26",
+      "window_type": "bearish_sample_001",
+      "chronological_index": 21,
+      "state_id": "bearish_sample_001_state_021",
+      "time_spot": "2019-08-23",
+      "reference_session": "2019-08-23",
+      "question": "Session summary for August 23, 2019: BXP opened $95.09, ranged $93.53-$95.62, closed $93.86. Volume 0.6M (0.85x 20-day avg). 20-day $96.01 | 50-day $97.37. 5-day return -1.86%. ATR-14 $1.71. RSI 45.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-08-23",
+        "open": 95.09,
+        "high": 95.62,
+        "low": 93.53,
+        "close": 93.86,
+        "volume": 566700,
+        "ma20": 96.01,
+        "ma50": 97.37,
+        "volume_vs_20d": 0.85,
+        "atr14": 1.71,
+        "chg_5d_pct": -1.86
+      },
+      "weekly_snapshot": {
+        "ticker": "BXP",
+        "week_start": "2019-08-19",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 45.3,
+        "price_vs_sma50": 0.964,
+        "notes": "ADX 22.7, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "BXP_2019-07-26_bearish_sample_001_022",
+      "scenario_id": "BXP_2019-07-26",
+      "window_type": "bearish_sample_001",
+      "chronological_index": 22,
+      "state_id": "bearish_sample_001_state_022",
+      "time_spot": "2019-08-26",
+      "reference_session": "2019-08-26",
+      "question": "Session summary for August 26, 2019: BXP opened $94.57, ranged $93.64-$94.81, closed $94.75. Volume 0.5M (0.71x 20-day avg). 20-day $95.82 | 50-day $97.26. 5-day return -1.06%. ATR-14 $1.66. RSI 49.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-08-26",
+        "open": 94.57,
+        "high": 94.81,
+        "low": 93.64,
+        "close": 94.75,
+        "volume": 462700,
+        "ma20": 95.82,
+        "ma50": 97.26,
+        "volume_vs_20d": 0.71,
+        "atr14": 1.66,
+        "chg_5d_pct": -1.06
+      },
+      "weekly_snapshot": {
+        "ticker": "BXP",
+        "week_start": "2019-08-26",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 49.5,
+        "price_vs_sma50": 0.974,
+        "notes": "ADX 24.2, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "BXP_2019-07-26_bearish_sample_001_023",
+      "scenario_id": "BXP_2019-07-26",
+      "window_type": "bearish_sample_001",
+      "chronological_index": 23,
+      "state_id": "bearish_sample_001_state_023",
+      "time_spot": "2019-08-27",
+      "reference_session": "2019-08-27",
+      "question": "Session summary for August 27, 2019: BXP opened $95.29, ranged $94.07-$95.59, closed $94.16. Volume 0.6M (0.90x 20-day avg). 20-day $95.57 | 50-day $97.12. 5-day return -1.06%. ATR-14 $1.54. RSI 43.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-08-27",
+        "open": 95.29,
+        "high": 95.59,
+        "low": 94.07,
+        "close": 94.16,
+        "volume": 587000,
+        "ma20": 95.57,
+        "ma50": 97.12,
+        "volume_vs_20d": 0.9,
+        "atr14": 1.54,
+        "chg_5d_pct": -1.06
+      },
+      "weekly_snapshot": {
+        "ticker": "BXP",
+        "week_start": "2019-08-26",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 43.3,
+        "price_vs_sma50": 0.97,
+        "notes": "ADX 23.9, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "BXP_2019-07-26_bearish_sample_001_024",
+      "scenario_id": "BXP_2019-07-26",
+      "window_type": "bearish_sample_001",
+      "chronological_index": 24,
+      "state_id": "bearish_sample_001_state_024",
+      "time_spot": "2019-08-28",
+      "reference_session": "2019-08-28",
+      "question": "Session summary for August 28, 2019: BXP opened $94.13, ranged $93.96-$94.72, closed $94.46. Volume 0.3M (0.53x 20-day avg). 20-day $95.33 | 50-day $96.99. 5-day return -0.81%. ATR-14 $1.42. RSI 35.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-08-28",
+        "open": 94.13,
+        "high": 94.72,
+        "low": 93.96,
+        "close": 94.46,
+        "volume": 333600,
+        "ma20": 95.33,
+        "ma50": 96.99,
+        "volume_vs_20d": 0.53,
+        "atr14": 1.42,
+        "chg_5d_pct": -0.81
+      },
+      "weekly_snapshot": {
+        "ticker": "BXP",
+        "week_start": "2019-08-26",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 35.3,
+        "price_vs_sma50": 0.974,
+        "notes": "ADX 25.7, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "BXP_2019-07-26_bearish_sample_001_025",
+      "scenario_id": "BXP_2019-07-26",
+      "window_type": "bearish_sample_001",
+      "chronological_index": 25,
+      "state_id": "bearish_sample_001_state_025",
+      "time_spot": "2019-08-29",
+      "reference_session": "2019-08-29",
+      "question": "Session summary for August 29, 2019: BXP opened $95.05, ranged $94.77-$95.96, closed $95.54. Volume 0.4M (0.61x 20-day avg). 20-day $95.25 | 50-day $96.87. 5-day return +0.13%. ATR-14 $1.39. RSI 45.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-08-29",
+        "open": 95.05,
+        "high": 95.96,
+        "low": 94.77,
+        "close": 95.54,
+        "volume": 364500,
+        "ma20": 95.25,
+        "ma50": 96.87,
+        "volume_vs_20d": 0.61,
+        "atr14": 1.39,
+        "chg_5d_pct": 0.13
+      },
+      "weekly_snapshot": {
+        "ticker": "BXP",
+        "week_start": "2019-08-26",
+        "trend_regime": "rangebound",
+        "volatility_regime": "low",
+        "rsi_14": 45.7,
+        "price_vs_sma50": 0.986,
+        "notes": "ADX 25.8, MACD bullish"
+      }
+    }
+  ]
+}

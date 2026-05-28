@@ -1,0 +1,2898 @@
+{
+  "metadata": {
+    "instrument": "HWM",
+    "initial_capital": 10000,
+    "window_type": "bullish_sample_033",
+    "description": "HWM window (2022-10-13 \u2013 2022-11-16) sampled from S&P500 indicator archive.",
+    "num_mcqs": 25,
+    "notes": "Orders express target exposure fractions relative to the leverage ceiling.",
+    "max_leverage": 2.5,
+    "exposure_buckets": [
+      0.8,
+      0.6,
+      0.4,
+      0.2
+    ],
+    "start_reference": "2022-10-13",
+    "end_reference": "2022-11-16",
+    "regime": "bullish",
+    "original_sample": "snp500_sample_037"
+  },
+  "mcqs": [
+    {
+      "scenario_instance_id": "HWM_2022-10-13_bullish_sample_033_001",
+      "scenario_id": "HWM_2022-10-13",
+      "window_type": "bullish_sample_033",
+      "chronological_index": 1,
+      "state_id": "bullish_sample_033_state_001",
+      "time_spot": "2022-10-13",
+      "reference_session": "2022-10-13",
+      "question": "Session summary for October 13, 2022: HWM opened $31.27, ranged $30.99-$32.75, closed $32.56. Volume 2.6M (0.96x 20-day avg). 20-day $32.26 | 50-day $34.74. 5-day return -0.93%. ATR-14 $1.11. RSI 56.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-13",
+        "open": 31.27,
+        "high": 32.75,
+        "low": 30.99,
+        "close": 32.56,
+        "volume": 2607100,
+        "ma20": 32.26,
+        "ma50": 34.74,
+        "volume_vs_20d": 0.96,
+        "atr14": 1.11,
+        "chg_5d_pct": -0.93
+      },
+      "weekly_snapshot": {
+        "ticker": "HWM",
+        "week_start": "2022-10-10",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 56.5,
+        "price_vs_sma50": 0.937,
+        "notes": "ADX 24.4, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "HWM_2022-10-13_bullish_sample_033_002",
+      "scenario_id": "HWM_2022-10-13",
+      "window_type": "bullish_sample_033",
+      "chronological_index": 2,
+      "state_id": "bullish_sample_033_state_002",
+      "time_spot": "2022-10-14",
+      "reference_session": "2022-10-14",
+      "question": "Session summary for October 14, 2022: HWM opened $32.87, ranged $31.81-$33.00, closed $31.97. Volume 1.8M (0.71x 20-day avg). 20-day $32.19 | 50-day $34.64. 5-day return -0.77%. ATR-14 $1.13. RSI 57.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-14",
+        "open": 32.87,
+        "high": 33.0,
+        "low": 31.81,
+        "close": 31.97,
+        "volume": 1819000,
+        "ma20": 32.19,
+        "ma50": 34.64,
+        "volume_vs_20d": 0.71,
+        "atr14": 1.13,
+        "chg_5d_pct": -0.77
+      },
+      "weekly_snapshot": {
+        "ticker": "HWM",
+        "week_start": "2022-10-10",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 57.8,
+        "price_vs_sma50": 0.923,
+        "notes": "ADX 22.5, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "HWM_2022-10-13_bullish_sample_033_003",
+      "scenario_id": "HWM_2022-10-13",
+      "window_type": "bullish_sample_033",
+      "chronological_index": 3,
+      "state_id": "bullish_sample_033_state_003",
+      "time_spot": "2022-10-17",
+      "reference_session": "2022-10-17",
+      "question": "Session summary for October 17, 2022: HWM opened $32.67, ranged $32.33-$33.06, closed $32.60. Volume 3.3M (1.26x 20-day avg). 20-day $32.13 | 50-day $34.56. 5-day return -0.03%. ATR-14 $1.14. RSI 60.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-17",
+        "open": 32.67,
+        "high": 33.06,
+        "low": 32.33,
+        "close": 32.6,
+        "volume": 3282600,
+        "ma20": 32.13,
+        "ma50": 34.56,
+        "volume_vs_20d": 1.26,
+        "atr14": 1.14,
+        "chg_5d_pct": -0.03
+      },
+      "weekly_snapshot": {
+        "ticker": "HWM",
+        "week_start": "2022-10-17",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 60.7,
+        "price_vs_sma50": 0.943,
+        "notes": "ADX 21.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "HWM_2022-10-13_bullish_sample_033_004",
+      "scenario_id": "HWM_2022-10-13",
+      "window_type": "bullish_sample_033",
+      "chronological_index": 4,
+      "state_id": "bullish_sample_033_state_004",
+      "time_spot": "2022-10-18",
+      "reference_session": "2022-10-18",
+      "question": "Session summary for October 18, 2022: HWM opened $33.39, ranged $32.98-$33.57, closed $33.28. Volume 2.3M (0.91x 20-day avg). 20-day $32.10 | 50-day $34.48. 5-day return +1.85%. ATR-14 $1.14. RSI 60.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-18",
+        "open": 33.39,
+        "high": 33.57,
+        "low": 32.98,
+        "close": 33.28,
+        "volume": 2343700,
+        "ma20": 32.1,
+        "ma50": 34.48,
+        "volume_vs_20d": 0.91,
+        "atr14": 1.14,
+        "chg_5d_pct": 1.85
+      },
+      "weekly_snapshot": {
+        "ticker": "HWM",
+        "week_start": "2022-10-17",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 60.3,
+        "price_vs_sma50": 0.965,
+        "notes": "ADX 19.5, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "HWM_2022-10-13_bullish_sample_033_005",
+      "scenario_id": "HWM_2022-10-13",
+      "window_type": "bullish_sample_033",
+      "chronological_index": 5,
+      "state_id": "bullish_sample_033_state_005",
+      "time_spot": "2022-10-19",
+      "reference_session": "2022-10-19",
+      "question": "Session summary for October 19, 2022: HWM opened $33.13, ranged $33.03-$34.00, closed $33.90. Volume 4.7M (1.75x 20-day avg). 20-day $32.14 | 50-day $34.42. 5-day return +6.63%. ATR-14 $1.12. RSI 70.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-19",
+        "open": 33.13,
+        "high": 34.0,
+        "low": 33.03,
+        "close": 33.9,
+        "volume": 4675400,
+        "ma20": 32.14,
+        "ma50": 34.42,
+        "volume_vs_20d": 1.75,
+        "atr14": 1.12,
+        "chg_5d_pct": 6.63
+      },
+      "weekly_snapshot": {
+        "ticker": "HWM",
+        "week_start": "2022-10-17",
+        "trend_regime": "rangebound",
+        "volatility_regime": "high",
+        "rsi_14": 70.0,
+        "price_vs_sma50": 0.985,
+        "notes": "ADX 18.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "HWM_2022-10-13_bullish_sample_033_006",
+      "scenario_id": "HWM_2022-10-13",
+      "window_type": "bullish_sample_033",
+      "chronological_index": 6,
+      "state_id": "bullish_sample_033_state_006",
+      "time_spot": "2022-10-20",
+      "reference_session": "2022-10-20",
+      "question": "Session summary for October 20, 2022: HWM opened $33.96, ranged $33.65-$34.61, closed $33.68. Volume 5.2M (1.84x 20-day avg). 20-day $32.20 | 50-day $34.34. 5-day return +3.44%. ATR-14 $1.11. RSI 68.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-20",
+        "open": 33.96,
+        "high": 34.61,
+        "low": 33.65,
+        "close": 33.68,
+        "volume": 5165300,
+        "ma20": 32.2,
+        "ma50": 34.34,
+        "volume_vs_20d": 1.84,
+        "atr14": 1.11,
+        "chg_5d_pct": 3.44
+      },
+      "weekly_snapshot": {
+        "ticker": "HWM",
+        "week_start": "2022-10-17",
+        "trend_regime": "rangebound",
+        "volatility_regime": "high",
+        "rsi_14": 68.3,
+        "price_vs_sma50": 0.981,
+        "notes": "ADX 16.5, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "HWM_2022-10-13_bullish_sample_033_007",
+      "scenario_id": "HWM_2022-10-13",
+      "window_type": "bullish_sample_033",
+      "chronological_index": 7,
+      "state_id": "bullish_sample_033_state_007",
+      "time_spot": "2022-10-21",
+      "reference_session": "2022-10-21",
+      "question": "Session summary for October 21, 2022: HWM opened $33.66, ranged $33.65-$35.07, closed $35.02. Volume 3.4M (1.19x 20-day avg). 20-day $32.37 | 50-day $34.28. 5-day return +9.54%. ATR-14 $1.12. RSI 69.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-21",
+        "open": 33.66,
+        "high": 35.07,
+        "low": 33.65,
+        "close": 35.02,
+        "volume": 3365900,
+        "ma20": 32.37,
+        "ma50": 34.28,
+        "volume_vs_20d": 1.19,
+        "atr14": 1.12,
+        "chg_5d_pct": 9.54
+      },
+      "weekly_snapshot": {
+        "ticker": "HWM",
+        "week_start": "2022-10-17",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 69.0,
+        "price_vs_sma50": 1.021,
+        "notes": "ADX 16.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "HWM_2022-10-13_bullish_sample_033_008",
+      "scenario_id": "HWM_2022-10-13",
+      "window_type": "bullish_sample_033",
+      "chronological_index": 8,
+      "state_id": "bullish_sample_033_state_008",
+      "time_spot": "2022-10-24",
+      "reference_session": "2022-10-24",
+      "question": "Session summary for October 24, 2022: HWM opened $35.30, ranged $34.65-$35.53, closed $35.05. Volume 4.1M (1.41x 20-day avg). 20-day $32.59 | 50-day $34.22. 5-day return +7.50%. ATR-14 $1.08. RSI 63.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-24",
+        "open": 35.3,
+        "high": 35.53,
+        "low": 34.65,
+        "close": 35.05,
+        "volume": 4108900,
+        "ma20": 32.59,
+        "ma50": 34.22,
+        "volume_vs_20d": 1.41,
+        "atr14": 1.08,
+        "chg_5d_pct": 7.5
+      },
+      "weekly_snapshot": {
+        "ticker": "HWM",
+        "week_start": "2022-10-24",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 63.0,
+        "price_vs_sma50": 1.024,
+        "notes": "ADX 17.4, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "HWM_2022-10-13_bullish_sample_033_009",
+      "scenario_id": "HWM_2022-10-13",
+      "window_type": "bullish_sample_033",
+      "chronological_index": 9,
+      "state_id": "bullish_sample_033_state_009",
+      "time_spot": "2022-10-25",
+      "reference_session": "2022-10-25",
+      "question": "Session summary for October 25, 2022: HWM opened $34.90, ranged $34.53-$35.32, closed $35.22. Volume 3.0M (1.02x 20-day avg). 20-day $32.81 | 50-day $34.16. 5-day return +5.83%. ATR-14 $1.07. RSI 65.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-25",
+        "open": 34.9,
+        "high": 35.32,
+        "low": 34.53,
+        "close": 35.22,
+        "volume": 3021600,
+        "ma20": 32.81,
+        "ma50": 34.16,
+        "volume_vs_20d": 1.02,
+        "atr14": 1.07,
+        "chg_5d_pct": 5.83
+      },
+      "weekly_snapshot": {
+        "ticker": "HWM",
+        "week_start": "2022-10-24",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 65.5,
+        "price_vs_sma50": 1.031,
+        "notes": "ADX 18.5, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "HWM_2022-10-13_bullish_sample_033_010",
+      "scenario_id": "HWM_2022-10-13",
+      "window_type": "bullish_sample_033",
+      "chronological_index": 10,
+      "state_id": "bullish_sample_033_state_010",
+      "time_spot": "2022-10-26",
+      "reference_session": "2022-10-26",
+      "question": "Session summary for October 26, 2022: HWM opened $35.51, ranged $34.28-$35.69, closed $34.36. Volume 4.5M (1.47x 20-day avg). 20-day $32.95 | 50-day $34.08. 5-day return +1.37%. ATR-14 $1.11. RSI 59.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-26",
+        "open": 35.51,
+        "high": 35.69,
+        "low": 34.28,
+        "close": 34.36,
+        "volume": 4502900,
+        "ma20": 32.95,
+        "ma50": 34.08,
+        "volume_vs_20d": 1.47,
+        "atr14": 1.11,
+        "chg_5d_pct": 1.37
+      },
+      "weekly_snapshot": {
+        "ticker": "HWM",
+        "week_start": "2022-10-24",
+        "trend_regime": "rangebound",
+        "volatility_regime": "high",
+        "rsi_14": 59.5,
+        "price_vs_sma50": 1.008,
+        "notes": "ADX 20.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "HWM_2022-10-13_bullish_sample_033_011",
+      "scenario_id": "HWM_2022-10-13",
+      "window_type": "bullish_sample_033",
+      "chronological_index": 11,
+      "state_id": "bullish_sample_033_state_011",
+      "time_spot": "2022-10-27",
+      "reference_session": "2022-10-27",
+      "question": "Session summary for October 27, 2022: HWM opened $34.73, ranged $34.67-$35.35, closed $34.74. Volume 3.0M (0.96x 20-day avg). 20-day $33.16 | 50-day $34.01. 5-day return +3.15%. ATR-14 $1.12. RSI 66.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-27",
+        "open": 34.73,
+        "high": 35.35,
+        "low": 34.67,
+        "close": 34.74,
+        "volume": 2976200,
+        "ma20": 33.16,
+        "ma50": 34.01,
+        "volume_vs_20d": 0.96,
+        "atr14": 1.12,
+        "chg_5d_pct": 3.15
+      },
+      "weekly_snapshot": {
+        "ticker": "HWM",
+        "week_start": "2022-10-24",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 66.6,
+        "price_vs_sma50": 1.021,
+        "notes": "ADX 22.2, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "HWM_2022-10-13_bullish_sample_033_012",
+      "scenario_id": "HWM_2022-10-13",
+      "window_type": "bullish_sample_033",
+      "chronological_index": 12,
+      "state_id": "bullish_sample_033_state_012",
+      "time_spot": "2022-10-28",
+      "reference_session": "2022-10-28",
+      "question": "Session summary for October 28, 2022: HWM opened $34.89, ranged $34.67-$35.82, closed $35.81. Volume 7.6M (2.34x 20-day avg). 20-day $33.41 | 50-day $33.97. 5-day return +2.26%. ATR-14 $1.13. RSI 69.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-28",
+        "open": 34.89,
+        "high": 35.82,
+        "low": 34.67,
+        "close": 35.81,
+        "volume": 7638700,
+        "ma20": 33.41,
+        "ma50": 33.97,
+        "volume_vs_20d": 2.34,
+        "atr14": 1.13,
+        "chg_5d_pct": 2.26
+      },
+      "weekly_snapshot": {
+        "ticker": "HWM",
+        "week_start": "2022-10-24",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 69.3,
+        "price_vs_sma50": 1.054,
+        "notes": "ADX 25.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "HWM_2022-10-13_bullish_sample_033_013",
+      "scenario_id": "HWM_2022-10-13",
+      "window_type": "bullish_sample_033",
+      "chronological_index": 13,
+      "state_id": "bullish_sample_033_state_013",
+      "time_spot": "2022-10-31",
+      "reference_session": "2022-10-31",
+      "question": "Session summary for October 31, 2022: HWM opened $34.35, ranged $33.84-$35.25, closed $35.20. Volume 6.7M (1.92x 20-day avg). 20-day $33.59 | 50-day $33.93. 5-day return +0.42%. ATR-14 $1.20. RSI 64.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-10-31",
+        "open": 34.35,
+        "high": 35.25,
+        "low": 33.84,
+        "close": 35.2,
+        "volume": 6714200,
+        "ma20": 33.59,
+        "ma50": 33.93,
+        "volume_vs_20d": 1.92,
+        "atr14": 1.2,
+        "chg_5d_pct": 0.42
+      },
+      "weekly_snapshot": {
+        "ticker": "HWM",
+        "week_start": "2022-10-31",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 64.3,
+        "price_vs_sma50": 1.037,
+        "notes": "ADX 26.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "HWM_2022-10-13_bullish_sample_033_014",
+      "scenario_id": "HWM_2022-10-13",
+      "window_type": "bullish_sample_033",
+      "chronological_index": 14,
+      "state_id": "bullish_sample_033_state_014",
+      "time_spot": "2022-11-01",
+      "reference_session": "2022-11-01",
+      "question": "Session summary for November 01, 2022: HWM opened $35.58, ranged $35.25-$36.17, closed $36.13. Volume 4.3M (1.20x 20-day avg). 20-day $33.73 | 50-day $33.93. 5-day return +2.59%. ATR-14 $1.18. RSI 74.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-11-01",
+        "open": 35.58,
+        "high": 36.17,
+        "low": 35.25,
+        "close": 36.13,
+        "volume": 4343400,
+        "ma20": 33.73,
+        "ma50": 33.93,
+        "volume_vs_20d": 1.2,
+        "atr14": 1.18,
+        "chg_5d_pct": 2.59
+      },
+      "weekly_snapshot": {
+        "ticker": "HWM",
+        "week_start": "2022-10-31",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 74.4,
+        "price_vs_sma50": 1.065,
+        "notes": "ADX 29.0, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "HWM_2022-10-13_bullish_sample_033_015",
+      "scenario_id": "HWM_2022-10-13",
+      "window_type": "bullish_sample_033",
+      "chronological_index": 15,
+      "state_id": "bullish_sample_033_state_015",
+      "time_spot": "2022-11-02",
+      "reference_session": "2022-11-02",
+      "question": "Session summary for November 02, 2022: HWM opened $36.05, ranged $34.95-$36.44, closed $34.99. Volume 4.4M (1.18x 20-day avg). 20-day $33.83 | 50-day $33.90. 5-day return +1.82%. ATR-14 $1.16. RSI 63.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-11-02",
+        "open": 36.05,
+        "high": 36.44,
+        "low": 34.95,
+        "close": 34.99,
+        "volume": 4384100,
+        "ma20": 33.83,
+        "ma50": 33.9,
+        "volume_vs_20d": 1.18,
+        "atr14": 1.16,
+        "chg_5d_pct": 1.82
+      },
+      "weekly_snapshot": {
+        "ticker": "HWM",
+        "week_start": "2022-10-31",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 63.1,
+        "price_vs_sma50": 1.032,
+        "notes": "ADX 33.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "HWM_2022-10-13_bullish_sample_033_016",
+      "scenario_id": "HWM_2022-10-13",
+      "window_type": "bullish_sample_033",
+      "chronological_index": 16,
+      "state_id": "bullish_sample_033_state_016",
+      "time_spot": "2022-11-03",
+      "reference_session": "2022-11-03",
+      "question": "Session summary for November 03, 2022: HWM opened $34.64, ranged $34.39-$35.59, closed $34.92. Volume 2.8M (0.74x 20-day avg). 20-day $33.94 | 50-day $33.87. 5-day return +0.51%. ATR-14 $1.16. RSI 66.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-11-03",
+        "open": 34.64,
+        "high": 35.59,
+        "low": 34.39,
+        "close": 34.92,
+        "volume": 2788100,
+        "ma20": 33.94,
+        "ma50": 33.87,
+        "volume_vs_20d": 0.74,
+        "atr14": 1.16,
+        "chg_5d_pct": 0.51
+      },
+      "weekly_snapshot": {
+        "ticker": "HWM",
+        "week_start": "2022-10-31",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 66.9,
+        "price_vs_sma50": 1.031,
+        "notes": "ADX 35.2, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "HWM_2022-10-13_bullish_sample_033_017",
+      "scenario_id": "HWM_2022-10-13",
+      "window_type": "bullish_sample_033",
+      "chronological_index": 17,
+      "state_id": "bullish_sample_033_state_017",
+      "time_spot": "2022-11-04",
+      "reference_session": "2022-11-04",
+      "question": "Session summary for November 04, 2022: HWM opened $35.29, ranged $35.10-$36.23, closed $35.72. Volume 5.3M (1.36x 20-day avg). 20-day $34.11 | 50-day $33.83. 5-day return -0.25%. ATR-14 $1.18. RSI 67.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-11-04",
+        "open": 35.29,
+        "high": 36.23,
+        "low": 35.1,
+        "close": 35.72,
+        "volume": 5309400,
+        "ma20": 34.11,
+        "ma50": 33.83,
+        "volume_vs_20d": 1.36,
+        "atr14": 1.18,
+        "chg_5d_pct": -0.25
+      },
+      "weekly_snapshot": {
+        "ticker": "HWM",
+        "week_start": "2022-10-31",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 67.5,
+        "price_vs_sma50": 1.056,
+        "notes": "ADX 37.2, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "HWM_2022-10-13_bullish_sample_033_018",
+      "scenario_id": "HWM_2022-10-13",
+      "window_type": "bullish_sample_033",
+      "chronological_index": 18,
+      "state_id": "bullish_sample_033_state_018",
+      "time_spot": "2022-11-07",
+      "reference_session": "2022-11-07",
+      "question": "Session summary for November 07, 2022: HWM opened $35.98, ranged $35.84-$36.32, closed $36.29. Volume 2.4M (0.63x 20-day avg). 20-day $34.29 | 50-day $33.83. 5-day return +3.10%. ATR-14 $1.15. RSI 67.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-11-07",
+        "open": 35.98,
+        "high": 36.32,
+        "low": 35.84,
+        "close": 36.29,
+        "volume": 2440900,
+        "ma20": 34.29,
+        "ma50": 33.83,
+        "volume_vs_20d": 0.63,
+        "atr14": 1.15,
+        "chg_5d_pct": 3.1
+      },
+      "weekly_snapshot": {
+        "ticker": "HWM",
+        "week_start": "2022-11-07",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 67.1,
+        "price_vs_sma50": 1.073,
+        "notes": "ADX 38.9, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "HWM_2022-10-13_bullish_sample_033_019",
+      "scenario_id": "HWM_2022-10-13",
+      "window_type": "bullish_sample_033",
+      "chronological_index": 19,
+      "state_id": "bullish_sample_033_state_019",
+      "time_spot": "2022-11-08",
+      "reference_session": "2022-11-08",
+      "question": "Session summary for November 08, 2022: HWM opened $36.50, ranged $36.13-$36.98, closed $36.51. Volume 2.6M (0.66x 20-day avg). 20-day $34.49 | 50-day $33.84. 5-day return +1.07%. ATR-14 $1.14. RSI 65.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-11-08",
+        "open": 36.5,
+        "high": 36.98,
+        "low": 36.13,
+        "close": 36.51,
+        "volume": 2574300,
+        "ma20": 34.49,
+        "ma50": 33.84,
+        "volume_vs_20d": 0.66,
+        "atr14": 1.14,
+        "chg_5d_pct": 1.07
+      },
+      "weekly_snapshot": {
+        "ticker": "HWM",
+        "week_start": "2022-11-07",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 65.6,
+        "price_vs_sma50": 1.079,
+        "notes": "ADX 39.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "HWM_2022-10-13_bullish_sample_033_020",
+      "scenario_id": "HWM_2022-10-13",
+      "window_type": "bullish_sample_033",
+      "chronological_index": 20,
+      "state_id": "bullish_sample_033_state_020",
+      "time_spot": "2022-11-09",
+      "reference_session": "2022-11-09",
+      "question": "Session summary for November 09, 2022: HWM opened $36.25, ranged $35.98-$36.99, closed $36.02. Volume 3.6M (0.93x 20-day avg). 20-day $34.70 | 50-day $33.85. 5-day return +2.95%. ATR-14 $1.15. RSI 63.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-11-09",
+        "open": 36.25,
+        "high": 36.99,
+        "low": 35.98,
+        "close": 36.02,
+        "volume": 3608700,
+        "ma20": 34.7,
+        "ma50": 33.85,
+        "volume_vs_20d": 0.93,
+        "atr14": 1.15,
+        "chg_5d_pct": 2.95
+      },
+      "weekly_snapshot": {
+        "ticker": "HWM",
+        "week_start": "2022-11-07",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 63.5,
+        "price_vs_sma50": 1.064,
+        "notes": "ADX 39.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "HWM_2022-10-13_bullish_sample_033_021",
+      "scenario_id": "HWM_2022-10-13",
+      "window_type": "bullish_sample_033",
+      "chronological_index": 21,
+      "state_id": "bullish_sample_033_state_021",
+      "time_spot": "2022-11-10",
+      "reference_session": "2022-11-10",
+      "question": "Session summary for November 10, 2022: HWM opened $36.88, ranged $36.80-$38.05, closed $37.96. Volume 4.3M (1.07x 20-day avg). 20-day $34.97 | 50-day $33.90. 5-day return +8.71%. ATR-14 $1.19. RSI 65.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-11-10",
+        "open": 36.88,
+        "high": 38.05,
+        "low": 36.8,
+        "close": 37.96,
+        "volume": 4263800,
+        "ma20": 34.97,
+        "ma50": 33.9,
+        "volume_vs_20d": 1.07,
+        "atr14": 1.19,
+        "chg_5d_pct": 8.71
+      },
+      "weekly_snapshot": {
+        "ticker": "HWM",
+        "week_start": "2022-11-07",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 65.9,
+        "price_vs_sma50": 1.12,
+        "notes": "ADX 39.5, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "HWM_2022-10-13_bullish_sample_033_022",
+      "scenario_id": "HWM_2022-10-13",
+      "window_type": "bullish_sample_033",
+      "chronological_index": 22,
+      "state_id": "bullish_sample_033_state_022",
+      "time_spot": "2022-11-11",
+      "reference_session": "2022-11-11",
+      "question": "Session summary for November 11, 2022: HWM opened $38.09, ranged $37.05-$38.89, closed $37.10. Volume 3.6M (0.90x 20-day avg). 20-day $35.22 | 50-day $33.95. 5-day return +3.86%. ATR-14 $1.26. RSI 60.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-11-11",
+        "open": 38.09,
+        "high": 38.89,
+        "low": 37.05,
+        "close": 37.1,
+        "volume": 3631900,
+        "ma20": 35.22,
+        "ma50": 33.95,
+        "volume_vs_20d": 0.9,
+        "atr14": 1.26,
+        "chg_5d_pct": 3.86
+      },
+      "weekly_snapshot": {
+        "ticker": "HWM",
+        "week_start": "2022-11-07",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 60.1,
+        "price_vs_sma50": 1.093,
+        "notes": "ADX 40.7, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "HWM_2022-10-13_bullish_sample_033_023",
+      "scenario_id": "HWM_2022-10-13",
+      "window_type": "bullish_sample_033",
+      "chronological_index": 23,
+      "state_id": "bullish_sample_033_state_023",
+      "time_spot": "2022-11-14",
+      "reference_session": "2022-11-14",
+      "question": "Session summary for November 14, 2022: HWM opened $36.86, ranged $36.32-$37.28, closed $36.33. Volume 3.0M (0.75x 20-day avg). 20-day $35.41 | 50-day $33.99. 5-day return +0.11%. ATR-14 $1.27. RSI 55.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-11-14",
+        "open": 36.86,
+        "high": 37.28,
+        "low": 36.32,
+        "close": 36.33,
+        "volume": 3018700,
+        "ma20": 35.41,
+        "ma50": 33.99,
+        "volume_vs_20d": 0.75,
+        "atr14": 1.27,
+        "chg_5d_pct": 0.11
+      },
+      "weekly_snapshot": {
+        "ticker": "HWM",
+        "week_start": "2022-11-14",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 55.2,
+        "price_vs_sma50": 1.069,
+        "notes": "ADX 41.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "HWM_2022-10-13_bullish_sample_033_024",
+      "scenario_id": "HWM_2022-10-13",
+      "window_type": "bullish_sample_033",
+      "chronological_index": 24,
+      "state_id": "bullish_sample_033_state_024",
+      "time_spot": "2022-11-15",
+      "reference_session": "2022-11-15",
+      "question": "Session summary for November 15, 2022: HWM opened $36.79, ranged $36.16-$36.93, closed $36.23. Volume 4.3M (1.04x 20-day avg). 20-day $35.56 | 50-day $34.02. 5-day return -0.79%. ATR-14 $1.22. RSI 59.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-11-15",
+        "open": 36.79,
+        "high": 36.93,
+        "low": 36.16,
+        "close": 36.23,
+        "volume": 4320200,
+        "ma20": 35.56,
+        "ma50": 34.02,
+        "volume_vs_20d": 1.04,
+        "atr14": 1.22,
+        "chg_5d_pct": -0.79
+      },
+      "weekly_snapshot": {
+        "ticker": "HWM",
+        "week_start": "2022-11-14",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 59.3,
+        "price_vs_sma50": 1.065,
+        "notes": "ADX 41.2, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "HWM_2022-10-13_bullish_sample_033_025",
+      "scenario_id": "HWM_2022-10-13",
+      "window_type": "bullish_sample_033",
+      "chronological_index": 25,
+      "state_id": "bullish_sample_033_state_025",
+      "time_spot": "2022-11-16",
+      "reference_session": "2022-11-16",
+      "question": "Session summary for November 16, 2022: HWM opened $36.07, ranged $35.90-$36.71, closed $36.51. Volume 4.5M (1.09x 20-day avg). 20-day $35.69 | 50-day $34.05. 5-day return +1.38%. ATR-14 $1.21. RSI 59.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2022-11-16",
+        "open": 36.07,
+        "high": 36.71,
+        "low": 35.9,
+        "close": 36.51,
+        "volume": 4513400,
+        "ma20": 35.69,
+        "ma50": 34.05,
+        "volume_vs_20d": 1.09,
+        "atr14": 1.21,
+        "chg_5d_pct": 1.38
+      },
+      "weekly_snapshot": {
+        "ticker": "HWM",
+        "week_start": "2022-11-14",
+        "trend_regime": "uptrend",
+        "volatility_regime": "high",
+        "rsi_14": 59.0,
+        "price_vs_sma50": 1.072,
+        "notes": "ADX 39.7, MACD bullish"
+      }
+    }
+  ]
+}

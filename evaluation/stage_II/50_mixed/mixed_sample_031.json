@@ -1,0 +1,2898 @@
+{
+  "metadata": {
+    "instrument": "PG",
+    "initial_capital": 10000,
+    "window_type": "mixed_sample_031",
+    "description": "PG window (2018-11-29 \u2013 2019-01-07) sampled from S&P500 indicator archive.",
+    "num_mcqs": 25,
+    "notes": "Orders express target exposure fractions relative to the leverage ceiling.",
+    "max_leverage": 2.5,
+    "exposure_buckets": [
+      0.8,
+      0.6,
+      0.4,
+      0.2
+    ],
+    "start_reference": "2018-11-29",
+    "end_reference": "2019-01-07",
+    "regime": "mixed",
+    "original_sample": "snp500_sample_066"
+  },
+  "mcqs": [
+    {
+      "scenario_instance_id": "PG_2018-11-29_mixed_sample_031_001",
+      "scenario_id": "PG_2018-11-29",
+      "window_type": "mixed_sample_031",
+      "chronological_index": 1,
+      "state_id": "mixed_sample_031_state_001",
+      "time_spot": "2018-11-29",
+      "reference_session": "2018-11-29",
+      "question": "Session summary for November 29, 2018: PG opened $78.32, ranged $78.15-$78.69, closed $78.29. Volume 6.1M (0.62x 20-day avg). 20-day $77.74 | 50-day $73.42. 5-day return +1.54%. ATR-14 $1.09. RSI 60.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2018-11-29",
+        "open": 78.32,
+        "high": 78.69,
+        "low": 78.15,
+        "close": 78.29,
+        "volume": 6126900,
+        "ma20": 77.74,
+        "ma50": 73.42,
+        "volume_vs_20d": 0.62,
+        "atr14": 1.09,
+        "chg_5d_pct": 1.54
+      },
+      "weekly_snapshot": {
+        "ticker": "PG",
+        "week_start": "2018-11-26",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 60.9,
+        "price_vs_sma50": 1.066,
+        "notes": "ADX 40.0, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "PG_2018-11-29_mixed_sample_031_002",
+      "scenario_id": "PG_2018-11-29",
+      "window_type": "mixed_sample_031",
+      "chronological_index": 2,
+      "state_id": "mixed_sample_031_state_002",
+      "time_spot": "2018-11-30",
+      "reference_session": "2018-11-30",
+      "question": "Session summary for November 30, 2018: PG opened $78.59, ranged $78.23-$79.83, closed $79.71. Volume 16.3M (1.59x 20-day avg). 20-day $77.94 | 50-day $73.59. 5-day return +3.24%. ATR-14 $1.11. RSI 64.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2018-11-30",
+        "open": 78.59,
+        "high": 79.83,
+        "low": 78.23,
+        "close": 79.71,
+        "volume": 16291800,
+        "ma20": 77.94,
+        "ma50": 73.59,
+        "volume_vs_20d": 1.59,
+        "atr14": 1.11,
+        "chg_5d_pct": 3.24
+      },
+      "weekly_snapshot": {
+        "ticker": "PG",
+        "week_start": "2018-11-26",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 64.3,
+        "price_vs_sma50": 1.083,
+        "notes": "ADX 35.6, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "PG_2018-11-29_mixed_sample_031_003",
+      "scenario_id": "PG_2018-11-29",
+      "window_type": "mixed_sample_031",
+      "chronological_index": 3,
+      "state_id": "mixed_sample_031_state_003",
+      "time_spot": "2018-12-03",
+      "reference_session": "2018-12-03",
+      "question": "Session summary for December 03, 2018: PG opened $79.85, ranged $77.82-$79.85, closed $78.71. Volume 13.9M (1.35x 20-day avg). 20-day $78.09 | 50-day $73.73. 5-day return +1.50%. ATR-14 $1.15. RSI 53.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2018-12-03",
+        "open": 79.85,
+        "high": 79.85,
+        "low": 77.82,
+        "close": 78.71,
+        "volume": 13934700,
+        "ma20": 78.09,
+        "ma50": 73.73,
+        "volume_vs_20d": 1.35,
+        "atr14": 1.15,
+        "chg_5d_pct": 1.5
+      },
+      "weekly_snapshot": {
+        "ticker": "PG",
+        "week_start": "2018-12-03",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 53.8,
+        "price_vs_sma50": 1.068,
+        "notes": "ADX 30.0, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "PG_2018-11-29_mixed_sample_031_004",
+      "scenario_id": "PG_2018-11-29",
+      "window_type": "mixed_sample_031",
+      "chronological_index": 4,
+      "state_id": "mixed_sample_031_state_004",
+      "time_spot": "2018-12-04",
+      "reference_session": "2018-12-04",
+      "question": "Session summary for December 04, 2018: PG opened $78.85, ranged $78.58-$80.01, closed $78.70. Volume 11.1M (1.08x 20-day avg). 20-day $78.18 | 50-day $73.89. 5-day return +0.64%. ATR-14 $1.14. RSI 48.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2018-12-04",
+        "open": 78.85,
+        "high": 80.01,
+        "low": 78.58,
+        "close": 78.7,
+        "volume": 11123600,
+        "ma20": 78.18,
+        "ma50": 73.89,
+        "volume_vs_20d": 1.08,
+        "atr14": 1.14,
+        "chg_5d_pct": 0.64
+      },
+      "weekly_snapshot": {
+        "ticker": "PG",
+        "week_start": "2018-12-03",
+        "trend_regime": "uptrend",
+        "volatility_regime": "low",
+        "rsi_14": 48.9,
+        "price_vs_sma50": 1.065,
+        "notes": "ADX 25.9, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "PG_2018-11-29_mixed_sample_031_005",
+      "scenario_id": "PG_2018-11-29",
+      "window_type": "mixed_sample_031",
+      "chronological_index": 5,
+      "state_id": "mixed_sample_031_state_005",
+      "time_spot": "2018-12-06",
+      "reference_session": "2018-12-06",
+      "question": "Session summary for December 06, 2018: PG opened $78.19, ranged $76.82-$78.97, closed $78.90. Volume 14.2M (1.34x 20-day avg). 20-day $78.27 | 50-day $74.08. 5-day return +0.58%. ATR-14 $1.23. RSI 50.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2018-12-06",
+        "open": 78.19,
+        "high": 78.97,
+        "low": 76.82,
+        "close": 78.9,
+        "volume": 14199200,
+        "ma20": 78.27,
+        "ma50": 74.08,
+        "volume_vs_20d": 1.34,
+        "atr14": 1.23,
+        "chg_5d_pct": 0.58
+      },
+      "weekly_snapshot": {
+        "ticker": "PG",
+        "week_start": "2018-12-03",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 50.4,
+        "price_vs_sma50": 1.065,
+        "notes": "ADX 23.0, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "PG_2018-11-29_mixed_sample_031_006",
+      "scenario_id": "PG_2018-11-29",
+      "window_type": "mixed_sample_031",
+      "chronological_index": 6,
+      "state_id": "mixed_sample_031_state_006",
+      "time_spot": "2018-12-07",
+      "reference_session": "2018-12-07",
+      "question": "Session summary for December 07, 2018: PG opened $78.94, ranged $77.71-$79.10, closed $77.98. Volume 8.0M (0.76x 20-day avg). 20-day $78.32 | 50-day $74.25. 5-day return -0.40%. ATR-14 $1.26. RSI 41.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2018-12-07",
+        "open": 78.94,
+        "high": 79.1,
+        "low": 77.71,
+        "close": 77.98,
+        "volume": 7996800,
+        "ma20": 78.32,
+        "ma50": 74.25,
+        "volume_vs_20d": 0.76,
+        "atr14": 1.26,
+        "chg_5d_pct": -0.4
+      },
+      "weekly_snapshot": {
+        "ticker": "PG",
+        "week_start": "2018-12-03",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 41.8,
+        "price_vs_sma50": 1.05,
+        "notes": "ADX 20.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "PG_2018-11-29_mixed_sample_031_007",
+      "scenario_id": "PG_2018-11-29",
+      "window_type": "mixed_sample_031",
+      "chronological_index": 7,
+      "state_id": "mixed_sample_031_state_007",
+      "time_spot": "2018-12-10",
+      "reference_session": "2018-12-10",
+      "question": "Session summary for December 10, 2018: PG opened $78.65, ranged $77.07-$78.78, closed $78.47. Volume 9.3M (0.87x 20-day avg). 20-day $78.39 | 50-day $74.43. 5-day return -1.57%. ATR-14 $1.32. RSI 45.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2018-12-10",
+        "open": 78.65,
+        "high": 78.78,
+        "low": 77.07,
+        "close": 78.47,
+        "volume": 9307600,
+        "ma20": 78.39,
+        "ma50": 74.43,
+        "volume_vs_20d": 0.87,
+        "atr14": 1.32,
+        "chg_5d_pct": -1.57
+      },
+      "weekly_snapshot": {
+        "ticker": "PG",
+        "week_start": "2018-12-10",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 45.6,
+        "price_vs_sma50": 1.054,
+        "notes": "ADX 18.6, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "PG_2018-11-29_mixed_sample_031_008",
+      "scenario_id": "PG_2018-11-29",
+      "window_type": "mixed_sample_031",
+      "chronological_index": 8,
+      "state_id": "mixed_sample_031_state_008",
+      "time_spot": "2018-12-11",
+      "reference_session": "2018-12-11",
+      "question": "Session summary for December 11, 2018: PG opened $79.05, ranged $78.78-$79.72, closed $79.21. Volume 8.7M (0.83x 20-day avg). 20-day $78.45 | 50-day $74.63. 5-day return +0.63%. ATR-14 $1.33. RSI 53.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2018-12-11",
+        "open": 79.05,
+        "high": 79.72,
+        "low": 78.78,
+        "close": 79.21,
+        "volume": 8743800,
+        "ma20": 78.45,
+        "ma50": 74.63,
+        "volume_vs_20d": 0.83,
+        "atr14": 1.33,
+        "chg_5d_pct": 0.63
+      },
+      "weekly_snapshot": {
+        "ticker": "PG",
+        "week_start": "2018-12-10",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 53.3,
+        "price_vs_sma50": 1.061,
+        "notes": "ADX 16.6, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "PG_2018-11-29_mixed_sample_031_009",
+      "scenario_id": "PG_2018-11-29",
+      "window_type": "mixed_sample_031",
+      "chronological_index": 9,
+      "state_id": "mixed_sample_031_state_009",
+      "time_spot": "2018-12-12",
+      "reference_session": "2018-12-12",
+      "question": "Session summary for December 12, 2018: PG opened $79.46, ranged $78.52-$79.75, closed $79.31. Volume 9.6M (0.93x 20-day avg). 20-day $78.51 | 50-day $74.81. 5-day return +0.77%. ATR-14 $1.30. RSI 61.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2018-12-12",
+        "open": 79.46,
+        "high": 79.75,
+        "low": 78.52,
+        "close": 79.31,
+        "volume": 9644000,
+        "ma20": 78.51,
+        "ma50": 74.81,
+        "volume_vs_20d": 0.93,
+        "atr14": 1.3,
+        "chg_5d_pct": 0.77
+      },
+      "weekly_snapshot": {
+        "ticker": "PG",
+        "week_start": "2018-12-10",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 61.6,
+        "price_vs_sma50": 1.06,
+        "notes": "ADX 14.2, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "PG_2018-11-29_mixed_sample_031_010",
+      "scenario_id": "PG_2018-11-29",
+      "window_type": "mixed_sample_031",
+      "chronological_index": 10,
+      "state_id": "mixed_sample_031_state_010",
+      "time_spot": "2018-12-13",
+      "reference_session": "2018-12-13",
+      "question": "Session summary for December 13, 2018: PG opened $80.02, ranged $79.96-$81.64, closed $81.38. Volume 18.5M (1.74x 20-day avg). 20-day $78.63 | 50-day $75.03. 5-day return +3.14%. ATR-14 $1.40. RSI 75.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2018-12-13",
+        "open": 80.02,
+        "high": 81.64,
+        "low": 79.96,
+        "close": 81.38,
+        "volume": 18541300,
+        "ma20": 78.63,
+        "ma50": 75.03,
+        "volume_vs_20d": 1.74,
+        "atr14": 1.4,
+        "chg_5d_pct": 3.14
+      },
+      "weekly_snapshot": {
+        "ticker": "PG",
+        "week_start": "2018-12-10",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 75.2,
+        "price_vs_sma50": 1.085,
+        "notes": "ADX 13.7, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "PG_2018-11-29_mixed_sample_031_011",
+      "scenario_id": "PG_2018-11-29",
+      "window_type": "mixed_sample_031",
+      "chronological_index": 11,
+      "state_id": "mixed_sample_031_state_011",
+      "time_spot": "2018-12-14",
+      "reference_session": "2018-12-14",
+      "question": "Session summary for December 14, 2018: PG opened $81.35, ranged $80.99-$81.73, closed $81.51. Volume 12.7M (1.18x 20-day avg). 20-day $78.77 | 50-day $75.27. 5-day return +4.53%. ATR-14 $1.37. RSI 75.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2018-12-14",
+        "open": 81.35,
+        "high": 81.73,
+        "low": 80.99,
+        "close": 81.51,
+        "volume": 12657300,
+        "ma20": 78.77,
+        "ma50": 75.27,
+        "volume_vs_20d": 1.18,
+        "atr14": 1.37,
+        "chg_5d_pct": 4.53
+      },
+      "weekly_snapshot": {
+        "ticker": "PG",
+        "week_start": "2018-12-10",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 75.3,
+        "price_vs_sma50": 1.083,
+        "notes": "ADX 14.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "PG_2018-11-29_mixed_sample_031_012",
+      "scenario_id": "PG_2018-11-29",
+      "window_type": "mixed_sample_031",
+      "chronological_index": 12,
+      "state_id": "mixed_sample_031_state_012",
+      "time_spot": "2018-12-17",
+      "reference_session": "2018-12-17",
+      "question": "Session summary for December 17, 2018: PG opened $80.97, ranged $77.93-$81.39, closed $78.25. Volume 12.4M (1.16x 20-day avg). 20-day $78.72 | 50-day $75.47. 5-day return -0.28%. ATR-14 $1.55. RSI 53.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2018-12-17",
+        "open": 80.97,
+        "high": 81.39,
+        "low": 77.93,
+        "close": 78.25,
+        "volume": 12427600,
+        "ma20": 78.72,
+        "ma50": 75.47,
+        "volume_vs_20d": 1.16,
+        "atr14": 1.55,
+        "chg_5d_pct": -0.28
+      },
+      "weekly_snapshot": {
+        "ticker": "PG",
+        "week_start": "2018-12-17",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 53.1,
+        "price_vs_sma50": 1.037,
+        "notes": "ADX 14.9, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "PG_2018-11-29_mixed_sample_031_013",
+      "scenario_id": "PG_2018-11-29",
+      "window_type": "mixed_sample_031",
+      "chronological_index": 13,
+      "state_id": "mixed_sample_031_state_013",
+      "time_spot": "2018-12-18",
+      "reference_session": "2018-12-18",
+      "question": "Session summary for December 18, 2018: PG opened $78.55, ranged $77.48-$78.70, closed $78.01. Volume 12.3M (1.15x 20-day avg). 20-day $78.66 | 50-day $75.65. 5-day return -1.51%. ATR-14 $1.57. RSI 49.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2018-12-18",
+        "open": 78.55,
+        "high": 78.7,
+        "low": 77.48,
+        "close": 78.01,
+        "volume": 12250600,
+        "ma20": 78.66,
+        "ma50": 75.65,
+        "volume_vs_20d": 1.15,
+        "atr14": 1.57,
+        "chg_5d_pct": -1.51
+      },
+      "weekly_snapshot": {
+        "ticker": "PG",
+        "week_start": "2018-12-17",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 49.1,
+        "price_vs_sma50": 1.031,
+        "notes": "ADX 15.5, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "PG_2018-11-29_mixed_sample_031_014",
+      "scenario_id": "PG_2018-11-29",
+      "window_type": "mixed_sample_031",
+      "chronological_index": 14,
+      "state_id": "mixed_sample_031_state_014",
+      "time_spot": "2018-12-19",
+      "reference_session": "2018-12-19",
+      "question": "Session summary for December 19, 2018: PG opened $78.06, ranged $77.00-$78.74, closed $77.39. Volume 10.8M (1.01x 20-day avg). 20-day $78.60 | 50-day $75.82. 5-day return -2.41%. ATR-14 $1.64. RSI 45.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2018-12-19",
+        "open": 78.06,
+        "high": 78.74,
+        "low": 77.0,
+        "close": 77.39,
+        "volume": 10825600,
+        "ma20": 78.6,
+        "ma50": 75.82,
+        "volume_vs_20d": 1.01,
+        "atr14": 1.64,
+        "chg_5d_pct": -2.41
+      },
+      "weekly_snapshot": {
+        "ticker": "PG",
+        "week_start": "2018-12-17",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 45.4,
+        "price_vs_sma50": 1.021,
+        "notes": "ADX 16.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "PG_2018-11-29_mixed_sample_031_015",
+      "scenario_id": "PG_2018-11-29",
+      "window_type": "mixed_sample_031",
+      "chronological_index": 15,
+      "state_id": "mixed_sample_031_state_015",
+      "time_spot": "2018-12-20",
+      "reference_session": "2018-12-20",
+      "question": "Session summary for December 20, 2018: PG opened $77.18, ranged $76.02-$77.79, closed $76.74. Volume 14.4M (1.33x 20-day avg). 20-day $78.55 | 50-day $75.98. 5-day return -5.71%. ATR-14 $1.73. RSI 43.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2018-12-20",
+        "open": 77.18,
+        "high": 77.79,
+        "low": 76.02,
+        "close": 76.74,
+        "volume": 14439200,
+        "ma20": 78.55,
+        "ma50": 75.98,
+        "volume_vs_20d": 1.33,
+        "atr14": 1.73,
+        "chg_5d_pct": -5.71
+      },
+      "weekly_snapshot": {
+        "ticker": "PG",
+        "week_start": "2018-12-17",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 43.5,
+        "price_vs_sma50": 1.01,
+        "notes": "ADX 17.5, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "PG_2018-11-29_mixed_sample_031_016",
+      "scenario_id": "PG_2018-11-29",
+      "window_type": "mixed_sample_031",
+      "chronological_index": 16,
+      "state_id": "mixed_sample_031_state_016",
+      "time_spot": "2018-12-21",
+      "reference_session": "2018-12-21",
+      "question": "Session summary for December 21, 2018: PG opened $76.42, ranged $76.21-$78.58, closed $76.73. Volume 24.0M (2.07x 20-day avg). 20-day $78.53 | 50-day $76.16. 5-day return -5.87%. ATR-14 $1.78. RSI 35.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2018-12-21",
+        "open": 76.42,
+        "high": 78.58,
+        "low": 76.21,
+        "close": 76.73,
+        "volume": 24030000,
+        "ma20": 78.53,
+        "ma50": 76.16,
+        "volume_vs_20d": 2.07,
+        "atr14": 1.78,
+        "chg_5d_pct": -5.87
+      },
+      "weekly_snapshot": {
+        "ticker": "PG",
+        "week_start": "2018-12-17",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 35.7,
+        "price_vs_sma50": 1.007,
+        "notes": "ADX 18.9, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "PG_2018-11-29_mixed_sample_031_017",
+      "scenario_id": "PG_2018-11-29",
+      "window_type": "mixed_sample_031",
+      "chronological_index": 17,
+      "state_id": "mixed_sample_031_state_017",
+      "time_spot": "2018-12-24",
+      "reference_session": "2018-12-24",
+      "question": "Session summary for December 24, 2018: PG opened $76.29, ranged $73.28-$76.47, closed $73.68. Volume 7.4M (0.63x 20-day avg). 20-day $78.36 | 50-day $76.31. 5-day return -5.83%. ATR-14 $1.88. RSI 29.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2018-12-24",
+        "open": 76.29,
+        "high": 76.47,
+        "low": 73.28,
+        "close": 73.68,
+        "volume": 7396300,
+        "ma20": 78.36,
+        "ma50": 76.31,
+        "volume_vs_20d": 0.63,
+        "atr14": 1.88,
+        "chg_5d_pct": -5.83
+      },
+      "weekly_snapshot": {
+        "ticker": "PG",
+        "week_start": "2018-12-24",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 29.9,
+        "price_vs_sma50": 0.966,
+        "notes": "ADX 22.0, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "PG_2018-11-29_mixed_sample_031_018",
+      "scenario_id": "PG_2018-11-29",
+      "window_type": "mixed_sample_031",
+      "chronological_index": 18,
+      "state_id": "mixed_sample_031_state_018",
+      "time_spot": "2018-12-26",
+      "reference_session": "2018-12-26",
+      "question": "Session summary for December 26, 2018: PG opened $73.73, ranged $73.16-$75.99, closed $75.99. Volume 8.6M (0.73x 20-day avg). 20-day $78.28 | 50-day $76.51. 5-day return -2.59%. ATR-14 $1.98. RSI 40.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2018-12-26",
+        "open": 73.73,
+        "high": 75.99,
+        "low": 73.16,
+        "close": 75.99,
+        "volume": 8630900,
+        "ma20": 78.28,
+        "ma50": 76.51,
+        "volume_vs_20d": 0.73,
+        "atr14": 1.98,
+        "chg_5d_pct": -2.59
+      },
+      "weekly_snapshot": {
+        "ticker": "PG",
+        "week_start": "2018-12-24",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 40.8,
+        "price_vs_sma50": 0.993,
+        "notes": "ADX 25.1, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "PG_2018-11-29_mixed_sample_031_019",
+      "scenario_id": "PG_2018-11-29",
+      "window_type": "mixed_sample_031",
+      "chronological_index": 19,
+      "state_id": "mixed_sample_031_state_019",
+      "time_spot": "2018-12-27",
+      "reference_session": "2018-12-27",
+      "question": "Session summary for December 27, 2018: PG opened $75.58, ranged $74.39-$77.64, closed $77.61. Volume 11.4M (0.95x 20-day avg). 20-day $78.25 | 50-day $76.72. 5-day return +0.28%. ATR-14 $2.06. RSI 46.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2018-12-27",
+        "open": 75.58,
+        "high": 77.64,
+        "low": 74.39,
+        "close": 77.61,
+        "volume": 11360100,
+        "ma20": 78.25,
+        "ma50": 76.72,
+        "volume_vs_20d": 0.95,
+        "atr14": 2.06,
+        "chg_5d_pct": 0.28
+      },
+      "weekly_snapshot": {
+        "ticker": "PG",
+        "week_start": "2018-12-24",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 46.0,
+        "price_vs_sma50": 1.012,
+        "notes": "ADX 25.2, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "PG_2018-11-29_mixed_sample_031_020",
+      "scenario_id": "PG_2018-11-29",
+      "window_type": "mixed_sample_031",
+      "chronological_index": 20,
+      "state_id": "mixed_sample_031_state_020",
+      "time_spot": "2018-12-28",
+      "reference_session": "2018-12-28",
+      "question": "Session summary for December 28, 2018: PG opened $78.07, ranged $76.62-$78.68, closed $76.90. Volume 9.6M (0.80x 20-day avg). 20-day $78.17 | 50-day $76.91. 5-day return +0.22%. ATR-14 $2.11. RSI 46.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2018-12-28",
+        "open": 78.07,
+        "high": 78.68,
+        "low": 76.62,
+        "close": 76.9,
+        "volume": 9611800,
+        "ma20": 78.17,
+        "ma50": 76.91,
+        "volume_vs_20d": 0.8,
+        "atr14": 2.11,
+        "chg_5d_pct": 0.22
+      },
+      "weekly_snapshot": {
+        "ticker": "PG",
+        "week_start": "2018-12-24",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 46.7,
+        "price_vs_sma50": 1.0,
+        "notes": "ADX 25.1, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "PG_2018-11-29_mixed_sample_031_021",
+      "scenario_id": "PG_2018-11-29",
+      "window_type": "mixed_sample_031",
+      "chronological_index": 21,
+      "state_id": "mixed_sample_031_state_021",
+      "time_spot": "2018-12-31",
+      "reference_session": "2018-12-31",
+      "question": "Session summary for December 31, 2018: PG opened $77.28, ranged $76.88-$77.75, closed $77.53. Volume 7.2M (0.60x 20-day avg). 20-day $78.14 | 50-day $77.09. 5-day return +1.04%. ATR-14 $2.05. RSI 47.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2018-12-31",
+        "open": 77.28,
+        "high": 77.75,
+        "low": 76.88,
+        "close": 77.53,
+        "volume": 7239500,
+        "ma20": 78.14,
+        "ma50": 77.09,
+        "volume_vs_20d": 0.6,
+        "atr14": 2.05,
+        "chg_5d_pct": 1.04
+      },
+      "weekly_snapshot": {
+        "ticker": "PG",
+        "week_start": "2018-12-31",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 47.1,
+        "price_vs_sma50": 1.006,
+        "notes": "ADX 23.5, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "PG_2018-11-29_mixed_sample_031_022",
+      "scenario_id": "PG_2018-11-29",
+      "window_type": "mixed_sample_031",
+      "chronological_index": 22,
+      "state_id": "mixed_sample_031_state_022",
+      "time_spot": "2019-01-02",
+      "reference_session": "2019-01-02",
+      "question": "Session summary for January 02, 2019: PG opened $76.78, ranged $75.85-$77.08, closed $76.99. Volume 9.8M (0.84x 20-day avg). 20-day $78.00 | 50-day $77.27. 5-day return +4.49%. ATR-14 $2.08. RSI 43.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-01-02",
+        "open": 76.78,
+        "high": 77.08,
+        "low": 75.85,
+        "close": 76.99,
+        "volume": 9843900,
+        "ma20": 78.0,
+        "ma50": 77.27,
+        "volume_vs_20d": 0.84,
+        "atr14": 2.08,
+        "chg_5d_pct": 4.49
+      },
+      "weekly_snapshot": {
+        "ticker": "PG",
+        "week_start": "2018-12-31",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 43.0,
+        "price_vs_sma50": 0.996,
+        "notes": "ADX 24.2, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "PG_2018-11-29_mixed_sample_031_023",
+      "scenario_id": "PG_2018-11-29",
+      "window_type": "mixed_sample_031",
+      "chronological_index": 23,
+      "state_id": "mixed_sample_031_state_023",
+      "time_spot": "2019-01-03",
+      "reference_session": "2019-01-03",
+      "question": "Session summary for January 03, 2019: PG opened $76.70, ranged $76.23-$78.02, closed $76.45. Volume 9.8M (0.85x 20-day avg). 20-day $77.89 | 50-day $77.33. 5-day return +0.61%. ATR-14 $2.12. RSI 41.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-01-03",
+        "open": 76.7,
+        "high": 78.02,
+        "low": 76.23,
+        "close": 76.45,
+        "volume": 9820200,
+        "ma20": 77.89,
+        "ma50": 77.33,
+        "volume_vs_20d": 0.85,
+        "atr14": 2.12,
+        "chg_5d_pct": 0.61
+      },
+      "weekly_snapshot": {
+        "ticker": "PG",
+        "week_start": "2018-12-31",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 41.3,
+        "price_vs_sma50": 0.989,
+        "notes": "ADX 24.8, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "PG_2018-11-29_mixed_sample_031_024",
+      "scenario_id": "PG_2018-11-29",
+      "window_type": "mixed_sample_031",
+      "chronological_index": 24,
+      "state_id": "mixed_sample_031_state_024",
+      "time_spot": "2019-01-04",
+      "reference_session": "2019-01-04",
+      "question": "Session summary for January 04, 2019: PG opened $76.62, ranged $76.22-$78.01, closed $78.01. Volume 10.6M (0.92x 20-day avg). 20-day $77.85 | 50-day $77.43. 5-day return +0.51%. ATR-14 $2.08. RSI 39.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-01-04",
+        "open": 76.62,
+        "high": 78.01,
+        "low": 76.22,
+        "close": 78.01,
+        "volume": 10565700,
+        "ma20": 77.85,
+        "ma50": 77.43,
+        "volume_vs_20d": 0.92,
+        "atr14": 2.08,
+        "chg_5d_pct": 0.51
+      },
+      "weekly_snapshot": {
+        "ticker": "PG",
+        "week_start": "2018-12-31",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 39.4,
+        "price_vs_sma50": 1.007,
+        "notes": "ADX 25.8, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "PG_2018-11-29_mixed_sample_031_025",
+      "scenario_id": "PG_2018-11-29",
+      "window_type": "mixed_sample_031",
+      "chronological_index": 25,
+      "state_id": "mixed_sample_031_state_025",
+      "time_spot": "2019-01-07",
+      "reference_session": "2019-01-07",
+      "question": "Session summary for January 07, 2019: PG opened $77.52, ranged $77.09-$78.02, closed $77.70. Volume 9.0M (0.80x 20-day avg). 20-day $77.79 | 50-day $77.51. 5-day return +1.03%. ATR-14 $2.09. RSI 38.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2019-01-07",
+        "open": 77.52,
+        "high": 78.02,
+        "low": 77.09,
+        "close": 77.7,
+        "volume": 9012500,
+        "ma20": 77.79,
+        "ma50": 77.51,
+        "volume_vs_20d": 0.8,
+        "atr14": 2.09,
+        "chg_5d_pct": 1.03
+      },
+      "weekly_snapshot": {
+        "ticker": "PG",
+        "week_start": "2019-01-07",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 38.1,
+        "price_vs_sma50": 1.002,
+        "notes": "ADX 26.3, MACD bearish"
+      }
+    }
+  ]
+}

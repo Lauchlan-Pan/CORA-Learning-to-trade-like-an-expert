@@ -1,0 +1,2898 @@
+{
+  "metadata": {
+    "instrument": "ABT",
+    "initial_capital": 10000,
+    "window_type": "bullish_sample_039",
+    "description": "ABT window (2025-01-15 \u2013 2025-02-20) - bullish regime.",
+    "num_mcqs": 25,
+    "notes": "Orders express target exposure fractions relative to the leverage ceiling.",
+    "max_leverage": 2.5,
+    "exposure_buckets": [
+      0.8,
+      0.6,
+      0.4,
+      0.2
+    ],
+    "start_reference": "2025-01-15",
+    "end_reference": "2025-02-20",
+    "regime": "bullish",
+    "bh_return": 19.86
+  },
+  "mcqs": [
+    {
+      "scenario_instance_id": "ABT_2025-01-15_bullish_sample_039_001",
+      "scenario_id": "ABT_2025-01-15",
+      "window_type": "bullish_sample_039",
+      "chronological_index": 1,
+      "state_id": "bullish_sample_039_state_001",
+      "time_spot": "2025-01-15",
+      "reference_session": "2025-01-15",
+      "question": "Session summary for January 15, 2025: ABT opened $111.13, ranged $109.86-$111.74, closed $110.09. Volume 6.5M (1.32x 20-day avg). 20-day $111.78 | 50-day $113.60. 5-day return -1.51%. ATR-14 $1.62. RSI 37.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2025-01-15",
+        "open": 111.13,
+        "high": 111.74,
+        "low": 109.86,
+        "close": 110.09,
+        "volume": 6543700,
+        "ma20": 111.78,
+        "ma50": 113.6,
+        "volume_vs_20d": 1.32,
+        "atr14": 1.62,
+        "chg_5d_pct": -1.51
+      },
+      "weekly_snapshot": {
+        "ticker": "ABT",
+        "week_start": "2025-01-13",
+        "trend_regime": "downtrend",
+        "volatility_regime": "low",
+        "rsi_14": 37.8,
+        "price_vs_sma50": 0.969,
+        "notes": "ADX 12.5, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ABT_2025-01-15_bullish_sample_039_002",
+      "scenario_id": "ABT_2025-01-15",
+      "window_type": "bullish_sample_039",
+      "chronological_index": 2,
+      "state_id": "bullish_sample_039_state_002",
+      "time_spot": "2025-01-16",
+      "reference_session": "2025-01-16",
+      "question": "Session summary for January 16, 2025: ABT opened $110.01, ranged $110.01-$112.92, closed $112.88. Volume 5.6M (1.12x 20-day avg). 20-day $111.87 | 50-day $113.51. 5-day return +0.23%. ATR-14 $1.74. RSI 49.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2025-01-16",
+        "open": 110.01,
+        "high": 112.92,
+        "low": 110.01,
+        "close": 112.88,
+        "volume": 5598700,
+        "ma20": 111.87,
+        "ma50": 113.51,
+        "volume_vs_20d": 1.12,
+        "atr14": 1.74,
+        "chg_5d_pct": 0.23
+      },
+      "weekly_snapshot": {
+        "ticker": "ABT",
+        "week_start": "2025-01-13",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 49.0,
+        "price_vs_sma50": 0.994,
+        "notes": "ADX 11.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ABT_2025-01-15_bullish_sample_039_003",
+      "scenario_id": "ABT_2025-01-15",
+      "window_type": "bullish_sample_039",
+      "chronological_index": 3,
+      "state_id": "bullish_sample_039_state_003",
+      "time_spot": "2025-01-17",
+      "reference_session": "2025-01-17",
+      "question": "Session summary for January 17, 2025: ABT opened $112.59, ranged $112.36-$113.75, closed $112.45. Volume 6.5M (1.28x 20-day avg). 20-day $111.91 | 50-day $113.44. 5-day return +1.57%. ATR-14 $1.70. RSI 45.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2025-01-17",
+        "open": 112.59,
+        "high": 113.75,
+        "low": 112.36,
+        "close": 112.45,
+        "volume": 6459800,
+        "ma20": 111.91,
+        "ma50": 113.44,
+        "volume_vs_20d": 1.28,
+        "atr14": 1.7,
+        "chg_5d_pct": 1.57
+      },
+      "weekly_snapshot": {
+        "ticker": "ABT",
+        "week_start": "2025-01-13",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 45.4,
+        "price_vs_sma50": 0.991,
+        "notes": "ADX 11.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ABT_2025-01-15_bullish_sample_039_004",
+      "scenario_id": "ABT_2025-01-15",
+      "window_type": "bullish_sample_039",
+      "chronological_index": 4,
+      "state_id": "bullish_sample_039_state_004",
+      "time_spot": "2025-01-21",
+      "reference_session": "2025-01-21",
+      "question": "Session summary for January 21, 2025: ABT opened $113.22, ranged $113.11-$115.84, closed $115.73. Volume 8.5M (1.65x 20-day avg). 20-day $112.18 | 50-day $113.44. 5-day return +3.72%. ATR-14 $1.84. RSI 57.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2025-01-21",
+        "open": 113.22,
+        "high": 115.84,
+        "low": 113.11,
+        "close": 115.73,
+        "volume": 8486300,
+        "ma20": 112.18,
+        "ma50": 113.44,
+        "volume_vs_20d": 1.65,
+        "atr14": 1.84,
+        "chg_5d_pct": 3.72
+      },
+      "weekly_snapshot": {
+        "ticker": "ABT",
+        "week_start": "2025-01-20",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 57.5,
+        "price_vs_sma50": 1.02,
+        "notes": "ADX 11.5, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ABT_2025-01-15_bullish_sample_039_005",
+      "scenario_id": "ABT_2025-01-15",
+      "window_type": "bullish_sample_039",
+      "chronological_index": 5,
+      "state_id": "bullish_sample_039_state_005",
+      "time_spot": "2025-01-22",
+      "reference_session": "2025-01-22",
+      "question": "Session summary for January 22, 2025: ABT opened $113.10, ranged $112.47-$118.85, closed $116.71. Volume 13.2M (2.44x 20-day avg). 20-day $112.48 | 50-day $113.47. 5-day return +4.76%. ATR-14 $2.12. RSI 68.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2025-01-22",
+        "open": 113.1,
+        "high": 118.85,
+        "low": 112.47,
+        "close": 116.71,
+        "volume": 13200700,
+        "ma20": 112.48,
+        "ma50": 113.47,
+        "volume_vs_20d": 2.44,
+        "atr14": 2.12,
+        "chg_5d_pct": 4.76
+      },
+      "weekly_snapshot": {
+        "ticker": "ABT",
+        "week_start": "2025-01-20",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 68.7,
+        "price_vs_sma50": 1.029,
+        "notes": "ADX 14.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ABT_2025-01-15_bullish_sample_039_006",
+      "scenario_id": "ABT_2025-01-15",
+      "window_type": "bullish_sample_039",
+      "chronological_index": 6,
+      "state_id": "bullish_sample_039_state_006",
+      "time_spot": "2025-01-23",
+      "reference_session": "2025-01-23",
+      "question": "Session summary for January 23, 2025: ABT opened $117.06, ranged $116.71-$122.11, closed $122.10. Volume 13.1M (2.40x 20-day avg). 20-day $112.95 | 50-day $113.64. 5-day return +10.91%. ATR-14 $2.42. RSI 76.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2025-01-23",
+        "open": 117.06,
+        "high": 122.11,
+        "low": 116.71,
+        "close": 122.1,
+        "volume": 13089400,
+        "ma20": 112.95,
+        "ma50": 113.64,
+        "volume_vs_20d": 2.4,
+        "atr14": 2.42,
+        "chg_5d_pct": 10.91
+      },
+      "weekly_snapshot": {
+        "ticker": "ABT",
+        "week_start": "2025-01-20",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 76.8,
+        "price_vs_sma50": 1.074,
+        "notes": "ADX 16.9, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ABT_2025-01-15_bullish_sample_039_007",
+      "scenario_id": "ABT_2025-01-15",
+      "window_type": "bullish_sample_039",
+      "chronological_index": 7,
+      "state_id": "bullish_sample_039_state_007",
+      "time_spot": "2025-01-24",
+      "reference_session": "2025-01-24",
+      "question": "Session summary for January 24, 2025: ABT opened $121.48, ranged $121.07-$124.53, closed $123.90. Volume 10.0M (1.73x 20-day avg). 20-day $113.51 | 50-day $113.82. 5-day return +9.76%. ATR-14 $2.58. RSI 78.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2025-01-24",
+        "open": 121.48,
+        "high": 124.53,
+        "low": 121.07,
+        "close": 123.9,
+        "volume": 9960200,
+        "ma20": 113.51,
+        "ma50": 113.82,
+        "volume_vs_20d": 1.73,
+        "atr14": 2.58,
+        "chg_5d_pct": 9.76
+      },
+      "weekly_snapshot": {
+        "ticker": "ABT",
+        "week_start": "2025-01-20",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 78.4,
+        "price_vs_sma50": 1.089,
+        "notes": "ADX 20.4, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ABT_2025-01-15_bullish_sample_039_008",
+      "scenario_id": "ABT_2025-01-15",
+      "window_type": "bullish_sample_039",
+      "chronological_index": 8,
+      "state_id": "bullish_sample_039_state_008",
+      "time_spot": "2025-01-27",
+      "reference_session": "2025-01-27",
+      "question": "Session summary for January 27, 2025: ABT opened $125.58, ranged $124.33-$128.58, closed $128.26. Volume 11.8M (1.89x 20-day avg). 20-day $114.27 | 50-day $114.08. 5-day return +14.06%. ATR-14 $2.85. RSI 81.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2025-01-27",
+        "open": 125.58,
+        "high": 128.58,
+        "low": 124.33,
+        "close": 128.26,
+        "volume": 11845100,
+        "ma20": 114.27,
+        "ma50": 114.08,
+        "volume_vs_20d": 1.89,
+        "atr14": 2.85,
+        "chg_5d_pct": 14.06
+      },
+      "weekly_snapshot": {
+        "ticker": "ABT",
+        "week_start": "2025-01-27",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 81.8,
+        "price_vs_sma50": 1.124,
+        "notes": "ADX 25.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ABT_2025-01-15_bullish_sample_039_009",
+      "scenario_id": "ABT_2025-01-15",
+      "window_type": "bullish_sample_039",
+      "chronological_index": 9,
+      "state_id": "bullish_sample_039_state_009",
+      "time_spot": "2025-01-28",
+      "reference_session": "2025-01-28",
+      "question": "Session summary for January 28, 2025: ABT opened $128.57, ranged $125.52-$128.67, closed $126.24. Volume 11.9M (1.78x 20-day avg). 20-day $114.90 | 50-day $114.31. 5-day return +9.08%. ATR-14 $2.97. RSI 77.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2025-01-28",
+        "open": 128.57,
+        "high": 128.67,
+        "low": 125.52,
+        "close": 126.24,
+        "volume": 11948500,
+        "ma20": 114.9,
+        "ma50": 114.31,
+        "volume_vs_20d": 1.78,
+        "atr14": 2.97,
+        "chg_5d_pct": 9.08
+      },
+      "weekly_snapshot": {
+        "ticker": "ABT",
+        "week_start": "2025-01-27",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 77.9,
+        "price_vs_sma50": 1.104,
+        "notes": "ADX 30.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ABT_2025-01-15_bullish_sample_039_010",
+      "scenario_id": "ABT_2025-01-15",
+      "window_type": "bullish_sample_039",
+      "chronological_index": 10,
+      "state_id": "bullish_sample_039_state_010",
+      "time_spot": "2025-01-29",
+      "reference_session": "2025-01-29",
+      "question": "Session summary for January 29, 2025: ABT opened $127.00, ranged $126.47-$128.13, closed $126.70. Volume 7.6M (1.09x 20-day avg). 20-day $115.57 | 50-day $114.56. 5-day return +8.56%. ATR-14 $2.99. RSI 78.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2025-01-29",
+        "open": 127.0,
+        "high": 128.13,
+        "low": 126.47,
+        "close": 126.7,
+        "volume": 7609800,
+        "ma20": 115.57,
+        "ma50": 114.56,
+        "volume_vs_20d": 1.09,
+        "atr14": 2.99,
+        "chg_5d_pct": 8.56
+      },
+      "weekly_snapshot": {
+        "ticker": "ABT",
+        "week_start": "2025-01-27",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 78.0,
+        "price_vs_sma50": 1.106,
+        "notes": "ADX 35.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ABT_2025-01-15_bullish_sample_039_011",
+      "scenario_id": "ABT_2025-01-15",
+      "window_type": "bullish_sample_039",
+      "chronological_index": 11,
+      "state_id": "bullish_sample_039_state_011",
+      "time_spot": "2025-01-30",
+      "reference_session": "2025-01-30",
+      "question": "Session summary for January 30, 2025: ABT opened $126.83, ranged $126.04-$128.02, closed $127.64. Volume 6.3M (0.89x 20-day avg). 20-day $116.39 | 50-day $114.85. 5-day return +4.54%. ATR-14 $2.99. RSI 78.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2025-01-30",
+        "open": 126.83,
+        "high": 128.02,
+        "low": 126.04,
+        "close": 127.64,
+        "volume": 6340400,
+        "ma20": 116.39,
+        "ma50": 114.85,
+        "volume_vs_20d": 0.89,
+        "atr14": 2.99,
+        "chg_5d_pct": 4.54
+      },
+      "weekly_snapshot": {
+        "ticker": "ABT",
+        "week_start": "2025-01-27",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 78.1,
+        "price_vs_sma50": 1.111,
+        "notes": "ADX 41.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ABT_2025-01-15_bullish_sample_039_012",
+      "scenario_id": "ABT_2025-01-15",
+      "window_type": "bullish_sample_039",
+      "chronological_index": 12,
+      "state_id": "bullish_sample_039_state_012",
+      "time_spot": "2025-01-31",
+      "reference_session": "2025-01-31",
+      "question": "Session summary for January 31, 2025: ABT opened $127.21, ranged $126.52-$127.59, closed $126.77. Volume 7.1M (0.98x 20-day avg). 20-day $117.15 | 50-day $115.10. 5-day return +2.32%. ATR-14 $2.89. RSI 81.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2025-01-31",
+        "open": 127.21,
+        "high": 127.59,
+        "low": 126.52,
+        "close": 126.77,
+        "volume": 7129400,
+        "ma20": 117.15,
+        "ma50": 115.1,
+        "volume_vs_20d": 0.98,
+        "atr14": 2.89,
+        "chg_5d_pct": 2.32
+      },
+      "weekly_snapshot": {
+        "ticker": "ABT",
+        "week_start": "2025-01-27",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 81.3,
+        "price_vs_sma50": 1.101,
+        "notes": "ADX 47.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ABT_2025-01-15_bullish_sample_039_013",
+      "scenario_id": "ABT_2025-01-15",
+      "window_type": "bullish_sample_039",
+      "chronological_index": 13,
+      "state_id": "bullish_sample_039_state_013",
+      "time_spot": "2025-02-03",
+      "reference_session": "2025-02-03",
+      "question": "Session summary for February 03, 2025: ABT opened $125.50, ranged $124.87-$127.78, closed $127.29. Volume 5.7M (0.77x 20-day avg). 20-day $117.93 | 50-day $115.33. 5-day return -0.76%. ATR-14 $3.00. RSI 81.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2025-02-03",
+        "open": 125.5,
+        "high": 127.78,
+        "low": 124.87,
+        "close": 127.29,
+        "volume": 5720600,
+        "ma20": 117.93,
+        "ma50": 115.33,
+        "volume_vs_20d": 0.77,
+        "atr14": 3.0,
+        "chg_5d_pct": -0.76
+      },
+      "weekly_snapshot": {
+        "ticker": "ABT",
+        "week_start": "2025-02-03",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 81.0,
+        "price_vs_sma50": 1.104,
+        "notes": "ADX 52.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ABT_2025-01-15_bullish_sample_039_014",
+      "scenario_id": "ABT_2025-01-15",
+      "window_type": "bullish_sample_039",
+      "chronological_index": 14,
+      "state_id": "bullish_sample_039_state_014",
+      "time_spot": "2025-02-04",
+      "reference_session": "2025-02-04",
+      "question": "Session summary for February 04, 2025: ABT opened $125.29, ranged $124.86-$128.03, closed $127.93. Volume 7.0M (0.93x 20-day avg). 20-day $118.71 | 50-day $115.58. 5-day return +1.34%. ATR-14 $3.12. RSI 82.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2025-02-04",
+        "open": 125.29,
+        "high": 128.03,
+        "low": 124.86,
+        "close": 127.93,
+        "volume": 6957400,
+        "ma20": 118.71,
+        "ma50": 115.58,
+        "volume_vs_20d": 0.93,
+        "atr14": 3.12,
+        "chg_5d_pct": 1.34
+      },
+      "weekly_snapshot": {
+        "ticker": "ABT",
+        "week_start": "2025-02-03",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 82.0,
+        "price_vs_sma50": 1.107,
+        "notes": "ADX 55.9, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ABT_2025-01-15_bullish_sample_039_015",
+      "scenario_id": "ABT_2025-01-15",
+      "window_type": "bullish_sample_039",
+      "chronological_index": 15,
+      "state_id": "bullish_sample_039_state_015",
+      "time_spot": "2025-02-05",
+      "reference_session": "2025-02-05",
+      "question": "Session summary for February 05, 2025: ABT opened $128.26, ranged $127.78-$131.30, closed $130.86. Volume 8.7M (1.14x 20-day avg). 20-day $119.68 | 50-day $115.91. 5-day return +3.28%. ATR-14 $3.24. RSI 87.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2025-02-05",
+        "open": 128.26,
+        "high": 131.3,
+        "low": 127.78,
+        "close": 130.86,
+        "volume": 8680100,
+        "ma20": 119.68,
+        "ma50": 115.91,
+        "volume_vs_20d": 1.14,
+        "atr14": 3.24,
+        "chg_5d_pct": 3.28
+      },
+      "weekly_snapshot": {
+        "ticker": "ABT",
+        "week_start": "2025-02-03",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 87.9,
+        "price_vs_sma50": 1.129,
+        "notes": "ADX 59.9, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ABT_2025-01-15_bullish_sample_039_016",
+      "scenario_id": "ABT_2025-01-15",
+      "window_type": "bullish_sample_039",
+      "chronological_index": 16,
+      "state_id": "bullish_sample_039_state_016",
+      "time_spot": "2025-02-06",
+      "reference_session": "2025-02-06",
+      "question": "Session summary for February 06, 2025: ABT opened $130.61, ranged $126.98-$130.71, closed $127.06. Volume 6.5M (0.84x 20-day avg). 20-day $120.45 | 50-day $116.14. 5-day return -0.46%. ATR-14 $3.31. RSI 74.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2025-02-06",
+        "open": 130.61,
+        "high": 130.71,
+        "low": 126.98,
+        "close": 127.06,
+        "volume": 6469200,
+        "ma20": 120.45,
+        "ma50": 116.14,
+        "volume_vs_20d": 0.84,
+        "atr14": 3.31,
+        "chg_5d_pct": -0.46
+      },
+      "weekly_snapshot": {
+        "ticker": "ABT",
+        "week_start": "2025-02-03",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 74.9,
+        "price_vs_sma50": 1.094,
+        "notes": "ADX 64.2, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ABT_2025-01-15_bullish_sample_039_017",
+      "scenario_id": "ABT_2025-01-15",
+      "window_type": "bullish_sample_039",
+      "chronological_index": 17,
+      "state_id": "bullish_sample_039_state_017",
+      "time_spot": "2025-02-07",
+      "reference_session": "2025-02-07",
+      "question": "Session summary for February 07, 2025: ABT opened $126.91, ranged $126.91-$128.32, closed $127.90. Volume 6.5M (0.83x 20-day avg). 20-day $121.21 | 50-day $116.38. 5-day return +0.89%. ATR-14 $3.31. RSI 76.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2025-02-07",
+        "open": 126.91,
+        "high": 128.32,
+        "low": 126.91,
+        "close": 127.9,
+        "volume": 6455200,
+        "ma20": 121.21,
+        "ma50": 116.38,
+        "volume_vs_20d": 0.83,
+        "atr14": 3.31,
+        "chg_5d_pct": 0.89
+      },
+      "weekly_snapshot": {
+        "ticker": "ABT",
+        "week_start": "2025-02-03",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 76.8,
+        "price_vs_sma50": 1.099,
+        "notes": "ADX 68.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ABT_2025-01-15_bullish_sample_039_018",
+      "scenario_id": "ABT_2025-01-15",
+      "window_type": "bullish_sample_039",
+      "chronological_index": 18,
+      "state_id": "bullish_sample_039_state_018",
+      "time_spot": "2025-02-10",
+      "reference_session": "2025-02-10",
+      "question": "Session summary for February 10, 2025: ABT opened $127.90, ranged $127.44-$130.24, closed $130.12. Volume 5.5M (0.70x 20-day avg). 20-day $122.18 | 50-day $116.65. 5-day return +2.23%. ATR-14 $3.27. RSI 75.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2025-02-10",
+        "open": 127.9,
+        "high": 130.24,
+        "low": 127.44,
+        "close": 130.12,
+        "volume": 5503600,
+        "ma20": 122.18,
+        "ma50": 116.65,
+        "volume_vs_20d": 0.7,
+        "atr14": 3.27,
+        "chg_5d_pct": 2.23
+      },
+      "weekly_snapshot": {
+        "ticker": "ABT",
+        "week_start": "2025-02-10",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 75.9,
+        "price_vs_sma50": 1.115,
+        "notes": "ADX 72.9, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ABT_2025-01-15_bullish_sample_039_019",
+      "scenario_id": "ABT_2025-01-15",
+      "window_type": "bullish_sample_039",
+      "chronological_index": 19,
+      "state_id": "bullish_sample_039_state_019",
+      "time_spot": "2025-02-11",
+      "reference_session": "2025-02-11",
+      "question": "Session summary for February 11, 2025: ABT opened $130.01, ranged $129.29-$130.85, closed $130.25. Volume 5.3M (0.68x 20-day avg). 20-day $123.12 | 50-day $116.93. 5-day return +1.81%. ATR-14 $2.93. RSI 75.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2025-02-11",
+        "open": 130.01,
+        "high": 130.85,
+        "low": 129.29,
+        "close": 130.25,
+        "volume": 5314100,
+        "ma20": 123.12,
+        "ma50": 116.93,
+        "volume_vs_20d": 0.68,
+        "atr14": 2.93,
+        "chg_5d_pct": 1.81
+      },
+      "weekly_snapshot": {
+        "ticker": "ABT",
+        "week_start": "2025-02-10",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 75.1,
+        "price_vs_sma50": 1.114,
+        "notes": "ADX 74.1, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ABT_2025-01-15_bullish_sample_039_020",
+      "scenario_id": "ABT_2025-01-15",
+      "window_type": "bullish_sample_039",
+      "chronological_index": 20,
+      "state_id": "bullish_sample_039_state_020",
+      "time_spot": "2025-02-12",
+      "reference_session": "2025-02-12",
+      "question": "Session summary for February 12, 2025: ABT opened $129.31, ranged $128.07-$129.62, closed $129.31. Volume 4.7M (0.60x 20-day avg). 20-day $124.01 | 50-day $117.17. 5-day return -1.19%. ATR-14 $2.70. RSI 66.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2025-02-12",
+        "open": 129.31,
+        "high": 129.62,
+        "low": 128.07,
+        "close": 129.31,
+        "volume": 4703700,
+        "ma20": 124.01,
+        "ma50": 117.17,
+        "volume_vs_20d": 0.6,
+        "atr14": 2.7,
+        "chg_5d_pct": -1.19
+      },
+      "weekly_snapshot": {
+        "ticker": "ABT",
+        "week_start": "2025-02-10",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 66.0,
+        "price_vs_sma50": 1.104,
+        "notes": "ADX 73.3, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ABT_2025-01-15_bullish_sample_039_021",
+      "scenario_id": "ABT_2025-01-15",
+      "window_type": "bullish_sample_039",
+      "chronological_index": 21,
+      "state_id": "bullish_sample_039_state_021",
+      "time_spot": "2025-02-13",
+      "reference_session": "2025-02-13",
+      "question": "Session summary for February 13, 2025: ABT opened $129.74, ranged $129.37-$130.84, closed $130.60. Volume 4.2M (0.54x 20-day avg). 20-day $125.03 | 50-day $117.44. 5-day return +2.78%. ATR-14 $2.56. RSI 65.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2025-02-13",
+        "open": 129.74,
+        "high": 130.84,
+        "low": 129.37,
+        "close": 130.6,
+        "volume": 4168400,
+        "ma20": 125.03,
+        "ma50": 117.44,
+        "volume_vs_20d": 0.54,
+        "atr14": 2.56,
+        "chg_5d_pct": 2.78
+      },
+      "weekly_snapshot": {
+        "ticker": "ABT",
+        "week_start": "2025-02-10",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 65.2,
+        "price_vs_sma50": 1.112,
+        "notes": "ADX 71.7, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ABT_2025-01-15_bullish_sample_039_022",
+      "scenario_id": "ABT_2025-01-15",
+      "window_type": "bullish_sample_039",
+      "chronological_index": 22,
+      "state_id": "bullish_sample_039_state_022",
+      "time_spot": "2025-02-14",
+      "reference_session": "2025-02-14",
+      "question": "Session summary for February 14, 2025: ABT opened $131.12, ranged $129.34-$131.45, closed $129.43. Volume 3.7M (0.49x 20-day avg). 20-day $125.86 | 50-day $117.72. 5-day return +1.19%. ATR-14 $2.37. RSI 53.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2025-02-14",
+        "open": 131.12,
+        "high": 131.45,
+        "low": 129.34,
+        "close": 129.43,
+        "volume": 3733900,
+        "ma20": 125.86,
+        "ma50": 117.72,
+        "volume_vs_20d": 0.49,
+        "atr14": 2.37,
+        "chg_5d_pct": 1.19
+      },
+      "weekly_snapshot": {
+        "ticker": "ABT",
+        "week_start": "2025-02-10",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 53.1,
+        "price_vs_sma50": 1.099,
+        "notes": "ADX 68.7, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ABT_2025-01-15_bullish_sample_039_023",
+      "scenario_id": "ABT_2025-01-15",
+      "window_type": "bullish_sample_039",
+      "chronological_index": 23,
+      "state_id": "bullish_sample_039_state_023",
+      "time_spot": "2025-02-18",
+      "reference_session": "2025-02-18",
+      "question": "Session summary for February 18, 2025: ABT opened $128.58, ranged $127.09-$129.63, closed $129.00. Volume 5.1M (0.67x 20-day avg). 20-day $126.69 | 50-day $118.01. 5-day return -0.86%. ATR-14 $2.33. RSI 58.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2025-02-18",
+        "open": 128.58,
+        "high": 129.63,
+        "low": 127.09,
+        "close": 129.0,
+        "volume": 5116200,
+        "ma20": 126.69,
+        "ma50": 118.01,
+        "volume_vs_20d": 0.67,
+        "atr14": 2.33,
+        "chg_5d_pct": -0.86
+      },
+      "weekly_snapshot": {
+        "ticker": "ABT",
+        "week_start": "2025-02-17",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 58.0,
+        "price_vs_sma50": 1.093,
+        "notes": "ADX 63.9, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ABT_2025-01-15_bullish_sample_039_024",
+      "scenario_id": "ABT_2025-01-15",
+      "window_type": "bullish_sample_039",
+      "chronological_index": 24,
+      "state_id": "bullish_sample_039_state_024",
+      "time_spot": "2025-02-19",
+      "reference_session": "2025-02-19",
+      "question": "Session summary for February 19, 2025: ABT opened $129.08, ranged $128.82-$131.06, closed $130.93. Volume 3.8M (0.52x 20-day avg). 20-day $127.45 | 50-day $118.34. 5-day return +0.52%. ATR-14 $2.36. RSI 61.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2025-02-19",
+        "open": 129.08,
+        "high": 131.06,
+        "low": 128.82,
+        "close": 130.93,
+        "volume": 3806800,
+        "ma20": 127.45,
+        "ma50": 118.34,
+        "volume_vs_20d": 0.52,
+        "atr14": 2.36,
+        "chg_5d_pct": 0.52
+      },
+      "weekly_snapshot": {
+        "ticker": "ABT",
+        "week_start": "2025-02-17",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 61.3,
+        "price_vs_sma50": 1.106,
+        "notes": "ADX 59.6, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ABT_2025-01-15_bullish_sample_039_025",
+      "scenario_id": "ABT_2025-01-15",
+      "window_type": "bullish_sample_039",
+      "chronological_index": 25,
+      "state_id": "bullish_sample_039_state_025",
+      "time_spot": "2025-02-20",
+      "reference_session": "2025-02-20",
+      "question": "Session summary for February 20, 2025: ABT opened $130.54, ranged $130.16-$132.07, closed $131.96. Volume 5.0M (0.72x 20-day avg). 20-day $128.21 | 50-day $118.70. 5-day return +2.05%. ATR-14 $2.35. RSI 61.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2025-02-20",
+        "open": 130.54,
+        "high": 132.07,
+        "low": 130.16,
+        "close": 131.96,
+        "volume": 5046900,
+        "ma20": 128.21,
+        "ma50": 118.7,
+        "volume_vs_20d": 0.72,
+        "atr14": 2.35,
+        "chg_5d_pct": 2.05
+      },
+      "weekly_snapshot": {
+        "ticker": "ABT",
+        "week_start": "2025-02-17",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 61.5,
+        "price_vs_sma50": 1.112,
+        "notes": "ADX 55.7, MACD bearish"
+      }
+    }
+  ]
+}

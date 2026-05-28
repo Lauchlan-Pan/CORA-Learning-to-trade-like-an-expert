@@ -1,0 +1,2898 @@
+{
+  "metadata": {
+    "instrument": "ACN",
+    "initial_capital": 10000,
+    "window_type": "bearish_sample_044",
+    "description": "ACN window (2025-02-13 \u2013 2025-03-20) - bearish regime.",
+    "num_mcqs": 25,
+    "notes": "Orders express target exposure fractions relative to the leverage ceiling.",
+    "max_leverage": 2.5,
+    "exposure_buckets": [
+      0.8,
+      0.6,
+      0.4,
+      0.2
+    ],
+    "start_reference": "2025-02-13",
+    "end_reference": "2025-03-20",
+    "regime": "bearish",
+    "bh_return": -22.75
+  },
+  "mcqs": [
+    {
+      "scenario_instance_id": "ACN_2025-02-13_bearish_sample_044_001",
+      "scenario_id": "ACN_2025-02-13",
+      "window_type": "bearish_sample_044",
+      "chronological_index": 1,
+      "state_id": "bearish_sample_044_state_001",
+      "time_spot": "2025-02-13",
+      "reference_session": "2025-02-13",
+      "question": "Session summary for February 13, 2025: ACN opened $384.77, ranged $380.93-$387.05, closed $385.68. Volume 3.4M (1.21x 20-day avg). 20-day $373.26 | 50-day $360.44. 5-day return +0.57%. ATR-14 $8.64. RSI 71.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2025-02-13",
+        "open": 384.77,
+        "high": 387.05,
+        "low": 380.93,
+        "close": 385.68,
+        "volume": 3387300,
+        "ma20": 373.26,
+        "ma50": 360.44,
+        "volume_vs_20d": 1.21,
+        "atr14": 8.64,
+        "chg_5d_pct": 0.57
+      },
+      "weekly_snapshot": {
+        "ticker": "ACN",
+        "week_start": "2025-02-10",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 71.9,
+        "price_vs_sma50": 1.07,
+        "notes": "ADX 60.6, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACN_2025-02-13_bearish_sample_044_002",
+      "scenario_id": "ACN_2025-02-13",
+      "window_type": "bearish_sample_044",
+      "chronological_index": 2,
+      "state_id": "bearish_sample_044_state_002",
+      "time_spot": "2025-02-14",
+      "reference_session": "2025-02-14",
+      "question": "Session summary for February 14, 2025: ACN opened $386.14, ranged $383.60-$387.13, closed $384.16. Volume 2.0M (0.72x 20-day avg). 20-day $375.11 | 50-day $360.99. 5-day return +0.52%. ATR-14 $7.84. RSI 64.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2025-02-14",
+        "open": 386.14,
+        "high": 387.13,
+        "low": 383.6,
+        "close": 384.16,
+        "volume": 2024700,
+        "ma20": 375.11,
+        "ma50": 360.99,
+        "volume_vs_20d": 0.72,
+        "atr14": 7.84,
+        "chg_5d_pct": 0.52
+      },
+      "weekly_snapshot": {
+        "ticker": "ACN",
+        "week_start": "2025-02-10",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 64.1,
+        "price_vs_sma50": 1.064,
+        "notes": "ADX 61.4, MACD bullish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACN_2025-02-13_bearish_sample_044_003",
+      "scenario_id": "ACN_2025-02-13",
+      "window_type": "bearish_sample_044",
+      "chronological_index": 3,
+      "state_id": "bearish_sample_044_state_003",
+      "time_spot": "2025-02-18",
+      "reference_session": "2025-02-18",
+      "question": "Session summary for February 18, 2025: ACN opened $380.83, ranged $377.72-$386.63, closed $383.73. Volume 3.7M (1.33x 20-day avg). 20-day $376.84 | 50-day $361.72. 5-day return +0.17%. ATR-14 $7.68. RSI 59.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2025-02-18",
+        "open": 380.83,
+        "high": 386.63,
+        "low": 377.72,
+        "close": 383.73,
+        "volume": 3701100,
+        "ma20": 376.84,
+        "ma50": 361.72,
+        "volume_vs_20d": 1.33,
+        "atr14": 7.68,
+        "chg_5d_pct": 0.17
+      },
+      "weekly_snapshot": {
+        "ticker": "ACN",
+        "week_start": "2025-02-17",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 59.6,
+        "price_vs_sma50": 1.061,
+        "notes": "ADX 58.8, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACN_2025-02-13_bearish_sample_044_004",
+      "scenario_id": "ACN_2025-02-13",
+      "window_type": "bearish_sample_044",
+      "chronological_index": 4,
+      "state_id": "bearish_sample_044_state_004",
+      "time_spot": "2025-02-19",
+      "reference_session": "2025-02-19",
+      "question": "Session summary for February 19, 2025: ACN opened $382.17, ranged $380.64-$388.14, closed $386.36. Volume 1.4M (0.53x 20-day avg). 20-day $378.51 | 50-day $362.35. 5-day return +0.05%. ATR-14 $7.60. RSI 66.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2025-02-19",
+        "open": 382.17,
+        "high": 388.14,
+        "low": 380.64,
+        "close": 386.36,
+        "volume": 1438000,
+        "ma20": 378.51,
+        "ma50": 362.35,
+        "volume_vs_20d": 0.53,
+        "atr14": 7.6,
+        "chg_5d_pct": 0.05
+      },
+      "weekly_snapshot": {
+        "ticker": "ACN",
+        "week_start": "2025-02-17",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 66.9,
+        "price_vs_sma50": 1.066,
+        "notes": "ADX 57.1, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACN_2025-02-13_bearish_sample_044_005",
+      "scenario_id": "ACN_2025-02-13",
+      "window_type": "bearish_sample_044",
+      "chronological_index": 5,
+      "state_id": "bearish_sample_044_state_005",
+      "time_spot": "2025-02-20",
+      "reference_session": "2025-02-20",
+      "question": "Session summary for February 20, 2025: ACN opened $384.04, ranged $380.45-$386.14, closed $381.04. Volume 2.3M (0.85x 20-day avg). 20-day $379.79 | 50-day $362.90. 5-day return -1.03%. ATR-14 $7.21. RSI 54.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2025-02-20",
+        "open": 384.04,
+        "high": 386.14,
+        "low": 380.45,
+        "close": 381.04,
+        "volume": 2252400,
+        "ma20": 379.79,
+        "ma50": 362.9,
+        "volume_vs_20d": 0.85,
+        "atr14": 7.21,
+        "chg_5d_pct": -1.03
+      },
+      "weekly_snapshot": {
+        "ticker": "ACN",
+        "week_start": "2025-02-17",
+        "trend_regime": "uptrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 54.5,
+        "price_vs_sma50": 1.05,
+        "notes": "ADX 54.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACN_2025-02-13_bearish_sample_044_006",
+      "scenario_id": "ACN_2025-02-13",
+      "window_type": "bearish_sample_044",
+      "chronological_index": 6,
+      "state_id": "bearish_sample_044_state_006",
+      "time_spot": "2025-02-21",
+      "reference_session": "2025-02-21",
+      "question": "Session summary for February 21, 2025: ACN opened $376.24, ranged $360.33-$378.99, closed $360.66. Volume 3.8M (1.37x 20-day avg). 20-day $379.84 | 50-day $362.97. 5-day return -6.49%. ATR-14 $8.16. RSI 33.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2025-02-21",
+        "open": 376.24,
+        "high": 378.99,
+        "low": 360.33,
+        "close": 360.66,
+        "volume": 3751700,
+        "ma20": 379.84,
+        "ma50": 362.97,
+        "volume_vs_20d": 1.37,
+        "atr14": 8.16,
+        "chg_5d_pct": -6.49
+      },
+      "weekly_snapshot": {
+        "ticker": "ACN",
+        "week_start": "2025-02-17",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 33.3,
+        "price_vs_sma50": 0.994,
+        "notes": "ADX 52.8, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACN_2025-02-13_bearish_sample_044_007",
+      "scenario_id": "ACN_2025-02-13",
+      "window_type": "bearish_sample_044",
+      "chronological_index": 7,
+      "state_id": "bearish_sample_044_state_007",
+      "time_spot": "2025-02-24",
+      "reference_session": "2025-02-24",
+      "question": "Session summary for February 24, 2025: ACN opened $360.81, ranged $357.49-$363.30, closed $360.31. Volume 2.8M (0.99x 20-day avg). 20-day $379.91 | 50-day $363.08. 5-day return -6.21%. ATR-14 $8.01. RSI 32.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2025-02-24",
+        "open": 360.81,
+        "high": 363.3,
+        "low": 357.49,
+        "close": 360.31,
+        "volume": 2755800,
+        "ma20": 379.91,
+        "ma50": 363.08,
+        "volume_vs_20d": 0.99,
+        "atr14": 8.01,
+        "chg_5d_pct": -6.21
+      },
+      "weekly_snapshot": {
+        "ticker": "ACN",
+        "week_start": "2025-02-24",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 32.9,
+        "price_vs_sma50": 0.992,
+        "notes": "ADX 50.6, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACN_2025-02-13_bearish_sample_044_008",
+      "scenario_id": "ACN_2025-02-13",
+      "window_type": "bearish_sample_044",
+      "chronological_index": 8,
+      "state_id": "bearish_sample_044_state_008",
+      "time_spot": "2025-02-25",
+      "reference_session": "2025-02-25",
+      "question": "Session summary for February 25, 2025: ACN opened $357.51, ranged $355.95-$361.97, closed $359.36. Volume 1.9M (0.72x 20-day avg). 20-day $379.41 | 50-day $363.11. 5-day return -6.35%. ATR-14 $7.59. RSI 24.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2025-02-25",
+        "open": 357.51,
+        "high": 361.97,
+        "low": 355.95,
+        "close": 359.36,
+        "volume": 1947600,
+        "ma20": 379.41,
+        "ma50": 363.11,
+        "volume_vs_20d": 0.72,
+        "atr14": 7.59,
+        "chg_5d_pct": -6.35
+      },
+      "weekly_snapshot": {
+        "ticker": "ACN",
+        "week_start": "2025-02-24",
+        "trend_regime": "rangebound",
+        "volatility_regime": "moderate",
+        "rsi_14": 24.7,
+        "price_vs_sma50": 0.99,
+        "notes": "ADX 49.7, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACN_2025-02-13_bearish_sample_044_009",
+      "scenario_id": "ACN_2025-02-13",
+      "window_type": "bearish_sample_044",
+      "chronological_index": 9,
+      "state_id": "bearish_sample_044_state_009",
+      "time_spot": "2025-02-26",
+      "reference_session": "2025-02-26",
+      "question": "Session summary for February 26, 2025: ACN opened $359.11, ranged $353.33-$359.42, closed $354.81. Volume 2.3M (0.87x 20-day avg). 20-day $378.42 | 50-day $363.04. 5-day return -8.17%. ATR-14 $7.47. RSI 13.5. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2025-02-26",
+        "open": 359.11,
+        "high": 359.42,
+        "low": 353.33,
+        "close": 354.81,
+        "volume": 2267500,
+        "ma20": 378.42,
+        "ma50": 363.04,
+        "volume_vs_20d": 0.87,
+        "atr14": 7.47,
+        "chg_5d_pct": -8.17
+      },
+      "weekly_snapshot": {
+        "ticker": "ACN",
+        "week_start": "2025-02-24",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 13.5,
+        "price_vs_sma50": 0.977,
+        "notes": "ADX 50.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACN_2025-02-13_bearish_sample_044_010",
+      "scenario_id": "ACN_2025-02-13",
+      "window_type": "bearish_sample_044",
+      "chronological_index": 10,
+      "state_id": "bearish_sample_044_state_010",
+      "time_spot": "2025-02-27",
+      "reference_session": "2025-02-27",
+      "question": "Session summary for February 27, 2025: ACN opened $354.51, ranged $351.86-$358.04, closed $353.34. Volume 2.7M (1.04x 20-day avg). 20-day $377.55 | 50-day $363.00. 5-day return -7.27%. ATR-14 $7.04. RSI 16.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2025-02-27",
+        "open": 354.51,
+        "high": 358.04,
+        "low": 351.86,
+        "close": 353.34,
+        "volume": 2735400,
+        "ma20": 377.55,
+        "ma50": 363.0,
+        "volume_vs_20d": 1.04,
+        "atr14": 7.04,
+        "chg_5d_pct": -7.27
+      },
+      "weekly_snapshot": {
+        "ticker": "ACN",
+        "week_start": "2025-02-24",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 16.3,
+        "price_vs_sma50": 0.973,
+        "notes": "ADX 51.8, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACN_2025-02-13_bearish_sample_044_011",
+      "scenario_id": "ACN_2025-02-13",
+      "window_type": "bearish_sample_044",
+      "chronological_index": 11,
+      "state_id": "bearish_sample_044_state_011",
+      "time_spot": "2025-02-28",
+      "reference_session": "2025-02-28",
+      "question": "Session summary for February 28, 2025: ACN opened $353.62, ranged $339.02-$355.59, closed $345.05. Volume 5.8M (2.06x 20-day avg). 20-day $375.95 | 50-day $362.83. 5-day return -4.33%. ATR-14 $7.86. RSI 14.1. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2025-02-28",
+        "open": 353.62,
+        "high": 355.59,
+        "low": 339.02,
+        "close": 345.05,
+        "volume": 5768000,
+        "ma20": 375.95,
+        "ma50": 362.83,
+        "volume_vs_20d": 2.06,
+        "atr14": 7.86,
+        "chg_5d_pct": -4.33
+      },
+      "weekly_snapshot": {
+        "ticker": "ACN",
+        "week_start": "2025-02-24",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 14.1,
+        "price_vs_sma50": 0.951,
+        "notes": "ADX 53.8, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACN_2025-02-13_bearish_sample_044_012",
+      "scenario_id": "ACN_2025-02-13",
+      "window_type": "bearish_sample_044",
+      "chronological_index": 12,
+      "state_id": "bearish_sample_044_state_012",
+      "time_spot": "2025-03-03",
+      "reference_session": "2025-03-03",
+      "question": "Session summary for March 03, 2025: ACN opened $345.97, ranged $339.62-$348.51, closed $341.58. Volume 3.0M (1.08x 20-day avg). 20-day $373.97 | 50-day $362.62. 5-day return -5.20%. ATR-14 $8.15. RSI 11.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2025-03-03",
+        "open": 345.97,
+        "high": 348.51,
+        "low": 339.62,
+        "close": 341.58,
+        "volume": 3011100,
+        "ma20": 373.97,
+        "ma50": 362.62,
+        "volume_vs_20d": 1.08,
+        "atr14": 8.15,
+        "chg_5d_pct": -5.2
+      },
+      "weekly_snapshot": {
+        "ticker": "ACN",
+        "week_start": "2025-03-03",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 11.8,
+        "price_vs_sma50": 0.942,
+        "notes": "ADX 55.0, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACN_2025-02-13_bearish_sample_044_013",
+      "scenario_id": "ACN_2025-02-13",
+      "window_type": "bearish_sample_044",
+      "chronological_index": 13,
+      "state_id": "bearish_sample_044_state_013",
+      "time_spot": "2025-03-04",
+      "reference_session": "2025-03-04",
+      "question": "Session summary for March 04, 2025: ACN opened $338.80, ranged $338.62-$345.79, closed $342.36. Volume 3.2M (1.12x 20-day avg). 20-day $372.02 | 50-day $362.42. 5-day return -4.73%. ATR-14 $8.21. RSI 7.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2025-03-04",
+        "open": 338.8,
+        "high": 345.79,
+        "low": 338.62,
+        "close": 342.36,
+        "volume": 3156300,
+        "ma20": 372.02,
+        "ma50": 362.42,
+        "volume_vs_20d": 1.12,
+        "atr14": 8.21,
+        "chg_5d_pct": -4.73
+      },
+      "weekly_snapshot": {
+        "ticker": "ACN",
+        "week_start": "2025-03-03",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 7.9,
+        "price_vs_sma50": 0.945,
+        "notes": "ADX 56.6, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACN_2025-02-13_bearish_sample_044_014",
+      "scenario_id": "ACN_2025-02-13",
+      "window_type": "bearish_sample_044",
+      "chronological_index": 14,
+      "state_id": "bearish_sample_044_state_014",
+      "time_spot": "2025-03-05",
+      "reference_session": "2025-03-05",
+      "question": "Session summary for March 05, 2025: ACN opened $341.81, ranged $340.06-$345.35, closed $344.82. Volume 2.6M (0.93x 20-day avg). 20-day $369.87 | 50-day $362.46. 5-day return -2.82%. ATR-14 $8.19. RSI 12.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2025-03-05",
+        "open": 341.81,
+        "high": 345.35,
+        "low": 340.06,
+        "close": 344.82,
+        "volume": 2578500,
+        "ma20": 369.87,
+        "ma50": 362.46,
+        "volume_vs_20d": 0.93,
+        "atr14": 8.19,
+        "chg_5d_pct": -2.82
+      },
+      "weekly_snapshot": {
+        "ticker": "ACN",
+        "week_start": "2025-03-03",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 12.3,
+        "price_vs_sma50": 0.951,
+        "notes": "ADX 58.6, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACN_2025-02-13_bearish_sample_044_015",
+      "scenario_id": "ACN_2025-02-13",
+      "window_type": "bearish_sample_044",
+      "chronological_index": 15,
+      "state_id": "bearish_sample_044_state_015",
+      "time_spot": "2025-03-06",
+      "reference_session": "2025-03-06",
+      "question": "Session summary for March 06, 2025: ACN opened $341.11, ranged $336.46-$343.67, closed $338.46. Volume 3.5M (1.25x 20-day avg). 20-day $367.08 | 50-day $361.89. 5-day return -4.21%. ATR-14 $8.35. RSI 10.0. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2025-03-06",
+        "open": 341.11,
+        "high": 343.67,
+        "low": 336.46,
+        "close": 338.46,
+        "volume": 3467600,
+        "ma20": 367.08,
+        "ma50": 361.89,
+        "volume_vs_20d": 1.25,
+        "atr14": 8.35,
+        "chg_5d_pct": -4.21
+      },
+      "weekly_snapshot": {
+        "ticker": "ACN",
+        "week_start": "2025-03-03",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 10.0,
+        "price_vs_sma50": 0.935,
+        "notes": "ADX 61.0, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACN_2025-02-13_bearish_sample_044_016",
+      "scenario_id": "ACN_2025-02-13",
+      "window_type": "bearish_sample_044",
+      "chronological_index": 16,
+      "state_id": "bearish_sample_044_state_016",
+      "time_spot": "2025-03-07",
+      "reference_session": "2025-03-07",
+      "question": "Session summary for March 07, 2025: ACN opened $335.65, ranged $332.59-$339.50, closed $338.80. Volume 4.5M (1.56x 20-day avg). 20-day $364.84 | 50-day $361.45. 5-day return -1.81%. ATR-14 $8.59. RSI 10.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2025-03-07",
+        "open": 335.65,
+        "high": 339.5,
+        "low": 332.59,
+        "close": 338.8,
+        "volume": 4459900,
+        "ma20": 364.84,
+        "ma50": 361.45,
+        "volume_vs_20d": 1.56,
+        "atr14": 8.59,
+        "chg_5d_pct": -1.81
+      },
+      "weekly_snapshot": {
+        "ticker": "ACN",
+        "week_start": "2025-03-03",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 10.7,
+        "price_vs_sma50": 0.937,
+        "notes": "ADX 64.2, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACN_2025-02-13_bearish_sample_044_017",
+      "scenario_id": "ACN_2025-02-13",
+      "window_type": "bearish_sample_044",
+      "chronological_index": 17,
+      "state_id": "bearish_sample_044_state_017",
+      "time_spot": "2025-03-10",
+      "reference_session": "2025-03-10",
+      "question": "Session summary for March 10, 2025: ACN opened $335.54, ranged $329.24-$336.54, closed $331.99. Volume 3.5M (1.19x 20-day avg). 20-day $362.34 | 50-day $361.01. 5-day return -2.81%. ATR-14 $8.64. RSI 9.7. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2025-03-10",
+        "open": 335.54,
+        "high": 336.54,
+        "low": 329.24,
+        "close": 331.99,
+        "volume": 3454700,
+        "ma20": 362.34,
+        "ma50": 361.01,
+        "volume_vs_20d": 1.19,
+        "atr14": 8.64,
+        "chg_5d_pct": -2.81
+      },
+      "weekly_snapshot": {
+        "ticker": "ACN",
+        "week_start": "2025-03-10",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 9.7,
+        "price_vs_sma50": 0.92,
+        "notes": "ADX 70.3, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACN_2025-02-13_bearish_sample_044_018",
+      "scenario_id": "ACN_2025-02-13",
+      "window_type": "bearish_sample_044",
+      "chronological_index": 18,
+      "state_id": "bearish_sample_044_state_018",
+      "time_spot": "2025-03-11",
+      "reference_session": "2025-03-11",
+      "question": "Session summary for March 11, 2025: ACN opened $329.79, ranged $322.33-$331.12, closed $324.55. Volume 3.4M (1.13x 20-day avg). 20-day $359.41 | 50-day $360.37. 5-day return -5.20%. ATR-14 $8.79. RSI 5.2. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2025-03-11",
+        "open": 329.79,
+        "high": 331.12,
+        "low": 322.33,
+        "close": 324.55,
+        "volume": 3390000,
+        "ma20": 359.41,
+        "ma50": 360.37,
+        "volume_vs_20d": 1.13,
+        "atr14": 8.79,
+        "chg_5d_pct": -5.2
+      },
+      "weekly_snapshot": {
+        "ticker": "ACN",
+        "week_start": "2025-03-10",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 5.2,
+        "price_vs_sma50": 0.901,
+        "notes": "ADX 76.5, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACN_2025-02-13_bearish_sample_044_019",
+      "scenario_id": "ACN_2025-02-13",
+      "window_type": "bearish_sample_044",
+      "chronological_index": 19,
+      "state_id": "bearish_sample_044_state_019",
+      "time_spot": "2025-03-12",
+      "reference_session": "2025-03-12",
+      "question": "Session summary for March 12, 2025: ACN opened $325.25, ranged $319.70-$326.74, closed $321.12. Volume 3.1M (1.01x 20-day avg). 20-day $356.16 | 50-day $359.69. 5-day return -6.87%. ATR-14 $8.87. RSI 5.3. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2025-03-12",
+        "open": 325.25,
+        "high": 326.74,
+        "low": 319.7,
+        "close": 321.12,
+        "volume": 3086200,
+        "ma20": 356.16,
+        "ma50": 359.69,
+        "volume_vs_20d": 1.01,
+        "atr14": 8.87,
+        "chg_5d_pct": -6.87
+      },
+      "weekly_snapshot": {
+        "ticker": "ACN",
+        "week_start": "2025-03-10",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 5.3,
+        "price_vs_sma50": 0.893,
+        "notes": "ADX 83.5, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACN_2025-02-13_bearish_sample_044_020",
+      "scenario_id": "ACN_2025-02-13",
+      "window_type": "bearish_sample_044",
+      "chronological_index": 20,
+      "state_id": "bearish_sample_044_state_020",
+      "time_spot": "2025-03-13",
+      "reference_session": "2025-03-13",
+      "question": "Session summary for March 13, 2025: ACN opened $320.49, ranged $311.50-$320.49, closed $313.94. Volume 3.7M (1.18x 20-day avg). 20-day $352.61 | 50-day $358.94. 5-day return -7.25%. ATR-14 $8.08. RSI 6.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2025-03-13",
+        "open": 320.49,
+        "high": 320.49,
+        "low": 311.5,
+        "close": 313.94,
+        "volume": 3667400,
+        "ma20": 352.61,
+        "ma50": 358.94,
+        "volume_vs_20d": 1.18,
+        "atr14": 8.08,
+        "chg_5d_pct": -7.25
+      },
+      "weekly_snapshot": {
+        "ticker": "ACN",
+        "week_start": "2025-03-10",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 6.6,
+        "price_vs_sma50": 0.875,
+        "notes": "ADX 87.6, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACN_2025-02-13_bearish_sample_044_021",
+      "scenario_id": "ACN_2025-02-13",
+      "window_type": "bearish_sample_044",
+      "chronological_index": 21,
+      "state_id": "bearish_sample_044_state_021",
+      "time_spot": "2025-03-14",
+      "reference_session": "2025-03-14",
+      "question": "Session summary for March 14, 2025: ACN opened $313.28, ranged $311.18-$315.75, closed $315.67. Volume 4.1M (1.30x 20-day avg). 20-day $349.11 | 50-day $358.31. 5-day return -6.83%. ATR-14 $7.99. RSI 9.6. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2025-03-14",
+        "open": 313.28,
+        "high": 315.75,
+        "low": 311.18,
+        "close": 315.67,
+        "volume": 4086000,
+        "ma20": 349.11,
+        "ma50": 358.31,
+        "volume_vs_20d": 1.3,
+        "atr14": 7.99,
+        "chg_5d_pct": -6.83
+      },
+      "weekly_snapshot": {
+        "ticker": "ACN",
+        "week_start": "2025-03-10",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 9.6,
+        "price_vs_sma50": 0.881,
+        "notes": "ADX 91.6, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACN_2025-02-13_bearish_sample_044_022",
+      "scenario_id": "ACN_2025-02-13",
+      "window_type": "bearish_sample_044",
+      "chronological_index": 22,
+      "state_id": "bearish_sample_044_state_022",
+      "time_spot": "2025-03-17",
+      "reference_session": "2025-03-17",
+      "question": "Session summary for March 17, 2025: ACN opened $316.84, ranged $316.44-$323.50, closed $322.49. Volume 3.5M (1.09x 20-day avg). 20-day $346.02 | 50-day $357.82. 5-day return -2.86%. ATR-14 $8.12. RSI 19.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2025-03-17",
+        "open": 316.84,
+        "high": 323.5,
+        "low": 316.44,
+        "close": 322.49,
+        "volume": 3518100,
+        "ma20": 346.02,
+        "ma50": 357.82,
+        "volume_vs_20d": 1.09,
+        "atr14": 8.12,
+        "chg_5d_pct": -2.86
+      },
+      "weekly_snapshot": {
+        "ticker": "ACN",
+        "week_start": "2025-03-17",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 19.8,
+        "price_vs_sma50": 0.901,
+        "notes": "ADX 92.2, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACN_2025-02-13_bearish_sample_044_023",
+      "scenario_id": "ACN_2025-02-13",
+      "window_type": "bearish_sample_044",
+      "chronological_index": 23,
+      "state_id": "bearish_sample_044_state_023",
+      "time_spot": "2025-03-18",
+      "reference_session": "2025-03-18",
+      "question": "Session summary for March 18, 2025: ACN opened $320.44, ranged $316.33-$321.84, closed $320.87. Volume 2.8M (0.88x 20-day avg). 20-day $342.88 | 50-day $357.36. 5-day return -1.13%. ATR-14 $8.13. RSI 20.8. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2025-03-18",
+        "open": 320.44,
+        "high": 321.84,
+        "low": 316.33,
+        "close": 320.87,
+        "volume": 2811300,
+        "ma20": 342.88,
+        "ma50": 357.36,
+        "volume_vs_20d": 0.88,
+        "atr14": 8.13,
+        "chg_5d_pct": -1.13
+      },
+      "weekly_snapshot": {
+        "ticker": "ACN",
+        "week_start": "2025-03-17",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 20.8,
+        "price_vs_sma50": 0.898,
+        "notes": "ADX 91.0, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACN_2025-02-13_bearish_sample_044_024",
+      "scenario_id": "ACN_2025-02-13",
+      "window_type": "bearish_sample_044",
+      "chronological_index": 24,
+      "state_id": "bearish_sample_044_state_024",
+      "time_spot": "2025-03-19",
+      "reference_session": "2025-03-19",
+      "question": "Session summary for March 19, 2025: ACN opened $321.98, ranged $317.90-$323.50, closed $321.26. Volume 4.3M (1.30x 20-day avg). 20-day $339.62 | 50-day $356.81. 5-day return +0.04%. ATR-14 $8.09. RSI 21.9. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2025-03-19",
+        "open": 321.98,
+        "high": 323.5,
+        "low": 317.9,
+        "close": 321.26,
+        "volume": 4314100,
+        "ma20": 339.62,
+        "ma50": 356.81,
+        "volume_vs_20d": 1.3,
+        "atr14": 8.09,
+        "chg_5d_pct": 0.04
+      },
+      "weekly_snapshot": {
+        "ticker": "ACN",
+        "week_start": "2025-03-17",
+        "trend_regime": "downtrend",
+        "volatility_regime": "moderate",
+        "rsi_14": 21.9,
+        "price_vs_sma50": 0.9,
+        "notes": "ADX 89.4, MACD bearish"
+      }
+    },
+    {
+      "scenario_instance_id": "ACN_2025-02-13_bearish_sample_044_025",
+      "scenario_id": "ACN_2025-02-13",
+      "window_type": "bearish_sample_044",
+      "chronological_index": 25,
+      "state_id": "bearish_sample_044_state_025",
+      "time_spot": "2025-03-20",
+      "reference_session": "2025-03-20",
+      "question": "Session summary for March 20, 2025: ACN opened $293.22, ranged $288.63-$303.82, closed $297.94. Volume 10.7M (2.86x 20-day avg). 20-day $335.47 | 50-day $355.84. 5-day return -5.10%. ATR-14 $9.23. RSI 17.4. Operate within a $10k book capped at 2.5x gross leverage; select the target net exposure.",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Target +80% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "B",
+          "text": "Target +60% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "C",
+          "text": "Target +40% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "D",
+          "text": "Target +20% of allowable long exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "long",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "E",
+          "text": "Target -80% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.8
+          }
+        },
+        {
+          "label": "F",
+          "text": "Target -60% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.6
+          }
+        },
+        {
+          "label": "G",
+          "text": "Target -40% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.4
+          }
+        },
+        {
+          "label": "H",
+          "text": "Target -20% of allowable short exposure.",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "short",
+            "exposure_fraction": 0.2
+          }
+        },
+        {
+          "label": "I",
+          "text": "Hold current exposure (no rebalance).",
+          "order": {
+            "mode": "target_fraction",
+            "direction": "flat",
+            "exposure_fraction": 0.0
+          }
+        }
+      ],
+      "market_snapshot": {
+        "date": "2025-03-20",
+        "open": 293.22,
+        "high": 303.82,
+        "low": 288.63,
+        "close": 297.94,
+        "volume": 10699500,
+        "ma20": 335.47,
+        "ma50": 355.84,
+        "volume_vs_20d": 2.86,
+        "atr14": 9.23,
+        "chg_5d_pct": -5.1
+      },
+      "weekly_snapshot": {
+        "ticker": "ACN",
+        "week_start": "2025-03-17",
+        "trend_regime": "downtrend",
+        "volatility_regime": "high",
+        "rsi_14": 17.4,
+        "price_vs_sma50": 0.837,
+        "notes": "ADX 88.2, MACD bearish"
+      }
+    }
+  ]
+}
